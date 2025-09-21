@@ -1,0 +1,241 @@
+{
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "AI Company Researcher",
+      "description": "Company data from AI-powered research system",
+      "object_source_mappings": [
+        {
+          "id": "m1n2o3p4-q5r6-7890-1234-567890123456",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "website"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company websites as objects (normalized URLs)"
+        },
+        {
+          "id": "n2o3p4q5-r6s7-8901-2345-678901234567",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*"
+          ],
+          "key_mapping_type": "key",
+          "status": "mapped",
+          "description": "Extract company keys as object names"
+        },
+        {
+          "id": "p4q5r6s7-t8u9-0123-4567-890123456789",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company names as objects"
+        }
+      ],
+      "datapoint_source_mappings": [
+        {
+          "id": "y3z4a5b6-c7d8-9012-3456-789012345678",
+          "datapoint_id": "g7h8i9j0-k1l2-3456-0123-789012345678",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company name"
+        },
+        {
+          "id": "z4a5b6c7-d8e9-0123-4567-890123456789",
+          "datapoint_id": "h8i9j0k1-l2m3-4567-1234-890123456789",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "industry"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company industry"
+        },
+        {
+          "id": "093e9b94-c676-452f-93de-b952ed38c735",
+          "datapoint_id": "i9j0k1l2-m3n4-5678-2345-901234567890",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "employee_count"
+          ],
+          "key_mapping_type": "value",
+          "status": "recommendation",
+          "description": "Extract employee count"
+        },
+        {
+          "id": "ad3901aa-774d-4b57-8212-f6e2d47367d0",
+          "datapoint_id": "j0k1l2m3-n4o5-6789-3456-012345678901",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "founded_year"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company founding year"
+        },
+        {
+          "id": "c725dc12-4a0d-43cb-bcd4-a4242cc199b9",
+          "datapoint_id": "k1l2m3n4-o5p6-7890-4567-123456789012",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "financial",
+            "revenue"
+          ],
+          "key_mapping_type": "value",
+          "status": "recommendation",
+          "description": "Extract revenue from nested financial object"
+        },
+        {
+          "id": "1f57e6f0-2a74-4a68-adb2-998bb91f9dfb",
+          "datapoint_id": "l2m3n4o5-p6q7-8901-5678-234567890123",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "financial",
+            "funding"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract funding amount"
+        },
+        {
+          "id": "56a2e0d6-d373-4348-8371-0d1b087c413e",
+          "datapoint_id": "m3n4o5p6-q7r8-9012-6789-345678901234",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "financial",
+            "currency"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Extract currency"
+        },
+        {
+          "id": "87e993e1-6e7a-4b98-8eb4-9e25d7c03d84",
+          "datapoint_id": "n4o5p6q7-r8s9-0123-7890-456789012345",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "location",
+            "city"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Extract company city"
+        },
+        {
+          "id": "2bb690cc-0531-49a4-b882-1a3b7cb0fa45",
+          "datapoint_id": "o5p6q7r8-s9t0-1234-8901-567890123456",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "location",
+            "state"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company state"
+        },
+        {
+          "id": "2e0909bb-0f19-4937-aaf4-8fd84b45bf0f",
+          "datapoint_id": "p6q7r8s9-t0u1-2345-9012-678901234567",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "location",
+            "country"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company country"
+        },
+        {
+          "id": "6e13adbd-67eb-4c86-951b-64cf4dda757e",
+          "datapoint_id": "q7r8s9t0-u1v2-3456-0123-789012345678",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "technologies",
+            "0"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract first technology from array"
+        },
+        {
+          "id": "e679fd2d-fdc8-49d3-96fc-0943f0b9bc50",
+          "datapoint_id": "r8s9t0u1-v2w3-4567-1234-890123456789",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "status"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company status"
+        }
+      ]
+    }
+  ]
+}

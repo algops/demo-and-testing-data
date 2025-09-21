@@ -1,0 +1,40 @@
+{
+  "activities": [
+    {
+      "id": "act-001",
+      "name": "Lead Scoring",
+      "description": "Scores new leads based on engagement metrics, demographic data, and behavioral patterns.",
+      "type": "Enrichment"
+    },
+    {
+      "id": "act-002",
+      "name": "Data Validation",
+      "description": "Validates and cleanses incoming data to ensure accuracy and consistency.",
+      "type": "Processing"
+    },
+    {
+      "id": "act-003",
+      "name": "Customer Segmentation",
+      "description": "Automatically segments customers based on purchase history and engagement levels.",
+      "type": "Analysis"
+    },
+    {
+      "id": "act-004",
+      "name": "Anomaly Detection",
+      "description": "Identifies unusual patterns and potential issues in data streams.",
+      "type": "Monitoring"
+    },
+    {
+      "id": "act-005",
+      "name": "Report Generation",
+      "description": "Automatically generates and distributes periodic business reports.",
+      "type": "Reporting"
+    },
+    {
+      "id": "act-006",
+      "name": "Data Synchronization",
+      "description": "Keeps data synchronized across multiple systems and platforms.",
+      "type": "Processing"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "q7r8s9t0-u1v2-3456-0123-789012345678",
+  "name": "Event Attendance Prediction",
+  "description": "Predicts event attendance using LLM-powered event management system (inactive due to model issues)",
+  "type": "predict",
+  "object_type": "event",
+  "status": "inactive",
+  "verification_status": false,
+  "setup": {
+    "data": {
+      "event_management_source": {
+        "id": "t0u1v2w3-x4y5-6789-3456-012345678901",
+        "type": "source",
+        "destination": {
+          "target": {
+            "id": ["r8s9t0u1-v2w3-4567-1234-890123456789"]
+          }
+        }
+      },
+      "attendance_prediction_target": {
+        "id": "r8s9t0u1-v2w3-4567-1234-890123456789",
+        "type": "target",
+        "destination": {}
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 320,
+    "successful_requests": 180,
+    "failed_requests": 140,
+    "success_rate": 0.563,
+    "average_duration": 210.0,
+    "last_used_at": "2025-01-17T15:45:00.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-01T12:00:00.000Z",
+    "updated_at": "2025-01-17T15:45:00.000Z",
+    "workflows": [],
+    "recent_requests": [
+      {
+        "id": "s0t1u2v3-w4x5-6789-0123-456789012345",
+        "timestamp": "2025-01-17T15:45:00.000Z",
+        "status": "failed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "source": {
+    "id": "src-001",
+    "name": "Salesforce Integration",
+    "description": "Customer Relationship Management data with leads, contacts, and opportunities.",
+    "type": "API",
+    "status": "active",
+    "lastUpdated": "2024-01-15T10:30:00Z"
+  },
+  "configuration": {
+    "inference": {
+      "concurrency": 10,
+      "timeout": 30,
+      "headers": [
+        {
+          "type": "Authorization",
+          "value": "Bearer {{token}}"
+        },
+        {
+          "type": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    },
+    "customization": {
+      "level": "approval",
+      "allowUserGuardrails": false,
+      "allowUserUsecases": true,
+      "jsonInstructions": "Generate JSON structures that follow Salesforce API conventions with proper field naming and data types."
+    },
+    "delivery": {
+      "endpoint": "https://api.example.com/webhook",
+      "method": "POST",
+      "headers": {
+        "Authorization": "Bearer token",
+        "Content-Type": "application/json"
+      }
+    }
+  },
+  "guardrails": [
+    {
+      "id": "1",
+      "name": "Rate Limiting",
+      "description": "Control API request rates to prevent overload",
+      "type": "Performance",
+      "isActive": true,
+      "rules": {
+        "maxRequestsPerMinute": 100,
+        "burstLimit": 10
+      }
+    },
+    {
+      "id": "2",
+      "name": "Data Validation",
+      "description": "Validate input data format and structure",
+      "type": "Validation",
+      "isActive": false,
+      "rules": {
+        "requiredFields": ["email", "name"],
+        "dataTypes": {
+          "email": "email",
+          "name": "string"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "name": "Security Check",
+      "description": "Verify security credentials and permissions",
+      "type": "Security",
+      "isActive": true,
+      "rules": {
+        "requireAuth": true,
+        "allowedOrigins": ["https://app.example.com"]
+      }
+    }
+  ],
+  "usecases": [
+    {
+      "id": "1",
+      "name": "Customer Onboarding",
+      "description": "Automate the customer setup and welcome process",
+      "type": "Automation",
+      "isActive": true,
+      "triggers": ["new_customer", "signup_complete"],
+      "actions": ["send_welcome_email", "create_profile", "assign_rep"]
+    },
+    {
+      "id": "2",
+      "name": "Lead Analysis",
+      "description": "Analyze and score incoming leads",
+      "type": "Analytics",
+      "isActive": false,
+      "triggers": ["lead_created", "lead_updated"],
+      "actions": ["calculate_score", "assign_priority", "route_to_sales"]
+    },
+    {
+      "id": "3",
+      "name": "System Integration",
+      "description": "Connect and sync data with other systems",
+      "type": "Integration",
+      "isActive": true,
+      "triggers": ["data_sync", "scheduled_update"],
+      "actions": ["sync_contacts", "update_records", "send_notifications"]
+    }
+  ]
+}

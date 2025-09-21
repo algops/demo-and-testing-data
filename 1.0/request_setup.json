@@ -1,0 +1,30 @@
+{
+  "35167ee5-bfd9-4221-8d47-b78096bdd0ac": {
+    "name": "AI Company Researcher",
+    "request": {
+      "run_setup": {
+        "path": ["body"],
+        "status": "mapped"
+      },
+      "webhook_url": {
+        "path": ["webhook_url"],
+        "status": "issue"
+      },
+      "run_id": {
+        "path": ["id"],
+        "status": "remaining"
+      }
+    },
+    "response": {
+      "status": {
+        "path": ["status"],
+        "status": "mapped",
+        "translations": {
+          "ready": "completed",
+          "processing": "running",
+          "failed": "error"
+        }
+      }
+    }
+  }
+}

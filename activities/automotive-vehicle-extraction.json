@@ -1,0 +1,49 @@
+{
+  "id": "p6q7r8s9-t0u1-2345-9012-567890123456",
+  "name": "Automotive Vehicle Data Extraction",
+  "description": "Extracts vehicle data from automotive database with high failure rates due to data quality issues",
+  "type": "extract",
+  "object_type": "vehicle",
+  "status": "active",
+  "verification_status": false,
+  "setup": {
+    "data": {
+      "automotive_source": {
+        "id": "w3x4y5z6-a7b8-9012-4567-345678901234",
+        "type": "source",
+        "destination": {
+          "target": {
+            "id": ["q7r8s9t0-u1v2-3456-0123-789012345678"]
+          }
+        }
+      },
+      "vehicle_data_target": {
+        "id": "q7r8s9t0-u1v2-3456-0123-789012345678",
+        "type": "target",
+        "destination": {}
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 156,
+    "successful_requests": 45,
+    "failed_requests": 111,
+    "success_rate": 0.288,
+    "average_duration": 35.0,
+    "last_used_at": "2025-01-16T08:20:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2024-12-28T14:30:00.000Z",
+    "updated_at": "2025-01-16T08:20:45.000Z",
+    "workflows": [],
+    "recent_requests": [
+      {
+        "id": "r9s0t1u2-v3w4-5678-9012-345678901234",
+        "timestamp": "2025-01-16T08:20:45.000Z",
+        "status": "failed"
+      }
+    ]
+  }
+}

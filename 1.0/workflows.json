@@ -1,0 +1,34 @@
+{
+  "workflows": [
+    {
+      "id": "wf-001",
+      "name": "Customer Onboarding",
+      "description": "Automates the initial setup process for new customers including account creation and welcome sequences.",
+      "lastUpdated": "2023-06-28"
+    },
+    {
+      "id": "wf-002",
+      "name": "Lead Qualification",
+      "description": "Automatically scores and qualifies incoming leads based on engagement and demographic data.",
+      "lastUpdated": "2023-06-25"
+    },
+    {
+      "id": "wf-003",
+      "name": "Invoice Processing",
+      "description": "Streamlines invoice generation, approval workflows, and payment tracking.",
+      "lastUpdated": "2023-06-30"
+    },
+    {
+      "id": "wf-004",
+      "name": "Support Ticket Routing",
+      "description": "Automatically routes support tickets to appropriate teams based on category and priority.",
+      "lastUpdated": "2023-06-22"
+    },
+    {
+      "id": "wf-005",
+      "name": "Marketing Campaign Sync",
+      "description": "Synchronizes marketing campaign data across multiple platforms and channels.",
+      "lastUpdated": "2023-06-27"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "gr-001",
+      "name": "Data Quality Check",
+      "type": "validation",
+      "description": "Ensures data meets quality standards before processing",
+      "category": "Data Validation",
+      "severity": "high",
+      "tags": ["validation", "quality", "data-check"]
+    },
+    {
+      "id": "gr-002",
+      "name": "Rate Limiting",
+      "type": "performance",
+      "description": "Limits API calls to prevent system overload",
+      "category": "Performance",
+      "severity": "medium",
+      "tags": ["rate-limit", "performance", "api"]
+    },
+    {
+      "id": "gr-003",
+      "name": "Privacy Compliance",
+      "type": "compliance",
+      "description": "Ensures data handling meets privacy regulations",
+      "category": "Compliance",
+      "severity": "critical",
+      "tags": ["privacy", "compliance", "gdpr"]
+    },
+    {
+      "id": "gr-004",
+      "name": "Data Encryption",
+      "type": "security",
+      "description": "Encrypts sensitive data in transit and at rest",
+      "category": "Security",
+      "severity": "critical",
+      "tags": ["encryption", "security", "data-protection"]
+    },
+    {
+      "id": "gr-005",
+      "name": "Input Sanitization",
+      "type": "security",
+      "description": "Sanitizes user inputs to prevent injection attacks",
+      "category": "Security",
+      "severity": "high",
+      "tags": ["sanitization", "security", "input-validation"]
+    },
+    {
+      "id": "gr-006",
+      "name": "Backup Verification",
+      "type": "reliability",
+      "description": "Verifies data backups are complete and accessible",
+      "category": "Reliability",
+      "severity": "medium",
+      "tags": ["backup", "reliability", "data-protection"]
+    },
+    {
+      "id": "gr-007",
+      "name": "Error Handling",
+      "type": "robustness",
+      "description": "Graceful handling of system errors and exceptions",
+      "category": "Robustness",
+      "severity": "medium",
+      "tags": ["error-handling", "robustness", "exception"]
+    },
+    {
+      "id": "gr-008",
+      "name": "Audit Logging",
+      "type": "compliance",
+      "description": "Logs all data access and modifications for audit trails",
+      "category": "Compliance",
+      "severity": "high",
+      "tags": ["audit", "logging", "compliance"]
+    }
+  ],
+  "recommended": ["gr-001", "gr-004"]
+} 

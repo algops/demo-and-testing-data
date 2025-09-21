@@ -1,0 +1,110 @@
+{
+  "api_response": {
+    "status": "success",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "data": {
+      "people": {
+        "employees": [
+          {
+            "email": "john.doe@techcorp.com",
+            "name": "John Doe",
+            "role": "Senior Developer",
+            "department": "Engineering",
+            "salary": 120000,
+            "skills": ["JavaScript", "React", "Node.js"],
+            "contact": {
+              "phone": "+1-555-0123",
+              "linkedin": "linkedin.com/in/johndoe"
+            },
+            "experience_years": 8,
+            "education": "Computer Science, Stanford University"
+          },
+          {
+            "email": "jane.smith@techcorp.com",
+            "name": "Jane Smith",
+            "role": "Product Manager",
+            "department": "Product",
+            "salary": 110000,
+            "skills": ["Product Strategy", "Agile", "User Research"],
+            "contact": {
+              "phone": "+1-555-0124",
+              "linkedin": "linkedin.com/in/janesmith"
+            },
+            "experience_years": 6,
+            "education": "Business Administration, Harvard University"
+          },
+          {
+            "email": "mike.johnson@startupinc.com",
+            "name": "Mike Johnson",
+            "role": "Full Stack Developer",
+            "department": "Engineering",
+            "salary": 95000,
+            "skills": ["Vue.js", "Python", "MongoDB"],
+            "contact": {
+              "phone": "+1-555-0125",
+              "linkedin": "linkedin.com/in/mikejohnson"
+            },
+            "experience_years": 4,
+            "education": "Software Engineering, MIT"
+          },
+          {
+            "email": "sarah.wilson@enterprise-solutions.com",
+            "name": "Sarah Wilson",
+            "role": "Data Scientist",
+            "department": "Analytics",
+            "salary": 130000,
+            "skills": ["Python", "Machine Learning", "SQL"],
+            "contact": {
+              "phone": "+1-555-0126",
+              "linkedin": "linkedin.com/in/sarahwilson"
+            },
+            "experience_years": 7,
+            "education": "Data Science, Carnegie Mellon"
+          },
+          {
+            "email": "alex.chen@ai-innovations.ai",
+            "name": "Alex Chen",
+            "role": "AI Research Engineer",
+            "department": "Research",
+            "salary": 140000,
+            "skills": ["Python", "TensorFlow", "PyTorch"],
+            "contact": {
+              "phone": "+1-555-0127",
+              "linkedin": "linkedin.com/in/alexchen"
+            },
+            "experience_years": 5,
+            "education": "Computer Science, UC Berkeley"
+          }
+        ],
+        "contractors": {
+          "design_team": {
+            "email": "design@freelance.com",
+            "name": "Design Team",
+            "role": "UI/UX Designers",
+            "hourly_rate": 75,
+            "skills": ["Figma", "Adobe Creative Suite", "Prototyping"],
+            "contact": {
+              "phone": "+1-555-0128",
+              "website": "designfreelance.com"
+            },
+            "experience_years": 5,
+            "specialization": "Mobile App Design"
+          },
+          "marketing_consultant": {
+            "email": "marketing@consultant.com",
+            "name": "Marketing Consultant",
+            "role": "Digital Marketing Specialist",
+            "hourly_rate": 85,
+            "skills": ["SEO", "SEM", "Social Media"],
+            "contact": {
+              "phone": "+1-555-0129",
+              "website": "marketingconsultant.com"
+            },
+            "experience_years": 8,
+            "specialization": "B2B Marketing"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "w3x4y5z6-a7b8-9012-4567-345678901234",
+  "name": "Automotive Database",
+  "description": "Comprehensive automotive database with vehicle specifications, dealer information, and market data",
+  "source_type": "LLM",
+  "delivery_type": "Endpoint",
+  "configuration": {
+    "max_concurrent_runs": 2,
+    "timeout": 90,
+    "max_retries": 1,
+    "auth_key": "auto_db_key"
+  },
+  "templates": {
+    "run_request_template": "{\"url\": \"https://auto-db.internal/api/query\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {\"sql_query\": \"<<$run_setup>>\", \"webhook_url\": \"<<$webhook_url>>\", \"run_id\": \"<<$id>>\"}}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
+  },
+  "setup": {
+    "run_request_template": {
+      "request": {
+        "run_setup": ["body", "sql_query"],
+        "webhook_url": ["webhook_url"],
+        "run_id": ["run_id"]
+      },
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "invalid": "invalid",
+          "waiting": "waiting",
+          "in_progress": "in_progress",
+          "ready": "ready",
+          "done": "done",
+          "failed": "failed",
+          "timedout": "timedout"
+        }
+      }
+    },
+    "status_request_template": {},
+    "delivery_request_template": {}
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2024-12-28T14:30:00.000Z",
+    "updated_at": "2025-01-16T08:20:45.000Z",
+    "last_used_at": "2025-01-16T08:20:45.000Z",
+    "average_run_duration": 35,
+    "total_runs": 156,
+    "successful_runs": 142,
+    "failed_runs": 14,
+    "success_rate": 0.910,
+    "activities_count": 3,
+    "workflows_count": 1,
+    "activities": [
+      {
+        "id": "x4y5z6a7-b8c9-0123-5678-456789012345",
+        "name": "Vehicle Data Query"
+      }
+    ],
+    "workflows": [
+      {
+        "id": "y5z6a7b8-c9d0-1234-6789-567890123456",
+        "name": "Automotive Analytics Pipeline"
+      }
+    ]
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "ESG Agent",
+      "description": "ESG document analysis and compliance tracking system",
+      "object_source_mappings": [
+        {
+          "id": "doc-obj-1",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "doc_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document IDs as objects"
+        },
+        {
+          "id": "doc-obj-2",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "title"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document titles as objects"
+        },
+        {
+          "id": "batch-obj-1",
+          "object_type_id": "batch-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "batch_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract batch IDs as objects"
+        }
+      ],
+      "datapoint_source_mappings": [
+        {
+          "id": "doc-id-1",
+          "datapoint_id": "dp-doc-id",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "doc_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document ID"
+        },
+        {
+          "id": "doc-title-1",
+          "datapoint_id": "dp-doc-title",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "title"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document title"
+        },
+        {
+          "id": "doc-type-1",
+          "datapoint_id": "dp-doc-type",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "document_type"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document type"
+        },
+        {
+          "id": "doc-author-1",
+          "datapoint_id": "dp-doc-author",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "author"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document author"
+        },
+        {
+          "id": "doc-created-1",
+          "datapoint_id": "dp-doc-created",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "created"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract creation date"
+        },
+        {
+          "id": "doc-modified-1",
+          "datapoint_id": "dp-doc-modified",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "modified"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract modification date"
+        },
+        {
+          "id": "doc-size-1",
+          "datapoint_id": "dp-doc-size",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "file_size_bytes"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract file size"
+        },
+        {
+          "id": "doc-format-1",
+          "datapoint_id": "dp-doc-format",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "format"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract file format"
+        },
+        {
+          "id": "doc-access-1",
+          "datapoint_id": "dp-doc-access",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "classification",
+            "access_level"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract access level"
+        },
+        {
+          "id": "doc-department-1",
+          "datapoint_id": "dp-doc-department",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "classification",
+            "department"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract department"
+        },
+        {
+          "id": "doc-category-1",
+          "datapoint_id": "dp-doc-category",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "classification",
+            "esg_category"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract ESG category"
+        },
+        {
+          "id": "doc-compliance-1",
+          "datapoint_id": "dp-doc-compliance",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "classification",
+            "compliance_status"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract compliance status"
+        },
+        {
+          "id": "doc-certification-1",
+          "datapoint_id": "dp-doc-certification",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "classification",
+            "certification"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract certification"
+        },
+        {
+          "id": "doc-summary-1",
+          "datapoint_id": "dp-doc-summary",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "content",
+            "summary"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract content summary"
+        },
+        {
+          "id": "doc-carbon-1",
+          "datapoint_id": "dp-doc-carbon",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "content",
+            "key_metrics",
+            "carbon_emissions",
+            "scope_1"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract scope 1 carbon emissions"
+        },
+        {
+          "id": "doc-energy-1",
+          "datapoint_id": "dp-doc-energy",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "content",
+            "key_metrics",
+            "energy_consumption",
+            "renewable_percentage"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract renewable energy percentage"
+        },
+        {
+          "id": "doc-initiative-1",
+          "datapoint_id": "dp-doc-initiative",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "content",
+            "initiatives",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract initiatives"
+        },
+        {
+          "id": "doc-stakeholder-1",
+          "datapoint_id": "dp-doc-stakeholder",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "content",
+            "stakeholders",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract stakeholders"
+        },
+        {
+          "id": "doc-tag-1",
+          "datapoint_id": "dp-doc-tag",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "tags",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document tags"
+        },
+        {
+          "id": "repo-total-1",
+          "datapoint_id": "dp-repo-total",
+          "object_type_id": "repo-001",
+          "key_mapping": [
+            "esg_repository",
+            "total_documents"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract total documents count"
+        },
+        {
+          "id": "repo-status-1",
+          "datapoint_id": "dp-repo-status",
+          "object_type_id": "repo-001",
+          "key_mapping": [
+            "esg_repository",
+            "compliance_status"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract compliance status"
+        },
+        {
+          "id": "stats-coverage-1",
+          "datapoint_id": "dp-stats-coverage",
+          "object_type_id": "stats-001",
+          "key_mapping": [
+            "esg_repository",
+            "repository_stats",
+            "compliance_coverage",
+            "environmental"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract environmental compliance coverage"
+        },
+        {
+          "id": "doc-invalid-1",
+          "datapoint_id": "dp-doc-invalid",
+          "object_type_id": "doc-001",
+          "key_mapping": [
+            "esg_repository",
+            "document_batches",
+            "*",
+            "documents",
+            "*",
+            "nonexistent_field"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Invalid field mapping for testing"
+        },
+        {
+          "id": "doc-empty-1",
+          "datapoint_id": "dp-doc-empty",
+          "object_type_id": "doc-001",
+          "key_mapping": [],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Empty mapping for testing"
+        }
+      ]
+    }
+  ]
+}

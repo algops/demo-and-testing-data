@@ -1,0 +1,132 @@
+{
+  "catalog": {
+    "version": "2.1.0",
+    "last_updated": "2024-01-15T14:30:00Z",
+    "total_products": 150,
+    "categories": [
+      {
+        "category_id": "cat_electronics",
+        "name": "Electronics",
+        "product_count": 45,
+        "items": [
+          {
+            "sku": "ELEC-001",
+            "title": "iPhone 15 Pro",
+            "manufacturer": "Apple",
+            "price": {
+              "amount": 999.99,
+              "currency": "USD"
+            },
+            "inventory": {
+              "available": true,
+              "quantity": 25,
+              "warehouse": "SF-001"
+            },
+            "ratings": {
+              "average": 4.8,
+              "count": 1250
+            },
+            "specs": {
+              "storage": "128GB",
+              "color": "Natural Titanium",
+              "screen": "6.1 inches",
+              "battery": "23 hours"
+            },
+            "variants": [
+              {
+                "variant_id": "ELEC-001-128",
+                "storage": "128GB",
+                "color": "Natural Titanium",
+                "price": 999.99
+              },
+              {
+                "variant_id": "ELEC-001-256",
+                "storage": "256GB",
+                "color": "Natural Titanium",
+                "price": 1099.99
+              }
+            ],
+            "tags": ["smartphone", "apple", "premium"]
+          },
+          {
+            "sku": "ELEC-002",
+            "title": "Samsung Galaxy S24",
+            "manufacturer": "Samsung",
+            "price": {
+              "amount": 899.99,
+              "currency": "USD"
+            },
+            "inventory": {
+              "available": true,
+              "quantity": 18,
+              "warehouse": "SF-001"
+            },
+            "ratings": {
+              "average": 4.6,
+              "count": 890
+            },
+            "specs": {
+              "storage": "256GB",
+              "color": "Titanium Black",
+              "screen": "6.2 inches",
+              "battery": "20 hours"
+            },
+            "variants": [
+              {
+                "variant_id": "ELEC-002-256",
+                "storage": "256GB",
+                "color": "Titanium Black",
+                "price": 899.99
+              }
+            ],
+            "tags": ["smartphone", "samsung", "android"]
+          }
+        ]
+      },
+      {
+        "category_id": "cat_clothing",
+        "name": "Clothing",
+        "product_count": 75,
+        "items": [
+          {
+            "sku": "CLOTH-001",
+            "title": "Premium Cotton T-Shirt",
+            "manufacturer": "Fashion Co",
+            "price": {
+              "amount": 29.99,
+              "currency": "USD"
+            },
+            "inventory": {
+              "available": true,
+              "quantity": 100,
+              "warehouse": "NY-002"
+            },
+            "ratings": {
+              "average": 4.3,
+              "count": 450
+            },
+            "specs": {
+              "material": "100% Cotton",
+              "sizes": ["S", "M", "L", "XL"],
+              "colors": ["White", "Black", "Navy"]
+            },
+            "variants": [
+              {
+                "variant_id": "CLOTH-001-S-WHITE",
+                "size": "S",
+                "color": "White",
+                "price": 29.99
+              }
+            ],
+            "tags": ["clothing", "cotton", "casual"]
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "api_version": "v2",
+      "request_id": "req_12345",
+      "processing_time_ms": 45
+    }
+  }
+}

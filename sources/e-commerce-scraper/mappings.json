@@ -1,0 +1,390 @@
+{
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "E-commerce Scraper",
+      "description": "Product catalog data from e-commerce platforms",
+      "object_source_mappings": [
+        {
+          "id": "prod-obj-1",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "sku"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract product SKUs as objects"
+        },
+        {
+          "id": "prod-obj-2",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "title"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract product titles as objects"
+        },
+        {
+          "id": "cat-obj-1",
+          "object_type_id": "cat-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract category names as objects"
+        }
+      ],
+      "datapoint_source_mappings": [
+        {
+          "id": "prod-sku-1",
+          "datapoint_id": "dp-prod-sku",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "sku"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract product SKU"
+        },
+        {
+          "id": "prod-title-1",
+          "datapoint_id": "dp-prod-title",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "title"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract product title"
+        },
+        {
+          "id": "prod-manufacturer-1",
+          "datapoint_id": "dp-prod-manufacturer",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "manufacturer"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract manufacturer"
+        },
+        {
+          "id": "prod-price-1",
+          "datapoint_id": "dp-prod-price",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "price",
+            "amount"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract product price"
+        },
+        {
+          "id": "prod-currency-1",
+          "datapoint_id": "dp-prod-currency",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "price",
+            "currency"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract price currency"
+        },
+        {
+          "id": "prod-available-1",
+          "datapoint_id": "dp-prod-available",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "inventory",
+            "available"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract availability status"
+        },
+        {
+          "id": "prod-quantity-1",
+          "datapoint_id": "dp-prod-quantity",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "inventory",
+            "quantity"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract inventory quantity"
+        },
+        {
+          "id": "prod-rating-1",
+          "datapoint_id": "dp-prod-rating",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "ratings",
+            "average"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract average rating"
+        },
+        {
+          "id": "prod-reviews-1",
+          "datapoint_id": "dp-prod-reviews",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "ratings",
+            "count"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract review count"
+        },
+        {
+          "id": "prod-storage-1",
+          "datapoint_id": "dp-prod-storage",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "specs",
+            "storage"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract storage specification"
+        },
+        {
+          "id": "prod-color-1",
+          "datapoint_id": "dp-prod-color",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "specs",
+            "color"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract color specification"
+        },
+        {
+          "id": "prod-variant-1",
+          "datapoint_id": "dp-prod-variant",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "variants",
+            "*",
+            "variant_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract variant ID"
+        },
+        {
+          "id": "prod-tag-1",
+          "datapoint_id": "dp-prod-tag",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "tags",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract product tags"
+        },
+        {
+          "id": "cat-name-1",
+          "datapoint_id": "dp-cat-name",
+          "object_type_id": "cat-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract category name"
+        },
+        {
+          "id": "cat-count-1",
+          "datapoint_id": "dp-cat-count",
+          "object_type_id": "cat-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "product_count"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract category product count"
+        },
+        {
+          "id": "catalog-version-1",
+          "datapoint_id": "dp-catalog-version",
+          "object_type_id": "catalog-001",
+          "key_mapping": [
+            "catalog",
+            "version"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract catalog version"
+        },
+        {
+          "id": "catalog-total-1",
+          "datapoint_id": "dp-catalog-total",
+          "object_type_id": "catalog-001",
+          "key_mapping": [
+            "catalog",
+            "total_products"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract total products count"
+        },
+        {
+          "id": "catalog-updated-1",
+          "datapoint_id": "dp-catalog-updated",
+          "object_type_id": "catalog-001",
+          "key_mapping": [
+            "catalog",
+            "last_updated"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract last updated timestamp"
+        },
+        {
+          "id": "meta-request-1",
+          "datapoint_id": "dp-meta-request",
+          "object_type_id": "meta-001",
+          "key_mapping": [
+            "catalog",
+            "metadata",
+            "request_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract request ID"
+        },
+        {
+          "id": "meta-time-1",
+          "datapoint_id": "dp-meta-time",
+          "object_type_id": "meta-001",
+          "key_mapping": [
+            "catalog",
+            "metadata",
+            "processing_time_ms"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract processing time"
+        },
+        {
+          "id": "prod-invalid-1",
+          "datapoint_id": "dp-prod-invalid",
+          "object_type_id": "prod-001",
+          "key_mapping": [
+            "catalog",
+            "categories",
+            "*",
+            "items",
+            "*",
+            "nonexistent_field"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Invalid field mapping for testing"
+        },
+        {
+          "id": "prod-empty-1",
+          "datapoint_id": "dp-prod-empty",
+          "object_type_id": "prod-001",
+          "key_mapping": [],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Empty mapping for testing"
+        }
+      ]
+    }
+  ]
+}

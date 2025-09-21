@@ -1,0 +1,54 @@
+{
+  "id": "k1l2m3n4-o5p6-7890-5678-123456789012",
+  "name": "AI Company Research Model Training",
+  "description": "Trains machine learning model for company research and analysis using AI Company Researcher data",
+  "type": "train",
+  "object_type": "company",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "ai_company_source": {
+        "id": "i9j0k1l2-m3n4-5678-2345-901234567890",
+        "type": "source",
+        "destination": {
+          "target": {
+            "id": ["l2m3n4o5-p6q7-8901-5678-234567890123"]
+          }
+        }
+      },
+      "company_analysis_target": {
+        "id": "l2m3n4o5-p6q7-8901-5678-234567890123",
+        "type": "target",
+        "destination": {}
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 180,
+    "successful_requests": 108,
+    "failed_requests": 72,
+    "success_rate": 0.600,
+    "average_duration": 95.0,
+    "last_used_at": "2025-01-18T09:15:20.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-12T14:20:00.000Z",
+    "updated_at": "2025-01-18T09:15:20.000Z",
+    "workflows": [
+      {
+        "id": "m3n4o5p6-q7r8-9012-6789-345678901234",
+        "name": "Company Intelligence & Research"
+      }
+    ],
+    "recent_requests": [
+      {
+        "id": "r7s8t9u0-v1w2-3456-7890-123456789012",
+        "timestamp": "2025-01-18T09:15:20.000Z",
+        "status": "completed"
+      }
+    ]
+  }
+}

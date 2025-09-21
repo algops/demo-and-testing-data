@@ -1,0 +1,987 @@
+{
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "Automotive Database",
+      "description": "Vehicle specifications and inventory data from automotive database",
+      "object_source_mappings": [
+        {
+          "id": "veh-obj-1",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "vin"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle VINs as objects"
+        },
+        {
+          "id": "veh-obj-2",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "make"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle makes as objects"
+        },
+        {
+          "id": "dealer-obj-1",
+          "object_type_id": "dealer-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "dealer_info",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract dealer names as objects"
+        }
+      ],
+      "datapoint_source_mappings": [
+        {
+          "id": "veh-vin-1",
+          "datapoint_id": "dp-veh-vin",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "vin"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle VIN"
+        },
+        {
+          "id": "veh-make-1",
+          "datapoint_id": "dp-veh-make",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "make"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle make"
+        },
+        {
+          "id": "veh-model-1",
+          "datapoint_id": "dp-veh-model",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "model"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle model"
+        },
+        {
+          "id": "veh-year-1",
+          "datapoint_id": "dp-veh-year",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "year"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle year"
+        },
+        {
+          "id": "veh-trim-1",
+          "datapoint_id": "dp-veh-trim",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "trim"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle trim"
+        },
+        {
+          "id": "veh-body-1",
+          "datapoint_id": "dp-veh-body",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "body_style"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle body style"
+        },
+        {
+          "id": "veh-engine-type-1",
+          "datapoint_id": "dp-veh-engine-type",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "engine_specs",
+            "type"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract engine type"
+        },
+        {
+          "id": "veh-displacement-1",
+          "datapoint_id": "dp-veh-displacement",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "engine_specs",
+            "displacement"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract engine displacement"
+        },
+        {
+          "id": "veh-horsepower-1",
+          "datapoint_id": "dp-veh-horsepower",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "engine_specs",
+            "horsepower"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract engine horsepower"
+        },
+        {
+          "id": "veh-torque-1",
+          "datapoint_id": "dp-veh-torque",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "engine_specs",
+            "torque"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract engine torque"
+        },
+        {
+          "id": "veh-fuel-type-1",
+          "datapoint_id": "dp-veh-fuel-type",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "engine_specs",
+            "fuel_type"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract fuel type"
+        },
+        {
+          "id": "veh-transmission-1",
+          "datapoint_id": "dp-veh-transmission",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "engine_specs",
+            "transmission"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract transmission type"
+        },
+        {
+          "id": "veh-acceleration-1",
+          "datapoint_id": "dp-veh-acceleration",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "performance",
+            "acceleration_0_60"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract 0-60 acceleration time"
+        },
+        {
+          "id": "veh-top-speed-1",
+          "datapoint_id": "dp-veh-top-speed",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "performance",
+            "top_speed"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract top speed"
+        },
+        {
+          "id": "veh-mpg-city-1",
+          "datapoint_id": "dp-veh-mpg-city",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "performance",
+            "fuel_economy",
+            "city"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract city fuel economy"
+        },
+        {
+          "id": "veh-mpg-highway-1",
+          "datapoint_id": "dp-veh-mpg-highway",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "performance",
+            "fuel_economy",
+            "highway"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract highway fuel economy"
+        },
+        {
+          "id": "veh-mpg-combined-1",
+          "datapoint_id": "dp-veh-mpg-combined",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "performance",
+            "fuel_economy",
+            "combined"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract combined fuel economy"
+        },
+        {
+          "id": "veh-length-1",
+          "datapoint_id": "dp-veh-length",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "dimensions",
+            "length"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle length"
+        },
+        {
+          "id": "veh-width-1",
+          "datapoint_id": "dp-veh-width",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "dimensions",
+            "width"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle width"
+        },
+        {
+          "id": "veh-height-1",
+          "datapoint_id": "dp-veh-height",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "dimensions",
+            "height"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle height"
+        },
+        {
+          "id": "veh-wheelbase-1",
+          "datapoint_id": "dp-veh-wheelbase",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "dimensions",
+            "wheelbase"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract wheelbase"
+        },
+        {
+          "id": "veh-seating-1",
+          "datapoint_id": "dp-veh-seating",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "interior",
+            "seating_capacity"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract seating capacity"
+        },
+        {
+          "id": "veh-cargo-1",
+          "datapoint_id": "dp-veh-cargo",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "interior",
+            "cargo_volume"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract cargo volume"
+        },
+        {
+          "id": "veh-safety-rating-1",
+          "datapoint_id": "dp-veh-safety-rating",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "safety",
+            "nhtsa_rating"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract NHTSA safety rating"
+        },
+        {
+          "id": "veh-iihs-rating-1",
+          "datapoint_id": "dp-veh-iihs-rating",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "safety",
+            "iihs_rating"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract IIHS safety rating"
+        },
+        {
+          "id": "veh-safety-feature-1",
+          "datapoint_id": "dp-veh-safety-feature",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "safety",
+            "safety_features",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract safety features"
+        },
+        {
+          "id": "veh-airbags-1",
+          "datapoint_id": "dp-veh-airbags",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "safety",
+            "airbags"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract airbag count"
+        },
+        {
+          "id": "veh-infotainment-1",
+          "datapoint_id": "dp-veh-infotainment",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "technology",
+            "infotainment"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract infotainment system"
+        },
+        {
+          "id": "veh-screen-size-1",
+          "datapoint_id": "dp-veh-screen-size",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "technology",
+            "screen_size"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract infotainment screen size"
+        },
+        {
+          "id": "veh-carplay-1",
+          "datapoint_id": "dp-veh-carplay",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "technology",
+            "apple_carplay"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract Apple CarPlay availability"
+        },
+        {
+          "id": "veh-android-1",
+          "datapoint_id": "dp-veh-android",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "technology",
+            "android_auto"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract Android Auto availability"
+        },
+        {
+          "id": "veh-bluetooth-1",
+          "datapoint_id": "dp-veh-bluetooth",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "technology",
+            "bluetooth"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract Bluetooth availability"
+        },
+        {
+          "id": "veh-usb-1",
+          "datapoint_id": "dp-veh-usb",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "technology",
+            "usb_ports"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract USB port count"
+        },
+        {
+          "id": "veh-wireless-1",
+          "datapoint_id": "dp-veh-wireless",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "technology",
+            "wireless_charging"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract wireless charging availability"
+        },
+        {
+          "id": "veh-msrp-1",
+          "datapoint_id": "dp-veh-msrp",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "pricing",
+            "msrp"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract MSRP"
+        },
+        {
+          "id": "veh-invoice-1",
+          "datapoint_id": "dp-veh-invoice",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "pricing",
+            "invoice"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract invoice price"
+        },
+        {
+          "id": "veh-currency-1",
+          "datapoint_id": "dp-veh-currency",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "pricing",
+            "currency"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract price currency"
+        },
+        {
+          "id": "veh-incentives-1",
+          "datapoint_id": "dp-veh-incentives",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "pricing",
+            "dealer_incentives"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract dealer incentives"
+        },
+        {
+          "id": "veh-residual-1",
+          "datapoint_id": "dp-veh-residual",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "pricing",
+            "residual_value_36m"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract 36-month residual value"
+        },
+        {
+          "id": "veh-color-name-1",
+          "datapoint_id": "dp-veh-color-name",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "colors",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract color names"
+        },
+        {
+          "id": "veh-color-code-1",
+          "datapoint_id": "dp-veh-color-code",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "colors",
+            "*",
+            "code"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract color codes"
+        },
+        {
+          "id": "veh-color-price-1",
+          "datapoint_id": "dp-veh-color-price",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "colors",
+            "*",
+            "price"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract color prices"
+        },
+        {
+          "id": "veh-warranty-basic-1",
+          "datapoint_id": "dp-veh-warranty-basic",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "warranty",
+            "basic"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract basic warranty"
+        },
+        {
+          "id": "veh-warranty-powertrain-1",
+          "datapoint_id": "dp-veh-warranty-powertrain",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "warranty",
+            "powertrain"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract powertrain warranty"
+        },
+        {
+          "id": "veh-availability-1",
+          "datapoint_id": "dp-veh-availability",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "availability",
+            "status"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract availability status"
+        },
+        {
+          "id": "veh-dealer-count-1",
+          "datapoint_id": "dp-veh-dealer-count",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "availability",
+            "dealer_count"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract dealer count"
+        },
+        {
+          "id": "veh-delivery-1",
+          "datapoint_id": "dp-veh-delivery",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "availability",
+            "estimated_delivery"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract estimated delivery"
+        },
+        {
+          "id": "dealer-name-1",
+          "datapoint_id": "dp-dealer-name",
+          "object_type_id": "dealer-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "dealer_info",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract dealer name"
+        },
+        {
+          "id": "dealer-id-1",
+          "datapoint_id": "dp-dealer-id",
+          "object_type_id": "dealer-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "dealer_info",
+            "dealer_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract dealer ID"
+        },
+        {
+          "id": "dealer-phone-1",
+          "datapoint_id": "dp-dealer-phone",
+          "object_type_id": "dealer-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "dealer_info",
+            "phone"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract dealer phone"
+        },
+        {
+          "id": "dealer-email-1",
+          "datapoint_id": "dp-dealer-email",
+          "object_type_id": "dealer-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "dealer_info",
+            "email"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract dealer email"
+        },
+        {
+          "id": "dealer-website-1",
+          "datapoint_id": "dp-dealer-website",
+          "object_type_id": "dealer-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "dealer_info",
+            "website"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract dealer website"
+        },
+        {
+          "id": "veh-tag-1",
+          "datapoint_id": "dp-veh-tag",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "vehicle_tags",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract vehicle tags"
+        },
+        {
+          "id": "db-total-vehicles-1",
+          "datapoint_id": "dp-db-total-vehicles",
+          "object_type_id": "db-001",
+          "key_mapping": [
+            "vehicle_database",
+            "total_vehicles"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract total vehicles count"
+        },
+        {
+          "id": "db-status-1",
+          "datapoint_id": "dp-db-status",
+          "object_type_id": "db-001",
+          "key_mapping": [
+            "vehicle_database",
+            "database_status"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract database status"
+        },
+        {
+          "id": "metrics-total-makes-1",
+          "datapoint_id": "dp-metrics-total-makes",
+          "object_type_id": "metrics-001",
+          "key_mapping": [
+            "vehicle_database",
+            "database_metrics",
+            "total_makes"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract total makes count"
+        },
+        {
+          "id": "metrics-total-models-1",
+          "datapoint_id": "dp-metrics-total-models",
+          "object_type_id": "metrics-001",
+          "key_mapping": [
+            "vehicle_database",
+            "database_metrics",
+            "total_models"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract total models count"
+        },
+        {
+          "id": "metrics-avg-price-1",
+          "datapoint_id": "dp-metrics-avg-price",
+          "object_type_id": "metrics-001",
+          "key_mapping": [
+            "vehicle_database",
+            "database_metrics",
+            "average_price"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract average price"
+        },
+        {
+          "id": "metrics-popular-make-1",
+          "datapoint_id": "dp-metrics-popular-make",
+          "object_type_id": "metrics-001",
+          "key_mapping": [
+            "vehicle_database",
+            "database_metrics",
+            "most_popular_make"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract most popular make"
+        },
+        {
+          "id": "metrics-popular-model-1",
+          "datapoint_id": "dp-metrics-popular-model",
+          "object_type_id": "metrics-001",
+          "key_mapping": [
+            "vehicle_database",
+            "database_metrics",
+            "most_popular_model"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract most popular model"
+        },
+        {
+          "id": "metrics-fuel-efficiency-1",
+          "datapoint_id": "dp-metrics-fuel-efficiency",
+          "object_type_id": "metrics-001",
+          "key_mapping": [
+            "vehicle_database",
+            "database_metrics",
+            "fuel_efficiency_avg"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract average fuel efficiency"
+        },
+        {
+          "id": "metrics-safety-avg-1",
+          "datapoint_id": "dp-metrics-safety-avg",
+          "object_type_id": "metrics-001",
+          "key_mapping": [
+            "vehicle_database",
+            "database_metrics",
+            "safety_rating_avg"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract average safety rating"
+        },
+        {
+          "id": "veh-invalid-1",
+          "datapoint_id": "dp-veh-invalid",
+          "object_type_id": "veh-001",
+          "key_mapping": [
+            "vehicle_database",
+            "vehicle_records",
+            "*",
+            "nonexistent_field"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Invalid field mapping for testing"
+        },
+        {
+          "id": "veh-empty-1",
+          "datapoint_id": "dp-veh-empty",
+          "object_type_id": "veh-001",
+          "key_mapping": [],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Empty mapping for testing"
+        }
+      ]
+    }
+  ]
+}

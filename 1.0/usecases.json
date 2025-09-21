@@ -1,0 +1,95 @@
+{
+  "items": [
+    {
+      "id": "uc-001",
+      "name": "Customer Analytics",
+      "type": "analytics",
+      "description": "Analyze customer behavior and preferences for insights",
+      "category": "Analytics",
+      "complexity": "medium",
+      "tags": ["analytics", "customer", "insights"]
+    },
+    {
+      "id": "uc-002",
+      "name": "Data Integration",
+      "type": "integration",
+      "description": "Integrate data from multiple sources into unified view",
+      "category": "Data Operations",
+      "complexity": "high",
+      "tags": ["integration", "etl", "data-pipeline"]
+    },
+    {
+      "id": "uc-003",
+      "name": "Real-time Monitoring",
+      "type": "monitoring",
+      "description": "Monitor system performance and data quality in real-time",
+      "category": "Monitoring",
+      "complexity": "medium",
+      "tags": ["monitoring", "real-time", "performance"]
+    },
+    {
+      "id": "uc-004",
+      "name": "Automated Reporting",
+      "type": "reporting",
+      "description": "Generate automated reports and dashboards",
+      "category": "Reporting",
+      "complexity": "low",
+      "tags": ["reporting", "automation", "dashboards"]
+    },
+    {
+      "id": "uc-005",
+      "name": "Data Validation",
+      "type": "validation",
+      "description": "Validate data quality and integrity across systems",
+      "category": "Data Quality",
+      "complexity": "medium",
+      "tags": ["validation", "quality", "integrity"]
+    },
+    {
+      "id": "uc-006",
+      "name": "Predictive Modeling",
+      "type": "ml",
+      "description": "Build predictive models for business forecasting",
+      "category": "Machine Learning",
+      "complexity": "high",
+      "tags": ["ml", "prediction", "forecasting"]
+    },
+    {
+      "id": "uc-007",
+      "name": "Data Migration",
+      "type": "migration",
+      "description": "Migrate data between systems and platforms",
+      "category": "Data Operations",
+      "complexity": "high",
+      "tags": ["migration", "data-transfer", "platform"]
+    },
+    {
+      "id": "uc-008",
+      "name": "Compliance Reporting",
+      "type": "compliance",
+      "description": "Generate compliance reports for regulatory requirements",
+      "category": "Compliance",
+      "complexity": "medium",
+      "tags": ["compliance", "regulatory", "reporting"]
+    },
+    {
+      "id": "uc-009",
+      "name": "Data Archiving",
+      "type": "archiving",
+      "description": "Archive historical data for long-term storage",
+      "category": "Data Management",
+      "complexity": "low",
+      "tags": ["archiving", "storage", "historical"]
+    },
+    {
+      "id": "uc-010",
+      "name": "API Management",
+      "type": "api",
+      "description": "Manage and monitor API endpoints and usage",
+      "category": "Integration",
+      "complexity": "medium",
+      "tags": ["api", "management", "endpoints"]
+    }
+  ],
+  "recommended": ["uc-001", "uc-004"]
+} 

@@ -1,0 +1,58 @@
+{
+  "id": "m3n4o5p6-q7r8-9012-6789-345678901234",
+  "name": "Job Market Model Finetuning",
+  "description": "Fine-tunes the job market scraper model with new data to improve accuracy and performance",
+  "type": "finetune",
+  "object_type": "jobpost",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "job_market_source": {
+        "id": "n4o5p6q7-r8s9-0123-7890-456789012345",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["n4o5p6q7-r8s9-0123-7890-456789012345"]
+          }
+        }
+      },
+      "model_finetune_factor": {
+        "id": "n4o5p6q7-r8s9-0123-7890-456789012345",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["n4o5p6q7-r8s9-0123-7890-456789012345"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 45,
+    "successful_requests": 12,
+    "failed_requests": 33,
+    "success_rate": 0.267,
+    "average_duration": 420.0,
+    "last_used_at": "2025-01-19T10:45:30.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-05T16:30:00.000Z",
+    "updated_at": "2025-01-19T10:45:30.000Z",
+    "workflows": [
+      {
+        "id": "o5p6q7r8-s9t0-1234-7890-456789012345",
+        "name": "Job Market Intelligence"
+      }
+    ],
+    "recent_requests": [
+      {
+        "id": "r8s9t0u1-v2w3-4567-8901-234567890123",
+        "timestamp": "2025-01-19T10:45:30.000Z",
+        "status": "completed"
+      }
+    ]
+  }
+}

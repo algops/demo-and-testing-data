@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "id": "src-001",
+      "name": "Salesforce",
+      "description": "Customer Relationship Management data with leads, contacts, and opportunities.",
+      "type": "API"
+    },
+    {
+      "id": "src-002",
+      "name": "Google Analytics",
+      "description": "Website traffic and user behavior analytics data.",
+      "type": "API"
+    },
+    {
+      "id": "src-003",
+      "name": "Customer Database",
+      "description": "Internal customer information and transaction history.",
+      "type": "Database"
+    },
+    {
+      "id": "src-004",
+      "name": "Marketing Automation",
+      "description": "Email campaigns, lead nurturing, and marketing metrics.",
+      "type": "API"
+    },
+    {
+      "id": "src-005",
+      "name": "Support Tickets",
+      "description": "Customer support interactions and ticket resolution data.",
+      "type": "Database"
+    },
+    {
+      "id": "src-006",
+      "name": "Financial System",
+      "description": "Revenue, billing, and financial transaction records.",
+      "type": "Database"
+    }
+  ]
+}

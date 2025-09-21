@@ -1,0 +1,116 @@
+{
+  "organizations": [
+    {
+      "name": "Acme Inc",
+      "logo": "Command",
+      "plan": "Enterprise"
+    },
+    {
+      "name": "Monsters Inc",
+      "logo": "Building2",
+      "plan": "Team"
+    },
+    {
+      "name": "Startup LLC",
+      "logo": "Frame",
+      "plan": "Pro"
+    }
+  ],
+  "user": {
+    "name": "shadcn",
+    "email": "m@example.com",
+    "avatar": "/avatars/shadcn.jpg"
+  },
+  "navMain": [
+    {
+      "title": "Dashboard",
+      "url": "/dashboard",
+      "icon": "LayoutDashboard",
+      "isActive": true
+    },
+    {
+      "title": "Workflows",
+      "url": "/workflows",
+      "icon": "BookText"
+    },
+    {
+      "title": "Activities",
+      "url": "/activities",
+      "icon": "Lightbulb"
+    },
+    {
+      "title": "Data",
+      "url": "/data",
+      "icon": "Database"
+    },
+    {
+      "title": "Sources",
+      "url": "/sources",
+      "icon": "FileText"
+    },
+    {
+      "title": "Settings",
+      "url": "/settings",
+      "icon": "Settings"
+    }
+  ],
+  "navSecondary": [
+    {
+      "title": "Support",
+      "url": "#",
+      "icon": "LifeBuoy"
+    },
+    {
+      "title": "Feedback",
+      "url": "#",
+      "icon": "MessageSquare"
+    }
+  ],
+  "recent": [
+    {
+      "name": "Design Engineering",
+      "url": "#",
+      "icon": "Frame"
+    },
+    {
+      "name": "Sales & Marketing",
+      "url": "#",
+      "icon": "PieChart"
+    },
+    {
+      "name": "Travel",
+      "url": "#",
+      "icon": "Map"
+    }
+  ],
+  "pages": {
+    "dashboard": {
+      "title": "Dashboard",
+      "parent": null
+    },
+    "workflows": {
+      "title": "Workflows",
+      "parent": null
+    },
+    "activities": {
+      "title": "Activities",
+      "parent": null
+    },
+    "data": {
+      "title": "Data",
+      "parent": null
+    },
+    "sources": {
+      "title": "Sources",
+      "parent": null
+    },
+    "settings": {
+      "title": "Settings",
+      "parent": null
+    },
+    "account": {
+      "title": "Account",
+      "parent": null
+    }
+  }
+}

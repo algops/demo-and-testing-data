@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "ot-001",
+      "name": "Customer",
+      "type": "entity",
+      "description": "Customer entity with personal and contact information",
+      "category": "Business Entities",
+      "fields": ["id", "name", "email", "phone", "address"],
+      "tags": ["customer", "entity", "business"]
+    },
+    {
+      "id": "ot-002",
+      "name": "Order",
+      "type": "transaction",
+      "description": "Order transaction with items and payment information",
+      "category": "Transactions",
+      "fields": ["id", "customerId", "items", "total", "status", "date"],
+      "tags": ["order", "transaction", "business"]
+    },
+    {
+      "id": "ot-003",
+      "name": "Product",
+      "type": "catalog",
+      "description": "Product catalog item with specifications and pricing",
+      "category": "Catalog",
+      "fields": ["id", "name", "description", "price", "category", "inventory"],
+      "tags": ["product", "catalog", "inventory"]
+    },
+    {
+      "id": "ot-004",
+      "name": "User",
+      "type": "account",
+      "description": "System user account with authentication and permissions",
+      "category": "System",
+      "fields": ["id", "username", "email", "role", "permissions", "lastLogin"],
+      "tags": ["user", "account", "authentication"]
+    },
+    {
+      "id": "ot-005",
+      "name": "Invoice",
+      "type": "financial",
+      "description": "Financial invoice with billing details and payment terms",
+      "category": "Financial",
+      "fields": ["id", "customerId", "amount", "dueDate", "status", "items"],
+      "tags": ["invoice", "financial", "billing"]
+    },
+    {
+      "id": "ot-006",
+      "name": "Event",
+      "type": "activity",
+      "description": "System event or activity log entry",
+      "category": "System",
+      "fields": ["id", "type", "timestamp", "userId", "details", "severity"],
+      "tags": ["event", "activity", "logging"]
+    },
+    {
+      "id": "ot-007",
+      "name": "Organization",
+      "type": "entity",
+      "description": "Business organization with company information",
+      "category": "Business Entities",
+      "fields": ["id", "name", "industry", "size", "location", "website"],
+      "tags": ["organization", "company", "business"]
+    },
+    {
+      "id": "ot-008",
+      "name": "Document",
+      "type": "content",
+      "description": "Document or file with metadata and content",
+      "category": "Content",
+      "fields": ["id", "title", "type", "size", "createdBy", "createdAt"],
+      "tags": ["document", "file", "content"]
+    }
+  ],
+  "recommended": ["ot-001", "ot-002"]
+} 

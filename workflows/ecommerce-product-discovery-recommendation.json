@@ -1,0 +1,88 @@
+{
+  "id": "w1x2y3z4-a5b6-7890-5678-123456789012",
+  "name": "E-commerce Product Discovery & Recommendation",
+  "description": "Complete workflow for discovering products, enriching them with additional data, extracting categories, and predicting recommendations",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "source_products": {
+        "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 1,
+            "max_objects": 1000
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": ["b2c3d4e5-f6g7-8901-bcde-f23456789012"]
+          }
+        }
+      },
+      "enrich_products": {
+        "id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "max_objects": 1000
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": ["c3d4e5f6-g7h8-9012-cdef-345678901234", "d4e5f6g7-h8i9-0123-def0-456789012345"]
+          }
+        }
+      },
+      "extract_categories": {
+        "id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 3,
+            "max_objects": 500
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": ["d4e5f6g7-h8i9-0123-def0-456789012345"]
+          }
+        }
+      },
+      "predict_recommendations": {
+        "id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 4,
+            "max_objects": 100
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": []
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_executions": 45,
+    "successful_executions": 38,
+    "failed_executions": 7,
+    "success_rate": 0.844,
+    "average_duration": 446.2,
+    "last_used_at": "2025-01-20T14:45:30.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-15T10:30:00.000Z",
+    "updated_at": "2025-01-20T14:45:30.000Z",
+    "activities_count": 4,
+    "phases_count": 4,
+    "workflow_requests_count": 45
+  }
+}

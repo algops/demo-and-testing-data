@@ -1,0 +1,40 @@
+{
+  "metrics": [
+    {
+      "id": "requests",
+      "title": "Requests",
+      "description": "Total number of API requests",
+      "value": "1,245"
+    },
+    {
+      "id": "runs",
+      "title": "Runs",
+      "description": "Total number of workflow runs",
+      "value": "842"
+    },
+    {
+      "id": "objects",
+      "title": "Objects",
+      "description": "Total number of objects created",
+      "value": "3,568"
+    },
+    {
+      "id": "data",
+      "title": "Data",
+      "description": "Total number of data sources",
+      "value": "12,453"
+    }
+  ],
+  "usage": {
+    "title": "Platform Usage",
+    "categories": ["Design", "Marketing", "Engineering"],
+    "data": [
+      { "month": "Jan", "Design": 150, "Marketing": 100, "Engineering": 150 },
+      { "month": "Feb", "Design": 120, "Marketing": 80, "Engineering": 100 },
+      { "month": "Mar", "Design": 200, "Marketing": 150, "Engineering": 150 },
+      { "month": "Apr", "Design": 80, "Marketing": 70, "Engineering": 50 },
+      { "month": "May", "Design": 100, "Marketing": 100, "Engineering": 100 },
+      { "month": "Jun", "Design": 180, "Marketing": 120, "Engineering": 150 }
+    ]
+  }
+}

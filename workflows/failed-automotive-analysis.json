@@ -1,0 +1,58 @@
+{
+  "id": "t1u2v3w4-x5y6-7890-1234-567890123456",
+  "name": "Failed Automotive Market Analysis",
+  "description": "Automotive market analysis workflow with high failure rates due to data quality issues",
+  "status": "inactive",
+  "verification_status": false,
+  "setup": {
+    "data": {
+      "extract_vehicles": {
+        "id": "p6q7r8s9-t0u1-2345-9012-567890123456",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 1,
+            "max_objects": 200
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": ["u2v3w4x5-y6z7-8901-2345-678901234567"]
+          }
+        }
+      },
+      "analyze_market": {
+        "id": "u2v3w4x5-y6z7-8901-2345-678901234567",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "max_objects": 100
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": []
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_executions": 8,
+    "successful_executions": 2,
+    "failed_executions": 6,
+    "success_rate": 0.250,
+    "average_duration": 45.0,
+    "last_used_at": "2025-01-16T08:20:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2024-12-28T14:30:00.000Z",
+    "updated_at": "2025-01-16T08:20:45.000Z",
+    "activities_count": 2,
+    "phases_count": 2,
+    "workflow_requests_count": 8
+  }
+}

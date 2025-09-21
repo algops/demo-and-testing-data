@@ -1,0 +1,202 @@
+[
+  {
+    "document": "Q4 Financial Report 2023",
+    "data": {
+      "type": "Financial Report",
+      "category": "Finance",
+      "author": "David Kim",
+      "department": "Finance",
+      "fileSize": "2.4MB",
+      "format": "PDF",
+      "status": "approved",
+      "createdDate": "2024-01-15T10:30:00Z",
+      "lastModified": "2024-01-15T14:20:00Z",
+      "version": "1.2",
+      "tags": ["financial", "quarterly", "reports", "2023"],
+      "accessLevel": "executive",
+      "reviewers": ["Sarah Johnson", "Mike Chen"],
+      "expiryDate": "2025-01-15T00:00:00Z",
+      "compliance": "SOX"
+    }
+  },
+  {
+    "document": "Product Roadmap 2024",
+    "data": {
+      "type": "Strategic Plan",
+      "category": "Product",
+      "author": "Daniel Park",
+      "department": "Product",
+      "fileSize": "1.8MB",
+      "format": "PPTX",
+      "status": "draft",
+      "createdDate": "2024-01-14T16:45:00Z",
+      "lastModified": "2024-01-15T09:15:00Z",
+      "version": "0.8",
+      "tags": ["product", "roadmap", "strategy", "2024"],
+      "accessLevel": "management",
+      "reviewers": ["Linda Wang", "Alex Thompson"],
+      "expiryDate": "2024-12-31T00:00:00Z",
+      "compliance": "Internal"
+    }
+  },
+  {
+    "document": "Employee Handbook v3.0",
+    "data": {
+      "type": "Policy Document",
+      "category": "HR",
+      "author": "Rachel Cohen",
+      "department": "Human Resources",
+      "fileSize": "3.2MB",
+      "format": "PDF",
+      "status": "published",
+      "createdDate": "2024-01-10T11:30:00Z",
+      "lastModified": "2024-01-12T15:45:00Z",
+      "version": "3.0",
+      "tags": ["hr", "policy", "handbook", "employee"],
+      "accessLevel": "all",
+      "reviewers": ["Dr. James Miller", "Maria Garcia"],
+      "expiryDate": "2025-01-10T00:00:00Z",
+      "compliance": "Labor Law"
+    }
+  },
+  {
+    "document": "API Documentation v2.1",
+    "data": {
+      "type": "Technical Documentation",
+      "category": "Engineering",
+      "author": "John Smith",
+      "department": "Engineering",
+      "fileSize": "5.7MB",
+      "format": "MD",
+      "status": "published",
+      "createdDate": "2024-01-08T14:20:00Z",
+      "lastModified": "2024-01-15T08:00:00Z",
+      "version": "2.1",
+      "tags": ["api", "documentation", "technical", "developer"],
+      "accessLevel": "technical",
+      "reviewers": ["Sophie Turner", "Kevin Zhang"],
+      "expiryDate": "2024-07-08T00:00:00Z",
+      "compliance": "Internal"
+    }
+  },
+  {
+    "document": "Marketing Campaign Brief",
+    "data": {
+      "type": "Marketing Material",
+      "category": "Marketing",
+      "author": "Alex Thompson",
+      "department": "Marketing",
+      "fileSize": "890KB",
+      "format": "DOCX",
+      "status": "review",
+      "createdDate": "2024-01-13T09:30:00Z",
+      "lastModified": "2024-01-14T16:00:00Z",
+      "version": "1.0",
+      "tags": ["marketing", "campaign", "brief", "q1"],
+      "accessLevel": "marketing",
+      "reviewers": ["Jennifer Lee", "Carlos Martinez"],
+      "expiryDate": "2024-03-31T00:00:00Z",
+      "compliance": "Brand Guidelines"
+    }
+  },
+  {
+    "document": "Security Audit Report",
+    "data": {
+      "type": "Audit Report",
+      "category": "Security",
+      "author": "Rachel Cohen",
+      "department": "Security",
+      "fileSize": "4.1MB",
+      "format": "PDF",
+      "status": "confidential",
+      "createdDate": "2024-01-12T13:15:00Z",
+      "lastModified": "2024-01-14T10:30:00Z",
+      "version": "1.0",
+      "tags": ["security", "audit", "confidential", "compliance"],
+      "accessLevel": "security",
+      "reviewers": ["Dr. James Miller"],
+      "expiryDate": "2024-12-31T00:00:00Z",
+      "compliance": "SOC2"
+    }
+  },
+  {
+    "document": "Customer Feedback Analysis",
+    "data": {
+      "type": "Analytics Report",
+      "category": "Customer Success",
+      "author": "Carlos Martinez",
+      "department": "Customer Success",
+      "fileSize": "1.5MB",
+      "format": "XLSX",
+      "status": "published",
+      "createdDate": "2024-01-11T15:45:00Z",
+      "lastModified": "2024-01-13T11:15:00Z",
+      "version": "2.0",
+      "tags": ["customer", "feedback", "analytics", "q4"],
+      "accessLevel": "management",
+      "reviewers": ["Sofia Rodriguez", "Daniel Park"],
+      "expiryDate": "2024-06-30T00:00:00Z",
+      "compliance": "GDPR"
+    }
+  },
+  {
+    "document": "Data Privacy Policy",
+    "data": {
+      "type": "Legal Document",
+      "category": "Legal",
+      "author": "Jennifer Lee",
+      "department": "Legal",
+      "fileSize": "2.8MB",
+      "format": "PDF",
+      "status": "approved",
+      "createdDate": "2024-01-09T10:00:00Z",
+      "lastModified": "2024-01-14T14:20:00Z",
+      "version": "4.2",
+      "tags": ["legal", "privacy", "policy", "gdpr"],
+      "accessLevel": "all",
+      "reviewers": ["Dr. Patricia Brown", "Rachel Cohen"],
+      "expiryDate": "2025-01-09T00:00:00Z",
+      "compliance": "GDPR"
+    }
+  },
+  {
+    "document": "Project Timeline - Q1 2024",
+    "data": {
+      "type": "Project Plan",
+      "category": "Operations",
+      "author": "Maria Garcia",
+      "department": "Operations",
+      "fileSize": "1.2MB",
+      "format": "XLSX",
+      "status": "draft",
+      "createdDate": "2024-01-07T16:30:00Z",
+      "lastModified": "2024-01-15T07:30:00Z",
+      "version": "0.9",
+      "tags": ["project", "timeline", "q1", "operations"],
+      "accessLevel": "management",
+      "reviewers": ["Robert Wilson", "Daniel Park"],
+      "expiryDate": "2024-03-31T00:00:00Z",
+      "compliance": "Internal"
+    }
+  },
+  {
+    "document": "Technical Architecture Overview",
+    "data": {
+      "type": "Technical Documentation",
+      "category": "Engineering",
+      "author": "Sophie Turner",
+      "department": "Data Science",
+      "fileSize": "6.3MB",
+      "format": "PDF",
+      "status": "published",
+      "createdDate": "2024-01-06T12:45:00Z",
+      "lastModified": "2024-01-14T15:30:00Z",
+      "version": "1.5",
+      "tags": ["technical", "architecture", "documentation", "system"],
+      "accessLevel": "technical",
+      "reviewers": ["Dr. Amanda Foster", "John Smith"],
+      "expiryDate": "2024-12-31T00:00:00Z",
+      "compliance": "Internal"
+    }
+  }
+] 

@@ -1,0 +1,991 @@
+[
+  {
+    "company": "TechCorp Solutions",
+    "data": {
+      "type": "Technology",
+      "source": "Data Source 1",
+      "value": "$7M",
+      "status": "active",
+      "lastUpdated": "2025-07-30T08:35:56.058Z",
+      "objectCount": 1683,
+      "category": "SMB",
+      "priority": "critical",
+      "owner": "Owner 1",
+      "department": "Sales",
+      "dataQuality": 86,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Global Retail Inc",
+    "data": {
+      "type": "Retail",
+      "source": "Data Source 2",
+      "value": "$50M",
+      "status": "active",
+      "lastUpdated": "2025-07-11T13:35:18.950Z",
+      "objectCount": 252,
+      "category": "Enterprise",
+      "priority": "medium",
+      "owner": "Owner 2",
+      "department": "Sales",
+      "dataQuality": 80,
+      "refreshRate": "weekly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "HealthTech Innovations",
+    "data": {
+      "type": "Healthcare",
+      "source": "Data Source 3",
+      "value": "$34M",
+      "status": "active",
+      "lastUpdated": "2025-07-16T00:12:08.895Z",
+      "objectCount": 1275,
+      "category": "Mid-Market",
+      "priority": "low",
+      "owner": "Owner 3",
+      "department": "Sales",
+      "dataQuality": 96,
+      "refreshRate": "hourly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Financial Services Group",
+    "data": {
+      "type": "Finance",
+      "source": "Data Source 4",
+      "value": "$11M",
+      "status": "active",
+      "lastUpdated": "2025-07-30T14:40:43.659Z",
+      "objectCount": 1927,
+      "category": "Enterprise",
+      "priority": "medium",
+      "owner": "Owner 4",
+      "department": "Sales",
+      "dataQuality": 91,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "EduTech Learning",
+    "data": {
+      "type": "Education",
+      "source": "Data Source 5",
+      "value": "$34M",
+      "status": "active",
+      "lastUpdated": "2025-07-14T14:58:52.474Z",
+      "objectCount": 906,
+      "category": "Mid-Market",
+      "priority": "critical",
+      "owner": "Owner 5",
+      "department": "Sales",
+      "dataQuality": 80,
+      "refreshRate": "hourly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Cloud Infrastructure Pro",
+    "data": {
+      "type": "Manufacturing",
+      "source": "Data Source 6",
+      "value": "$50M",
+      "status": "active",
+      "lastUpdated": "2025-07-23T04:01:02.239Z",
+      "objectCount": 1405,
+      "category": "SMB",
+      "priority": "critical",
+      "owner": "Owner 6",
+      "department": "Sales",
+      "dataQuality": 81,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Manufacturing Dynamics",
+    "data": {
+      "type": "Marketing",
+      "source": "Data Source 7",
+      "value": "$30M",
+      "status": "active",
+      "lastUpdated": "2025-07-27T16:45:01.137Z",
+      "objectCount": 671,
+      "category": "Mid-Market",
+      "priority": "medium",
+      "owner": "Owner 7",
+      "department": "Sales",
+      "dataQuality": 88,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Digital Marketing Agency",
+    "data": {
+      "type": "Logistics",
+      "source": "Data Source 8",
+      "value": "$10M",
+      "status": "active",
+      "lastUpdated": "2025-07-14T00:32:33.960Z",
+      "objectCount": 475,
+      "category": "SMB",
+      "priority": "critical",
+      "owner": "Owner 8",
+      "department": "Sales",
+      "dataQuality": 89,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Logistics Solutions",
+    "data": {
+      "type": "Security",
+      "source": "Data Source 9",
+      "value": "$45M",
+      "status": "active",
+      "lastUpdated": "2025-07-30T21:34:20.440Z",
+      "objectCount": 962,
+      "category": "Enterprise",
+      "priority": "critical",
+      "owner": "Owner 9",
+      "department": "Sales",
+      "dataQuality": 80,
+      "refreshRate": "weekly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Cybersecurity Defense",
+    "data": {
+      "type": "Energy",
+      "source": "Data Source 10",
+      "value": "$37M",
+      "status": "active",
+      "lastUpdated": "2025-08-01T23:26:03.356Z",
+      "objectCount": 1353,
+      "category": "SMB",
+      "priority": "high",
+      "owner": "Owner 10",
+      "department": "Sales",
+      "dataQuality": 99,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "AI Research Labs",
+    "data": {
+      "type": "Legal",
+      "source": "Data Source 11",
+      "value": "$21M",
+      "status": "active",
+      "lastUpdated": "2025-07-27T16:06:04.484Z",
+      "objectCount": 197,
+      "category": "Enterprise",
+      "priority": "medium",
+      "owner": "Owner 11",
+      "department": "Sales",
+      "dataQuality": 92,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Green Energy Corp",
+    "data": {
+      "type": "Real Estate",
+      "source": "Data Source 12",
+      "value": "$26M",
+      "status": "active",
+      "lastUpdated": "2025-07-12T19:08:14.487Z",
+      "objectCount": 1491,
+      "category": "Enterprise",
+      "priority": "critical",
+      "owner": "Owner 12",
+      "department": "Sales",
+      "dataQuality": 96,
+      "refreshRate": "hourly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Legal Services Pro",
+    "data": {
+      "type": "Consulting",
+      "source": "Data Source 13",
+      "value": "$39M",
+      "status": "active",
+      "lastUpdated": "2025-07-19T16:59:28.368Z",
+      "objectCount": 1645,
+      "category": "Mid-Market",
+      "priority": "high",
+      "owner": "Owner 13",
+      "department": "Sales",
+      "dataQuality": 94,
+      "refreshRate": "weekly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Real Estate Ventures",
+    "data": {
+      "type": "Media",
+      "source": "Data Source 14",
+      "value": "$49M",
+      "status": "active",
+      "lastUpdated": "2025-07-22T22:04:47.728Z",
+      "objectCount": 1190,
+      "category": "SMB",
+      "priority": "low",
+      "owner": "Owner 14",
+      "department": "Sales",
+      "dataQuality": 88,
+      "refreshRate": "hourly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Consulting Partners",
+    "data": {
+      "type": "Pharmaceutical",
+      "source": "Data Source 15",
+      "value": "$25M",
+      "status": "active",
+      "lastUpdated": "2025-07-28T18:48:26.384Z",
+      "objectCount": 428,
+      "category": "SMB",
+      "priority": "critical",
+      "owner": "Owner 15",
+      "department": "Sales",
+      "dataQuality": 87,
+      "refreshRate": "weekly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Media Production Co",
+    "data": {
+      "type": "Automotive",
+      "source": "Data Source 16",
+      "value": "$29M",
+      "status": "active",
+      "lastUpdated": "2025-07-14T06:12:57.555Z",
+      "objectCount": 1154,
+      "category": "Mid-Market",
+      "priority": "critical",
+      "owner": "Owner 16",
+      "department": "Sales",
+      "dataQuality": 91,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Pharmaceutical Research",
+    "data": {
+      "type": "Food & Beverage",
+      "source": "Data Source 17",
+      "value": "$14M",
+      "status": "active",
+      "lastUpdated": "2025-07-06T12:53:41.392Z",
+      "objectCount": 1037,
+      "category": "Mid-Market",
+      "priority": "high",
+      "owner": "Owner 17",
+      "department": "Sales",
+      "dataQuality": 97,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Automotive Solutions",
+    "data": {
+      "type": "Telecommunications",
+      "source": "Data Source 18",
+      "value": "$24M",
+      "status": "active",
+      "lastUpdated": "2025-07-29T16:19:35.137Z",
+      "objectCount": 1276,
+      "category": "SMB",
+      "priority": "high",
+      "owner": "Owner 18",
+      "department": "Sales",
+      "dataQuality": 83,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Food & Beverage Corp",
+    "data": {
+      "type": "Aerospace",
+      "source": "Data Source 19",
+      "value": "$22M",
+      "status": "active",
+      "lastUpdated": "2025-07-19T15:34:27.173Z",
+      "objectCount": 1096,
+      "category": "Enterprise",
+      "priority": "critical",
+      "owner": "Owner 19",
+      "department": "Sales",
+      "dataQuality": 94,
+      "refreshRate": "weekly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Telecommunications Inc",
+    "data": {
+      "type": "Construction",
+      "source": "Data Source 20",
+      "value": "$35M",
+      "status": "active",
+      "lastUpdated": "2025-07-03T16:46:27.303Z",
+      "objectCount": 615,
+      "category": "SMB",
+      "priority": "low",
+      "owner": "Owner 20",
+      "department": "Sales",
+      "dataQuality": 99,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Aerospace Technologies",
+    "data": {
+      "type": "Insurance",
+      "source": "Data Source 21",
+      "value": "$45M",
+      "status": "active",
+      "lastUpdated": "2025-07-04T23:44:38.366Z",
+      "objectCount": 476,
+      "category": "SMB",
+      "priority": "high",
+      "owner": "Owner 21",
+      "department": "Sales",
+      "dataQuality": 86,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Construction Management",
+    "data": {
+      "type": "Hospitality",
+      "source": "Data Source 22",
+      "value": "$43M",
+      "status": "active",
+      "lastUpdated": "2025-07-29T18:35:45.557Z",
+      "objectCount": 1259,
+      "category": "Enterprise",
+      "priority": "critical",
+      "owner": "Owner 22",
+      "department": "Sales",
+      "dataQuality": 86,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Insurance Solutions",
+    "data": {
+      "type": "Gaming",
+      "source": "Data Source 23",
+      "value": "$32M",
+      "status": "active",
+      "lastUpdated": "2025-07-03T22:29:59.541Z",
+      "objectCount": 828,
+      "category": "Mid-Market",
+      "priority": "critical",
+      "owner": "Owner 23",
+      "department": "Sales",
+      "dataQuality": 81,
+      "refreshRate": "hourly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Hospitality Group",
+    "data": {
+      "type": "Fashion",
+      "source": "Data Source 24",
+      "value": "$47M",
+      "status": "active",
+      "lastUpdated": "2025-07-23T09:13:09.237Z",
+      "objectCount": 427,
+      "category": "Mid-Market",
+      "priority": "critical",
+      "owner": "Owner 24",
+      "department": "Sales",
+      "dataQuality": 81,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Gaming Entertainment",
+    "data": {
+      "type": "Sports",
+      "source": "Data Source 25",
+      "value": "$7M",
+      "status": "active",
+      "lastUpdated": "2025-07-05T03:04:57.782Z",
+      "objectCount": 1942,
+      "category": "Mid-Market",
+      "priority": "medium",
+      "owner": "Owner 25",
+      "department": "Sales",
+      "dataQuality": 83,
+      "refreshRate": "hourly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Fashion Retail",
+    "data": {
+      "type": "Music",
+      "source": "Data Source 26",
+      "value": "$14M",
+      "status": "active",
+      "lastUpdated": "2025-07-03T16:44:00.497Z",
+      "objectCount": 501,
+      "category": "Enterprise",
+      "priority": "high",
+      "owner": "Owner 26",
+      "department": "Sales",
+      "dataQuality": 85,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Sports Management",
+    "data": {
+      "type": "Pet Care",
+      "source": "Data Source 27",
+      "value": "$12M",
+      "status": "active",
+      "lastUpdated": "2025-07-08T10:35:16.929Z",
+      "objectCount": 331,
+      "category": "Enterprise",
+      "priority": "critical",
+      "owner": "Owner 27",
+      "department": "Sales",
+      "dataQuality": 86,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Music Production",
+    "data": {
+      "type": "Fitness",
+      "source": "Data Source 28",
+      "value": "$46M",
+      "status": "active",
+      "lastUpdated": "2025-07-26T21:02:11.022Z",
+      "objectCount": 991,
+      "category": "SMB",
+      "priority": "high",
+      "owner": "Owner 28",
+      "department": "Sales",
+      "dataQuality": 84,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Pet Care Services",
+    "data": {
+      "type": "Beauty",
+      "source": "Data Source 29",
+      "value": "$47M",
+      "status": "active",
+      "lastUpdated": "2025-08-01T12:10:44.352Z",
+      "objectCount": 1112,
+      "category": "SMB",
+      "priority": "high",
+      "owner": "Owner 29",
+      "department": "Sales",
+      "dataQuality": 90,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Fitness Technology",
+    "data": {
+      "type": "Home Improvement",
+      "source": "Data Source 30",
+      "value": "$4M",
+      "status": "active",
+      "lastUpdated": "2025-07-24T02:00:01.927Z",
+      "objectCount": 1073,
+      "category": "Enterprise",
+      "priority": "low",
+      "owner": "Owner 30",
+      "department": "Sales",
+      "dataQuality": 95,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Beauty & Cosmetics",
+    "data": {
+      "type": "Travel",
+      "source": "Data Source 31",
+      "value": "$26M",
+      "status": "active",
+      "lastUpdated": "2025-07-19T22:31:15.051Z",
+      "objectCount": 1894,
+      "category": "Enterprise",
+      "priority": "medium",
+      "owner": "Owner 31",
+      "department": "Sales",
+      "dataQuality": 81,
+      "refreshRate": "hourly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Home Improvement",
+    "data": {
+      "type": "Publishing",
+      "source": "Data Source 32",
+      "value": "$47M",
+      "status": "active",
+      "lastUpdated": "2025-08-01T05:53:29.936Z",
+      "objectCount": 605,
+      "category": "Enterprise",
+      "priority": "critical",
+      "owner": "Owner 32",
+      "department": "Sales",
+      "dataQuality": 95,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Travel & Tourism",
+    "data": {
+      "type": "Art",
+      "source": "Data Source 33",
+      "value": "$22M",
+      "status": "active",
+      "lastUpdated": "2025-07-05T21:19:40.969Z",
+      "objectCount": 857,
+      "category": "Enterprise",
+      "priority": "low",
+      "owner": "Owner 33",
+      "department": "Sales",
+      "dataQuality": 97,
+      "refreshRate": "weekly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Book Publishing",
+    "data": {
+      "type": "Beverage",
+      "source": "Data Source 34",
+      "value": "$22M",
+      "status": "active",
+      "lastUpdated": "2025-07-07T07:58:54.796Z",
+      "objectCount": 1029,
+      "category": "Enterprise",
+      "priority": "low",
+      "owner": "Owner 34",
+      "department": "Sales",
+      "dataQuality": 99,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Art Gallery",
+    "data": {
+      "type": "Jewelry",
+      "source": "Data Source 35",
+      "value": "$43M",
+      "status": "active",
+      "lastUpdated": "2025-08-01T21:53:43.633Z",
+      "objectCount": 1801,
+      "category": "Mid-Market",
+      "priority": "medium",
+      "owner": "Owner 35",
+      "department": "Sales",
+      "dataQuality": 86,
+      "refreshRate": "weekly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Wine & Spirits",
+    "data": {
+      "type": "Antiques",
+      "source": "Data Source 36",
+      "value": "$32M",
+      "status": "active",
+      "lastUpdated": "2025-07-05T10:42:09.463Z",
+      "objectCount": 1456,
+      "category": "Mid-Market",
+      "priority": "low",
+      "owner": "Owner 36",
+      "department": "Sales",
+      "dataQuality": 87,
+      "refreshRate": "hourly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Jewelry Design",
+    "data": {
+      "type": "Agriculture",
+      "source": "Data Source 37",
+      "value": "$13M",
+      "status": "active",
+      "lastUpdated": "2025-07-05T04:19:26.270Z",
+      "objectCount": 1155,
+      "category": "Enterprise",
+      "priority": "high",
+      "owner": "Owner 37",
+      "department": "Sales",
+      "dataQuality": 83,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Antique Collectibles",
+    "data": {
+      "type": "Energy",
+      "source": "Data Source 38",
+      "value": "$20M",
+      "status": "active",
+      "lastUpdated": "2025-07-24T16:20:32.592Z",
+      "objectCount": 1528,
+      "category": "Mid-Market",
+      "priority": "medium",
+      "owner": "Owner 38",
+      "department": "Sales",
+      "dataQuality": 88,
+      "refreshRate": "weekly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Organic Farming",
+    "data": {
+      "type": "Marine",
+      "source": "Data Source 39",
+      "value": "$29M",
+      "status": "active",
+      "lastUpdated": "2025-07-30T01:58:32.523Z",
+      "objectCount": 1430,
+      "category": "Enterprise",
+      "priority": "medium",
+      "owner": "Owner 39",
+      "department": "Sales",
+      "dataQuality": 93,
+      "refreshRate": "daily",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Solar Energy",
+    "data": {
+      "type": "Aviation",
+      "source": "Data Source 40",
+      "value": "$40M",
+      "status": "active",
+      "lastUpdated": "2025-07-11T22:50:58.081Z",
+      "objectCount": 394,
+      "category": "Mid-Market",
+      "priority": "low",
+      "owner": "Owner 40",
+      "department": "Sales",
+      "dataQuality": 92,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Marine Services",
+    "data": {
+      "type": "Mining",
+      "source": "Data Source 41",
+      "value": "$27M",
+      "status": "active",
+      "lastUpdated": "2025-07-28T03:36:48.211Z",
+      "objectCount": 1382,
+      "category": "Mid-Market",
+      "priority": "high",
+      "owner": "Owner 41",
+      "department": "Sales",
+      "dataQuality": 81,
+      "refreshRate": "real-time",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Aviation Services",
+    "data": {
+      "type": "Chemical",
+      "source": "Data Source 42",
+      "value": "$14M",
+      "status": "active",
+      "lastUpdated": "2025-07-18T23:07:12.811Z",
+      "objectCount": 2025,
+      "category": "Mid-Market",
+      "priority": "high",
+      "owner": "Owner 42",
+      "department": "Sales",
+      "dataQuality": 85,
+      "refreshRate": "weekly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  },
+  {
+    "company": "Mining Operations",
+    "data": {
+      "type": "Textile",
+      "source": "Data Source 43",
+      "value": "$5M",
+      "status": "active",
+      "lastUpdated": "2025-07-15T03:06:53.799Z",
+      "objectCount": 1192,
+      "category": "Enterprise",
+      "priority": "critical",
+      "owner": "Owner 43",
+      "department": "Sales",
+      "dataQuality": 82,
+      "refreshRate": "weekly",
+      "compliance": "GDPR",
+      "tags": [
+        "tag1",
+        "tag2",
+        "tag3"
+      ]
+    }
+  }
+]

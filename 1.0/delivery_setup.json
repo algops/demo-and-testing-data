@@ -1,0 +1,39 @@
+{
+  "35167ee5-bfd9-4221-8d47-b78096bdd0ac": {
+    "name": "AI Company Researcher",
+    "request": {
+      "run_external_id": {
+        "path": ["run_external_id"],
+        "status": "mapped"
+      },
+      "delivery_method": {
+        "path": ["method"],
+        "status": "remaining"
+      },
+      "priority": {
+        "path": ["priority"],
+        "status": "issue"
+      }
+    },
+    "response": {
+      "status": {
+        "path": ["status"],
+        "status": "mapped",
+        "translations": {
+          "ready": "completed",
+          "processing": "running",
+          "failed": "error"
+        }
+      },
+      "delivery_status": {
+        "path": ["delivery_status"],
+        "status": "remaining",
+        "translations": {
+          "sent": "delivered",
+          "pending": "waiting",
+          "failed": "error"
+        }
+      }
+    }
+  }
+}

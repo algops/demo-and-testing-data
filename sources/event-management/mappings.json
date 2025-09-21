@@ -1,0 +1,517 @@
+{
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "Event Management System",
+      "description": "Event data from comprehensive event management platform",
+      "object_source_mappings": [
+        {
+          "id": "event-obj-1",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "event_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract event IDs as objects"
+        },
+        {
+          "id": "event-obj-2",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "event_name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract event names as objects"
+        },
+        {
+          "id": "speaker-obj-1",
+          "object_type_id": "speaker-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "speakers",
+            "*",
+            "speaker_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract speaker IDs as objects"
+        },
+        {
+          "id": "venue-obj-1",
+          "object_type_id": "venue-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "venue",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract venue names as objects"
+        }
+      ],
+      "datapoint_source_mappings": [
+        {
+          "id": "event-id-1",
+          "datapoint_id": "dp-event-id",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "event_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract event ID"
+        },
+        {
+          "id": "event-name-1",
+          "datapoint_id": "dp-event-name",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "event_name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract event name"
+        },
+        {
+          "id": "event-type-1",
+          "datapoint_id": "dp-event-type",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "event_type"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract event type"
+        },
+        {
+          "id": "event-start-1",
+          "datapoint_id": "dp-event-start",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "schedule",
+            "start"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract event start time"
+        },
+        {
+          "id": "event-end-1",
+          "datapoint_id": "dp-event-end",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "schedule",
+            "end"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract event end time"
+        },
+        {
+          "id": "event-timezone-1",
+          "datapoint_id": "dp-event-timezone",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "schedule",
+            "timezone"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract event timezone"
+        },
+        {
+          "id": "venue-name-1",
+          "datapoint_id": "dp-venue-name",
+          "object_type_id": "venue-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "venue",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract venue name"
+        },
+        {
+          "id": "venue-city-1",
+          "datapoint_id": "dp-venue-city",
+          "object_type_id": "venue-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "venue",
+            "city"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract venue city"
+        },
+        {
+          "id": "venue-state-1",
+          "datapoint_id": "dp-venue-state",
+          "object_type_id": "venue-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "venue",
+            "state"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract venue state"
+        },
+        {
+          "id": "venue-lat-1",
+          "datapoint_id": "dp-venue-lat",
+          "object_type_id": "venue-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "venue",
+            "coordinates",
+            "lat"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract venue latitude"
+        },
+        {
+          "id": "venue-lng-1",
+          "datapoint_id": "dp-venue-lng",
+          "object_type_id": "venue-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "venue",
+            "coordinates",
+            "lng"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract venue longitude"
+        },
+        {
+          "id": "organizer-company-1",
+          "datapoint_id": "dp-organizer-company",
+          "object_type_id": "organizer-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "organizer",
+            "company"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract organizer company"
+        },
+        {
+          "id": "organizer-email-1",
+          "datapoint_id": "dp-organizer-email",
+          "object_type_id": "organizer-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "organizer",
+            "contact",
+            "email"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract organizer email"
+        },
+        {
+          "id": "capacity-max-1",
+          "datapoint_id": "dp-capacity-max",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "capacity",
+            "max_attendees"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract maximum capacity"
+        },
+        {
+          "id": "capacity-current-1",
+          "datapoint_id": "dp-capacity-current",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "capacity",
+            "current_registrations"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract current registrations"
+        },
+        {
+          "id": "pricing-regular-1",
+          "datapoint_id": "dp-pricing-regular",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "pricing",
+            "regular"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract regular pricing"
+        },
+        {
+          "id": "pricing-currency-1",
+          "datapoint_id": "dp-pricing-currency",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "pricing",
+            "currency"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract pricing currency"
+        },
+        {
+          "id": "speaker-name-1",
+          "datapoint_id": "dp-speaker-name",
+          "object_type_id": "speaker-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "speakers",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract speaker name"
+        },
+        {
+          "id": "speaker-title-1",
+          "datapoint_id": "dp-speaker-title",
+          "object_type_id": "speaker-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "speakers",
+            "*",
+            "title"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract speaker title"
+        },
+        {
+          "id": "speaker-company-1",
+          "datapoint_id": "dp-speaker-company",
+          "object_type_id": "speaker-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "speakers",
+            "*",
+            "company"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract speaker company"
+        },
+        {
+          "id": "track-1",
+          "datapoint_id": "dp-track",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "tracks",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract event tracks"
+        },
+        {
+          "id": "tag-1",
+          "datapoint_id": "dp-tag",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "tags",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract event tags"
+        },
+        {
+          "id": "system-total-1",
+          "datapoint_id": "dp-system-total",
+          "object_type_id": "system-001",
+          "key_mapping": [
+            "event_system",
+            "system_metrics",
+            "total_events"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract total events count"
+        },
+        {
+          "id": "system-revenue-1",
+          "datapoint_id": "dp-system-revenue",
+          "object_type_id": "system-001",
+          "key_mapping": [
+            "event_system",
+            "system_metrics",
+            "revenue_ytd"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract yearly revenue"
+        },
+        {
+          "id": "system-uptime-1",
+          "datapoint_id": "dp-system-uptime",
+          "object_type_id": "system-001",
+          "key_mapping": [
+            "event_system",
+            "system_metrics",
+            "uptime_percentage"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract system uptime"
+        },
+        {
+          "id": "event-invalid-1",
+          "datapoint_id": "dp-event-invalid",
+          "object_type_id": "event-001",
+          "key_mapping": [
+            "event_system",
+            "event_collections",
+            "*",
+            "events",
+            "*",
+            "nonexistent_field"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Invalid field mapping for testing"
+        },
+        {
+          "id": "event-empty-1",
+          "datapoint_id": "dp-event-empty",
+          "object_type_id": "event-001",
+          "key_mapping": [],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Empty mapping for testing"
+        }
+      ]
+    }
+  ]
+}

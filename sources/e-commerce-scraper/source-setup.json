@@ -1,0 +1,48 @@
+{
+  "0bd5ae95-75c0-4f54-945b-91299c0c7a0b": {
+    "name": "E-commerce Scraper",
+    "run_request_template": {
+      "request": {
+        "run_setup": ["body", "filters", "pagination"],
+        "webhook_url": ["webhook_url"],
+        "run_id": ["id"]
+      },
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "ready": "completed",
+          "processing": "running",
+          "failed": "error"
+        }
+      }
+    },
+    "status_request_template": {
+      "request": {
+        "run_external_id": ["url"],
+        "check_interval": ["interval"]
+      },
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "ready": "completed",
+          "processing": "running",
+          "failed": "error"
+        }
+      }
+    },
+    "delivery_request_template": {
+      "request": {
+        "run_external_id": ["url"],
+        "format": ["output_format"]
+      },
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "ready": "completed",
+          "processing": "running",
+          "failed": "error"
+        }
+      }
+    }
+  }
+}

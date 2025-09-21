@@ -1,0 +1,194 @@
+{
+  "event_system": {
+    "status": "operational",
+    "version": "3.2.1",
+    "generated_at": "2024-01-15T16:45:00Z",
+    "event_collections": {
+      "conferences": {
+        "total_events": 12,
+        "upcoming": 8,
+        "past": 4,
+        "events": [
+          {
+            "event_id": "EVT-2024-001",
+            "event_name": "Tech Innovation Summit 2024",
+            "event_type": "conference",
+            "schedule": {
+              "start": "2024-03-15T09:00:00Z",
+              "end": "2024-03-17T18:00:00Z",
+              "timezone": "PST",
+              "duration_hours": 57
+            },
+            "venue": {
+              "name": "Moscone Center",
+              "address": "747 Howard St, San Francisco, CA 94103",
+              "city": "San Francisco",
+              "state": "CA",
+              "country": "USA",
+              "coordinates": {
+                "lat": 37.7849,
+                "lng": -122.4094
+              }
+            },
+            "organizer": {
+              "company": "Tech Events Inc",
+              "contact": {
+                "email": "info@techevents.com",
+                "phone": "+1-555-0100"
+              }
+            },
+            "capacity": {
+              "max_attendees": 5000,
+              "current_registrations": 3200,
+              "remaining_spots": 1800
+            },
+            "pricing": {
+              "early_bird": 299.99,
+              "regular": 399.99,
+              "last_minute": 499.99,
+              "currency": "USD"
+            },
+            "speakers": [
+              {
+                "speaker_id": "SPK-001",
+                "name": "Dr. Sarah Johnson",
+                "title": "Chief Technology Officer",
+                "company": "InnovateTech",
+                "bio": "Leading AI researcher with 15 years experience",
+                "session": "AI Revolution in Business"
+              },
+              {
+                "speaker_id": "SPK-002",
+                "name": "Michael Chen",
+                "title": "VP of Engineering",
+                "company": "CloudScale",
+                "bio": "Expert in distributed systems and microservices",
+                "session": "Building Scalable Architectures"
+              }
+            ],
+            "tracks": ["AI/ML", "Cloud Computing", "Cybersecurity", "DevOps"],
+            "tags": ["technology", "innovation", "networking", "professional"]
+          },
+          {
+            "event_id": "EVT-2024-002",
+            "event_name": "Digital Marketing Conference",
+            "event_type": "conference",
+            "schedule": {
+              "start": "2024-04-20T08:30:00Z",
+              "end": "2024-04-22T17:00:00Z",
+              "timezone": "EST",
+              "duration_hours": 56.5
+            },
+            "venue": {
+              "name": "Javits Center",
+              "address": "429 11th Ave, New York, NY 10001",
+              "city": "New York",
+              "state": "NY",
+              "country": "USA",
+              "coordinates": {
+                "lat": 40.7505,
+                "lng": -74.0014
+              }
+            },
+            "organizer": {
+              "company": "Marketing Pro Events",
+              "contact": {
+                "email": "contact@marketingpro.com",
+                "phone": "+1-555-0200"
+              }
+            },
+            "capacity": {
+              "max_attendees": 3000,
+              "current_registrations": 2100,
+              "remaining_spots": 900
+            },
+            "pricing": {
+              "early_bird": 199.99,
+              "regular": 299.99,
+              "last_minute": 399.99,
+              "currency": "USD"
+            },
+            "speakers": [
+              {
+                "speaker_id": "SPK-003",
+                "name": "Lisa Rodriguez",
+                "title": "Head of Digital Strategy",
+                "company": "BrandMax",
+                "bio": "Digital marketing expert with focus on social media",
+                "session": "Social Media Mastery"
+              }
+            ],
+            "tracks": ["Social Media", "Content Marketing", "SEO", "Analytics"],
+            "tags": ["marketing", "digital", "social-media", "strategy"]
+          }
+        ]
+      },
+      "workshops": {
+        "total_events": 25,
+        "upcoming": 18,
+        "past": 7,
+        "events": [
+          {
+            "event_id": "WSH-2024-001",
+            "event_name": "React Development Workshop",
+            "event_type": "workshop",
+            "schedule": {
+              "start": "2024-02-10T10:00:00Z",
+              "end": "2024-02-10T16:00:00Z",
+              "timezone": "PST",
+              "duration_hours": 6
+            },
+            "venue": {
+              "name": "Tech Hub SF",
+              "address": "123 Mission St, San Francisco, CA 94105",
+              "city": "San Francisco",
+              "state": "CA",
+              "country": "USA",
+              "coordinates": {
+                "lat": 37.7749,
+                "lng": -122.4194
+              }
+            },
+            "organizer": {
+              "company": "Code Academy Pro",
+              "contact": {
+                "email": "workshops@codeacademy.com",
+                "phone": "+1-555-0300"
+              }
+            },
+            "capacity": {
+              "max_attendees": 50,
+              "current_registrations": 45,
+              "remaining_spots": 5
+            },
+            "pricing": {
+              "early_bird": 149.99,
+              "regular": 199.99,
+              "last_minute": 249.99,
+              "currency": "USD"
+            },
+            "instructor": {
+              "instructor_id": "INST-001",
+              "name": "Alex Thompson",
+              "title": "Senior Frontend Developer",
+              "company": "ReactExperts",
+              "bio": "React specialist with 8 years experience",
+              "expertise": ["React", "JavaScript", "TypeScript", "Node.js"]
+            },
+            "prerequisites": ["Basic JavaScript knowledge", "HTML/CSS experience"],
+            "materials": ["Laptop", "Node.js installed", "Git account"],
+            "tags": ["react", "javascript", "frontend", "hands-on"]
+          }
+        ]
+      }
+    },
+    "system_metrics": {
+      "total_events": 37,
+      "active_registrations": 5300,
+      "revenue_ytd": 1250000.00,
+      "currency": "USD",
+      "api_calls_today": 15420,
+      "uptime_percentage": 99.9
+    }
+  }
+}

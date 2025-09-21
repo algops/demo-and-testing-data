@@ -1,0 +1,90 @@
+[
+  {
+    "id": "org-001",
+    "name": "TechCorp Solutions",
+    "type": "technology",
+    "description": "Leading technology solutions provider",
+    "industry": "Technology",
+    "size": "500-1000",
+    "location": "San Francisco, CA",
+    "tags": ["technology", "solutions", "enterprise"],
+    "avatar": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "id": "org-002",
+    "name": "Global Retail Inc",
+    "type": "retail",
+    "description": "International retail chain with online presence",
+    "industry": "Retail",
+    "size": "1000+",
+    "location": "New York, NY",
+    "tags": ["retail", "ecommerce", "international"],
+    "avatar": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "id": "org-003",
+    "name": "HealthFirst Medical",
+    "type": "healthcare",
+    "description": "Healthcare provider with multiple facilities",
+    "industry": "Healthcare",
+    "size": "500-1000",
+    "location": "Boston, MA",
+    "tags": ["healthcare", "medical", "provider"],
+    "avatar": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "id": "org-004",
+    "name": "FinancePro Bank",
+    "type": "financial",
+    "description": "Regional banking institution with digital services",
+    "industry": "Financial Services",
+    "size": "1000+",
+    "location": "Chicago, IL",
+    "tags": ["banking", "financial", "digital"],
+    "avatar": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "id": "org-005",
+    "name": "EduTech Academy",
+    "type": "education",
+    "description": "Online education platform for professional development",
+    "industry": "Education",
+    "size": "100-500",
+    "location": "Austin, TX",
+    "tags": ["education", "online", "training"],
+    "avatar": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "id": "org-006",
+    "name": "GreenEnergy Co",
+    "type": "energy",
+    "description": "Renewable energy solutions and consulting",
+    "industry": "Energy",
+    "size": "100-500",
+    "location": "Denver, CO",
+    "tags": ["energy", "renewable", "sustainability"],
+    "avatar": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "id": "org-007",
+    "name": "LogisticsPlus",
+    "type": "logistics",
+    "description": "Supply chain and logistics management services",
+    "industry": "Logistics",
+    "size": "500-1000",
+    "location": "Atlanta, GA",
+    "tags": ["logistics", "supply-chain", "transportation"],
+    "avatar": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=100&h=100&fit=crop&crop=center"
+  },
+  {
+    "id": "org-008",
+    "name": "Creative Studios",
+    "type": "creative",
+    "description": "Digital marketing and creative design agency",
+    "industry": "Marketing",
+    "size": "50-100",
+    "location": "Los Angeles, CA",
+    "tags": ["creative", "marketing", "design"],
+    "avatar": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=100&h=100&fit=crop&crop=center"
+  }
+] 

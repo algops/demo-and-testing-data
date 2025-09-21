@@ -1,0 +1,54 @@
+{
+  "id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+  "name": "E-commerce Recommendation Prediction",
+  "description": "Predicts product recommendations based on enriched product data and category information",
+  "type": "predict",
+  "object_type": "product",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "ecommerce_source": {
+        "id": "q7r8s9t0-u1v2-3456-0123-789012345678",
+        "type": "source",
+        "destination": {
+          "target": {
+            "id": ["g7h8i9j0-k1l2-3456-0123-789012345678"]
+          }
+        }
+      },
+      "recommendation_target": {
+        "id": "g7h8i9j0-k1l2-3456-0123-789012345678",
+        "type": "target",
+        "destination": {}
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 156,
+    "successful_requests": 142,
+    "failed_requests": 14,
+    "success_rate": 0.910,
+    "average_duration": 35.0,
+    "last_used_at": "2025-01-16T08:20:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2024-12-28T14:30:00.000Z",
+    "updated_at": "2025-01-16T08:20:45.000Z",
+    "workflows": [
+      {
+        "id": "w1x2y3z4-a5b6-7890-5678-123456789012",
+        "name": "E-commerce Product Discovery & Recommendation"
+      }
+    ],
+    "recent_requests": [
+      {
+        "id": "r4s5t6u7-v8w9-0123-8901-456789012345",
+        "timestamp": "2025-01-16T08:20:45.000Z",
+        "status": "completed"
+      }
+    ]
+  }
+}

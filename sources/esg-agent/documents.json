@@ -1,0 +1,170 @@
+{
+  "esg_repository": {
+    "repository_id": "ESG-REPO-2024-001",
+    "last_sync": "2024-01-15T12:00:00Z",
+    "total_documents": 47,
+    "compliance_status": "active",
+    "document_batches": [
+      {
+        "batch_id": "BATCH-001",
+        "upload_date": "2024-01-10T09:30:00Z",
+        "document_count": 15,
+        "documents": [
+          {
+            "doc_id": "DOC-ESG-001",
+            "title": "2023 Sustainability Report",
+            "document_type": "annual_report",
+            "author": "ESG Team",
+            "created": "2024-01-05T14:20:00Z",
+            "modified": "2024-01-08T16:45:00Z",
+            "file_size_bytes": 2048576,
+            "format": "PDF",
+            "classification": {
+              "access_level": "public",
+              "department": "sustainability",
+              "esg_category": "environmental",
+              "compliance_status": "approved",
+              "certification": "GRI Standards"
+            },
+            "content": {
+              "summary": "Comprehensive sustainability report covering environmental initiatives, social impact, and governance practices for 2023",
+              "key_metrics": {
+                "carbon_emissions": {
+                  "scope_1": 1250.5,
+                  "scope_2": 3200.8,
+                  "scope_3": 8900.2,
+                  "unit": "tonnes CO2e"
+                },
+                "energy_consumption": {
+                  "renewable_percentage": 78.5,
+                  "total_consumption": 45000.0,
+                  "unit": "MWh"
+                },
+                "waste_reduction": {
+                  "recycling_rate": 92.3,
+                  "waste_generated": 125.8,
+                  "unit": "tonnes"
+                }
+              },
+              "initiatives": [
+                "Carbon Neutrality by 2030",
+                "100% Renewable Energy",
+                "Zero Waste to Landfill",
+                "Sustainable Supply Chain"
+              ],
+              "stakeholders": ["investors", "customers", "employees", "communities"]
+            },
+            "tags": ["sustainability", "environmental", "annual-report", "gri-standards"],
+            "related_docs": ["DOC-ESG-002", "DOC-ESG-003"]
+          },
+          {
+            "doc_id": "DOC-ESG-002",
+            "title": "Diversity & Inclusion Policy",
+            "document_type": "policy",
+            "author": "HR Department",
+            "created": "2024-01-03T10:15:00Z",
+            "modified": "2024-01-07T11:30:00Z",
+            "file_size_bytes": 512000,
+            "format": "PDF",
+            "classification": {
+              "access_level": "internal",
+              "department": "human_resources",
+              "esg_category": "social",
+              "compliance_status": "under_review",
+              "certification": "ISO 26000"
+            },
+            "content": {
+              "summary": "Comprehensive diversity and inclusion policy outlining company commitment to equitable practices",
+              "key_metrics": {
+                "workforce_diversity": {
+                  "gender_balance": 52.3,
+                  "ethnic_diversity": 68.7,
+                  "unit": "percentage"
+                },
+                "leadership_diversity": {
+                  "women_in_leadership": 45.2,
+                  "minority_representation": 38.9,
+                  "unit": "percentage"
+                }
+              },
+              "initiatives": [
+                "Unconscious Bias Training",
+                "Mentorship Programs",
+                "Equal Pay Audits",
+                "Inclusive Hiring Practices"
+              ],
+              "stakeholders": ["employees", "management", "board", "external_auditors"]
+            },
+            "tags": ["diversity", "inclusion", "policy", "social-impact"],
+            "related_docs": ["DOC-ESG-001", "DOC-ESG-004"]
+          }
+        ]
+      },
+      {
+        "batch_id": "BATCH-002",
+        "upload_date": "2024-01-12T15:20:00Z",
+        "document_count": 12,
+        "documents": [
+          {
+            "doc_id": "DOC-ESG-003",
+            "title": "Governance Framework",
+            "document_type": "framework",
+            "author": "Legal Team",
+            "created": "2024-01-09T13:45:00Z",
+            "modified": "2024-01-11T09:20:00Z",
+            "file_size_bytes": 768000,
+            "format": "PDF",
+            "classification": {
+              "access_level": "confidential",
+              "department": "legal",
+              "esg_category": "governance",
+              "compliance_status": "approved",
+              "certification": "SOX Compliance"
+            },
+            "content": {
+              "summary": "Corporate governance framework ensuring transparency, accountability, and ethical business practices",
+              "key_metrics": {
+                "board_independence": {
+                  "independent_directors": 75.0,
+                  "unit": "percentage"
+                },
+                "audit_frequency": {
+                  "internal_audits": 4,
+                  "external_audits": 1,
+                  "unit": "per_year"
+                }
+              },
+              "initiatives": [
+                "Board Diversity Requirements",
+                "Ethics Training Programs",
+                "Whistleblower Protection",
+                "Transparent Reporting"
+              ],
+              "stakeholders": ["board", "investors", "regulators", "auditors"]
+            },
+            "tags": ["governance", "compliance", "framework", "ethics"],
+            "related_docs": ["DOC-ESG-001", "DOC-ESG-005"]
+          }
+        ]
+      }
+    ],
+    "repository_stats": {
+      "total_size_mb": 125.6,
+      "documents_by_type": {
+        "annual_reports": 8,
+        "policies": 15,
+        "frameworks": 12,
+        "assessments": 7,
+        "certifications": 5
+      },
+      "compliance_coverage": {
+        "environmental": 95.2,
+        "social": 87.8,
+        "governance": 92.1,
+        "unit": "percentage"
+      },
+      "last_audit": "2024-01-01T00:00:00Z",
+      "next_audit": "2024-07-01T00:00:00Z"
+    }
+  }
+}

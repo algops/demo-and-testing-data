@@ -1,0 +1,67 @@
+{
+  "id": "n4o5p6q7-r8s9-0123-7890-456789012345",
+  "name": "Job Market Scraper",
+  "description": "ML-powered job market data scraper that extracts and analyzes job postings from multiple platforms",
+  "source_type": "ML model",
+  "delivery_type": "Endpoint",
+  "configuration": {
+    "max_concurrent_runs": 1,
+    "timeout": 600,
+    "max_retries": 0,
+    "auth_key": "job_scraper_api_key"
+  },
+  "templates": {
+    "run_request_template": "{\"url\": \"https://ml-scraper.internal/api/scrape\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\", \"Authorization\": \"Bearer <<$auth_key>>\"}, \"body\": {\"search_params\": \"<<$run_setup>>\", \"batch_size\": \"<<$max_objects>>\", \"callback\": \"<<$webhook_url>>\", \"job_id\": \"<<$id>>\"}}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
+  },
+  "setup": {
+    "run_request_template": {
+      "request": {
+        "run_setup": ["body", "search_params"],
+        "webhook_url": ["callback"],
+        "run_id": ["job_id"]
+      },
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "invalid": "invalid",
+          "waiting": "queued",
+          "in_progress": "scraping",
+          "ready": "ready",
+          "done": "completed",
+          "failed": "failed",
+          "timedout": "timeout"
+        }
+      }
+    },
+    "status_request_template": {},
+    "delivery_request_template": {}
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-05T16:30:00.000Z",
+    "updated_at": "2025-01-19T10:45:30.000Z",
+    "last_used_at": "2025-01-19T10:45:30.000Z",
+    "average_run_duration": 420,
+    "total_runs": 45,
+    "successful_runs": 12,
+    "failed_runs": 33,
+    "success_rate": 0.267,
+    "activities_count": 4,
+    "workflows_count": 2,
+    "activities": [
+      {
+        "id": "o5p6q7r8-s9t0-1234-8901-567890123456",
+        "name": "Job Posting Extraction"
+      }
+    ],
+    "workflows": [
+      {
+        "id": "p6q7r8s9-t0u1-2345-9012-678901234567",
+        "name": "Job Market Analysis Pipeline"
+      }
+    ]
+  }
+}

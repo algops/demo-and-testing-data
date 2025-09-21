@@ -1,0 +1,1163 @@
+{
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "AlgOps API",
+      "description": "Company and people data from AlgOps API",
+      "object_source_mappings": [
+        {
+          "id": "m1n2o3p4-q5r6-7890-1234-567890123456",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "website"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company websites as objects (normalized URLs)"
+        },
+        {
+          "id": "n2o3p4q5-r6s7-8901-2345-678901234567",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*"
+          ],
+          "key_mapping_type": "key",
+          "status": "mapped",
+          "description": "Extract company keys as object names"
+        },
+
+        {
+          "id": "p4q5r6s7-t8u9-0123-4567-890123456789",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "email"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract employee email addresses specifically"
+        },
+
+        {
+          "id": "r6s7t8u9-v0w1-2345-6789-012345678901",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "id"
+          ],
+          "key_mapping_type": "value",
+          "status": "recommendation",
+          "description": "Extract document IDs as objects"
+        },
+        {
+          "id": "person-obj-1",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "email"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract employee emails as person objects"
+        },
+        {
+          "id": "s7t8u9v0-w1x2-3456-7890-123456789012",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post IDs as objects"
+        },
+        {
+          "id": "t8u9v0w1-x2y3-4567-8901-234567890123",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "domain"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company domains as objects (alternative to website)"
+        },
+
+        {
+          "id": "v0w1x2y3-z4a5-6789-0123-456789012345",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company names as objects"
+        }
+      ],
+      "datapoint_source_mappings": [
+        {
+          "id": "y3z4a5b6-c7d8-9012-3456-789012345678",
+          "datapoint_id": "g7h8i9j0-k1l2-3456-0123-789012345678",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company name"
+        },
+        {
+          "id": "z4a5b6c7-d8e9-0123-4567-890123456789",
+          "datapoint_id": "h8i9j0k1-l2m3-4567-1234-890123456789",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "industry"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company industry"
+        },
+        {
+          "id": "093e9b94-c676-452f-93de-b952ed38c735",
+          "datapoint_id": "i9j0k1l2-m3n4-5678-2345-901234567890",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "employee_count"
+          ],
+          "key_mapping_type": "value",
+          "status": "recommendation",
+          "description": "Extract employee count"
+        },
+        {
+          "id": "ad3901aa-774d-4b57-8212-f6e2d47367d0",
+          "datapoint_id": "j0k1l2m3-n4o5-6789-3456-012345678901",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "founded_year"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company founding year"
+        },
+        {
+          "id": "c725dc12-4a0d-43cb-bcd4-a4242cc199b9",
+          "datapoint_id": "k1l2m3n4-o5p6-7890-4567-123456789012",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "financial",
+            "revenue"
+          ],
+          "key_mapping_type": "value",
+          "status": "recommendation",
+          "description": "Extract revenue from nested financial object"
+        },
+        {
+          "id": "1f57e6f0-2a74-4a68-adb2-998bb91f9dfb",
+          "datapoint_id": "l2m3n4o5-p6q7-8901-5678-234567890123",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "financial",
+            "funding"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract funding amount"
+        },
+        {
+          "id": "56a2e0d6-d373-4348-8371-0d1b087c413e",
+          "datapoint_id": "m3n4o5p6-q7r8-9012-6789-345678901234",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "financial",
+            "currency"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Extract currency"
+        },
+        {
+          "id": "87e993e1-6e7a-4b98-8eb4-9e25d7c03d84",
+          "datapoint_id": "n4o5p6q7-r8s9-0123-7890-456789012345",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "location",
+            "city"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Extract company city"
+        },
+        {
+          "id": "2bb690cc-0531-49a4-b882-1a3b7cb0fa45",
+          "datapoint_id": "o5p6q7r8-s9t0-1234-8901-567890123456",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "location",
+            "state"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company state"
+        },
+        {
+          "id": "2e0909bb-0f19-4937-aaf4-8fd84b45bf0f",
+          "datapoint_id": "p6q7r8s9-t0u1-2345-9012-678901234567",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "location",
+            "country"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company country"
+        },
+        {
+          "id": "6e13adbd-67eb-4c86-951b-64cf4dda757e",
+          "datapoint_id": "q7r8s9t0-u1v2-3456-0123-789012345678",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "technologies",
+            "0"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract first technology from array"
+        },
+        {
+          "id": "e679fd2d-fdc8-49d3-96fc-0943f0b9bc50",
+          "datapoint_id": "r8s9t0u1-v2w3-4567-1234-890123456789",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "status"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company status"
+        },
+        {
+          "id": "5ca594e7-2180-433b-97a9-3634b7643d1e",
+          "datapoint_id": "s9t0u1v2-w3x4-5678-2345-901234567890",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person name"
+        },
+        {
+          "id": "e7773ef5-b303-4a49-8b5b-5c11f825a1d0",
+          "datapoint_id": "t0u1v2w3-x4y5-6789-3456-012345678901",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "role"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person role"
+        },
+        {
+          "id": "44df7118-1ef3-4597-abed-32906d23b025",
+          "datapoint_id": "u1v2w3x4-y5z6-7890-4567-123456789012",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "department"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person department"
+        },
+        {
+          "id": "cb2e767c-ca00-4242-9e16-ce828bb31a89",
+          "datapoint_id": "v2w3x4y5-z6a7-8901-5678-234567890123",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "salary"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person salary"
+        },
+        {
+          "id": "10131d33-31ae-4304-a301-721b67fb970b",
+          "datapoint_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "hourly_rate"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person hourly rate"
+        },
+        {
+          "id": "b00f8af1-9f38-4cd4-b25e-e2e991abf130",
+          "datapoint_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "skills",
+            "0"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract first skill from skills array"
+        },
+        {
+          "id": "56f17c99-9c9d-4a9c-849e-f3b62f9aa0ef",
+          "datapoint_id": "y5z6a7b8-c9d0-1234-8901-567890123456",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "contact",
+            "phone"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person phone number"
+        },
+        {
+          "id": "d8bcd088-e689-470f-95ca-4c55dba8947b",
+          "datapoint_id": "z6a7b8c9-d0e1-2345-9012-678901234567",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "contact",
+            "linkedin"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person LinkedIn profile"
+        },
+        {
+          "id": "f2897c23-5257-4df7-8a42-a47fcd94b996",
+          "datapoint_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "contact",
+            "website"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person website"
+        },
+        {
+          "id": "e08389d8-ed84-4940-a9e0-1500791eecb1",
+          "datapoint_id": "b8c9d0e1-f2g3-4567-1234-890123456789",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "experience_years"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person years of experience"
+        },
+        {
+          "id": "f579150d-985b-4cf6-bc78-2c3e07ca0438",
+          "datapoint_id": "c9d0e1f2-g3h4-5678-2345-901234567890",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "education"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person education"
+        },
+        {
+          "id": "408589fb-39ce-41eb-9c30-542166d14433",
+          "datapoint_id": "d0e1f2g3-h4i5-6789-3456-012345678901",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "specialization"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person specialization"
+        },
+        {
+          "id": "2b95a1dd-78d0-4498-a108-3bdf29101e4b",
+          "datapoint_id": "e1f2g3h4-i5j6-7890-4567-123456789012",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "title"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document title"
+        },
+        {
+          "id": "57b36520-8441-417e-a139-bc7468135536",
+          "datapoint_id": "f2g3h4i5-j6k7-8901-5678-234567890123",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "type"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document type"
+        },
+        {
+          "id": "65e63d50-cbec-4172-86db-5eb846503673",
+          "datapoint_id": "g3h4i5j6-k7l8-9012-6789-345678901234",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "author"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document author"
+        },
+        {
+          "id": "9cac555e-f670-43ab-b2a1-63499f84f831",
+          "datapoint_id": "h4i5j6k7-l8m9-0123-7890-456789012345",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "created_date"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document creation date"
+        },
+        {
+          "id": "4b34674a-819b-4f01-a406-46da7322b4ef",
+          "datapoint_id": "i5j6k7l8-m9n0-1234-8901-567890123456",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "last_modified"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document last modified date"
+        },
+        {
+          "id": "0bffb250-b28e-4c8a-9ef5-0f9644542c7e",
+          "datapoint_id": "j6k7l8m9-n0o1-2345-9012-678901234567",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "file_size"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document file size"
+        },
+        {
+          "id": "d4d99861-d7b4-407c-ba06-1e8d4b45f2b1",
+          "datapoint_id": "k7l8m9n0-o1p2-3456-0123-789012345678",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "file_format"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document file format"
+        },
+        {
+          "id": "26ec662b-f118-4e4d-b655-66baadd407fe",
+          "datapoint_id": "l8m9n0o1-p2q3-4567-1234-890123456789",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "tags",
+            "0"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract first tag from document tags array"
+        },
+        {
+          "id": "fbc9ab10-ce10-46d7-963b-6bee38bd8ac0",
+          "datapoint_id": "m9n0o1p2-q3r4-5678-2345-901234567890",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "content_summary"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document content summary"
+        },
+        {
+          "id": "8978316f-6317-40f3-9313-3a139316c356",
+          "datapoint_id": "n0o1p2q3-r4s5-6789-3456-012345678901",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "access_level"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document access level"
+        },
+        {
+          "id": "804a7a4f-6a3b-4f4f-89d6-88182e5e2ead",
+          "datapoint_id": "o1p2q3r4-s5t6-7890-4567-123456789012",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "department"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document department"
+        },
+        {
+          "id": "4aef5852-9c47-4eb9-af86-7548fc7531c7",
+          "datapoint_id": "p2q3r4s5-t6u7-8901-5678-234567890123",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "title"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post title"
+        },
+        {
+          "id": "bae52db0-5a5c-49fe-9e15-2448a746b40a",
+          "datapoint_id": "q3r4s5t6-u7v8-9012-6789-345678901234",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "company"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post company"
+        },
+        {
+          "id": "d55992d3-bba0-41f7-866c-c2b2f8290101",
+          "datapoint_id": "r4s5t6u7-v8w9-0123-7890-456789012345",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "department"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post department"
+        },
+        {
+          "id": "b27a5475-7357-411b-9a61-f0d749139b1f",
+          "datapoint_id": "s5t6u7v8-w9x0-1234-8901-567890123456",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "location",
+            "city"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post city"
+        },
+        {
+          "id": "cc1ac6fd-cfb8-4432-a4b1-8a791f06a2b9",
+          "datapoint_id": "t6u7v8w9-x0y1-2345-9012-678901234567",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "location",
+            "state"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post state"
+        },
+        {
+          "id": "55869e17-7fcd-4313-9517-db134ac24d7a",
+          "datapoint_id": "u7v8w9x0-y1z2-3456-0123-789012345678",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "location",
+            "country"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post country"
+        },
+        {
+          "id": "290d7702-d096-4e81-9e75-82a97b16721b",
+          "datapoint_id": "v8w9x0y1-z2a3-4567-1234-890123456789",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "location",
+            "remote_option"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post remote option"
+        },
+        {
+          "id": "5d84b8de-0d4a-4f2e-8311-bf558fc63aab",
+          "datapoint_id": "w9x0y1z2-a3b4-5678-2345-901234567890",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "salary_range",
+            "min"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post minimum salary"
+        },
+        {
+          "id": "5ad4faac-4d77-4cc3-9ed7-d844aa1fddbb",
+          "datapoint_id": "x0y1z2a3-b4c5-6789-3456-012345678901",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "salary_range",
+            "max"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post maximum salary"
+        },
+        {
+          "id": "77a91f75-24cd-4c69-aeb0-f7a7edecd675",
+          "datapoint_id": "y1z2a3b4-c5d6-7890-4567-123456789012",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "salary_range",
+            "currency"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post salary currency"
+        },
+        {
+          "id": "ec22598e-db35-4ea3-bbc3-a713b4cb4e8a",
+          "datapoint_id": "z2a3b4c5-d6e7-8901-5678-234567890123",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "salary_range",
+            "type"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post salary type (hourly/annual)"
+        },
+        {
+          "id": "f5d1bed9-8c42-4e71-857d-f486501f5c2f",
+          "datapoint_id": "a3b4c5d6-e7f8-9012-6789-345678901234",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "job_type"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post type (full_time/contract)"
+        },
+        {
+          "id": "65fdfc23-269f-49d2-85da-3c52a8289589",
+          "datapoint_id": "b4c5d6e7-f8g9-0123-7890-456789012345",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "experience_level"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post experience level"
+        },
+        {
+          "id": "56074165-98c2-44d9-9a68-52ab91f94358",
+          "datapoint_id": "c5d6e7f8-g9h0-1234-8901-567890123456",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "required_skills",
+            "0"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract first required skill from array"
+        },
+        {
+          "id": "eafbe4b2-6ff9-4c29-82cf-a890570545b1",
+          "datapoint_id": "d6e7f8g9-h0i1-2345-9012-678901234567",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "preferred_skills",
+            "0"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract first preferred skill from array"
+        },
+        {
+          "id": "cd894cac-8d9a-4e69-94e3-a63d81c2b84a",
+          "datapoint_id": "e7f8g9h0-i1j2-3456-0123-789012345678",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "responsibilities",
+            "0"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract first responsibility from array"
+        },
+        {
+          "id": "2ea4df0d-c6b7-43e0-936e-df04592f0e18",
+          "datapoint_id": "f8g9h0i1-j2k3-4567-1234-890123456789",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "benefits",
+            "0"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract first benefit from array"
+        },
+        {
+          "id": "e2e1d5d3-48a2-4c56-a727-c3ab9049255d",
+          "datapoint_id": "g9h0i1j2-k3l4-5678-2345-901234567890",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "posted_date"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post posted date"
+        },
+        {
+          "id": "d13dc645-d9f2-46a8-9ff5-7506933e624b",
+          "datapoint_id": "h0i1j2k3-l4m5-6789-3456-012345678901",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "application_deadline"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post application deadline"
+        },
+        {
+          "id": "e68ddfd3-ad6d-4db7-938d-5f023f34bd4b",
+          "datapoint_id": "i1j2k3l4-m5n6-7890-4567-123456789012",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "status"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post status"
+        },
+        {
+          "id": "1342107f-2903-4962-a94d-860de1e1a225",
+          "datapoint_id": "j2k3l4m5-n6o7-8901-5678-234567890123",
+          "object_type_id": "f6g7h8i9-j0k1-2345-f012-678901234567",
+          "key_mapping": [
+            "api_response",
+            "status"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract API response status"
+        },
+        {
+          "id": "d7313b3a-b033-4992-817c-ec73fdcd9751",
+          "datapoint_id": "k3l4m5n6-o7p8-9012-6789-345678901234",
+          "object_type_id": "f6g7h8i9-j0k1-2345-f012-678901234567",
+          "key_mapping": [
+            "api_response",
+            "timestamp"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract API response timestamp"
+        },
+        {
+          "id": "2b4bb76e-fa24-4790-9e9b-ab05fcbd76f8",
+          "datapoint_id": "l4m5n6o7-p8q9-0123-7890-456789012345",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "domain"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company domain (alternative to website)"
+        },
+        {
+          "id": "2d37fb1b-0d63-4a60-be1c-79657fb8bcdf",
+          "datapoint_id": "m5n6o7p8-q9r0-1234-8901-567890123456",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "size_category"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company size category (startup/enterprise)"
+        },
+        {
+          "id": "45ade961-4630-46db-ba47-204d065297db",
+          "datapoint_id": "n6o7p8q9-r0s1-2345-9012-678901234567",
+          "object_type_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "companies",
+            "*",
+            "funding_stage"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company funding stage"
+        },
+        {
+          "id": "c712c93e-c5ea-441e-af51-37f4d287ccfd",
+          "datapoint_id": "o7p8q9r0-s1t2-3456-0123-789012345678",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "company"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person's company"
+        },
+        {
+          "id": "d280c6d4-686a-4672-8be9-17646041f188",
+          "datapoint_id": "p8q9r0s1-t2u3-4567-1234-890123456789",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "manager"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person's manager"
+        },
+        {
+          "id": "7b2a1f9a-5d81-4bc0-ab5c-966f3d608ecc",
+          "datapoint_id": "q9r0s1t2-u3v4-5678-2345-901234567890",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "start_date"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person's start date"
+        },
+        {
+          "id": "54cc99d3-d889-4f36-9adb-a9e021100202",
+          "datapoint_id": "r0s1t2u3-v4w5-6789-3456-012345678901",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "version"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document version"
+        },
+        {
+          "id": "d41db4a1-144f-40fc-bc66-f35d44e379ae",
+          "datapoint_id": "s1t2u3v4-w5x6-7890-4567-123456789012",
+          "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "documents",
+            "*",
+            "reviewer"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract document reviewer"
+        },
+        {
+          "id": "c0d66478-d62b-4c2b-a64a-0ad4ec3fe7d7",
+          "datapoint_id": "t2u3v4w5-x6y7-8901-5678-234567890123",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "urgent"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post urgency flag"
+        },
+        {
+          "id": "8c870bbb-0a67-446f-bf16-74b669df630d",
+          "datapoint_id": "u3v4w5x6-y7z8-9012-6789-345678901234",
+          "object_type_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "job_posts",
+            "*",
+            "referral_bonus"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job post referral bonus"
+        }
+      ]
+    }
+  ]
+}

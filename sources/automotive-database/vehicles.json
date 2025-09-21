@@ -1,0 +1,230 @@
+{
+  "vehicle_database": {
+    "db_version": "4.2.1",
+    "last_updated": "2024-01-15T04:00:00Z",
+    "total_vehicles": 1250,
+    "database_status": "online",
+    "vehicle_records": [
+      {
+        "vin": "1HGBH41JXMN109186",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2023,
+        "trim": "Sport",
+        "body_style": "sedan",
+        "engine_specs": {
+          "type": "4-cylinder",
+          "displacement": "2.0L",
+          "horsepower": 158,
+          "torque": 138,
+          "fuel_type": "gasoline",
+          "transmission": "CVT"
+        },
+        "performance": {
+          "acceleration_0_60": 7.2,
+          "top_speed": 130,
+          "fuel_economy": {
+            "city": 31,
+            "highway": 40,
+            "combined": 35,
+            "unit": "mpg"
+          }
+        },
+        "dimensions": {
+          "length": 182.7,
+          "width": 70.9,
+          "height": 55.7,
+          "wheelbase": 107.7,
+          "unit": "inches"
+        },
+        "interior": {
+          "seating_capacity": 5,
+          "cargo_volume": 14.8,
+          "headroom_front": 39.3,
+          "headroom_rear": 37.1,
+          "legroom_front": 42.3,
+          "legroom_rear": 37.4,
+          "unit": "cubic_feet"
+        },
+        "safety": {
+          "nhtsa_rating": 5,
+          "iihs_rating": "Good",
+          "safety_features": [
+            "Honda Sensing",
+            "Lane Keep Assist",
+            "Adaptive Cruise Control",
+            "Collision Mitigation Braking"
+          ],
+          "airbags": 6
+        },
+        "technology": {
+          "infotainment": "HondaLink",
+          "screen_size": 7.0,
+          "apple_carplay": true,
+          "android_auto": true,
+          "bluetooth": true,
+          "usb_ports": 2,
+          "wireless_charging": false
+        },
+        "pricing": {
+          "msrp": 24650,
+          "invoice": 23200,
+          "currency": "USD",
+          "dealer_incentives": 1500,
+          "residual_value_36m": 0.58
+        },
+        "colors": [
+          {
+            "name": "Championship White",
+            "code": "NH-731P",
+            "price": 0
+          },
+          {
+            "name": "Sonic Gray Pearl",
+            "code": "NH-797P",
+            "price": 395
+          },
+          {
+            "name": "Rallye Red",
+            "code": "R-513P",
+            "price": 395
+          }
+        ],
+        "warranty": {
+          "basic": "3 years/36,000 miles",
+          "powertrain": "5 years/60,000 miles",
+          "rust_perforation": "5 years/unlimited miles"
+        },
+        "availability": {
+          "status": "in_stock",
+          "dealer_count": 15,
+          "estimated_delivery": "1-2 weeks"
+        },
+        "dealer_info": {
+          "dealer_id": "DLR-001",
+          "name": "Honda of San Francisco",
+            "phone": "+1-555-0100",
+            "email": "sales@hondasf.com",
+            "website": "https://hondasf.com"
+        },
+        "vehicle_tags": ["reliable", "fuel-efficient", "sporty", "value"]
+      },
+      {
+        "vin": "1FTFW1ET5DFC12345",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 2023,
+        "trim": "XLT",
+        "body_style": "pickup",
+        "engine_specs": {
+          "type": "V6",
+          "displacement": "3.5L",
+          "horsepower": 290,
+          "torque": 265,
+          "fuel_type": "gasoline",
+          "transmission": "10-speed automatic"
+        },
+        "performance": {
+          "acceleration_0_60": 6.1,
+          "top_speed": 110,
+          "fuel_economy": {
+            "city": 20,
+            "highway": 24,
+            "combined": 22,
+            "unit": "mpg"
+          }
+        },
+        "dimensions": {
+          "length": 231.7,
+          "width": 79.9,
+          "height": 77.2,
+          "wheelbase": 145.4,
+          "unit": "inches"
+        },
+        "interior": {
+          "seating_capacity": 5,
+          "cargo_volume": 52.8,
+          "headroom_front": 40.8,
+          "headroom_rear": 40.4,
+          "legroom_front": 43.9,
+          "legroom_rear": 43.6,
+          "unit": "cubic_feet"
+        },
+        "safety": {
+          "nhtsa_rating": 5,
+          "iihs_rating": "Good",
+          "safety_features": [
+            "Co-Pilot360",
+            "Blind Spot Information System",
+            "Lane-Keeping System",
+            "Pre-Collision Assist"
+          ],
+          "airbags": 6
+        },
+        "technology": {
+          "infotainment": "SYNC 4",
+          "screen_size": 12.0,
+          "apple_carplay": true,
+          "android_auto": true,
+          "bluetooth": true,
+          "usb_ports": 4,
+          "wireless_charging": true
+        },
+        "pricing": {
+          "msrp": 38400,
+          "invoice": 36500,
+          "currency": "USD",
+          "dealer_incentives": 2000,
+          "residual_value_36m": 0.62
+        },
+        "colors": [
+          {
+            "name": "Oxford White",
+            "code": "YZ",
+            "price": 0
+          },
+          {
+            "name": "Rapid Red Metallic",
+            "code": "D4",
+            "price": 395
+          },
+          {
+            "name": "Agate Black Metallic",
+            "code": "J7",
+            "price": 0
+          }
+        ],
+        "warranty": {
+          "basic": "3 years/36,000 miles",
+          "powertrain": "5 years/60,000 miles",
+          "rust_perforation": "5 years/unlimited miles"
+        },
+        "availability": {
+          "status": "in_stock",
+          "dealer_count": 8,
+          "estimated_delivery": "2-3 weeks"
+        },
+        "dealer_info": {
+          "dealer_id": "DLR-002",
+          "name": "Ford of Oakland",
+            "phone": "+1-555-0200",
+            "email": "sales@fordoakland.com",
+            "website": "https://fordoakland.com"
+        },
+        "vehicle_tags": ["truck", "towing", "work", "capable"]
+      }
+    ],
+    "database_metrics": {
+      "total_makes": 25,
+      "total_models": 150,
+      "average_price": 35000,
+      "currency": "USD",
+      "most_popular_make": "Toyota",
+      "most_popular_model": "Camry",
+      "fuel_efficiency_avg": 28.5,
+      "safety_rating_avg": 4.6,
+      "database_size_mb": 45.2,
+      "last_backup": "2024-01-15T02:00:00Z"
+    }
+  }
+}

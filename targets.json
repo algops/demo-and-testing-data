@@ -1,0 +1,271 @@
+{
+  "targets": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "Company Data Extraction",
+      "description": "Extract company information for analysis",
+      "setup": {},
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+      "name": "Person Profile Extraction",
+      "description": "Extract person profile data for matching",
+      "setup": {},
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+      "name": "Product Catalog Extraction",
+      "description": "Extract product information for e-commerce",
+      "setup": {},
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+      "name": "Vehicle Inventory Extraction",
+      "description": "Extract vehicle data for automotive sales",
+      "setup": {},
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+      "name": "Property Listing Extraction",
+      "description": "Extract property data for real estate",
+      "setup": {},
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "f6g7h8i9-j0k1-2345-f012-678901234567",
+      "name": "Job Posting Extraction",
+      "description": "Extract job posting data for recruitment",
+      "setup": {},
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "g7h8i9j0-k1l2-3456-0123-789012345678",
+      "name": "Document Processing Target",
+      "description": "Process and extract data from documents",
+      "setup": {},
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "h8i9j0k1-l2m3-4567-1234-890123456789",
+      "name": "Revenue Prediction Target",
+      "description": "Target for revenue forecasting model",
+      "setup": {},
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "i9j0k1l2-m3n4-5678-2345-901234567890",
+      "name": "Customer Churn Prediction",
+      "description": "Target for customer churn prediction model",
+      "setup": {},
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "j0k1l2m3-n4o5-6789-3456-012345678901",
+      "name": "Price Optimization Target",
+      "description": "Target for price optimization model",
+      "setup": {},
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    }
+  ],
+  "target_sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "target_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "datapoint_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "setup": {
+        "search_config": {
+          "filters": {
+            "industry": "technology",
+            "employee_count": {"min": 10, "max": 1000}
+          },
+          "sort_by": "revenue",
+          "limit": 100
+        }
+      },
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+      "target_id": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+      "datapoint_id": "n4o5p6q7-r8s9-0123-7890-456789012345",
+      "setup": {
+        "search_config": {
+          "filters": {
+            "skills": ["javascript", "react", "node.js"],
+            "experience_years": {"min": 3}
+          },
+          "sort_by": "salary",
+          "limit": 50
+        }
+      },
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+      "target_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+      "datapoint_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+      "setup": {
+        "search_config": {
+          "filters": {
+            "category": "electronics",
+            "price": {"min": 100, "max": 2000},
+            "rating": {"min": 4.0}
+          },
+          "sort_by": "rating",
+          "limit": 200
+        }
+      },
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+      "target_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+      "datapoint_id": "j6k7l8m9-n0o1-2345-9012-678901234567",
+      "setup": {
+        "search_config": {
+          "filters": {
+            "make": ["toyota", "honda", "ford"],
+            "year": {"min": 2018},
+            "mileage": {"max": 50000}
+          },
+          "sort_by": "price",
+          "limit": 75
+        }
+      },
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+      "target_id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+      "datapoint_id": "t6u7v8w9-x0y1-2345-0123-678901234567",
+      "setup": {
+        "search_config": {
+          "filters": {
+            "property_type": "house",
+            "bedrooms": {"min": 3},
+            "price": {"min": 300000, "max": 800000}
+          },
+          "sort_by": "price",
+          "limit": 100
+        }
+      },
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "f6g7h8i9-j0k1-2345-f012-678901234567",
+      "target_id": "f6g7h8i9-j0k1-2345-f012-678901234567",
+      "datapoint_id": "e7f8g9h0-i1j2-3456-1234-789012345678",
+      "setup": {
+        "search_config": {
+          "filters": {
+            "employment_type": "full-time",
+            "experience_level": "mid-level",
+            "location": "remote"
+          },
+          "sort_by": "posted_date",
+          "limit": 150
+        }
+      },
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "g7h8i9j0-k1l2-3456-0123-789012345678",
+      "target_id": "g7h8i9j0-k1l2-3456-0123-789012345678",
+      "datapoint_id": "z2a3b4c5-d6e7-8901-6789-234567890123",
+      "setup": {
+        "search_config": {
+          "filters": {
+            "file_type": ["pdf", "docx"],
+            "file_size": {"max": 10485760}
+          },
+          "sort_by": "created_at",
+          "limit": 50
+        }
+      },
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "h8i9j0k1-l2m3-4567-1234-890123456789",
+      "target_id": "h8i9j0k1-l2m3-4567-1234-890123456789",
+      "datapoint_id": "f6g7h8i9-j0k1-2345-f012-678901234567",
+      "setup": {
+        "model_config": {
+          "algorithm": "linear_regression",
+          "features": ["employee_count", "founded_year", "industry"],
+          "target_variable": "revenue"
+        }
+      },
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "i9j0k1l2-m3n4-5678-2345-901234567890",
+      "target_id": "i9j0k1l2-m3n4-5678-2345-901234567890",
+      "datapoint_id": "o5p6q7r8-s9t0-1234-8901-567890123456",
+      "setup": {
+        "model_config": {
+          "algorithm": "random_forest",
+          "features": ["email", "skills", "experience_years"],
+          "target_variable": "churn_probability"
+        }
+      },
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    },
+    {
+      "id": "j0k1l2m3-n4o5-6789-3456-012345678901",
+      "target_id": "j0k1l2m3-n4o5-6789-3456-012345678901",
+      "datapoint_id": "d0e1f2g3-h4i5-6789-3456-012345678901",
+      "setup": {
+        "prediction_config": {
+          "model_id": "price_optimization_v1",
+          "input_features": ["category", "brand", "rating", "reviews_count"],
+          "output_variable": "optimal_price"
+        }
+      },
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-01-20T00:00:00.000Z",
+      "deleted_at": null
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "Job Market Scraper",
+      "description": "Job posting data from multiple job boards and career sites",
+      "object_source_mappings": [
+        {
+          "id": "job-obj-1",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "job_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job IDs as objects"
+        },
+        {
+          "id": "job-obj-2",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "title"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job titles as objects"
+        },
+        {
+          "id": "company-obj-1",
+          "object_type_id": "company-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "company_name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company names as objects"
+        }
+      ],
+      "datapoint_source_mappings": [
+        {
+          "id": "job-id-1",
+          "datapoint_id": "dp-job-id",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "job_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job ID"
+        },
+        {
+          "id": "job-title-1",
+          "datapoint_id": "dp-job-title",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "title"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job title"
+        },
+        {
+          "id": "job-company-1",
+          "datapoint_id": "dp-job-company",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "company_name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract company name"
+        },
+        {
+          "id": "job-department-1",
+          "datapoint_id": "dp-job-department",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "department"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract department"
+        },
+        {
+          "id": "job-city-1",
+          "datapoint_id": "dp-job-city",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "location",
+            "city"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job city"
+        },
+        {
+          "id": "job-state-1",
+          "datapoint_id": "dp-job-state",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "location",
+            "state"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job state"
+        },
+        {
+          "id": "job-remote-1",
+          "datapoint_id": "dp-job-remote",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "location",
+            "remote_option"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract remote option"
+        },
+        {
+          "id": "job-salary-min-1",
+          "datapoint_id": "dp-job-salary-min",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "compensation",
+            "salary_min"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract minimum salary"
+        },
+        {
+          "id": "job-salary-max-1",
+          "datapoint_id": "dp-job-salary-max",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "compensation",
+            "salary_max"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract maximum salary"
+        },
+        {
+          "id": "job-currency-1",
+          "datapoint_id": "dp-job-currency",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "compensation",
+            "currency"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract salary currency"
+        },
+        {
+          "id": "job-equity-1",
+          "datapoint_id": "dp-job-equity",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "compensation",
+            "equity"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract equity percentage"
+        },
+        {
+          "id": "job-type-1",
+          "datapoint_id": "dp-job-type",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "employment",
+            "job_type"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job type"
+        },
+        {
+          "id": "job-experience-1",
+          "datapoint_id": "dp-job-experience",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "employment",
+            "experience_level"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract experience level"
+        },
+        {
+          "id": "job-skills-1",
+          "datapoint_id": "dp-job-skills",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "requirements",
+            "required_skills",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract required skills"
+        },
+        {
+          "id": "job-preferred-1",
+          "datapoint_id": "dp-job-preferred",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "requirements",
+            "preferred_skills",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract preferred skills"
+        },
+        {
+          "id": "job-education-1",
+          "datapoint_id": "dp-job-education",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "requirements",
+            "education"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract education requirements"
+        },
+        {
+          "id": "job-years-1",
+          "datapoint_id": "dp-job-years",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "requirements",
+            "years_experience"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract years of experience required"
+        },
+        {
+          "id": "job-responsibilities-1",
+          "datapoint_id": "dp-job-responsibilities",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "responsibilities",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job responsibilities"
+        },
+        {
+          "id": "job-benefits-1",
+          "datapoint_id": "dp-job-benefits",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "benefits",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job benefits"
+        },
+        {
+          "id": "job-apply-url-1",
+          "datapoint_id": "dp-job-apply-url",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "application",
+            "apply_url"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract application URL"
+        },
+        {
+          "id": "job-deadline-1",
+          "datapoint_id": "dp-job-deadline",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "application",
+            "application_deadline"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract application deadline"
+        },
+        {
+          "id": "job-manager-1",
+          "datapoint_id": "dp-job-manager",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "application",
+            "hiring_manager"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract hiring manager"
+        },
+        {
+          "id": "job-email-1",
+          "datapoint_id": "dp-job-email",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "application",
+            "recruiter_email"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract recruiter email"
+        },
+        {
+          "id": "job-posted-1",
+          "datapoint_id": "dp-job-posted",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "metadata",
+            "posted_date"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract posted date"
+        },
+        {
+          "id": "job-views-1",
+          "datapoint_id": "dp-job-views",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "metadata",
+            "views"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract view count"
+        },
+        {
+          "id": "job-applications-1",
+          "datapoint_id": "dp-job-applications",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "metadata",
+            "applications"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract application count"
+        },
+        {
+          "id": "job-urgency-1",
+          "datapoint_id": "dp-job-urgency",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "metadata",
+            "urgency"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract urgency level"
+        },
+        {
+          "id": "job-tag-1",
+          "datapoint_id": "dp-job-tag",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "tags",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract job tags"
+        },
+        {
+          "id": "board-total-1",
+          "datapoint_id": "dp-board-total",
+          "object_type_id": "board-001",
+          "key_mapping": [
+            "job_board",
+            "total_jobs"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract total jobs count"
+        },
+        {
+          "id": "board-active-1",
+          "datapoint_id": "dp-board-active",
+          "object_type_id": "board-001",
+          "key_mapping": [
+            "job_board",
+            "active_jobs"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract active jobs count"
+        },
+        {
+          "id": "stats-engineering-1",
+          "datapoint_id": "dp-stats-engineering",
+          "object_type_id": "stats-001",
+          "key_mapping": [
+            "job_board",
+            "board_statistics",
+            "jobs_by_department",
+            "engineering"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract engineering jobs count"
+        },
+        {
+          "id": "stats-remote-1",
+          "datapoint_id": "dp-stats-remote",
+          "object_type_id": "stats-001",
+          "key_mapping": [
+            "job_board",
+            "board_statistics",
+            "jobs_by_location",
+            "remote"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract remote jobs count"
+        },
+        {
+          "id": "stats-salary-1",
+          "datapoint_id": "dp-stats-salary",
+          "object_type_id": "stats-001",
+          "key_mapping": [
+            "job_board",
+            "board_statistics",
+            "average_salary",
+            "engineering"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract average engineering salary"
+        },
+        {
+          "id": "stats-trending-1",
+          "datapoint_id": "dp-stats-trending",
+          "object_type_id": "stats-001",
+          "key_mapping": [
+            "job_board",
+            "board_statistics",
+            "trending_skills",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract trending skills"
+        },
+        {
+          "id": "job-invalid-1",
+          "datapoint_id": "dp-job-invalid",
+          "object_type_id": "job-001",
+          "key_mapping": [
+            "job_board",
+            "job_listings",
+            "*",
+            "nonexistent_field"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Invalid field mapping for testing"
+        },
+        {
+          "id": "job-empty-1",
+          "datapoint_id": "dp-job-empty",
+          "object_type_id": "job-001",
+          "key_mapping": [],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Empty mapping for testing"
+        }
+      ]
+    }
+  ]
+}

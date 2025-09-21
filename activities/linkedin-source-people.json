@@ -1,0 +1,67 @@
+{
+  "id": "h8i9j0k1-l2m3-4567-1234-890123456789",
+  "name": "LinkedIn Professional Sourcing",
+  "description": "Sources professional profiles from LinkedIn dataset based on role and skills criteria",
+  "type": "source",
+  "object_type": "person",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "linkedin_source": {
+        "id": "0bd5ae95-75c0-4f54-945b-91299c0c7a0b",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["i9j0k1l2-m3n4-5678-2345-901234567890", "j0k1l2m3-n4o5-6789-3456-012345678901"]
+          }
+        }
+      },
+      "role_factor": {
+        "id": "i9j0k1l2-m3n4-5678-2345-901234567890",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["0bd5ae95-75c0-4f54-945b-91299c0c7a0b"]
+          }
+        }
+      },
+      "skills_factor": {
+        "id": "j0k1l2m3-n4o5-6789-3456-012345678901",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["0bd5ae95-75c0-4f54-945b-91299c0c7a0b"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 1250,
+    "successful_requests": 1187,
+    "failed_requests": 63,
+    "success_rate": 0.949,
+    "average_duration": 45.0,
+    "last_used_at": "2025-01-20T14:45:30.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-15T10:30:00.000Z",
+    "updated_at": "2025-01-20T14:45:30.000Z",
+    "workflows": [
+      {
+        "id": "k1l2m3n4-o5p6-7890-5678-123456789012",
+        "name": "Professional Network Building"
+      }
+    ],
+    "recent_requests": [
+      {
+        "id": "r6s7t8u9-v0w1-2345-6789-012345678901",
+        "timestamp": "2025-01-20T14:45:30.000Z",
+        "status": "completed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "dp-001",
+      "name": "Customer ID",
+      "type": "identifier",
+      "description": "Unique identifier for customer records",
+      "dataType": "string",
+      "category": "Customer Data",
+      "tags": ["identifier", "customer", "primary-key"]
+    },
+    {
+      "id": "dp-002", 
+      "name": "Email Address",
+      "type": "contact",
+      "description": "Customer email address for communication",
+      "dataType": "string",
+      "category": "Contact Information",
+      "tags": ["email", "contact", "communication"]
+    },
+    {
+      "id": "dp-003",
+      "name": "Purchase Amount",
+      "type": "financial",
+      "description": "Total amount of customer purchase",
+      "dataType": "number",
+      "category": "Financial Data",
+      "tags": ["money", "purchase", "financial"]
+    },
+    {
+      "id": "dp-004",
+      "name": "Order Date",
+      "type": "temporal",
+      "description": "Date when order was placed",
+      "dataType": "date",
+      "category": "Order Data",
+      "tags": ["date", "order", "temporal"]
+    },
+    {
+      "id": "dp-005",
+      "name": "Product Category",
+      "type": "categorical",
+      "description": "Category of purchased product",
+      "dataType": "string",
+      "category": "Product Data",
+      "tags": ["category", "product", "classification"]
+    },
+    {
+      "id": "dp-006",
+      "name": "Customer Age",
+      "type": "demographic",
+      "description": "Age of the customer",
+      "dataType": "number",
+      "category": "Demographic Data",
+      "tags": ["age", "demographic", "personal"]
+    },
+    {
+      "id": "dp-007",
+      "name": "Location",
+      "type": "geographic",
+      "description": "Customer's geographic location",
+      "dataType": "string",
+      "category": "Geographic Data",
+      "tags": ["location", "geographic", "address"]
+    },
+    {
+      "id": "dp-008",
+      "name": "Subscription Status",
+      "type": "status",
+      "description": "Current subscription status",
+      "dataType": "string",
+      "category": "Subscription Data",
+      "tags": ["status", "subscription", "boolean"]
+    }
+  ],
+  "recommended": ["dp-001", "dp-002"]
+} 

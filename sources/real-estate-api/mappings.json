@@ -1,0 +1,699 @@
+{
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "Real Estate API",
+      "description": "Property listings and market data from MLS and real estate platforms",
+      "object_source_mappings": [
+        {
+          "id": "prop-obj-1",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract property listing IDs as objects"
+        },
+        {
+          "id": "prop-obj-2",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_address",
+            "street"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract property addresses as objects"
+        },
+        {
+          "id": "agent-obj-1",
+          "object_type_id": "agent-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_info",
+            "listing_agent",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract agent names as objects"
+        }
+      ],
+      "datapoint_source_mappings": [
+        {
+          "id": "prop-listing-id-1",
+          "datapoint_id": "dp-prop-listing-id",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_id"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract listing ID"
+        },
+        {
+          "id": "prop-street-1",
+          "datapoint_id": "dp-prop-street",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_address",
+            "street"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract street address"
+        },
+        {
+          "id": "prop-city-1",
+          "datapoint_id": "dp-prop-city",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_address",
+            "city"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract city"
+        },
+        {
+          "id": "prop-state-1",
+          "datapoint_id": "dp-prop-state",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_address",
+            "state"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract state"
+        },
+        {
+          "id": "prop-zip-1",
+          "datapoint_id": "dp-prop-zip",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_address",
+            "zip"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract ZIP code"
+        },
+        {
+          "id": "prop-lat-1",
+          "datapoint_id": "dp-prop-lat",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_address",
+            "coordinates",
+            "latitude"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract latitude"
+        },
+        {
+          "id": "prop-lng-1",
+          "datapoint_id": "dp-prop-lng",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_address",
+            "coordinates",
+            "longitude"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract longitude"
+        },
+        {
+          "id": "prop-type-1",
+          "datapoint_id": "dp-prop-type",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_details",
+            "type"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract property type"
+        },
+        {
+          "id": "prop-bedrooms-1",
+          "datapoint_id": "dp-prop-bedrooms",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_details",
+            "bedrooms"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract bedroom count"
+        },
+        {
+          "id": "prop-bathrooms-1",
+          "datapoint_id": "dp-prop-bathrooms",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_details",
+            "bathrooms"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract bathroom count"
+        },
+        {
+          "id": "prop-sqft-1",
+          "datapoint_id": "dp-prop-sqft",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_details",
+            "square_feet"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract square footage"
+        },
+        {
+          "id": "prop-year-1",
+          "datapoint_id": "dp-prop-year",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_details",
+            "year_built"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract year built"
+        },
+        {
+          "id": "prop-lot-1",
+          "datapoint_id": "dp-prop-lot",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_details",
+            "lot_size"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract lot size"
+        },
+        {
+          "id": "prop-list-price-1",
+          "datapoint_id": "dp-prop-list-price",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "pricing",
+            "list_price"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract list price"
+        },
+        {
+          "id": "prop-price-sqft-1",
+          "datapoint_id": "dp-prop-price-sqft",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "pricing",
+            "price_per_sqft"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract price per square foot"
+        },
+        {
+          "id": "prop-currency-1",
+          "datapoint_id": "dp-prop-currency",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "pricing",
+            "currency"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract currency"
+        },
+        {
+          "id": "prop-tax-1",
+          "datapoint_id": "dp-prop-tax",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "pricing",
+            "tax_assessment"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract tax assessment"
+        },
+        {
+          "id": "prop-hoa-1",
+          "datapoint_id": "dp-prop-hoa",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "pricing",
+            "hoa_fees"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract HOA fees"
+        },
+        {
+          "id": "prop-mls-1",
+          "datapoint_id": "dp-prop-mls",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_info",
+            "mls_number"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract MLS number"
+        },
+        {
+          "id": "prop-listing-date-1",
+          "datapoint_id": "dp-prop-listing-date",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_info",
+            "listing_date"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract listing date"
+        },
+        {
+          "id": "prop-days-market-1",
+          "datapoint_id": "dp-prop-days-market",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_info",
+            "days_on_market"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract days on market"
+        },
+        {
+          "id": "agent-name-1",
+          "datapoint_id": "dp-agent-name",
+          "object_type_id": "agent-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_info",
+            "listing_agent",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract agent name"
+        },
+        {
+          "id": "agent-license-1",
+          "datapoint_id": "dp-agent-license",
+          "object_type_id": "agent-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_info",
+            "listing_agent",
+            "license"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract agent license"
+        },
+        {
+          "id": "agent-phone-1",
+          "datapoint_id": "dp-agent-phone",
+          "object_type_id": "agent-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_info",
+            "listing_agent",
+            "phone"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract agent phone"
+        },
+        {
+          "id": "agent-email-1",
+          "datapoint_id": "dp-agent-email",
+          "object_type_id": "agent-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_info",
+            "listing_agent",
+            "email"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract agent email"
+        },
+        {
+          "id": "prop-brokerage-1",
+          "datapoint_id": "dp-prop-brokerage",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "listing_info",
+            "brokerage"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract brokerage"
+        },
+        {
+          "id": "prop-feature-1",
+          "datapoint_id": "dp-prop-feature",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_features",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract property features"
+        },
+        {
+          "id": "prop-amenity-1",
+          "datapoint_id": "dp-prop-amenity",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "amenities",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract amenities"
+        },
+        {
+          "id": "prop-last-sold-1",
+          "datapoint_id": "dp-prop-last-sold",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_history",
+            "last_sold_price"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract last sold price"
+        },
+        {
+          "id": "prop-image-1",
+          "datapoint_id": "dp-prop-image",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_images",
+            "*",
+            "url"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract property image URLs"
+        },
+        {
+          "id": "prop-tour-1",
+          "datapoint_id": "dp-prop-tour",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "virtual_tour",
+            "url"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract virtual tour URL"
+        },
+        {
+          "id": "prop-tag-1",
+          "datapoint_id": "dp-prop-tag",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "property_tags",
+            "*"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract property tags"
+        },
+        {
+          "id": "market-avg-price-1",
+          "datapoint_id": "dp-market-avg-price",
+          "object_type_id": "market-001",
+          "key_mapping": [
+            "mls_data",
+            "market_analytics",
+            "average_price"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract average market price"
+        },
+        {
+          "id": "market-median-price-1",
+          "datapoint_id": "dp-market-median-price",
+          "object_type_id": "market-001",
+          "key_mapping": [
+            "mls_data",
+            "market_analytics",
+            "median_price"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract median market price"
+        },
+        {
+          "id": "market-trend-1",
+          "datapoint_id": "dp-market-trend",
+          "object_type_id": "market-001",
+          "key_mapping": [
+            "mls_data",
+            "market_analytics",
+            "price_trend"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract price trend"
+        },
+        {
+          "id": "market-inventory-1",
+          "datapoint_id": "dp-market-inventory",
+          "object_type_id": "market-001",
+          "key_mapping": [
+            "mls_data",
+            "market_analytics",
+            "inventory_level"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract inventory level"
+        },
+        {
+          "id": "market-days-avg-1",
+          "datapoint_id": "dp-market-days-avg",
+          "object_type_id": "market-001",
+          "key_mapping": [
+            "mls_data",
+            "market_analytics",
+            "days_on_market_avg"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract average days on market"
+        },
+        {
+          "id": "market-new-listings-1",
+          "datapoint_id": "dp-market-new-listings",
+          "object_type_id": "market-001",
+          "key_mapping": [
+            "mls_data",
+            "market_analytics",
+            "market_activity",
+            "new_listings_30d"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract new listings in 30 days"
+        },
+        {
+          "id": "market-sold-listings-1",
+          "datapoint_id": "dp-market-sold-listings",
+          "object_type_id": "market-001",
+          "key_mapping": [
+            "mls_data",
+            "market_analytics",
+            "market_activity",
+            "sold_listings_30d"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract sold listings in 30 days"
+        },
+        {
+          "id": "market-walk-score-1",
+          "datapoint_id": "dp-market-walk-score",
+          "object_type_id": "market-001",
+          "key_mapping": [
+            "mls_data",
+            "market_analytics",
+            "neighborhood_stats",
+            "walk_score"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract walk score"
+        },
+        {
+          "id": "market-transit-score-1",
+          "datapoint_id": "dp-market-transit-score",
+          "object_type_id": "market-001",
+          "key_mapping": [
+            "mls_data",
+            "market_analytics",
+            "neighborhood_stats",
+            "transit_score"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract transit score"
+        },
+        {
+          "id": "market-school-rating-1",
+          "datapoint_id": "dp-market-school-rating",
+          "object_type_id": "market-001",
+          "key_mapping": [
+            "mls_data",
+            "market_analytics",
+            "neighborhood_stats",
+            "school_rating"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract school rating"
+        },
+        {
+          "id": "prop-invalid-1",
+          "datapoint_id": "dp-prop-invalid",
+          "object_type_id": "prop-001",
+          "key_mapping": [
+            "mls_data",
+            "property_inventory",
+            "*",
+            "nonexistent_field"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Invalid field mapping for testing"
+        },
+        {
+          "id": "prop-empty-1",
+          "datapoint_id": "dp-prop-empty",
+          "object_type_id": "prop-001",
+          "key_mapping": [],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Empty mapping for testing"
+        }
+      ]
+    }
+  ]
+}

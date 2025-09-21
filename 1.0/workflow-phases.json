@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "id": "wp-001",
+      "name": "Data Collection",
+      "type": "input",
+      "description": "Initial phase for collecting data from various sources",
+      "category": "Input",
+      "order": 1,
+      "tags": ["collection", "input", "data-gathering"]
+    },
+    {
+      "id": "wp-002",
+      "name": "Data Validation",
+      "type": "validation",
+      "description": "Validate and clean collected data for quality assurance",
+      "category": "Validation",
+      "order": 2,
+      "tags": ["validation", "quality", "cleaning"]
+    },
+    {
+      "id": "wp-003",
+      "name": "Data Processing",
+      "type": "processing",
+      "description": "Process and transform data according to business rules",
+      "category": "Processing",
+      "order": 3,
+      "tags": ["processing", "transformation", "business-rules"]
+    },
+    {
+      "id": "wp-004",
+      "name": "Analysis",
+      "type": "analysis",
+      "description": "Analyze processed data to extract insights and patterns",
+      "category": "Analysis",
+      "order": 4,
+      "tags": ["analysis", "insights", "patterns"]
+    },
+    {
+      "id": "wp-005",
+      "name": "Decision Making",
+      "type": "decision",
+      "description": "Make business decisions based on analysis results",
+      "category": "Decision",
+      "order": 5,
+      "tags": ["decision", "business", "action"]
+    },
+    {
+      "id": "wp-006",
+      "name": "Action Execution",
+      "type": "execution",
+      "description": "Execute actions based on decisions made",
+      "category": "Execution",
+      "order": 6,
+      "tags": ["execution", "action", "implementation"]
+    },
+    {
+      "id": "wp-007",
+      "name": "Monitoring",
+      "type": "monitoring",
+      "description": "Monitor the results and performance of executed actions",
+      "category": "Monitoring",
+      "order": 7,
+      "tags": ["monitoring", "performance", "results"]
+    },
+    {
+      "id": "wp-008",
+      "name": "Feedback Loop",
+      "type": "feedback",
+      "description": "Collect feedback and iterate on the workflow process",
+      "category": "Feedback",
+      "order": 8,
+      "tags": ["feedback", "iteration", "improvement"]
+    }
+  ],
+  "recommended": ["wp-001", "wp-002"]
+} 

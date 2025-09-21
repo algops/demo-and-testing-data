@@ -1,0 +1,103 @@
+{
+  "id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+  "name": "Real Estate API",
+  "description": "Comprehensive real estate listing API providing property data, agent information, and market analytics",
+  "source_type": "Integration",
+  "delivery_type": "Webhook",
+  "configuration": {
+    "max_concurrent_runs": 25,
+    "timeout": 120,
+    "max_retries": 5,
+    "auth_key": "real_estate_api_key_2024"
+  },
+  "templates": {
+    "run_request_template": "{\"url\": \"https://api.realestate.com/v1/properties/search\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\", \"X-API-Key\": \"<<$auth_key>>\"}, \"body\": {\"filters\": \"<<$run_setup>>\", \"max_results\": \"<<$max_objects>>\", \"callback_url\": \"<<$webhook_url>>\", \"request_id\": \"<<$id>>\"}}",
+    "status_request_template": "{\"url\": \"https://api.realestate.com/v1/requests/<<$run_external_id>>/status\", \"method\": \"GET\", \"headers\": {\"X-API-Key\": \"<<$auth_key>>\"}, \"body\": {}}",
+    "delivery_request_template": "{\"url\": \"https://api.realestate.com/v1/requests/<<$run_external_id>>/results\", \"method\": \"GET\", \"headers\": {\"X-API-Key\": \"<<$auth_key>>\"}, \"body\": {}}"
+  },
+  "setup": {
+    "run_request_template": {
+      "request": {
+        "run_setup": ["body", "filters"],
+        "webhook_url": ["callback_url"],
+        "run_id": ["request_id"]
+      },
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "invalid": "invalid",
+          "waiting": "waiting",
+          "in_progress": "in_progress",
+          "ready": "ready",
+          "done": "done",
+          "failed": "failed",
+          "timedout": "timedout"
+        }
+      }
+    },
+    "status_request_template": {
+      "request": {
+        "run_external_id": ["url"]
+      },
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "invalid": "invalid",
+          "waiting": "waiting",
+          "in_progress": "in_progress",
+          "ready": "ready",
+          "done": "done",
+          "failed": "failed",
+          "timedout": "timedout"
+        }
+      }
+    },
+    "delivery_request_template": {
+      "request": {
+        "run_external_id": ["url"]
+      },
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "invalid": "invalid",
+          "waiting": "waiting",
+          "in_progress": "in_progress",
+          "ready": "ready",
+          "done": "done",
+          "failed": "failed",
+          "timedout": "timedout"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-10T08:15:00.000Z",
+    "updated_at": "2025-01-20T16:30:45.000Z",
+    "last_used_at": "2025-01-20T16:30:45.000Z",
+    "average_run_duration": 78,
+    "total_runs": 3420,
+    "successful_runs": 3256,
+    "failed_runs": 164,
+    "success_rate": 0.952,
+    "activities_count": 12,
+    "workflows_count": 5,
+    "activities": [
+      {
+        "id": "f6g7h8i9-j0k1-2345-f012-678901234567",
+        "name": "Property Listing Extraction"
+      },
+      {
+        "id": "g7h8i9j0-k1l2-3456-0123-789012345678",
+        "name": "Agent Information Enrichment"
+      }
+    ],
+    "workflows": [
+      {
+        "id": "h8i9j0k1-l2m3-4567-1234-890123456789",
+        "name": "Property Analysis Pipeline"
+      }
+    ]
+  }
+}

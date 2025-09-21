@@ -1,0 +1,174 @@
+{
+  "job_board": {
+    "board_name": "TechJobs Pro",
+    "api_version": "v3.1",
+    "scrape_timestamp": "2024-01-15T08:30:00Z",
+    "total_jobs": 1247,
+    "active_jobs": 1189,
+    "expired_jobs": 58,
+    "job_listings": [
+      {
+        "job_id": "JOB-2024-001",
+        "title": "Senior Software Engineer",
+        "company_name": "TechCorp Solutions",
+        "department": "Engineering",
+        "location": {
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "USA",
+          "remote_option": "hybrid"
+        },
+        "compensation": {
+          "salary_min": 120000,
+          "salary_max": 160000,
+          "currency": "USD",
+          "equity": "0.1%",
+          "bonus": "15%"
+        },
+        "employment": {
+          "job_type": "full_time",
+          "experience_level": "senior",
+          "employment_status": "active"
+        },
+        "requirements": {
+          "required_skills": [
+            "Python",
+            "React",
+            "AWS",
+            "Docker"
+          ],
+          "preferred_skills": [
+            "TypeScript",
+            "Kubernetes",
+            "GraphQL"
+          ],
+          "education": "Bachelor's degree in Computer Science or related field",
+          "years_experience": "5+ years"
+        },
+        "responsibilities": [
+          "Design and develop scalable web applications",
+          "Lead technical architecture decisions",
+          "Mentor junior developers",
+          "Collaborate with cross-functional teams"
+        ],
+        "benefits": [
+          "Health insurance",
+          "401k matching",
+          "Flexible PTO",
+          "Stock options"
+        ],
+        "application": {
+          "apply_url": "https://techcorp.com/careers/job-001",
+          "application_deadline": "2024-02-15T23:59:59Z",
+          "hiring_manager": "Sarah Johnson",
+          "recruiter_email": "jobs@techcorp.com"
+        },
+        "metadata": {
+          "posted_date": "2024-01-10T09:00:00Z",
+          "last_updated": "2024-01-12T14:30:00Z",
+          "views": 342,
+          "applications": 28,
+          "urgency": "high"
+        },
+        "tags": ["software", "engineering", "senior", "full-stack"]
+      },
+      {
+        "job_id": "JOB-2024-002",
+        "title": "Product Manager",
+        "company_name": "StartupXYZ",
+        "department": "Product",
+        "location": {
+          "city": "New York",
+          "state": "NY",
+          "country": "USA",
+          "remote_option": "remote"
+        },
+        "compensation": {
+          "salary_min": 100000,
+          "salary_max": 140000,
+          "currency": "USD",
+          "equity": "0.5%",
+          "bonus": "10%"
+        },
+        "employment": {
+          "job_type": "full_time",
+          "experience_level": "mid",
+          "employment_status": "active"
+        },
+        "requirements": {
+          "required_skills": [
+            "Product Management",
+            "Agile",
+            "Data Analysis",
+            "User Research"
+          ],
+          "preferred_skills": [
+            "SQL",
+            "Figma",
+            "A/B Testing"
+          ],
+          "education": "Bachelor's degree required, MBA preferred",
+          "years_experience": "3+ years"
+        },
+        "responsibilities": [
+          "Define product roadmap and strategy",
+          "Work with engineering teams on feature development",
+          "Analyze user data and feedback",
+          "Coordinate with marketing and sales teams"
+        ],
+        "benefits": [
+          "Health insurance",
+          "Dental insurance",
+          "Vision insurance",
+          "Unlimited PTO"
+        ],
+        "application": {
+          "apply_url": "https://startupxyz.com/careers/pm-001",
+          "application_deadline": "2024-02-20T23:59:59Z",
+          "hiring_manager": "Mike Chen",
+          "recruiter_email": "careers@startupxyz.com"
+        },
+        "metadata": {
+          "posted_date": "2024-01-08T11:15:00Z",
+          "last_updated": "2024-01-11T16:45:00Z",
+          "views": 189,
+          "applications": 15,
+          "urgency": "medium"
+        },
+        "tags": ["product", "management", "strategy", "remote"]
+      }
+    ],
+    "board_statistics": {
+      "jobs_by_department": {
+        "engineering": 456,
+        "product": 123,
+        "marketing": 89,
+        "sales": 156,
+        "operations": 78,
+        "design": 67,
+        "other": 278
+      },
+      "jobs_by_location": {
+        "san_francisco": 234,
+        "new_york": 189,
+        "seattle": 145,
+        "austin": 98,
+        "remote": 523
+      },
+      "average_salary": {
+        "engineering": 135000,
+        "product": 125000,
+        "marketing": 95000,
+        "sales": 110000,
+        "unit": "USD"
+      },
+      "trending_skills": [
+        "Python",
+        "React",
+        "AWS",
+        "Machine Learning",
+        "DevOps"
+      ]
+    }
+  }
+}

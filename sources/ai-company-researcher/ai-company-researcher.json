@@ -1,0 +1,63 @@
+{
+  "id": "i9j0k1l2-m3n4-5678-2345-901234567890",
+  "name": "AI Company Researcher",
+  "description": "AI-powered company research agent that analyzes and enriches company data using machine learning algorithms",
+  "source_type": "Agent",
+  "delivery_type": "Endpoint",
+  "configuration": {
+    "max_concurrent_runs": 5,
+    "timeout": 180,
+    "max_retries": 2,
+    "auth_key": null
+  },
+  "templates": {
+    "run_request_template": "{\"url\": \"https://ai-researcher.internal/api/analyze\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {\"query\": \"<<$run_setup>>\", \"webhook_url\": \"<<$webhook_url>>\", \"run_id\": \"<<$id>>\"}}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
+  },
+  "setup": {
+    "run_request_template": {
+      "request": {
+        "run_setup": ["body"],
+        "webhook_url": ["webhook_url"],
+        "run_id": ["id"]
+      },
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "invalid": "invalid",
+          "waiting": "waiting",
+          "in_progress": "processing"
+        }
+      }
+    },
+    "status_request_template": {},
+    "delivery_request_template": {}
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-12T14:20:00.000Z",
+    "updated_at": "2025-01-18T09:15:20.000Z",
+    "last_used_at": "2025-01-18T09:15:20.000Z",
+    "average_run_duration": 95,
+    "total_runs": 180,
+    "successful_runs": 108,
+    "failed_runs": 72,
+    "success_rate": 0.600,
+    "activities_count": 3,
+    "workflows_count": 1,
+    "activities": [
+      {
+        "id": "j0k1l2m3-n4o5-6789-3456-012345678901",
+        "name": "Company Data Analysis"
+      }
+    ],
+    "workflows": [
+      {
+        "id": "k1l2m3n4-o5p6-7890-4567-123456789012",
+        "name": "AI Research Pipeline"
+      }
+    ]
+  }
+}

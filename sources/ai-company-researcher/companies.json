@@ -1,0 +1,105 @@
+{
+  "api_response": {
+    "status": "success",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "data": {
+      "companies": {
+        "tech_corp": {
+          "website": "https://www.techcorp.com",
+          "name": "Tech Corporation",
+          "industry": "Technology",
+          "employee_count": 5000,
+          "founded_year": 2010,
+          "financial": {
+            "revenue": 1000000000,
+            "funding": 50000000,
+            "currency": "USD"
+          },
+          "location": {
+            "city": "San Francisco",
+            "state": "CA",
+            "country": "USA"
+          },
+          "technologies": ["React", "Node.js", "PostgreSQL", "AWS"],
+          "status": "active"
+        },
+        "startup_inc": {
+          "website": "https://startupinc.com",
+          "name": "Startup Inc",
+          "industry": "SaaS",
+          "employee_count": 150,
+          "founded_year": 2020,
+          "financial": {
+            "revenue": 5000000,
+            "funding": 2000000,
+            "currency": "USD"
+          },
+          "location": {
+            "city": "Austin",
+            "state": "TX",
+            "country": "USA"
+          },
+          "technologies": ["Vue.js", "Python", "MongoDB"],
+          "status": "active"
+        },
+        "enterprise_solutions": {
+          "website": "https://enterprise-solutions.com",
+          "name": "Enterprise Solutions Ltd",
+          "industry": "Enterprise Software",
+          "employee_count": 12000,
+          "founded_year": 1995,
+          "financial": {
+            "revenue": 2500000000,
+            "funding": 0,
+            "currency": "USD"
+          },
+          "location": {
+            "city": "New York",
+            "state": "NY",
+            "country": "USA"
+          },
+          "technologies": ["Java", "Oracle", "Azure", "Docker"],
+          "status": "active"
+        },
+        "ai_innovations": {
+          "website": "https://ai-innovations.ai",
+          "name": "AI Innovations",
+          "industry": "Artificial Intelligence",
+          "employee_count": 300,
+          "founded_year": 2018,
+          "financial": {
+            "revenue": 15000000,
+            "funding": 50000000,
+            "currency": "USD"
+          },
+          "location": {
+            "city": "Seattle",
+            "state": "WA",
+            "country": "USA"
+          },
+          "technologies": ["Python", "TensorFlow", "Kubernetes", "GCP"],
+          "status": "active"
+        },
+        "fintech_global": {
+          "website": "https://fintech-global.com",
+          "name": "FinTech Global",
+          "industry": "Financial Technology",
+          "employee_count": 800,
+          "founded_year": 2016,
+          "financial": {
+            "revenue": 80000000,
+            "funding": 120000000,
+            "currency": "USD"
+          },
+          "location": {
+            "city": "London",
+            "state": "N/A",
+            "country": "UK"
+          },
+          "technologies": ["React", "Node.js", "PostgreSQL", "AWS"],
+          "status": "active"
+        }
+      }
+    }
+  }
+}

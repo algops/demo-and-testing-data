@@ -1,0 +1,232 @@
+{
+  "api_response": {
+    "status": "success",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "data": {
+      "companies": {
+        "tech_corp": {
+          "website": "https://www.techcorp.com",
+          "name": "Tech Corporation",
+          "industry": "Technology",
+          "employee_count": 5000,
+          "founded_year": 2010,
+          "financial": {
+            "revenue": 1000000000,
+            "funding": 50000000,
+            "currency": "USD"
+          },
+          "location": {
+            "city": "San Francisco",
+            "state": "CA",
+            "country": "USA"
+          },
+          "technologies": ["React", "Node.js", "PostgreSQL", "AWS"],
+          "status": "active"
+        },
+        "startup_inc": {
+          "website": "https://startupinc.com",
+          "name": "Startup Inc",
+          "industry": "SaaS",
+          "employee_count": 150,
+          "founded_year": 2020,
+          "financial": {
+            "revenue": 5000000,
+            "funding": 2000000,
+            "currency": "USD"
+          },
+          "location": {
+            "city": "Austin",
+            "state": "TX",
+            "country": "USA"
+          },
+          "technologies": ["Vue.js", "Python", "MongoDB"],
+          "status": "active"
+        }
+      },
+      "people": {
+        "employees": [
+          {
+            "email": "john.doe@techcorp.com",
+            "name": "John Doe",
+            "role": "Senior Developer",
+            "department": "Engineering",
+            "salary": 120000,
+            "skills": ["JavaScript", "React", "Node.js"],
+            "contact": {
+              "phone": "+1-555-0123",
+              "linkedin": "linkedin.com/in/johndoe"
+            },
+            "experience_years": 8,
+            "education": "Computer Science, Stanford University"
+          },
+          {
+            "email": "jane.smith@techcorp.com",
+            "name": "Jane Smith",
+            "role": "Product Manager",
+            "department": "Product",
+            "salary": 110000,
+            "skills": ["Product Strategy", "Agile", "User Research"],
+            "contact": {
+              "phone": "+1-555-0124",
+              "linkedin": "linkedin.com/in/janesmith"
+            },
+            "experience_years": 6,
+            "education": "Business Administration, Harvard University"
+          }
+        ],
+        "contractors": {
+          "design_team": {
+            "email": "design@freelance.com",
+            "name": "Design Team",
+            "role": "UI/UX Designers",
+            "hourly_rate": 75,
+            "skills": ["Figma", "Adobe Creative Suite", "Prototyping"],
+            "contact": {
+              "phone": "+1-555-0125",
+              "website": "designfreelance.com"
+            },
+            "experience_years": 5,
+            "specialization": "Mobile App Design"
+          }
+        }
+      },
+      "documents": [
+        {
+          "id": "doc_001",
+          "title": "Technical Architecture Overview",
+          "type": "technical_specification",
+          "author": "john.doe@techcorp.com",
+          "created_date": "2024-01-10T09:00:00Z",
+          "last_modified": "2024-01-12T14:30:00Z",
+          "file_size": 2048576,
+          "file_format": "pdf",
+          "tags": ["architecture", "technical", "backend"],
+          "content_summary": "Comprehensive overview of the system architecture including database design and API specifications",
+          "access_level": "internal",
+          "department": "Engineering"
+        },
+        {
+          "id": "doc_002",
+          "title": "Q4 Financial Report",
+          "type": "financial_report",
+          "author": "finance@techcorp.com",
+          "created_date": "2024-01-05T10:00:00Z",
+          "last_modified": "2024-01-05T10:00:00Z",
+          "file_size": 1048576,
+          "file_format": "xlsx",
+          "tags": ["finance", "quarterly", "report"],
+          "content_summary": "Quarterly financial performance including revenue, expenses, and projections",
+          "access_level": "confidential",
+          "department": "Finance"
+        },
+        {
+          "id": "doc_003",
+          "title": "User Research Findings",
+          "type": "research_report",
+          "author": "jane.smith@techcorp.com",
+          "created_date": "2024-01-08T11:00:00Z",
+          "last_modified": "2024-01-09T16:45:00Z",
+          "file_size": 3145728,
+          "file_format": "docx",
+          "tags": ["research", "user_experience", "insights"],
+          "content_summary": "Comprehensive user research findings from recent usability studies and interviews",
+          "access_level": "internal",
+          "department": "Product"
+        }
+      ],
+      "job_posts": [
+        {
+          "id": "job_001",
+          "title": "Senior Full Stack Developer",
+          "company": "tech_corp",
+          "department": "Engineering",
+          "location": {
+            "city": "San Francisco",
+            "state": "CA",
+            "country": "USA",
+            "remote_option": true
+          },
+          "salary_range": {
+            "min": 120000,
+            "max": 180000,
+            "currency": "USD"
+          },
+          "job_type": "full_time",
+          "experience_level": "senior",
+          "required_skills": ["JavaScript", "React", "Node.js", "PostgreSQL"],
+          "preferred_skills": ["TypeScript", "AWS", "Docker"],
+          "responsibilities": [
+            "Develop and maintain web applications",
+            "Collaborate with cross-functional teams",
+            "Mentor junior developers"
+          ],
+          "benefits": ["Health insurance", "401k", "Stock options", "Flexible PTO"],
+          "posted_date": "2024-01-10T08:00:00Z",
+          "application_deadline": "2024-02-10T23:59:59Z",
+          "status": "active"
+        },
+        {
+          "id": "job_002",
+          "title": "Product Manager",
+          "company": "startup_inc",
+          "department": "Product",
+          "location": {
+            "city": "Austin",
+            "state": "TX",
+            "country": "USA",
+            "remote_option": false
+          },
+          "salary_range": {
+            "min": 90000,
+            "max": 130000,
+            "currency": "USD"
+          },
+          "job_type": "full_time",
+          "experience_level": "mid_level",
+          "required_skills": ["Product Strategy", "Agile", "User Research", "Data Analysis"],
+          "preferred_skills": ["SQL", "A/B Testing", "Growth Hacking"],
+          "responsibilities": [
+            "Define product roadmap and strategy",
+            "Conduct user research and market analysis",
+            "Work with engineering team on feature development"
+          ],
+          "benefits": ["Health insurance", "Equity", "Unlimited PTO"],
+          "posted_date": "2024-01-12T09:00:00Z",
+          "application_deadline": "2024-02-12T23:59:59Z",
+          "status": "active"
+        },
+        {
+          "id": "job_003",
+          "title": "UI/UX Designer (Contract)",
+          "company": "tech_corp",
+          "department": "Design",
+          "location": {
+            "city": "Remote",
+            "state": "N/A",
+            "country": "USA",
+            "remote_option": true
+          },
+          "salary_range": {
+            "min": 60,
+            "max": 80,
+            "currency": "USD",
+            "type": "hourly"
+          },
+          "job_type": "contract",
+          "experience_level": "senior",
+          "required_skills": ["Figma", "Adobe Creative Suite", "Prototyping", "User Research"],
+          "preferred_skills": ["Design Systems", "Animation", "Mobile Design"],
+          "responsibilities": [
+            "Create user interface designs",
+            "Conduct usability testing",
+            "Collaborate with product and engineering teams"
+          ],
+          "benefits": ["Flexible schedule", "Remote work"],
+          "posted_date": "2024-01-15T10:00:00Z",
+          "application_deadline": "2024-01-30T23:59:59Z",
+          "status": "active"
+        }
+      ]
+    }
+  }
+} 

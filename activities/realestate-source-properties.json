@@ -1,0 +1,67 @@
+{
+  "id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+  "name": "Real Estate Property Sourcing",
+  "description": "Sources property listings from real estate API based on location and price criteria",
+  "type": "source",
+  "object_type": "property",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "realestate_source": {
+        "id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["f6g7h8i9-j0k1-2345-f012-678901234567", "g7h8i9j0-k1l2-3456-0123-789012345678"]
+          }
+        }
+      },
+      "location_factor": {
+        "id": "f6g7h8i9-j0k1-2345-f012-678901234567",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["e5f6g7h8-i9j0-1234-ef01-567890123456"]
+          }
+        }
+      },
+      "price_factor": {
+        "id": "g7h8i9j0-k1l2-3456-0123-789012345678",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["e5f6g7h8-i9j0-1234-ef01-567890123456"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 3420,
+    "successful_requests": 3256,
+    "failed_requests": 164,
+    "success_rate": 0.952,
+    "average_duration": 78.0,
+    "last_used_at": "2025-01-20T16:30:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-10T08:15:00.000Z",
+    "updated_at": "2025-01-20T16:30:45.000Z",
+    "workflows": [
+      {
+        "id": "h8i9j0k1-l2m3-4567-1234-890123456789",
+        "name": "Real Estate Market Analysis"
+      }
+    ],
+    "recent_requests": [
+      {
+        "id": "r5s6t7u8-v9w0-1234-5678-901234567890",
+        "timestamp": "2025-01-20T16:30:45.000Z",
+        "status": "completed"
+      }
+    ]
+  }
+}

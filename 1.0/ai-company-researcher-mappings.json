@@ -1,0 +1,42 @@
+{
+  "35167ee5-bfd9-4221-8d47-b78096bdd0ac": {
+    "name": "AI Company Researcher",
+    "run_request_template": {
+      "request": {
+        "run_setup": ["body"],
+        "webhook_url": ["webhook_url"],
+        "run_id": ["id"]
+      },
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "ready": "completed",
+          "processing": "running",
+          "failed": "error"
+        }
+      }
+    },
+    "status_request_template": {
+      "request": {},
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "ready": "completed",
+          "processing": "running",
+          "failed": "error"
+        }
+      }
+    },
+    "delivery_request_template": {
+      "request": {},
+      "response": {
+        "status": ["status"],
+        "status_translations": {
+          "ready": "completed",
+          "processing": "running",
+          "failed": "error"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "LinkedIn People Dataset",
+      "description": "Professional profiles and contact information from LinkedIn",
+      "object_source_mappings": [
+        {
+          "id": "p4q5r6s7-t8u9-0123-4567-890123456789",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "email"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract employee email addresses as person objects"
+        },
+        {
+          "id": "r6s7t8u9-v0w1-2345-6789-012345678901",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "contractors",
+            "*",
+            "email"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract contractor email addresses as person objects"
+        },
+        {
+          "id": "s7t8u9v0-w1x2-3456-7890-123456789012",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract employee names as person objects"
+        }
+      ],
+      "datapoint_source_mappings": [
+        {
+          "id": "5ca594e7-2180-433b-97a9-3634b7643d1e",
+          "datapoint_id": "s9t0u1v2-w3x4-5678-2345-901234567890",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "name"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person name"
+        },
+        {
+          "id": "e7773ef5-b303-4a49-8b5b-5c11f825a1d0",
+          "datapoint_id": "t0u1v2w3-x4y5-6789-3456-012345678901",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "role"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person role"
+        },
+        {
+          "id": "44df7118-1ef3-4597-abed-32906d23b025",
+          "datapoint_id": "u1v2w3x4-y5z6-7890-4567-123456789012",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "department"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person department"
+        },
+        {
+          "id": "cb2e767c-ca00-4242-9e16-ce828bb31a89",
+          "datapoint_id": "v2w3x4y5-z6a7-8901-5678-234567890123",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "salary"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person salary"
+        },
+        {
+          "id": "10131d33-31ae-4304-a301-721b67fb970b",
+          "datapoint_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "contractors",
+            "*",
+            "hourly_rate"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person hourly rate"
+        },
+        {
+          "id": "b00f8af1-9f38-4cd4-b25e-e2e991abf130",
+          "datapoint_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "skills",
+            "0"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract first skill from skills array"
+        },
+        {
+          "id": "56f17c99-9c9d-4a9c-849e-f3b62f9aa0ef",
+          "datapoint_id": "y5z6a7b8-c9d0-1234-8901-567890123456",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "contact",
+            "phone"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person phone number"
+        },
+        {
+          "id": "d8bcd088-e689-470f-95ca-4c55dba8947b",
+          "datapoint_id": "z6a7b8c9-d0e1-2345-9012-678901234567",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "contact",
+            "linkedin"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person LinkedIn profile"
+        },
+        {
+          "id": "f2897c23-5257-4df7-8a42-a47fcd94b996",
+          "datapoint_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "contractors",
+            "*",
+            "contact",
+            "website"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person website"
+        },
+        {
+          "id": "e08389d8-ed84-4940-a9e0-1500791eecb1",
+          "datapoint_id": "b8c9d0e1-f2g3-4567-1234-890123456789",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "experience_years"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person years of experience"
+        },
+        {
+          "id": "f579150d-985b-4cf6-bc78-2c3e07ca0438",
+          "datapoint_id": "c9d0e1f2-g3h4-5678-2345-901234567890",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "education"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person education"
+        },
+        {
+          "id": "408589fb-39ce-41eb-9c30-542166d14433",
+          "datapoint_id": "d0e1f2g3-h4i5-6789-3456-012345678901",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "contractors",
+            "*",
+            "specialization"
+          ],
+          "key_mapping_type": "value",
+          "status": "mapped",
+          "description": "Extract person specialization"
+        },
+        {
+          "id": "person-invalid-1",
+          "datapoint_id": "dp-person-invalid",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [
+            "api_response",
+            "data",
+            "people",
+            "employees",
+            "*",
+            "nonexistent_field"
+          ],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Invalid field path - will cause extraction issues"
+        },
+        {
+          "id": "person-empty-1",
+          "datapoint_id": "dp-person-empty",
+          "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+          "key_mapping": [],
+          "key_mapping_type": "value",
+          "status": "issue",
+          "description": "Empty mapping path - invalid configuration"
+        }
+      ]
+    }
+  ]
+}

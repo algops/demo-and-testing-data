@@ -1,0 +1,211 @@
+{
+  "mls_data": {
+    "mls_id": "MLS-2024-SF-001",
+    "data_source": "Multiple Listing Service",
+    "last_refresh": "2024-01-15T06:00:00Z",
+    "market_status": "active",
+    "total_listings": 234,
+    "property_inventory": [
+      {
+        "listing_id": "PROP-SF-001",
+        "property_address": {
+          "street": "123 Market Street",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip": "94102",
+          "country": "USA",
+          "coordinates": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+          }
+        },
+        "property_details": {
+          "type": "condo",
+          "bedrooms": 2,
+          "bathrooms": 2.5,
+          "square_feet": 1200,
+          "year_built": 2015,
+          "lot_size": 0.05,
+          "stories": 1,
+          "garage_spaces": 1
+        },
+        "pricing": {
+          "list_price": 1250000,
+          "price_per_sqft": 1041.67,
+          "currency": "USD",
+          "tax_assessment": 1180000,
+          "hoa_fees": 450,
+          "hoa_frequency": "monthly"
+        },
+        "listing_info": {
+          "mls_number": "SF-2024-001",
+          "listing_date": "2024-01-10T00:00:00Z",
+          "days_on_market": 5,
+          "listing_agent": {
+            "name": "Jennifer Martinez",
+            "license": "CA-123456",
+            "phone": "+1-555-0100",
+            "email": "j.martinez@realestate.com"
+          },
+          "brokerage": "Golden Gate Properties"
+        },
+        "property_features": [
+          "Hardwood floors",
+          "Updated kitchen",
+          "In-unit laundry",
+          "Balcony",
+          "Parking space"
+        ],
+        "amenities": [
+          "Fitness center",
+          "Rooftop deck",
+          "Concierge",
+          "Package room"
+        ],
+        "property_history": {
+          "last_sold_date": "2018-06-15T00:00:00Z",
+          "last_sold_price": 950000,
+          "price_changes": [
+            {
+              "date": "2024-01-10T00:00:00Z",
+              "price": 1250000,
+              "change_type": "list"
+            }
+          ]
+        },
+        "property_images": [
+          {
+            "url": "https://images.realestate.com/prop-sf-001-1.jpg",
+            "caption": "Living room",
+            "is_primary": true
+          },
+          {
+            "url": "https://images.realestate.com/prop-sf-001-2.jpg",
+            "caption": "Kitchen",
+            "is_primary": false
+          }
+        ],
+        "virtual_tour": {
+          "available": true,
+          "url": "https://tours.realestate.com/prop-sf-001",
+          "type": "3d_walkthrough"
+        },
+        "open_houses": [
+          {
+            "date": "2024-01-20T14:00:00Z",
+            "end_time": "2024-01-20T16:00:00Z",
+            "agent_present": true
+          }
+        ],
+        "property_tags": ["modern", "downtown", "luxury", "investment"]
+      },
+      {
+        "listing_id": "PROP-SF-002",
+        "property_address": {
+          "street": "456 Castro Street",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip": "94114",
+          "country": "USA",
+          "coordinates": {
+            "latitude": 37.7611,
+            "longitude": -122.4350
+          }
+        },
+        "property_details": {
+          "type": "single_family",
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "square_feet": 1800,
+          "year_built": 1920,
+          "lot_size": 0.12,
+          "stories": 2,
+          "garage_spaces": 0
+        },
+        "pricing": {
+          "list_price": 1850000,
+          "price_per_sqft": 1027.78,
+          "currency": "USD",
+          "tax_assessment": 1750000,
+          "hoa_fees": 0,
+          "hoa_frequency": "none"
+        },
+        "listing_info": {
+          "mls_number": "SF-2024-002",
+          "listing_date": "2024-01-12T00:00:00Z",
+          "days_on_market": 3,
+          "listing_agent": {
+            "name": "David Chen",
+            "license": "CA-789012",
+            "phone": "+1-555-0200",
+            "email": "d.chen@realestate.com"
+          },
+          "brokerage": "Bay Area Realty"
+        },
+        "property_features": [
+          "Original hardwood floors",
+          "Victorian architecture",
+          "Garden",
+          "Updated electrical",
+          "New roof"
+        ],
+        "amenities": [
+          "Garden",
+          "Storage shed",
+          "Patio"
+        ],
+        "property_history": {
+          "last_sold_date": "2015-03-20T00:00:00Z",
+          "last_sold_price": 1200000,
+          "price_changes": [
+            {
+              "date": "2024-01-12T00:00:00Z",
+              "price": 1850000,
+              "change_type": "list"
+            }
+          ]
+        },
+        "property_images": [
+          {
+            "url": "https://images.realestate.com/prop-sf-002-1.jpg",
+            "caption": "Exterior view",
+            "is_primary": true
+          }
+        ],
+        "virtual_tour": {
+          "available": false,
+          "url": null,
+          "type": null
+        },
+        "open_houses": [
+          {
+            "date": "2024-01-21T13:00:00Z",
+            "end_time": "2024-01-21T15:00:00Z",
+            "agent_present": true
+          }
+        ],
+        "property_tags": ["victorian", "historic", "family", "garden"]
+      }
+    ],
+    "market_analytics": {
+      "average_price": 1550000,
+      "median_price": 1450000,
+      "price_trend": "increasing",
+      "inventory_level": "low",
+      "days_on_market_avg": 28,
+      "price_per_sqft_avg": 1034.75,
+      "market_activity": {
+        "new_listings_30d": 45,
+        "sold_listings_30d": 38,
+        "pending_listings": 12,
+        "withdrawn_listings": 3
+      },
+      "neighborhood_stats": {
+        "walk_score": 89,
+        "transit_score": 78,
+        "bike_score": 92,
+        "school_rating": 8.5
+      }
+    }
+  }
+}
