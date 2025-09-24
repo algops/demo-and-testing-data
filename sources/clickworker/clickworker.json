@@ -1,0 +1,39 @@
+{
+  "id": "n4o5p6q7-r8s9-0123-n890-456789012345",
+  "name": "Clickworker",
+  "description": "Crowdsourced data annotation and microtask platform",
+  "source_type": "Dataset",
+  "delivery_type": "Endpoint",
+  "configuration": {
+    "max_concurrent_runs": 8,
+    "timeout": 360,
+    "max_retries": 3,
+    "auth_key": "clickworker_api_key"
+  },
+  "templates": {
+    "run_request_template": "{}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
+  },
+  "setup": {
+    "run_request_template": {},
+    "status_request_template": {},
+    "delivery_request_template": {}
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-21T00:00:00.000Z",
+    "updated_at": "2025-01-21T00:00:00.000Z",
+    "last_used_at": null,
+    "average_run_duration": 270,
+    "total_runs": 0,
+    "successful_runs": 0,
+    "failed_runs": 0,
+    "success_rate": 0.0,
+    "activities_count": 0,
+    "workflows_count": 0,
+    "activities": [],
+    "workflows": []
+  }
+}

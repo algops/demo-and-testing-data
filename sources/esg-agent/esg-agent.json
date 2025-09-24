@@ -10,27 +10,12 @@
     "max_retries": 1
   },
   "templates": {
-    "run_request_template": "{\"url\": \"https://esg-agent.internal/api/process\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {\"document_id\": \"<<$run_setup>>\"}}",
+    "run_request_template": "{}",
     "status_request_template": "{}",
     "delivery_request_template": "{}"
   },
   "setup": {
-    "run_request_template": {
-      "request": {
-        "run_setup": ["body", "document_id"]
-      },
-      "response": {
-        "status": ["status"],
-        "status_translations": {
-          "invalid": "invalid",
-          "waiting": "queued",
-          "in_progress": "analyzing",
-          "ready": "completed",
-          "done": "processed",
-          "failed": "error"
-        }
-      }
-    },
+    "run_request_template": {},
     "status_request_template": {},
     "delivery_request_template": {}
   },

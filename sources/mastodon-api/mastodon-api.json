@@ -1,0 +1,39 @@
+{
+  "id": "a_generated_uuid_for_mastodon_api",
+  "name": "Mastodon API",
+  "description": "Mastodon's API for accessing decentralized social media data.",
+  "source_type": "API",
+  "delivery_type": "Endpoint",
+  "configuration": {
+    "max_concurrent_runs": 20,
+    "timeout": 120,
+    "max_retries": 3,
+    "auth_key": null
+  },
+  "templates": {
+    "run_request_template": "{}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
+  },
+  "setup": {
+    "run_request_template": {},
+    "status_request_template": {},
+    "delivery_request_template": {}
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-21T00:00:00.000Z",
+    "updated_at": "2025-01-21T00:00:00.000Z",
+    "last_used_at": null,
+    "average_run_duration": null,
+    "total_runs": null,
+    "successful_runs": null,
+    "failed_runs": null,
+    "success_rate": null,
+    "activities_count": null,
+    "workflows_count": null,
+    "activities": [],
+    "workflows": []
+  }
+}

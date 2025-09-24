@@ -62,7 +62,7 @@
       "total_runs": 180,
       "successful_runs": 108,
       "failed_runs": 72,
-      "success_rate": 0.600,
+      "success_rate": 0.6,
       "activities_count": 3,
       "workflows_count": 1
     },
@@ -150,7 +150,7 @@
       "total_runs": 320,
       "successful_runs": 256,
       "failed_runs": 64,
-      "success_rate": 0.800,
+      "success_rate": 0.8,
       "activities_count": 5,
       "workflows_count": 2
     },
@@ -172,9 +172,19 @@
       "total_runs": 156,
       "successful_runs": 142,
       "failed_runs": 14,
-      "success_rate": 0.910,
+      "success_rate": 0.91,
       "activities_count": 3,
       "workflows_count": 1
     }
-  ]
+  ],
+  "templates": {
+    "run_request_template": "{}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
+  },
+  "setup": {
+    "run_request_template": {},
+    "status_request_template": {},
+    "delivery_request_template": {}
+  }
 }

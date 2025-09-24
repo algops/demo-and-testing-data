@@ -1,0 +1,39 @@
+{
+  "id": "m3n4o5p6-q7r8-9012-m789-345678901234",
+  "name": "CloudFactory",
+  "description": "Human-in-the-loop data processing and annotation platform",
+  "source_type": "Dataset",
+  "delivery_type": "Endpoint",
+  "configuration": {
+    "max_concurrent_runs": 6,
+    "timeout": 600,
+    "max_retries": 3,
+    "auth_key": "cloudfactory_api_key"
+  },
+  "templates": {
+    "run_request_template": "{}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
+  },
+  "setup": {
+    "run_request_template": {},
+    "status_request_template": {},
+    "delivery_request_template": {}
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-21T00:00:00.000Z",
+    "updated_at": "2025-01-21T00:00:00.000Z",
+    "last_used_at": null,
+    "average_run_duration": 480,
+    "total_runs": 0,
+    "successful_runs": 0,
+    "failed_runs": 0,
+    "success_rate": 0.0,
+    "activities_count": 0,
+    "workflows_count": 0,
+    "activities": [],
+    "workflows": []
+  }
+}

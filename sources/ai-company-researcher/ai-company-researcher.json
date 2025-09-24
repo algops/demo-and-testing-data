@@ -11,26 +11,12 @@
     "auth_key": null
   },
   "templates": {
-    "run_request_template": "{\"url\": \"https://ai-researcher.internal/api/analyze\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {\"query\": \"<<$run_setup>>\", \"webhook_url\": \"<<$webhook_url>>\", \"run_id\": \"<<$id>>\"}}",
+    "run_request_template": "{}",
     "status_request_template": "{}",
     "delivery_request_template": "{}"
   },
   "setup": {
-    "run_request_template": {
-      "request": {
-        "run_setup": ["body"],
-        "webhook_url": ["webhook_url"],
-        "run_id": ["id"]
-      },
-      "response": {
-        "status": ["status"],
-        "status_translations": {
-          "invalid": "invalid",
-          "waiting": "waiting",
-          "in_progress": "processing"
-        }
-      }
-    },
+    "run_request_template": {},
     "status_request_template": {},
     "delivery_request_template": {}
   },
@@ -44,7 +30,7 @@
     "total_runs": 180,
     "successful_runs": 108,
     "failed_runs": 72,
-    "success_rate": 0.600,
+    "success_rate": 0.6,
     "activities_count": 3,
     "workflows_count": 1,
     "activities": [

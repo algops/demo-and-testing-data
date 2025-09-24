@@ -11,30 +11,12 @@
     "auth_key": "job_scraper_api_key"
   },
   "templates": {
-    "run_request_template": "{\"url\": \"https://ml-scraper.internal/api/scrape\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\", \"Authorization\": \"Bearer <<$auth_key>>\"}, \"body\": {\"search_params\": \"<<$run_setup>>\", \"batch_size\": \"<<$max_objects>>\", \"callback\": \"<<$webhook_url>>\", \"job_id\": \"<<$id>>\"}}",
+    "run_request_template": "{}",
     "status_request_template": "{}",
     "delivery_request_template": "{}"
   },
   "setup": {
-    "run_request_template": {
-      "request": {
-        "run_setup": ["body", "search_params"],
-        "webhook_url": ["callback"],
-        "run_id": ["job_id"]
-      },
-      "response": {
-        "status": ["status"],
-        "status_translations": {
-          "invalid": "invalid",
-          "waiting": "queued",
-          "in_progress": "scraping",
-          "ready": "ready",
-          "done": "completed",
-          "failed": "failed",
-          "timedout": "timeout"
-        }
-      }
-    },
+    "run_request_template": {},
     "status_request_template": {},
     "delivery_request_template": {}
   },

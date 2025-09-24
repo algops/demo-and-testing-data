@@ -1,0 +1,39 @@
+{
+  "id": "b4c5d6e7-f8g9-0123-b890-456789012345",
+  "name": "ScrapeGraphAI",
+  "description": "AI-powered web scraping platform with graph-based data extraction",
+  "source_type": "Scraper",
+  "delivery_type": "Endpoint",
+  "configuration": {
+    "max_concurrent_runs": 8,
+    "timeout": 420,
+    "max_retries": 3,
+    "auth_key": "scrapegraphai_api_key"
+  },
+  "templates": {
+    "run_request_template": "{}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
+  },
+  "setup": {
+    "run_request_template": {},
+    "status_request_template": {},
+    "delivery_request_template": {}
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-21T00:00:00.000Z",
+    "updated_at": "2025-01-21T00:00:00.000Z",
+    "last_used_at": null,
+    "average_run_duration": 300,
+    "total_runs": 0,
+    "successful_runs": 0,
+    "failed_runs": 0,
+    "success_rate": 0.0,
+    "activities_count": 0,
+    "workflows_count": 0,
+    "activities": [],
+    "workflows": []
+  }
+}

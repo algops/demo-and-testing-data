@@ -11,64 +11,14 @@
     "auth_key": "ecommerce_scraper_token"
   },
   "templates": {
-    "run_request_template": "{\"url\": \"https://api.ecommerce-scraper.com/v2/scrape\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\", \"X-API-Token\": \"<<$auth_key>>\", \"X-Request-ID\": \"<<$id>>\"}, \"body\": {\"platforms\": [\"amazon\", \"ebay\", \"shopify\"], \"filters\": \"<<$run_setup>>\", \"pagination\": {\"max_pages\": 50, \"per_page\": \"<<$max_objects>>\"}, \"webhook_url\": \"<<$webhook_url>>\", \"request_id\": \"<<$id>>\"}}",
-    "status_request_template": "{\"url\": \"https://api.ecommerce-scraper.com/v2/requests/<<$run_external_id>>/status\", \"method\": \"GET\", \"headers\": {\"X-API-Token\": \"<<$auth_key>>\"}, \"body\": {}}",
-    "delivery_request_template": "{\"url\": \"https://api.ecommerce-scraper.com/v2/requests/<<$run_external_id>>/results\", \"method\": \"GET\", \"headers\": {\"X-API-Token\": \"<<$auth_key>>\"}, \"body\": {}}"
+    "run_request_template": "{}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
   },
   "setup": {
-    "run_request_template": {
-      "request": {
-        "run_setup": ["body", "filters"],
-        "webhook_url": ["webhook_url"],
-        "run_id": ["request_id"]
-      },
-      "response": {
-        "status": ["status"],
-        "status_translations": {
-          "invalid": "invalid",
-          "waiting": "waiting",
-          "in_progress": "in_progress",
-          "ready": "ready",
-          "done": "done",
-          "failed": "failed",
-          "timedout": "timedout"
-        }
-      }
-    },
-    "status_request_template": {
-      "request": {
-        "run_external_id": ["url"]
-      },
-      "response": {
-        "status": ["status"],
-        "status_translations": {
-          "invalid": "invalid",
-          "waiting": "waiting",
-          "in_progress": "in_progress",
-          "ready": "ready",
-          "done": "done",
-          "failed": "failed",
-          "timedout": "timedout"
-        }
-      }
-    },
-    "delivery_request_template": {
-      "request": {
-        "run_external_id": ["url"]
-      },
-      "response": {
-        "status": ["status"],
-        "status_translations": {
-          "invalid": "invalid",
-          "waiting": "waiting",
-          "in_progress": "in_progress",
-          "ready": "ready",
-          "done": "done",
-          "failed": "failed",
-          "timedout": "timedout"
-        }
-      }
-    }
+    "run_request_template": {},
+    "status_request_template": {},
+    "delivery_request_template": {}
   },
   "metadata": {
     "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
