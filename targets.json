@@ -100,7 +100,10 @@
         "search_config": {
           "filters": {
             "industry": "technology",
-            "employee_count": {"min": 10, "max": 1000}
+            "employee_count": {
+              "min": 10,
+              "max": 1000
+            }
           },
           "sort_by": "revenue",
           "limit": 100
@@ -117,8 +120,14 @@
       "setup": {
         "search_config": {
           "filters": {
-            "skills": ["javascript", "react", "node.js"],
-            "experience_years": {"min": 3}
+            "skills": [
+              "javascript",
+              "react",
+              "node.js"
+            ],
+            "experience_years": {
+              "min": 3
+            }
           },
           "sort_by": "salary",
           "limit": 50
@@ -136,8 +145,13 @@
         "search_config": {
           "filters": {
             "category": "electronics",
-            "price": {"min": 100, "max": 2000},
-            "rating": {"min": 4.0}
+            "price": {
+              "min": 100,
+              "max": 2000
+            },
+            "rating": {
+              "min": 4.0
+            }
           },
           "sort_by": "rating",
           "limit": 200
@@ -154,9 +168,17 @@
       "setup": {
         "search_config": {
           "filters": {
-            "make": ["toyota", "honda", "ford"],
-            "year": {"min": 2018},
-            "mileage": {"max": 50000}
+            "make": [
+              "toyota",
+              "honda",
+              "ford"
+            ],
+            "year": {
+              "min": 2018
+            },
+            "mileage": {
+              "max": 50000
+            }
           },
           "sort_by": "price",
           "limit": 75
@@ -174,8 +196,13 @@
         "search_config": {
           "filters": {
             "property_type": "house",
-            "bedrooms": {"min": 3},
-            "price": {"min": 300000, "max": 800000}
+            "bedrooms": {
+              "min": 3
+            },
+            "price": {
+              "min": 300000,
+              "max": 800000
+            }
           },
           "sort_by": "price",
           "limit": 100
@@ -211,8 +238,13 @@
       "setup": {
         "search_config": {
           "filters": {
-            "file_type": ["pdf", "docx"],
-            "file_size": {"max": 10485760}
+            "file_type": [
+              "pdf",
+              "docx"
+            ],
+            "file_size": {
+              "max": 10485760
+            }
           },
           "sort_by": "created_at",
           "limit": 50
@@ -229,7 +261,11 @@
       "setup": {
         "model_config": {
           "algorithm": "linear_regression",
-          "features": ["employee_count", "founded_year", "industry"],
+          "features": [
+            "employee_count",
+            "founded_year",
+            "industry"
+          ],
           "target_variable": "revenue"
         }
       },
@@ -244,7 +280,11 @@
       "setup": {
         "model_config": {
           "algorithm": "random_forest",
-          "features": ["email", "skills", "experience_years"],
+          "features": [
+            "email",
+            "skills",
+            "experience_years"
+          ],
           "target_variable": "churn_probability"
         }
       },
@@ -259,7 +299,12 @@
       "setup": {
         "prediction_config": {
           "model_id": "price_optimization_v1",
-          "input_features": ["category", "brand", "rating", "reviews_count"],
+          "input_features": [
+            "category",
+            "brand",
+            "rating",
+            "reviews_count"
+          ],
           "output_variable": "optimal_price"
         }
       },

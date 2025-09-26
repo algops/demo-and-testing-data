@@ -33,7 +33,7 @@
       "total_executions": 25,
       "successful_executions": 20,
       "failed_executions": 5,
-      "success_rate": 0.800,
+      "success_rate": 0.8,
       "activities_count": 5,
       "phases_count": 5,
       "average_duration": 520.5
@@ -71,7 +71,7 @@
       "total_executions": 8,
       "successful_executions": 2,
       "failed_executions": 6,
-      "success_rate": 0.250,
+      "success_rate": 0.25,
       "activities_count": 2,
       "phases_count": 2,
       "average_duration": 45.0

@@ -56,7 +56,7 @@
       "total_requests": 320,
       "successful_requests": 256,
       "failed_requests": 64,
-      "success_rate": 0.800,
+      "success_rate": 0.8,
       "workflows_count": 1,
       "average_duration": 210.0
     },
@@ -76,7 +76,7 @@
       "total_requests": 156,
       "successful_requests": 142,
       "failed_requests": 14,
-      "success_rate": 0.910,
+      "success_rate": 0.91,
       "workflows_count": 1,
       "average_duration": 35.0
     },
@@ -136,7 +136,7 @@
       "total_requests": 180,
       "successful_requests": 108,
       "failed_requests": 72,
-      "success_rate": 0.600,
+      "success_rate": 0.6,
       "workflows_count": 1,
       "average_duration": 95.0
     },
