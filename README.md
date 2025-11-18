@@ -12,31 +12,40 @@ This repository contains comprehensive demo and testing data for the AlgoPS plat
 
 ### Source Data
 - `sources/` - Individual source configurations and sample data
+  - Crunchbase API
+  - Brightdata Scraper
+  - Enrichment Agent
+  - MLFlow Lead Scoring Model
   - LinkedIn People Dataset
-  - AI Company Researcher
-  - Real Estate API
-  - E-commerce Scraper
-  - Job Market Scraper
-  - Event Management System
-  - Automotive Database
+  - Databricks Documents API
+  - RAG Agent
   - ESG Agent
+  - ETL Pipeline
+  - GitHub API
+  - ETL Documents API
+  - Trustsoft IT Agent
+  - Document Storage API
+  - Document Classification Agent
+  - RAG Agent with Guardrails
 
 ### Activity Data
 - `activities/` - Activity configurations and metadata
-  - Company enrichment activities
-  - Data extraction activities
-  - ML training activities
-  - Prediction activities
+  - Lead Scoring: Company sourcing, enrichment, scoring, people extraction and enrichment
+  - Supplier Compliance: Document sourcing, company extraction, RAG rules, ESG enrichment, contact extraction
+  - QA Software Development: GitHub merge requests, document sourcing, RAG enrichment, IT agent evaluation
+  - Knowledge Base: Document sourcing, classification, structured rules creation
 
 ### Workflow Data
 - `workflows/` - Workflow configurations and execution data
-  - E-commerce product discovery workflows
-  - Real estate market analysis workflows
-  - Document processing workflows
+  - Lead Scoring for Nurturing (3 phases, 5 activities)
+  - Supplier Compliance Check/Monitoring (3 phases, 5 activities)
+  - Automate Quality Assurance and Reporting of Software Development (3 phases, 4 activities)
+  - Prepare Knowledge Base Directory for Support Chatbot (3 phases, 3 activities)
 
 ### Sample Data
 - `samples/` - Sample data for development and testing
   - Companies, persons, documents, job posts, organizations
+  - Merge requests, knowledge sources, regulations, contacts
 
 ### Legacy Data
 - `1.0/` - Legacy data files for reference

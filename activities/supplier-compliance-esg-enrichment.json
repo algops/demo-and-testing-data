@@ -1,0 +1,70 @@
+{
+  "id": "sc-act-004-esg-enrichment",
+  "name": "ESG Agent Enrichment",
+  "description": "Enriches companies with ESG compliance data",
+  "type": "enrich",
+  "object_type": "company",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "esg_agent": {
+        "id": "src-esg-agent",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-esg-score", "factor-compliance-status", "factor-rfi-sent-date"]
+          }
+        }
+      },
+      "esg_score_factor": {
+        "id": "factor-esg-score",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-esg-agent"]
+          }
+        }
+      },
+      "compliance_status_factor": {
+        "id": "factor-compliance-status",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-esg-agent"]
+          }
+        }
+      },
+      "rfi_sent_date_factor": {
+        "id": "factor-rfi-sent-date",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-esg-agent"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 200,
+    "successful_requests": 170,
+    "failed_requests": 30,
+    "success_rate": 0.85,
+    "average_duration": 95.0,
+    "last_used_at": "2025-01-20T16:30:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-10T08:15:00.000Z",
+    "updated_at": "2025-01-20T16:30:45.000Z",
+    "workflows": [
+      {
+        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "name": "Supplier Compliance Check/Monitoring"
+      }
+    ]
+  }
+}
+

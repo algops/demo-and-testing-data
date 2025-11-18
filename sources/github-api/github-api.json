@@ -1,0 +1,90 @@
+{
+  "id": "src-github-api",
+  "name": "GitHub API",
+  "description": "GitHub REST API for accessing merge requests, commit messages, diffs, and repository information",
+  "source_type": "Integration",
+  "delivery_type": "Webhook",
+  "configuration": {
+    "max_concurrent_runs": 40,
+    "timeout": 90,
+    "max_retries": 2,
+    "auth_key": null
+  },
+  "templates": {
+    "run_request_template": "{\"url\": \"https://api.github.com/repos/<<$repo>>/pulls\", \"method\": \"GET\", \"headers\": {\"Accept\": \"application/vnd.github.v3+json\", \"Authorization\": \"token <<$auth_key>>\"}, \"body\": {\"state\": \"open\", \"filters\": \"<<$run_setup>>\", \"per_page\": \"<<$max_objects>>\"}}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
+  },
+  "setup": {
+    "run_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_setup": { "path": ["body", "filters"], "status": "mapped" },
+          "webhook_url": { "path": ["webhook_url"], "status": "remaining" },
+          "run_id": { "path": ["id"], "status": "issue" }
+        },
+        "response": {
+          "status": {
+            "path": ["status"],
+            "status": "recommended",
+            "status_translations": { "ready": "completed", "processing": "running", "failed": "error" }
+          },
+          "request_id": {
+            "path": ["request_id"],
+            "status": "mapped"
+          }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://api.github.com/repos/<<$repo>>/pulls\", \"method\": \"GET\", \"headers\": {\"Accept\": \"application/vnd.github.v3+json\", \"Authorization\": \"token <<$auth_key>>\"}, \"body\": {\"state\": \"open\", \"filters\": \"<<$run_setup>>\", \"per_page\": \"<<$max_objects>>\"}}"
+    },
+    "status_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_external_id": { "path": ["url"], "status": "mapped" }
+        },
+        "response": {
+          "status": { "path": ["status"], "status": "mapped" }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://api.github.com/repos/<<$repo>>/pulls/<<$run_external_id>>\", \"method\": \"GET\", \"headers\": {\"Authorization\": \"token <<$auth_key>>\"}, \"body\": {}}"
+    },
+    "delivery_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_external_id": { "path": ["url"], "status": "mapped" }
+        },
+        "response": {
+          "data": { "path": ["merge_requests"], "status": "mapped" }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://api.github.com/repos/<<$repo>>/pulls\", \"method\": \"GET\", \"headers\": {\"Authorization\": \"token <<$auth_key>>\"}, \"body\": {}}"
+    }
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-12T14:20:00.000Z",
+    "updated_at": "2025-01-20T11:20:15.000Z",
+    "last_used_at": "2025-01-20T11:20:15.000Z",
+    "average_run_duration": 45,
+    "total_runs": 200,
+    "successful_runs": 190,
+    "failed_runs": 10,
+    "success_rate": 0.95,
+    "activities_count": 1,
+    "workflows_count": 1,
+    "activities": [
+      {
+        "id": "qa-act-001-github-mr",
+        "name": "GitHub Merge Requests Sourcing"
+      }
+    ],
+    "workflows": [
+      {
+        "id": "wf3-qa-software-dev-0001-0002-0003-0004",
+        "name": "Automate Quality Assurance and Reporting of Software Development"
+      }
+    ]
+  }
+}
+

@@ -1,39 +1,89 @@
 {
-  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-  "name": "Bright Data",
-  "description": "Web scraping and data collection platform providing proxy services and scraping infrastructure",
-  "source_type": "Scraper",
+  "id": "src-bright-data",
+  "name": "Brightdata Scraper",
+  "description": "Advanced web scraping platform for extracting company data from various websites with proxy rotation and anti-bot protection",
+  "source_type": "Integration",
   "delivery_type": "Endpoint",
   "configuration": {
-    "max_concurrent_runs": 10,
-    "timeout": 300,
-    "max_retries": 3,
-    "auth_key": "bright_data_api_key"
+    "max_concurrent_runs": 15,
+    "timeout": 180,
+    "max_retries": 2,
+    "auth_key": null
   },
   "templates": {
-    "run_request_template": "{}",
+    "run_request_template": "{\"url\": \"https://api.brightdata.com/datasets/company_data\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\", \"Authorization\": \"Bearer <<$auth_key>>\"}, \"body\": {\"query\": \"<<$run_setup>>\", \"max_results\": \"<<$max_objects>>\"}}",
     "status_request_template": "{}",
     "delivery_request_template": "{}"
   },
   "setup": {
-    "run_request_template": {},
-    "status_request_template": {},
-    "delivery_request_template": {}
+    "run_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_setup": { "path": ["body", "query"], "status": "mapped" },
+          "webhook_url": { "path": ["webhook_url"], "status": "remaining" },
+          "run_id": { "path": ["id"], "status": "issue" }
+        },
+        "response": {
+          "status": {
+            "path": ["status"],
+            "status": "recommended",
+            "status_translations": { "ready": "completed", "processing": "running", "failed": "error" }
+          },
+          "job_id": {
+            "path": ["job_id"],
+            "status": "mapped"
+          }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://api.brightdata.com/datasets/company_data\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\", \"Authorization\": \"Bearer <<$auth_key>>\"}, \"body\": {\"query\": \"<<$run_setup>>\", \"max_results\": \"<<$max_objects>>\"}}"
+    },
+    "status_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_external_id": { "path": ["url"], "status": "mapped" }
+        },
+        "response": {
+          "status": { "path": ["status"], "status": "mapped" }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://api.brightdata.com/jobs/<<$run_external_id>>/status\", \"method\": \"GET\", \"headers\": {\"Authorization\": \"Bearer <<$auth_key>>\"}, \"body\": {}}"
+    },
+    "delivery_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_external_id": { "path": ["url"], "status": "mapped" }
+        },
+        "response": {
+          "data": { "path": ["data"], "status": "mapped" }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://api.brightdata.com/jobs/<<$run_external_id>>/results\", \"method\": \"GET\", \"headers\": {\"Authorization\": \"Bearer <<$auth_key>>\"}, \"body\": {}}"
+    }
   },
   "metadata": {
     "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
     "owner_org_name": "AlgOps Data Solutions",
-    "created_at": "2025-01-21T00:00:00.000Z",
-    "updated_at": "2025-01-21T00:00:00.000Z",
-    "last_used_at": null,
-    "average_run_duration": 120,
-    "total_runs": 0,
-    "successful_runs": 0,
-    "failed_runs": 0,
-    "success_rate": 0.0,
-    "activities_count": 0,
-    "workflows_count": 0,
-    "activities": [],
-    "workflows": []
+    "created_at": "2025-01-15T10:30:00.000Z",
+    "updated_at": "2025-01-20T14:45:30.000Z",
+    "last_used_at": "2025-01-20T14:45:30.000Z",
+    "average_run_duration": 85,
+    "total_runs": 950,
+    "successful_runs": 902,
+    "failed_runs": 48,
+    "success_rate": 0.949,
+    "activities_count": 1,
+    "workflows_count": 1,
+    "activities": [
+      {
+        "id": "ls-act-001-source-companies",
+        "name": "Sourcing Companies"
+      }
+    ],
+    "workflows": [
+      {
+        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "name": "Lead Scoring for Nurturing"
+      }
+    ]
   }
 }

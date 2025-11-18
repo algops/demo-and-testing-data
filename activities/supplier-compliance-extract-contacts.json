@@ -1,0 +1,79 @@
+{
+  "id": "sc-act-005-extract-contacts",
+  "name": "Extraction of Person and Contacts from ETL",
+  "description": "Extracts person and contact information from ETL pipeline",
+  "type": "extract",
+  "object_type": "person",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "etl_pipeline": {
+        "id": "src-etl-pipeline",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-person-name", "factor-contact-email", "factor-contact-phone", "factor-contact-type"]
+          }
+        }
+      },
+      "person_name_factor": {
+        "id": "factor-person-name",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-etl-pipeline"]
+          }
+        }
+      },
+      "contact_email_factor": {
+        "id": "factor-contact-email",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-etl-pipeline"]
+          }
+        }
+      },
+      "contact_phone_factor": {
+        "id": "factor-contact-phone",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-etl-pipeline"]
+          }
+        }
+      },
+      "contact_type_factor": {
+        "id": "factor-contact-type",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-etl-pipeline"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 300,
+    "successful_requests": 270,
+    "failed_requests": 30,
+    "success_rate": 0.9,
+    "average_duration": 75.0,
+    "last_used_at": "2025-01-20T16:30:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-10T08:15:00.000Z",
+    "updated_at": "2025-01-20T16:30:45.000Z",
+    "workflows": [
+      {
+        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "name": "Supplier Compliance Check/Monitoring"
+      }
+    ]
+  }
+}
+

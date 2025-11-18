@@ -1,0 +1,70 @@
+{
+  "id": "qa-act-001-github-mr",
+  "name": "GitHub Merge Requests Sourcing",
+  "description": "Sources merge requests with commit messages and diffs from GitHub API",
+  "type": "source",
+  "object_type": "merge_request",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "github_api": {
+        "id": "src-github-api",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-merge-request-title", "factor-commit-message", "factor-diff-content"]
+          }
+        }
+      },
+      "mr_title_factor": {
+        "id": "factor-merge-request-title",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-github-api"]
+          }
+        }
+      },
+      "commit_message_factor": {
+        "id": "factor-commit-message",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-github-api"]
+          }
+        }
+      },
+      "diff_content_factor": {
+        "id": "factor-diff-content",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-github-api"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 200,
+    "successful_requests": 190,
+    "failed_requests": 10,
+    "success_rate": 0.95,
+    "average_duration": 45.0,
+    "last_used_at": "2025-01-20T11:20:15.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-12T14:20:00.000Z",
+    "updated_at": "2025-01-20T11:20:15.000Z",
+    "workflows": [
+      {
+        "id": "wf3-qa-software-dev-0001-0002-0003-0004",
+        "name": "Automate Quality Assurance and Reporting of Software Development"
+      }
+    ]
+  }
+}
+

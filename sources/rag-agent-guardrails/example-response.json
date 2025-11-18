@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "task_id": "rag-guard-task-99999",
+  "knowledge_sources": [
+    {
+      "entry_id": "kb-entry-001",
+      "title": "Product Installation Guide",
+      "content": "This guide explains how to install our product step by step. First, download the installer from the website. Then run the installation wizard...",
+      "category": "installation",
+      "tags": ["installation", "setup", "getting-started"],
+      "format_validated": true,
+      "structured_rules": {
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Download installer",
+            "details": "Visit website and download latest version"
+          },
+          {
+            "step_number": 2,
+            "action": "Run installation wizard",
+            "details": "Execute installer and follow prompts"
+          }
+        ],
+        "prerequisites": ["Windows 10+", "2GB RAM", "500MB disk space"],
+        "troubleshooting": {
+          "common_issues": [
+            "Installation fails - check system requirements",
+            "Download incomplete - verify internet connection"
+          ]
+        }
+      },
+      "created_at": "2025-01-20T09:15:20.000Z",
+      "updated_at": "2025-01-20T09:15:20.000Z",
+      "chatbot_ready": true
+    },
+    {
+      "entry_id": "kb-entry-002",
+      "title": "Troubleshooting Common Issues",
+      "content": "Common issues and their solutions:\n1. Connection timeout - Check firewall settings\n2. Authentication errors - Verify API keys\n3. Performance issues - Review system requirements...",
+      "category": "support",
+      "tags": ["troubleshooting", "support", "faq"],
+      "format_validated": true,
+      "structured_rules": {
+        "issues": [
+          {
+            "issue": "Connection timeout",
+            "solution": "Check firewall settings",
+            "category": "network"
+          },
+          {
+            "issue": "Authentication errors",
+            "solution": "Verify API keys",
+            "category": "security"
+          },
+          {
+            "issue": "Performance issues",
+            "solution": "Review system requirements",
+            "category": "performance"
+          }
+        ],
+        "escalation_path": "Contact support if issue persists"
+      },
+      "created_at": "2025-01-20T09:15:20.000Z",
+      "updated_at": "2025-01-20T09:15:20.000Z",
+      "chatbot_ready": true
+    }
+  ]
+}

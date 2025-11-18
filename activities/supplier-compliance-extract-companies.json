@@ -1,0 +1,61 @@
+{
+  "id": "sc-act-002-extract-companies",
+  "name": "Extraction of Companies",
+  "description": "Extracts company objects from document data using RAG Agent",
+  "type": "extract",
+  "object_type": "company",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "rag_agent": {
+        "id": "src-rag-agent",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-company-name", "factor-company-website"]
+          }
+        }
+      },
+      "company_name_factor": {
+        "id": "factor-company-name",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-rag-agent"]
+          }
+        }
+      },
+      "company_website_factor": {
+        "id": "factor-company-website",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-rag-agent"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 200,
+    "successful_requests": 180,
+    "failed_requests": 20,
+    "success_rate": 0.9,
+    "average_duration": 210.0,
+    "last_used_at": "2025-01-20T16:30:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-10T08:15:00.000Z",
+    "updated_at": "2025-01-20T16:30:45.000Z",
+    "workflows": [
+      {
+        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "name": "Supplier Compliance Check/Monitoring"
+      }
+    ]
+  }
+}
+

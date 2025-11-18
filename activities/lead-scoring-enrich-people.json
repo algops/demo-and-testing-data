@@ -1,0 +1,79 @@
+{
+  "id": "ls-act-005-enrich-people",
+  "name": "Enrichment of People",
+  "description": "Enriches person data with contact and profile information using LinkedIn People Dataset",
+  "type": "enrich",
+  "object_type": "person",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "linkedin_dataset": {
+        "id": "src-linkedin-dataset",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-person-email", "factor-person-phone", "factor-person-linkedin", "factor-nurturing-stage"]
+          }
+        }
+      },
+      "email_factor": {
+        "id": "factor-person-email",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-linkedin-dataset"]
+          }
+        }
+      },
+      "phone_factor": {
+        "id": "factor-person-phone",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-linkedin-dataset"]
+          }
+        }
+      },
+      "linkedin_factor": {
+        "id": "factor-person-linkedin",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-linkedin-dataset"]
+          }
+        }
+      },
+      "nurturing_stage_factor": {
+        "id": "factor-nurturing-stage",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-linkedin-dataset"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 475,
+    "successful_requests": 451,
+    "failed_requests": 24,
+    "success_rate": 0.949,
+    "average_duration": 145.0,
+    "last_used_at": "2025-01-20T14:45:30.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-15T10:30:00.000Z",
+    "updated_at": "2025-01-20T14:45:30.000Z",
+    "workflows": [
+      {
+        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "name": "Lead Scoring for Nurturing"
+      }
+    ]
+  }
+}
+

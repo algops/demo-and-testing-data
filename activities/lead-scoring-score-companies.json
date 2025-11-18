@@ -1,0 +1,61 @@
+{
+  "id": "ls-act-003-score-companies",
+  "name": "Scoring Companies",
+  "description": "Scores companies using MLFlow lead scoring model for lead quality",
+  "type": "predict",
+  "object_type": "company",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "mlflow_model": {
+        "id": "src-mlflow",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-lead-score", "factor-nurturing-priority"]
+          }
+        }
+      },
+      "lead_score_factor": {
+        "id": "factor-lead-score",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-mlflow"]
+          }
+        }
+      },
+      "nurturing_priority_factor": {
+        "id": "factor-nurturing-priority",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-mlflow"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 720,
+    "successful_requests": 648,
+    "failed_requests": 72,
+    "success_rate": 0.9,
+    "average_duration": 95.0,
+    "last_used_at": "2025-01-20T14:45:30.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-15T10:30:00.000Z",
+    "updated_at": "2025-01-20T14:45:30.000Z",
+    "workflows": [
+      {
+        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "name": "Lead Scoring for Nurturing"
+      }
+    ]
+  }
+}
+

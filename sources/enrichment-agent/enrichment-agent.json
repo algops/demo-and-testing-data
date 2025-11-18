@@ -1,0 +1,90 @@
+{
+  "id": "src-enrichment-agent",
+  "name": "Enrichment Agent",
+  "description": "AI-powered agent that enriches company data with additional attributes including revenue, funding, and technology stack information",
+  "source_type": "Agent",
+  "delivery_type": "Webhook",
+  "configuration": {
+    "max_concurrent_runs": 10,
+    "timeout": 200,
+    "max_retries": 2,
+    "auth_key": null
+  },
+  "templates": {
+    "run_request_template": "{\"url\": \"https://enrichment-agent.internal/api/enrich\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {\"companies\": \"<<$run_setup>>\", \"webhook_url\": \"<<$webhook_url>>\", \"run_id\": \"<<$id>>\"}}",
+    "status_request_template": "{}",
+    "delivery_request_template": "{}"
+  },
+  "setup": {
+    "run_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_setup": { "path": ["body", "companies"], "status": "mapped" },
+          "webhook_url": { "path": ["body", "webhook_url"], "status": "mapped" },
+          "run_id": { "path": ["body", "run_id"], "status": "mapped" }
+        },
+        "response": {
+          "status": {
+            "path": ["status"],
+            "status": "recommended",
+            "status_translations": { "completed": "completed", "processing": "running", "failed": "error" }
+          },
+          "task_id": {
+            "path": ["task_id"],
+            "status": "mapped"
+          }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://enrichment-agent.internal/api/enrich\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {\"companies\": \"<<$run_setup>>\", \"webhook_url\": \"<<$webhook_url>>\", \"run_id\": \"<<$id>>\"}}"
+    },
+    "status_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_external_id": { "path": ["url"], "status": "mapped" }
+        },
+        "response": {
+          "status": { "path": ["status"], "status": "mapped" }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://enrichment-agent.internal/api/tasks/<<$run_external_id>>/status\", \"method\": \"GET\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {}}"
+    },
+    "delivery_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_external_id": { "path": ["url"], "status": "mapped" }
+        },
+        "response": {
+          "data": { "path": ["enriched_companies"], "status": "mapped" }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://enrichment-agent.internal/api/tasks/<<$run_external_id>>/results\", \"method\": \"GET\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {}}"
+    }
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-15T10:30:00.000Z",
+    "updated_at": "2025-01-20T14:45:30.000Z",
+    "last_used_at": "2025-01-20T14:45:30.000Z",
+    "average_run_duration": 156,
+    "total_runs": 890,
+    "successful_runs": 756,
+    "failed_runs": 134,
+    "success_rate": 0.849,
+    "activities_count": 1,
+    "workflows_count": 1,
+    "activities": [
+      {
+        "id": "ls-act-002-enrich-companies",
+        "name": "Enrichment Companies"
+      }
+    ],
+    "workflows": [
+      {
+        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "name": "Lead Scoring for Nurturing"
+      }
+    ]
+  }
+}
+

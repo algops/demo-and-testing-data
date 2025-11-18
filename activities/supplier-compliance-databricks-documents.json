@@ -1,0 +1,61 @@
+{
+  "id": "sc-act-001-databricks-docs",
+  "name": "Databricks Suppliers' Documents Sourcing",
+  "description": "Sources compliance documents from Databricks Documents API",
+  "type": "source",
+  "object_type": "document",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "databricks_api": {
+        "id": "src-databricks-api",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-document-type", "factor-compliance-category"]
+          }
+        }
+      },
+      "document_type_factor": {
+        "id": "factor-document-type",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-databricks-api"]
+          }
+        }
+      },
+      "compliance_category_factor": {
+        "id": "factor-compliance-category",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-databricks-api"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 500,
+    "successful_requests": 475,
+    "failed_requests": 25,
+    "success_rate": 0.95,
+    "average_duration": 120.0,
+    "last_used_at": "2025-01-20T16:30:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-10T08:15:00.000Z",
+    "updated_at": "2025-01-20T16:30:45.000Z",
+    "workflows": [
+      {
+        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "name": "Supplier Compliance Check/Monitoring"
+      }
+    ]
+  }
+}
+

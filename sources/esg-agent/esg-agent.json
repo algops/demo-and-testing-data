@@ -1,43 +1,89 @@
 {
-  "id": "l2m3n4o5-p6q7-8901-5678-234567890123",
+  "id": "src-esg-agent",
   "name": "ESG Agent",
-  "description": "Environmental, Social, and Governance document analysis agent for sustainability reporting",
+  "description": "Environmental, Social, and Governance document analysis agent for sustainability reporting and compliance assessment",
   "source_type": "Agent",
-  "delivery_type": "Endpoint",
+  "delivery_type": "Webhook",
   "configuration": {
     "max_concurrent_runs": 3,
     "timeout": 300,
-    "max_retries": 1
+    "max_retries": 1,
+    "auth_key": null
   },
   "templates": {
-    "run_request_template": "{}",
+    "run_request_template": "{\"url\": \"https://esg-agent.internal/api/analyze\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {\"companies\": \"<<$run_setup>>\", \"webhook_url\": \"<<$webhook_url>>\", \"run_id\": \"<<$id>>\"}}",
     "status_request_template": "{}",
     "delivery_request_template": "{}"
   },
   "setup": {
-    "run_request_template": {},
-    "status_request_template": {},
-    "delivery_request_template": {}
+    "run_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_setup": { "path": ["body", "companies"], "status": "mapped" },
+          "webhook_url": { "path": ["body", "webhook_url"], "status": "mapped" },
+          "run_id": { "path": ["body", "run_id"], "status": "mapped" }
+        },
+        "response": {
+          "status": {
+            "path": ["status"],
+            "status": "recommended",
+            "status_translations": { "completed": "completed", "processing": "running", "failed": "error" }
+          },
+          "analysis_id": {
+            "path": ["analysis_id"],
+            "status": "mapped"
+          }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://esg-agent.internal/api/analyze\", \"method\": \"POST\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {\"companies\": \"<<$run_setup>>\", \"webhook_url\": \"<<$webhook_url>>\", \"run_id\": \"<<$id>>\"}}"
+    },
+    "status_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_external_id": { "path": ["url"], "status": "mapped" }
+        },
+        "response": {
+          "status": { "path": ["status"], "status": "mapped" }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://esg-agent.internal/api/analyses/<<$run_external_id>>/status\", \"method\": \"GET\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {}}"
+    },
+    "delivery_request_template": {
+      "RequestResponseMappings": {
+        "request": {
+          "run_external_id": { "path": ["url"], "status": "mapped" }
+        },
+        "response": {
+          "data": { "path": ["esg_data"], "status": "mapped" }
+        }
+      },
+      "RequestBodyTemplate": "{\"url\": \"https://esg-agent.internal/api/analyses/<<$run_external_id>>/results\", \"method\": \"GET\", \"headers\": {\"Content-Type\": \"application/json\"}, \"body\": {}}"
+    }
   },
   "metadata": {
     "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
     "owner_org_name": "AlgOps Data Solutions",
-    "created_at": "2025-01-08T11:45:00.000Z",
-    "updated_at": "2025-01-15T13:30:10.000Z",
-    "last_used_at": null,
-    "average_run_duration": 0,
-    "total_runs": 0,
-    "successful_runs": 0,
-    "failed_runs": 0,
-    "success_rate": 0.0,
-    "activities_count": 2,
-    "workflows_count": 0,
+    "created_at": "2025-01-10T08:15:00.000Z",
+    "updated_at": "2025-01-20T16:30:45.000Z",
+    "last_used_at": "2025-01-20T16:30:45.000Z",
+    "average_run_duration": 95,
+    "total_runs": 200,
+    "successful_runs": 170,
+    "failed_runs": 30,
+    "success_rate": 0.85,
+    "activities_count": 1,
+    "workflows_count": 1,
     "activities": [
       {
-        "id": "m3n4o5p6-q7r8-9012-6789-345678901234",
-        "name": "ESG Document Analysis"
+        "id": "sc-act-004-esg-enrichment",
+        "name": "ESG Agent Enrichment"
       }
     ],
-    "workflows": []
+    "workflows": [
+      {
+        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "name": "Supplier Compliance Check/Monitoring"
+      }
+    ]
   }
 }

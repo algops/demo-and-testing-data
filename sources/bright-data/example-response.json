@@ -1,0 +1,43 @@
+{
+  "status": "ready",
+  "job_id": "bd-job-78901",
+  "data": {
+    "companies": [
+      {
+        "id": "comp-001",
+        "name": "InnovateTech Solutions",
+        "website": "https://innovatetech.com",
+        "industry": "Software Development",
+        "employee_count": 180,
+        "founded_year": 2016,
+        "revenue": 15000000,
+        "currency": "USD",
+        "location": {
+          "city": "Austin",
+          "state": "Texas",
+          "country": "United States"
+        },
+        "technologies": ["Python", "React", "AWS", "Docker"],
+        "status": "active"
+      },
+      {
+        "id": "comp-002",
+        "name": "CloudScale Dynamics",
+        "website": "https://cloudscale.io",
+        "industry": "Cloud Computing",
+        "employee_count": 95,
+        "founded_year": 2019,
+        "revenue": 8000000,
+        "currency": "USD",
+        "location": {
+          "city": "Seattle",
+          "state": "Washington",
+          "country": "United States"
+        },
+        "technologies": ["Kubernetes", "Go", "Terraform", "GCP"],
+        "status": "active"
+      }
+    ]
+  }
+}
+

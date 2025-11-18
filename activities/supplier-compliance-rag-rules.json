@@ -1,0 +1,70 @@
+{
+  "id": "sc-act-003-rag-rules",
+  "name": "RAG Agent Structured Rules",
+  "description": "Creates structured compliance rules from documents using RAG Agent",
+  "type": "enrich",
+  "object_type": "regulation",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "rag_agent": {
+        "id": "src-rag-agent",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-regulation-title", "factor-structured-rules", "factor-compliance-level"]
+          }
+        }
+      },
+      "regulation_title_factor": {
+        "id": "factor-regulation-title",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-rag-agent"]
+          }
+        }
+      },
+      "structured_rules_factor": {
+        "id": "factor-structured-rules",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-rag-agent"]
+          }
+        }
+      },
+      "compliance_level_factor": {
+        "id": "factor-compliance-level",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-rag-agent"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 150,
+    "successful_requests": 135,
+    "failed_requests": 15,
+    "success_rate": 0.9,
+    "average_duration": 180.0,
+    "last_used_at": "2025-01-20T16:30:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-10T08:15:00.000Z",
+    "updated_at": "2025-01-20T16:30:45.000Z",
+    "workflows": [
+      {
+        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "name": "Supplier Compliance Check/Monitoring"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,67 @@
+{
+  "status": "completed",
+  "task_id": "enrich-task-45678",
+  "enriched_companies": [
+    {
+      "company_id": "comp-001",
+      "revenue": {
+        "amount": 15000000,
+        "currency": "USD",
+        "year": 2024
+      },
+      "funding": {
+        "total": 35000000,
+        "currency": "USD",
+        "rounds": [
+          {
+            "round": "Series A",
+            "amount": 10000000,
+            "date": "2020-05-15"
+          },
+          {
+            "round": "Series B",
+            "amount": 25000000,
+            "date": "2022-11-20"
+          }
+        ]
+      },
+      "technologies": ["Python", "React", "AWS", "Docker", "Kubernetes", "PostgreSQL"],
+      "additional_attributes": {
+        "headquarters": "San Francisco, CA",
+        "industry_tags": ["Enterprise Software", "SaaS", "B2B"],
+        "growth_rate": 0.35
+      }
+    },
+    {
+      "company_id": "comp-002",
+      "revenue": {
+        "amount": 8000000,
+        "currency": "USD",
+        "year": 2024
+      },
+      "funding": {
+        "total": 12000000,
+        "currency": "USD",
+        "rounds": [
+          {
+            "round": "Seed",
+            "amount": 2000000,
+            "date": "2019-03-10"
+          },
+          {
+            "round": "Series A",
+            "amount": 10000000,
+            "date": "2021-08-05"
+          }
+        ]
+      },
+      "technologies": ["Kubernetes", "Go", "Terraform", "GCP", "MongoDB"],
+      "additional_attributes": {
+        "headquarters": "Seattle, WA",
+        "industry_tags": ["Cloud Computing", "DevOps", "Infrastructure"],
+        "growth_rate": 0.42
+      }
+    }
+  ]
+}
+

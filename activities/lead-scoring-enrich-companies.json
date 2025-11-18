@@ -1,0 +1,70 @@
+{
+  "id": "ls-act-002-enrich-companies",
+  "name": "Enrichment Companies",
+  "description": "Enriches company data with additional attributes using Enrichment Agent",
+  "type": "enrich",
+  "object_type": "company",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "enrichment_agent": {
+        "id": "src-enrichment-agent",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-company-revenue", "factor-company-funding", "factor-company-technologies"]
+          }
+        }
+      },
+      "revenue_factor": {
+        "id": "factor-company-revenue",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-enrichment-agent"]
+          }
+        }
+      },
+      "funding_factor": {
+        "id": "factor-company-funding",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-enrichment-agent"]
+          }
+        }
+      },
+      "technologies_factor": {
+        "id": "factor-company-technologies",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-enrichment-agent"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 890,
+    "successful_requests": 756,
+    "failed_requests": 134,
+    "success_rate": 0.849,
+    "average_duration": 156.0,
+    "last_used_at": "2025-01-20T14:45:30.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-15T10:30:00.000Z",
+    "updated_at": "2025-01-20T14:45:30.000Z",
+    "workflows": [
+      {
+        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "name": "Lead Scoring for Nurturing"
+      }
+    ]
+  }
+}
+

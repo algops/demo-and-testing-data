@@ -1,0 +1,37 @@
+{
+  "predictions": [
+    {
+      "company_id": "comp-001",
+      "lead_score": 0.87,
+      "nurturing_priority": "high",
+      "score_breakdown": {
+        "company_size": 0.25,
+        "funding_stage": 0.30,
+        "industry_match": 0.20,
+        "technology_alignment": 0.12
+      },
+      "recommended_actions": [
+        "Immediate outreach",
+        "Personalized demo",
+        "Executive engagement"
+      ]
+    },
+    {
+      "company_id": "comp-002",
+      "lead_score": 0.72,
+      "nurturing_priority": "medium",
+      "score_breakdown": {
+        "company_size": 0.18,
+        "funding_stage": 0.22,
+        "industry_match": 0.18,
+        "technology_alignment": 0.14
+      },
+      "recommended_actions": [
+        "Educational content",
+        "Case studies",
+        "Follow-up in 2 weeks"
+      ]
+    }
+  ]
+}
+

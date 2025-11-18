@@ -1,0 +1,39 @@
+{
+  "status": "ready",
+  "query_id": "doc-storage-77777",
+  "documents": [
+    {
+      "id": "doc-kb-001",
+      "title": "Product Installation Guide",
+      "content": "This guide explains how to install our product step by step. First, download the installer from the website. Then run the installation wizard...",
+      "file_type": "txt",
+      "file_size": 51200,
+      "author": "Technical Writing Team",
+      "created_date": "2024-05-10T08:00:00.000Z",
+      "modified_date": "2024-11-20T14:30:00.000Z",
+      "source_location": "/knowledge-base/installation/guide-v2.txt",
+      "metadata": {
+        "category": "installation",
+        "product_version": "2.0",
+        "language": "en"
+      }
+    },
+    {
+      "id": "doc-kb-002",
+      "title": "Troubleshooting Common Issues",
+      "content": "Common issues and their solutions:\n1. Connection timeout - Check firewall settings\n2. Authentication errors - Verify API keys\n3. Performance issues - Review system requirements...",
+      "file_type": "md",
+      "file_size": 30720,
+      "author": "Support Team",
+      "created_date": "2024-08-15T10:15:00.000Z",
+      "modified_date": "2025-01-10T09:45:00.000Z",
+      "source_location": "/knowledge-base/support/troubleshooting.md",
+      "metadata": {
+        "category": "support",
+        "product_version": "all",
+        "language": "en"
+      }
+    }
+  ]
+}
+

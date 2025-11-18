@@ -1,0 +1,45 @@
+{
+  "status": "ready",
+  "search_id": "linkedin-search-12345",
+  "people": [
+    {
+      "id": "person-001",
+      "name": "John Smith",
+      "email": "john.smith@techcorp.com",
+      "phone": "+1-555-0101",
+      "role": "VP of Engineering",
+      "department": "Engineering",
+      "company": {
+        "id": "comp-001",
+        "name": "TechCorp Inc"
+      },
+      "linkedin": "https://linkedin.com/in/johnsmith",
+      "website": "https://johnsmith.dev",
+      "skills": ["Python", "React", "AWS", "Leadership"],
+      "experience_years": 12,
+      "education": "BS Computer Science, MIT",
+      "specialization": "Cloud Infrastructure",
+      "nurturing_stage": "awareness"
+    },
+    {
+      "id": "person-002",
+      "name": "Sarah Johnson",
+      "email": "sarah.j@dataflow.io",
+      "phone": "+1-555-0102",
+      "role": "Data Science Manager",
+      "department": "Data Science",
+      "company": {
+        "id": "comp-002",
+        "name": "DataFlow Systems"
+      },
+      "linkedin": "https://linkedin.com/in/sarahjohnson",
+      "website": null,
+      "skills": ["Python", "Machine Learning", "TensorFlow", "Data Analytics"],
+      "experience_years": 8,
+      "education": "MS Data Science, Stanford",
+      "specialization": "ML/AI",
+      "nurturing_stage": "consideration"
+    }
+  ]
+}
+

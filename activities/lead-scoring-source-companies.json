@@ -1,0 +1,70 @@
+{
+  "id": "ls-act-001-source-companies",
+  "name": "Sourcing Companies",
+  "description": "Sources company data from external APIs (Crunchbase API, Brightdata Scraper) for lead scoring workflow",
+  "type": "source",
+  "object_type": "company",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "crunchbase_source": {
+        "id": "src-crunchbase-api",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-company-industry", "factor-company-size"]
+          }
+        }
+      },
+      "brightdata_source": {
+        "id": "src-bright-data",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": ["factor-company-industry", "factor-company-size"]
+          }
+        }
+      },
+      "industry_factor": {
+        "id": "factor-company-industry",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-crunchbase-api", "src-bright-data"]
+          }
+        }
+      },
+      "size_factor": {
+        "id": "factor-company-size",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": ["src-crunchbase-api", "src-bright-data"]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 1250,
+    "successful_requests": 1187,
+    "failed_requests": 63,
+    "success_rate": 0.949,
+    "average_duration": 45.2,
+    "last_used_at": "2025-01-20T14:45:30.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-15T10:30:00.000Z",
+    "updated_at": "2025-01-20T14:45:30.000Z",
+    "workflows": [
+      {
+        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "name": "Lead Scoring for Nurturing"
+      }
+    ]
+  }
+}
+

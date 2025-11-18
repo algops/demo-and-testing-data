@@ -1,0 +1,61 @@
+{
+  "status": "ready",
+  "request_id": "gh-req-44444",
+  "merge_requests": [
+    {
+      "id": "mr-001",
+      "number": 1234,
+      "title": "Add user authentication feature",
+      "description": "Implements OAuth2 authentication with JWT tokens",
+      "commit_message": "feat: add OAuth2 authentication\n\n- Implement JWT token generation\n- Add refresh token mechanism\n- Update user session management",
+      "diff_content": "diff --git a/src/auth.js b/src/auth.js\n+ export function authenticateUser(credentials) {\n+   // OAuth2 implementation\n+ }",
+      "author": {
+        "login": "developer1",
+        "name": "John Developer"
+      },
+      "repository": {
+        "full_name": "company/product-api",
+        "name": "product-api"
+      },
+      "head": {
+        "ref": "feature/auth-oauth2",
+        "sha": "abc123def456"
+      },
+      "base": {
+        "ref": "main"
+      },
+      "state": "open",
+      "created_at": "2025-01-18T10:30:00.000Z",
+      "updated_at": "2025-01-20T09:15:00.000Z",
+      "merged_at": null
+    },
+    {
+      "id": "mr-002",
+      "number": 1235,
+      "title": "Fix memory leak in data processor",
+      "description": "Resolves memory leak issue in batch processing module",
+      "commit_message": "fix: resolve memory leak in batch processor\n\n- Clear event listeners properly\n- Free up buffer memory after processing",
+      "diff_content": "diff --git a/src/processor.js b/src/processor.js\n- buffer = null; // Memory leak\n+ buffer = null;\n+ eventEmitter.removeAllListeners();",
+      "author": {
+        "login": "developer2",
+        "name": "Jane Coder"
+      },
+      "repository": {
+        "full_name": "company/data-service",
+        "name": "data-service"
+      },
+      "head": {
+        "ref": "fix/memory-leak",
+        "sha": "def456ghi789"
+      },
+      "base": {
+        "ref": "main"
+      },
+      "state": "open",
+      "created_at": "2025-01-19T14:20:00.000Z",
+      "updated_at": "2025-01-20T11:00:00.000Z",
+      "merged_at": null
+    }
+  ]
+}
+
