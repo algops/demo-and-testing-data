@@ -1,0 +1,275 @@
+{
+  "id": "",
+  "name": "",
+  "description": "",
+  "source_type": "",
+  "delivery_type": "",
+  "setup": {
+    "delivery_request": {
+      "response_examples": [
+        {
+          "status": "ready",
+          "search_id": "linkedin-search-12345",
+          "people": [
+            {
+              "id": "person-001",
+              "name": "John Smith",
+              "email": "john.smith@techcorp.com",
+              "phone": "+1-555-0101",
+              "role": "VP of Engineering",
+              "department": "Engineering",
+              "company": {
+                "id": "comp-001",
+                "name": "TechCorp Inc"
+              },
+              "linkedin": "https://linkedin.com/in/johnsmith",
+              "website": "https://johnsmith.dev",
+              "skills": [
+                "Python",
+                "React",
+                "AWS",
+                "Leadership"
+              ],
+              "experience_years": 12,
+              "education": "BS Computer Science, MIT",
+              "specialization": "Cloud Infrastructure",
+              "nurturing_stage": "awareness"
+            },
+            {
+              "id": "person-002",
+              "name": "Sarah Johnson",
+              "email": "sarah.j@dataflow.io",
+              "phone": "+1-555-0102",
+              "role": "Data Science Manager",
+              "department": "Data Science",
+              "company": {
+                "id": "comp-002",
+                "name": "DataFlow Systems"
+              },
+              "linkedin": "https://linkedin.com/in/sarahjohnson",
+              "website": null,
+              "skills": [
+                "Python",
+                "Machine Learning",
+                "TensorFlow",
+                "Data Analytics"
+              ],
+              "experience_years": 8,
+              "education": "MS Data Science, Stanford",
+              "specialization": "ML/AI",
+              "nurturing_stage": "consideration"
+            }
+          ]
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "b9b695ce-46b4-4179-bc02-fab343777c77",
+            "name": "LinkedIn People Dataset",
+            "description": "Comprehensive dataset of professional profiles from LinkedIn, including contact information, job roles, skills, and experience data",
+            "object_source_mappings": [
+              {
+                "id": "06e1dd0c-2b8b-4565-8a6c-f322e083c4c8",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "people",
+                  "*",
+                  "id"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract person IDs as objects"
+              }
+            ],
+            "datapoint_source_mappings": [
+              {
+                "id": "661aa59e-24f1-41be-950f-12e150695d07",
+                "datapoint_id": "dp-person-name",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "people",
+                  "*",
+                  "name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract person name"
+              },
+              {
+                "id": "1e3cb86d-85db-4534-91bc-d231c73ad1e4",
+                "datapoint_id": "a5b6c7d8-e9f0-1234-9012-567890123456",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "people",
+                  "*",
+                  "email"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract email"
+              },
+              {
+                "id": "4b38dd69-fceb-4df1-a640-af3e4d03ae0b",
+                "datapoint_id": "z4a5b6c7-d8e9-0123-8901-456789012345",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "people",
+                  "*",
+                  "phone"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract phone"
+              },
+              {
+                "id": "537fc982-60c5-4eba-b5f3-e7a50bb26a14",
+                "datapoint_id": "p6q7r8s9-t0u1-2345-9012-678901234567",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "people",
+                  "*",
+                  "role"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract role"
+              },
+              {
+                "id": "f486296a-6f09-456b-b56f-6cf44c93f01c",
+                "datapoint_id": "q7r8s9t0-u1v2-3456-0123-789012345678",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "people",
+                  "*",
+                  "department"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract department"
+              },
+              {
+                "id": "0db367ce-ed10-4688-b15d-176aad242ee9",
+                "datapoint_id": "v2w3x4y5-z6a7-8901-5678-234567890123",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "people",
+                  "*",
+                  "linkedin"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract LinkedIn profile"
+              },
+              {
+                "id": "4b6ce88f-5d64-471f-a61b-0fc6d183feb7",
+                "datapoint_id": "t0u1v2w3-x4y5-6789-3456-012345678901",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "people",
+                  "*",
+                  "skills",
+                  "*"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract skills array"
+              },
+              {
+                "id": "8ce2dc22-20ca-4f96-b7ae-a0b5dfe50891",
+                "datapoint_id": "l0m1n2o3-p4q5-6789-4567-012345678901",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "people",
+                  "*",
+                  "experience_years"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract experience years"
+              },
+              {
+                "id": "f44b3550-0d00-4aed-850c-aab45d6c6f58",
+                "datapoint_id": "4b0c322e-f2c4-4e32-8ee7-8b750bb31c57",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "people",
+                  "*",
+                  "nurturing_stage"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract nurturing stage"
+              }
+            ]
+          }
+        ]
+      },
+      "mappings": {
+        "request": {},
+        "response": {}
+      },
+      "request_template": {
+        "url": "",
+        "method": "",
+        "headers": {},
+        "body": {}
+      }
+    },
+    "run_request": {
+      "response_examples": [],
+      "factor_variables": {},
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [],
+            "mapping_status": "remaining"
+          },
+          "run_id": {
+            "path": [],
+            "mapping_status": "remaining"
+          },
+          "webhook_url": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        }
+      },
+      "request_template": {
+        "url": "",
+        "method": "",
+        "headers": {},
+        "body": {}
+      }
+    },
+    "status_request": {
+      "response_examples": [],
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        }
+      },
+      "request_template": {
+        "url": "",
+        "method": "",
+        "headers": {},
+        "body": {}
+      }
+    }
+  }
+}

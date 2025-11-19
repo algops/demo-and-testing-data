@@ -1,5 +1,5 @@
 {
-  "id": "ls-act-001-source-companies",
+  "id": "ea58de9b-03bf-4d64-8e37-ba304e363f1b",
   "name": "Sourcing Companies",
   "description": "Sources company data from external APIs (Crunchbase API, Brightdata Scraper) for lead scoring workflow",
   "type": "source",
@@ -9,38 +9,50 @@
   "setup": {
     "data": {
       "crunchbase_source": {
-        "id": "src-crunchbase-api",
+        "id": "3578f878-65fd-49a5-972f-2101125bd618",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-company-industry", "factor-company-size"]
+            "id": [
+              "79eeedb9-1afb-4454-9abd-28fb9c4a6e5c",
+              "87e74fc4-e2e0-4d88-8982-4002ef3a7361"
+            ]
           }
         }
       },
       "brightdata_source": {
-        "id": "src-bright-data",
+        "id": "a276d56d-9fce-4a4a-b932-39c51b7d1132",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-company-industry", "factor-company-size"]
+            "id": [
+              "79eeedb9-1afb-4454-9abd-28fb9c4a6e5c",
+              "87e74fc4-e2e0-4d88-8982-4002ef3a7361"
+            ]
           }
         }
       },
       "industry_factor": {
-        "id": "factor-company-industry",
+        "id": "79eeedb9-1afb-4454-9abd-28fb9c4a6e5c",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-crunchbase-api", "src-bright-data"]
+            "id": [
+              "3578f878-65fd-49a5-972f-2101125bd618",
+              "a276d56d-9fce-4a4a-b932-39c51b7d1132"
+            ]
           }
         }
       },
       "size_factor": {
-        "id": "factor-company-size",
+        "id": "87e74fc4-e2e0-4d88-8982-4002ef3a7361",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-crunchbase-api", "src-bright-data"]
+            "id": [
+              "3578f878-65fd-49a5-972f-2101125bd618",
+              "a276d56d-9fce-4a4a-b932-39c51b7d1132"
+            ]
           }
         }
       }
@@ -61,10 +73,9 @@
     "updated_at": "2025-01-20T14:45:30.000Z",
     "workflows": [
       {
-        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "id": "0d9e8f83-7c4f-42b8-8fe1-b7220e62d6cd",
         "name": "Lead Scoring for Nurturing"
       }
     ]
   }
 }
-

@@ -1,5 +1,5 @@
 {
-  "id": "sc-act-005-extract-contacts",
+  "id": "905f07cd-17bf-469d-9a62-5623b28bd1ee",
   "name": "Extraction of Person and Contacts from ETL",
   "description": "Extracts person and contact information from ETL pipeline",
   "type": "extract",
@@ -9,47 +9,60 @@
   "setup": {
     "data": {
       "etl_pipeline": {
-        "id": "src-etl-pipeline",
+        "id": "a14b40b6-2354-402b-ae4d-81453d26b5c4",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-person-name", "factor-contact-email", "factor-contact-phone", "factor-contact-type"]
+            "id": [
+              "4a42fb8f-d3df-417d-b204-c6f13d7f5426",
+              "10fc1f81-6f78-435c-9e9e-4a617e278e0e",
+              "62844349-7412-4e83-8268-a7c3fd0d1285",
+              "71801c7e-715a-486d-a0cc-2a62c9828f6e"
+            ]
           }
         }
       },
       "person_name_factor": {
-        "id": "factor-person-name",
+        "id": "4a42fb8f-d3df-417d-b204-c6f13d7f5426",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-etl-pipeline"]
+            "id": [
+              "a14b40b6-2354-402b-ae4d-81453d26b5c4"
+            ]
           }
         }
       },
       "contact_email_factor": {
-        "id": "factor-contact-email",
+        "id": "10fc1f81-6f78-435c-9e9e-4a617e278e0e",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-etl-pipeline"]
+            "id": [
+              "a14b40b6-2354-402b-ae4d-81453d26b5c4"
+            ]
           }
         }
       },
       "contact_phone_factor": {
-        "id": "factor-contact-phone",
+        "id": "62844349-7412-4e83-8268-a7c3fd0d1285",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-etl-pipeline"]
+            "id": [
+              "a14b40b6-2354-402b-ae4d-81453d26b5c4"
+            ]
           }
         }
       },
       "contact_type_factor": {
-        "id": "factor-contact-type",
+        "id": "71801c7e-715a-486d-a0cc-2a62c9828f6e",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-etl-pipeline"]
+            "id": [
+              "a14b40b6-2354-402b-ae4d-81453d26b5c4"
+            ]
           }
         }
       }
@@ -70,10 +83,9 @@
     "updated_at": "2025-01-20T16:30:45.000Z",
     "workflows": [
       {
-        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "id": "56a88407-dca5-430d-9cd4-4d2b7a3ed27f",
         "name": "Supplier Compliance Check/Monitoring"
       }
     ]
   }
 }
-

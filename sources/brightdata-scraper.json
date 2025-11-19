@@ -1,0 +1,401 @@
+{
+  "id": "a276d56d-9fce-4a4a-b932-39c51b7d1132",
+  "name": "Brightdata Scraper",
+  "description": "Advanced web scraping platform for extracting company data from various websites with proxy rotation and anti-bot protection",
+  "source_type": "Integration",
+  "delivery_type": "Endpoint",
+  "setup": {
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body",
+              "query"
+            ],
+            "mapping_status": "mapped"
+          },
+          "webhook_url": {
+            "path": [
+              "webhook_url"
+            ],
+            "mapping_status": "remaining"
+          },
+          "run_id": {
+            "path": [
+              "id"
+            ],
+            "mapping_status": "issue"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "recommended",
+            "status_translations": {
+              "ready": "completed",
+              "processing": "running",
+              "failed": "error"
+            }
+          },
+          "job_id": {
+            "path": [
+              "job_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.brightdata.com/datasets/company_data",
+        "method": "POST",
+        "headers": {
+          "Content_Type": "application/json",
+          "Authorization": "Bearer <<$auth_key>>"
+        },
+        "body": {
+          "query": "<<$run_setup>>",
+          "max_results": "<<$max_objects>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {
+        "run_setup": {
+          "path": [
+            "body",
+            "query"
+          ],
+          "example_value": {
+            "filters": {
+              "industry": "Technology",
+              "size": "medium"
+            }
+          }
+        },
+        "webhook_url": {
+          "path": [
+            "webhook_url"
+          ],
+          "example_value": "https://example.com/webhook"
+        },
+        "run_id": {
+          "path": [
+            "id"
+          ],
+          "example_value": "run-12345"
+        }
+      }
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.brightdata.com/jobs/<<$run_external_id>>/status",
+        "method": "GET",
+        "headers": {
+          "Authorization": "Bearer <<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "data": {
+            "path": [
+              "data"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.brightdata.com/jobs/<<$run_external_id>>/results",
+        "method": "GET",
+        "headers": {
+          "Authorization": "Bearer <<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": [
+        {
+          "status": "ready",
+          "job_id": "bd-job-78901",
+          "data": {
+            "companies": [
+              {
+                "id": "comp-001",
+                "name": "InnovateTech Solutions",
+                "website": "https://innovatetech.com",
+                "industry": "Software Development",
+                "employee_count": 180,
+                "founded_year": 2016,
+                "revenue": 15000000,
+                "currency": "USD",
+                "location": {
+                  "city": "Austin",
+                  "state": "Texas",
+                  "country": "United States"
+                },
+                "technologies": [
+                  "Python",
+                  "React",
+                  "AWS",
+                  "Docker"
+                ],
+                "status": "active"
+              },
+              {
+                "id": "comp-002",
+                "name": "CloudScale Dynamics",
+                "website": "https://cloudscale.io",
+                "industry": "Cloud Computing",
+                "employee_count": 95,
+                "founded_year": 2019,
+                "revenue": 8000000,
+                "currency": "USD",
+                "location": {
+                  "city": "Seattle",
+                  "state": "Washington",
+                  "country": "United States"
+                },
+                "technologies": [
+                  "Kubernetes",
+                  "Go",
+                  "Terraform",
+                  "GCP"
+                ],
+                "status": "active"
+              }
+            ]
+          }
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "a276d56d-9fce-4a4a-b932-39c51b7d1132",
+            "name": "Brightdata Scraper",
+            "description": "Advanced web scraping platform for extracting company data from various websites with proxy rotation and anti-bot protection",
+            "object_source_mappings": [
+              {
+                "id": "8b741baf-c3ac-491d-ab21-357ef6208b19",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "id"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company IDs as objects"
+              }
+            ],
+            "datapoint_source_mappings": [
+              {
+                "id": "0d4a2ed2-2e95-40a4-81da-15f37f9488eb",
+                "datapoint_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company name"
+              },
+              {
+                "id": "f9b4fcab-da5c-42ae-94ea-7459340f1beb",
+                "datapoint_id": "q1r2s3t4-u5v6-7890-5678-123456789012",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "website"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company website"
+              },
+              {
+                "id": "5754f5d2-5f0c-47f4-9791-cfde28449770",
+                "datapoint_id": "r2s3t4u5-v6w7-8901-6789-234567890123",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "industry"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company industry"
+              },
+              {
+                "id": "6286f889-5098-47f3-8ee2-0e2bd94945c7",
+                "datapoint_id": "u5v6w7x8-y9z0-1234-9012-567890123456",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "employee_count"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract employee count"
+              },
+              {
+                "id": "6d8f1812-f760-4436-afcb-f4905465f51f",
+                "datapoint_id": "o9p0q1r2-s3t4-5678-3456-901234567890",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "founded_year"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract founded year"
+              },
+              {
+                "id": "e7a34b4e-9ebc-4cd6-9be5-562ef70f2c6c",
+                "datapoint_id": "t4u5v6w7-x8y9-0123-8901-456789012345",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "revenue"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract revenue"
+              },
+              {
+                "id": "c7c1ad62-f030-4b02-9231-996e221c6b1c",
+                "datapoint_id": "h8i9j0k1-l2m3-4567-1234-890123456789",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "currency"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract currency"
+              },
+              {
+                "id": "bacf55da-fa07-40d2-8c05-7939785e06e0",
+                "datapoint_id": "i9j0k1l2-m3n4-5678-2345-901234567890",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "location",
+                  "city"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company city"
+              },
+              {
+                "id": "6eaa7c19-1267-4fa5-9429-f6b41192ca35",
+                "datapoint_id": "j0k1l2m3-n4o5-6789-3456-012345678901",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "location",
+                  "state"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company state"
+              },
+              {
+                "id": "82f4eadd-6b3a-4d5f-af1e-7531ee2d7630",
+                "datapoint_id": "k1l2m3n4-o5p6-7890-4567-123456789012",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "location",
+                  "country"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company country"
+              },
+              {
+                "id": "dca2d537-3f41-4236-9cf5-b3c5b1852b5e",
+                "datapoint_id": "l2m3n4o5-p6q7-8901-5678-234567890123",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "technologies",
+                  "*"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract technologies array"
+              },
+              {
+                "id": "4ba03f2b-b3f8-475c-9215-704edeee6dff",
+                "datapoint_id": "x6y7z8a9-b0c1-2345-0123-678901234567",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "companies",
+                  "*",
+                  "status"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company status"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

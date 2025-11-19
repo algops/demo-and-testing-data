@@ -1,5 +1,5 @@
 {
-  "id": "qa-act-004-merge-evaluation",
+  "id": "2c339492-ef81-4773-8269-b79f75a94794",
   "name": "Merge-request evaluation",
   "description": "Enriches merge requests with IT compliance data using Trustsoft IT Agent",
   "type": "enrich",
@@ -9,38 +9,48 @@
   "setup": {
     "data": {
       "trustsoft_it_agent": {
-        "id": "src-trustsoft-it-agent",
+        "id": "4e0a34be-f332-4176-9750-ec1a2acc92de",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-quality-score", "factor-compliance-status", "factor-it-agent-review"]
+            "id": [
+              "4162a46d-c66f-4be4-96cd-54d43efd11e7",
+              "6778fb77-67cb-43ee-a377-811295ef4a27",
+              "36430d3e-59c9-48b1-973b-a408b6d4e85d"
+            ]
           }
         }
       },
       "quality_score_factor": {
-        "id": "factor-quality-score",
+        "id": "4162a46d-c66f-4be4-96cd-54d43efd11e7",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-trustsoft-it-agent"]
+            "id": [
+              "4e0a34be-f332-4176-9750-ec1a2acc92de"
+            ]
           }
         }
       },
       "compliance_status_factor": {
-        "id": "factor-compliance-status",
+        "id": "6778fb77-67cb-43ee-a377-811295ef4a27",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-trustsoft-it-agent"]
+            "id": [
+              "4e0a34be-f332-4176-9750-ec1a2acc92de"
+            ]
           }
         }
       },
       "it_agent_review_factor": {
-        "id": "factor-it-agent-review",
+        "id": "36430d3e-59c9-48b1-973b-a408b6d4e85d",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-trustsoft-it-agent"]
+            "id": [
+              "4e0a34be-f332-4176-9750-ec1a2acc92de"
+            ]
           }
         }
       }
@@ -61,10 +71,9 @@
     "updated_at": "2025-01-20T11:20:15.000Z",
     "workflows": [
       {
-        "id": "wf3-qa-software-dev-0001-0002-0003-0004",
+        "id": "91044b0c-5616-4b8b-8adc-4be084da3293",
         "name": "Automate Quality Assurance and Reporting of Software Development"
       }
     ]
   }
 }
-

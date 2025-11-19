@@ -1,5 +1,5 @@
 {
-  "id": "sc-act-003-rag-rules",
+  "id": "7dbd41c6-1911-424b-8d5a-3b91ccf0a2eb",
   "name": "RAG Agent Structured Rules",
   "description": "Creates structured compliance rules from documents using RAG Agent",
   "type": "enrich",
@@ -9,38 +9,48 @@
   "setup": {
     "data": {
       "rag_agent": {
-        "id": "src-rag-agent",
+        "id": "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-regulation-title", "factor-structured-rules", "factor-compliance-level"]
+            "id": [
+              "dbe42239-3b51-4876-8134-0e7ea9625a4c",
+              "ace3b09f-d48d-4582-b333-5aabf08c6364",
+              "8e01e2e5-b3e0-482b-b3cf-59bae80004bb"
+            ]
           }
         }
       },
       "regulation_title_factor": {
-        "id": "factor-regulation-title",
+        "id": "dbe42239-3b51-4876-8134-0e7ea9625a4c",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-rag-agent"]
+            "id": [
+              "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9"
+            ]
           }
         }
       },
       "structured_rules_factor": {
-        "id": "factor-structured-rules",
+        "id": "ace3b09f-d48d-4582-b333-5aabf08c6364",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-rag-agent"]
+            "id": [
+              "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9"
+            ]
           }
         }
       },
       "compliance_level_factor": {
-        "id": "factor-compliance-level",
+        "id": "8e01e2e5-b3e0-482b-b3cf-59bae80004bb",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-rag-agent"]
+            "id": [
+              "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9"
+            ]
           }
         }
       }
@@ -61,10 +71,9 @@
     "updated_at": "2025-01-20T16:30:45.000Z",
     "workflows": [
       {
-        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "id": "56a88407-dca5-430d-9cd4-4d2b7a3ed27f",
         "name": "Supplier Compliance Check/Monitoring"
       }
     ]
   }
 }
-

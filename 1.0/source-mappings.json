@@ -1,12 +1,12 @@
 {
   "sources": [
     {
-      "id": "src-crunchbase-api",
+      "id": "3578f878-65fd-49a5-972f-2101125bd618",
       "name": "Crunchbase API",
       "description": "Comprehensive company database API providing company profiles, funding information, and business intelligence data",
       "object_source_mappings": [
         {
-          "id": "cb-obj-001",
+          "id": "e05af737-eacf-428f-b041-6214c6bf889a",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -15,11 +15,11 @@
             "uuid"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company UUIDs as objects"
         },
         {
-          "id": "cb-obj-002",
+          "id": "009831cc-b4a0-4b1c-9286-79399e740c60",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -29,14 +29,14 @@
             "website"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company websites as objects"
         }
       ],
       "datapoint_source_mappings": [
         {
-          "id": "cb-dp-001",
-          "datapoint_id": "dp-company-name",
+          "id": "af7b5b74-c586-4214-a019-9c51b75aa6fd",
+          "datapoint_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -46,12 +46,12 @@
             "name"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company name"
         },
         {
-          "id": "cb-dp-002",
-          "datapoint_id": "dp-company-website",
+          "id": "d7c973ff-e9eb-47cc-9294-2c711e3f6d2b",
+          "datapoint_id": "q1r2s3t4-u5v6-7890-5678-123456789012",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -61,12 +61,12 @@
             "website"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company website"
         },
         {
-          "id": "cb-dp-003",
-          "datapoint_id": "dp-company-industry",
+          "id": "4193033b-7bc1-410e-aa74-563371265629",
+          "datapoint_id": "r2s3t4u5-v6w7-8901-6789-234567890123",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -78,12 +78,12 @@
             "value"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company industry from categories"
         },
         {
-          "id": "cb-dp-004",
-          "datapoint_id": "dp-employee-count",
+          "id": "16f597ee-6e24-4b62-96d1-29e3648dc648",
+          "datapoint_id": "u5v6w7x8-y9z0-1234-9012-567890123456",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -93,12 +93,12 @@
             "employee_count"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract employee count"
         },
         {
-          "id": "cb-dp-005",
-          "datapoint_id": "dp-founded-year",
+          "id": "b1594a45-e900-4286-a1af-f703f4b78580",
+          "datapoint_id": "o9p0q1r2-s3t4-5678-3456-901234567890",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -109,12 +109,12 @@
             "year"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract founded year"
         },
         {
-          "id": "cb-dp-006",
-          "datapoint_id": "dp-funding",
+          "id": "adbe3893-0a6c-4f95-b082-50cf7aad18a9",
+          "datapoint_id": "g7h8i9j0-k1l2-3456-0123-789012345678",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -125,12 +125,12 @@
             "value"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract funding amount"
         },
         {
-          "id": "cb-dp-007",
-          "datapoint_id": "dp-currency",
+          "id": "af45abd0-0abe-420c-b2eb-765f883cdd0c",
+          "datapoint_id": "h8i9j0k1-l2m3-4567-1234-890123456789",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -141,12 +141,12 @@
             "currency_code"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract currency"
         },
         {
-          "id": "cb-dp-008",
-          "datapoint_id": "dp-city",
+          "id": "3ffff648-1233-4b89-ab25-b73efe315d45",
+          "datapoint_id": "i9j0k1l2-m3n4-5678-2345-901234567890",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -158,18 +158,18 @@
             "value"
           ],
           "key_mapping_type": "value",
-          "status": "recommendation",
+          "mapping-status": "recommendation",
           "description": "Extract city from location identifiers"
         }
       ]
     },
     {
-      "id": "src-bright-data",
+      "id": "a276d56d-9fce-4a4a-b932-39c51b7d1132",
       "name": "Brightdata Scraper",
       "description": "Advanced web scraping platform for extracting company data from various websites with proxy rotation and anti-bot protection",
       "object_source_mappings": [
         {
-          "id": "bd-obj-001",
+          "id": "b25b6a8c-1090-4376-b29d-a65116fbce23",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -178,14 +178,14 @@
             "id"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company IDs as objects"
         }
       ],
       "datapoint_source_mappings": [
         {
-          "id": "bd-dp-001",
-          "datapoint_id": "dp-company-name",
+          "id": "8ba0b438-c8c3-4bb3-8399-29708864028b",
+          "datapoint_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -194,12 +194,12 @@
             "name"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company name"
         },
         {
-          "id": "bd-dp-002",
-          "datapoint_id": "dp-company-website",
+          "id": "2656ad5d-9569-4ea2-9308-b8b7bd6942c5",
+          "datapoint_id": "q1r2s3t4-u5v6-7890-5678-123456789012",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -208,12 +208,12 @@
             "website"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company website"
         },
         {
-          "id": "bd-dp-003",
-          "datapoint_id": "dp-company-industry",
+          "id": "172ea1fb-f695-4e8a-a381-5a1d463fc247",
+          "datapoint_id": "r2s3t4u5-v6w7-8901-6789-234567890123",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -222,12 +222,12 @@
             "industry"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company industry"
         },
         {
-          "id": "bd-dp-004",
-          "datapoint_id": "dp-employee-count",
+          "id": "9323a45b-6a49-43eb-97ea-807b8d9ae62c",
+          "datapoint_id": "u5v6w7x8-y9z0-1234-9012-567890123456",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -236,12 +236,12 @@
             "employee_count"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract employee count"
         },
         {
-          "id": "bd-dp-005",
-          "datapoint_id": "dp-founded-year",
+          "id": "952e39fd-a80a-4fd4-8f85-f3f847f0f8cc",
+          "datapoint_id": "o9p0q1r2-s3t4-5678-3456-901234567890",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -250,12 +250,12 @@
             "founded_year"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract founded year"
         },
         {
-          "id": "bd-dp-006",
-          "datapoint_id": "dp-revenue",
+          "id": "cc36eaff-e56e-421f-ae86-972bd01f2700",
+          "datapoint_id": "t4u5v6w7-x8y9-0123-8901-456789012345",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -264,12 +264,12 @@
             "revenue"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract revenue"
         },
         {
-          "id": "bd-dp-007",
-          "datapoint_id": "dp-currency",
+          "id": "1e48000c-4634-4324-97b3-00e786f9636a",
+          "datapoint_id": "h8i9j0k1-l2m3-4567-1234-890123456789",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -278,12 +278,12 @@
             "currency"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract currency"
         },
         {
-          "id": "bd-dp-008",
-          "datapoint_id": "dp-city",
+          "id": "f904defa-5065-48de-abfe-d38d8a9b7ee0",
+          "datapoint_id": "i9j0k1l2-m3n4-5678-2345-901234567890",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -293,12 +293,12 @@
             "city"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company city"
         },
         {
-          "id": "bd-dp-009",
-          "datapoint_id": "dp-state",
+          "id": "9d787157-068e-49c4-a10a-411a5e02cf2a",
+          "datapoint_id": "j0k1l2m3-n4o5-6789-3456-012345678901",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -308,12 +308,12 @@
             "state"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company state"
         },
         {
-          "id": "bd-dp-010",
-          "datapoint_id": "dp-country",
+          "id": "7552ea9b-cbf8-46ec-99de-5feaae9c2ffc",
+          "datapoint_id": "k1l2m3n4-o5p6-7890-4567-123456789012",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -323,12 +323,12 @@
             "country"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company country"
         },
         {
-          "id": "bd-dp-011",
-          "datapoint_id": "dp-technologies",
+          "id": "2199bdb1-4bca-4987-9cb9-11965a3af1b3",
+          "datapoint_id": "l2m3n4o5-p6q7-8901-5678-234567890123",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -338,12 +338,12 @@
             "*"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract technologies array"
         },
         {
-          "id": "bd-dp-012",
-          "datapoint_id": "dp-status",
+          "id": "ea1dd342-6971-4cfe-904e-bf10fa54d5b5",
+          "datapoint_id": "x6y7z8a9-b0c1-2345-0123-678901234567",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "data",
@@ -352,20 +352,20 @@
             "status"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company status"
         }
       ]
     },
     {
-      "id": "src-enrichment-agent",
+      "id": "466352a8-ef4a-41b6-a413-7bf23c8cb560",
       "name": "Enrichment Agent",
       "description": "AI-powered agent that enriches company data with additional attributes including revenue, funding, and technology stack information",
       "object_source_mappings": [],
       "datapoint_source_mappings": [
         {
-          "id": "enrich-dp-001",
-          "datapoint_id": "dp-revenue",
+          "id": "1fdbb409-5654-4ab8-8977-2e5f0ea42a66",
+          "datapoint_id": "t4u5v6w7-x8y9-0123-8901-456789012345",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "enriched_companies",
@@ -374,12 +374,12 @@
             "amount"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract revenue amount"
         },
         {
-          "id": "enrich-dp-002",
-          "datapoint_id": "dp-funding",
+          "id": "16568d7e-7760-4098-a298-619f5dcbcdb4",
+          "datapoint_id": "g7h8i9j0-k1l2-3456-0123-789012345678",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "enriched_companies",
@@ -388,12 +388,12 @@
             "total"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract total funding"
         },
         {
-          "id": "enrich-dp-003",
-          "datapoint_id": "dp-technologies",
+          "id": "07e53126-e38b-4108-b0a3-998b12ea0f65",
+          "datapoint_id": "l2m3n4o5-p6q7-8901-5678-234567890123",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "enriched_companies",
@@ -402,20 +402,20 @@
             "*"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract technologies array"
         }
       ]
     },
     {
-      "id": "src-mlflow",
+      "id": "04c1a991-c6c7-4bfd-8596-9521038708a7",
       "name": "MLFlow Lead Scoring Model",
       "description": "Machine learning model for lead scoring deployed via MLFlow, providing lead quality scores and nurturing priorities",
       "object_source_mappings": [],
       "datapoint_source_mappings": [
         {
-          "id": "mlflow-dp-001",
-          "datapoint_id": "dp-lead-score",
+          "id": "77647422-3ae1-487d-8605-b57b2bfa2fe6",
+          "datapoint_id": "8c5be729-bbdb-4771-a408-aa323c02138b",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "predictions",
@@ -423,12 +423,12 @@
             "lead_score"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract lead score"
         },
         {
-          "id": "mlflow-dp-002",
-          "datapoint_id": "dp-nurturing-priority",
+          "id": "c6ffbda3-a03c-4749-9696-0cb8bf58f7a5",
+          "datapoint_id": "7685c9d8-1bd2-42dc-ac28-7f73e8cc13bc",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "predictions",
@@ -436,18 +436,18 @@
             "nurturing_priority"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract nurturing priority"
         }
       ]
     },
     {
-      "id": "src-linkedin-dataset",
+      "id": "b9b695ce-46b4-4179-bc02-fab343777c77",
       "name": "LinkedIn People Dataset",
       "description": "Comprehensive dataset of professional profiles from LinkedIn, including contact information, job roles, skills, and experience data",
       "object_source_mappings": [
         {
-          "id": "linkedin-obj-001",
+          "id": "17e24041-289f-43ec-abfe-9de1d1e0be3e",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
             "people",
@@ -455,13 +455,13 @@
             "id"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract person IDs as objects"
         }
       ],
       "datapoint_source_mappings": [
         {
-          "id": "linkedin-dp-001",
+          "id": "39ee5794-7846-482d-a7b9-e367b5cb7873",
           "datapoint_id": "dp-person-name",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
@@ -470,12 +470,12 @@
             "name"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract person name"
         },
         {
-          "id": "linkedin-dp-002",
-          "datapoint_id": "dp-email",
+          "id": "de941125-b85f-4374-8ebc-ff519150d86a",
+          "datapoint_id": "a5b6c7d8-e9f0-1234-9012-567890123456",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
             "people",
@@ -483,12 +483,12 @@
             "email"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract email"
         },
         {
-          "id": "linkedin-dp-003",
-          "datapoint_id": "dp-phone",
+          "id": "b4af1b56-1f70-459a-85d1-ce67b7e1ff15",
+          "datapoint_id": "z4a5b6c7-d8e9-0123-8901-456789012345",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
             "people",
@@ -496,12 +496,12 @@
             "phone"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract phone"
         },
         {
-          "id": "linkedin-dp-004",
-          "datapoint_id": "dp-role",
+          "id": "c4805b5e-5d8a-45c1-b871-cf36eee8f230",
+          "datapoint_id": "p6q7r8s9-t0u1-2345-9012-678901234567",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
             "people",
@@ -509,12 +509,12 @@
             "role"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract role"
         },
         {
-          "id": "linkedin-dp-005",
-          "datapoint_id": "dp-department",
+          "id": "b1c9cb0f-2d1e-435b-bf20-5936fabd3207",
+          "datapoint_id": "q7r8s9t0-u1v2-3456-0123-789012345678",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
             "people",
@@ -522,12 +522,12 @@
             "department"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract department"
         },
         {
-          "id": "linkedin-dp-006",
-          "datapoint_id": "dp-linkedin",
+          "id": "fc012b2c-1a48-44be-b7ca-bf5ba21cc1f5",
+          "datapoint_id": "v2w3x4y5-z6a7-8901-5678-234567890123",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
             "people",
@@ -535,12 +535,12 @@
             "linkedin"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract LinkedIn profile"
         },
         {
-          "id": "linkedin-dp-007",
-          "datapoint_id": "dp-skills",
+          "id": "7ce8474c-f00a-4c1c-980a-d6e7960602f9",
+          "datapoint_id": "t0u1v2w3-x4y5-6789-3456-012345678901",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
             "people",
@@ -549,12 +549,12 @@
             "*"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract skills array"
         },
         {
-          "id": "linkedin-dp-008",
-          "datapoint_id": "dp-experience-years",
+          "id": "36146837-a991-413f-b3f9-6e38f7e8f40d",
+          "datapoint_id": "l0m1n2o3-p4q5-6789-4567-012345678901",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
             "people",
@@ -562,12 +562,12 @@
             "experience_years"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract experience years"
         },
         {
-          "id": "linkedin-dp-009",
-          "datapoint_id": "dp-nurturing-stage",
+          "id": "a2dfe208-f139-4e92-8d43-4e38e10d45cf",
+          "datapoint_id": "4b0c322e-f2c4-4e32-8ee7-8b750bb31c57",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
             "people",
@@ -575,18 +575,18 @@
             "nurturing_stage"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract nurturing stage"
         }
       ]
     },
     {
-      "id": "src-databricks-api",
+      "id": "d09a18b6-36b4-4b3c-8e9c-5da57818a4b5",
       "name": "Databricks Documents API",
       "description": "API for accessing compliance documents stored in Databricks data lake, providing document metadata and content",
       "object_source_mappings": [
         {
-          "id": "db-obj-001",
+          "id": "abc71c7d-aded-4d39-84b8-be2769f9d742",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -594,13 +594,13 @@
             "id"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract document IDs as objects"
         }
       ],
       "datapoint_source_mappings": [
         {
-          "id": "db-dp-001",
+          "id": "b9376b08-dafb-4bf3-9675-de13b417f996",
           "datapoint_id": "dp-document-title",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
@@ -609,11 +609,11 @@
             "title"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract document title"
         },
         {
-          "id": "db-dp-002",
+          "id": "ae5b71db-a41a-40ec-a684-f859e495e56a",
           "datapoint_id": "dp-document-content",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
@@ -622,12 +622,12 @@
             "content"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract document content"
         },
         {
-          "id": "db-dp-003",
-          "datapoint_id": "dp-file-type",
+          "id": "2bda3b84-73c4-43f1-981d-d5636a88b3c2",
+          "datapoint_id": "b4c5d6e7-f8g9-0123-8901-456789012345",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -635,12 +635,12 @@
             "file_type"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract file type"
         },
         {
-          "id": "db-dp-004",
-          "datapoint_id": "dp-file-size",
+          "id": "e065c3c7-fb18-48d6-8e3a-74387fbd1182",
+          "datapoint_id": "c5d6e7f8-g9h0-1234-9012-567890123456",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -648,12 +648,12 @@
             "file_size"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract file size"
         },
         {
-          "id": "db-dp-005",
-          "datapoint_id": "dp-author",
+          "id": "a371156a-f2a3-498d-912f-31eed198d857",
+          "datapoint_id": "d6e7f8g9-h0i1-2345-0123-678901234567",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -661,12 +661,12 @@
             "author"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract author"
         },
         {
-          "id": "db-dp-006",
-          "datapoint_id": "dp-created-date",
+          "id": "3515046c-77f7-4cf9-88c6-ddf4b1373d6e",
+          "datapoint_id": "e7f8g9h0-i1j2-3456-1234-789012345678",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -674,12 +674,12 @@
             "created_date"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract created date"
         },
         {
-          "id": "db-dp-007",
-          "datapoint_id": "dp-modified-date",
+          "id": "733214f4-f226-4d34-9bac-9e254c7664ad",
+          "datapoint_id": "f8g9h0i1-j2k3-4567-2345-890123456789",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -687,12 +687,12 @@
             "modified_date"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract modified date"
         },
         {
-          "id": "db-dp-008",
-          "datapoint_id": "dp-compliance-category",
+          "id": "f7b30c44-a36a-4279-bb7e-f513686f57af",
+          "datapoint_id": "c467f259-4087-4953-a568-b36ce4aa7361",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -700,18 +700,18 @@
             "compliance_category"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract compliance category"
         }
       ]
     },
     {
-      "id": "src-rag-agent",
+      "id": "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9",
       "name": "RAG Agent",
       "description": "Retrieval-Augmented Generation agent that creates structured rules and extracts information from unstructured documents",
       "object_source_mappings": [
         {
-          "id": "rag-obj-001",
+          "id": "a4957dc7-a9fa-4519-94d3-535c2741268a",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "results",
@@ -720,11 +720,11 @@
             "company_name"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company names as objects"
         },
         {
-          "id": "rag-obj-002",
+          "id": "2d9f0bf9-8689-483a-927a-593be17a2bba",
           "object_type_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
           "key_mapping": [
             "results",
@@ -733,14 +733,14 @@
             "regulation_id"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract regulation IDs as objects"
         }
       ],
       "datapoint_source_mappings": [
         {
-          "id": "rag-dp-001",
-          "datapoint_id": "dp-company-name",
+          "id": "ff339523-4764-4aab-b3e7-ebb29c8ec3b1",
+          "datapoint_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "results",
@@ -749,12 +749,12 @@
             "company_name"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company name from RAG results"
         },
         {
-          "id": "rag-dp-002",
-          "datapoint_id": "dp-company-website",
+          "id": "206a6bf3-992f-460c-8a2b-59043bf1b04c",
+          "datapoint_id": "q1r2s3t4-u5v6-7890-5678-123456789012",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "results",
@@ -763,12 +763,12 @@
             "website"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract company website from RAG results"
         },
         {
-          "id": "rag-dp-003",
-          "datapoint_id": "dp-regulation-title",
+          "id": "362a4040-dc16-443d-acc9-52e728dfea79",
+          "datapoint_id": "5028ff93-0426-42e1-8f06-3b1079f1b88d",
           "object_type_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
           "key_mapping": [
             "results",
@@ -777,12 +777,12 @@
             "title"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract regulation title"
         },
         {
-          "id": "rag-dp-004",
-          "datapoint_id": "dp-structured-rules",
+          "id": "51f84f5a-ac42-414b-9bbd-cd84d65a68b6",
+          "datapoint_id": "8780a590-c092-4043-9db6-b6dbe5b63e38",
           "object_type_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
           "key_mapping": [
             "results",
@@ -791,12 +791,12 @@
             "structured_rules"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract structured rules JSON"
         },
         {
-          "id": "rag-dp-005",
-          "datapoint_id": "dp-compliance-level",
+          "id": "f9180c5a-6c08-4fcd-b514-e0cc45dfeb95",
+          "datapoint_id": "de7fb5d6-1662-4a3d-b918-b7006a7d9fe7",
           "object_type_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
           "key_mapping": [
             "results",
@@ -805,20 +805,20 @@
             "compliance_level"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract compliance level"
         }
       ]
     },
     {
-      "id": "src-esg-agent",
+      "id": "3190e39c-d9d7-4eeb-95af-8be16f877044",
       "name": "ESG Agent",
       "description": "Environmental, Social, and Governance document analysis agent for sustainability reporting and compliance assessment",
       "object_source_mappings": [],
       "datapoint_source_mappings": [
         {
-          "id": "esg-dp-001",
-          "datapoint_id": "dp-esg-score",
+          "id": "f269f34c-3974-4c78-85e6-7e6c158a0274",
+          "datapoint_id": "934a8896-ed4d-44e7-93d7-ddac435acbde",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "esg_data",
@@ -826,12 +826,12 @@
             "esg_score"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract ESG score"
         },
         {
-          "id": "esg-dp-002",
-          "datapoint_id": "dp-compliance-status",
+          "id": "50f5d88b-3503-45f9-8840-e5505513ecad",
+          "datapoint_id": "8acce265-0a15-41e6-8c2a-b5175ebd2e49",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "esg_data",
@@ -839,12 +839,12 @@
             "compliance_status"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract compliance status"
         },
         {
-          "id": "esg-dp-003",
-          "datapoint_id": "dp-rfi-sent-date",
+          "id": "b5eeb878-410e-48a2-bf30-e1c44d746654",
+          "datapoint_id": "e1e0fcbd-da1d-48ef-af39-316d8e452cfa",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "esg_data",
@@ -852,12 +852,12 @@
             "rfi_sent_date"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract RFI sent date"
         },
         {
-          "id": "esg-dp-004",
-          "datapoint_id": "dp-last-compliance-check",
+          "id": "82a4ed02-c186-41b9-a26f-c32ae9cc3e20",
+          "datapoint_id": "32d55119-ee9c-4014-9751-2a708de42bf9",
           "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
           "key_mapping": [
             "esg_data",
@@ -865,18 +865,18 @@
             "last_compliance_check"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract last compliance check date"
         }
       ]
     },
     {
-      "id": "src-etl-pipeline",
+      "id": "a14b40b6-2354-402b-ae4d-81453d26b5c4",
       "name": "ETL Pipeline",
       "description": "Extract, Transform, Load pipeline for extracting person and contact information from various data sources",
       "object_source_mappings": [
         {
-          "id": "etl-obj-001",
+          "id": "b457f57d-39df-4dd4-9690-1ced3eb72cd7",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
             "contacts",
@@ -884,11 +884,11 @@
             "person_id"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract person IDs as objects"
         },
         {
-          "id": "etl-obj-002",
+          "id": "7ceafede-c367-4594-82da-c30a5cc6085f",
           "object_type_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
           "key_mapping": [
             "contacts",
@@ -896,13 +896,13 @@
             "email"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract contact emails as objects"
         }
       ],
       "datapoint_source_mappings": [
         {
-          "id": "etl-dp-001",
+          "id": "c5c0606d-6013-4b97-b277-4a40bc7ef7bd",
           "datapoint_id": "dp-person-name",
           "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
           "key_mapping": [
@@ -911,12 +911,12 @@
             "name"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract person name"
         },
         {
-          "id": "etl-dp-002",
-          "datapoint_id": "dp-contact-email",
+          "id": "5e0c7fed-4c51-410a-93c5-efb2ee9878f7",
+          "datapoint_id": "0775d7b2-f748-41b2-8b62-9147e76a8a80",
           "object_type_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
           "key_mapping": [
             "contacts",
@@ -924,12 +924,12 @@
             "email"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract contact email"
         },
         {
-          "id": "etl-dp-003",
-          "datapoint_id": "dp-contact-phone",
+          "id": "65e07feb-4ab2-4b44-a634-a4a9d73aa79c",
+          "datapoint_id": "a8c5f89c-688d-44f4-a4a9-7ea27b79c998",
           "object_type_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
           "key_mapping": [
             "contacts",
@@ -937,12 +937,12 @@
             "phone"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract contact phone"
         },
         {
-          "id": "etl-dp-004",
-          "datapoint_id": "dp-contact-address",
+          "id": "0c1b46cd-c5ba-422e-9dc4-04d0f6e4e51f",
+          "datapoint_id": "4b1efd12-9039-48c1-bb59-3220ab916b00",
           "object_type_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
           "key_mapping": [
             "contacts",
@@ -950,12 +950,12 @@
             "address"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract contact address"
         },
         {
-          "id": "etl-dp-005",
-          "datapoint_id": "dp-contact-type",
+          "id": "2c946261-dc13-4167-9d6f-b0252a6d5fb8",
+          "datapoint_id": "0c964c09-4d6e-4dff-9679-c4ff78e3abbc",
           "object_type_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
           "key_mapping": [
             "contacts",
@@ -963,18 +963,18 @@
             "contact_type"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract contact type"
         }
       ]
     },
     {
-      "id": "src-github-api",
+      "id": "df7d17d7-ba74-4172-aa40-e003add5e102",
       "name": "GitHub API",
       "description": "GitHub REST API for accessing merge requests, commit messages, diffs, and repository information",
       "object_source_mappings": [
         {
-          "id": "gh-obj-001",
+          "id": "d8a754d6-d92b-4cb5-9596-e0c10f2b834b",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -982,14 +982,14 @@
             "id"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract merge request IDs as objects"
         }
       ],
       "datapoint_source_mappings": [
         {
-          "id": "gh-dp-001",
-          "datapoint_id": "dp-merge-request-title",
+          "id": "4c5808c8-8fd4-4607-8ac8-d4a287144ae8",
+          "datapoint_id": "0b04db5d-06ca-4040-8dbe-9c7b03557c25",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -997,12 +997,12 @@
             "title"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract merge request title"
         },
         {
-          "id": "gh-dp-002",
-          "datapoint_id": "dp-merge-request-description",
+          "id": "361a3a9b-3387-40c8-8a3c-3c13887a1556",
+          "datapoint_id": "d8af15ad-82a6-47b8-b5db-80f6ce2f7933",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -1010,12 +1010,12 @@
             "description"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract merge request description"
         },
         {
-          "id": "gh-dp-003",
-          "datapoint_id": "dp-commit-message",
+          "id": "8f368cce-3171-485b-8d34-15870c9f2baf",
+          "datapoint_id": "3fa9220d-623f-4541-8d1f-0e79c0934439",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -1023,12 +1023,12 @@
             "commit_message"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract commit message"
         },
         {
-          "id": "gh-dp-004",
-          "datapoint_id": "dp-diff-content",
+          "id": "9e0a6be0-8c78-4128-a245-0af856c879a3",
+          "datapoint_id": "ebba39c2-ce91-461b-b293-2a1c8097ff36",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -1036,12 +1036,12 @@
             "diff_content"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract diff content"
         },
         {
-          "id": "gh-dp-005",
-          "datapoint_id": "dp-author",
+          "id": "0852dbbe-68c7-4400-9ed0-ba4030f005a3",
+          "datapoint_id": "d6e7f8g9-h0i1-2345-0123-678901234567",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -1050,12 +1050,12 @@
             "name"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract author name"
         },
         {
-          "id": "gh-dp-006",
-          "datapoint_id": "dp-repository",
+          "id": "226e78d3-141e-4dc9-a08f-c445e1ebe651",
+          "datapoint_id": "ad0fab05-e487-465a-a1ca-7e9977ce2db4",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -1064,12 +1064,12 @@
             "name"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract repository name"
         },
         {
-          "id": "gh-dp-007",
-          "datapoint_id": "dp-branch",
+          "id": "9a33d7fc-8408-437a-bd12-3495688f890e",
+          "datapoint_id": "b67d31dc-06dd-414f-bccb-2523f852a67d",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -1078,12 +1078,12 @@
             "ref"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract branch name"
         },
         {
-          "id": "gh-dp-008",
-          "datapoint_id": "dp-status",
+          "id": "daf6681f-0891-40dd-be8a-792e45b2fdac",
+          "datapoint_id": "x6y7z8a9-b0c1-2345-0123-678901234567",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -1091,12 +1091,12 @@
             "state"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract merge request status"
         },
         {
-          "id": "gh-dp-009",
-          "datapoint_id": "dp-created-at",
+          "id": "411ecae5-66e6-43cc-b4b4-33a897870542",
+          "datapoint_id": "9f9c2b42-df0f-43ed-9e09-b492894e06a8",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -1104,12 +1104,12 @@
             "created_at"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract created at timestamp"
         },
         {
-          "id": "gh-dp-010",
-          "datapoint_id": "dp-merged-at",
+          "id": "a3293e20-2083-4274-b4bd-5796a93e9a62",
+          "datapoint_id": "d51ae7de-2c43-4dd0-851b-9a35a96d665e",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "merge_requests",
@@ -1117,18 +1117,18 @@
             "merged_at"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract merged at timestamp"
         }
       ]
     },
     {
-      "id": "src-etl-documents-api",
+      "id": "0989e548-7bfa-43f5-ad4a-68e0b2be4257",
       "name": "ETL Documents API",
       "description": "API for accessing quality rule documents from ETL pipeline, providing structured quality guidelines and compliance rules",
       "object_source_mappings": [
         {
-          "id": "etl-docs-obj-001",
+          "id": "0a108eca-0d90-4749-8a1c-9ca2ab89b584",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -1136,13 +1136,13 @@
             "id"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract document IDs as objects"
         }
       ],
       "datapoint_source_mappings": [
         {
-          "id": "etl-docs-dp-001",
+          "id": "52ca90f0-a79b-4bad-9e8d-75816d5d0e7c",
           "datapoint_id": "dp-document-title",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
@@ -1151,12 +1151,12 @@
             "title"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract document title"
         },
         {
-          "id": "etl-docs-dp-002",
-          "datapoint_id": "dp-quality-rules",
+          "id": "8919ff89-ce89-4a62-9b4d-9bde5fd75218",
+          "datapoint_id": "7aaea5b6-fccb-4ef7-8fec-518d93f84cc9",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -1164,12 +1164,12 @@
             "quality_rules"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract quality rules JSON"
         },
         {
-          "id": "etl-docs-dp-003",
-          "datapoint_id": "dp-rule-category",
+          "id": "badcef2b-676f-492f-a74a-bb0b15c970f2",
+          "datapoint_id": "d13d5de1-e7bd-4256-bb89-1db58938df85",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -1177,20 +1177,20 @@
             "rule_category"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract rule category"
         }
       ]
     },
     {
-      "id": "src-trustsoft-it-agent",
+      "id": "4e0a34be-f332-4176-9750-ec1a2acc92de",
       "name": "Trustsoft IT Agent",
       "description": "IT compliance evaluation agent that analyzes merge requests for security, code quality, and compliance standards",
       "object_source_mappings": [],
       "datapoint_source_mappings": [
         {
-          "id": "trustsoft-dp-001",
-          "datapoint_id": "dp-quality-score",
+          "id": "bed1cda6-54d6-4505-a327-f2e1c3b1d603",
+          "datapoint_id": "6c2aad84-853a-4580-bf01-2ddb10e52f8c",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "evaluations",
@@ -1198,12 +1198,12 @@
             "quality_score"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract quality score"
         },
         {
-          "id": "trustsoft-dp-002",
-          "datapoint_id": "dp-compliance-status",
+          "id": "7a6d3943-132a-4f57-b2f9-a112c0012748",
+          "datapoint_id": "8acce265-0a15-41e6-8c2a-b5175ebd2e49",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "evaluations",
@@ -1211,12 +1211,12 @@
             "compliance_status"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract compliance status"
         },
         {
-          "id": "trustsoft-dp-003",
-          "datapoint_id": "dp-it-agent-review",
+          "id": "e1d3afdc-97d7-4905-8b29-e2bfc3e554bd",
+          "datapoint_id": "76a72f1a-83e7-481c-9359-cac486094be9",
           "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
           "key_mapping": [
             "evaluations",
@@ -1224,18 +1224,18 @@
             "it_agent_review"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract IT agent review"
         }
       ]
     },
     {
-      "id": "src-document-storage-api",
+      "id": "44004d81-ec4c-4cfe-885a-2473527db1fb",
       "name": "Document Storage API",
       "description": "API for accessing unstructured documents from various storage systems for knowledge base creation",
       "object_source_mappings": [
         {
-          "id": "doc-storage-obj-001",
+          "id": "1f0de875-b1c3-4f1a-93f9-7eea31e38c58",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -1243,13 +1243,13 @@
             "id"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract document IDs as objects"
         }
       ],
       "datapoint_source_mappings": [
         {
-          "id": "doc-storage-dp-001",
+          "id": "0c9b01cd-d28c-413d-8d4c-6d2ea6b511e6",
           "datapoint_id": "dp-document-title",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
@@ -1258,11 +1258,11 @@
             "title"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract document title"
         },
         {
-          "id": "doc-storage-dp-002",
+          "id": "449782d6-a4ba-4cb4-a928-148de0875723",
           "datapoint_id": "dp-document-content",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
@@ -1271,12 +1271,12 @@
             "content"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract document content"
         },
         {
-          "id": "doc-storage-dp-003",
-          "datapoint_id": "dp-source-location",
+          "id": "c8bc865b-3d58-4400-aaf9-aa585a09f89d",
+          "datapoint_id": "885a72ea-f2f1-47b5-8a88-983b34ca6675",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "documents",
@@ -1284,20 +1284,20 @@
             "source_location"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract source location"
         }
       ]
     },
     {
-      "id": "src-document-classification-agent",
+      "id": "fcb51cf8-bff6-45bc-ab47-c5bc54fe8526",
       "name": "Document Classification Agent",
       "description": "AI agent that classifies document format and evaluates readability for knowledge base preparation",
       "object_source_mappings": [],
       "datapoint_source_mappings": [
         {
-          "id": "doc-class-dp-001",
-          "datapoint_id": "dp-format-type",
+          "id": "53359249-dfb2-4597-8993-d6c938e98ce1",
+          "datapoint_id": "8a7c071a-d3df-4cb6-93bd-2ce2dd9aa713",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "classifications",
@@ -1305,12 +1305,12 @@
             "format_type"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract format type"
         },
         {
-          "id": "doc-class-dp-002",
-          "datapoint_id": "dp-readability-score",
+          "id": "938fd072-4ca1-4266-8b86-1209e2ce73cb",
+          "datapoint_id": "37178052-66b6-4682-af07-edfd7508fe85",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "classifications",
@@ -1318,12 +1318,12 @@
             "readability_score"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract readability score"
         },
         {
-          "id": "doc-class-dp-003",
-          "datapoint_id": "dp-classification-status",
+          "id": "a88fbf25-e35d-40a7-943e-3cc74b4dde79",
+          "datapoint_id": "36c66b4f-7c19-4bca-873d-94df0163c533",
           "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
           "key_mapping": [
             "classifications",
@@ -1331,18 +1331,18 @@
             "classification_status"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract classification status"
         }
       ]
     },
     {
-      "id": "src-rag-agent-guardrails",
+      "id": "fd778da7-9706-4149-bd06-21337b365e39",
       "name": "RAG Agent with Guardrails",
       "description": "RAG Agent configured with format validation guardrails for creating structured knowledge base entries",
       "object_source_mappings": [
         {
-          "id": "rag-guard-obj-001",
+          "id": "522267d3-7153-409f-86cc-ae4665d8c474",
           "object_type_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
           "key_mapping": [
             "knowledge_sources",
@@ -1350,14 +1350,14 @@
             "entry_id"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract knowledge source entry IDs as objects"
         }
       ],
       "datapoint_source_mappings": [
         {
-          "id": "rag-guard-dp-001",
-          "datapoint_id": "dp-knowledge-title",
+          "id": "ccab046a-0323-414a-946f-50f705aec25c",
+          "datapoint_id": "7bb171fd-f9d7-4300-81a7-bb5f2698fdc5",
           "object_type_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
           "key_mapping": [
             "knowledge_sources",
@@ -1365,12 +1365,12 @@
             "title"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract knowledge source title"
         },
         {
-          "id": "rag-guard-dp-002",
-          "datapoint_id": "dp-knowledge-content",
+          "id": "0f782ee0-0ad3-406d-9138-8efb062f78e3",
+          "datapoint_id": "9ecaf223-c2b6-46ac-b643-da4af908c9f4",
           "object_type_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
           "key_mapping": [
             "knowledge_sources",
@@ -1378,12 +1378,12 @@
             "content"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract knowledge source content"
         },
         {
-          "id": "rag-guard-dp-003",
-          "datapoint_id": "dp-structured-rules",
+          "id": "064c4220-e601-4018-87c9-f40f0f4ca19f",
+          "datapoint_id": "8780a590-c092-4043-9db6-b6dbe5b63e38",
           "object_type_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
           "key_mapping": [
             "knowledge_sources",
@@ -1391,12 +1391,12 @@
             "structured_rules"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract structured rules JSON"
         },
         {
-          "id": "rag-guard-dp-004",
-          "datapoint_id": "dp-format-validated",
+          "id": "dbc49f1b-e8f3-4c01-90fd-e41693063ad5",
+          "datapoint_id": "3eb1d20a-4858-436f-88ce-6b990757d6a3",
           "object_type_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
           "key_mapping": [
             "knowledge_sources",
@@ -1404,12 +1404,12 @@
             "format_validated"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract format validated flag"
         },
         {
-          "id": "rag-guard-dp-005",
-          "datapoint_id": "dp-chatbot-ready",
+          "id": "c5573ccf-5a81-43f3-ad1f-16e728264a44",
+          "datapoint_id": "0ad1e4b0-0003-4eb4-95eb-8aefcab5ae3e",
           "object_type_id": "b8c9d0e1-f2a3-4567-1234-890123456789",
           "key_mapping": [
             "knowledge_sources",
@@ -1417,7 +1417,7 @@
             "chatbot_ready"
           ],
           "key_mapping_type": "value",
-          "status": "mapped",
+          "mapping-status": "mapped",
           "description": "Extract chatbot ready flag"
         }
       ]

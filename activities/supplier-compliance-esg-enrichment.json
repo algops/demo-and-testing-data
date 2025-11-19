@@ -1,5 +1,5 @@
 {
-  "id": "sc-act-004-esg-enrichment",
+  "id": "f71708a3-fd46-4976-a79d-95b208501193",
   "name": "ESG Agent Enrichment",
   "description": "Enriches companies with ESG compliance data",
   "type": "enrich",
@@ -9,38 +9,48 @@
   "setup": {
     "data": {
       "esg_agent": {
-        "id": "src-esg-agent",
+        "id": "3190e39c-d9d7-4eeb-95af-8be16f877044",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-esg-score", "factor-compliance-status", "factor-rfi-sent-date"]
+            "id": [
+              "111991a8-b6ff-444b-931c-806d5cfb3151",
+              "6778fb77-67cb-43ee-a377-811295ef4a27",
+              "cf9bdbc5-11b3-4327-a0d8-54f39b2e4aea"
+            ]
           }
         }
       },
       "esg_score_factor": {
-        "id": "factor-esg-score",
+        "id": "111991a8-b6ff-444b-931c-806d5cfb3151",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-esg-agent"]
+            "id": [
+              "3190e39c-d9d7-4eeb-95af-8be16f877044"
+            ]
           }
         }
       },
       "compliance_status_factor": {
-        "id": "factor-compliance-status",
+        "id": "6778fb77-67cb-43ee-a377-811295ef4a27",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-esg-agent"]
+            "id": [
+              "3190e39c-d9d7-4eeb-95af-8be16f877044"
+            ]
           }
         }
       },
       "rfi_sent_date_factor": {
-        "id": "factor-rfi-sent-date",
+        "id": "cf9bdbc5-11b3-4327-a0d8-54f39b2e4aea",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-esg-agent"]
+            "id": [
+              "3190e39c-d9d7-4eeb-95af-8be16f877044"
+            ]
           }
         }
       }
@@ -61,10 +71,9 @@
     "updated_at": "2025-01-20T16:30:45.000Z",
     "workflows": [
       {
-        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "id": "56a88407-dca5-430d-9cd4-4d2b7a3ed27f",
         "name": "Supplier Compliance Check/Monitoring"
       }
     ]
   }
 }
-

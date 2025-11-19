@@ -1,0 +1,417 @@
+{
+  "id": "3578f878-65fd-49a5-972f-2101125bd618",
+  "name": "Crunchbase API",
+  "description": "Comprehensive company database API providing company profiles, funding information, and business intelligence data",
+  "source_type": "Integration",
+  "delivery_type": "Webhook",
+  "setup": {
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body",
+              "query"
+            ],
+            "mapping_status": "mapped"
+          },
+          "webhook_url": {
+            "path": [
+              "body",
+              "webhook_url"
+            ],
+            "mapping_status": "mapped"
+          },
+          "run_id": {
+            "path": [
+              "body",
+              "request_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "recommended",
+            "status_translations": {
+              "completed": "completed",
+              "processing": "running",
+              "failed": "error"
+            }
+          },
+          "request_id": {
+            "path": [
+              "request_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.crunchbase.com/v4/searches/organizations",
+        "method": "POST",
+        "headers": {
+          "Content_Type": "application/json",
+          "X_cb_user_key": "<<$auth_key>>"
+        },
+        "body": {
+          "query": [
+            {
+              "type": "query",
+              "fields": [
+                "name",
+                "website",
+                "short_description",
+                "funding_total",
+                "employee_count"
+              ]
+            }
+          ],
+          "limit": "<<$max_objects>>",
+          "webhook_url": "<<$webhook_url>>",
+          "request_id": "<<$id>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {
+        "run_setup": {
+          "path": [
+            "body",
+            "query"
+          ],
+          "example_value": {
+            "filters": {
+              "industry": "Technology",
+              "size": "medium"
+            }
+          }
+        },
+        "webhook_url": {
+          "path": [
+            "body",
+            "webhook_url"
+          ],
+          "example_value": "https://example.com/webhook"
+        },
+        "run_id": {
+          "path": [
+            "body",
+            "request_id"
+          ],
+          "example_value": "run-12345"
+        }
+      }
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.crunchbase.com/v4/requests/<<$run_external_id>>/status",
+        "method": "GET",
+        "headers": {
+          "X_cb_user_key": "<<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "data": {
+            "path": [
+              "data"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.crunchbase.com/v4/requests/<<$run_external_id>>/results",
+        "method": "GET",
+        "headers": {
+          "X_cb_user_key": "<<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": [
+        {
+          "status": "completed",
+          "request_id": "req-cb-12345",
+          "data": {
+            "entities": [
+              {
+                "uuid": "org-uuid-001",
+                "properties": {
+                  "name": "TechCorp Inc",
+                  "website": "https://techcorp.com",
+                  "short_description": "Enterprise software solutions provider",
+                  "funding_total": {
+                    "value": 50000000,
+                    "currency_code": "USD"
+                  },
+                  "employee_count": 250,
+                  "founded_on": {
+                    "year": 2015,
+                    "month": 3,
+                    "day": 15
+                  },
+                  "categories": [
+                    {
+                      "value": "Enterprise Software"
+                    }
+                  ],
+                  "location_identifiers": [
+                    {
+                      "location_type": "city",
+                      "value": "San Francisco"
+                    },
+                    {
+                      "location_type": "region",
+                      "value": "California"
+                    },
+                    {
+                      "location_type": "country",
+                      "value": "United States"
+                    }
+                  ]
+                }
+              },
+              {
+                "uuid": "org-uuid-002",
+                "properties": {
+                  "name": "DataFlow Systems",
+                  "website": "https://dataflow.io",
+                  "short_description": "Data analytics and visualization platform",
+                  "funding_total": {
+                    "value": 25000000,
+                    "currency_code": "USD"
+                  },
+                  "employee_count": 120,
+                  "founded_on": {
+                    "year": 2018,
+                    "month": 7,
+                    "day": 22
+                  },
+                  "categories": [
+                    {
+                      "value": "Analytics"
+                    }
+                  ],
+                  "location_identifiers": [
+                    {
+                      "location_type": "city",
+                      "value": "New York"
+                    },
+                    {
+                      "location_type": "region",
+                      "value": "New York"
+                    },
+                    {
+                      "location_type": "country",
+                      "value": "United States"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "3578f878-65fd-49a5-972f-2101125bd618",
+            "name": "Crunchbase API",
+            "description": "Comprehensive company database API providing company profiles, funding information, and business intelligence data",
+            "object_source_mappings": [
+              {
+                "id": "1f43023b-4ef2-4979-a9bd-2ef0f20033ad",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "entities",
+                  "*",
+                  "uuid"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company UUIDs as objects"
+              },
+              {
+                "id": "057a6f54-82b9-4f0a-b6f8-b2b55ce60879",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "entities",
+                  "*",
+                  "properties",
+                  "website"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company websites as objects"
+              }
+            ],
+            "datapoint_source_mappings": [
+              {
+                "id": "d25fa8b2-3095-4675-9a78-9df0ec380406",
+                "datapoint_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "entities",
+                  "*",
+                  "properties",
+                  "name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company name"
+              },
+              {
+                "id": "485781ca-74bb-40cb-b0c9-e5ae43260684",
+                "datapoint_id": "q1r2s3t4-u5v6-7890-5678-123456789012",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "entities",
+                  "*",
+                  "properties",
+                  "website"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company website"
+              },
+              {
+                "id": "672ab98a-9e54-47c3-a4e9-9abbdc703eb9",
+                "datapoint_id": "r2s3t4u5-v6w7-8901-6789-234567890123",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "entities",
+                  "*",
+                  "properties",
+                  "categories",
+                  "0",
+                  "value"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company industry from categories"
+              },
+              {
+                "id": "8a884e55-ee52-43cb-ba4d-856774e2f0b8",
+                "datapoint_id": "u5v6w7x8-y9z0-1234-9012-567890123456",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "entities",
+                  "*",
+                  "properties",
+                  "employee_count"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract employee count"
+              },
+              {
+                "id": "79cd6848-0384-4044-8f76-60e9053c21e4",
+                "datapoint_id": "o9p0q1r2-s3t4-5678-3456-901234567890",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "entities",
+                  "*",
+                  "properties",
+                  "founded_on",
+                  "year"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract founded year"
+              },
+              {
+                "id": "f3c334c4-3fba-4585-8a09-9eed9d1a92f5",
+                "datapoint_id": "g7h8i9j0-k1l2-3456-0123-789012345678",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "entities",
+                  "*",
+                  "properties",
+                  "funding_total",
+                  "value"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract funding amount"
+              },
+              {
+                "id": "69019c62-79df-4e8f-90e0-b007f6b61f82",
+                "datapoint_id": "h8i9j0k1-l2m3-4567-1234-890123456789",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "entities",
+                  "*",
+                  "properties",
+                  "funding_total",
+                  "currency_code"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract currency"
+              },
+              {
+                "id": "d1c67e08-de95-4864-8537-7e2a3375d332",
+                "datapoint_id": "i9j0k1l2-m3n4-5678-2345-901234567890",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "data",
+                  "entities",
+                  "*",
+                  "properties",
+                  "location_identifiers",
+                  "*",
+                  "value"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "recommendation",
+                "description": "Extract city from location identifiers"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

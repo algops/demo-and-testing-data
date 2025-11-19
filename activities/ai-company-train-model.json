@@ -13,7 +13,9 @@
         "type": "source",
         "destination": {
           "target": {
-            "id": ["l2m3n4o5-p6q7-8901-5678-234567890123"]
+            "id": [
+              "l2m3n4o5-p6q7-8901-5678-234567890123"
+            ]
           }
         }
       },
@@ -28,7 +30,7 @@
     "total_requests": 180,
     "successful_requests": 108,
     "failed_requests": 72,
-    "success_rate": 0.600,
+    "success_rate": 0.6,
     "average_duration": 95.0,
     "last_used_at": "2025-01-18T09:15:20.000Z"
   },

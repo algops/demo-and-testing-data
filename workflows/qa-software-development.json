@@ -1,5 +1,5 @@
 {
-  "id": "wf3-qa-software-dev-0001-0002-0003-0004",
+  "id": "91044b0c-5616-4b8b-8adc-4be084da3293",
   "name": "Automate Quality Assurance and Reporting of Software Development",
   "description": "Quality assurance automation for software development by sourcing GitHub merge requests and quality rule documents, enriching documents with RAG, and evaluating merge requests with IT compliance",
   "status": "active",
@@ -7,7 +7,7 @@
   "setup": {
     "data": {
       "github_merge_requests": {
-        "id": "qa-act-001-github-mr",
+        "id": "366bc471-f8eb-43d4-9629-047620e0a451",
         "type": "activity",
         "setup": {
           "config": {
@@ -17,12 +17,14 @@
         },
         "destination": {
           "activity": {
-            "id": ["qa-act-004-merge-evaluation"]
+            "id": [
+              "2c339492-ef81-4773-8269-b79f75a94794"
+            ]
           }
         }
       },
       "documents_sourcing": {
-        "id": "qa-act-002-docs-sourcing",
+        "id": "7d381a80-3ac7-47cb-9e37-6fdafc95d8cc",
         "type": "activity",
         "setup": {
           "config": {
@@ -32,12 +34,14 @@
         },
         "destination": {
           "activity": {
-            "id": ["qa-act-003-rag-enrichment"]
+            "id": [
+              "0e5000b3-572e-4de3-bacd-6ef6ae37e4bb"
+            ]
           }
         }
       },
       "rag_document_enrichment": {
-        "id": "qa-act-003-rag-enrichment",
+        "id": "0e5000b3-572e-4de3-bacd-6ef6ae37e4bb",
         "type": "activity",
         "setup": {
           "config": {
@@ -47,12 +51,14 @@
         },
         "destination": {
           "activity": {
-            "id": ["qa-act-004-merge-evaluation"]
+            "id": [
+              "2c339492-ef81-4773-8269-b79f75a94794"
+            ]
           }
         }
       },
       "merge_evaluation": {
-        "id": "qa-act-004-merge-evaluation",
+        "id": "2c339492-ef81-4773-8269-b79f75a94794",
         "type": "activity",
         "setup": {
           "config": {
@@ -86,4 +92,3 @@
     "workflow_requests_count": 28
   }
 }
-

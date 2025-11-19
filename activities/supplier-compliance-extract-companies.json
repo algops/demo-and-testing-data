@@ -1,5 +1,5 @@
 {
-  "id": "sc-act-002-extract-companies",
+  "id": "60393a04-e6cc-4e11-b974-89f5874a8900",
   "name": "Extraction of Companies",
   "description": "Extracts company objects from document data using RAG Agent",
   "type": "extract",
@@ -9,29 +9,36 @@
   "setup": {
     "data": {
       "rag_agent": {
-        "id": "src-rag-agent",
+        "id": "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-company-name", "factor-company-website"]
+            "id": [
+              "fb2a2ad5-f13b-43af-a112-8e42b3f04370",
+              "91438e0c-cb27-4fa6-9d50-276f239216a4"
+            ]
           }
         }
       },
       "company_name_factor": {
-        "id": "factor-company-name",
+        "id": "fb2a2ad5-f13b-43af-a112-8e42b3f04370",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-rag-agent"]
+            "id": [
+              "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9"
+            ]
           }
         }
       },
       "company_website_factor": {
-        "id": "factor-company-website",
+        "id": "91438e0c-cb27-4fa6-9d50-276f239216a4",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-rag-agent"]
+            "id": [
+              "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9"
+            ]
           }
         }
       }
@@ -52,10 +59,9 @@
     "updated_at": "2025-01-20T16:30:45.000Z",
     "workflows": [
       {
-        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "id": "56a88407-dca5-430d-9cd4-4d2b7a3ed27f",
         "name": "Supplier Compliance Check/Monitoring"
       }
     ]
   }
 }
-

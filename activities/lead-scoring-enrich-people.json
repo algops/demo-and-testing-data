@@ -1,5 +1,5 @@
 {
-  "id": "ls-act-005-enrich-people",
+  "id": "2213b3cd-a981-42b3-80a8-01ea4ed0488f",
   "name": "Enrichment of People",
   "description": "Enriches person data with contact and profile information using LinkedIn People Dataset",
   "type": "enrich",
@@ -9,47 +9,60 @@
   "setup": {
     "data": {
       "linkedin_dataset": {
-        "id": "src-linkedin-dataset",
+        "id": "b9b695ce-46b4-4179-bc02-fab343777c77",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-person-email", "factor-person-phone", "factor-person-linkedin", "factor-nurturing-stage"]
+            "id": [
+              "2231d8a6-9191-46c4-b1f7-1ad69c63022a",
+              "d8a1e93d-c4c8-4c60-aa30-0e5392a8f3e8",
+              "0d2f3294-44a8-4b0a-9309-3786537d46eb",
+              "1523c3a7-14e0-4657-8777-b5804e8d6bc5"
+            ]
           }
         }
       },
       "email_factor": {
-        "id": "factor-person-email",
+        "id": "2231d8a6-9191-46c4-b1f7-1ad69c63022a",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-linkedin-dataset"]
+            "id": [
+              "b9b695ce-46b4-4179-bc02-fab343777c77"
+            ]
           }
         }
       },
       "phone_factor": {
-        "id": "factor-person-phone",
+        "id": "d8a1e93d-c4c8-4c60-aa30-0e5392a8f3e8",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-linkedin-dataset"]
+            "id": [
+              "b9b695ce-46b4-4179-bc02-fab343777c77"
+            ]
           }
         }
       },
       "linkedin_factor": {
-        "id": "factor-person-linkedin",
+        "id": "0d2f3294-44a8-4b0a-9309-3786537d46eb",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-linkedin-dataset"]
+            "id": [
+              "b9b695ce-46b4-4179-bc02-fab343777c77"
+            ]
           }
         }
       },
       "nurturing_stage_factor": {
-        "id": "factor-nurturing-stage",
+        "id": "1523c3a7-14e0-4657-8777-b5804e8d6bc5",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-linkedin-dataset"]
+            "id": [
+              "b9b695ce-46b4-4179-bc02-fab343777c77"
+            ]
           }
         }
       }
@@ -70,10 +83,9 @@
     "updated_at": "2025-01-20T14:45:30.000Z",
     "workflows": [
       {
-        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "id": "0d9e8f83-7c4f-42b8-8fe1-b7220e62d6cd",
         "name": "Lead Scoring for Nurturing"
       }
     ]
   }
 }
-

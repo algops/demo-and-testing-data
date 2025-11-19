@@ -17,7 +17,9 @@
         },
         "destination": {
           "activity": {
-            "id": ["u2v3w4x5-y6z7-8901-2345-678901234567"]
+            "id": [
+              "u2v3w4x5-y6z7-8901-2345-678901234567"
+            ]
           }
         }
       },
@@ -42,7 +44,7 @@
     "total_executions": 8,
     "successful_executions": 2,
     "failed_executions": 6,
-    "success_rate": 0.250,
+    "success_rate": 0.25,
     "average_duration": 45.0,
     "last_used_at": "2025-01-16T08:20:45.000Z"
   },

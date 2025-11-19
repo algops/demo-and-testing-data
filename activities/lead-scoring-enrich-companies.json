@@ -1,5 +1,5 @@
 {
-  "id": "ls-act-002-enrich-companies",
+  "id": "70c7731c-fef0-4386-9a16-437b8d3da91b",
   "name": "Enrichment Companies",
   "description": "Enriches company data with additional attributes using Enrichment Agent",
   "type": "enrich",
@@ -9,38 +9,48 @@
   "setup": {
     "data": {
       "enrichment_agent": {
-        "id": "src-enrichment-agent",
+        "id": "466352a8-ef4a-41b6-a413-7bf23c8cb560",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-company-revenue", "factor-company-funding", "factor-company-technologies"]
+            "id": [
+              "a3f163ab-9138-4d91-9bef-af1431a25804",
+              "7a0f5b48-559a-49ad-bc7f-f6379c691bb0",
+              "146344df-7da4-4dc2-87ee-05d511908b40"
+            ]
           }
         }
       },
       "revenue_factor": {
-        "id": "factor-company-revenue",
+        "id": "a3f163ab-9138-4d91-9bef-af1431a25804",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-enrichment-agent"]
+            "id": [
+              "466352a8-ef4a-41b6-a413-7bf23c8cb560"
+            ]
           }
         }
       },
       "funding_factor": {
-        "id": "factor-company-funding",
+        "id": "7a0f5b48-559a-49ad-bc7f-f6379c691bb0",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-enrichment-agent"]
+            "id": [
+              "466352a8-ef4a-41b6-a413-7bf23c8cb560"
+            ]
           }
         }
       },
       "technologies_factor": {
-        "id": "factor-company-technologies",
+        "id": "146344df-7da4-4dc2-87ee-05d511908b40",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-enrichment-agent"]
+            "id": [
+              "466352a8-ef4a-41b6-a413-7bf23c8cb560"
+            ]
           }
         }
       }
@@ -61,10 +71,9 @@
     "updated_at": "2025-01-20T14:45:30.000Z",
     "workflows": [
       {
-        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "id": "0d9e8f83-7c4f-42b8-8fe1-b7220e62d6cd",
         "name": "Lead Scoring for Nurturing"
       }
     ]
   }
 }
-

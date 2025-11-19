@@ -1,5 +1,5 @@
 {
-  "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+  "id": "0d9e8f83-7c4f-42b8-8fe1-b7220e62d6cd",
   "name": "Lead Scoring for Nurturing",
   "description": "Prepare personalized outreach sequences for bots/sales persons by sourcing companies, enriching them, scoring leads, and extracting/enriching people data",
   "status": "active",
@@ -7,7 +7,7 @@
   "setup": {
     "data": {
       "source_companies": {
-        "id": "ls-act-001-source-companies",
+        "id": "ea58de9b-03bf-4d64-8e37-ba304e363f1b",
         "type": "activity",
         "setup": {
           "config": {
@@ -17,12 +17,14 @@
         },
         "destination": {
           "activity": {
-            "id": ["ls-act-002-enrich-companies"]
+            "id": [
+              "70c7731c-fef0-4386-9a16-437b8d3da91b"
+            ]
           }
         }
       },
       "enrich_companies": {
-        "id": "ls-act-002-enrich-companies",
+        "id": "70c7731c-fef0-4386-9a16-437b8d3da91b",
         "type": "activity",
         "setup": {
           "config": {
@@ -32,12 +34,14 @@
         },
         "destination": {
           "activity": {
-            "id": ["ls-act-003-score-companies"]
+            "id": [
+              "8505f8bd-254a-4a1a-9656-8ab461ad5a2a"
+            ]
           }
         }
       },
       "score_companies": {
-        "id": "ls-act-003-score-companies",
+        "id": "8505f8bd-254a-4a1a-9656-8ab461ad5a2a",
         "type": "activity",
         "setup": {
           "config": {
@@ -47,12 +51,14 @@
         },
         "destination": {
           "activity": {
-            "id": ["ls-act-004-extract-people"]
+            "id": [
+              "e8f21562-d7cd-431d-8528-f7daaeb59055"
+            ]
           }
         }
       },
       "extract_people": {
-        "id": "ls-act-004-extract-people",
+        "id": "e8f21562-d7cd-431d-8528-f7daaeb59055",
         "type": "activity",
         "setup": {
           "config": {
@@ -62,12 +68,14 @@
         },
         "destination": {
           "activity": {
-            "id": ["ls-act-005-enrich-people"]
+            "id": [
+              "2213b3cd-a981-42b3-80a8-01ea4ed0488f"
+            ]
           }
         }
       },
       "enrich_people": {
-        "id": "ls-act-005-enrich-people",
+        "id": "2213b3cd-a981-42b3-80a8-01ea4ed0488f",
         "type": "activity",
         "setup": {
           "config": {
@@ -101,4 +109,3 @@
     "workflow_requests_count": 52
   }
 }
-

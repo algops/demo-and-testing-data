@@ -1,5 +1,5 @@
 {
-  "id": "kb-act-001-source-docs",
+  "id": "165e0964-f52c-45c4-ab18-db38e9df98e1",
   "name": "Sourcing Unstructured Documents",
   "description": "Sources unstructured documents from various sources using Document Storage API",
   "type": "source",
@@ -9,38 +9,48 @@
   "setup": {
     "data": {
       "document_storage_api": {
-        "id": "src-document-storage-api",
+        "id": "44004d81-ec4c-4cfe-885a-2473527db1fb",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-document-title", "factor-document-content", "factor-source-location"]
+            "id": [
+              "616cfb11-1a84-4a77-808e-92297c902953",
+              "f204aa5b-9077-4d25-b38f-373863360762",
+              "121f5e63-6d28-48b8-8575-82898d79c01a"
+            ]
           }
         }
       },
       "document_title_factor": {
-        "id": "factor-document-title",
+        "id": "616cfb11-1a84-4a77-808e-92297c902953",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-document-storage-api"]
+            "id": [
+              "44004d81-ec4c-4cfe-885a-2473527db1fb"
+            ]
           }
         }
       },
       "document_content_factor": {
-        "id": "factor-document-content",
+        "id": "f204aa5b-9077-4d25-b38f-373863360762",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-document-storage-api"]
+            "id": [
+              "44004d81-ec4c-4cfe-885a-2473527db1fb"
+            ]
           }
         }
       },
       "source_location_factor": {
-        "id": "factor-source-location",
+        "id": "121f5e63-6d28-48b8-8575-82898d79c01a",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-document-storage-api"]
+            "id": [
+              "44004d81-ec4c-4cfe-885a-2473527db1fb"
+            ]
           }
         }
       }
@@ -61,10 +71,9 @@
     "updated_at": "2025-01-20T09:15:20.000Z",
     "workflows": [
       {
-        "id": "wf4-knowledge-base-0001-0002-0003-0004",
+        "id": "a7ca741f-9c6e-4cb8-bf4e-5570e8d3ff09",
         "name": "Prepare Knowledge Base Directory for Support Chatbot"
       }
     ]
   }
 }
-

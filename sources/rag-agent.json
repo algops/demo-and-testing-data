@@ -1,0 +1,325 @@
+{
+  "id": "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9",
+  "name": "RAG Agent",
+  "description": "Retrieval-Augmented Generation agent that creates structured rules and extracts information from unstructured documents",
+  "source_type": "Agent",
+  "delivery_type": "Endpoint",
+  "setup": {
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body",
+              "documents"
+            ],
+            "mapping_status": "mapped"
+          },
+          "webhook_url": {
+            "path": [
+              "body",
+              "webhook_url"
+            ],
+            "mapping_status": "mapped"
+          },
+          "run_id": {
+            "path": [
+              "body",
+              "run_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "recommended",
+            "status_translations": {
+              "completed": "completed",
+              "processing": "running",
+              "failed": "error"
+            }
+          },
+          "task_id": {
+            "path": [
+              "task_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://rag-agent.internal/api/process",
+        "method": "POST",
+        "headers": {
+          "Content_Type": "application/json"
+        },
+        "body": {
+          "documents": "<<$run_setup>>",
+          "task": "extract_structured_rules",
+          "webhook_url": "<<$webhook_url>>",
+          "run_id": "<<$id>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {
+        "run_setup": {
+          "path": [
+            "body",
+            "documents"
+          ],
+          "example_value": {
+            "filters": {
+              "industry": "Technology",
+              "size": "medium"
+            }
+          }
+        },
+        "webhook_url": {
+          "path": [
+            "body",
+            "webhook_url"
+          ],
+          "example_value": "https://example.com/webhook"
+        },
+        "run_id": {
+          "path": [
+            "body",
+            "run_id"
+          ],
+          "example_value": "run-12345"
+        }
+      }
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://rag-agent.internal/api/tasks/<<$run_external_id>>/status",
+        "method": "GET",
+        "headers": {
+          "Content_Type": "application/json"
+        },
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "data": {
+            "path": [
+              "results"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://rag-agent.internal/api/tasks/<<$run_external_id>>/results",
+        "method": "GET",
+        "headers": {
+          "Content_Type": "application/json"
+        },
+        "body": {}
+      },
+      "response_examples": [
+        {
+          "status": "completed",
+          "task_id": "rag-task-11111",
+          "results": {
+            "extracted_companies": [
+              {
+                "company_name": "Global Manufacturing Corp",
+                "website": "https://globalmfg.com",
+                "extracted_from_document": "doc-001"
+              },
+              {
+                "company_name": "SupplyChain Solutions Ltd",
+                "website": "https://supplychain-solutions.com",
+                "extracted_from_document": "doc-002"
+              }
+            ],
+            "structured_rules": [
+              {
+                "regulation_id": "reg-001",
+                "title": "Environmental Compliance Standard",
+                "description": "All suppliers must comply with ISO 14001 environmental management standards",
+                "category": "Environmental",
+                "compliance_level": "mandatory",
+                "source_document_id": "doc-001",
+                "structured_rules": {
+                  "requirements": [
+                    "ISO 14001 certification required",
+                    "Annual environmental impact assessment",
+                    "Waste reduction targets of 20% annually"
+                  ],
+                  "deadlines": {
+                    "certification": "2025-06-30",
+                    "assessment": "Annual by December 31"
+                  }
+                },
+                "effective_date": "2025-01-01"
+              },
+              {
+                "regulation_id": "reg-002",
+                "title": "Data Privacy Compliance",
+                "description": "GDPR and CCPA compliance requirements for all supplier data handling",
+                "category": "Data Privacy",
+                "compliance_level": "mandatory",
+                "source_document_id": "doc-002",
+                "structured_rules": {
+                  "requirements": [
+                    "Data Processing Agreement required",
+                    "Privacy policy must be publicly available",
+                    "Right to deletion must be honored within 30 days"
+                  ],
+                  "deadlines": {
+                    "agreement": "Before data sharing",
+                    "policy_update": "Quarterly review"
+                  }
+                },
+                "effective_date": "2025-01-01"
+              }
+            ]
+          }
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9",
+            "name": "RAG Agent",
+            "description": "Retrieval-Augmented Generation agent that creates structured rules and extracts information from unstructured documents",
+            "object_source_mappings": [
+              {
+                "id": "5000eb77-230b-4e1b-bc95-2aa9a69e4aa8",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "results",
+                  "extracted_companies",
+                  "*",
+                  "company_name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company names as objects"
+              },
+              {
+                "id": "c666055f-07b2-45ba-9902-8b7299f824b9",
+                "object_type_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
+                "key_mapping": [
+                  "results",
+                  "structured_rules",
+                  "*",
+                  "regulation_id"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract regulation IDs as objects"
+              }
+            ],
+            "datapoint_source_mappings": [
+              {
+                "id": "c934687f-626a-439f-a1df-212e5ddaafca",
+                "datapoint_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "results",
+                  "extracted_companies",
+                  "*",
+                  "company_name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company name from RAG results"
+              },
+              {
+                "id": "b7098e5a-66e6-4cbf-be41-96a60844d39a",
+                "datapoint_id": "q1r2s3t4-u5v6-7890-5678-123456789012",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "results",
+                  "extracted_companies",
+                  "*",
+                  "website"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract company website from RAG results"
+              },
+              {
+                "id": "93e9f796-d607-4564-a303-1cff544aa6e2",
+                "datapoint_id": "5028ff93-0426-42e1-8f06-3b1079f1b88d",
+                "object_type_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
+                "key_mapping": [
+                  "results",
+                  "structured_rules",
+                  "*",
+                  "title"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract regulation title"
+              },
+              {
+                "id": "7920bc86-8369-4d80-978d-eb8f1292163e",
+                "datapoint_id": "8780a590-c092-4043-9db6-b6dbe5b63e38",
+                "object_type_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
+                "key_mapping": [
+                  "results",
+                  "structured_rules",
+                  "*",
+                  "structured_rules"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract structured rules JSON"
+              },
+              {
+                "id": "1d6ce8c4-de38-4ce9-b1d5-9f1687e24346",
+                "datapoint_id": "de7fb5d6-1662-4a3d-b918-b7006a7d9fe7",
+                "object_type_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
+                "key_mapping": [
+                  "results",
+                  "structured_rules",
+                  "*",
+                  "compliance_level"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract compliance level"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

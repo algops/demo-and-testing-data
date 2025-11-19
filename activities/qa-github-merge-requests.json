@@ -1,5 +1,5 @@
 {
-  "id": "qa-act-001-github-mr",
+  "id": "366bc471-f8eb-43d4-9629-047620e0a451",
   "name": "GitHub Merge Requests Sourcing",
   "description": "Sources merge requests with commit messages and diffs from GitHub API",
   "type": "source",
@@ -9,38 +9,48 @@
   "setup": {
     "data": {
       "github_api": {
-        "id": "src-github-api",
+        "id": "df7d17d7-ba74-4172-aa40-e003add5e102",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-merge-request-title", "factor-commit-message", "factor-diff-content"]
+            "id": [
+              "686eb67c-9989-426f-9081-668d503f351b",
+              "b8811298-cdaa-4c60-81dd-b929c59afcc9",
+              "fd48faa5-1d44-47a5-af59-3ced891762c6"
+            ]
           }
         }
       },
       "mr_title_factor": {
-        "id": "factor-merge-request-title",
+        "id": "686eb67c-9989-426f-9081-668d503f351b",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-github-api"]
+            "id": [
+              "df7d17d7-ba74-4172-aa40-e003add5e102"
+            ]
           }
         }
       },
       "commit_message_factor": {
-        "id": "factor-commit-message",
+        "id": "b8811298-cdaa-4c60-81dd-b929c59afcc9",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-github-api"]
+            "id": [
+              "df7d17d7-ba74-4172-aa40-e003add5e102"
+            ]
           }
         }
       },
       "diff_content_factor": {
-        "id": "factor-diff-content",
+        "id": "fd48faa5-1d44-47a5-af59-3ced891762c6",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-github-api"]
+            "id": [
+              "df7d17d7-ba74-4172-aa40-e003add5e102"
+            ]
           }
         }
       }
@@ -61,10 +71,9 @@
     "updated_at": "2025-01-20T11:20:15.000Z",
     "workflows": [
       {
-        "id": "wf3-qa-software-dev-0001-0002-0003-0004",
+        "id": "91044b0c-5616-4b8b-8adc-4be084da3293",
         "name": "Automate Quality Assurance and Reporting of Software Development"
       }
     ]
   }
 }
-

@@ -1,7 +1,7 @@
 {
   "workflows": [
     {
-      "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+      "id": "0d9e8f83-7c4f-42b8-8fe1-b7220e62d6cd",
       "name": "Lead Scoring for Nurturing",
       "description": "Prepare personalized outreach sequences for bots/sales persons by sourcing companies, enriching them, scoring leads, and extracting/enriching people data",
       "status": "active",
@@ -20,7 +20,7 @@
       "average_duration": 520.3
     },
     {
-      "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+      "id": "56a88407-dca5-430d-9cd4-4d2b7a3ed27f",
       "name": "Supplier Compliance Check/Monitoring",
       "description": "Send automated RFIs for suppliers by sourcing documents from Databricks, extracting companies, creating structured rules, enriching with ESG data, and extracting contacts",
       "status": "active",
@@ -39,7 +39,7 @@
       "average_duration": 680.5
     },
     {
-      "id": "wf3-qa-software-dev-0001-0002-0003-0004",
+      "id": "91044b0c-5616-4b8b-8adc-4be084da3293",
       "name": "Automate Quality Assurance and Reporting of Software Development",
       "description": "Quality assurance automation for software development by sourcing GitHub merge requests and quality rule documents, enriching documents with RAG, and evaluating merge requests with IT compliance",
       "status": "active",
@@ -58,7 +58,7 @@
       "average_duration": 420.8
     },
     {
-      "id": "wf4-knowledge-base-0001-0002-0003-0004",
+      "id": "a7ca741f-9c6e-4cb8-bf4e-5570e8d3ff09",
       "name": "Prepare Knowledge Base Directory for Support Chatbot",
       "description": "Create structured knowledge base for support chatbot by sourcing unstructured documents, classifying format and readability, and creating structured rules with format guardrails",
       "status": "active",

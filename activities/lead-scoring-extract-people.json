@@ -1,5 +1,5 @@
 {
-  "id": "ls-act-004-extract-people",
+  "id": "e8f21562-d7cd-431d-8528-f7daaeb59055",
   "name": "Extraction of People",
   "description": "Extracts person records from companies using LinkedIn People Dataset",
   "type": "extract",
@@ -9,29 +9,36 @@
   "setup": {
     "data": {
       "linkedin_dataset": {
-        "id": "src-linkedin-dataset",
+        "id": "b9b695ce-46b4-4179-bc02-fab343777c77",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-person-role", "factor-person-department"]
+            "id": [
+              "22633614-c6f9-4206-9a3f-c6025f534414",
+              "d0fc028f-9fd6-4650-b143-16511eef52e7"
+            ]
           }
         }
       },
       "role_factor": {
-        "id": "factor-person-role",
+        "id": "22633614-c6f9-4206-9a3f-c6025f534414",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-linkedin-dataset"]
+            "id": [
+              "b9b695ce-46b4-4179-bc02-fab343777c77"
+            ]
           }
         }
       },
       "department_factor": {
-        "id": "factor-person-department",
+        "id": "d0fc028f-9fd6-4650-b143-16511eef52e7",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-linkedin-dataset"]
+            "id": [
+              "b9b695ce-46b4-4179-bc02-fab343777c77"
+            ]
           }
         }
       }
@@ -52,10 +59,9 @@
     "updated_at": "2025-01-20T14:45:30.000Z",
     "workflows": [
       {
-        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "id": "0d9e8f83-7c4f-42b8-8fe1-b7220e62d6cd",
         "name": "Lead Scoring for Nurturing"
       }
     ]
   }
 }
-

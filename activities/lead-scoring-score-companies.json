@@ -1,5 +1,5 @@
 {
-  "id": "ls-act-003-score-companies",
+  "id": "8505f8bd-254a-4a1a-9656-8ab461ad5a2a",
   "name": "Scoring Companies",
   "description": "Scores companies using MLFlow lead scoring model for lead quality",
   "type": "predict",
@@ -9,29 +9,36 @@
   "setup": {
     "data": {
       "mlflow_model": {
-        "id": "src-mlflow",
+        "id": "04c1a991-c6c7-4bfd-8596-9521038708a7",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-lead-score", "factor-nurturing-priority"]
+            "id": [
+              "1bfbdc9d-d53e-4798-ad77-f167e3223441",
+              "0d252e92-99d9-4226-b69e-0c2466618323"
+            ]
           }
         }
       },
       "lead_score_factor": {
-        "id": "factor-lead-score",
+        "id": "1bfbdc9d-d53e-4798-ad77-f167e3223441",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-mlflow"]
+            "id": [
+              "04c1a991-c6c7-4bfd-8596-9521038708a7"
+            ]
           }
         }
       },
       "nurturing_priority_factor": {
-        "id": "factor-nurturing-priority",
+        "id": "0d252e92-99d9-4226-b69e-0c2466618323",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-mlflow"]
+            "id": [
+              "04c1a991-c6c7-4bfd-8596-9521038708a7"
+            ]
           }
         }
       }
@@ -52,10 +59,9 @@
     "updated_at": "2025-01-20T14:45:30.000Z",
     "workflows": [
       {
-        "id": "wf1-lead-scoring-0001-0002-0003-0004-0005",
+        "id": "0d9e8f83-7c4f-42b8-8fe1-b7220e62d6cd",
         "name": "Lead Scoring for Nurturing"
       }
     ]
   }
 }
-

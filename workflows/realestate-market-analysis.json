@@ -17,7 +17,9 @@
         },
         "destination": {
           "activity": {
-            "id": ["f6g7h8i9-j0k1-2345-f012-678901234567"]
+            "id": [
+              "f6g7h8i9-j0k1-2345-f012-678901234567"
+            ]
           }
         }
       },
@@ -32,7 +34,9 @@
         },
         "destination": {
           "activity": {
-            "id": ["g7h8i9j0-k1l2-3456-0123-789012345678"]
+            "id": [
+              "g7h8i9j0-k1l2-3456-0123-789012345678"
+            ]
           }
         }
       },
@@ -47,7 +51,9 @@
         },
         "destination": {
           "activity": {
-            "id": ["h8i9j0k1-l2m3-4567-1234-890123456789"]
+            "id": [
+              "h8i9j0k1-l2m3-4567-1234-890123456789"
+            ]
           }
         }
       },
@@ -62,7 +68,9 @@
         },
         "destination": {
           "activity": {
-            "id": ["i9j0k1l2-m3n4-5678-2345-901234567890"]
+            "id": [
+              "i9j0k1l2-m3n4-5678-2345-901234567890"
+            ]
           }
         }
       },
@@ -87,7 +95,7 @@
     "total_executions": 25,
     "successful_executions": 20,
     "failed_executions": 5,
-    "success_rate": 0.800,
+    "success_rate": 0.8,
     "average_duration": 520.5,
     "last_used_at": "2025-01-20T16:30:45.000Z"
   },

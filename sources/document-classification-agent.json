@@ -1,0 +1,249 @@
+{
+  "id": "fcb51cf8-bff6-45bc-ab47-c5bc54fe8526",
+  "name": "Document Classification Agent",
+  "description": "AI agent that classifies document format and evaluates readability for knowledge base preparation",
+  "source_type": "Agent",
+  "delivery_type": "Endpoint",
+  "setup": {
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body",
+              "documents"
+            ],
+            "mapping_status": "mapped"
+          },
+          "webhook_url": {
+            "path": [
+              "body",
+              "webhook_url"
+            ],
+            "mapping_status": "mapped"
+          },
+          "run_id": {
+            "path": [
+              "body",
+              "run_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "recommended",
+            "status_translations": {
+              "completed": "completed",
+              "processing": "running",
+              "failed": "error"
+            }
+          },
+          "classification_id": {
+            "path": [
+              "classification_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://doc-classifier.internal/api/classify",
+        "method": "POST",
+        "headers": {
+          "Content_Type": "application/json"
+        },
+        "body": {
+          "documents": "<<$run_setup>>",
+          "webhook_url": "<<$webhook_url>>",
+          "run_id": "<<$id>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {
+        "run_setup": {
+          "path": [
+            "body",
+            "documents"
+          ],
+          "example_value": {
+            "filters": {
+              "industry": "Technology",
+              "size": "medium"
+            }
+          }
+        },
+        "webhook_url": {
+          "path": [
+            "body",
+            "webhook_url"
+          ],
+          "example_value": "https://example.com/webhook"
+        },
+        "run_id": {
+          "path": [
+            "body",
+            "run_id"
+          ],
+          "example_value": "run-12345"
+        }
+      }
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://doc-classifier.internal/api/classifications/<<$run_external_id>>/status",
+        "method": "GET",
+        "headers": {
+          "Content_Type": "application/json"
+        },
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "data": {
+            "path": [
+              "classifications"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://doc-classifier.internal/api/classifications/<<$run_external_id>>/results",
+        "method": "GET",
+        "headers": {
+          "Content_Type": "application/json"
+        },
+        "body": {}
+      },
+      "response_examples": [
+        {
+          "status": "completed",
+          "classification_id": "classify-88888",
+          "classifications": [
+            {
+              "document_id": "doc-kb-001",
+              "format_type": "plain_text",
+              "readability_score": 0.75,
+              "classification_status": "classified",
+              "format_analysis": {
+                "encoding": "UTF-8",
+                "line_endings": "LF",
+                "structure": "structured"
+              },
+              "readability_metrics": {
+                "flesch_reading_ease": 65,
+                "average_sentence_length": 15,
+                "word_count": 450
+              }
+            },
+            {
+              "document_id": "doc-kb-002",
+              "format_type": "markdown",
+              "readability_score": 0.82,
+              "classification_status": "classified",
+              "format_analysis": {
+                "encoding": "UTF-8",
+                "line_endings": "LF",
+                "structure": "structured",
+                "markdown_features": [
+                  "headers",
+                  "lists",
+                  "code_blocks"
+                ]
+              },
+              "readability_metrics": {
+                "flesch_reading_ease": 72,
+                "average_sentence_length": 12,
+                "word_count": 380
+              }
+            }
+          ]
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "fcb51cf8-bff6-45bc-ab47-c5bc54fe8526",
+            "name": "Document Classification Agent",
+            "description": "AI agent that classifies document format and evaluates readability for knowledge base preparation",
+            "object_source_mappings": [],
+            "datapoint_source_mappings": [
+              {
+                "id": "966b72c2-4772-4764-8697-54f0805a6add",
+                "datapoint_id": "8a7c071a-d3df-4cb6-93bd-2ce2dd9aa713",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "classifications",
+                  "*",
+                  "format_type"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract format type"
+              },
+              {
+                "id": "5b6979dc-69db-4993-8cb9-26cc0b9ec5bc",
+                "datapoint_id": "37178052-66b6-4682-af07-edfd7508fe85",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "classifications",
+                  "*",
+                  "readability_score"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract readability score"
+              },
+              {
+                "id": "b343b979-03d1-4299-ad59-ee449017953d",
+                "datapoint_id": "36c66b4f-7c19-4bca-873d-94df0163c533",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "classifications",
+                  "*",
+                  "classification_status"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract classification status"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

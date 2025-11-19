@@ -13,7 +13,9 @@
         "type": "source",
         "destination": {
           "target": {
-            "id": ["g7h8i9j0-k1l2-3456-0123-789012345678"]
+            "id": [
+              "g7h8i9j0-k1l2-3456-0123-789012345678"
+            ]
           }
         }
       },
@@ -28,7 +30,7 @@
     "total_requests": 156,
     "successful_requests": 142,
     "failed_requests": 14,
-    "success_rate": 0.910,
+    "success_rate": 0.91,
     "average_duration": 35.0,
     "last_used_at": "2025-01-16T08:20:45.000Z"
   },

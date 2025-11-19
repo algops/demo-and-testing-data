@@ -1,5 +1,5 @@
 {
-  "id": "kb-act-003-rag-rules",
+  "id": "ba4303ba-9e7f-4985-82be-1d3b225d5b72",
   "name": "RAG Agent Structured Rules Creation",
   "description": "Creates structured rules from documents with format guardrails using RAG Agent with Guardrails",
   "type": "enrich",
@@ -9,38 +9,48 @@
   "setup": {
     "data": {
       "rag_agent_guardrails": {
-        "id": "src-rag-agent-guardrails",
+        "id": "fd778da7-9706-4149-bd06-21337b365e39",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-structured-rules", "factor-format-validated", "factor-chatbot-ready"]
+            "id": [
+              "ace3b09f-d48d-4582-b333-5aabf08c6364",
+              "709e7d64-a631-4c18-8e07-5def8bb876c6",
+              "f1f3a36d-4c33-4cac-be57-ee5d44f252bb"
+            ]
           }
         }
       },
       "structured_rules_factor": {
-        "id": "factor-structured-rules",
+        "id": "ace3b09f-d48d-4582-b333-5aabf08c6364",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-rag-agent-guardrails"]
+            "id": [
+              "fd778da7-9706-4149-bd06-21337b365e39"
+            ]
           }
         }
       },
       "format_validated_factor": {
-        "id": "factor-format-validated",
+        "id": "709e7d64-a631-4c18-8e07-5def8bb876c6",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-rag-agent-guardrails"]
+            "id": [
+              "fd778da7-9706-4149-bd06-21337b365e39"
+            ]
           }
         }
       },
       "chatbot_ready_factor": {
-        "id": "factor-chatbot-ready",
+        "id": "f1f3a36d-4c33-4cac-be57-ee5d44f252bb",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-rag-agent-guardrails"]
+            "id": [
+              "fd778da7-9706-4149-bd06-21337b365e39"
+            ]
           }
         }
       }
@@ -61,10 +71,9 @@
     "updated_at": "2025-01-20T09:15:20.000Z",
     "workflows": [
       {
-        "id": "wf4-knowledge-base-0001-0002-0003-0004",
+        "id": "a7ca741f-9c6e-4cb8-bf4e-5570e8d3ff09",
         "name": "Prepare Knowledge Base Directory for Support Chatbot"
       }
     ]
   }
 }
-

@@ -1,5 +1,5 @@
 {
-  "id": "qa-act-003-rag-enrichment",
+  "id": "0e5000b3-572e-4de3-bacd-6ef6ae37e4bb",
   "name": "RAG Agent Document Enrichment",
   "description": "Enriches documents and creates structured data using RAG Agent",
   "type": "enrich",
@@ -9,29 +9,36 @@
   "setup": {
     "data": {
       "rag_agent": {
-        "id": "src-rag-agent",
+        "id": "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-document-structured-data", "factor-quality-metrics"]
+            "id": [
+              "f7af175f-1f83-44d2-acbf-9d88eb0b58e8",
+              "afa09a2b-7ca6-497c-a4f0-aa6a185e836d"
+            ]
           }
         }
       },
       "structured_data_factor": {
-        "id": "factor-document-structured-data",
+        "id": "f7af175f-1f83-44d2-acbf-9d88eb0b58e8",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-rag-agent"]
+            "id": [
+              "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9"
+            ]
           }
         }
       },
       "quality_metrics_factor": {
-        "id": "factor-quality-metrics",
+        "id": "afa09a2b-7ca6-497c-a4f0-aa6a185e836d",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-rag-agent"]
+            "id": [
+              "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9"
+            ]
           }
         }
       }
@@ -52,10 +59,9 @@
     "updated_at": "2025-01-20T11:20:15.000Z",
     "workflows": [
       {
-        "id": "wf3-qa-software-dev-0001-0002-0003-0004",
+        "id": "91044b0c-5616-4b8b-8adc-4be084da3293",
         "name": "Automate Quality Assurance and Reporting of Software Development"
       }
     ]
   }
 }
-

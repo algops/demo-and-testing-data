@@ -1,5 +1,5 @@
 {
-  "id": "wf4-knowledge-base-0001-0002-0003-0004",
+  "id": "a7ca741f-9c6e-4cb8-bf4e-5570e8d3ff09",
   "name": "Prepare Knowledge Base Directory for Support Chatbot",
   "description": "Create structured knowledge base for support chatbot by sourcing unstructured documents, classifying format and readability, and creating structured rules with format guardrails",
   "status": "active",
@@ -7,7 +7,7 @@
   "setup": {
     "data": {
       "source_documents": {
-        "id": "kb-act-001-source-docs",
+        "id": "165e0964-f52c-45c4-ab18-db38e9df98e1",
         "type": "activity",
         "setup": {
           "config": {
@@ -17,12 +17,14 @@
         },
         "destination": {
           "activity": {
-            "id": ["kb-act-002-classification"]
+            "id": [
+              "b1ab0a5e-d42c-46de-abee-247387b4cb0d"
+            ]
           }
         }
       },
       "classification": {
-        "id": "kb-act-002-classification",
+        "id": "b1ab0a5e-d42c-46de-abee-247387b4cb0d",
         "type": "activity",
         "setup": {
           "config": {
@@ -32,12 +34,14 @@
         },
         "destination": {
           "activity": {
-            "id": ["kb-act-003-rag-rules"]
+            "id": [
+              "ba4303ba-9e7f-4985-82be-1d3b225d5b72"
+            ]
           }
         }
       },
       "rag_structured_rules": {
-        "id": "kb-act-003-rag-rules",
+        "id": "ba4303ba-9e7f-4985-82be-1d3b225d5b72",
         "type": "activity",
         "setup": {
           "config": {
@@ -71,4 +75,3 @@
     "workflow_requests_count": 35
   }
 }
-

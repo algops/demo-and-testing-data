@@ -1,7 +1,7 @@
 {
   "activities": [
     {
-      "id": "ls-act-001-source-companies",
+      "id": "ea58de9b-03bf-4d64-8e37-ba304e363f1b",
       "name": "Sourcing Companies",
       "description": "Sources company data from external APIs (Crunchbase API, Brightdata Scraper) for lead scoring workflow",
       "type": "source",
@@ -21,7 +21,7 @@
       "average_duration": 45.2
     },
     {
-      "id": "ls-act-002-enrich-companies",
+      "id": "70c7731c-fef0-4386-9a16-437b8d3da91b",
       "name": "Enrichment Companies",
       "description": "Enriches company data with additional attributes using Enrichment Agent",
       "type": "enrich",
@@ -41,7 +41,7 @@
       "average_duration": 156.0
     },
     {
-      "id": "ls-act-003-score-companies",
+      "id": "8505f8bd-254a-4a1a-9656-8ab461ad5a2a",
       "name": "Scoring Companies",
       "description": "Scores companies using MLFlow lead scoring model for lead quality",
       "type": "predict",
@@ -61,7 +61,7 @@
       "average_duration": 95.0
     },
     {
-      "id": "ls-act-004-extract-people",
+      "id": "e8f21562-d7cd-431d-8528-f7daaeb59055",
       "name": "Extraction of People",
       "description": "Extracts person records from companies using LinkedIn People Dataset",
       "type": "extract",
@@ -81,7 +81,7 @@
       "average_duration": 78.0
     },
     {
-      "id": "ls-act-005-enrich-people",
+      "id": "2213b3cd-a981-42b3-80a8-01ea4ed0488f",
       "name": "Enrichment of People",
       "description": "Enriches person data with contact and profile information using LinkedIn People Dataset",
       "type": "enrich",
@@ -101,7 +101,7 @@
       "average_duration": 145.0
     },
     {
-      "id": "sc-act-001-databricks-docs",
+      "id": "ed932e69-04cf-42d5-8a6c-e785bca20b95",
       "name": "Databricks Suppliers' Documents Sourcing",
       "description": "Sources compliance documents from Databricks Documents API",
       "type": "source",
@@ -121,7 +121,7 @@
       "average_duration": 120.0
     },
     {
-      "id": "sc-act-002-extract-companies",
+      "id": "60393a04-e6cc-4e11-b974-89f5874a8900",
       "name": "Extraction of Companies",
       "description": "Extracts company objects from document data using RAG Agent",
       "type": "extract",
@@ -141,7 +141,7 @@
       "average_duration": 210.0
     },
     {
-      "id": "sc-act-003-rag-rules",
+      "id": "7dbd41c6-1911-424b-8d5a-3b91ccf0a2eb",
       "name": "RAG Agent Structured Rules",
       "description": "Creates structured compliance rules from documents using RAG Agent",
       "type": "enrich",
@@ -161,7 +161,7 @@
       "average_duration": 180.0
     },
     {
-      "id": "sc-act-004-esg-enrichment",
+      "id": "f71708a3-fd46-4976-a79d-95b208501193",
       "name": "ESG Agent Enrichment",
       "description": "Enriches companies with ESG compliance data",
       "type": "enrich",
@@ -181,7 +181,7 @@
       "average_duration": 95.0
     },
     {
-      "id": "sc-act-005-extract-contacts",
+      "id": "905f07cd-17bf-469d-9a62-5623b28bd1ee",
       "name": "Extraction of Person and Contacts from ETL",
       "description": "Extracts person and contact information from ETL pipeline",
       "type": "extract",
@@ -201,7 +201,7 @@
       "average_duration": 75.0
     },
     {
-      "id": "qa-act-001-github-mr",
+      "id": "366bc471-f8eb-43d4-9629-047620e0a451",
       "name": "GitHub Merge Requests Sourcing",
       "description": "Sources merge requests with commit messages and diffs from GitHub API",
       "type": "source",
@@ -221,7 +221,7 @@
       "average_duration": 45.0
     },
     {
-      "id": "qa-act-002-docs-sourcing",
+      "id": "7d381a80-3ac7-47cb-9e37-6fdafc95d8cc",
       "name": "Documents Sourcing with Rules",
       "description": "Sources documents with quality rules from ETL Documents API",
       "type": "source",
@@ -241,7 +241,7 @@
       "average_duration": 60.0
     },
     {
-      "id": "qa-act-003-rag-enrichment",
+      "id": "0e5000b3-572e-4de3-bacd-6ef6ae37e4bb",
       "name": "RAG Agent Document Enrichment",
       "description": "Enriches documents and creates structured data using RAG Agent",
       "type": "enrich",
@@ -261,7 +261,7 @@
       "average_duration": 180.0
     },
     {
-      "id": "qa-act-004-merge-evaluation",
+      "id": "2c339492-ef81-4773-8269-b79f75a94794",
       "name": "Merge-request evaluation",
       "description": "Enriches merge requests with IT compliance data using Trustsoft IT Agent",
       "type": "enrich",
@@ -281,7 +281,7 @@
       "average_duration": 135.8
     },
     {
-      "id": "kb-act-001-source-docs",
+      "id": "165e0964-f52c-45c4-ab18-db38e9df98e1",
       "name": "Sourcing Unstructured Documents",
       "description": "Sources unstructured documents from various sources using Document Storage API",
       "type": "source",
@@ -301,7 +301,7 @@
       "average_duration": 90.0
     },
     {
-      "id": "kb-act-002-classification",
+      "id": "b1ab0a5e-d42c-46de-abee-247387b4cb0d",
       "name": "Classification of Format and Readability",
       "description": "Classifies document format and readability using Document Classification Agent",
       "type": "enrich",
@@ -321,7 +321,7 @@
       "average_duration": 120.0
     },
     {
-      "id": "kb-act-003-rag-rules",
+      "id": "ba4303ba-9e7f-4985-82be-1d3b225d5b72",
       "name": "RAG Agent Structured Rules Creation",
       "description": "Creates structured rules from documents with format guardrails using RAG Agent with Guardrails",
       "type": "enrich",

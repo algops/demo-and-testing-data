@@ -1,5 +1,5 @@
 {
-  "id": "sc-act-001-databricks-docs",
+  "id": "ed932e69-04cf-42d5-8a6c-e785bca20b95",
   "name": "Databricks Suppliers' Documents Sourcing",
   "description": "Sources compliance documents from Databricks Documents API",
   "type": "source",
@@ -9,29 +9,36 @@
   "setup": {
     "data": {
       "databricks_api": {
-        "id": "src-databricks-api",
+        "id": "d09a18b6-36b4-4b3c-8e9c-5da57818a4b5",
         "type": "source",
         "destination": {
           "factor": {
-            "id": ["factor-document-type", "factor-compliance-category"]
+            "id": [
+              "b60a02aa-2fe4-41aa-b536-28a48706037b",
+              "79ffa58a-09df-4934-8492-7392eeea6a28"
+            ]
           }
         }
       },
       "document_type_factor": {
-        "id": "factor-document-type",
+        "id": "b60a02aa-2fe4-41aa-b536-28a48706037b",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-databricks-api"]
+            "id": [
+              "d09a18b6-36b4-4b3c-8e9c-5da57818a4b5"
+            ]
           }
         }
       },
       "compliance_category_factor": {
-        "id": "factor-compliance-category",
+        "id": "79ffa58a-09df-4934-8492-7392eeea6a28",
         "type": "factor",
         "destination": {
           "source": {
-            "id": ["src-databricks-api"]
+            "id": [
+              "d09a18b6-36b4-4b3c-8e9c-5da57818a4b5"
+            ]
           }
         }
       }
@@ -52,10 +59,9 @@
     "updated_at": "2025-01-20T16:30:45.000Z",
     "workflows": [
       {
-        "id": "wf2-supplier-compliance-0001-0002-0003-0004",
+        "id": "56a88407-dca5-430d-9cd4-4d2b7a3ed27f",
         "name": "Supplier Compliance Check/Monitoring"
       }
     ]
   }
 }
-

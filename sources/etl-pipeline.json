@@ -1,0 +1,282 @@
+{
+  "id": "a14b40b6-2354-402b-ae4d-81453d26b5c4",
+  "name": "ETL Pipeline",
+  "description": "Extract, Transform, Load pipeline for extracting person and contact information from various data sources",
+  "source_type": "Integration",
+  "delivery_type": "Endpoint",
+  "setup": {
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body",
+              "filters"
+            ],
+            "mapping_status": "mapped"
+          },
+          "webhook_url": {
+            "path": [
+              "webhook_url"
+            ],
+            "mapping_status": "remaining"
+          },
+          "run_id": {
+            "path": [
+              "id"
+            ],
+            "mapping_status": "issue"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "recommended",
+            "status_translations": {
+              "ready": "completed",
+              "processing": "running",
+              "failed": "error"
+            }
+          },
+          "extraction_id": {
+            "path": [
+              "extraction_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://etl-pipeline.internal/api/v1/extract",
+        "method": "POST",
+        "headers": {
+          "Content_Type": "application/json",
+          "X_API_Key": "<<$auth_key>>"
+        },
+        "body": {
+          "source": "supplier_contacts",
+          "filters": "<<$run_setup>>",
+          "max_results": "<<$max_objects>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {
+        "run_setup": {
+          "path": [
+            "body",
+            "filters"
+          ],
+          "example_value": {
+            "filters": {
+              "industry": "Technology",
+              "size": "medium"
+            }
+          }
+        },
+        "webhook_url": {
+          "path": [
+            "webhook_url"
+          ],
+          "example_value": "https://example.com/webhook"
+        },
+        "run_id": {
+          "path": [
+            "id"
+          ],
+          "example_value": "run-12345"
+        }
+      }
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://etl-pipeline.internal/api/v1/extractions/<<$run_external_id>>/status",
+        "method": "GET",
+        "headers": {
+          "X_API_Key": "<<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "data": {
+            "path": [
+              "contacts"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://etl-pipeline.internal/api/v1/extractions/<<$run_external_id>>/results",
+        "method": "GET",
+        "headers": {
+          "X_API_Key": "<<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": [
+        {
+          "status": "ready",
+          "extraction_id": "etl-extract-33333",
+          "contacts": [
+            {
+              "person_id": "person-003",
+              "name": "Michael Chen",
+              "email": "michael.chen@globalmfg.com",
+              "phone": "+1-555-0201",
+              "address": "123 Industrial Blvd, Suite 200, Chicago, IL 60601",
+              "company_id": "comp-001",
+              "contact_type": "procurement_manager",
+              "department": "Procurement",
+              "role": "Senior Procurement Manager"
+            },
+            {
+              "person_id": "person-004",
+              "name": "Emily Rodriguez",
+              "email": "emily.r@supplychain-solutions.com",
+              "phone": "+1-555-0202",
+              "address": "456 Commerce Way, Boston, MA 02110",
+              "company_id": "comp-002",
+              "contact_type": "compliance_officer",
+              "department": "Compliance",
+              "role": "Compliance Officer"
+            }
+          ]
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "a14b40b6-2354-402b-ae4d-81453d26b5c4",
+            "name": "ETL Pipeline",
+            "description": "Extract, Transform, Load pipeline for extracting person and contact information from various data sources",
+            "object_source_mappings": [
+              {
+                "id": "746d2518-9f12-4c17-a30e-5a5e2eae7f8e",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "contacts",
+                  "*",
+                  "person_id"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract person IDs as objects"
+              },
+              {
+                "id": "949fcf55-33f1-4af8-a0d2-5c027374e926",
+                "object_type_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
+                "key_mapping": [
+                  "contacts",
+                  "*",
+                  "email"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract contact emails as objects"
+              }
+            ],
+            "datapoint_source_mappings": [
+              {
+                "id": "a4de7e3a-cd3a-4a40-9df1-acc9da7a63cc",
+                "datapoint_id": "dp-person-name",
+                "object_type_id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+                "key_mapping": [
+                  "contacts",
+                  "*",
+                  "name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract person name"
+              },
+              {
+                "id": "e32c32ce-0eab-47e3-9279-6a00cf0f2d09",
+                "datapoint_id": "0775d7b2-f748-41b2-8b62-9147e76a8a80",
+                "object_type_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
+                "key_mapping": [
+                  "contacts",
+                  "*",
+                  "email"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract contact email"
+              },
+              {
+                "id": "c9cac2b0-99e1-41e3-9cbf-a00fb5d69fb7",
+                "datapoint_id": "a8c5f89c-688d-44f4-a4a9-7ea27b79c998",
+                "object_type_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
+                "key_mapping": [
+                  "contacts",
+                  "*",
+                  "phone"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract contact phone"
+              },
+              {
+                "id": "11cc6c4f-0f5e-4277-b068-d70621ce9189",
+                "datapoint_id": "4b1efd12-9039-48c1-bb59-3220ab916b00",
+                "object_type_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
+                "key_mapping": [
+                  "contacts",
+                  "*",
+                  "address"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract contact address"
+              },
+              {
+                "id": "3425f30e-6646-4691-bdb1-5306c9e4cbf1",
+                "datapoint_id": "0c964c09-4d6e-4dff-9679-c4ff78e3abbc",
+                "object_type_id": "w3x4y5z6-a7b8-9012-6789-345678901234",
+                "key_mapping": [
+                  "contacts",
+                  "*",
+                  "contact_type"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract contact type"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

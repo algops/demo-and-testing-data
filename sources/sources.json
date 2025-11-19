@@ -1,7 +1,7 @@
 {
   "sources": [
     {
-      "id": "src-crunchbase-api",
+      "id": "3578f878-65fd-49a5-972f-2101125bd618",
       "name": "Crunchbase API",
       "description": "Comprehensive company database API providing company profiles, funding information, and business intelligence data",
       "source_type": "Integration",
@@ -23,7 +23,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-bright-data",
+      "id": "a276d56d-9fce-4a4a-b932-39c51b7d1132",
       "name": "Brightdata Scraper",
       "description": "Advanced web scraping platform for extracting company data from various websites with proxy rotation and anti-bot protection",
       "source_type": "Integration",
@@ -45,7 +45,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-enrichment-agent",
+      "id": "466352a8-ef4a-41b6-a413-7bf23c8cb560",
       "name": "Enrichment Agent",
       "description": "AI-powered agent that enriches company data with additional attributes including revenue, funding, and technology stack information",
       "source_type": "Agent",
@@ -67,7 +67,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-mlflow",
+      "id": "04c1a991-c6c7-4bfd-8596-9521038708a7",
       "name": "MLFlow Lead Scoring Model",
       "description": "Machine learning model for lead scoring deployed via MLFlow, providing lead quality scores and nurturing priorities",
       "source_type": "ML model",
@@ -89,7 +89,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-linkedin-dataset",
+      "id": "b9b695ce-46b4-4179-bc02-fab343777c77",
       "name": "LinkedIn People Dataset",
       "description": "Comprehensive dataset of professional profiles from LinkedIn, including contact information, job roles, skills, and experience data",
       "source_type": "Dataset",
@@ -111,7 +111,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-databricks-api",
+      "id": "d09a18b6-36b4-4b3c-8e9c-5da57818a4b5",
       "name": "Databricks Documents API",
       "description": "API for accessing compliance documents stored in Databricks data lake, providing document metadata and content",
       "source_type": "Integration",
@@ -133,7 +133,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-rag-agent",
+      "id": "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9",
       "name": "RAG Agent",
       "description": "Retrieval-Augmented Generation agent that creates structured rules and extracts information from unstructured documents",
       "source_type": "Agent",
@@ -155,7 +155,7 @@
       "workflows_count": 2
     },
     {
-      "id": "src-esg-agent",
+      "id": "3190e39c-d9d7-4eeb-95af-8be16f877044",
       "name": "ESG Agent",
       "description": "Environmental, Social, and Governance document analysis agent for sustainability reporting and compliance assessment",
       "source_type": "Agent",
@@ -177,7 +177,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-etl-pipeline",
+      "id": "a14b40b6-2354-402b-ae4d-81453d26b5c4",
       "name": "ETL Pipeline",
       "description": "Extract, Transform, Load pipeline for extracting person and contact information from various data sources",
       "source_type": "Integration",
@@ -199,7 +199,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-github-api",
+      "id": "df7d17d7-ba74-4172-aa40-e003add5e102",
       "name": "GitHub API",
       "description": "GitHub REST API for accessing merge requests, commit messages, diffs, and repository information",
       "source_type": "Integration",
@@ -221,7 +221,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-etl-documents-api",
+      "id": "0989e548-7bfa-43f5-ad4a-68e0b2be4257",
       "name": "ETL Documents API",
       "description": "API for accessing quality rule documents from ETL pipeline, providing structured quality guidelines and compliance rules",
       "source_type": "Integration",
@@ -243,7 +243,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-trustsoft-it-agent",
+      "id": "4e0a34be-f332-4176-9750-ec1a2acc92de",
       "name": "Trustsoft IT Agent",
       "description": "IT compliance evaluation agent that analyzes merge requests for security, code quality, and compliance standards",
       "source_type": "Agent",
@@ -265,7 +265,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-document-storage-api",
+      "id": "44004d81-ec4c-4cfe-885a-2473527db1fb",
       "name": "Document Storage API",
       "description": "API for accessing unstructured documents from various storage systems for knowledge base creation",
       "source_type": "Integration",
@@ -287,7 +287,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-document-classification-agent",
+      "id": "fcb51cf8-bff6-45bc-ab47-c5bc54fe8526",
       "name": "Document Classification Agent",
       "description": "AI agent that classifies document format and evaluates readability for knowledge base preparation",
       "source_type": "Agent",
@@ -309,7 +309,7 @@
       "workflows_count": 1
     },
     {
-      "id": "src-rag-agent-guardrails",
+      "id": "fd778da7-9706-4149-bd06-21337b365e39",
       "name": "RAG Agent with Guardrails",
       "description": "RAG Agent configured with format validation guardrails for creating structured knowledge base entries",
       "source_type": "Agent",
@@ -330,15 +330,5 @@
       "activities_count": 1,
       "workflows_count": 1
     }
-  ],
-  "templates": {
-    "run_request_template": "{}",
-    "status_request_template": "{}",
-    "delivery_request_template": "{}"
-  },
-  "setup": {
-    "run_request_template": {},
-    "status_request_template": {},
-    "delivery_request_template": {}
+  ]
   }
-}
