@@ -1,0 +1,380 @@
+{
+  "id": "df7d17d7-ba74-4172-aa40-e003add5e102",
+  "name": "GitHub API",
+  "description": "GitHub REST API for accessing merge requests, commit messages, diffs, and repository information",
+  "source_type": "Integration",
+  "delivery_type": "Webhook",
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body",
+              "filters"
+            ],
+            "mapping_status": "mapped"
+          },
+          "webhook_url": {
+            "path": [
+              "webhook_url"
+            ],
+            "mapping_status": "remaining"
+          },
+          "run_id": {
+            "path": [
+              "id"
+            ],
+            "mapping_status": "issue"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "recommended",
+            "status_translations": {
+              "ready": "completed",
+              "processing": "running",
+              "failed": "error"
+            }
+          },
+          "request_id": {
+            "path": [
+              "request_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.github.com/repos/<<$repo>>/pulls",
+        "method": "GET",
+        "headers": {
+          "Accept": "application/vnd.github.v3+json",
+          "Authorization": "token <<$auth_key>>"
+        },
+        "body": {
+          "state": "open",
+          "filters": "<<$run_setup>>",
+          "per_page": "<<$max_objects>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {
+        "run_setup": {
+          "path": [
+            "body",
+            "filters"
+          ],
+          "example_value": {
+            "filters": {
+              "industry": "Technology",
+              "size": "medium"
+            }
+          }
+        },
+        "webhook_url": {
+          "path": [
+            "webhook_url"
+          ],
+          "example_value": "https://example.com/webhook"
+        },
+        "run_id": {
+          "path": [
+            "id"
+          ],
+          "example_value": "run-12345"
+        }
+      }
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.github.com/repos/<<$repo>>/pulls/<<$run_external_id>>",
+        "method": "GET",
+        "headers": {
+          "Authorization": "token <<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "data": {
+            "path": [
+              "merge_requests"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.github.com/repos/<<$repo>>/pulls",
+        "method": "GET",
+        "headers": {
+          "Authorization": "token <<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": [
+        {
+          "status": "ready",
+          "request_id": "gh-req-44444",
+          "merge_requests": [
+            {
+              "id": "mr-001",
+              "number": 1234,
+              "title": "Add user authentication feature",
+              "description": "Implements OAuth2 authentication with JWT tokens",
+              "commit_message": "feat: add OAuth2 authentication\n\n- Implement JWT token generation\n- Add refresh token mechanism\n- Update user session management",
+              "diff_content": "diff --git a/src/auth.js b/src/auth.js\n+ export function authenticateUser(credentials) {\n+   // OAuth2 implementation\n+ }",
+              "author": {
+                "login": "developer1",
+                "name": "John Developer"
+              },
+              "repository": {
+                "full_name": "company/product-api",
+                "name": "product-api"
+              },
+              "head": {
+                "ref": "feature/auth-oauth2",
+                "sha": "abc123def456"
+              },
+              "base": {
+                "ref": "main"
+              },
+              "state": "open",
+              "created_at": "2025-01-18T10:30:00.000Z",
+              "updated_at": "2025-01-20T09:15:00.000Z",
+              "merged_at": null
+            },
+            {
+              "id": "mr-002",
+              "number": 1235,
+              "title": "Fix memory leak in data processor",
+              "description": "Resolves memory leak issue in batch processing module",
+              "commit_message": "fix: resolve memory leak in batch processor\n\n- Clear event listeners properly\n- Free up buffer memory after processing",
+              "diff_content": "diff --git a/src/processor.js b/src/processor.js\n- buffer = null; // Memory leak\n+ buffer = null;\n+ eventEmitter.removeAllListeners();",
+              "author": {
+                "login": "developer2",
+                "name": "Jane Coder"
+              },
+              "repository": {
+                "full_name": "company/data-service",
+                "name": "data-service"
+              },
+              "head": {
+                "ref": "fix/memory-leak",
+                "sha": "def456ghi789"
+              },
+              "base": {
+                "ref": "main"
+              },
+              "state": "open",
+              "created_at": "2025-01-19T14:20:00.000Z",
+              "updated_at": "2025-01-20T11:00:00.000Z",
+              "merged_at": null
+            }
+          ]
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "df7d17d7-ba74-4172-aa40-e003add5e102",
+            "name": "GitHub API",
+            "description": "GitHub REST API for accessing merge requests, commit messages, diffs, and repository information",
+            "object_source_mappings": [
+              {
+                "id": "d8910ace-f41c-4c89-b46b-259217fc1087",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "id"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract merge request IDs as objects"
+              }
+            ],
+            "datapoint_source_mappings": [
+              {
+                "id": "d42c2177-8600-4650-b149-aed7293f026e",
+                "datapoint_id": "0b04db5d-06ca-4040-8dbe-9c7b03557c25",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "title"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract merge request title"
+              },
+              {
+                "id": "ed9c6751-302c-41d6-98af-ddb144499220",
+                "datapoint_id": "d8af15ad-82a6-47b8-b5db-80f6ce2f7933",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "description"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract merge request description"
+              },
+              {
+                "id": "a2036066-73fa-4f74-aa28-20334bfa7396",
+                "datapoint_id": "3fa9220d-623f-4541-8d1f-0e79c0934439",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "commit_message"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract commit message"
+              },
+              {
+                "id": "8b9fd55a-8b99-4ac4-92b7-3020c33930b9",
+                "datapoint_id": "ebba39c2-ce91-461b-b293-2a1c8097ff36",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "diff_content"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract diff content"
+              },
+              {
+                "id": "7182214f-4c7f-4e9a-88f4-2a15dabaf969",
+                "datapoint_id": "d6e7f8g9-h0i1-2345-0123-678901234567",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "author",
+                  "name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract author name"
+              },
+              {
+                "id": "e1171178-6735-4452-b11e-f3fc301bf00a",
+                "datapoint_id": "ad0fab05-e487-465a-a1ca-7e9977ce2db4",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "repository",
+                  "name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract repository name"
+              },
+              {
+                "id": "bf57b8bb-85a4-444c-9513-2be8f245e37c",
+                "datapoint_id": "b67d31dc-06dd-414f-bccb-2523f852a67d",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "head",
+                  "ref"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract branch name"
+              },
+              {
+                "id": "9b04c2d3-b954-43c7-b670-548a6bafa99f",
+                "datapoint_id": "x6y7z8a9-b0c1-2345-0123-678901234567",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "state"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract merge request status"
+              },
+              {
+                "id": "37218838-e930-41b0-8d03-7dad64ec6984",
+                "datapoint_id": "9f9c2b42-df0f-43ed-9e09-b492894e06a8",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "created_at"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract created at timestamp"
+              },
+              {
+                "id": "17fccc75-06fb-4bfc-9ff3-12a07f0944bc",
+                "datapoint_id": "d51ae7de-2c43-4dd0-851b-9a35a96d665e",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "merge_requests",
+                  "*",
+                  "merged_at"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract merged at timestamp"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

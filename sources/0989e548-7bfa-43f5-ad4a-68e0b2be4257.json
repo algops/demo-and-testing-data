@@ -1,0 +1,278 @@
+{
+  "id": "0989e548-7bfa-43f5-ad4a-68e0b2be4257",
+  "name": "ETL Documents API",
+  "description": "API for accessing quality rule documents from ETL pipeline, providing structured quality guidelines and compliance rules",
+  "source_type": "Integration",
+  "delivery_type": "Endpoint",
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body",
+              "filters"
+            ],
+            "mapping_status": "mapped"
+          },
+          "webhook_url": {
+            "path": [
+              "webhook_url"
+            ],
+            "mapping_status": "remaining"
+          },
+          "run_id": {
+            "path": [
+              "id"
+            ],
+            "mapping_status": "issue"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "recommended",
+            "status_translations": {
+              "ready": "completed",
+              "processing": "running",
+              "failed": "error"
+            }
+          },
+          "query_id": {
+            "path": [
+              "query_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://etl-docs.internal/api/v1/documents",
+        "method": "GET",
+        "headers": {
+          "Content_Type": "application/json",
+          "X_API_Key": "<<$auth_key>>"
+        },
+        "body": {
+          "category": "quality_rules",
+          "filters": "<<$run_setup>>",
+          "limit": "<<$max_objects>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {
+        "run_setup": {
+          "path": [
+            "body",
+            "filters"
+          ],
+          "example_value": {
+            "filters": {
+              "industry": "Technology",
+              "size": "medium"
+            }
+          }
+        },
+        "webhook_url": {
+          "path": [
+            "webhook_url"
+          ],
+          "example_value": "https://example.com/webhook"
+        },
+        "run_id": {
+          "path": [
+            "id"
+          ],
+          "example_value": "run-12345"
+        }
+      }
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://etl-docs.internal/api/v1/queries/<<$run_external_id>>/status",
+        "method": "GET",
+        "headers": {
+          "X_API_Key": "<<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "data": {
+            "path": [
+              "documents"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://etl-docs.internal/api/v1/queries/<<$run_external_id>>/results",
+        "method": "GET",
+        "headers": {
+          "X_API_Key": "<<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": [
+        {
+          "status": "ready",
+          "query_id": "etl-docs-55555",
+          "documents": [
+            {
+              "id": "doc-qa-001",
+              "title": "Code Quality Standards",
+              "content": "All code must follow these quality standards:\n1. Minimum 80% test coverage\n2. All functions must have JSDoc comments\n3. No console.log statements in production code\n4. Maximum cyclomatic complexity of 10",
+              "file_type": "md",
+              "file_size": 15360,
+              "author": "Engineering Team",
+              "created_date": "2024-06-01T09:00:00.000Z",
+              "modified_date": "2024-12-15T16:30:00.000Z",
+              "source_system": "etl",
+              "quality_rules": {
+                "test_coverage": {
+                  "minimum": 0.8,
+                  "enforced": true
+                },
+                "documentation": {
+                  "required": true,
+                  "format": "JSDoc"
+                },
+                "code_quality": {
+                  "max_complexity": 10,
+                  "no_console_logs": true
+                }
+              },
+              "rule_category": "code_quality"
+            },
+            {
+              "id": "doc-qa-002",
+              "title": "Security Compliance Rules",
+              "content": "Security requirements for all merge requests:\n1. No hardcoded credentials\n2. All dependencies must be scanned for vulnerabilities\n3. Input validation required for all user inputs\n4. SQL injection prevention mandatory",
+              "file_type": "md",
+              "file_size": 20480,
+              "author": "Security Team",
+              "created_date": "2024-07-10T10:15:00.000Z",
+              "modified_date": "2025-01-05T11:20:00.000Z",
+              "source_system": "etl",
+              "quality_rules": {
+                "security": {
+                  "no_hardcoded_creds": true,
+                  "dependency_scanning": true,
+                  "input_validation": true,
+                  "sql_injection_prevention": true
+                }
+              },
+              "rule_category": "security"
+            }
+          ]
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "0989e548-7bfa-43f5-ad4a-68e0b2be4257",
+            "name": "ETL Documents API",
+            "description": "API for accessing quality rule documents from ETL pipeline, providing structured quality guidelines and compliance rules",
+            "object_source_mappings": [
+              {
+                "id": "7db5a6b2-6b15-4bb0-bdc7-1c562912d501",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "documents",
+                  "*",
+                  "id"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract document IDs as objects"
+              }
+            ],
+            "datapoint_source_mappings": [
+              {
+                "id": "26f6f0f1-50a4-4802-8887-3951e2aef208",
+                "datapoint_id": "dp-document-title",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "documents",
+                  "*",
+                  "title"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract document title"
+              },
+              {
+                "id": "5a52bfe6-0cd8-4f47-8b10-68d9b4c76062",
+                "datapoint_id": "7aaea5b6-fccb-4ef7-8fec-518d93f84cc9",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "documents",
+                  "*",
+                  "quality_rules"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract quality rules JSON"
+              },
+              {
+                "id": "2c1bbf48-09e9-4ffd-8653-fc06ab772739",
+                "datapoint_id": "d13d5de1-e7bd-4256-bb89-1db58938df85",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "documents",
+                  "*",
+                  "rule_category"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract rule category"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

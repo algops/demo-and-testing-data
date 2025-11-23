@@ -1,0 +1,277 @@
+{
+  "id": "4e0a34be-f332-4176-9750-ec1a2acc92de",
+  "name": "Trustsoft IT Agent",
+  "description": "IT compliance evaluation agent that analyzes merge requests for security, code quality, and compliance standards",
+  "source_type": "Agent",
+  "delivery_type": "Endpoint",
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body",
+              "merge_requests"
+            ],
+            "mapping_status": "mapped"
+          },
+          "webhook_url": {
+            "path": [
+              "body",
+              "webhook_url"
+            ],
+            "mapping_status": "mapped"
+          },
+          "run_id": {
+            "path": [
+              "body",
+              "run_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "recommended",
+            "status_translations": {
+              "completed": "completed",
+              "processing": "running",
+              "failed": "error"
+            }
+          },
+          "evaluation_id": {
+            "path": [
+              "evaluation_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://trustsoft.internal/api/v1/evaluate",
+        "method": "POST",
+        "headers": {
+          "Content_Type": "application/json",
+          "X_API_Key": "<<$auth_key>>"
+        },
+        "body": {
+          "merge_requests": "<<$run_setup>>",
+          "webhook_url": "<<$webhook_url>>",
+          "run_id": "<<$id>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {
+        "run_setup": {
+          "path": [
+            "body",
+            "merge_requests"
+          ],
+          "example_value": {
+            "filters": {
+              "industry": "Technology",
+              "size": "medium"
+            }
+          }
+        },
+        "webhook_url": {
+          "path": [
+            "body",
+            "webhook_url"
+          ],
+          "example_value": "https://example.com/webhook"
+        },
+        "run_id": {
+          "path": [
+            "body",
+            "run_id"
+          ],
+          "example_value": "run-12345"
+        }
+      }
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://trustsoft.internal/api/v1/evaluations/<<$run_external_id>>/status",
+        "method": "GET",
+        "headers": {
+          "X_API_Key": "<<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "data": {
+            "path": [
+              "evaluations"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://trustsoft.internal/api/v1/evaluations/<<$run_external_id>>/results",
+        "method": "GET",
+        "headers": {
+          "X_API_Key": "<<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": [
+        {
+          "status": "completed",
+          "evaluation_id": "trustsoft-eval-66666",
+          "evaluations": [
+            {
+              "merge_request_id": "mr-001",
+              "quality_score": 0.85,
+              "compliance_status": "compliant",
+              "it_agent_review": {
+                "security_check": {
+                  "status": "passed",
+                  "issues": []
+                },
+                "code_quality": {
+                  "status": "passed",
+                  "test_coverage": 0.88,
+                  "complexity_score": 8
+                },
+                "compliance": {
+                  "status": "passed",
+                  "standards_met": [
+                    "ISO 27001",
+                    "SOC 2"
+                  ]
+                }
+              },
+              "recommendations": [
+                "Add integration tests for OAuth flow",
+                "Consider adding rate limiting"
+              ]
+            },
+            {
+              "merge_request_id": "mr-002",
+              "quality_score": 0.92,
+              "compliance_status": "compliant",
+              "it_agent_review": {
+                "security_check": {
+                  "status": "passed",
+                  "issues": []
+                },
+                "code_quality": {
+                  "status": "passed",
+                  "test_coverage": 0.95,
+                  "complexity_score": 6
+                },
+                "compliance": {
+                  "status": "passed",
+                  "standards_met": [
+                    "ISO 27001",
+                    "SOC 2"
+                  ]
+                }
+              },
+              "recommendations": [
+                "Excellent memory management fix",
+                "Consider adding performance benchmarks"
+              ]
+            }
+          ]
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "4e0a34be-f332-4176-9750-ec1a2acc92de",
+            "name": "Trustsoft IT Agent",
+            "description": "IT compliance evaluation agent that analyzes merge requests for security, code quality, and compliance standards",
+            "object_source_mappings": [],
+            "datapoint_source_mappings": [
+              {
+                "id": "aa36fce2-ad33-4fbc-9519-1b332efca335",
+                "datapoint_id": "6c2aad84-853a-4580-bf01-2ddb10e52f8c",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "evaluations",
+                  "*",
+                  "quality_score"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract quality score"
+              },
+              {
+                "id": "aad3d424-5638-4154-b018-d753011ea784",
+                "datapoint_id": "8acce265-0a15-41e6-8c2a-b5175ebd2e49",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "evaluations",
+                  "*",
+                  "compliance_status"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract compliance status"
+              },
+              {
+                "id": "96dde393-49ff-45d9-b7eb-4b3075de6113",
+                "datapoint_id": "76a72f1a-83e7-481c-9359-cac486094be9",
+                "object_type_id": "a7b8c9d0-e1f2-3456-0123-789012345678",
+                "key_mapping": [
+                  "evaluations",
+                  "*",
+                  "it_agent_review"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract IT agent review"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "id": "44004d81-ec4c-4cfe-885a-2473527db1fb",
+  "name": "Document Storage API",
+  "description": "API for accessing unstructured documents from various storage systems for knowledge base creation",
+  "source_type": "Integration",
+  "delivery_type": "Endpoint",
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body",
+              "filters"
+            ],
+            "mapping_status": "mapped"
+          },
+          "webhook_url": {
+            "path": [
+              "webhook_url"
+            ],
+            "mapping_status": "remaining"
+          },
+          "run_id": {
+            "path": [
+              "id"
+            ],
+            "mapping_status": "issue"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "recommended",
+            "status_translations": {
+              "ready": "completed",
+              "processing": "running",
+              "failed": "error"
+            }
+          },
+          "query_id": {
+            "path": [
+              "query_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://doc-storage.internal/api/v1/documents",
+        "method": "GET",
+        "headers": {
+          "Content_Type": "application/json",
+          "Authorization": "Bearer <<$auth_key>>"
+        },
+        "body": {
+          "source": "knowledge_base",
+          "filters": "<<$run_setup>>",
+          "max_results": "<<$max_objects>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {
+        "run_setup": {
+          "path": [
+            "body",
+            "filters"
+          ],
+          "example_value": {
+            "filters": {
+              "industry": "Technology",
+              "size": "medium"
+            }
+          }
+        },
+        "webhook_url": {
+          "path": [
+            "webhook_url"
+          ],
+          "example_value": "https://example.com/webhook"
+        },
+        "run_id": {
+          "path": [
+            "id"
+          ],
+          "example_value": "run-12345"
+        }
+      }
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://doc-storage.internal/api/v1/queries/<<$run_external_id>>/status",
+        "method": "GET",
+        "headers": {
+          "Authorization": "Bearer <<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "data": {
+            "path": [
+              "documents"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://doc-storage.internal/api/v1/queries/<<$run_external_id>>/results",
+        "method": "GET",
+        "headers": {
+          "Authorization": "Bearer <<$auth_key>>"
+        },
+        "body": {}
+      },
+      "response_examples": [
+        {
+          "status": "ready",
+          "query_id": "doc-storage-77777",
+          "documents": [
+            {
+              "id": "doc-kb-001",
+              "title": "Product Installation Guide",
+              "content": "This guide explains how to install our product step by step. First, download the installer from the website. Then run the installation wizard...",
+              "file_type": "txt",
+              "file_size": 51200,
+              "author": "Technical Writing Team",
+              "created_date": "2024-05-10T08:00:00.000Z",
+              "modified_date": "2024-11-20T14:30:00.000Z",
+              "source_location": "/knowledge-base/installation/guide-v2.txt",
+              "metadata": {
+                "category": "installation",
+                "product_version": "2.0",
+                "language": "en"
+              }
+            },
+            {
+              "id": "doc-kb-002",
+              "title": "Troubleshooting Common Issues",
+              "content": "Common issues and their solutions:\n1. Connection timeout - Check firewall settings\n2. Authentication errors - Verify API keys\n3. Performance issues - Review system requirements...",
+              "file_type": "md",
+              "file_size": 30720,
+              "author": "Support Team",
+              "created_date": "2024-08-15T10:15:00.000Z",
+              "modified_date": "2025-01-10T09:45:00.000Z",
+              "source_location": "/knowledge-base/support/troubleshooting.md",
+              "metadata": {
+                "category": "support",
+                "product_version": "all",
+                "language": "en"
+              }
+            }
+          ]
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "44004d81-ec4c-4cfe-885a-2473527db1fb",
+            "name": "Document Storage API",
+            "description": "API for accessing unstructured documents from various storage systems for knowledge base creation",
+            "object_source_mappings": [
+              {
+                "id": "9fa4626a-c433-4b7a-8c96-593c7f49295c",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "documents",
+                  "*",
+                  "id"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract document IDs as objects"
+              }
+            ],
+            "datapoint_source_mappings": [
+              {
+                "id": "abe0b0f9-8222-4405-a951-c206980c1b6a",
+                "datapoint_id": "dp-document-title",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "documents",
+                  "*",
+                  "title"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract document title"
+              },
+              {
+                "id": "01e0e43e-7ac7-489f-a6e4-89cb794cd5a0",
+                "datapoint_id": "dp-document-content",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "documents",
+                  "*",
+                  "content"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract document content"
+              },
+              {
+                "id": "0987d776-7cde-41be-9b0b-43029ef8dd09",
+                "datapoint_id": "885a72ea-f2f1-47b5-8a88-983b34ca6675",
+                "object_type_id": "d4e5f6g7-h8i9-0123-def0-456789012345",
+                "key_mapping": [
+                  "documents",
+                  "*",
+                  "source_location"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract source location"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

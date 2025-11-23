@@ -1,0 +1,81 @@
+{
+  "id": "ea58de9b-03bf-4d64-8e37-ba304e363f1b",
+  "name": "Sourcing Companies",
+  "description": "Sources company data from external APIs (Crunchbase API, Brightdata Scraper) for lead scoring workflow",
+  "type": "source",
+  "object_type": "company",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "crunchbase_source": {
+        "id": "3578f878-65fd-49a5-972f-2101125bd618",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": [
+              "79eeedb9-1afb-4454-9abd-28fb9c4a6e5c",
+              "87e74fc4-e2e0-4d88-8982-4002ef3a7361"
+            ]
+          }
+        }
+      },
+      "brightdata_source": {
+        "id": "a276d56d-9fce-4a4a-b932-39c51b7d1132",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": [
+              "79eeedb9-1afb-4454-9abd-28fb9c4a6e5c",
+              "87e74fc4-e2e0-4d88-8982-4002ef3a7361"
+            ]
+          }
+        }
+      },
+      "industry_factor": {
+        "id": "79eeedb9-1afb-4454-9abd-28fb9c4a6e5c",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": [
+              "3578f878-65fd-49a5-972f-2101125bd618",
+              "a276d56d-9fce-4a4a-b932-39c51b7d1132"
+            ]
+          }
+        }
+      },
+      "size_factor": {
+        "id": "87e74fc4-e2e0-4d88-8982-4002ef3a7361",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": [
+              "3578f878-65fd-49a5-972f-2101125bd618",
+              "a276d56d-9fce-4a4a-b932-39c51b7d1132"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 1250,
+    "successful_requests": 1187,
+    "failed_requests": 63,
+    "success_rate": 0.949,
+    "average_duration": 45.2,
+    "last_used_at": "2025-01-20T14:45:30.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-15T10:30:00.000Z",
+    "updated_at": "2025-01-20T14:45:30.000Z",
+    "workflows": [
+      {
+        "id": "0d9e8f83-7c4f-42b8-8fe1-b7220e62d6cd",
+        "name": "Lead Scoring for Nurturing"
+      }
+    ]
+  }
+}

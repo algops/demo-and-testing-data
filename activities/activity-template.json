@@ -1,0 +1,52 @@
+{
+  "id": "",
+  "name": "",
+  "description": "",
+  "type": "",
+  "object_type": "",
+  "status": "active",
+  "verification_status": false,
+  "setup": {
+    "data": {
+      "example_source": {
+        "id": "",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": []
+          }
+        }
+      },
+      "example_factor": {
+        "id": "",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": []
+          }
+        }
+      },
+      "example_target": {
+        "id": "",
+        "type": "target",
+        "destination": {}
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 0,
+    "successful_requests": 0,
+    "failed_requests": 0,
+    "success_rate": 0.0,
+    "average_duration": 0.0,
+    "last_used_at": ""
+  },
+  "metadata": {
+    "owner_org_id": "",
+    "owner_org_name": "",
+    "created_at": "",
+    "updated_at": "",
+    "workflows": []
+  }
+}
+

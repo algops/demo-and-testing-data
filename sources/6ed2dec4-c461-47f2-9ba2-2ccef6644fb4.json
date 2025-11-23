@@ -1,0 +1,88 @@
+{
+  "id": "6ed2dec4-c461-47f2-9ba2-2ccef6644fb4",
+  "name": "",
+  "description": "",
+  "source_type": "",
+  "delivery_type": "",
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "factor_variables": {},
+      "response_examples": [],
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [],
+            "mapping_status": "remaining"
+          },
+          "run_id": {
+            "path": [],
+            "mapping_status": "remaining"
+          },
+          "webhook_url": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        }
+      },
+      "request_template": {
+        "url": "",
+        "method": "",
+        "headers": {},
+        "body": {}
+      }
+    },
+    "status_request": {
+      "response_examples": [],
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        }
+      },
+      "request_template": {
+        "url": "",
+        "method": "",
+        "headers": {},
+        "body": {}
+      }
+    },
+    "delivery_request": {
+      "response_examples": [],
+      "mappings": {
+        "request": {},
+        "response": {}
+      },
+      "request_template": {
+        "url": "",
+        "method": "",
+        "headers": {},
+        "body": {}
+      },
+      "response_mappings": {}
+    }
+  }
+}

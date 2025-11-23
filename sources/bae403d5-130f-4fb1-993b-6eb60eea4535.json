@@ -1,0 +1,604 @@
+{
+  "id": "bae403d5-130f-4fb1-993b-6eb60eea4535",
+  "name": "",
+  "description": "",
+  "source_type": "",
+  "delivery_type": "",
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "delivery_request": {
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "deab79a5-7cd8-42c8-9c3c-4ca59b2525e6",
+            "name": "Event Management System",
+            "description": "Event data from comprehensive event management platform",
+            "object_source_mappings": [
+              {
+                "id": "b4d1a32e-6946-41b4-90a5-dcee77279208",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "event_id"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract event IDs as objects"
+              },
+              {
+                "id": "1697937e-7978-4697-bfa3-f4e8d89c0fdc",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "event_name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract event names as objects"
+              },
+              {
+                "id": "f0020031-d7d8-4dc8-af87-b3c4be4985c7",
+                "object_type_id": "speaker-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "speakers",
+                  "*",
+                  "speaker_id"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract speaker IDs as objects"
+              },
+              {
+                "id": "7d0e7ad4-4c00-43dd-9be4-0369f0cf5c41",
+                "object_type_id": "venue-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "venue",
+                  "name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract venue names as objects"
+              }
+            ],
+            "datapoint_source_mappings": [
+              {
+                "id": "e4fd232b-758e-4496-9ac4-eb41762f5565",
+                "datapoint_id": "r0s1t2u3-v4w5-6789-4567-012345678901",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "event_id"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract event ID"
+              },
+              {
+                "id": "df114d14-67ad-49b5-8cbf-ce21d61aa011",
+                "datapoint_id": "dp-event-name",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "event_name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract event name"
+              },
+              {
+                "id": "b35c264e-b507-4fc0-aa3f-32266aaf1825",
+                "datapoint_id": "u3v4w5x6-y7z8-9012-7890-345678901234",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "event_type"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract event type"
+              },
+              {
+                "id": "590e5202-b3c9-4072-a019-acaf4eac97c2",
+                "datapoint_id": "dp-event-start",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "schedule",
+                  "start"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract event start time"
+              },
+              {
+                "id": "9c234526-2c3a-447e-a8a5-35d9c3e71aa0",
+                "datapoint_id": "dp-event-end",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "schedule",
+                  "end"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract event end time"
+              },
+              {
+                "id": "1d880c83-45d2-4b5b-b288-592caed236a6",
+                "datapoint_id": "dp-event-timezone",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "schedule",
+                  "timezone"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract event timezone"
+              },
+              {
+                "id": "aff707cb-1063-4517-b04c-7b2718c5a0c5",
+                "datapoint_id": "dp-venue-name",
+                "object_type_id": "venue-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "venue",
+                  "name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract venue name"
+              },
+              {
+                "id": "33cb4249-d33c-4d05-ade0-22738ca10a45",
+                "datapoint_id": "dp-venue-city",
+                "object_type_id": "venue-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "venue",
+                  "city"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract venue city"
+              },
+              {
+                "id": "32ce5c60-323f-49ef-af41-a77114cb2420",
+                "datapoint_id": "dp-venue-state",
+                "object_type_id": "venue-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "venue",
+                  "state"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract venue state"
+              },
+              {
+                "id": "83b5e759-a4ef-4c2b-9de7-c449e99dbeb5",
+                "datapoint_id": "dp-venue-lat",
+                "object_type_id": "venue-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "venue",
+                  "coordinates",
+                  "lat"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract venue latitude"
+              },
+              {
+                "id": "11e9e221-ba2a-4d47-8a5f-3f6209dc763f",
+                "datapoint_id": "dp-venue-lng",
+                "object_type_id": "venue-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "venue",
+                  "coordinates",
+                  "lng"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract venue longitude"
+              },
+              {
+                "id": "65d3a5bb-83b3-4573-97d0-5e1bb662562b",
+                "datapoint_id": "dp-organizer-company",
+                "object_type_id": "organizer-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "organizer",
+                  "company"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract organizer company"
+              },
+              {
+                "id": "9df5b4c8-89f1-4aa0-bb17-dbeee8d9ae13",
+                "datapoint_id": "dp-organizer-email",
+                "object_type_id": "organizer-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "organizer",
+                  "contact",
+                  "email"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract organizer email"
+              },
+              {
+                "id": "9fb92bbd-00a5-4f0e-ae25-46d2df3e28c6",
+                "datapoint_id": "dp-capacity-max",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "capacity",
+                  "max_attendees"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract maximum capacity"
+              },
+              {
+                "id": "706b86a4-ecfb-4d3a-9689-84fbba3b4c6c",
+                "datapoint_id": "dp-capacity-current",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "capacity",
+                  "current_registrations"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract current registrations"
+              },
+              {
+                "id": "a5e05194-aca9-449c-8887-58d99e6dc082",
+                "datapoint_id": "dp-pricing-regular",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "pricing",
+                  "regular"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract regular pricing"
+              },
+              {
+                "id": "507a8bcd-43e7-46c2-aac8-2dbc42c791c1",
+                "datapoint_id": "dp-pricing-currency",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "pricing",
+                  "currency"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract pricing currency"
+              },
+              {
+                "id": "bdf98028-07fb-418d-8e54-6c439b8c2f67",
+                "datapoint_id": "dp-speaker-name",
+                "object_type_id": "speaker-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "speakers",
+                  "*",
+                  "name"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract speaker name"
+              },
+              {
+                "id": "c2bfbcff-ef7c-454b-88cd-c073293ddd5c",
+                "datapoint_id": "dp-speaker-title",
+                "object_type_id": "speaker-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "speakers",
+                  "*",
+                  "title"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract speaker title"
+              },
+              {
+                "id": "3a45f527-586b-4f28-b9f4-4aa8234fa207",
+                "datapoint_id": "dp-speaker-company",
+                "object_type_id": "speaker-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "speakers",
+                  "*",
+                  "company"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract speaker company"
+              },
+              {
+                "id": "5b97b2ce-f1a1-4935-a7c1-a51e6fb8503f",
+                "datapoint_id": "dp-track",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "tracks",
+                  "*"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract event tracks"
+              },
+              {
+                "id": "112f5e4e-50d0-4567-8877-ec1d30c10a7a",
+                "datapoint_id": "dp-tag",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "tags",
+                  "*"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract event tags"
+              },
+              {
+                "id": "55f7a2cb-1618-42e9-bc1a-9890f880d33c",
+                "datapoint_id": "dp-system-total",
+                "object_type_id": "system-001",
+                "key_mapping": [
+                  "event_system",
+                  "system_metrics",
+                  "total_events"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract total events count"
+              },
+              {
+                "id": "8f3bf3ce-0bd8-4125-9330-f056095732f3",
+                "datapoint_id": "dp-system-revenue",
+                "object_type_id": "system-001",
+                "key_mapping": [
+                  "event_system",
+                  "system_metrics",
+                  "revenue_ytd"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract yearly revenue"
+              },
+              {
+                "id": "fe78f158-29ac-491a-9ef9-0165bb6a4e8b",
+                "datapoint_id": "dp-system-uptime",
+                "object_type_id": "system-001",
+                "key_mapping": [
+                  "event_system",
+                  "system_metrics",
+                  "uptime_percentage"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract system uptime"
+              },
+              {
+                "id": "687c603d-9851-4f6e-bfb5-2d471edd56e4",
+                "datapoint_id": "dp-event-invalid",
+                "object_type_id": "event-001",
+                "key_mapping": [
+                  "event_system",
+                  "event_collections",
+                  "*",
+                  "events",
+                  "*",
+                  "nonexistent_field"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "issue",
+                "description": "Invalid field mapping for testing"
+              },
+              {
+                "id": "1df2f8c6-52f9-46f6-b369-57801cae8429",
+                "datapoint_id": "dp-event-empty",
+                "object_type_id": "event-001",
+                "key_mapping": [],
+                "key_mapping_type": "value",
+                "mapping_status": "issue",
+                "description": "Empty mapping for testing"
+              }
+            ]
+          }
+        ]
+      },
+      "response_examples": [],
+      "mappings": {
+        "request": {},
+        "response": {}
+      },
+      "request_template": {
+        "url": "",
+        "method": "",
+        "headers": {},
+        "body": {}
+      }
+    },
+    "run_request": {
+      "response_examples": [],
+      "factor_variables": {},
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [],
+            "mapping_status": "remaining"
+          },
+          "run_id": {
+            "path": [],
+            "mapping_status": "remaining"
+          },
+          "webhook_url": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        }
+      },
+      "request_template": {
+        "url": "",
+        "method": "",
+        "headers": {},
+        "body": {}
+      }
+    },
+    "status_request": {
+      "response_examples": [],
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        }
+      },
+      "request_template": {
+        "url": "",
+        "method": "",
+        "headers": {},
+        "body": {}
+      }
+    }
+  }
+}

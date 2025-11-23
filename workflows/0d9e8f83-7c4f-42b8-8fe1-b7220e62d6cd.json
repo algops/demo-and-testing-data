@@ -1,0 +1,111 @@
+{
+  "id": "0d9e8f83-7c4f-42b8-8fe1-b7220e62d6cd",
+  "name": "Lead Scoring for Nurturing",
+  "description": "Prepare personalized outreach sequences for bots/sales persons by sourcing companies, enriching them, scoring leads, and extracting/enriching people data",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "source_companies": {
+        "id": "ea58de9b-03bf-4d64-8e37-ba304e363f1b",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 1,
+            "max_objects": 1000
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "70c7731c-fef0-4386-9a16-437b8d3da91b"
+            ]
+          }
+        }
+      },
+      "enrich_companies": {
+        "id": "70c7731c-fef0-4386-9a16-437b8d3da91b",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "max_objects": 1000
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "8505f8bd-254a-4a1a-9656-8ab461ad5a2a"
+            ]
+          }
+        }
+      },
+      "score_companies": {
+        "id": "8505f8bd-254a-4a1a-9656-8ab461ad5a2a",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "max_objects": 800
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "e8f21562-d7cd-431d-8528-f7daaeb59055"
+            ]
+          }
+        }
+      },
+      "extract_people": {
+        "id": "e8f21562-d7cd-431d-8528-f7daaeb59055",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 3,
+            "max_objects": 500
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "2213b3cd-a981-42b3-80a8-01ea4ed0488f"
+            ]
+          }
+        }
+      },
+      "enrich_people": {
+        "id": "2213b3cd-a981-42b3-80a8-01ea4ed0488f",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 3,
+            "max_objects": 500
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": []
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_executions": 52,
+    "successful_executions": 45,
+    "failed_executions": 7,
+    "success_rate": 0.865,
+    "average_duration": 520.3,
+    "last_used_at": "2025-01-20T14:45:30.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-15T10:30:00.000Z",
+    "updated_at": "2025-01-20T14:45:30.000Z",
+    "activities_count": 5,
+    "phases_count": 3,
+    "workflow_requests_count": 52
+  }
+}

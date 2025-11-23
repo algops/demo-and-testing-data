@@ -1,0 +1,79 @@
+{
+  "id": "f71708a3-fd46-4976-a79d-95b208501193",
+  "name": "ESG Agent Enrichment",
+  "description": "Enriches companies with ESG compliance data",
+  "type": "enrich",
+  "object_type": "company",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "esg_agent": {
+        "id": "3190e39c-d9d7-4eeb-95af-8be16f877044",
+        "type": "source",
+        "destination": {
+          "factor": {
+            "id": [
+              "111991a8-b6ff-444b-931c-806d5cfb3151",
+              "6778fb77-67cb-43ee-a377-811295ef4a27",
+              "cf9bdbc5-11b3-4327-a0d8-54f39b2e4aea"
+            ]
+          }
+        }
+      },
+      "esg_score_factor": {
+        "id": "111991a8-b6ff-444b-931c-806d5cfb3151",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": [
+              "3190e39c-d9d7-4eeb-95af-8be16f877044"
+            ]
+          }
+        }
+      },
+      "compliance_status_factor": {
+        "id": "6778fb77-67cb-43ee-a377-811295ef4a27",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": [
+              "3190e39c-d9d7-4eeb-95af-8be16f877044"
+            ]
+          }
+        }
+      },
+      "rfi_sent_date_factor": {
+        "id": "cf9bdbc5-11b3-4327-a0d8-54f39b2e4aea",
+        "type": "factor",
+        "destination": {
+          "source": {
+            "id": [
+              "3190e39c-d9d7-4eeb-95af-8be16f877044"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 200,
+    "successful_requests": 170,
+    "failed_requests": 30,
+    "success_rate": 0.85,
+    "average_duration": 95.0,
+    "last_used_at": "2025-01-20T16:30:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-10T08:15:00.000Z",
+    "updated_at": "2025-01-20T16:30:45.000Z",
+    "workflows": [
+      {
+        "id": "56a88407-dca5-430d-9cd4-4d2b7a3ed27f",
+        "name": "Supplier Compliance Check/Monitoring"
+      }
+    ]
+  }
+}

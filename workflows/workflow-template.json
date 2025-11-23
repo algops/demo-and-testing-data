@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "description": "",
+  "status": "active",
+  "verification_status": false,
+  "setup": {
+    "data": {
+      "example_activity": {
+        "id": "",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 1,
+            "max_objects": 0
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": []
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_executions": 0,
+    "successful_executions": 0,
+    "failed_executions": 0,
+    "success_rate": 0.0,
+    "average_duration": 0.0,
+    "last_used_at": ""
+  },
+  "metadata": {
+    "owner_org_id": "",
+    "owner_org_name": "",
+    "created_at": "",
+    "updated_at": "",
+    "activities_count": 0,
+    "phases_count": 0,
+    "workflow_requests_count": 0
+  }
+}
+

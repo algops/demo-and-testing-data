@@ -1,0 +1,306 @@
+{
+  "id": "466352a8-ef4a-41b6-a413-7bf23c8cb560",
+  "name": "Enrichment Agent",
+  "description": "AI-powered agent that enriches company data with additional attributes including revenue, funding, and technology stack information",
+  "source_type": "Agent",
+  "delivery_type": "Webhook",
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body",
+              "companies"
+            ],
+            "mapping_status": "mapped"
+          },
+          "webhook_url": {
+            "path": [
+              "body",
+              "webhook_url"
+            ],
+            "mapping_status": "mapped"
+          },
+          "run_id": {
+            "path": [
+              "body",
+              "run_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "recommended",
+            "status_translations": {
+              "completed": "completed",
+              "processing": "running",
+              "failed": "error"
+            }
+          },
+          "task_id": {
+            "path": [
+              "task_id"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://enrichment-agent.internal/api/enrich",
+        "method": "POST",
+        "headers": {
+          "Content_Type": "application/json"
+        },
+        "body": {
+          "companies": "<<$run_setup>>",
+          "webhook_url": "<<$webhook_url>>",
+          "run_id": "<<$id>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {
+        "run_setup": {
+          "path": [
+            "body",
+            "companies"
+          ],
+          "example_value": {
+            "filters": {
+              "industry": "Technology",
+              "size": "medium"
+            }
+          }
+        },
+        "webhook_url": {
+          "path": [
+            "body",
+            "webhook_url"
+          ],
+          "example_value": "https://example.com/webhook"
+        },
+        "run_id": {
+          "path": [
+            "body",
+            "run_id"
+          ],
+          "example_value": "run-12345"
+        }
+      }
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://enrichment-agent.internal/api/tasks/<<$run_external_id>>/status",
+        "method": "GET",
+        "headers": {
+          "Content_Type": "application/json"
+        },
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [
+              "url"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "data": {
+            "path": [
+              "enriched_companies"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://enrichment-agent.internal/api/tasks/<<$run_external_id>>/results",
+        "method": "GET",
+        "headers": {
+          "Content_Type": "application/json"
+        },
+        "body": {}
+      },
+      "response_examples": [
+        {
+          "status": "completed",
+          "task_id": "enrich-task-45678",
+          "enriched_companies": [
+            {
+              "company_id": "comp-001",
+              "revenue": {
+                "amount": 15000000,
+                "currency": "USD",
+                "year": 2024
+              },
+              "funding": {
+                "total": 35000000,
+                "currency": "USD",
+                "rounds": [
+                  {
+                    "round": "Series A",
+                    "amount": 10000000,
+                    "date": "2020-05-15"
+                  },
+                  {
+                    "round": "Series B",
+                    "amount": 25000000,
+                    "date": "2022-11-20"
+                  }
+                ]
+              },
+              "technologies": [
+                "Python",
+                "React",
+                "AWS",
+                "Docker",
+                "Kubernetes",
+                "PostgreSQL"
+              ],
+              "additional_attributes": {
+                "headquarters": "San Francisco, CA",
+                "industry_tags": [
+                  "Enterprise Software",
+                  "SaaS",
+                  "B2B"
+                ],
+                "growth_rate": 0.35
+              }
+            },
+            {
+              "company_id": "comp-002",
+              "revenue": {
+                "amount": 8000000,
+                "currency": "USD",
+                "year": 2024
+              },
+              "funding": {
+                "total": 12000000,
+                "currency": "USD",
+                "rounds": [
+                  {
+                    "round": "Seed",
+                    "amount": 2000000,
+                    "date": "2019-03-10"
+                  },
+                  {
+                    "round": "Series A",
+                    "amount": 10000000,
+                    "date": "2021-08-05"
+                  }
+                ]
+              },
+              "technologies": [
+                "Kubernetes",
+                "Go",
+                "Terraform",
+                "GCP",
+                "MongoDB"
+              ],
+              "additional_attributes": {
+                "headquarters": "Seattle, WA",
+                "industry_tags": [
+                  "Cloud Computing",
+                  "DevOps",
+                  "Infrastructure"
+                ],
+                "growth_rate": 0.42
+              }
+            }
+          ]
+        }
+      ],
+      "response_mappings": {
+        "sources": [
+          {
+            "id": "466352a8-ef4a-41b6-a413-7bf23c8cb560",
+            "name": "Enrichment Agent",
+            "description": "AI-powered agent that enriches company data with additional attributes including revenue, funding, and technology stack information",
+            "object_source_mappings": [],
+            "datapoint_source_mappings": [
+              {
+                "id": "7fba3e07-750c-409e-b298-bb0f096cebd5",
+                "datapoint_id": "t4u5v6w7-x8y9-0123-8901-456789012345",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "enriched_companies",
+                  "*",
+                  "revenue",
+                  "amount"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract revenue amount"
+              },
+              {
+                "id": "99cff65f-683e-423d-a93d-c9d7066eac7c",
+                "datapoint_id": "g7h8i9j0-k1l2-3456-0123-789012345678",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "enriched_companies",
+                  "*",
+                  "funding",
+                  "total"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract total funding"
+              },
+              {
+                "id": "c555a26c-c6a5-447f-bbfb-deaac4d35453",
+                "datapoint_id": "l2m3n4o5-p6q7-8901-5678-234567890123",
+                "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+                "key_mapping": [
+                  "enriched_companies",
+                  "*",
+                  "technologies",
+                  "*"
+                ],
+                "key_mapping_type": "value",
+                "mapping_status": "mapped",
+                "description": "Extract technologies array"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

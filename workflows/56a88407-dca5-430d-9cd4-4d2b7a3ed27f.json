@@ -1,0 +1,112 @@
+{
+  "id": "56a88407-dca5-430d-9cd4-4d2b7a3ed27f",
+  "name": "Supplier Compliance Check/Monitoring",
+  "description": "Send automated RFIs for suppliers by sourcing documents from Databricks, extracting companies, creating structured rules, enriching with ESG data, and extracting contacts",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "databricks_documents": {
+        "id": "ed932e69-04cf-42d5-8a6c-e785bca20b95",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 1,
+            "max_objects": 500
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "60393a04-e6cc-4e11-b974-89f5874a8900"
+            ]
+          }
+        }
+      },
+      "extract_companies": {
+        "id": "60393a04-e6cc-4e11-b974-89f5874a8900",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "max_objects": 200
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "7dbd41c6-1911-424b-8d5a-3b91ccf0a2eb",
+              "f71708a3-fd46-4976-a79d-95b208501193"
+            ]
+          }
+        }
+      },
+      "rag_structured_rules": {
+        "id": "7dbd41c6-1911-424b-8d5a-3b91ccf0a2eb",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "max_objects": 150
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "f71708a3-fd46-4976-a79d-95b208501193"
+            ]
+          }
+        }
+      },
+      "esg_enrichment": {
+        "id": "f71708a3-fd46-4976-a79d-95b208501193",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "max_objects": 200
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "905f07cd-17bf-469d-9a62-5623b28bd1ee"
+            ]
+          }
+        }
+      },
+      "extract_contacts": {
+        "id": "905f07cd-17bf-469d-9a62-5623b28bd1ee",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 3,
+            "max_objects": 300
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": []
+          }
+        }
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_executions": 38,
+    "successful_executions": 32,
+    "failed_executions": 6,
+    "success_rate": 0.842,
+    "average_duration": 680.5,
+    "last_used_at": "2025-01-20T16:30:45.000Z"
+  },
+  "metadata": {
+    "owner_org_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "owner_org_name": "AlgOps Data Solutions",
+    "created_at": "2025-01-10T08:15:00.000Z",
+    "updated_at": "2025-01-20T16:30:45.000Z",
+    "activities_count": 5,
+    "phases_count": 3,
+    "workflow_requests_count": 38
+  }
+}
