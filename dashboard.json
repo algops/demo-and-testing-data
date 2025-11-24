@@ -4,37 +4,71 @@
       "id": "requests",
       "title": "Requests",
       "description": "Total number of API requests",
-      "value": "1,245"
+      "value": "6,635"
     },
     {
-      "id": "runs",
-      "title": "Runs",
-      "description": "Total number of workflow runs",
-      "value": "842"
+      "id": "executions",
+      "title": "Executions",
+      "description": "Total number of workflow executions",
+      "value": "153"
     },
     {
       "id": "objects",
       "title": "Objects",
       "description": "Total number of objects created",
-      "value": "3,568"
+      "value": "152,050"
     },
     {
-      "id": "data",
-      "title": "Data",
+      "id": "sources",
+      "title": "Sources",
       "description": "Total number of data sources",
-      "value": "12,453"
+      "value": "15"
     }
   ],
   "usage": {
     "title": "Platform Usage",
-    "categories": ["Design", "Marketing", "Engineering"],
+    "categories": [
+      "Sources",
+      "Activities",
+      "Workflows"
+    ],
     "data": [
-      { "month": "Jan", "Design": 150, "Marketing": 100, "Engineering": 150 },
-      { "month": "Feb", "Design": 120, "Marketing": 80, "Engineering": 100 },
-      { "month": "Mar", "Design": 200, "Marketing": 150, "Engineering": 150 },
-      { "month": "Apr", "Design": 80, "Marketing": 70, "Engineering": 50 },
-      { "month": "May", "Design": 100, "Marketing": 100, "Engineering": 100 },
-      { "month": "Jun", "Design": 180, "Marketing": 120, "Engineering": 150 }
+      {
+        "month": "Jun",
+        "Sources": 1331,
+        "Activities": 1379,
+        "Workflows": 27
+      },
+      {
+        "month": "Jul",
+        "Sources": 1274,
+        "Activities": 1534,
+        "Workflows": 31
+      },
+      {
+        "month": "Aug",
+        "Sources": 1124,
+        "Activities": 832,
+        "Workflows": 25
+      },
+      {
+        "month": "Sep",
+        "Sources": 1087,
+        "Activities": 1048,
+        "Workflows": 14
+      },
+      {
+        "month": "Oct",
+        "Sources": 1449,
+        "Activities": 1329,
+        "Workflows": 27
+      },
+      {
+        "month": "Nov",
+        "Sources": 1375,
+        "Activities": 1065,
+        "Workflows": 26
+      }
     ]
   }
 }

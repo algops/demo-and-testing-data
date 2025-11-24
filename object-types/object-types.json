@@ -6,7 +6,8 @@
       "description": "Business organizations and companies",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 43
     },
     {
       "id": "c3d4e5f6-g7h8-9012-cdef-345678901234",
@@ -14,7 +15,8 @@
       "description": "Individual people and professionals",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 77
     },
     {
       "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
@@ -22,7 +24,8 @@
       "description": "Products and items in e-commerce catalogs",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "6c956413-b14c-4a3a-be5c-e6f9b2f10a94",
@@ -30,7 +33,8 @@
       "description": "Automotive vehicles and transportation",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "8d62c34e-f52d-41d8-abdd-e2290894e967",
@@ -38,7 +42,8 @@
       "description": "Real estate properties and listings",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "d4e5f6g7-h8i9-0123-def0-456789012345",
@@ -46,7 +51,8 @@
       "description": "Documents and files",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 10
     },
     {
       "id": "e5f6g7h8-i9j0-1234-ef01-567890123456",
@@ -54,7 +60,8 @@
       "description": "Job postings and employment opportunities",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 124
     },
     {
       "id": "f6g7h8i9-j0k1-2345-f012-678901234567",
@@ -62,7 +69,8 @@
       "description": "Events and gatherings",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "g7h8i9j0-k1l2-3456-0123-789012345678",
@@ -70,7 +78,8 @@
       "description": "Real estate agents and professionals",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "h8i9j0k1-l2m3-4567-1234-890123456789",
@@ -78,7 +87,8 @@
       "description": "Automotive dealers and retailers",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "i9j0k1l2-m3n4-5678-2345-901234567890",
@@ -86,7 +96,8 @@
       "description": "Product categories and classifications",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "j0k1l2m3-n4o5-6789-3456-012345678901",
@@ -94,7 +105,8 @@
       "description": "Product catalogs and collections",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "k1l2m3n4-o5p6-7890-4567-123456789012",
@@ -102,7 +114,8 @@
       "description": "System metadata and processing information",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "l2m3n4o5-p6q7-8901-5678-234567890123",
@@ -110,7 +123,8 @@
       "description": "Organizations and institutions",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 8
     },
     {
       "id": "m3n4o5p6-q7r8-9012-6789-345678901234",
@@ -118,7 +132,8 @@
       "description": "Financial transactions and payments",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "n4o5p6q7-r8s9-0123-7890-456789012345",
@@ -126,7 +141,8 @@
       "description": "Articles and content pieces",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "o5p6q7r8-s9t0-1234-8901-567890123456",
@@ -134,7 +150,8 @@
       "description": "Reports and analytics",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "p6q7r8s9-t0u1-2345-9012-678901234567",
@@ -142,7 +159,8 @@
       "description": "Tasks and assignments",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "q7r8s9t0-u1v2-3456-0123-789012345678",
@@ -150,7 +168,8 @@
       "description": "Projects and initiatives",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "r8s9t0u1-v2w3-4567-1234-890123456789",
@@ -158,7 +177,8 @@
       "description": "Messages and communications",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "s9t0u1v2-w3x4-5678-2345-901234567890",
@@ -166,7 +186,8 @@
       "description": "Meetings and appointments",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "t0u1v2w3-x4y5-6789-3456-012345678901",
@@ -174,7 +195,8 @@
       "description": "System users and accounts",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "u1v2w3x4-y5z6-7890-4567-123456789012",
@@ -182,7 +204,8 @@
       "description": "Performance metrics and measurements",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "v2w3x4y5-z6a7-8901-5678-234567890123",
@@ -190,7 +213,8 @@
       "description": "Reviews and feedback",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "w3x4y5z6-a7b8-9012-6789-345678901234",
@@ -198,7 +222,8 @@
       "description": "Contact information and addresses",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 5
     },
     {
       "id": "x4y5z6a7-b8c9-0123-7890-456789012345",
@@ -206,7 +231,8 @@
       "description": "Regulations and compliance rules",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 5
     },
     {
       "id": "y5z6a7b8-c9d0-1234-8901-567890123456",
@@ -214,7 +240,8 @@
       "description": "Markets and industry segments",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "z6a7b8c9-d0e1-2345-9012-678901234567",
@@ -222,7 +249,8 @@
       "description": "Competitors and market players",
       "created_at": "2025-01-01T00:00:00.000Z",
       "updated_at": "2025-01-20T00:00:00.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 0
     },
     {
       "id": "a7b8c9d0-e1f2-3456-0123-789012345678",
@@ -230,7 +258,8 @@
       "description": "Git merge requests and pull requests",
       "created_at": "2025-01-12T14:20:00.000Z",
       "updated_at": "2025-01-20T11:20:15.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 5
     },
     {
       "id": "b8c9d0e1-f2a3-4567-1234-890123456789",
@@ -238,7 +267,8 @@
       "description": "Knowledge base sources and entries for chatbots",
       "created_at": "2025-01-08T11:45:00.000Z",
       "updated_at": "2025-01-20T09:15:20.000Z",
-      "deleted_at": null
+      "deleted_at": null,
+      "object_count": 5
     }
   ]
 }

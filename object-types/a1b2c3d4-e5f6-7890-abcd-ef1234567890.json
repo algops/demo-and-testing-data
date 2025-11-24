@@ -1,0 +1,8 @@
+{
+  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "name": "product",
+  "description": "Products and items in e-commerce catalogs",
+  "created_at": "2025-01-01T00:00:00.000Z",
+  "updated_at": "2025-01-20T00:00:00.000Z",
+  "deleted_at": null
+}
