@@ -1,0 +1,1208 @@
+{
+  "object_type_id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+  "object_type_name": "company",
+  "created_at": "2025-01-01T00:00:00.000Z",
+  "updated_at": "2025-11-28T12:41:09.277060Z",
+  "data": [
+    {
+      "company": "TechCorp Solutions",
+      "data": {
+        "type": "Technology",
+        "source": "LinkedIn Sales Navigator",
+        "value": "$7M",
+        "status": "active",
+        "lastUpdated": "2025-07-30T08:35:56.058Z",
+        "objectCount": 1683,
+        "category": "SMB",
+        "priority": "critical",
+        "owner": "Sarah Johnson",
+        "department": "Sales",
+        "dataQuality": 86,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "technology",
+          "techcorp",
+          "technology",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.techcorpsolutions.com",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Global Retail Inc",
+      "data": {
+        "type": "Retail",
+        "source": "Crunchbase API",
+        "value": "$50M",
+        "status": "active",
+        "lastUpdated": "2025-07-11T13:35:18.950Z",
+        "objectCount": 252,
+        "category": "Enterprise",
+        "priority": "medium",
+        "owner": "Michael Chen",
+        "department": "Sales",
+        "dataQuality": 80,
+        "refreshRate": "weekly",
+        "compliance": "GDPR",
+        "tags": [
+          "retail",
+          "global",
+          "enterprise",
+          "active-account"
+        ],
+        "website": "https://www.globalretailinc.com",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "HealthTech Innovations",
+      "data": {
+        "type": "Healthcare",
+        "source": "ZoomInfo Enterprise",
+        "value": "$34M",
+        "status": "active",
+        "lastUpdated": "2025-07-16T00:12:08.895Z",
+        "objectCount": 1275,
+        "category": "Mid-Market",
+        "priority": "low",
+        "owner": "Emily Rodriguez",
+        "department": "Sales",
+        "dataQuality": 96,
+        "refreshRate": "hourly",
+        "compliance": "GDPR",
+        "tags": [
+          "healthcare",
+          "healthtech",
+          "technology",
+          "active-account"
+        ],
+        "website": "https://www.healthtechinnovations.com",
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Financial Services Group",
+      "data": {
+        "type": "Finance",
+        "source": "Clearbit Company Data",
+        "value": "$11M",
+        "status": "active",
+        "lastUpdated": "2025-07-30T14:40:43.659Z",
+        "objectCount": 1927,
+        "category": "Enterprise",
+        "priority": "medium",
+        "owner": "David Kim",
+        "department": "Sales",
+        "dataQuality": 91,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "finance",
+          "financial",
+          "enterprise",
+          "active-account"
+        ],
+        "website": "https://www.financialservicesgroup.com",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "EduTech Learning",
+      "data": {
+        "type": "Education",
+        "source": "Salesforce CRM",
+        "value": "$34M",
+        "status": "active",
+        "lastUpdated": "2025-07-14T14:58:52.474Z",
+        "objectCount": 906,
+        "category": "Mid-Market",
+        "priority": "critical",
+        "owner": "Alex Thompson",
+        "department": "Sales",
+        "dataQuality": 80,
+        "refreshRate": "hourly",
+        "compliance": "GDPR",
+        "tags": [
+          "education",
+          "edutech",
+          "technology",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.edutechlearning.com",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Cloud Infrastructure Pro",
+      "data": {
+        "type": "Technology",
+        "source": "HubSpot Contacts",
+        "value": "$50M",
+        "status": "active",
+        "lastUpdated": "2025-07-23T04:01:02.239Z",
+        "objectCount": 1405,
+        "category": "SMB",
+        "priority": "critical",
+        "owner": "Maria Garcia",
+        "department": "Sales",
+        "dataQuality": 81,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "technology",
+          "cloud",
+          "technology",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.cloudinfrastructurepro.com",
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Manufacturing Dynamics",
+      "data": {
+        "type": "Manufacturing",
+        "source": "Apollo.io Database",
+        "value": "$30M",
+        "status": "active",
+        "lastUpdated": "2025-07-27T16:45:01.137Z",
+        "objectCount": 671,
+        "category": "Mid-Market",
+        "priority": "medium",
+        "owner": "Kevin Zhang",
+        "department": "Sales",
+        "dataQuality": 88,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "manufacturing",
+          "manufacturing",
+          "active-account"
+        ],
+        "website": "https://www.manufacturingdynamics.com",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Digital Marketing Agency",
+      "data": {
+        "type": "Marketing",
+        "source": "Outreach.io Platform",
+        "value": "$10M",
+        "status": "active",
+        "lastUpdated": "2025-07-14T00:32:33.960Z",
+        "objectCount": 475,
+        "category": "SMB",
+        "priority": "critical",
+        "owner": "Lisa Wang",
+        "department": "Sales",
+        "dataQuality": 89,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "marketing",
+          "digital",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.digitalmarketingagency.com",
+        "city": "Denver",
+        "state": "CO",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Logistics Solutions",
+      "data": {
+        "type": "Logistics",
+        "source": "Salesforce Marketing Cloud",
+        "value": "$45M",
+        "status": "active",
+        "lastUpdated": "2025-07-30T21:34:20.440Z",
+        "objectCount": 962,
+        "category": "Enterprise",
+        "priority": "critical",
+        "owner": "Robert Wilson",
+        "department": "Sales",
+        "dataQuality": 80,
+        "refreshRate": "weekly",
+        "compliance": "GDPR",
+        "tags": [
+          "logistics",
+          "logistics",
+          "enterprise",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.logisticssolutions.com",
+        "city": "Atlanta",
+        "state": "GA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Cybersecurity Defense",
+      "data": {
+        "type": "Security",
+        "source": "Microsoft Dynamics 365",
+        "value": "$37M",
+        "status": "active",
+        "lastUpdated": "2025-08-01T23:26:03.356Z",
+        "objectCount": 1353,
+        "category": "SMB",
+        "priority": "high",
+        "owner": "Jennifer Lee",
+        "department": "Sales",
+        "dataQuality": 99,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "security",
+          "cybersecurity",
+          "active-account"
+        ],
+        "website": "https://www.cybersecuritydefense.com",
+        "city": "Miami",
+        "state": "FL",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "AI Research Labs",
+      "data": {
+        "type": "Technology",
+        "source": "Oracle Sales Cloud",
+        "value": "$21M",
+        "status": "active",
+        "lastUpdated": "2025-07-27T16:06:04.484Z",
+        "objectCount": 197,
+        "category": "Enterprise",
+        "priority": "medium",
+        "owner": "Thomas Anderson",
+        "department": "Sales",
+        "dataQuality": 92,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "technology",
+          "ai",
+          "technology",
+          "enterprise",
+          "active-account"
+        ],
+        "website": "https://www.airesearchlabs.com",
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Green Energy Corp",
+      "data": {
+        "type": "Energy",
+        "source": "Pipedrive CRM",
+        "value": "$26M",
+        "status": "active",
+        "lastUpdated": "2025-07-12T19:08:14.487Z",
+        "objectCount": 1491,
+        "category": "Enterprise",
+        "priority": "critical",
+        "owner": "Amanda Foster",
+        "department": "Sales",
+        "dataQuality": 96,
+        "refreshRate": "hourly",
+        "compliance": "GDPR",
+        "tags": [
+          "energy",
+          "green",
+          "enterprise",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.greenenergycorp.com",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Legal Services Pro",
+      "data": {
+        "type": "Legal",
+        "source": "Zoho CRM",
+        "value": "$39M",
+        "status": "active",
+        "lastUpdated": "2025-07-19T16:59:28.368Z",
+        "objectCount": 1645,
+        "category": "Mid-Market",
+        "priority": "high",
+        "owner": "Daniel Park",
+        "department": "Sales",
+        "dataQuality": 94,
+        "refreshRate": "weekly",
+        "compliance": "GDPR",
+        "tags": [
+          "legal",
+          "legal",
+          "active-account"
+        ],
+        "website": "https://www.legalservicespro.com",
+        "city": "Phoenix",
+        "state": "AZ",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Real Estate Ventures",
+      "data": {
+        "type": "Real Estate",
+        "source": "Freshworks CRM",
+        "value": "$49M",
+        "status": "active",
+        "lastUpdated": "2025-07-22T22:04:47.728Z",
+        "objectCount": 1190,
+        "category": "SMB",
+        "priority": "low",
+        "owner": "Rachel Green",
+        "department": "Sales",
+        "dataQuality": 88,
+        "refreshRate": "hourly",
+        "compliance": "GDPR",
+        "tags": [
+          "real estate",
+          "real",
+          "active-account"
+        ],
+        "website": "https://www.realestateventures.com",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Consulting Partners",
+      "data": {
+        "type": "Consulting",
+        "source": "Insightly CRM",
+        "value": "$25M",
+        "status": "active",
+        "lastUpdated": "2025-07-28T18:48:26.384Z",
+        "objectCount": 428,
+        "category": "SMB",
+        "priority": "critical",
+        "owner": "Christopher Davis",
+        "department": "Sales",
+        "dataQuality": 87,
+        "refreshRate": "weekly",
+        "compliance": "GDPR",
+        "tags": [
+          "consulting",
+          "consulting",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.consultingpartners.com",
+        "city": "Houston",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Media Production Co",
+      "data": {
+        "type": "Media",
+        "source": "LinkedIn Sales Navigator",
+        "value": "$29M",
+        "status": "active",
+        "lastUpdated": "2025-07-14T06:12:57.555Z",
+        "objectCount": 1154,
+        "category": "Mid-Market",
+        "priority": "critical",
+        "owner": "Sarah Johnson",
+        "department": "Sales",
+        "dataQuality": 91,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "media",
+          "media",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.mediaproductionco.com",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Pharmaceutical Research",
+      "data": {
+        "type": "Pharmaceutical",
+        "source": "Crunchbase API",
+        "value": "$14M",
+        "status": "active",
+        "lastUpdated": "2025-07-06T12:53:41.392Z",
+        "objectCount": 1037,
+        "category": "Mid-Market",
+        "priority": "high",
+        "owner": "Michael Chen",
+        "department": "Sales",
+        "dataQuality": 97,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "pharmaceutical",
+          "pharmaceutical",
+          "active-account"
+        ],
+        "website": "https://www.pharmaceuticalresearch.com",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Automotive Solutions",
+      "data": {
+        "type": "Automotive",
+        "source": "ZoomInfo Enterprise",
+        "value": "$24M",
+        "status": "active",
+        "lastUpdated": "2025-07-29T16:19:35.137Z",
+        "objectCount": 1276,
+        "category": "SMB",
+        "priority": "high",
+        "owner": "Emily Rodriguez",
+        "department": "Sales",
+        "dataQuality": 83,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "automotive",
+          "automotive",
+          "active-account"
+        ],
+        "website": "https://www.automotivesolutions.com",
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Food & Beverage Corp",
+      "data": {
+        "type": "Food & Beverage",
+        "source": "Clearbit Company Data",
+        "value": "$22M",
+        "status": "active",
+        "lastUpdated": "2025-07-19T15:34:27.173Z",
+        "objectCount": 1096,
+        "category": "Enterprise",
+        "priority": "critical",
+        "owner": "David Kim",
+        "department": "Sales",
+        "dataQuality": 94,
+        "refreshRate": "weekly",
+        "compliance": "GDPR",
+        "tags": [
+          "food & beverage",
+          "food",
+          "enterprise",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.foodandbeveragecorp.com",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Telecommunications Inc",
+      "data": {
+        "type": "Telecommunications",
+        "source": "Salesforce CRM",
+        "value": "$35M",
+        "status": "active",
+        "lastUpdated": "2025-07-03T16:46:27.303Z",
+        "objectCount": 615,
+        "category": "SMB",
+        "priority": "low",
+        "owner": "Alex Thompson",
+        "department": "Sales",
+        "dataQuality": 99,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "telecommunications",
+          "telecommunications",
+          "active-account"
+        ],
+        "website": "https://www.telecommunicationsinc.com",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Aerospace Technologies",
+      "data": {
+        "type": "Aerospace",
+        "source": "HubSpot Contacts",
+        "value": "$45M",
+        "status": "active",
+        "lastUpdated": "2025-07-04T23:44:38.366Z",
+        "objectCount": 476,
+        "category": "SMB",
+        "priority": "high",
+        "owner": "Maria Garcia",
+        "department": "Sales",
+        "dataQuality": 86,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "aerospace",
+          "aerospace",
+          "technology",
+          "active-account"
+        ],
+        "website": "https://www.aerospacetechnologies.com",
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Construction Management",
+      "data": {
+        "type": "Construction",
+        "source": "Apollo.io Database",
+        "value": "$43M",
+        "status": "active",
+        "lastUpdated": "2025-07-29T18:35:45.557Z",
+        "objectCount": 1259,
+        "category": "Enterprise",
+        "priority": "critical",
+        "owner": "Kevin Zhang",
+        "department": "Sales",
+        "dataQuality": 86,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "construction",
+          "construction",
+          "enterprise",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.constructionmanagement.com",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Insurance Solutions",
+      "data": {
+        "type": "Insurance",
+        "source": "Outreach.io Platform",
+        "value": "$32M",
+        "status": "active",
+        "lastUpdated": "2025-07-03T22:29:59.541Z",
+        "objectCount": 828,
+        "category": "Mid-Market",
+        "priority": "critical",
+        "owner": "Lisa Wang",
+        "department": "Sales",
+        "dataQuality": 81,
+        "refreshRate": "hourly",
+        "compliance": "GDPR",
+        "tags": [
+          "insurance",
+          "insurance",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.insurancesolutions.com",
+        "city": "Denver",
+        "state": "CO",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Hospitality Group",
+      "data": {
+        "type": "Hospitality",
+        "source": "Salesforce Marketing Cloud",
+        "value": "$47M",
+        "status": "active",
+        "lastUpdated": "2025-07-23T09:13:09.237Z",
+        "objectCount": 427,
+        "category": "Mid-Market",
+        "priority": "critical",
+        "owner": "Robert Wilson",
+        "department": "Sales",
+        "dataQuality": 81,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "hospitality",
+          "hospitality",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.hospitalitygroup.com",
+        "city": "Atlanta",
+        "state": "GA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Gaming Entertainment",
+      "data": {
+        "type": "Gaming",
+        "source": "Microsoft Dynamics 365",
+        "value": "$7M",
+        "status": "active",
+        "lastUpdated": "2025-07-05T03:04:57.782Z",
+        "objectCount": 1942,
+        "category": "Mid-Market",
+        "priority": "medium",
+        "owner": "Jennifer Lee",
+        "department": "Sales",
+        "dataQuality": 83,
+        "refreshRate": "hourly",
+        "compliance": "GDPR",
+        "tags": [
+          "gaming",
+          "gaming",
+          "active-account"
+        ],
+        "website": "https://www.gamingentertainment.com",
+        "city": "Miami",
+        "state": "FL",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Fashion Retail",
+      "data": {
+        "type": "Fashion",
+        "source": "Oracle Sales Cloud",
+        "value": "$14M",
+        "status": "active",
+        "lastUpdated": "2025-07-03T16:44:00.497Z",
+        "objectCount": 501,
+        "category": "Enterprise",
+        "priority": "high",
+        "owner": "Thomas Anderson",
+        "department": "Sales",
+        "dataQuality": 85,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "fashion",
+          "fashion",
+          "enterprise",
+          "active-account"
+        ],
+        "website": "https://www.fashionretail.com",
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Sports Management",
+      "data": {
+        "type": "Sports",
+        "source": "Pipedrive CRM",
+        "value": "$12M",
+        "status": "active",
+        "lastUpdated": "2025-07-08T10:35:16.929Z",
+        "objectCount": 331,
+        "category": "Enterprise",
+        "priority": "critical",
+        "owner": "Amanda Foster",
+        "department": "Sales",
+        "dataQuality": 86,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "sports",
+          "sports",
+          "enterprise",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.sportsmanagement.com",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Music Production",
+      "data": {
+        "type": "Music",
+        "source": "Zoho CRM",
+        "value": "$46M",
+        "status": "active",
+        "lastUpdated": "2025-07-26T21:02:11.022Z",
+        "objectCount": 991,
+        "category": "SMB",
+        "priority": "high",
+        "owner": "Daniel Park",
+        "department": "Sales",
+        "dataQuality": 84,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "music",
+          "music",
+          "active-account"
+        ],
+        "website": "https://www.musicproduction.com",
+        "city": "Phoenix",
+        "state": "AZ",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Pet Care Services",
+      "data": {
+        "type": "Pet Care",
+        "source": "Freshworks CRM",
+        "value": "$47M",
+        "status": "active",
+        "lastUpdated": "2025-08-01T12:10:44.352Z",
+        "objectCount": 1112,
+        "category": "SMB",
+        "priority": "high",
+        "owner": "Rachel Green",
+        "department": "Sales",
+        "dataQuality": 90,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "pet care",
+          "pet",
+          "active-account"
+        ],
+        "website": "https://www.petcareservices.com",
+        "city": "Philadelphia",
+        "state": "PA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Fitness Technology",
+      "data": {
+        "type": "Fitness",
+        "source": "Insightly CRM",
+        "value": "$4M",
+        "status": "active",
+        "lastUpdated": "2025-07-24T02:00:01.927Z",
+        "objectCount": 1073,
+        "category": "Enterprise",
+        "priority": "low",
+        "owner": "Christopher Davis",
+        "department": "Sales",
+        "dataQuality": 95,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "fitness",
+          "fitness",
+          "technology",
+          "enterprise",
+          "active-account"
+        ],
+        "website": "https://www.fitnesstechnology.com",
+        "city": "Houston",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Beauty & Cosmetics",
+      "data": {
+        "type": "Beauty",
+        "source": "LinkedIn Sales Navigator",
+        "value": "$26M",
+        "status": "active",
+        "lastUpdated": "2025-07-19T22:31:15.051Z",
+        "objectCount": 1894,
+        "category": "Enterprise",
+        "priority": "medium",
+        "owner": "Sarah Johnson",
+        "department": "Sales",
+        "dataQuality": 81,
+        "refreshRate": "hourly",
+        "compliance": "GDPR",
+        "tags": [
+          "beauty",
+          "beauty",
+          "enterprise",
+          "active-account"
+        ],
+        "website": "https://www.beautyandcosmetics.com",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Home Improvement",
+      "data": {
+        "type": "Home Improvement",
+        "source": "Crunchbase API",
+        "value": "$47M",
+        "status": "active",
+        "lastUpdated": "2025-08-01T05:53:29.936Z",
+        "objectCount": 605,
+        "category": "Enterprise",
+        "priority": "critical",
+        "owner": "Michael Chen",
+        "department": "Sales",
+        "dataQuality": 95,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "home improvement",
+          "home",
+          "enterprise",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.homeimprovement.com",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Travel & Tourism",
+      "data": {
+        "type": "Travel",
+        "source": "ZoomInfo Enterprise",
+        "value": "$22M",
+        "status": "active",
+        "lastUpdated": "2025-07-05T21:19:40.969Z",
+        "objectCount": 857,
+        "category": "Enterprise",
+        "priority": "low",
+        "owner": "Emily Rodriguez",
+        "department": "Sales",
+        "dataQuality": 97,
+        "refreshRate": "weekly",
+        "compliance": "GDPR",
+        "tags": [
+          "travel",
+          "travel",
+          "enterprise",
+          "active-account"
+        ],
+        "website": "https://www.travelandtourism.com",
+        "city": "Boston",
+        "state": "MA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Book Publishing",
+      "data": {
+        "type": "Publishing",
+        "source": "Clearbit Company Data",
+        "value": "$22M",
+        "status": "active",
+        "lastUpdated": "2025-07-07T07:58:54.796Z",
+        "objectCount": 1029,
+        "category": "Enterprise",
+        "priority": "low",
+        "owner": "David Kim",
+        "department": "Sales",
+        "dataQuality": 99,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "publishing",
+          "book",
+          "enterprise",
+          "active-account"
+        ],
+        "website": "https://www.bookpublishing.com",
+        "city": "Chicago",
+        "state": "IL",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Art Gallery",
+      "data": {
+        "type": "Art",
+        "source": "Salesforce CRM",
+        "value": "$43M",
+        "status": "active",
+        "lastUpdated": "2025-08-01T21:53:43.633Z",
+        "objectCount": 1801,
+        "category": "Mid-Market",
+        "priority": "medium",
+        "owner": "Alex Thompson",
+        "department": "Sales",
+        "dataQuality": 86,
+        "refreshRate": "weekly",
+        "compliance": "GDPR",
+        "tags": [
+          "art",
+          "art",
+          "active-account"
+        ],
+        "website": "https://www.artgallery.com",
+        "city": "Austin",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Wine & Spirits",
+      "data": {
+        "type": "Beverage",
+        "source": "HubSpot Contacts",
+        "value": "$32M",
+        "status": "active",
+        "lastUpdated": "2025-07-05T10:42:09.463Z",
+        "objectCount": 1456,
+        "category": "Mid-Market",
+        "priority": "low",
+        "owner": "Maria Garcia",
+        "department": "Sales",
+        "dataQuality": 87,
+        "refreshRate": "hourly",
+        "compliance": "GDPR",
+        "tags": [
+          "beverage",
+          "wine",
+          "active-account"
+        ],
+        "website": "https://www.wineandspirits.com",
+        "city": "Seattle",
+        "state": "WA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Jewelry Design",
+      "data": {
+        "type": "Jewelry",
+        "source": "Apollo.io Database",
+        "value": "$13M",
+        "status": "active",
+        "lastUpdated": "2025-07-05T04:19:26.270Z",
+        "objectCount": 1155,
+        "category": "Enterprise",
+        "priority": "high",
+        "owner": "Kevin Zhang",
+        "department": "Sales",
+        "dataQuality": 83,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "jewelry",
+          "jewelry",
+          "enterprise",
+          "active-account"
+        ],
+        "website": "https://www.jewelrydesign.com",
+        "city": "Los Angeles",
+        "state": "CA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Antique Collectibles",
+      "data": {
+        "type": "Antiques",
+        "source": "Outreach.io Platform",
+        "value": "$20M",
+        "status": "active",
+        "lastUpdated": "2025-07-24T16:20:32.592Z",
+        "objectCount": 1528,
+        "category": "Mid-Market",
+        "priority": "medium",
+        "owner": "Lisa Wang",
+        "department": "Sales",
+        "dataQuality": 88,
+        "refreshRate": "weekly",
+        "compliance": "GDPR",
+        "tags": [
+          "antiques",
+          "antique",
+          "active-account"
+        ],
+        "website": "https://www.antiquecollectibles.com",
+        "city": "Denver",
+        "state": "CO",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Organic Farming",
+      "data": {
+        "type": "Agriculture",
+        "source": "Salesforce Marketing Cloud",
+        "value": "$29M",
+        "status": "active",
+        "lastUpdated": "2025-07-30T01:58:32.523Z",
+        "objectCount": 1430,
+        "category": "Enterprise",
+        "priority": "medium",
+        "owner": "Robert Wilson",
+        "department": "Sales",
+        "dataQuality": 93,
+        "refreshRate": "daily",
+        "compliance": "GDPR",
+        "tags": [
+          "agriculture",
+          "organic",
+          "enterprise",
+          "active-account"
+        ],
+        "website": "https://www.organicfarming.com",
+        "city": "Atlanta",
+        "state": "GA",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Solar Energy",
+      "data": {
+        "type": "Energy",
+        "source": "Microsoft Dynamics 365",
+        "value": "$40M",
+        "status": "active",
+        "lastUpdated": "2025-07-11T22:50:58.081Z",
+        "objectCount": 394,
+        "category": "Mid-Market",
+        "priority": "low",
+        "owner": "Jennifer Lee",
+        "department": "Sales",
+        "dataQuality": 92,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "energy",
+          "solar",
+          "active-account"
+        ],
+        "website": "https://www.solarenergy.com",
+        "city": "Miami",
+        "state": "FL",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Marine Services",
+      "data": {
+        "type": "Marine",
+        "source": "Oracle Sales Cloud",
+        "value": "$27M",
+        "status": "active",
+        "lastUpdated": "2025-07-28T03:36:48.211Z",
+        "objectCount": 1382,
+        "category": "Mid-Market",
+        "priority": "high",
+        "owner": "Thomas Anderson",
+        "department": "Sales",
+        "dataQuality": 81,
+        "refreshRate": "real-time",
+        "compliance": "GDPR",
+        "tags": [
+          "marine",
+          "marine",
+          "active-account"
+        ],
+        "website": "https://www.marineservices.com",
+        "city": "Portland",
+        "state": "OR",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Aviation Services",
+      "data": {
+        "type": "Aviation",
+        "source": "Pipedrive CRM",
+        "value": "$14M",
+        "status": "active",
+        "lastUpdated": "2025-07-18T23:07:12.811Z",
+        "objectCount": 2025,
+        "category": "Mid-Market",
+        "priority": "high",
+        "owner": "Amanda Foster",
+        "department": "Sales",
+        "dataQuality": 85,
+        "refreshRate": "weekly",
+        "compliance": "GDPR",
+        "tags": [
+          "aviation",
+          "aviation",
+          "active-account"
+        ],
+        "website": "https://www.aviationservices.com",
+        "city": "Dallas",
+        "state": "TX",
+        "country": "USA"
+      }
+    },
+    {
+      "company": "Mining Operations",
+      "data": {
+        "type": "Mining",
+        "source": "Zoho CRM",
+        "value": "$5M",
+        "status": "active",
+        "lastUpdated": "2025-07-15T03:06:53.799Z",
+        "objectCount": 1192,
+        "category": "Enterprise",
+        "priority": "critical",
+        "owner": "Daniel Park",
+        "department": "Sales",
+        "dataQuality": 82,
+        "refreshRate": "weekly",
+        "compliance": "GDPR",
+        "tags": [
+          "mining",
+          "mining",
+          "enterprise",
+          "high-priority",
+          "active-account"
+        ],
+        "website": "https://www.miningoperations.com",
+        "city": "Phoenix",
+        "state": "AZ",
+        "country": "USA"
+      }
+    }
+  ]
+}
