@@ -1,0 +1,24 @@
+{
+  "organizations": [
+    {
+      "name": "Acme Inc",
+      "logo": "Command",
+      "plan": "Enterprise"
+    },
+    {
+      "name": "Monsters Inc",
+      "logo": "Building2",
+      "plan": "Team"
+    },
+    {
+      "name": "Startup LLC",
+      "logo": "Frame",
+      "plan": "Pro"
+    }
+  ],
+  "user": {
+    "name": "shadcn",
+    "email": "m@example.com",
+    "avatar": "/avatars/shadcn.jpg"
+  }
+}
