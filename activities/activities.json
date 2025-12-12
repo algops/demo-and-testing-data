@@ -18,7 +18,9 @@
       "failed_requests": 63,
       "success_rate": 0.949,
       "workflows_count": 1,
-      "average_duration": 45.2
+      "average_duration": 45.2,
+      "sources_count": 2,
+      "factors_count": 2
     },
     {
       "id": "70c7731c-fef0-4386-9a16-437b8d3da91b",
@@ -38,7 +40,9 @@
       "failed_requests": 134,
       "success_rate": 0.849,
       "workflows_count": 1,
-      "average_duration": 156.0
+      "average_duration": 156,
+      "sources_count": 1,
+      "factors_count": 3
     },
     {
       "id": "8505f8bd-254a-4a1a-9656-8ab461ad5a2a",
@@ -58,7 +62,9 @@
       "failed_requests": 72,
       "success_rate": 0.9,
       "workflows_count": 1,
-      "average_duration": 95.0
+      "average_duration": 95,
+      "sources_count": 1,
+      "factors_count": 2
     },
     {
       "id": "e8f21562-d7cd-431d-8528-f7daaeb59055",
@@ -78,7 +84,9 @@
       "failed_requests": 25,
       "success_rate": 0.95,
       "workflows_count": 1,
-      "average_duration": 78.0
+      "average_duration": 78,
+      "sources_count": 1,
+      "factors_count": 2
     },
     {
       "id": "2213b3cd-a981-42b3-80a8-01ea4ed0488f",
@@ -98,7 +106,9 @@
       "failed_requests": 24,
       "success_rate": 0.949,
       "workflows_count": 1,
-      "average_duration": 145.0
+      "average_duration": 145,
+      "sources_count": 1,
+      "factors_count": 4
     },
     {
       "id": "ed932e69-04cf-42d5-8a6c-e785bca20b95",
@@ -118,7 +128,9 @@
       "failed_requests": 25,
       "success_rate": 0.95,
       "workflows_count": 1,
-      "average_duration": 120.0
+      "average_duration": 120,
+      "sources_count": 1,
+      "factors_count": 2
     },
     {
       "id": "60393a04-e6cc-4e11-b974-89f5874a8900",
@@ -138,7 +150,9 @@
       "failed_requests": 20,
       "success_rate": 0.9,
       "workflows_count": 1,
-      "average_duration": 210.0
+      "average_duration": 210,
+      "sources_count": 1,
+      "factors_count": 2
     },
     {
       "id": "7dbd41c6-1911-424b-8d5a-3b91ccf0a2eb",
@@ -158,7 +172,9 @@
       "failed_requests": 15,
       "success_rate": 0.9,
       "workflows_count": 1,
-      "average_duration": 180.0
+      "average_duration": 180,
+      "sources_count": 1,
+      "factors_count": 3
     },
     {
       "id": "f71708a3-fd46-4976-a79d-95b208501193",
@@ -178,7 +194,9 @@
       "failed_requests": 30,
       "success_rate": 0.85,
       "workflows_count": 1,
-      "average_duration": 95.0
+      "average_duration": 95,
+      "sources_count": 1,
+      "factors_count": 3
     },
     {
       "id": "905f07cd-17bf-469d-9a62-5623b28bd1ee",
@@ -198,7 +216,9 @@
       "failed_requests": 30,
       "success_rate": 0.9,
       "workflows_count": 1,
-      "average_duration": 75.0
+      "average_duration": 75,
+      "sources_count": 1,
+      "factors_count": 4
     },
     {
       "id": "366bc471-f8eb-43d4-9629-047620e0a451",
@@ -218,7 +238,9 @@
       "failed_requests": 10,
       "success_rate": 0.95,
       "workflows_count": 1,
-      "average_duration": 45.0
+      "average_duration": 45,
+      "sources_count": 1,
+      "factors_count": 3
     },
     {
       "id": "7d381a80-3ac7-47cb-9e37-6fdafc95d8cc",
@@ -238,7 +260,9 @@
       "failed_requests": 5,
       "success_rate": 0.95,
       "workflows_count": 1,
-      "average_duration": 60.0
+      "average_duration": 60,
+      "sources_count": 1,
+      "factors_count": 2
     },
     {
       "id": "0e5000b3-572e-4de3-bacd-6ef6ae37e4bb",
@@ -258,7 +282,9 @@
       "failed_requests": 15,
       "success_rate": 0.85,
       "workflows_count": 1,
-      "average_duration": 180.0
+      "average_duration": 180,
+      "sources_count": 1,
+      "factors_count": 2
     },
     {
       "id": "2c339492-ef81-4773-8269-b79f75a94794",
@@ -278,7 +304,9 @@
       "failed_requests": 20,
       "success_rate": 0.9,
       "workflows_count": 1,
-      "average_duration": 135.8
+      "average_duration": 135.8,
+      "sources_count": 1,
+      "factors_count": 3
     },
     {
       "id": "165e0964-f52c-45c4-ab18-db38e9df98e1",
@@ -298,7 +326,9 @@
       "failed_requests": 15,
       "success_rate": 0.95,
       "workflows_count": 1,
-      "average_duration": 90.0
+      "average_duration": 90,
+      "sources_count": 1,
+      "factors_count": 3
     },
     {
       "id": "b1ab0a5e-d42c-46de-abee-247387b4cb0d",
@@ -318,7 +348,9 @@
       "failed_requests": 30,
       "success_rate": 0.9,
       "workflows_count": 1,
-      "average_duration": 120.0
+      "average_duration": 120,
+      "sources_count": 1,
+      "factors_count": 3
     },
     {
       "id": "ba4303ba-9e7f-4985-82be-1d3b225d5b72",
@@ -338,7 +370,9 @@
       "failed_requests": 20,
       "success_rate": 0.92,
       "workflows_count": 1,
-      "average_duration": 170.2
+      "average_duration": 170.2,
+      "sources_count": 1,
+      "factors_count": 3
     }
   ]
 }

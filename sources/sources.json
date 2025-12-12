@@ -20,7 +20,9 @@
       "failed_runs": 63,
       "success_rate": 0.949,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "a276d56d-9fce-4a4a-b932-39c51b7d1132",
@@ -42,7 +44,9 @@
       "failed_runs": 48,
       "success_rate": 0.949,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "466352a8-ef4a-41b6-a413-7bf23c8cb560",
@@ -64,7 +68,9 @@
       "failed_runs": 134,
       "success_rate": 0.849,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "04c1a991-c6c7-4bfd-8596-9521038708a7",
@@ -86,7 +92,9 @@
       "failed_runs": 72,
       "success_rate": 0.9,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "b9b695ce-46b4-4179-bc02-fab343777c77",
@@ -108,7 +116,9 @@
       "failed_runs": 49,
       "success_rate": 0.949,
       "activities_count": 2,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "d09a18b6-36b4-4b3c-8e9c-5da57818a4b5",
@@ -130,7 +140,9 @@
       "failed_runs": 25,
       "success_rate": 0.95,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9",
@@ -152,7 +164,9 @@
       "failed_runs": 40,
       "success_rate": 0.9,
       "activities_count": 3,
-      "workflows_count": 2
+      "workflows_count": 2,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "3190e39c-d9d7-4eeb-95af-8be16f877044",
@@ -174,7 +188,9 @@
       "failed_runs": 30,
       "success_rate": 0.85,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "a14b40b6-2354-402b-ae4d-81453d26b5c4",
@@ -196,7 +212,9 @@
       "failed_runs": 30,
       "success_rate": 0.9,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "df7d17d7-ba74-4172-aa40-e003add5e102",
@@ -218,7 +236,9 @@
       "failed_runs": 10,
       "success_rate": 0.95,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "0989e548-7bfa-43f5-ad4a-68e0b2be4257",
@@ -240,7 +260,9 @@
       "failed_runs": 5,
       "success_rate": 0.95,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "4e0a34be-f332-4176-9750-ec1a2acc92de",
@@ -262,7 +284,9 @@
       "failed_runs": 20,
       "success_rate": 0.9,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "44004d81-ec4c-4cfe-885a-2473527db1fb",
@@ -284,7 +308,9 @@
       "failed_runs": 15,
       "success_rate": 0.95,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "fcb51cf8-bff6-45bc-ab47-c5bc54fe8526",
@@ -306,7 +332,9 @@
       "failed_runs": 30,
       "success_rate": 0.9,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     },
     {
       "id": "fd778da7-9706-4149-bd06-21337b365e39",
@@ -328,7 +356,9 @@
       "failed_runs": 20,
       "success_rate": 0.92,
       "activities_count": 1,
-      "workflows_count": 1
+      "workflows_count": 1,
+      "use_cases_count": 0,
+      "guardrails_count": 0
     }
   ]
-  }
+}
