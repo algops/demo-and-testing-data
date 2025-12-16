@@ -2,8 +2,8 @@
   "id": "df7d17d7-ba74-4172-aa40-e003add5e102",
   "name": "GitHub API",
   "description": "GitHub REST API for accessing merge requests, commit messages, diffs, and repository information",
-  "source_type": "Integration",
-  "delivery_type": "Webhook",
+  "source_type": "integration",
+  "delivery_type": "webhook",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

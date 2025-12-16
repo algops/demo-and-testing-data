@@ -2,8 +2,8 @@
   "id": "a276d56d-9fce-4a4a-b932-39c51b7d1132",
   "name": "Brightdata Scraper",
   "description": "Advanced web scraping platform for extracting company data from various websites with proxy rotation and anti-bot protection",
-  "source_type": "Integration",
-  "delivery_type": "Endpoint",
+  "source_type": "integration",
+  "delivery_type": "endpoint",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

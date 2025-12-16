@@ -2,8 +2,8 @@
   "id": "a14b40b6-2354-402b-ae4d-81453d26b5c4",
   "name": "ETL Pipeline",
   "description": "Extract, Transform, Load pipeline for extracting person and contact information from various data sources",
-  "source_type": "Integration",
-  "delivery_type": "Endpoint",
+  "source_type": "integration",
+  "delivery_type": "endpoint",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

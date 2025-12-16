@@ -4,25 +4,25 @@
       "id": "requests",
       "title": "Requests",
       "description": "Total number of API requests",
-      "value": "6,635"
+      "value": "20,079"
     },
     {
       "id": "executions",
       "title": "Executions",
       "description": "Total number of workflow executions",
-      "value": "153"
+      "value": "211"
     },
     {
       "id": "objects",
       "title": "Objects",
       "description": "Total number of objects created",
-      "value": "152,050"
+      "value": "9,722"
     },
     {
       "id": "sources",
       "title": "Sources",
       "description": "Total number of data sources",
-      "value": "15"
+      "value": "59"
     }
   ],
   "usage": {

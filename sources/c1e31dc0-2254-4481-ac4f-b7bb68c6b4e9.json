@@ -2,8 +2,8 @@
   "id": "c1e31dc0-2254-4481-ac4f-b7bb68c6b4e9",
   "name": "RAG Agent",
   "description": "Retrieval-Augmented Generation agent that creates structured rules and extracts information from unstructured documents",
-  "source_type": "Agent",
-  "delivery_type": "Endpoint",
+  "source_type": "agent",
+  "delivery_type": "endpoint",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

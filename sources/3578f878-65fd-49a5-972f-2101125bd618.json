@@ -2,8 +2,8 @@
   "id": "3578f878-65fd-49a5-972f-2101125bd618",
   "name": "Crunchbase API",
   "description": "Comprehensive company database API providing company profiles, funding information, and business intelligence data",
-  "source_type": "Integration",
-  "delivery_type": "Webhook",
+  "source_type": "integration",
+  "delivery_type": "webhook",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

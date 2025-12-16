@@ -2,8 +2,8 @@
   "id": "fd778da7-9706-4149-bd06-21337b365e39",
   "name": "RAG Agent with Guardrails",
   "description": "RAG Agent configured with format validation guardrails for creating structured knowledge base entries",
-  "source_type": "Agent",
-  "delivery_type": "Endpoint",
+  "source_type": "agent",
+  "delivery_type": "endpoint",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

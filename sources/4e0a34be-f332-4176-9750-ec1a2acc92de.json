@@ -2,8 +2,8 @@
   "id": "4e0a34be-f332-4176-9750-ec1a2acc92de",
   "name": "Trustsoft IT Agent",
   "description": "IT compliance evaluation agent that analyzes merge requests for security, code quality, and compliance standards",
-  "source_type": "Agent",
-  "delivery_type": "Endpoint",
+  "source_type": "agent",
+  "delivery_type": "endpoint",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

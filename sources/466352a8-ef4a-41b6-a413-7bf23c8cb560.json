@@ -2,8 +2,8 @@
   "id": "466352a8-ef4a-41b6-a413-7bf23c8cb560",
   "name": "Enrichment Agent",
   "description": "AI-powered agent that enriches company data with additional attributes including revenue, funding, and technology stack information",
-  "source_type": "Agent",
-  "delivery_type": "Webhook",
+  "source_type": "agent",
+  "delivery_type": "webhook",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

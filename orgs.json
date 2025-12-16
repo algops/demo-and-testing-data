@@ -1,24 +1,24 @@
 {
   "organizations": [
     {
-      "name": "Acme Inc",
+      "name": "AlgOps Data Solutions",
       "logo": "Command",
       "plan": "Enterprise"
     },
     {
-      "name": "Monsters Inc",
+      "name": "TechCorp Industries",
       "logo": "Building2",
       "plan": "Team"
     },
     {
-      "name": "Startup LLC",
+      "name": "StartupHub",
       "logo": "Frame",
       "plan": "Pro"
     }
   ],
   "user": {
-    "name": "shadcn",
-    "email": "m@example.com",
-    "avatar": "/avatars/shadcn.jpg"
+    "name": "Alex Johnson",
+    "email": "alex.johnson@algops.com",
+    "avatar": "/avatars/alex.jpg"
   }
 }

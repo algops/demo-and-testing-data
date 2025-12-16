@@ -2,8 +2,8 @@
   "id": "04c1a991-c6c7-4bfd-8596-9521038708a7",
   "name": "MLFlow Lead Scoring Model",
   "description": "Machine learning model for lead scoring deployed via MLFlow, providing lead quality scores and nurturing priorities",
-  "source_type": "ML model",
-  "delivery_type": "Sync",
+  "source_type": "ml model",
+  "delivery_type": "sync",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

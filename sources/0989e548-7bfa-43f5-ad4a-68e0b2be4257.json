@@ -2,8 +2,8 @@
   "id": "0989e548-7bfa-43f5-ad4a-68e0b2be4257",
   "name": "ETL Documents API",
   "description": "API for accessing quality rule documents from ETL pipeline, providing structured quality guidelines and compliance rules",
-  "source_type": "Integration",
-  "delivery_type": "Endpoint",
+  "source_type": "integration",
+  "delivery_type": "endpoint",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

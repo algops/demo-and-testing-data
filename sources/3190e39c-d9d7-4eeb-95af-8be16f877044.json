@@ -2,8 +2,8 @@
   "id": "3190e39c-d9d7-4eeb-95af-8be16f877044",
   "name": "ESG Agent",
   "description": "Environmental, Social, and Governance document analysis agent for sustainability reporting and compliance assessment",
-  "source_type": "Agent",
-  "delivery_type": "Webhook",
+  "source_type": "agent",
+  "delivery_type": "webhook",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

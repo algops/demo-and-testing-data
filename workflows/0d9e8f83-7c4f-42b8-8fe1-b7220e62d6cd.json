@@ -1,86 +1,93 @@
 {
   "id": "0d9e8f83-7c4f-42b8-8fe1-b7220e62d6cd",
-  "name": "Lead Scoring for Nurturing",
-  "description": "Prepare personalized outreach sequences for bots/sales persons by sourcing companies, enriching them, scoring leads, and extracting/enriching people data",
+  "name": "Target Account List Generation for Outreach",
+  "description": "Builds a comprehensive target account list by sourcing specialists, extracting and enriching company data, and identifying decision makers for personalized outreach campaigns.",
   "status": "active",
   "verification_status": true,
   "setup": {
     "data": {
-      "source_companies": {
-        "id": "ea58de9b-03bf-4d64-8e37-ba304e363f1b",
+      "source_specialists": {
+        "id": "9241b001-d77b-4793-9879-96198a473cde",
         "type": "activity",
         "setup": {
           "config": {
             "phase": 1,
-            "max_objects": 1000
+            "max_objects": 2000
           }
         },
         "destination": {
           "activity": {
-            "id": [
-              "70c7731c-fef0-4386-9a16-437b8d3da91b"
-            ]
+            "id": ["8a88584c-e1b8-4aef-9903-8b3929f1bcf8"]
+          }
+        }
+      },
+      "extract_companies": {
+        "id": "8a88584c-e1b8-4aef-9903-8b3929f1bcf8",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "max_objects": 1500
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": ["82926f4f-20c7-4eef-b3cd-3b4e2a4f6ccf"]
+          }
+        }
+      },
+      "enrich_companies_from_profiles": {
+        "id": "82926f4f-20c7-4eef-b3cd-3b4e2a4f6ccf",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "max_objects": 1400
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": ["2262014a-c19b-49be-bda6-bf051f0d2c46"]
           }
         }
       },
       "enrich_companies": {
-        "id": "70c7731c-fef0-4386-9a16-437b8d3da91b",
-        "type": "activity",
-        "setup": {
-          "config": {
-            "phase": 2,
-            "max_objects": 1000
-          }
-        },
-        "destination": {
-          "activity": {
-            "id": [
-              "8505f8bd-254a-4a1a-9656-8ab461ad5a2a"
-            ]
-          }
-        }
-      },
-      "score_companies": {
-        "id": "8505f8bd-254a-4a1a-9656-8ab461ad5a2a",
-        "type": "activity",
-        "setup": {
-          "config": {
-            "phase": 2,
-            "max_objects": 800
-          }
-        },
-        "destination": {
-          "activity": {
-            "id": [
-              "e8f21562-d7cd-431d-8528-f7daaeb59055"
-            ]
-          }
-        }
-      },
-      "extract_people": {
-        "id": "e8f21562-d7cd-431d-8528-f7daaeb59055",
+        "id": "2262014a-c19b-49be-bda6-bf051f0d2c46",
         "type": "activity",
         "setup": {
           "config": {
             "phase": 3,
-            "max_objects": 500
+            "max_objects": 1200
           }
         },
         "destination": {
           "activity": {
-            "id": [
-              "2213b3cd-a981-42b3-80a8-01ea4ed0488f"
-            ]
+            "id": ["0910b9ee-a25c-46d6-be86-18225bac27ed"]
           }
         }
       },
-      "enrich_people": {
-        "id": "2213b3cd-a981-42b3-80a8-01ea4ed0488f",
+      "extract_decision_makers": {
+        "id": "0910b9ee-a25c-46d6-be86-18225bac27ed",
         "type": "activity",
         "setup": {
           "config": {
             "phase": 3,
-            "max_objects": 500
+            "max_objects": 1100
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": ["68e950d5-ea7c-4c47-8f2b-6a23dfe60b17"]
+          }
+        }
+      },
+      "enrich_decision_makers": {
+        "id": "68e950d5-ea7c-4c47-8f2b-6a23dfe60b17",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 4,
+            "max_objects": 900
           }
         },
         "destination": {
@@ -92,11 +99,11 @@
     }
   },
   "runtime_stats": {
-    "total_executions": 52,
-    "successful_executions": 45,
-    "failed_executions": 7,
-    "success_rate": 0.865,
-    "average_duration": 520.3,
+    "total_executions": 47,
+    "successful_executions": 42,
+    "failed_executions": 5,
+    "success_rate": 0.8936,
+    "average_duration": 487.3,
     "last_used_at": "2025-01-20T14:45:30.000Z"
   },
   "metadata": {
@@ -104,8 +111,8 @@
     "owner_org_name": "AlgOps Data Solutions",
     "created_at": "2025-01-15T10:30:00.000Z",
     "updated_at": "2025-01-20T14:45:30.000Z",
-    "activities_count": 5,
-    "phases_count": 3,
-    "workflow_requests_count": 52
+    "activities_count": 6,
+    "phases_count": 4,
+    "workflow_requests_count": 47
   }
 }

@@ -2,8 +2,8 @@
   "id": "44004d81-ec4c-4cfe-885a-2473527db1fb",
   "name": "Document Storage API",
   "description": "API for accessing unstructured documents from various storage systems for knowledge base creation",
-  "source_type": "Integration",
-  "delivery_type": "Endpoint",
+  "source_type": "integration",
+  "delivery_type": "endpoint",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

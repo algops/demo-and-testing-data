@@ -2,8 +2,8 @@
   "id": "fcb51cf8-bff6-45bc-ab47-c5bc54fe8526",
   "name": "Document Classification Agent",
   "description": "AI agent that classifies document format and evaluates readability for knowledge base preparation",
-  "source_type": "Agent",
-  "delivery_type": "Endpoint",
+  "source_type": "agent",
+  "delivery_type": "endpoint",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"

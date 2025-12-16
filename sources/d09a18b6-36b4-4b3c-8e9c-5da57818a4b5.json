@@ -2,8 +2,8 @@
   "id": "d09a18b6-36b4-4b3c-8e9c-5da57818a4b5",
   "name": "Databricks Documents API",
   "description": "API for accessing compliance documents stored in Databricks data lake, providing document metadata and content",
-  "source_type": "Integration",
-  "delivery_type": "Endpoint",
+  "source_type": "integration",
+  "delivery_type": "endpoint",
   "setup": {
     "customization_permissions": {
       "factor_creation": "creator_only"
