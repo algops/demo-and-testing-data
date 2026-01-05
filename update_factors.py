@@ -51,3 +51,11 @@ with open('factors.json', 'w') as f:
 
 print(f"\nSuccessfully updated {updated} factors with descriptions")
 
+
+
+
+
+
+
+
+

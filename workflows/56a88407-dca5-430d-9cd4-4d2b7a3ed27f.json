@@ -17,7 +17,9 @@
         },
         "destination": {
           "activity": {
-            "id": ["cd4ff120-1c9f-4110-81c1-c0266809a3cb"]
+            "id": [
+              "cd4ff120-1c9f-4110-81c1-c0266809a3cb"
+            ]
           }
         }
       },
@@ -32,7 +34,7 @@
         },
         "destination": {
           "activity": {
-            "id": ["2e73495f-26dc-4b43-a6b2-fc1e96006700"]
+            "id": []
           }
         }
       },
@@ -47,7 +49,9 @@
         },
         "destination": {
           "activity": {
-            "id": ["5c956049-b265-4df9-a070-f95d382b910d"]
+            "id": [
+              "5c956049-b265-4df9-a070-f95d382b910d"
+            ]
           }
         }
       },

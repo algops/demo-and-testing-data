@@ -1,5 +1,5 @@
 {
-  "organizations": [
+  "projects": [
     {
       "name": "AlgOps Data Solutions",
       "logo": "Command",
@@ -22,3 +22,6 @@
     "avatar": "/avatars/alex.jpg"
   }
 }
+
+
+

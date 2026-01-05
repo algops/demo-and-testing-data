@@ -17,7 +17,9 @@
         },
         "destination": {
           "activity": {
-            "id": ["850f20ae-46bc-44eb-a524-c7b6f3a747a1"]
+            "id": [
+              "850f20ae-46bc-44eb-a524-c7b6f3a747a1"
+            ]
           }
         }
       },
@@ -32,7 +34,7 @@
         },
         "destination": {
           "activity": {
-            "id": ["2cbdb4fc-3242-4c31-af7d-69df0c26523a"]
+            "id": []
           }
         }
       },
@@ -47,7 +49,10 @@
         },
         "destination": {
           "activity": {
-            "id": ["754e9c63-506c-401b-baee-4df8cae90e09", "5872e563-c103-45a0-bab1-fd1d58e3b208"]
+            "id": [
+              "754e9c63-506c-401b-baee-4df8cae90e09",
+              "5872e563-c103-45a0-bab1-fd1d58e3b208"
+            ]
           }
         }
       },
@@ -62,7 +67,9 @@
         },
         "destination": {
           "activity": {
-            "id": ["61c448e1-5c8f-4418-bc69-181eca3620d0"]
+            "id": [
+              "61c448e1-5c8f-4418-bc69-181eca3620d0"
+            ]
           }
         }
       },
@@ -92,7 +99,9 @@
         },
         "destination": {
           "activity": {
-            "id": ["92ed18be-1263-42d7-a5c0-f15cd74ec92d"]
+            "id": [
+              "92ed18be-1263-42d7-a5c0-f15cd74ec92d"
+            ]
           }
         }
       },
