@@ -1,0 +1,64 @@
+{
+  "tree": [
+    {
+      "id": "folder-support",
+      "name": "support",
+      "type": "folder",
+      "children": [
+        {
+          "id": "file-troubleshooting",
+          "name": "troubleshooting.md",
+          "type": "file",
+          "fileId": "kb-troubleshooting"
+        },
+        {
+          "id": "file-faq",
+          "name": "faq.md",
+          "type": "file",
+          "fileId": "kb-faq"
+        }
+      ]
+    },
+    {
+      "id": "folder-installation",
+      "name": "installation",
+      "type": "folder",
+      "children": [
+        {
+          "id": "file-install-guide",
+          "name": "guide-v2.md",
+          "type": "file",
+          "fileId": "kb-install-guide"
+        }
+      ]
+    },
+    {
+      "id": "folder-skills",
+      "name": "skills",
+      "type": "folder",
+      "children": [
+        {
+          "id": "file-support-tone",
+          "name": "support-tone.md",
+          "type": "file",
+          "fileId": "kb-support-tone"
+        }
+      ]
+    },
+    {
+      "id": "folder-internal",
+      "name": "internal",
+      "type": "folder",
+      "restricted": true,
+      "restrictReason": "Internal policies — read-only in demo",
+      "children": [
+        {
+          "id": "file-hr-policy",
+          "name": "hr-policies.md",
+          "type": "file",
+          "fileId": "kb-hr-policies"
+        }
+      ]
+    }
+  ]
+}

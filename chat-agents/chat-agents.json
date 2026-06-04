@@ -1,0 +1,14 @@
+[
+  {
+    "id": "support-bot",
+    "name": "Customer Support Bot",
+    "description": "Answers product questions using support docs, installation guides, and agent skills.",
+    "status": "active"
+  },
+  {
+    "id": "sales-assistant",
+    "name": "Sales Assistant",
+    "description": "Helps prospects with pricing and feature overview. Draft configuration for demo.",
+    "status": "draft"
+  }
+]

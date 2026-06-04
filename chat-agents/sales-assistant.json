@@ -1,0 +1,42 @@
+{
+  "id": "sales-assistant",
+  "name": "Sales Assistant",
+  "description": "Helps prospects with pricing and feature overview. Draft configuration for demo.",
+  "status": "draft",
+  "setup": {
+    "accessibility": {
+      "primary": {
+        "type": "api",
+        "enabled": true,
+        "bidirectional": false,
+        "label": "Public API"
+      },
+      "supervisor": {
+        "type": "microsoft_teams",
+        "enabled": false,
+        "bidirectional": true,
+        "canSteer": true
+      }
+    },
+    "knowledge_base_access": {
+      "grants": [
+        {
+          "treePath": "/support/faq.md",
+          "scope": "file",
+          "includeDescendants": false
+        }
+      ],
+      "skillsPath": "/skills",
+      "skillFilePaths": []
+    },
+    "data_warehouse_access": {
+      "objectTypeIds": []
+    },
+    "realtime_data_access": {
+      "grants": []
+    },
+    "actions_access": {
+      "grants": []
+    }
+  }
+}

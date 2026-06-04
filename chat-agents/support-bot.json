@@ -1,0 +1,62 @@
+{
+  "id": "support-bot",
+  "name": "Customer Support Bot",
+  "description": "Answers product questions using support docs, installation guides, and agent skills.",
+  "status": "active",
+  "setup": {
+    "accessibility": {
+      "primary": {
+        "type": "web_widget",
+        "enabled": true,
+        "bidirectional": true,
+        "label": "Website widget"
+      },
+      "supervisor": {
+        "type": "slack",
+        "enabled": true,
+        "bidirectional": true,
+        "canSteer": true,
+        "label": "#support-escalations"
+      }
+    },
+    "knowledge_base_access": {
+      "grants": [
+        {
+          "treePath": "/support",
+          "scope": "folder",
+          "includeDescendants": true
+        },
+        {
+          "treePath": "/installation",
+          "scope": "folder",
+          "includeDescendants": true
+        }
+      ],
+      "skillsPath": "/skills",
+      "skillFilePaths": ["/skills/support-tone.md"]
+    },
+    "data_warehouse_access": {
+      "objectTypeIds": ["b8c9d0e1-f2a3-4567-1234-890123456789"]
+    },
+    "realtime_data_access": {
+      "grants": [
+        {
+          "sourceId": "44004d81-ec4c-4cfe-885a-2473527db1fb",
+          "label": "Document Storage API",
+          "streamKey": "documents"
+        }
+      ]
+    },
+    "actions_access": {
+      "grants": [
+        {
+          "sourceId": "fd778da7-9706-4149-bd06-21337b365e39",
+          "actionKey": "create_kb_entry",
+          "label": "Create knowledge entry",
+          "description": "Structure and validate new knowledge base content",
+          "permission": "execute"
+        }
+      ]
+    }
+  }
+}
