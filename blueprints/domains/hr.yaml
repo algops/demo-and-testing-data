@@ -1,0 +1,29 @@
+org_id: anchor
+domain_id: hr
+propozice: docs/05_HR_SOP.md
+catalogue: docs/domains/hr/
+
+object_counts:
+  policy: 30-45
+  process: 35-55
+  benefit: 10-15
+  role: 40-60
+  department: 8-12
+  training: 20-35
+  document: 15-25
+  system: 6-10
+  leave_type: 8-12
+  legal_requirement: 6-10
+  compensation_band: 8-12
+  grievance_case: 5-10
+  performance_review: 15-25
+
+edge_families: 14
+vignette_ids: []
+
+workflows:
+  - hr_sop_sync
+
+datasets:
+  - hr_employee_sop_coverage
+  - hr_training_compliance

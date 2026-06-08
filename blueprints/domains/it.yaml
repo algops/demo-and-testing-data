@@ -1,0 +1,33 @@
+org_id: anchor
+domain_id: it
+propozice: docs/02_IT_SW_DEVELOPMENT.md
+catalogue: docs/domains/it/
+
+object_counts:
+  service: 18-30
+  api: 25-45
+  database: 8-12
+  pipeline: 25-40
+  team: 6-10
+  adr: 8-12
+  guideline: 6-10
+  dependency: 80-180
+  environment: 4-6
+  incident: 40-70
+  tech_debt: 25-45
+  slo: 8-12
+  runbook: 6-10
+  feature_flag: 8-12
+
+edge_families: 17
+vignette_ids: []
+
+workflows:
+  - it_kb_ingest
+  - it_code_review
+  - it_incident_sync
+
+datasets:
+  - it_service_health
+  - it_incident_log
+  - it_dependency_risk

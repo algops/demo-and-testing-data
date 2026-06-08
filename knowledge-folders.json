@@ -1,0 +1,484 @@
+{
+  "knowledge_folders": [
+    {
+      "id": "63d3b239-6713-5805-afe2-543faa91a505",
+      "path": "knowledgebase",
+      "name": "knowledgebase",
+      "org_id": "org:anchor",
+      "domain_id": "shared",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "6383aba0-9350-5a01-afc0-b40e29429027",
+      "path": "knowledgebase/esg",
+      "name": "esg",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "13908efb-5eff-548e-8491-f1a05e3f985a",
+      "path": "knowledgebase/esg/compliance",
+      "name": "compliance",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "4d9926c2-1eb6-5bcd-9357-e24769bdc0d6",
+      "path": "knowledgebase/esg/compliance/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "30e8e81c-ed3f-5756-abe7-12221d480db4",
+      "path": "knowledgebase/esg/operations",
+      "name": "operations",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "6d6e80b1-5e77-51fb-8b85-c9240dd6c45d",
+      "path": "knowledgebase/esg/operations/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "203b68de-76fc-52a8-9db3-451b80fafe76",
+      "path": "knowledgebase/esg/templates",
+      "name": "templates",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d3e9f735-640d-55db-b13f-7016826f1737",
+      "path": "knowledgebase/esg/templates/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "e0656d12-11d8-5e1b-9d9f-c2afbddbe645",
+      "path": "knowledgebase/esg/engineering",
+      "name": "engineering",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "67fcf1c7-a679-59ad-937a-3c2593534be5",
+      "path": "knowledgebase/esg/engineering/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "2d9be334-f550-5660-9951-f4ff9ea646d2",
+      "path": "knowledgebase/esg/compliance/archive",
+      "name": "archive",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "74bf554a-0995-5076-9ed3-2cd23934fd1a",
+      "path": "knowledgebase/esg/operations/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "69e11a16-0ff3-5f7a-b7ad-50bd5a12139d",
+      "path": "knowledgebase/esg/compliance/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "23faf8db-4692-571c-ae35-eb8a6c982ec9",
+      "path": "knowledgebase/it",
+      "name": "it",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "be884b75-1255-541d-9417-5a92c12f357f",
+      "path": "knowledgebase/it/engineering",
+      "name": "engineering",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "7d71d2e2-73e9-5fde-9ed2-b72387bb5720",
+      "path": "knowledgebase/it/engineering/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "89a304fd-9c40-53b0-99ef-692ba5fa0a8b",
+      "path": "knowledgebase/it/operations",
+      "name": "operations",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "48cf1b20-aa9c-5828-a522-26414090d0f0",
+      "path": "knowledgebase/it/operations/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "1cab5f1e-feb4-5db0-ae50-226c9a76f65a",
+      "path": "knowledgebase/it/compliance",
+      "name": "compliance",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "bc48d533-3fb3-5a37-8232-83d6a4308378",
+      "path": "knowledgebase/it/compliance/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "59e120c4-70b6-5035-a04a-699ab83a1f71",
+      "path": "knowledgebase/it/templates",
+      "name": "templates",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "c70c2e72-7006-54d2-bd41-900b7145d045",
+      "path": "knowledgebase/it/templates/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "fa1884ba-e992-5d74-a014-3efc34c9fac7",
+      "path": "knowledgebase/it/engineering/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "715880d0-1492-5aaa-9860-b5c7612d3399",
+      "path": "knowledgebase/it/operations/archive",
+      "name": "archive",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "74c84f37-dac4-5322-9f92-2735997c73dd",
+      "path": "knowledgebase/it/engineering/archive",
+      "name": "archive",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "99acb621-8f10-59bc-8138-67f261c13722",
+      "path": "knowledgebase/it/operations/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "e71e1af6-d390-5ede-a127-241108a22b36",
+      "path": "knowledgebase/it/compliance/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "61872c8b-d6a9-533d-9914-2b100613525d",
+      "path": "knowledgebase/legal",
+      "name": "legal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "94219f6c-f6f7-5ea6-a6e1-ec2d65fc0414",
+      "path": "knowledgebase/legal/compliance",
+      "name": "compliance",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "9c4c3ac1-8d3a-572a-92cf-804704293bad",
+      "path": "knowledgebase/legal/compliance/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "e3b31b7b-a1bf-5f0c-b745-fe7a48287cc8",
+      "path": "knowledgebase/legal/templates",
+      "name": "templates",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "adc85368-08d2-51a6-aca0-ba66658350ee",
+      "path": "knowledgebase/legal/templates/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "562d7b1f-1fac-5a8f-a82e-4f18dd431c1b",
+      "path": "knowledgebase/legal/operations",
+      "name": "operations",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "89f7def5-d474-5753-9c2c-3e1f2dc90508",
+      "path": "knowledgebase/legal/operations/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "1293ad1d-1c09-507d-95a6-5257df568689",
+      "path": "knowledgebase/legal/templates/archive",
+      "name": "archive",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "4202b390-d3fc-5116-813d-6ef309bd0e59",
+      "path": "knowledgebase/legal/compliance/archive",
+      "name": "archive",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "89a22669-5cf7-5cb4-b676-3d25b6925627",
+      "path": "knowledgebase/legal/compliance/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "79e5da16-76a7-5bb4-b401-57896f5e1dd5",
+      "path": "knowledgebase/legal/operations/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "2d8d871d-afe3-5d95-b867-adb8f15ba069",
+      "path": "knowledgebase/tax",
+      "name": "tax",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "7d793e4c-b5d7-5016-910e-bcadd2d1aeaa",
+      "path": "knowledgebase/tax/compliance",
+      "name": "compliance",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "9b7b00de-68fe-5092-b860-45f6c2c26456",
+      "path": "knowledgebase/tax/compliance/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "5d12cbc7-b8f6-56d7-aaf8-bafafdf66d6b",
+      "path": "knowledgebase/tax/operations",
+      "name": "operations",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "a751e1e1-6859-5ae3-adad-2b453d08dcd9",
+      "path": "knowledgebase/tax/operations/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "2e0a5ab2-ee14-5789-8691-57278a13ff52",
+      "path": "knowledgebase/tax/templates",
+      "name": "templates",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "ed46d4c9-d285-5523-9ca9-a8c375e654ec",
+      "path": "knowledgebase/tax/templates/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "100bd4b2-0bde-54b6-ba27-e8337411d46e",
+      "path": "knowledgebase/tax/compliance/archive",
+      "name": "archive",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "51b0fdf5-1cb8-52e3-81de-68b4e7ac2a01",
+      "path": "knowledgebase/tax/operations/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "ecd844c1-0233-570c-9d1c-14d9207bbd04",
+      "path": "knowledgebase/tax/operations/archive",
+      "name": "archive",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "2cc7f0d1-43e1-56cf-9e49-0505f36ad64f",
+      "path": "knowledgebase/tax/templates/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "c09b3cab-8899-591f-942e-02577358c643",
+      "path": "knowledgebase/hr",
+      "name": "hr",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "321cdebb-0ec7-5270-b280-4df96a236617",
+      "path": "knowledgebase/hr/compliance",
+      "name": "compliance",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "20ca9dde-be00-5976-9543-24cd0a6168c9",
+      "path": "knowledgebase/hr/compliance/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "e67b9f72-4f40-52af-9bf4-d27562a1bf5a",
+      "path": "knowledgebase/hr/operations",
+      "name": "operations",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "89944655-c5c0-5b8e-bfd2-4256fdd300ab",
+      "path": "knowledgebase/hr/operations/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "58c1ad81-ab03-5b7a-b883-bf609f1d2a21",
+      "path": "knowledgebase/hr/templates",
+      "name": "templates",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "f5e729d6-1f2b-5fcc-bf33-16b677389e8a",
+      "path": "knowledgebase/hr/templates/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "850a78df-aebd-52c4-b1fe-8739457b3182",
+      "path": "knowledgebase/hr/compliance/archive",
+      "name": "archive",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "cb1fea18-21bb-5e44-a9b8-dff3371aa7f1",
+      "path": "knowledgebase/hr/operations/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "3e6c4216-037b-56b0-a9cc-d5316bd11d87",
+      "path": "knowledgebase/hr/operations/archive",
+      "name": "archive",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "5d8accb4-ecc5-57fb-99de-b1c49e225121",
+      "path": "knowledgebase/hr/templates/drafts",
+      "name": "drafts",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    }
+  ]
+}

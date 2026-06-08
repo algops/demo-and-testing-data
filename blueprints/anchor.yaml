@@ -1,0 +1,73 @@
+# Anchor tenant blueprint — single AlgOps customer for all demo data
+# See docs/ANCHOR_TENANT.md
+
+org:
+  slug: anchor
+  legal_name: Meridian Pay a.s.
+  org_id_seed: org:anchor
+  enabled_domains:
+    - esg
+    - it
+    - legal
+    - tax
+    - hr
+
+org_layer:
+  organization_count: 1
+  person_count: 200-250
+  employee_count: 180-240
+  department_count: 8-12
+  team_count: 10-16
+  system_count: 10-15
+  vendor_count: 3-6
+
+vendors:
+  - slug: kovar-partners
+    name: Kovář & Partners advokátní kancelář s.r.o.
+    domains: [legal]
+  - slug: financni-centrum
+    name: Finanční Centrum s.r.o.
+    domains: [tax]
+  - slug: deloitte-cz
+    name: Deloitte CZ
+    domains: [esg]
+
+knowledge_base:
+  root_folder_id: knowledgebase
+  structure: knowledgebase/{domain}/...
+  min_docs_per_domain:
+    esg: 10
+    it: 12
+    legal: 10
+    hr: 10
+    tax: 10
+
+projects:
+  - domain_id: esg
+    name: ESG Compliance
+    logo: Leaf
+    plan: Enterprise
+  - domain_id: it
+    name: IT & Engineering
+    logo: Code2
+    plan: Enterprise
+  - domain_id: legal
+    name: Legal
+    logo: Scale
+    plan: Enterprise
+  - domain_id: tax
+    name: Tax & Accounting
+    logo: Calculator
+    plan: Enterprise
+  - domain_id: hr
+    name: HR & People
+    logo: Users
+    plan: Enterprise
+
+generation:
+  uuid_scheme:
+    anchor_org: "org:anchor"
+    org_layer: "org:anchor:shared:{entity}:{slug}"
+    domain_entity: "org:anchor:{domain}:{entity}:{slug}"
+  target_edges_total: 2500-10000
+  max_edges: 10000

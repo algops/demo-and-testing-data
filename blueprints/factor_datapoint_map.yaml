@@ -1,0 +1,197 @@
+# Maps workflow step factors to semantically meaningful datapoints.
+
+it_kb_ingest:
+  "0":
+    guardrail:
+      object_type: service
+      datapoint: status
+      factor_type: boolean
+      operator: regex
+      value: "^active$"
+    use-case:
+      object_type: knowledge_article
+      datapoint: status
+      factor_type: frequency
+      operator: null
+      value: null
+  "1":
+    guardrail:
+      object_type: service
+      datapoint: compliance_status
+      factor_type: boolean
+      operator: regex
+      value: "^compliant$"
+    use-case:
+      object_type: repository
+      datapoint: last_updated
+      factor_type: frequency
+      operator: null
+      value: null
+
+it_code_review:
+  "0":
+    guardrail:
+      object_type: pull_request
+      datapoint: status
+      factor_type: boolean
+      operator: regex
+      value: "^(open|merged|approved)$"
+    use-case:
+      object_type: service
+      datapoint: test_coverage_pct
+      factor_type: frequency
+      operator: null
+      value: null
+  "1":
+    guardrail:
+      object_type: vulnerability
+      datapoint: severity
+      factor_type: boolean
+      operator: regex
+      value: "^(low|medium)$"
+    use-case:
+      object_type: dependency
+      datapoint: cve_count
+      factor_type: frequency
+      operator: null
+      value: null
+
+it_incident_sync:
+  "0":
+    guardrail:
+      object_type: incident
+      datapoint: status
+      factor_type: boolean
+      operator: regex
+      value: "^(resolved|mitigated)$"
+    use-case:
+      object_type: incident
+      datapoint: ttr_minutes
+      factor_type: frequency
+      operator: null
+      value: null
+  "1":
+    guardrail:
+      object_type: service
+      datapoint: sla_days
+      factor_type: boolean
+      operator: regex
+      value: "^[0-9]+$"
+    use-case:
+      object_type: runbook
+      datapoint: last_reviewed
+      factor_type: frequency
+      operator: null
+      value: null
+
+legal_knowhow_index:
+  "0":
+    guardrail:
+      object_type: matter
+      datapoint: confidentiality
+      factor_type: boolean
+      operator: regex
+      value: "^(internal|restricted)$"
+    use-case:
+      object_type: contract
+      datapoint: status
+      factor_type: frequency
+      operator: null
+      value: null
+  "1":
+    guardrail:
+      object_type: matter
+      datapoint: conflict_check_complete
+      factor_type: boolean
+      operator: eq
+      value: "true"
+    use-case:
+      object_type: legal_document
+      datapoint: area_of_law
+      factor_type: frequency
+      operator: null
+      value: null
+
+esg_evidence_collect:
+  "0":
+    guardrail:
+      object_type: metric
+      datapoint: data_quality_score
+      factor_type: boolean
+      operator: gte
+      value: "60"
+    use-case:
+      object_type: metric
+      datapoint: frequency
+      factor_type: frequency
+      operator: null
+      value: null
+  "1":
+    guardrail:
+      object_type: supplier
+      datapoint: risk_score
+      factor_type: boolean
+      operator: regex
+      value: "^(low|medium)$"
+    use-case:
+      object_type: report
+      datapoint: assurance_level
+      factor_type: frequency
+      operator: null
+      value: null
+
+tax_filing_ops:
+  "0":
+    guardrail:
+      object_type: engagement
+      datapoint: status
+      factor_type: boolean
+      operator: regex
+      value: "^active$"
+    use-case:
+      object_type: filing
+      datapoint: filing_frequency
+      factor_type: frequency
+      operator: null
+      value: null
+  "1":
+    guardrail:
+      object_type: legal_entity
+      datapoint: dic
+      factor_type: boolean
+      operator: regex
+      value: "^CZ[0-9]+$"
+    use-case:
+      object_type: tax_return
+      datapoint: deadline
+      factor_type: frequency
+      operator: null
+      value: null
+
+hr_sop_sync:
+  "0":
+    guardrail:
+      object_type: policy
+      datapoint: status
+      factor_type: boolean
+      operator: regex
+      value: "^active$"
+    use-case:
+      object_type: employee
+      datapoint: status
+      factor_type: frequency
+      operator: null
+      value: null
+  "1":
+    guardrail:
+      object_type: training
+      datapoint: compliance_status
+      factor_type: boolean
+      operator: regex
+      value: "^compliant$"
+    use-case:
+      object_type: sop
+      datapoint: version
+      factor_type: frequency
+      operator: null
+      value: null

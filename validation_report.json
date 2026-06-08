@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "errors": [],
+  "error_count": 0,
+  "warnings": [],
+  "edge_count": 7679,
+  "kb_edge_count": 302,
+  "object_count": 1909,
+  "object_type_count": 70,
+  "knowledge_doc_count": 52,
+  "value_audit": {
+    "generic_count": 0,
+    "generic_by_attr": {},
+    "generic_by_domain": {},
+    "type_mismatch_count": 0,
+    "type_mismatches": [],
+    "template_description_count": 0,
+    "template_descriptions": [],
+    "esg_category_leak_count": 0,
+    "factor_gap_count": 0,
+    "factor_gaps": []
+  }
+}

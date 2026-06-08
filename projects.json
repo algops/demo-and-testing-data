@@ -1,27 +1,54 @@
 {
   "projects": [
     {
-      "name": "AlgOps Data Solutions",
-      "logo": "Command",
+      "id": "org:anchor:esg",
+      "name": "ESG Compliance",
+      "domain_id": "esg",
+      "org_id": "org:anchor",
+      "parent_org_name": "Meridian Pay a.s.",
+      "logo": "Leaf",
       "plan": "Enterprise"
     },
     {
-      "name": "TechCorp Industries",
-      "logo": "Building2",
-      "plan": "Team"
+      "id": "org:anchor:it",
+      "name": "IT & Engineering",
+      "domain_id": "it",
+      "org_id": "org:anchor",
+      "parent_org_name": "Meridian Pay a.s.",
+      "logo": "Code2",
+      "plan": "Enterprise"
     },
     {
-      "name": "StartupHub",
-      "logo": "Frame",
-      "plan": "Pro"
+      "id": "org:anchor:legal",
+      "name": "Legal",
+      "domain_id": "legal",
+      "org_id": "org:anchor",
+      "parent_org_name": "Meridian Pay a.s.",
+      "logo": "Scale",
+      "plan": "Enterprise"
+    },
+    {
+      "id": "org:anchor:tax",
+      "name": "Tax & Accounting",
+      "domain_id": "tax",
+      "org_id": "org:anchor",
+      "parent_org_name": "Meridian Pay a.s.",
+      "logo": "Calculator",
+      "plan": "Enterprise"
+    },
+    {
+      "id": "org:anchor:hr",
+      "name": "HR & People",
+      "domain_id": "hr",
+      "org_id": "org:anchor",
+      "parent_org_name": "Meridian Pay a.s.",
+      "logo": "Users",
+      "plan": "Enterprise"
     }
   ],
   "user": {
-    "name": "Alex Johnson",
-    "email": "alex.johnson@algops.com",
-    "avatar": "/avatars/alex.jpg"
+    "name": "Eva Nováková",
+    "email": "eva.novakova@meridianpay.cz",
+    "avatar": "/avatars/eva.jpg"
   }
 }
-
-
-

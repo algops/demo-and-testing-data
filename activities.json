@@ -1,0 +1,172 @@
+{
+  "activities": [
+    {
+      "id": "7b4f1363-11fa-5b01-9458-684514350bba",
+      "name": "IT KB ingest — krok 1",
+      "workflow_id": "5646c7dc-fbc7-5d8f-adf3-61be019a2c5b",
+      "workflow_slug": "it_kb_ingest",
+      "step_index": 0,
+      "integration_id": "e544df81-ff66-5f90-88ff-da682bd0d148",
+      "domain_id": "it",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "b09a9c04-72e9-550a-bf3d-b055c51157f3",
+      "name": "IT KB ingest — krok 2",
+      "workflow_id": "5646c7dc-fbc7-5d8f-adf3-61be019a2c5b",
+      "workflow_slug": "it_kb_ingest",
+      "step_index": 1,
+      "integration_id": "5165655b-4e94-5322-8fcb-51300c06c7df",
+      "domain_id": "it",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "83d4d296-bb4a-56b8-ba09-39b64f83db58",
+      "name": "IT code review — krok 1",
+      "workflow_id": "71757d52-8b39-59e1-a188-e71899099d91",
+      "workflow_slug": "it_code_review",
+      "step_index": 0,
+      "integration_id": "e544df81-ff66-5f90-88ff-da682bd0d148",
+      "domain_id": "it",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "977329aa-c751-5709-b506-df43a9af7451",
+      "name": "IT code review — krok 2",
+      "workflow_id": "71757d52-8b39-59e1-a188-e71899099d91",
+      "workflow_slug": "it_code_review",
+      "step_index": 1,
+      "integration_id": "5165655b-4e94-5322-8fcb-51300c06c7df",
+      "domain_id": "it",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "a8f85055-e3ff-5116-b9e3-c9149e0eb5c1",
+      "name": "IT incident sync — krok 1",
+      "workflow_id": "b2bf0a6a-5c93-556e-a97c-85323d720e6b",
+      "workflow_slug": "it_incident_sync",
+      "step_index": 0,
+      "integration_id": "e544df81-ff66-5f90-88ff-da682bd0d148",
+      "domain_id": "it",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "04f7bae9-9850-5d9e-82aa-b2f409358147",
+      "name": "IT incident sync — krok 2",
+      "workflow_id": "b2bf0a6a-5c93-556e-a97c-85323d720e6b",
+      "workflow_slug": "it_incident_sync",
+      "step_index": 1,
+      "integration_id": "5165655b-4e94-5322-8fcb-51300c06c7df",
+      "domain_id": "it",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "6ce1c5d6-0222-527a-aa48-5a50c2cf1083",
+      "name": "Legal know-how index — krok 1",
+      "workflow_id": "1a3c6400-7274-5ff9-beff-efbdaa77cb13",
+      "workflow_slug": "legal_knowhow_index",
+      "step_index": 0,
+      "integration_id": "53acc2d7-4211-576f-9bc4-8c6b448be243",
+      "domain_id": "legal",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "fbec8031-0713-5c89-b7e6-3bb113f76a2e",
+      "name": "Legal know-how index — krok 2",
+      "workflow_id": "1a3c6400-7274-5ff9-beff-efbdaa77cb13",
+      "workflow_slug": "legal_knowhow_index",
+      "step_index": 1,
+      "integration_id": "e33946f7-2123-582b-83aa-f007c6b615b2",
+      "domain_id": "legal",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "ea64b16c-8fa4-5f2d-a46b-35c5e81ca6e9",
+      "name": "ESG evidence collect — krok 1",
+      "workflow_id": "749103fc-afc3-50ef-a5f9-067310653429",
+      "workflow_slug": "esg_evidence_collect",
+      "step_index": 0,
+      "integration_id": "78d78ec7-eb76-5a4a-915b-9b58ab9e7d96",
+      "domain_id": "esg",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "7a00c72d-a024-5ba2-a8bb-64a9b447f547",
+      "name": "ESG evidence collect — krok 2",
+      "workflow_id": "749103fc-afc3-50ef-a5f9-067310653429",
+      "workflow_slug": "esg_evidence_collect",
+      "step_index": 1,
+      "integration_id": "97e2b8ec-72e9-50d9-86c1-bde2b6f2ac93",
+      "domain_id": "esg",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "c9bad3e1-3cf8-5ab7-8dd1-4553ab60cbf8",
+      "name": "Tax filing ops — krok 1",
+      "workflow_id": "69646cb7-122d-59c5-8777-f41dfafe6348",
+      "workflow_slug": "tax_filing_ops",
+      "step_index": 0,
+      "integration_id": "a396b15f-d53e-5e78-9ae2-38e97a0db9db",
+      "domain_id": "tax",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "23be0640-6853-54b4-91a7-39bfdf0499a3",
+      "name": "Tax filing ops — krok 2",
+      "workflow_id": "69646cb7-122d-59c5-8777-f41dfafe6348",
+      "workflow_slug": "tax_filing_ops",
+      "step_index": 1,
+      "integration_id": "a96d3a9f-20bc-5c5d-af47-58e367de01d0",
+      "domain_id": "tax",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "64aeaf7a-eac0-5ee5-9426-baed14a9afb1",
+      "name": "HR SOP sync — krok 1",
+      "workflow_id": "9c0724a8-90c7-5312-aab6-7f4c2d9cac26",
+      "workflow_slug": "hr_sop_sync",
+      "step_index": 0,
+      "integration_id": "a38440d7-ad50-50d5-8b35-e44b5d6aa0d6",
+      "domain_id": "hr",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "5a3ed672-ca03-598e-850a-e87d3c3b32df",
+      "name": "HR SOP sync — krok 2",
+      "workflow_id": "9c0724a8-90c7-5312-aab6-7f4c2d9cac26",
+      "workflow_slug": "hr_sop_sync",
+      "step_index": 1,
+      "integration_id": "6217ffa5-671c-50dd-9ff3-0116f2f7f805",
+      "domain_id": "hr",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "created_at": "2025-06-01T12:00:00Z"
+    }
+  ]
+}

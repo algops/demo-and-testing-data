@@ -1,0 +1,33 @@
+org_id: anchor
+domain_id: legal
+propozice: docs/03_LEGAL.md
+catalogue: docs/domains/legal/
+
+reframe:
+  client_as: counterparty
+  external_counsel_vendor: kovar-partners
+
+object_counts:
+  legislation: 10-15
+  court_decision: 8-12
+  contract: 50-120
+  template: 12-18
+  legal_opinion: 15-25
+  counterparty: 15-30
+  matter: 40-90
+  internal_guideline: 8-12
+  legal_area: 8-10
+  person: 10-18
+  ddproject: 5-12
+
+edge_families: 12
+vignette_ids:
+  - project-falcon-m-2024-0142
+  - kovarova-employment-dispute
+
+workflows:
+  - legal_knowhow_index
+
+datasets:
+  - legal_matter_index
+  - legal_contract_index

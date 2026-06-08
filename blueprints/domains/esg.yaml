@@ -1,0 +1,29 @@
+org_id: anchor
+domain_id: esg
+propozice: docs/01_ESG_COMPLIANCE.md
+catalogue: docs/domains/esg/
+
+object_counts:
+  regulation: 15-25
+  standard: 8-12
+  disclosure_requirement: 80-120
+  metric: 80-120
+  policy: 15-25
+  report: 8-12
+  economic_activity: 6-10
+  supplier: 60-90
+  risk: 12-20
+  target: 8-12
+  data_source: 10-15
+  material_topic: 10-15
+  audit_finding: 8-12
+
+edge_families: 13
+vignette_ids: []
+
+workflows:
+  - esg_evidence_collect
+
+datasets:
+  - esg_metric_facts
+  - esg_supplier_risk

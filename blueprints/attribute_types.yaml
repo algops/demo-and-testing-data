@@ -1,0 +1,127 @@
+# Explicit datapoint data_type overrides. Unlisted attrs use infer_data_type() heuristics.
+
+global:
+  risk_score: { type: string }
+  reporting_period: { type: string }
+  version: { type: string }
+  current_version: { type: string }
+  latest_version: { type: string }
+  deployment_frequency: { type: string, format: frequency }
+  fiscal_year: { type: number }
+  baseline_year: { type: number }
+  target_year: { type: number }
+  days_per_year: { type: number }
+
+shared:
+  hire_date: { type: date }
+  fte: { type: number }
+  headcount: { type: number }
+  incident_mttr_minutes: { type: number }
+  tech_debt_ratio_pct: { type: number }
+  onboarding_completion_pct: { type: number }
+  template_find_time_minutes: { type: number }
+  filing_on_time_pct: { type: number }
+  open_deadline_count: { type: number }
+  esrs_coverage_pct: { type: number }
+  supplier_response_rate_pct: { type: number }
+  sop_query_response_hours: { type: number }
+
+esg:
+  effective_date: { type: date }
+  approval_date: { type: date }
+  next_review_date: { type: date }
+  mandatory_for_all: { type: boolean }
+  subject_to_materiality: { type: boolean }
+  critical: { type: boolean }
+  material: { type: boolean }
+  cve_count: { type: number }
+  cve_critical: { type: number }
+  datapoints_count: { type: number }
+  data_quality_score: { type: number }
+  impact_score: { type: number }
+  financial_score: { type: number }
+  coverage_pct: { type: number }
+  capex_share_pct: { type: number }
+  opex_share_pct: { type: number }
+  revenue_share_pct: { type: number }
+  transposition_law: { type: string, pool: cz_laws }
+  taxonomy_eligible: { type: boolean }
+  taxonomy_aligned: { type: string }
+
+it:
+  created_date: { type: date }
+  detected_at: { type: date }
+  last_deploy_date: { type: date }
+  resolved_at: { type: date }
+  go_live_date: { type: date }
+  cve_count: { type: number }
+  cve_critical: { type: number }
+  consumer_count: { type: number }
+  estimated_effort_days: { type: number }
+  error_budget_remaining_pct: { type: number }
+  test_coverage_pct: { type: number }
+  avg_duration_min: { type: number }
+  auto_deploy: { type: boolean }
+
+legal:
+  opened_date: { type: date }
+  closed_date: { type: date }
+  execution_date: { type: date }
+  decision_date: { type: date }
+  filed_date: { type: date }
+  value_czk: { type: number }
+  hourly_rate_czk: { type: number }
+  findings_amount_czk: { type: number }
+  cited_decisions_count: { type: number }
+  cited_legislation_count: { type: number }
+  red_flags_count: { type: number }
+  total_billed_czk: { type: number }
+  conflict_check_complete: { type: boolean }
+
+tax:
+  effective_date: { type: date }
+  effective_from: { type: date }
+  effective_to: { type: date }
+  fee_czk: { type: number }
+  fee_monthly_czk: { type: number }
+  penalty_czk: { type: number }
+  wip_czk: { type: number }
+  max_base_czk: { type: number }
+  min_base_czk: { type: number }
+  binding: { type: boolean }
+  audit_required: { type: boolean }
+
+hr:
+  benefits_tier: { type: string }
+  effective_date: { type: date }
+  deadline: { type: date }
+  enrollment_period: { type: string }
+  completion_rate_pct: { type: number }
+  compliance_rate_pct: { type: number }
+  digitalization_pct: { type: number }
+  avg_rating: { type: number }
+  days_to_resolve: { type: number }
+  duration_hours: { type: number }
+  carryover_max_months: { type: number }
+  approval_required: { type: boolean }
+
+edge_attrs:
+  rel:REQUIRES_DISCLOSURE:mandatory: { type: boolean }
+  rel:REQUIRES_DISCLOSURE:phase_in_year: { type: number }
+  rel:CONTAINS_METRIC:quantitative: { type: boolean }
+  rel:REFERENCES_STANDARD:binding: { type: string }
+  rel:MEASURED_FROM:coverage_pct: { type: number }
+  rel:MEASURED_FROM:quality_assessment: { type: string }
+  rel:ASSESSED_FOR:score: { type: number }
+  rel:ASSESSED_FOR:assessment_date: { type: date }
+  rel:APPLIES_TO:assessment_year: { type: number }
+  rel:REPORTED_IN:assured: { type: boolean }
+  rel:REPORTED_IN:value: { type: number }
+  rel:REPORTED_IN:page_reference: { type: number }
+  rel:OWNS:data_quality_score: { type: number }
+  rel:MITIGATES:residual_risk_level: { type: string }
+  rel:MATERIAL_FOR:determines_disclosure: { type: boolean }
+  rel:AFFECTED:downtime_minutes: { type: number }
+  rel:DEPENDS_ON:sla_target: { type: number }
+  rel:FILED_BY:on_time: { type: boolean }
+  rel:FILED_BY:filed_date: { type: date }
