@@ -1,0 +1,12 @@
+{
+  "id": "kb-legal-030",
+  "title": "Politika schvalování smluv nad 500 tis. Kč",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Published",
+      "createdAt": "2025-06-01T12:00:00Z",
+      "content": "# Politika schvalování smluv nad 500 tis. Kč\n\n> Organizace: **Meridian Pay a.s.** | Doména: **legal** | Typ: policy | Citlivost: internal\n\n## Účel a rozsah\n\nTato politika stanovuje závazná pravidla pro oblast **politika schvalování smluv nad 500 tis. kč** v rámci Meridian Pay a.s.. Platí pro všechny zaměstnance, dodavatele s přístupem k interním systémům a vedení společnosti.\n\n## Odpovědnosti\n\n| Role | Odpovědnost |\n|------|-------------|\n| Vedení společnosti | Schválení politiky, alokace zdrojů |\n| Domain owner (legal) | Aktualizace, compliance monitoring |\n| Line managers | Zajištění dodržování v týmech |\n| Interní audit | Nezávislá kontrola každých 12 měsíců |\n\n## Klíčová ustanovení\n\n1. Všechny procesy v doméně legal musí být dokumentovány a verzovány v znalostní bázi pod `knowledgebase/legal/`.\n2. Data z integrace **iManage** jsou považována za autoritativní zdroj pro operativní rozhodování.\n3. Odchylky od politiky vyžadují písemnou výjimku schválenou domain ownerem a záznam v registru rizik.\n4. Porušení politiky může vést k disciplinárnímu řízení dle interních předpisů Meridian Pay a.s..\n\n## Životní cyklus dokumentu\n\n- **Návrh:** domain owner + právní/compliance (dle domény)\n- **Review:** minimálně jednou ročně nebo při změně regulace\n- **Schválení:** člen představenstva pro politiku úrovně 1\n- **Distribuce:** publikace v KB, notifikace přes Slack #compliance\n\n## Související dokumenty\n\n- Runbooky a SOP v `knowledgebase/legal/operations/`\n- Integrační dokumentace k systému iManage\n- Registr rizik Meridian Pay a.s. (interní)\n\n## Revize\n\n| Verze | Datum | Autor | Změna |\n|-------|-------|-------|-------|\n| 1.0 | 2025-03-01 | Domain owner legal | První vydání |\n"
+    }
+  ]
+}

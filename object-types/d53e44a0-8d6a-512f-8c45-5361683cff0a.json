@@ -1,0 +1,12 @@
+{
+  "id": "d53e44a0-8d6a-512f-8c45-5361683cff0a",
+  "name": "dependency",
+  "description": "Object type dependency",
+  "org_id": "org:anchor",
+  "domain_id": "it",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 130,
+  "datapoint_count": 8
+}

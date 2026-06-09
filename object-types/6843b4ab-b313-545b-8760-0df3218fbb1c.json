@@ -1,0 +1,12 @@
+{
+  "id": "6843b4ab-b313-545b-8760-0df3218fbb1c",
+  "name": "leave_type",
+  "description": "Object type leave_type",
+  "org_id": "org:anchor",
+  "domain_id": "hr",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 10,
+  "datapoint_count": 9
+}

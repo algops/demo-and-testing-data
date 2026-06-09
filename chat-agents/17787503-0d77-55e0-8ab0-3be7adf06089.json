@@ -1,0 +1,64 @@
+{
+  "id": "17787503-0d77-55e0-8ab0-3be7adf06089",
+  "name": "Automated code review copilot",
+  "description": "Automatizované code review a Snyk nálezy",
+  "status": "draft",
+  "domain_id": "it",
+  "org_id": "org:anchor",
+  "setup": {
+    "accessibility": {
+      "primary": {
+        "type": "web_widget",
+        "enabled": true,
+        "bidirectional": true,
+        "label": "Web widget"
+      },
+      "supervisor": {
+        "type": "slack",
+        "enabled": false,
+        "bidirectional": true,
+        "canSteer": true,
+        "label": "#agents-it"
+      }
+    },
+    "knowledge_base_access": {
+      "grants": [
+        {
+          "treePath": "/knowledgebase/it",
+          "scope": "folder",
+          "includeDescendants": true
+        }
+      ],
+      "skillsPath": "/skills/it",
+      "skillFilePaths": []
+    },
+    "data_warehouse_access": {
+      "objectTypeIds": []
+    },
+    "realtime_data_access": {
+      "grants": [
+        {
+          "sourceId": "e544df81-ff66-5f90-88ff-da682bd0d148",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        },
+        {
+          "sourceId": "5165655b-4e94-5322-8fcb-51300c06c7df",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        }
+      ]
+    },
+    "actions_access": {
+      "grants": [
+        {
+          "sourceId": "7d481564-2cd4-5a61-b375-0e87d848958b",
+          "actionKey": "execute_tool",
+          "label": "Tool action",
+          "description": "Execute via 7d481564-2cd4-5a61-b375-0e87d848958b",
+          "permission": "execute"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "96da7e7f-ff1a-57df-aa3a-b4e1d225a31a",
+  "name": "accounting_standard",
+  "description": "Object type accounting_standard",
+  "org_id": "org:anchor",
+  "domain_id": "tax",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 8,
+  "datapoint_count": 6
+}

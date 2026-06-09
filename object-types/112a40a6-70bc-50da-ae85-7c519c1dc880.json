@@ -1,0 +1,12 @@
+{
+  "id": "112a40a6-70bc-50da-ae85-7c519c1dc880",
+  "name": "supplier",
+  "description": "Object type supplier",
+  "org_id": "org:anchor",
+  "domain_id": "esg",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 75,
+  "datapoint_count": 10
+}

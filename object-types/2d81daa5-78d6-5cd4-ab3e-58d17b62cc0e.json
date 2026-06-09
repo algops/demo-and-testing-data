@@ -1,0 +1,12 @@
+{
+  "id": "2d81daa5-78d6-5cd4-ab3e-58d17b62cc0e",
+  "name": "legal_requirement",
+  "description": "Object type legal_requirement",
+  "org_id": "org:anchor",
+  "domain_id": "hr",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 8,
+  "datapoint_count": 8
+}

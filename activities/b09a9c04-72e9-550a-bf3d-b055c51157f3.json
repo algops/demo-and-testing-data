@@ -1,0 +1,38 @@
+{
+  "id": "b09a9c04-72e9-550a-bf3d-b055c51157f3",
+  "name": "IT KB ingest — krok 2",
+  "description": "Aktivita workflow IT KB ingest",
+  "type": "enrich",
+  "object_type": "service",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "integration_step": {
+        "id": "5165655b-4e94-5322-8fcb-51300c06c7df",
+        "type": "source",
+        "destination": {}
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 137,
+    "successful_requests": 123,
+    "failed_requests": 14,
+    "success_rate": 0.9,
+    "average_duration": 40.0,
+    "last_used_at": "2025-06-01T12:00:00Z"
+  },
+  "metadata": {
+    "owner_org_id": "org:anchor",
+    "owner_org_name": "Meridian Pay a.s.",
+    "created_at": "2025-06-01T12:00:00Z",
+    "updated_at": "2025-06-01T12:00:00Z",
+    "workflows": [
+      {
+        "id": "5646c7dc-fbc7-5d8f-adf3-61be019a2c5b",
+        "name": "IT KB ingest"
+      }
+    ]
+  }
+}

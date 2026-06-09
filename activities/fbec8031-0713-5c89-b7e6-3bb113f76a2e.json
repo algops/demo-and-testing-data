@@ -1,0 +1,38 @@
+{
+  "id": "fbec8031-0713-5c89-b7e6-3bb113f76a2e",
+  "name": "Legal know-how index — krok 2",
+  "description": "Aktivita workflow Legal know-how index",
+  "type": "enrich",
+  "object_type": "matter",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "integration_step": {
+        "id": "e33946f7-2123-582b-83aa-f007c6b615b2",
+        "type": "source",
+        "destination": {}
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 359,
+    "successful_requests": 321,
+    "failed_requests": 38,
+    "success_rate": 0.94,
+    "average_duration": 70.0,
+    "last_used_at": "2025-06-01T12:00:00Z"
+  },
+  "metadata": {
+    "owner_org_id": "org:anchor",
+    "owner_org_name": "Meridian Pay a.s.",
+    "created_at": "2025-06-01T12:00:00Z",
+    "updated_at": "2025-06-01T12:00:00Z",
+    "workflows": [
+      {
+        "id": "1a3c6400-7274-5ff9-beff-efbdaa77cb13",
+        "name": "Legal know-how index"
+      }
+    ]
+  }
+}

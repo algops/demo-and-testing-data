@@ -1,0 +1,1040 @@
+{
+  "object_type_id": "74f6332a-0372-5c5c-8795-1c1b3f028960",
+  "object_type_name": "incident",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "incident": "INC-034 Payment timeout spike",
+      "id": "1a5ff81c-d0aa-5d4b-b0b0-cf6646cbdc15",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike",
+        "id": "INC-0001",
+        "status": "active",
+        "detected_at": "2023-12-10",
+        "resolved_at": "2023-07-31",
+        "ttd_minutes": 109,
+        "ttr_minutes": 94,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike",
+        "rel:LED_TO:preventive_measure": "high"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM",
+      "id": "70e37b20-1157-5374-bcab-91e0a666ffbe",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM",
+        "id": "INC-0002",
+        "status": "draft",
+        "detected_at": "2024-06-13",
+        "resolved_at": "2024-06-25",
+        "ttd_minutes": 153,
+        "ttr_minutes": 168,
+        "rca_status": "IT rca status — INC-067 Auth service OOM",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days",
+      "id": "43a3d94d-848a-5e55-8f49-b27b879ea266",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days",
+        "id": "INC-0003",
+        "status": "archived",
+        "detected_at": "2023-03-28",
+        "resolved_at": "2023-06-29",
+        "ttd_minutes": 158,
+        "ttr_minutes": 114,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da",
+        "rel:AFFECTED:impact_level": "critical",
+        "rel:AFFECTED:downtime_minutes": 90
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike v2",
+      "id": "b490e7d9-3ce2-5441-a9de-c4aca9eb4454",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike v2",
+        "id": "INC-0004",
+        "status": "under_review",
+        "detected_at": "2024-01-23",
+        "resolved_at": "2024-04-29",
+        "ttd_minutes": 52,
+        "ttr_minutes": 176,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike v2",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike v2",
+        "rel:AFFECTED:impact_level": "low",
+        "rel:AFFECTED:downtime_minutes": 60
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM — updated",
+      "id": "65e5a59b-d748-5bba-9590-c15ae684754b",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM — updated",
+        "id": "INC-0005",
+        "status": "draft",
+        "detected_at": "2023-02-13",
+        "resolved_at": "2023-02-27",
+        "ttd_minutes": 14,
+        "ttr_minutes": 63,
+        "rca_status": "IT rca status — INC-067 Auth service OOM — updated",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM — updated"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days #6",
+      "id": "cb6951e7-13cb-5646-bc02-f1ee07c71a5e",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days #6",
+        "id": "INC-0006",
+        "status": "archived",
+        "detected_at": "2024-01-08",
+        "resolved_at": "2024-06-24",
+        "ttd_minutes": 178,
+        "ttr_minutes": 29,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da",
+        "rel:AFFECTED:impact_level": "high",
+        "rel:AFFECTED:downtime_minutes": 59
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike",
+      "id": "028bd01d-8b48-5a1b-b4c9-464125fe1160",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike",
+        "id": "INC-0007",
+        "status": "under_review",
+        "detected_at": "2023-08-30",
+        "resolved_at": "2023-01-12",
+        "ttd_minutes": 85,
+        "ttr_minutes": 54,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM (Brno)",
+      "id": "40c16f4e-3f07-5a8f-bfa6-f1bd0cf6fe4d",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM (Brno)",
+        "id": "INC-0008",
+        "status": "draft",
+        "detected_at": "2024-10-06",
+        "resolved_at": "2024-09-24",
+        "ttd_minutes": 67,
+        "ttr_minutes": 141,
+        "rca_status": "IT rca status — INC-067 Auth service OOM (Brno)",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM (Brno)"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+      "id": "8d50543a-d1a3-5d01-9cdb-cc79f6d46f9a",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+        "id": "INC-0009",
+        "status": "expired",
+        "detected_at": "2023-03-14",
+        "resolved_at": "2023-12-22",
+        "ttd_minutes": 179,
+        "ttr_minutes": 172,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike v2",
+      "id": "ed7e0a9a-ef7c-57d3-ba85-7efa7a0f8dd5",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike v2",
+        "id": "INC-0010",
+        "status": "under_review",
+        "detected_at": "2024-10-25",
+        "resolved_at": "2024-12-05",
+        "ttd_minutes": 135,
+        "ttr_minutes": 12,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike v2",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike v2",
+        "rel:LED_TO:preventive_measure": "medium"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM — updated",
+      "id": "68290f6c-fb4d-55dc-a4f7-2cfe8491c03c",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM — updated",
+        "id": "INC-0011",
+        "status": "draft",
+        "detected_at": "2023-01-31",
+        "resolved_at": "2023-05-26",
+        "ttd_minutes": 52,
+        "ttr_minutes": 179,
+        "rca_status": "IT rca status — INC-067 Auth service OOM — updated",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM — updated",
+        "rel:CAUSED_BY:contributing_factor": "high"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days #12",
+      "id": "f763cc32-0209-5494-9956-19b75838ed23",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days #12",
+        "id": "INC-0012",
+        "status": "active",
+        "detected_at": "2024-08-26",
+        "resolved_at": "2024-12-01",
+        "ttd_minutes": 3,
+        "ttr_minutes": 18,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da",
+        "rel:LED_TO:preventive_measure": "low"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike",
+      "id": "7b0e6e27-aac4-5280-ba3a-5d0565c3efc5",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike",
+        "id": "INC-0013",
+        "status": "archived",
+        "detected_at": "2023-12-06",
+        "resolved_at": "2023-12-04",
+        "ttd_minutes": 93,
+        "ttr_minutes": 28,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM (Brno)",
+      "id": "8d8e5fb2-5f7c-5947-bbe7-c16ab7394bb8",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM (Brno)",
+        "id": "INC-0014",
+        "status": "archived",
+        "detected_at": "2024-11-28",
+        "resolved_at": "2024-07-16",
+        "ttd_minutes": 60,
+        "ttr_minutes": 98,
+        "rca_status": "IT rca status — INC-067 Auth service OOM (Brno)",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM (Brno)"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+      "id": "32ff0b3a-01dc-5fc2-9709-a01ee6881128",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+        "id": "INC-0015",
+        "status": "archived",
+        "detected_at": "2023-09-06",
+        "resolved_at": "2023-11-02",
+        "ttd_minutes": 137,
+        "ttr_minutes": 23,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike v2",
+      "id": "7cdeb34e-b7f4-5fd7-a0b9-222062f5716f",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike v2",
+        "id": "INC-0016",
+        "status": "draft",
+        "detected_at": "2024-09-13",
+        "resolved_at": "2024-08-22",
+        "ttd_minutes": 144,
+        "ttr_minutes": 6,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike v2",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike v2",
+        "rel:LED_TO:preventive_measure": "high"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM — updated",
+      "id": "766d553e-c91b-5bff-b150-e529d311ee43",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM — updated",
+        "id": "INC-0017",
+        "status": "draft",
+        "detected_at": "2023-09-29",
+        "resolved_at": "2023-06-06",
+        "ttd_minutes": 86,
+        "ttr_minutes": 126,
+        "rca_status": "IT rca status — INC-067 Auth service OOM — updated",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM — updated",
+        "rel:CAUSED_BY:contributing_factor": "high"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days #18",
+      "id": "f2c63a5d-e23c-505f-a963-54995174df74",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days #18",
+        "id": "INC-0018",
+        "status": "draft",
+        "detected_at": "2024-01-10",
+        "resolved_at": "2024-06-26",
+        "ttd_minutes": 176,
+        "ttr_minutes": 91,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da",
+        "rel:CAUSED_BY:contributing_factor": "medium"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike",
+      "id": "5c82592a-8179-50a8-aba0-e5b500532d6f",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike",
+        "id": "INC-0019",
+        "status": "archived",
+        "detected_at": "2023-05-01",
+        "resolved_at": "2023-09-14",
+        "ttd_minutes": 71,
+        "ttr_minutes": 16,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike",
+        "rel:CAUSED_BY:contributing_factor": "medium"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM (Brno)",
+      "id": "a5e238ae-7ee8-50ac-a006-b08524ce4dfe",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM (Brno)",
+        "id": "INC-0020",
+        "status": "under_review",
+        "detected_at": "2024-01-16",
+        "resolved_at": "2024-10-11",
+        "ttd_minutes": 72,
+        "ttr_minutes": 58,
+        "rca_status": "IT rca status — INC-067 Auth service OOM (Brno)",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM (Brno)"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+      "id": "d82b8aa3-65fa-5a6c-a7fd-55a2b2dc4b71",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+        "id": "INC-0021",
+        "status": "archived",
+        "detected_at": "2023-07-21",
+        "resolved_at": "2023-12-03",
+        "ttd_minutes": 36,
+        "ttr_minutes": 23,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike v2",
+      "id": "6188a115-2a55-5b82-b74f-786569916505",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike v2",
+        "id": "INC-0022",
+        "status": "expired",
+        "detected_at": "2024-12-13",
+        "resolved_at": "2024-11-09",
+        "ttd_minutes": 161,
+        "ttr_minutes": 176,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike v2",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike v2",
+        "rel:LED_TO:preventive_measure": "low"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM — updated",
+      "id": "29041bc6-699c-5d21-a14d-78c841e947f4",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM — updated",
+        "id": "INC-0023",
+        "status": "under_review",
+        "detected_at": "2023-05-04",
+        "resolved_at": "2023-10-21",
+        "ttd_minutes": 40,
+        "ttr_minutes": 110,
+        "rca_status": "IT rca status — INC-067 Auth service OOM — updated",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM — updated"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days #24",
+      "id": "3c57fa42-7f1e-56a0-a145-8012a7e653cc",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days #24",
+        "id": "INC-0024",
+        "status": "expired",
+        "detected_at": "2024-06-17",
+        "resolved_at": "2024-08-17",
+        "ttd_minutes": 139,
+        "ttr_minutes": 34,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da",
+        "rel:AFFECTED:impact_level": "critical",
+        "rel:AFFECTED:downtime_minutes": 88
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike",
+      "id": "74badfb0-c273-5be4-af41-fec1565dd8d4",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike",
+        "id": "INC-0025",
+        "status": "draft",
+        "detected_at": "2023-10-25",
+        "resolved_at": "2023-10-05",
+        "ttd_minutes": 176,
+        "ttr_minutes": 52,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM (Brno)",
+      "id": "71a5134a-a5e2-54bf-bf45-e849ad39df6f",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM (Brno)",
+        "id": "INC-0026",
+        "status": "archived",
+        "detected_at": "2024-12-18",
+        "resolved_at": "2024-12-27",
+        "ttd_minutes": 135,
+        "ttr_minutes": 35,
+        "rca_status": "IT rca status — INC-067 Auth service OOM (Brno)",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM (Brno)"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+      "id": "422458ea-521b-5981-becf-12af048abe9c",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+        "id": "INC-0027",
+        "status": "draft",
+        "detected_at": "2023-12-02",
+        "resolved_at": "2023-10-17",
+        "ttd_minutes": 41,
+        "ttr_minutes": 82,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike v2",
+      "id": "bbf53e92-8c50-5831-9ad5-73b1b3b0e5f3",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike v2",
+        "id": "INC-0028",
+        "status": "expired",
+        "detected_at": "2024-09-29",
+        "resolved_at": "2024-03-01",
+        "ttd_minutes": 48,
+        "ttr_minutes": 82,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike v2",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike v2"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM — updated",
+      "id": "92e9be05-5c66-508a-b8a5-050fa0e23c8c",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM — updated",
+        "id": "INC-0029",
+        "status": "active",
+        "detected_at": "2023-06-13",
+        "resolved_at": "2023-07-31",
+        "ttd_minutes": 106,
+        "ttr_minutes": 78,
+        "rca_status": "IT rca status — INC-067 Auth service OOM — updated",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM — updated"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days #30",
+      "id": "040d1dbc-bbf7-5cda-9109-1313d517c9c1",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days #30",
+        "id": "INC-0030",
+        "status": "archived",
+        "detected_at": "2024-03-18",
+        "resolved_at": "2024-04-06",
+        "ttd_minutes": 28,
+        "ttr_minutes": 34,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da",
+        "rel:AFFECTED:impact_level": "critical",
+        "rel:AFFECTED:downtime_minutes": 73
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike",
+      "id": "56d8a729-ef71-55fb-b176-2738001f75c7",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike",
+        "id": "INC-0031",
+        "status": "active",
+        "detected_at": "2023-11-10",
+        "resolved_at": "2023-11-12",
+        "ttd_minutes": 69,
+        "ttr_minutes": 156,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike",
+        "rel:AFFECTED:impact_level": "low",
+        "rel:AFFECTED:downtime_minutes": 87
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM (Brno)",
+      "id": "f69e8fe9-14ce-504e-996e-0e9eca40d729",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM (Brno)",
+        "id": "INC-0032",
+        "status": "expired",
+        "detected_at": "2024-04-28",
+        "resolved_at": "2024-04-28",
+        "ttd_minutes": 176,
+        "ttr_minutes": 7,
+        "rca_status": "IT rca status — INC-067 Auth service OOM (Brno)",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM (Brno)",
+        "rel:CAUSED_BY:contributing_factor": "low"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+      "id": "f397de86-bc91-558a-a3f1-3ce8a1816553",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+        "id": "INC-0033",
+        "status": "active",
+        "detected_at": "2023-12-19",
+        "resolved_at": "2023-09-02",
+        "ttd_minutes": 35,
+        "ttr_minutes": 129,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da",
+        "rel:CAUSED_BY:contributing_factor": "medium"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike v2",
+      "id": "9e3e8419-e144-5ec3-b0ce-3dd9a59341a2",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike v2",
+        "id": "INC-0034",
+        "status": "archived",
+        "detected_at": "2024-04-04",
+        "resolved_at": "2024-07-17",
+        "ttd_minutes": 126,
+        "ttr_minutes": 122,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike v2",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike v2",
+        "rel:AFFECTED:impact_level": "low",
+        "rel:AFFECTED:downtime_minutes": 31
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM — updated",
+      "id": "4e81476f-6079-597d-8f6b-66291918c20f",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM — updated",
+        "id": "INC-0035",
+        "status": "draft",
+        "detected_at": "2023-04-09",
+        "resolved_at": "2023-04-26",
+        "ttd_minutes": 9,
+        "ttr_minutes": 105,
+        "rca_status": "IT rca status — INC-067 Auth service OOM — updated",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM — updated",
+        "rel:AFFECTED:impact_level": "high",
+        "rel:AFFECTED:downtime_minutes": 4
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days #36",
+      "id": "2d3e0af0-c061-597b-a7b2-83a54c269033",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days #36",
+        "id": "INC-0036",
+        "status": "archived",
+        "detected_at": "2024-07-30",
+        "resolved_at": "2024-04-23",
+        "ttd_minutes": 172,
+        "ttr_minutes": 52,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike",
+      "id": "02902344-0ead-54ae-9940-151e022d8460",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike",
+        "id": "INC-0037",
+        "status": "active",
+        "detected_at": "2023-04-01",
+        "resolved_at": "2023-08-13",
+        "ttd_minutes": 158,
+        "ttr_minutes": 126,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM (Brno)",
+      "id": "e957cbbc-e089-55cc-b936-a8bcb7c8568c",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM (Brno)",
+        "id": "INC-0038",
+        "status": "under_review",
+        "detected_at": "2024-05-06",
+        "resolved_at": "2024-08-06",
+        "ttd_minutes": 104,
+        "ttr_minutes": 11,
+        "rca_status": "IT rca status — INC-067 Auth service OOM (Brno)",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM (Brno)"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+      "id": "a0952bb2-ec73-5b50-9b7f-519e8841ea48",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+        "id": "INC-0039",
+        "status": "archived",
+        "detected_at": "2023-07-21",
+        "resolved_at": "2023-11-10",
+        "ttd_minutes": 147,
+        "ttr_minutes": 153,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da",
+        "rel:CAUSED_BY:contributing_factor": "high",
+        "rel:LED_TO:preventive_measure": "medium"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike v2",
+      "id": "a97d9e7b-fdec-57f3-b469-4982fabf721a",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike v2",
+        "id": "INC-0040",
+        "status": "expired",
+        "detected_at": "2024-02-25",
+        "resolved_at": "2024-08-19",
+        "ttd_minutes": 117,
+        "ttr_minutes": 11,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike v2",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike v2"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM — updated",
+      "id": "61e3a781-559e-549c-ae07-333e0708b12b",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM — updated",
+        "id": "INC-0041",
+        "status": "expired",
+        "detected_at": "2023-10-03",
+        "resolved_at": "2023-07-22",
+        "ttd_minutes": 11,
+        "ttr_minutes": 143,
+        "rca_status": "IT rca status — INC-067 Auth service OOM — updated",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM — updated",
+        "rel:AFFECTED:impact_level": "high",
+        "rel:AFFECTED:downtime_minutes": 78,
+        "rel:CAUSED_BY:contributing_factor": "high",
+        "rel:LED_TO:preventive_measure": "low"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days #42",
+      "id": "be4ad348-70de-5688-87e8-e42a28b49c8e",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days #42",
+        "id": "INC-0042",
+        "status": "expired",
+        "detected_at": "2024-11-18",
+        "resolved_at": "2024-01-26",
+        "ttd_minutes": 49,
+        "ttr_minutes": 75,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike",
+      "id": "d758daf5-32ac-59ef-8b94-32dbcc32ccdf",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike",
+        "id": "INC-0043",
+        "status": "under_review",
+        "detected_at": "2023-06-05",
+        "resolved_at": "2023-05-27",
+        "ttd_minutes": 119,
+        "ttr_minutes": 43,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM (Brno)",
+      "id": "9de4e340-8777-5d3b-a5e7-9e7dd0eacfd6",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM (Brno)",
+        "id": "INC-0044",
+        "status": "archived",
+        "detected_at": "2024-11-09",
+        "resolved_at": "2024-01-28",
+        "ttd_minutes": 177,
+        "ttr_minutes": 133,
+        "rca_status": "IT rca status — INC-067 Auth service OOM (Brno)",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM (Brno)"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+      "id": "5b105d3a-15c7-55bf-b365-dfe6d64616c2",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+        "id": "INC-0045",
+        "status": "under_review",
+        "detected_at": "2023-11-27",
+        "resolved_at": "2023-08-20",
+        "ttd_minutes": 24,
+        "ttr_minutes": 129,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike v2",
+      "id": "76438565-6d2a-5832-8328-2047a2940093",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike v2",
+        "id": "INC-0046",
+        "status": "draft",
+        "detected_at": "2024-10-26",
+        "resolved_at": "2024-12-22",
+        "ttd_minutes": 140,
+        "ttr_minutes": 35,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike v2",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike v2",
+        "rel:AFFECTED:impact_level": "high",
+        "rel:AFFECTED:downtime_minutes": 52
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM — updated",
+      "id": "2fa2231c-a6f9-5fcb-8e3b-45b67e1d5eb4",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM — updated",
+        "id": "INC-0047",
+        "status": "under_review",
+        "detected_at": "2023-06-15",
+        "resolved_at": "2023-08-19",
+        "ttd_minutes": 7,
+        "ttr_minutes": 46,
+        "rca_status": "IT rca status — INC-067 Auth service OOM — updated",
+        "root_cause_category": "human error",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM — updated",
+        "rel:AFFECTED:impact_level": "critical",
+        "rel:AFFECTED:downtime_minutes": 45
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days #48",
+      "id": "d03d9f75-4a04-5cd6-98df-55f9866b4aa8",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days #48",
+        "id": "INC-0048",
+        "status": "expired",
+        "detected_at": "2024-12-30",
+        "resolved_at": "2024-04-13",
+        "ttd_minutes": 117,
+        "ttr_minutes": 24,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike",
+      "id": "0a5e90fa-d505-5bdf-9b7a-644c128cb9cf",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike",
+        "id": "INC-0049",
+        "status": "archived",
+        "detected_at": "2023-12-21",
+        "resolved_at": "2023-11-29",
+        "ttd_minutes": 42,
+        "ttr_minutes": 32,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike",
+        "rel:LED_TO:preventive_measure": "medium"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM (Brno)",
+      "id": "775b83fc-45af-5105-92ed-f1ecad0b556c",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM (Brno)",
+        "id": "INC-0050",
+        "status": "active",
+        "detected_at": "2024-12-27",
+        "resolved_at": "2024-08-18",
+        "ttd_minutes": 163,
+        "ttr_minutes": 93,
+        "rca_status": "IT rca status — INC-067 Auth service OOM (Brno)",
+        "root_cause_category": "config",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM (Brno)"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+      "id": "233bed0f-3aed-5635-86cb-0479c661b2ca",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days (FY2024)",
+        "id": "INC-0051",
+        "status": "expired",
+        "detected_at": "2023-12-29",
+        "resolved_at": "2023-07-16",
+        "ttd_minutes": 131,
+        "ttr_minutes": 157,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da",
+        "rel:CAUSED_BY:contributing_factor": "low",
+        "rel:LED_TO:preventive_measure": "medium"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike v2",
+      "id": "2f3165f3-1477-5963-8b6c-5db961c18aad",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike v2",
+        "id": "INC-0052",
+        "status": "under_review",
+        "detected_at": "2024-10-08",
+        "resolved_at": "2024-07-13",
+        "ttd_minutes": 12,
+        "ttr_minutes": 44,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike v2",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike v2",
+        "rel:CAUSED_BY:contributing_factor": "medium",
+        "rel:LED_TO:preventive_measure": "medium"
+      }
+    },
+    {
+      "incident": "INC-067 Auth service OOM — updated",
+      "id": "ebe307d0-896c-522e-9d4a-61db0e983615",
+      "domain_id": "it",
+      "data": {
+        "severity": "P2",
+        "title": "INC-067 Auth service OOM — updated",
+        "id": "INC-0053",
+        "status": "expired",
+        "detected_at": "2023-12-04",
+        "resolved_at": "2023-03-18",
+        "ttd_minutes": 42,
+        "ttr_minutes": 38,
+        "rca_status": "IT rca status — INC-067 Auth service OOM — updated",
+        "root_cause_category": "dependency",
+        "on_call_person": "IT on call person — INC-067 Auth service OOM — updated"
+      }
+    },
+    {
+      "incident": "INC-091 Nightly e2e pipeline broken 5 days #54",
+      "id": "1abc9f48-f060-5f7f-adce-9a26431af62e",
+      "domain_id": "it",
+      "data": {
+        "severity": "P4",
+        "title": "INC-091 Nightly e2e pipeline broken 5 days #54",
+        "id": "INC-0054",
+        "status": "active",
+        "detected_at": "2024-08-02",
+        "resolved_at": "2024-06-06",
+        "ttd_minutes": 80,
+        "ttr_minutes": 115,
+        "rca_status": "IT rca status — INC-091 Nightly e2e pipeline broken 5 da",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-091 Nightly e2e pipeline broken 5 da"
+      }
+    },
+    {
+      "incident": "INC-034 Payment timeout spike",
+      "id": "ec8161d4-2086-569e-9074-36c12b9b6db7",
+      "domain_id": "it",
+      "data": {
+        "severity": "P1",
+        "title": "INC-034 Payment timeout spike",
+        "id": "INC-0055",
+        "status": "draft",
+        "detected_at": "2023-03-02",
+        "resolved_at": "2023-03-09",
+        "ttd_minutes": 52,
+        "ttr_minutes": 1,
+        "rca_status": "IT rca status — INC-034 Payment timeout spike",
+        "root_cause_category": "capacity",
+        "on_call_person": "IT on call person — INC-034 Payment timeout spike"
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "object_type_id": "e430e85c-1090-58e2-8287-367215498ec4",
+  "object_type_name": "tax_form",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "tax_form": "Přiznání k DPPO",
+      "id": "715c50ba-c582-584f-aa70-3678f21b6fda",
+      "domain_id": "tax",
+      "data": {
+        "name": "Přiznání k DPPO",
+        "form_number": "Tax form number — Přiznání k DPPO",
+        "tax_type": "Tax tax type — Přiznání k DPPO",
+        "filing_frequency": "monthly",
+        "deadline_rule": "Tax deadline rule — Přiznání k DPPO",
+        "electronic_only": false,
+        "system_used": "SAP SuccessFactors"
+      }
+    },
+    {
+      "tax_form": "Přiznání k DPH",
+      "id": "968501f6-95a8-5544-8ce3-5842a03c7334",
+      "domain_id": "tax",
+      "data": {
+        "name": "Přiznání k DPH",
+        "form_number": "Tax form number — Přiznání k DPH",
+        "tax_type": "Tax tax type — Přiznání k DPH",
+        "filing_frequency": "quarterly",
+        "deadline_rule": "Tax deadline rule — Přiznání k DPH",
+        "electronic_only": false,
+        "system_used": "Pohoda"
+      }
+    },
+    {
+      "tax_form": "Kontrolní hlášení",
+      "id": "890c2b0d-a47a-518d-bd48-416c5650a89e",
+      "domain_id": "tax",
+      "data": {
+        "name": "Kontrolní hlášení",
+        "form_number": "Tax form number — Kontrolní hlášení",
+        "tax_type": "Tax tax type — Kontrolní hlášení",
+        "filing_frequency": "monthly",
+        "deadline_rule": "Tax deadline rule — Kontrolní hlášení",
+        "electronic_only": false,
+        "system_used": "Sphera"
+      }
+    },
+    {
+      "tax_form": "Souhrnné hlášení",
+      "id": "7055d4e1-3c65-5f5c-bcca-cd6561c6c6b8",
+      "domain_id": "tax",
+      "data": {
+        "name": "Souhrnné hlášení",
+        "form_number": "Tax form number — Souhrnné hlášení",
+        "tax_type": "Tax tax type — Souhrnné hlášení",
+        "filing_frequency": "daily",
+        "deadline_rule": "Tax deadline rule — Souhrnné hlášení",
+        "electronic_only": true,
+        "system_used": "GitLab",
+        "rel:APPLIES_TO_CLIENT:applicable": "low",
+        "rel:APPLIES_TO_CLIENT:reason": "medium",
+        "rel:APPLIES_TO_CLIENT:frequency": "medium"
+      }
+    },
+    {
+      "tax_form": "Vyúčtování daně ze závislé činnosti",
+      "id": "34b1f9f6-ccf5-5f87-89e1-c7908aeff891",
+      "domain_id": "tax",
+      "data": {
+        "name": "Vyúčtování daně ze závislé činnosti",
+        "form_number": "Tax form number — Vyúčtování daně ze závislé činnosti",
+        "tax_type": "Tax tax type — Vyúčtování daně ze závislé činnosti",
+        "filing_frequency": "quarterly",
+        "deadline_rule": "Tax deadline rule — Vyúčtování daně ze závislé činnosti",
+        "electronic_only": false,
+        "system_used": "GitLab"
+      }
+    },
+    {
+      "tax_form": "Přiznání k DPPO #6",
+      "id": "2ff4e7dc-0096-543c-a167-a01b21d02503",
+      "domain_id": "tax",
+      "data": {
+        "name": "Přiznání k DPPO #6",
+        "form_number": "Tax form number — Přiznání k DPPO #6",
+        "tax_type": "Tax tax type — Přiznání k DPPO #6",
+        "filing_frequency": "annual",
+        "deadline_rule": "Tax deadline rule — Přiznání k DPPO #6",
+        "electronic_only": false,
+        "system_used": "SAP SuccessFactors"
+      }
+    },
+    {
+      "tax_form": "Přiznání k DPH",
+      "id": "cce98291-5fb8-58a5-ae1e-2013dc2cb07a",
+      "domain_id": "tax",
+      "data": {
+        "name": "Přiznání k DPH",
+        "form_number": "Tax form number — Přiznání k DPH",
+        "tax_type": "Tax tax type — Přiznání k DPH",
+        "filing_frequency": "daily",
+        "deadline_rule": "Tax deadline rule — Přiznání k DPH",
+        "electronic_only": true,
+        "system_used": "iManage",
+        "rel:APPLIES_TO_CLIENT:applicable": "high",
+        "rel:APPLIES_TO_CLIENT:reason": "low",
+        "rel:APPLIES_TO_CLIENT:frequency": "medium"
+      }
+    },
+    {
+      "tax_form": "Kontrolní hlášení (Brno)",
+      "id": "3a46fd32-63ae-523e-aa1e-96885d443684",
+      "domain_id": "tax",
+      "data": {
+        "name": "Kontrolní hlášení (Brno)",
+        "form_number": "Tax form number — Kontrolní hlášení (Brno)",
+        "tax_type": "Tax tax type — Kontrolní hlášení (Brno)",
+        "filing_frequency": "daily",
+        "deadline_rule": "Tax deadline rule — Kontrolní hlášení (Brno)",
+        "electronic_only": true,
+        "system_used": "GitLab"
+      }
+    },
+    {
+      "tax_form": "Souhrnné hlášení (FY2024)",
+      "id": "e1be3020-cd52-5f92-8c1a-c5000f741b62",
+      "domain_id": "tax",
+      "data": {
+        "name": "Souhrnné hlášení (FY2024)",
+        "form_number": "Tax form number — Souhrnné hlášení (FY2024)",
+        "tax_type": "Tax tax type — Souhrnné hlášení (FY2024)",
+        "filing_frequency": "daily",
+        "deadline_rule": "Tax deadline rule — Souhrnné hlášení (FY2024)",
+        "electronic_only": true,
+        "system_used": "GitLab",
+        "rel:APPLIES_TO_CLIENT:applicable": "low",
+        "rel:APPLIES_TO_CLIENT:reason": "medium",
+        "rel:APPLIES_TO_CLIENT:frequency": "medium"
+      }
+    },
+    {
+      "tax_form": "Vyúčtování daně ze závislé činnosti v2",
+      "id": "fbfee42c-0b96-5803-a838-ef11a4799411",
+      "domain_id": "tax",
+      "data": {
+        "name": "Vyúčtování daně ze závislé činnosti v2",
+        "form_number": "Tax form number — Vyúčtování daně ze závislé činnosti v2",
+        "tax_type": "Tax tax type — Vyúčtování daně ze závislé činnosti v2",
+        "filing_frequency": "quarterly",
+        "deadline_rule": "Tax deadline rule — Vyúčtování daně ze závislé činnosti v2",
+        "electronic_only": false,
+        "system_used": "iManage"
+      }
+    },
+    {
+      "tax_form": "Přiznání k DPPO — updated",
+      "id": "1bd4cc39-9564-534c-a3cb-135dbb4ac425",
+      "domain_id": "tax",
+      "data": {
+        "name": "Přiznání k DPPO — updated",
+        "form_number": "Tax form number — Přiznání k DPPO — updated",
+        "tax_type": "Tax tax type — Přiznání k DPPO — updated",
+        "filing_frequency": "quarterly",
+        "deadline_rule": "Tax deadline rule — Přiznání k DPPO — updated",
+        "electronic_only": false,
+        "system_used": "SAP SuccessFactors"
+      }
+    },
+    {
+      "tax_form": "Přiznání k DPH #12",
+      "id": "e9567b4d-d52d-54da-bd37-d52a6f1fee18",
+      "domain_id": "tax",
+      "data": {
+        "name": "Přiznání k DPH #12",
+        "form_number": "Tax form number — Přiznání k DPH #12",
+        "tax_type": "Tax tax type — Přiznání k DPH #12",
+        "filing_frequency": "monthly",
+        "deadline_rule": "Tax deadline rule — Přiznání k DPH #12",
+        "electronic_only": false,
+        "system_used": "iManage"
+      }
+    }
+  ]
+}

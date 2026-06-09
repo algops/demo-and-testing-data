@@ -1,0 +1,12 @@
+{
+  "id": "243114ba-848e-580e-b52d-f1a9fc50df5e",
+  "name": "engagement",
+  "description": "Object type engagement",
+  "org_id": "org:anchor",
+  "domain_id": "tax",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 11,
+  "datapoint_count": 10
+}

@@ -1,0 +1,12 @@
+{
+  "id": "508f90cb-9a2a-5bde-854e-b31c23c93ca1",
+  "name": "adr",
+  "description": "Object type adr",
+  "org_id": "org:anchor",
+  "domain_id": "it",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 10,
+  "datapoint_count": 8
+}

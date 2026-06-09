@@ -1,0 +1,12 @@
+{
+  "id": "1933fc19-87ab-5126-ad09-08740f6d9f37",
+  "name": "policy",
+  "description": "Object type policy",
+  "org_id": "org:anchor",
+  "domain_id": "hr",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 37,
+  "datapoint_count": 11
+}

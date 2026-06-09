@@ -1,0 +1,115 @@
+{
+  "object_type_id": "1dba833f-b7ee-5b5d-a347-42b6bc074c01",
+  "object_type_name": "runbook",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "runbook": "payment-gateway: High Error Rate",
+      "id": "01df1d81-2b68-5789-9a82-c880c63ff6b7",
+      "domain_id": "it",
+      "data": {
+        "status": "current",
+        "title": "payment-gateway: High Error Rate",
+        "service": "payments-api",
+        "last_updated": "2023-08-24",
+        "author": "People",
+        "linked_alerts": "IT linked alerts — payment-gateway: High Error Rate"
+      }
+    },
+    {
+      "runbook": "auth-svc: OOM Recovery",
+      "id": "4195fa28-d861-55c5-91e9-5d67a4ce890a",
+      "domain_id": "it",
+      "data": {
+        "status": "OUTDATED",
+        "title": "auth-svc: OOM Recovery",
+        "service": "payments-api",
+        "last_updated": "2024-01-03",
+        "author": "Legal",
+        "linked_alerts": "IT linked alerts — auth-svc: OOM Recovery"
+      }
+    },
+    {
+      "runbook": "legacy-monolith: Manual Deploy Steps",
+      "id": "3cb73dbe-7666-551f-8399-1a3da8b773b6",
+      "domain_id": "it",
+      "data": {
+        "status": "OUTDATED",
+        "title": "legacy-monolith: Manual Deploy Steps",
+        "service": "payments-api",
+        "last_updated": "2023-12-18",
+        "author": "Risk & Compliance",
+        "linked_alerts": "IT linked alerts — legacy-monolith: Manual Deploy Steps"
+      }
+    },
+    {
+      "runbook": "payment-gateway: High Error Rate v2",
+      "id": "60f32e18-f6dd-517f-b487-4e9bac5cd0a1",
+      "domain_id": "it",
+      "data": {
+        "status": "current",
+        "title": "payment-gateway: High Error Rate v2",
+        "service": "payments-api",
+        "last_updated": "2024-06-19",
+        "author": "People",
+        "linked_alerts": "IT linked alerts — payment-gateway: High Error Rate v2"
+      }
+    },
+    {
+      "runbook": "auth-svc: OOM Recovery — updated",
+      "id": "b5211c06-9112-5c2c-92b5-76878aa3e0f8",
+      "domain_id": "it",
+      "data": {
+        "status": "OUTDATED",
+        "title": "auth-svc: OOM Recovery — updated",
+        "service": "payments-api",
+        "last_updated": "2023-02-22",
+        "author": "ESG",
+        "linked_alerts": "IT linked alerts — auth-svc: OOM Recovery — updated",
+        "rel:DOCUMENTED_IN:coverage": "medium"
+      }
+    },
+    {
+      "runbook": "legacy-monolith: Manual Deploy Steps #6",
+      "id": "e5e24b52-8514-541f-8060-79f55f285f57",
+      "domain_id": "it",
+      "data": {
+        "status": "OUTDATED",
+        "title": "legacy-monolith: Manual Deploy Steps #6",
+        "service": "auth-gateway",
+        "last_updated": "2024-01-12",
+        "author": "ESG",
+        "linked_alerts": "IT linked alerts — legacy-monolith: Manual Deploy Steps #6",
+        "rel:DOCUMENTED_IN:coverage": "high"
+      }
+    },
+    {
+      "runbook": "payment-gateway: High Error Rate",
+      "id": "c12a26de-1bc7-59cf-8310-1d123dddaca7",
+      "domain_id": "it",
+      "data": {
+        "status": "current",
+        "title": "payment-gateway: High Error Rate",
+        "service": "auth-gateway",
+        "last_updated": "2023-11-24",
+        "author": "Finance",
+        "linked_alerts": "IT linked alerts — payment-gateway: High Error Rate",
+        "rel:DOCUMENTED_IN:coverage": "high"
+      }
+    },
+    {
+      "runbook": "auth-svc: OOM Recovery (Brno)",
+      "id": "ce00c45a-2d08-585d-86dd-ba69f5c47250",
+      "domain_id": "it",
+      "data": {
+        "status": "OUTDATED",
+        "title": "auth-svc: OOM Recovery (Brno)",
+        "service": "auth-gateway",
+        "last_updated": "2024-04-12",
+        "author": "Finance",
+        "linked_alerts": "IT linked alerts — auth-svc: OOM Recovery (Brno)"
+      }
+    }
+  ]
+}

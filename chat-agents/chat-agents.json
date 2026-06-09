@@ -1,14 +1,165 @@
-[
-  {
-    "id": "support-bot",
-    "name": "Customer Support Bot",
-    "description": "Answers product questions using support docs, installation guides, and agent skills.",
-    "status": "active"
-  },
-  {
-    "id": "sales-assistant",
-    "name": "Sales Assistant",
-    "description": "Helps prospects with pricing and feature overview. Draft configuration for demo.",
-    "status": "draft"
-  }
-]
+{
+  "chat_agents": [
+    {
+      "id": "45d9c8b1-cbb2-5cf2-a56a-7c39f0892db8",
+      "name": "CSRD gap & disclosure copilot",
+      "description": "Mezery v CSRD disclosure",
+      "status": "active",
+      "domain_id": "esg"
+    },
+    {
+      "id": "f65f5b44-63af-5bc8-a8d6-31e7093afb62",
+      "name": "Taxonomy alignment explainer",
+      "description": "Vysvětlení EU taxonomie",
+      "status": "draft",
+      "domain_id": "esg"
+    },
+    {
+      "id": "151d989f-1b08-588e-940f-054fa8628f19",
+      "name": "Supplier risk assistant",
+      "description": "Riziko dodavatelů",
+      "status": "draft",
+      "domain_id": "esg"
+    },
+    {
+      "id": "f1ebf0ba-92df-5b21-9503-cc33ce678deb",
+      "name": "Audit-finding remediation guide",
+      "description": "Náprava auditních nálezů",
+      "status": "draft",
+      "domain_id": "esg"
+    },
+    {
+      "id": "a5f3867a-2f88-5c29-b104-936139ba0810",
+      "name": "Agentic engineering KB builder",
+      "description": "Budování znalostní báze z GitLab a Confluence",
+      "status": "active",
+      "domain_id": "it"
+    },
+    {
+      "id": "17787503-0d77-55e0-8ab0-3be7adf06089",
+      "name": "Automated code review copilot",
+      "description": "Automatizované code review a Snyk nálezy",
+      "status": "draft",
+      "domain_id": "it"
+    },
+    {
+      "id": "6bd7f954-8662-5d9d-964b-7116cb98fee8",
+      "name": "Incident/runbook assistant",
+      "description": "Asistence při incidentech a runboocích",
+      "status": "draft",
+      "domain_id": "it"
+    },
+    {
+      "id": "b95444c1-a5fd-5585-af0f-59bf56b1fb1f",
+      "name": "Architecture & ADR Q&A",
+      "description": "Dotazy na ADR a architekturu",
+      "status": "draft",
+      "domain_id": "it"
+    },
+    {
+      "id": "62e4f3f7-af47-5974-b324-b9b3825c9fd6",
+      "name": "PM/tech comms assistant",
+      "description": "Shrnutí technických rozhodnutí do Slacku",
+      "status": "draft",
+      "domain_id": "it"
+    },
+    {
+      "id": "00948b45-a8b2-5169-a1d8-2830c3405edc",
+      "name": "In-house know-how copilot",
+      "description": "Interní právní know-how",
+      "status": "active",
+      "domain_id": "legal"
+    },
+    {
+      "id": "3de12303-d2d7-53a6-bf15-1020f9c1f394",
+      "name": "Contract/template finder",
+      "description": "Vyhledávání smluv a šablon",
+      "status": "draft",
+      "domain_id": "legal"
+    },
+    {
+      "id": "723375f8-b5d4-5d57-b2bb-a763c35f21c1",
+      "name": "DD progress assistant",
+      "description": "Sledování due diligence",
+      "status": "draft",
+      "domain_id": "legal"
+    },
+    {
+      "id": "943ffadb-285c-53ff-b0ea-58936fccf307",
+      "name": "Conflict-check helper",
+      "description": "Kontrola střetu zájmů",
+      "status": "draft",
+      "domain_id": "legal"
+    },
+    {
+      "id": "5a940d85-38a8-5416-b978-2a805b5a2c2a",
+      "name": "Legislative update summarizer",
+      "description": "Shrnutí legislativních změn",
+      "status": "draft",
+      "domain_id": "legal"
+    },
+    {
+      "id": "0c1b8c46-a259-51d7-99b1-9d01254a6df6",
+      "name": "Filing deadline tracker",
+      "description": "Sledování termínů podání",
+      "status": "active",
+      "domain_id": "tax"
+    },
+    {
+      "id": "3f1f8d55-9202-561f-806f-1eec0271abf1",
+      "name": "Account tax-treatment Q&A",
+      "description": "Daňové zacházení s účty",
+      "status": "draft",
+      "domain_id": "tax"
+    },
+    {
+      "id": "b121e519-df2f-523b-9ae3-ec2deed4b3ee",
+      "name": "TP documentation assistant",
+      "description": "Transfer pricing dokumentace",
+      "status": "draft",
+      "domain_id": "tax"
+    },
+    {
+      "id": "d95ef750-babe-517c-b09e-3649aac62cdc",
+      "name": "DPH/sazba change explainer",
+      "description": "Změny sazeb DPH",
+      "status": "draft",
+      "domain_id": "tax"
+    },
+    {
+      "id": "657340ff-94c7-5ea1-9377-5eb68460902a",
+      "name": "SOP & policy copilot",
+      "description": "Odpovědi na HR SOP a politiky",
+      "status": "active",
+      "domain_id": "hr"
+    },
+    {
+      "id": "81f7b016-ad2b-53f7-a51d-1410dbb0383f",
+      "name": "Leave/absence navigator",
+      "description": "Navigace dovolené a absence",
+      "status": "draft",
+      "domain_id": "hr"
+    },
+    {
+      "id": "8fbe1704-0583-56ec-a38e-2079b5d17211",
+      "name": "Onboarding checklist assistant",
+      "description": "Onboarding checklisty",
+      "status": "draft",
+      "domain_id": "hr"
+    },
+    {
+      "id": "cb40be4c-b29b-506f-a70e-66916ab49bc9",
+      "name": "Training compliance reporter",
+      "description": "BOZP a školení compliance",
+      "status": "draft",
+      "domain_id": "hr"
+    },
+    {
+      "id": "e3f7bd0c-ab32-55e9-82e8-77daef979acf",
+      "name": "Benefits eligibility guide",
+      "description": "Nárok na benefity",
+      "status": "draft",
+      "domain_id": "hr"
+    }
+  ]
+}

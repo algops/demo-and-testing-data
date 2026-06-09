@@ -1,0 +1,12 @@
+{
+  "id": "fd5d26b2-b165-5aee-8eb9-d1278f0113de",
+  "name": "risk",
+  "description": "Object type risk",
+  "org_id": "org:anchor",
+  "domain_id": "esg",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 16,
+  "datapoint_count": 8
+}

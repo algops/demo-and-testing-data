@@ -1,0 +1,12 @@
+{
+  "id": "664546af-b3d3-532b-92bc-ed2c3f6b4ffa",
+  "name": "regulation",
+  "description": "Object type regulation",
+  "org_id": "org:anchor",
+  "domain_id": "esg",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 20,
+  "datapoint_count": 8
+}

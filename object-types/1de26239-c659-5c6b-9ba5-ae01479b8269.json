@@ -1,0 +1,12 @@
+{
+  "id": "1de26239-c659-5c6b-9ba5-ae01479b8269",
+  "name": "tech_debt",
+  "description": "Object type tech_debt",
+  "org_id": "org:anchor",
+  "domain_id": "it",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 35,
+  "datapoint_count": 9
+}

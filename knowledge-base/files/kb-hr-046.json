@@ -1,0 +1,12 @@
+{
+  "id": "kb-hr-046",
+  "title": "Šablona pracovní smlouvy — HQ",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Published",
+      "createdAt": "2025-06-01T12:00:00Z",
+      "content": "# Šablona pracovní smlouvy — HQ\n\n> Organizace: **Meridian Pay a.s.** | Doména: **hr** | Typ: template | Citlivost: internal\n\n## Šablona\n\n**Šablona pracovní smlouvy — HQ** — použijte pro standardizované dokumenty v Meridian Pay a.s..\n\n```\nDokument č.: [MP-HR-____]\nVerze: 1.0\nDatum účinnosti: [DD.MM.RRRR]\nStrany smluvních stran:\n  1. Meridian Pay a.s., IČO: [●●●●●●●●], sídlo Praha\n  2. [Název druhé strany], IČO: [________]\n\nPředmět:\n[Stručný popis předmětu smlouvy / procesu / formuláře]\n\nDoba trvání:\nOd [datum] do [datum / neurčito]\n\nPlatební podmínky:\n[Splatnost, měna CZK/EUR, způsob úhrady]\n\nOchrana dat:\nStrany se zavazují zpracovávat osobní údaje dle GDPR a interních politik Meridian Pay a.s..\n\nPodpisy:\n_______________________          _______________________\nza Meridian Pay a.s.                    za druhou stranu\n```\n\n## Pokyny k vyplnění\n\n- Povinná pole označená [hranatými závorkami]\n- Právní review povinné před podpisem u smluv nad 500 000 Kč\n- Archivace podepsané verze v `knowledgebase/hr/templates/archive/`\n"
+    }
+  ]
+}

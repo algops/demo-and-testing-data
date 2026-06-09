@@ -1,0 +1,78 @@
+{
+  "object_type_id": "d4a0f3ad-9aae-5706-8c57-280a9249b792",
+  "object_type_name": "environment",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "environment": "dev",
+      "id": "3ed3ac5f-fb89-59c7-8240-492cb58471d8",
+      "domain_id": "it",
+      "data": {
+        "name": "dev",
+        "type": "financial",
+        "cloud_provider": "GCP",
+        "region": "CZ",
+        "url": "https://environment.meridianpay.cz/1",
+        "auto_deploy": true,
+        "access_control": "mTLS"
+      }
+    },
+    {
+      "environment": "staging",
+      "id": "36ce336e-ac54-5902-b499-519d19d1b65a",
+      "domain_id": "it",
+      "data": {
+        "name": "staging",
+        "type": "operational",
+        "cloud_provider": "on-prem",
+        "region": "CZ",
+        "url": "https://environment.meridianpay.cz/2",
+        "auto_deploy": true,
+        "access_control": "mTLS"
+      }
+    },
+    {
+      "environment": "prod-eu",
+      "id": "c52e6998-dd91-56f9-b6ac-e43be32feba9",
+      "domain_id": "it",
+      "data": {
+        "name": "prod-eu",
+        "type": "technical",
+        "cloud_provider": "GCP",
+        "region": "eu-west-1",
+        "url": "https://environment.meridianpay.cz/3",
+        "auto_deploy": false,
+        "access_control": "ABAC"
+      }
+    },
+    {
+      "environment": "prod-us",
+      "id": "6d1dd599-3769-5063-a6e5-cc7df5e19384",
+      "domain_id": "it",
+      "data": {
+        "name": "prod-us",
+        "type": "technical",
+        "cloud_provider": "on-prem",
+        "region": "eu-west-1",
+        "url": "https://environment.meridianpay.cz/4",
+        "auto_deploy": true,
+        "access_control": "ABAC"
+      }
+    },
+    {
+      "environment": "dev — updated",
+      "id": "3763f096-3b18-57fc-8bc5-8acb93607366",
+      "domain_id": "it",
+      "data": {
+        "name": "dev — updated",
+        "type": "operational",
+        "cloud_provider": "Azure",
+        "region": "SK",
+        "url": "https://environment.meridianpay.cz/5",
+        "auto_deploy": false,
+        "access_control": "RBAC"
+      }
+    }
+  ]
+}

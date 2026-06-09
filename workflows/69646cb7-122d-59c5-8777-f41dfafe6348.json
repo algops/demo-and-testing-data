@@ -1,0 +1,57 @@
+{
+  "id": "69646cb7-122d-59c5-8777-f41dfafe6348",
+  "slug": "tax_filing_ops",
+  "name": "Tax filing ops",
+  "domain_id": "tax",
+  "owner_org_id": "org:anchor",
+  "status": "active",
+  "output_datasets": [
+    "tax_engagement_status",
+    "tax_client_filings"
+  ],
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "description": "Workflow tax_filing_ops pro doménu tax",
+  "verification_status": true,
+  "owner_org_name": "Meridian Pay a.s.",
+  "last_used_at": "2025-06-01T12:00:00Z",
+  "total_executions": 45,
+  "successful_executions": 38,
+  "failed_executions": 7,
+  "success_rate": 0.93,
+  "activities_count": 2,
+  "phases_count": 2,
+  "average_duration": 270.5,
+  "setup": {
+    "data": {
+      "tax_filing_ops_krok_1": {
+        "id": "c9bad3e1-3cf8-5ab7-8dd1-4553ab60cbf8",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 1,
+            "domain_id": "tax"
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "23be0640-6853-54b4-91a7-39bfdf0499a3"
+            ]
+          }
+        }
+      },
+      "tax_filing_ops_krok_2": {
+        "id": "23be0640-6853-54b4-91a7-39bfdf0499a3",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "domain_id": "tax"
+          }
+        },
+        "destination": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "71284220-29c0-51a7-aaf1-63c9726a5caf",
+  "name": "report",
+  "description": "Object type report",
+  "org_id": "org:anchor",
+  "domain_id": "esg",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 10,
+  "datapoint_count": 9
+}

@@ -1,0 +1,12 @@
+{
+  "id": "bbfebc52-8f12-5b0a-a59e-8da9c6447f7c",
+  "name": "deadline",
+  "description": "Object type deadline",
+  "org_id": "org:anchor",
+  "domain_id": "tax",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 20,
+  "datapoint_count": 8
+}

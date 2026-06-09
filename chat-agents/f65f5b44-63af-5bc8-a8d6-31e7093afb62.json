@@ -1,0 +1,64 @@
+{
+  "id": "f65f5b44-63af-5bc8-a8d6-31e7093afb62",
+  "name": "Taxonomy alignment explainer",
+  "description": "Vysvětlení EU taxonomie",
+  "status": "draft",
+  "domain_id": "esg",
+  "org_id": "org:anchor",
+  "setup": {
+    "accessibility": {
+      "primary": {
+        "type": "web_widget",
+        "enabled": true,
+        "bidirectional": true,
+        "label": "Web widget"
+      },
+      "supervisor": {
+        "type": "slack",
+        "enabled": false,
+        "bidirectional": true,
+        "canSteer": true,
+        "label": "#agents-esg"
+      }
+    },
+    "knowledge_base_access": {
+      "grants": [
+        {
+          "treePath": "/knowledgebase/esg",
+          "scope": "folder",
+          "includeDescendants": true
+        }
+      ],
+      "skillsPath": "/skills/esg",
+      "skillFilePaths": []
+    },
+    "data_warehouse_access": {
+      "objectTypeIds": []
+    },
+    "realtime_data_access": {
+      "grants": [
+        {
+          "sourceId": "78d78ec7-eb76-5a4a-915b-9b58ab9e7d96",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        },
+        {
+          "sourceId": "97e2b8ec-72e9-50d9-86c1-bde2b6f2ac93",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        }
+      ]
+    },
+    "actions_access": {
+      "grants": [
+        {
+          "sourceId": "c93bf594-f370-52cb-83ee-adde91d3fc60",
+          "actionKey": "execute_tool",
+          "label": "Tool action",
+          "description": "Execute via c93bf594-f370-52cb-83ee-adde91d3fc60",
+          "permission": "execute"
+        }
+      ]
+    }
+  }
+}

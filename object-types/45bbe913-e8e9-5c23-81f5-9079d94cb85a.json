@@ -1,0 +1,12 @@
+{
+  "id": "45bbe913-e8e9-5c23-81f5-9079d94cb85a",
+  "name": "tax_control",
+  "description": "Object type tax_control",
+  "org_id": "org:anchor",
+  "domain_id": "tax",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 5,
+  "datapoint_count": 8
+}

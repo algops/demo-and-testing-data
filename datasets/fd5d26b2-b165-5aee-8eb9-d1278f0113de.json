@@ -1,0 +1,248 @@
+{
+  "object_type_id": "fd5d26b2-b165-5aee-8eb9-d1278f0113de",
+  "object_type_name": "risk",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "risk": "Carbon tax exposure CZ",
+      "id": "6598cce4-db13-527f-b62f-f8ac1710ec0b",
+      "domain_id": "esg",
+      "data": {
+        "name": "Carbon tax exposure CZ",
+        "category": "G",
+        "subcategory": "technical",
+        "severity": "high",
+        "likelihood": "medium",
+        "mitigation_status": "active",
+        "risk_owner": "Engineering",
+        "last_reviewed": "ESG last reviewed — Carbon tax exposure CZ"
+      }
+    },
+    {
+      "risk": "Forced labor in cobalt supply chain",
+      "id": "b227e779-3cd8-51da-903b-652f8ae34388",
+      "domain_id": "esg",
+      "data": {
+        "name": "Forced labor in cobalt supply chain",
+        "category": "E",
+        "subcategory": "governance",
+        "severity": "medium",
+        "likelihood": "high",
+        "mitigation_status": "expired",
+        "risk_owner": "ESG",
+        "last_reviewed": "ESG last reviewed — Forced labor in cobalt supply chain"
+      }
+    },
+    {
+      "risk": "Board diversity non-compliance",
+      "id": "aba0e645-7281-5a99-a8db-3e723d60e44b",
+      "domain_id": "esg",
+      "data": {
+        "name": "Board diversity non-compliance",
+        "category": "G",
+        "subcategory": "financial",
+        "severity": "critical",
+        "likelihood": "medium",
+        "mitigation_status": "under_review",
+        "risk_owner": "People",
+        "last_reviewed": "ESG last reviewed — Board diversity non-compliance"
+      }
+    },
+    {
+      "risk": "Carbon tax exposure CZ v2",
+      "id": "f5c995fb-e81a-5c5b-996b-e79b76975ecf",
+      "domain_id": "esg",
+      "data": {
+        "name": "Carbon tax exposure CZ v2",
+        "category": "G",
+        "subcategory": "financial",
+        "severity": "high",
+        "likelihood": "low",
+        "mitigation_status": "under_review",
+        "risk_owner": "Engineering",
+        "last_reviewed": "ESG last reviewed — Carbon tax exposure CZ v2"
+      }
+    },
+    {
+      "risk": "Forced labor in cobalt supply chain — updated",
+      "id": "6fde23be-8442-51f7-bdf1-e82144e60393",
+      "domain_id": "esg",
+      "data": {
+        "name": "Forced labor in cobalt supply chain — updated",
+        "category": "S",
+        "subcategory": "technical",
+        "severity": "low",
+        "likelihood": "low",
+        "mitigation_status": "draft",
+        "risk_owner": "Legal",
+        "last_reviewed": "ESG last reviewed — Forced labor in cobalt supply chain — up"
+      }
+    },
+    {
+      "risk": "Board diversity non-compliance #6",
+      "id": "7151ba3e-f113-5c33-b8c1-9b1bfa31143f",
+      "domain_id": "esg",
+      "data": {
+        "name": "Board diversity non-compliance #6",
+        "category": "S",
+        "subcategory": "governance",
+        "severity": "critical",
+        "likelihood": "low",
+        "mitigation_status": "expired",
+        "risk_owner": "People",
+        "last_reviewed": "ESG last reviewed — Board diversity non-compliance #6"
+      }
+    },
+    {
+      "risk": "Carbon tax exposure CZ",
+      "id": "850d1b1e-7646-5eb8-b5f2-bda8ee1fcdb6",
+      "domain_id": "esg",
+      "data": {
+        "name": "Carbon tax exposure CZ",
+        "category": "S",
+        "subcategory": "technical",
+        "severity": "low",
+        "likelihood": "medium",
+        "mitigation_status": "under_review",
+        "risk_owner": "Legal",
+        "last_reviewed": "ESG last reviewed — Carbon tax exposure CZ"
+      }
+    },
+    {
+      "risk": "Forced labor in cobalt supply chain (Brno)",
+      "id": "a732db01-6aab-53e0-ae06-8c12f097cbaa",
+      "domain_id": "esg",
+      "data": {
+        "name": "Forced labor in cobalt supply chain (Brno)",
+        "category": "E",
+        "subcategory": "governance",
+        "severity": "low",
+        "likelihood": "high",
+        "mitigation_status": "active",
+        "risk_owner": "Engineering",
+        "last_reviewed": "ESG last reviewed — Forced labor in cobalt supply chain (Brn"
+      }
+    },
+    {
+      "risk": "Board diversity non-compliance (FY2024)",
+      "id": "be9288b8-0c8a-54bb-98e6-6a9b787a3588",
+      "domain_id": "esg",
+      "data": {
+        "name": "Board diversity non-compliance (FY2024)",
+        "category": "S",
+        "subcategory": "operational",
+        "severity": "medium",
+        "likelihood": "high",
+        "mitigation_status": "draft",
+        "risk_owner": "ESG",
+        "last_reviewed": "ESG last reviewed — Board diversity non-compliance (FY2024)"
+      }
+    },
+    {
+      "risk": "Carbon tax exposure CZ v2",
+      "id": "61b15b1d-695e-52b9-9960-fa6207e80c12",
+      "domain_id": "esg",
+      "data": {
+        "name": "Carbon tax exposure CZ v2",
+        "category": "E",
+        "subcategory": "financial",
+        "severity": "high",
+        "likelihood": "high",
+        "mitigation_status": "under_review",
+        "risk_owner": "People",
+        "last_reviewed": "ESG last reviewed — Carbon tax exposure CZ v2"
+      }
+    },
+    {
+      "risk": "Forced labor in cobalt supply chain — updated",
+      "id": "cfa0bac8-73d7-5f9f-908a-08ed1baedda2",
+      "domain_id": "esg",
+      "data": {
+        "name": "Forced labor in cobalt supply chain — updated",
+        "category": "E",
+        "subcategory": "technical",
+        "severity": "medium",
+        "likelihood": "low",
+        "mitigation_status": "under_review",
+        "risk_owner": "People",
+        "last_reviewed": "ESG last reviewed — Forced labor in cobalt supply chain — up"
+      }
+    },
+    {
+      "risk": "Board diversity non-compliance #12",
+      "id": "480b4813-ff3c-5313-8641-5e3477530759",
+      "domain_id": "esg",
+      "data": {
+        "name": "Board diversity non-compliance #12",
+        "category": "E",
+        "subcategory": "financial",
+        "severity": "critical",
+        "likelihood": "high",
+        "mitigation_status": "under_review",
+        "risk_owner": "People",
+        "last_reviewed": "ESG last reviewed — Board diversity non-compliance #12"
+      }
+    },
+    {
+      "risk": "Carbon tax exposure CZ",
+      "id": "a52e384f-f6f7-5290-a7bd-e6e1af43ccf8",
+      "domain_id": "esg",
+      "data": {
+        "name": "Carbon tax exposure CZ",
+        "category": "E",
+        "subcategory": "financial",
+        "severity": "medium",
+        "likelihood": "medium",
+        "mitigation_status": "active",
+        "risk_owner": "ESG",
+        "last_reviewed": "ESG last reviewed — Carbon tax exposure CZ"
+      }
+    },
+    {
+      "risk": "Forced labor in cobalt supply chain (Brno)",
+      "id": "5b0caeb7-a98e-5771-968c-ca436b6ca19b",
+      "domain_id": "esg",
+      "data": {
+        "name": "Forced labor in cobalt supply chain (Brno)",
+        "category": "E",
+        "subcategory": "financial",
+        "severity": "high",
+        "likelihood": "medium",
+        "mitigation_status": "draft",
+        "risk_owner": "People",
+        "last_reviewed": "ESG last reviewed — Forced labor in cobalt supply chain (Brn"
+      }
+    },
+    {
+      "risk": "Board diversity non-compliance (FY2024)",
+      "id": "bb85a83d-fba3-59f7-90a5-096668faa039",
+      "domain_id": "esg",
+      "data": {
+        "name": "Board diversity non-compliance (FY2024)",
+        "category": "E",
+        "subcategory": "governance",
+        "severity": "critical",
+        "likelihood": "high",
+        "mitigation_status": "archived",
+        "risk_owner": "ESG",
+        "last_reviewed": "ESG last reviewed — Board diversity non-compliance (FY2024)"
+      }
+    },
+    {
+      "risk": "Carbon tax exposure CZ v2",
+      "id": "658a39fb-4a1b-5446-9ea3-8a683f51c772",
+      "domain_id": "esg",
+      "data": {
+        "name": "Carbon tax exposure CZ v2",
+        "category": "S",
+        "subcategory": "technical",
+        "severity": "low",
+        "likelihood": "medium",
+        "mitigation_status": "archived",
+        "risk_owner": "Risk & Compliance",
+        "last_reviewed": "ESG last reviewed — Carbon tax exposure CZ v2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "7a00c72d-a024-5ba2-a8bb-64a9b447f547",
+  "name": "ESG evidence collect — krok 2",
+  "description": "Aktivita workflow ESG evidence collect",
+  "type": "enrich",
+  "object_type": "metric",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "integration_step": {
+        "id": "97e2b8ec-72e9-50d9-86c1-bde2b6f2ac93",
+        "type": "source",
+        "destination": {}
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 433,
+    "successful_requests": 387,
+    "failed_requests": 46,
+    "success_rate": 0.9,
+    "average_duration": 80.0,
+    "last_used_at": "2025-06-01T12:00:00Z"
+  },
+  "metadata": {
+    "owner_org_id": "org:anchor",
+    "owner_org_name": "Meridian Pay a.s.",
+    "created_at": "2025-06-01T12:00:00Z",
+    "updated_at": "2025-06-01T12:00:00Z",
+    "workflows": [
+      {
+        "id": "749103fc-afc3-50ef-a5f9-067310653429",
+        "name": "ESG evidence collect"
+      }
+    ]
+  }
+}

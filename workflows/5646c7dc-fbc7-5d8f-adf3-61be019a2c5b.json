@@ -1,0 +1,56 @@
+{
+  "id": "5646c7dc-fbc7-5d8f-adf3-61be019a2c5b",
+  "slug": "it_kb_ingest",
+  "name": "IT KB ingest",
+  "domain_id": "it",
+  "owner_org_id": "org:anchor",
+  "status": "active",
+  "output_datasets": [
+    "it_service_health"
+  ],
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "description": "Workflow it_kb_ingest pro doménu it",
+  "verification_status": true,
+  "owner_org_name": "Meridian Pay a.s.",
+  "last_used_at": "2025-06-01T12:00:00Z",
+  "total_executions": 20,
+  "successful_executions": 18,
+  "failed_executions": 2,
+  "success_rate": 0.85,
+  "activities_count": 2,
+  "phases_count": 2,
+  "average_duration": 120.5,
+  "setup": {
+    "data": {
+      "it_kb_ingest_krok_1": {
+        "id": "7b4f1363-11fa-5b01-9458-684514350bba",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 1,
+            "domain_id": "it"
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "b09a9c04-72e9-550a-bf3d-b055c51157f3"
+            ]
+          }
+        }
+      },
+      "it_kb_ingest_krok_2": {
+        "id": "b09a9c04-72e9-550a-bf3d-b055c51157f3",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "domain_id": "it"
+          }
+        },
+        "destination": {}
+      }
+    }
+  }
+}

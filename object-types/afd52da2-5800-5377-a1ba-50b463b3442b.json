@@ -1,0 +1,12 @@
+{
+  "id": "afd52da2-5800-5377-a1ba-50b463b3442b",
+  "name": "feature_flag",
+  "description": "Object type feature_flag",
+  "org_id": "org:anchor",
+  "domain_id": "it",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 10,
+  "datapoint_count": 7
+}

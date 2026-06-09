@@ -1,0 +1,12 @@
+{
+  "id": "e430e85c-1090-58e2-8287-367215498ec4",
+  "name": "tax_form",
+  "description": "Object type tax_form",
+  "org_id": "org:anchor",
+  "domain_id": "tax",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 12,
+  "datapoint_count": 7
+}

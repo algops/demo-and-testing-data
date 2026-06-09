@@ -1,0 +1,12 @@
+{
+  "id": "eec99958-e508-599d-80bb-af18c7884b08",
+  "name": "legal_area",
+  "description": "Object type legal_area",
+  "org_id": "org:anchor",
+  "domain_id": "legal",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 9,
+  "datapoint_count": 5
+}

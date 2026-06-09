@@ -1,0 +1,170 @@
+{
+  "object_type_id": "3880c1f7-8b97-540e-9b2d-b6f97eb2b4a2",
+  "object_type_name": "target",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "target": "Scope 1+2 reduction 42% by 2030",
+      "id": "8af787c8-0079-55e9-ab0f-ec8851799ea8",
+      "domain_id": "esg",
+      "data": {
+        "name": "Scope 1+2 reduction 42% by 2030",
+        "category": "S",
+        "baseline_year": 2024,
+        "baseline_value": "ESG baseline value — Scope 1+2 reduction 42% by 2030",
+        "target_year": 2021,
+        "target_value": "ESG target value — Scope 1+2 reduction 42% by 2030",
+        "current_value": "ESG current value — Scope 1+2 reduction 42% by 2030",
+        "status": "archived",
+        "sbti_validated": false,
+        "rel:TRACKS_TARGET:measurement_method": "proxy"
+      }
+    },
+    {
+      "target": "30% women in senior management by 2027",
+      "id": "e9a78af4-08d5-5086-aabb-e6206452a419",
+      "domain_id": "esg",
+      "data": {
+        "name": "30% women in senior management by 2027",
+        "category": "G",
+        "baseline_year": 2020,
+        "baseline_value": "ESG baseline value — 30% women in senior management by 2027",
+        "target_year": 2025,
+        "target_value": "ESG target value — 30% women in senior management by 2027",
+        "current_value": "ESG current value — 30% women in senior management by 2027",
+        "status": "draft",
+        "sbti_validated": false
+      }
+    },
+    {
+      "target": "Zero fintech operations revenue by 2028",
+      "id": "f7839506-9611-50cf-88cb-0bde15be8228",
+      "domain_id": "esg",
+      "data": {
+        "name": "Zero fintech operations revenue by 2028",
+        "category": "E",
+        "baseline_year": 2021,
+        "baseline_value": "ESG baseline value — Zero fintech operations revenue by 2028",
+        "target_year": 2022,
+        "target_value": "ESG target value — Zero fintech operations revenue by 2028",
+        "current_value": "ESG current value — Zero fintech operations revenue by 2028",
+        "status": "active",
+        "sbti_validated": false
+      }
+    },
+    {
+      "target": "Scope 1+2 reduction 42% by 2030 v2",
+      "id": "6eb4e35f-65f4-5bbd-bf8c-f9157e1e577f",
+      "domain_id": "esg",
+      "data": {
+        "name": "Scope 1+2 reduction 42% by 2030 v2",
+        "category": "S",
+        "baseline_year": 2025,
+        "baseline_value": "ESG baseline value — Scope 1+2 reduction 42% by 2030 v2",
+        "target_year": 2021,
+        "target_value": "ESG target value — Scope 1+2 reduction 42% by 2030 v2",
+        "current_value": "ESG current value — Scope 1+2 reduction 42% by 2030 v2",
+        "status": "expired",
+        "sbti_validated": false,
+        "rel:TRACKS_TARGET:measurement_method": "estimated"
+      }
+    },
+    {
+      "target": "30% women in senior management by 2027 — updated",
+      "id": "37572cb8-b99b-504a-9253-12500f473c1c",
+      "domain_id": "esg",
+      "data": {
+        "name": "30% women in senior management by 2027 — updated",
+        "category": "S",
+        "baseline_year": 2024,
+        "baseline_value": "ESG baseline value — 30% women in senior management by 2027 —",
+        "target_year": 2021,
+        "target_value": "ESG target value — 30% women in senior management by 2027 —",
+        "current_value": "ESG current value — 30% women in senior management by 2027 —",
+        "status": "expired",
+        "sbti_validated": false
+      }
+    },
+    {
+      "target": "Zero fintech operations revenue by 2028 #6",
+      "id": "1aaf88c3-ac43-585e-a02d-4319b115d0e7",
+      "domain_id": "esg",
+      "data": {
+        "name": "Zero fintech operations revenue by 2028 #6",
+        "category": "S",
+        "baseline_year": 2021,
+        "baseline_value": "ESG baseline value — Zero fintech operations revenue by 2028 ",
+        "target_year": 2023,
+        "target_value": "ESG target value — Zero fintech operations revenue by 2028 ",
+        "current_value": "ESG current value — Zero fintech operations revenue by 2028 ",
+        "status": "expired",
+        "sbti_validated": false
+      }
+    },
+    {
+      "target": "Scope 1+2 reduction 42% by 2030",
+      "id": "15dfb064-5fe2-5148-b05e-56fea64417f0",
+      "domain_id": "esg",
+      "data": {
+        "name": "Scope 1+2 reduction 42% by 2030",
+        "category": "G",
+        "baseline_year": 2021,
+        "baseline_value": "ESG baseline value — Scope 1+2 reduction 42% by 2030",
+        "target_year": 2024,
+        "target_value": "ESG target value — Scope 1+2 reduction 42% by 2030",
+        "current_value": "ESG current value — Scope 1+2 reduction 42% by 2030",
+        "status": "draft",
+        "sbti_validated": false
+      }
+    },
+    {
+      "target": "30% women in senior management by 2027 (Brno)",
+      "id": "1a73ca89-d9ec-5613-9b93-014790bf9d20",
+      "domain_id": "esg",
+      "data": {
+        "name": "30% women in senior management by 2027 (Brno)",
+        "category": "S",
+        "baseline_year": 2021,
+        "baseline_value": "ESG baseline value — 30% women in senior management by 2027 (",
+        "target_year": 2021,
+        "target_value": "ESG target value — 30% women in senior management by 2027 (",
+        "current_value": "ESG current value — 30% women in senior management by 2027 (",
+        "status": "archived",
+        "sbti_validated": false
+      }
+    },
+    {
+      "target": "Zero fintech operations revenue by 2028 (FY2024)",
+      "id": "92c47dda-c8c2-529f-bb60-abd89c199007",
+      "domain_id": "esg",
+      "data": {
+        "name": "Zero fintech operations revenue by 2028 (FY2024)",
+        "category": "G",
+        "baseline_year": 2020,
+        "baseline_value": "ESG baseline value — Zero fintech operations revenue by 2028 ",
+        "target_year": 2026,
+        "target_value": "ESG target value — Zero fintech operations revenue by 2028 ",
+        "current_value": "ESG current value — Zero fintech operations revenue by 2028 ",
+        "status": "archived",
+        "sbti_validated": false
+      }
+    },
+    {
+      "target": "Scope 1+2 reduction 42% by 2030 v2",
+      "id": "d1171ffe-8b4e-5169-a3cd-c7d5b518bc5b",
+      "domain_id": "esg",
+      "data": {
+        "name": "Scope 1+2 reduction 42% by 2030 v2",
+        "category": "S",
+        "baseline_year": 2021,
+        "baseline_value": "ESG baseline value — Scope 1+2 reduction 42% by 2030 v2",
+        "target_year": 2021,
+        "target_value": "ESG target value — Scope 1+2 reduction 42% by 2030 v2",
+        "current_value": "ESG current value — Scope 1+2 reduction 42% by 2030 v2",
+        "status": "under_review",
+        "sbti_validated": false
+      }
+    }
+  ]
+}

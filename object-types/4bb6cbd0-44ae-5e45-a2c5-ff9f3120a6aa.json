@@ -1,0 +1,12 @@
+{
+  "id": "4bb6cbd0-44ae-5e45-a2c5-ff9f3120a6aa",
+  "name": "disclosure_requirement",
+  "description": "Object type disclosure_requirement",
+  "org_id": "org:anchor",
+  "domain_id": "esg",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 100,
+  "datapoint_count": 6
+}

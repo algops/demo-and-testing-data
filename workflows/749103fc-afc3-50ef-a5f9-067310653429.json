@@ -1,0 +1,57 @@
+{
+  "id": "749103fc-afc3-50ef-a5f9-067310653429",
+  "slug": "esg_evidence_collect",
+  "name": "ESG evidence collect",
+  "domain_id": "esg",
+  "owner_org_id": "org:anchor",
+  "status": "active",
+  "output_datasets": [
+    "esg_metric_facts",
+    "esg_supplier_risk"
+  ],
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "description": "Workflow esg_evidence_collect pro doménu esg",
+  "verification_status": true,
+  "owner_org_name": "Meridian Pay a.s.",
+  "last_used_at": "2025-06-01T12:00:00Z",
+  "total_executions": 40,
+  "successful_executions": 34,
+  "failed_executions": 6,
+  "success_rate": 0.89,
+  "activities_count": 2,
+  "phases_count": 2,
+  "average_duration": 240.5,
+  "setup": {
+    "data": {
+      "esg_evidence_collect_krok_1": {
+        "id": "ea64b16c-8fa4-5f2d-a46b-35c5e81ca6e9",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 1,
+            "domain_id": "esg"
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "7a00c72d-a024-5ba2-a8bb-64a9b447f547"
+            ]
+          }
+        }
+      },
+      "esg_evidence_collect_krok_2": {
+        "id": "7a00c72d-a024-5ba2-a8bb-64a9b447f547",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "domain_id": "esg"
+          }
+        },
+        "destination": {}
+      }
+    }
+  }
+}

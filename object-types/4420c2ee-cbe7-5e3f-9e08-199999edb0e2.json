@@ -1,0 +1,12 @@
+{
+  "id": "4420c2ee-cbe7-5e3f-9e08-199999edb0e2",
+  "name": "process",
+  "description": "Object type process",
+  "org_id": "org:anchor",
+  "domain_id": "hr",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 45,
+  "datapoint_count": 9
+}

@@ -1,0 +1,12 @@
+{
+  "id": "df89a23b-5351-5732-9e51-f532774c0539",
+  "name": "grievance_case",
+  "description": "Object type grievance_case",
+  "org_id": "org:anchor",
+  "domain_id": "hr",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 7,
+  "datapoint_count": 8
+}

@@ -1,0 +1,12 @@
+{
+  "id": "6588f65a-32f2-56b3-87d0-2217a6733a79",
+  "name": "metric",
+  "description": "Object type metric",
+  "org_id": "org:anchor",
+  "domain_id": "esg",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 100,
+  "datapoint_count": 8
+}

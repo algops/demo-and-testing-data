@@ -1,0 +1,12 @@
+{
+  "id": "b5d0dc83-8966-56f2-8774-f1674242e518",
+  "name": "audit_finding",
+  "description": "Object type audit_finding",
+  "org_id": "org:anchor",
+  "domain_id": "esg",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 10,
+  "datapoint_count": 7
+}

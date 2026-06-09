@@ -1,0 +1,12 @@
+{
+  "id": "82a1838d-4c76-5c2f-8128-089bdaf1ed92",
+  "name": "document",
+  "description": "Object type document",
+  "org_id": "org:anchor",
+  "domain_id": "hr",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 20,
+  "datapoint_count": 9
+}

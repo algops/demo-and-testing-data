@@ -1,0 +1,12 @@
+{
+  "id": "6e9dad99-a11d-558e-91ff-c17844624153",
+  "name": "vendor",
+  "description": "Object type vendor",
+  "org_id": "org:anchor",
+  "domain_id": "shared",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 5,
+  "datapoint_count": 0
+}

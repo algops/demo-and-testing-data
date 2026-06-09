@@ -1,0 +1,12 @@
+{
+  "id": "ed00f6bf-e4e1-5a3d-aff0-15b4dfb196e8",
+  "name": "tax_law",
+  "description": "Object type tax_law",
+  "org_id": "org:anchor",
+  "domain_id": "tax",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 10,
+  "datapoint_count": 8
+}

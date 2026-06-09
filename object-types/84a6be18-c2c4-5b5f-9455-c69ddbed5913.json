@@ -1,0 +1,12 @@
+{
+  "id": "84a6be18-c2c4-5b5f-9455-c69ddbed5913",
+  "name": "material_topic",
+  "description": "Object type material_topic",
+  "org_id": "org:anchor",
+  "domain_id": "esg",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 12,
+  "datapoint_count": 6
+}

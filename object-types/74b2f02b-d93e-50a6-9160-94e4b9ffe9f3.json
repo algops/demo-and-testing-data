@@ -1,0 +1,12 @@
+{
+  "id": "74b2f02b-d93e-50a6-9160-94e4b9ffe9f3",
+  "name": "benefit",
+  "description": "Object type benefit",
+  "org_id": "org:anchor",
+  "domain_id": "hr",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 12,
+  "datapoint_count": 10
+}

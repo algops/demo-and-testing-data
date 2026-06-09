@@ -1,0 +1,12 @@
+{
+  "id": "3faca80d-dbce-5bf2-b395-be72941f3e58",
+  "name": "department",
+  "description": "Object type department",
+  "org_id": "org:anchor",
+  "domain_id": "shared",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 10,
+  "datapoint_count": 0
+}

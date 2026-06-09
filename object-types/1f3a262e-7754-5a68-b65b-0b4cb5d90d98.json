@@ -1,0 +1,12 @@
+{
+  "id": "1f3a262e-7754-5a68-b65b-0b4cb5d90d98",
+  "name": "service",
+  "description": "Object type service",
+  "org_id": "org:anchor",
+  "domain_id": "it",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 24,
+  "datapoint_count": 13
+}

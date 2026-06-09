@@ -1,0 +1,12 @@
+{
+  "id": "860b5abb-5ea0-59f2-9f65-81d4f6537bc8",
+  "name": "internal_procedure",
+  "description": "Object type internal_procedure",
+  "org_id": "org:anchor",
+  "domain_id": "tax",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 10,
+  "datapoint_count": 8
+}

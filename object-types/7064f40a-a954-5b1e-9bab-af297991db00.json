@@ -1,0 +1,12 @@
+{
+  "id": "7064f40a-a954-5b1e-9bab-af297991db00",
+  "name": "organization",
+  "description": "Object type organization",
+  "org_id": "org:anchor",
+  "domain_id": "shared",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 1,
+  "datapoint_count": 10
+}

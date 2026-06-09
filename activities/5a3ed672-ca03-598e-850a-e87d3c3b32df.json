@@ -1,0 +1,38 @@
+{
+  "id": "5a3ed672-ca03-598e-850a-e87d3c3b32df",
+  "name": "HR SOP sync — krok 2",
+  "description": "Aktivita workflow HR SOP sync",
+  "type": "enrich",
+  "object_type": "employee",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "integration_step": {
+        "id": "6217ffa5-671c-50dd-9ff3-0116f2f7f805",
+        "type": "source",
+        "destination": {}
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 581,
+    "successful_requests": 519,
+    "failed_requests": 62,
+    "success_rate": 0.9,
+    "average_duration": 100.0,
+    "last_used_at": "2025-06-01T12:00:00Z"
+  },
+  "metadata": {
+    "owner_org_id": "org:anchor",
+    "owner_org_name": "Meridian Pay a.s.",
+    "created_at": "2025-06-01T12:00:00Z",
+    "updated_at": "2025-06-01T12:00:00Z",
+    "workflows": [
+      {
+        "id": "9c0724a8-90c7-5312-aab6-7f4c2d9cac26",
+        "name": "HR SOP sync"
+      }
+    ]
+  }
+}

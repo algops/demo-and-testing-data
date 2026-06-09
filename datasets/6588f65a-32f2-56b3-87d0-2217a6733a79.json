@@ -1,0 +1,1632 @@
+{
+  "object_type_id": "6588f65a-32f2-56b3-87d0-2217a6733a79",
+  "object_type_name": "metric",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "metric": "Scope 1 GHG emissions",
+      "id": "aa33a9b4-690b-5069-80d3-ebde15f6fff9",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions",
+        "category": "S",
+        "disclosure_requirement": "S1.1",
+        "data_source": "Sphera",
+        "frequency": "daily",
+        "data_quality_score": 78,
+        "methodology": "Scope 1 GHG emissions supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap",
+      "id": "91c0594d-15a4-5cee-8630-4fa21c0b16a1",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap",
+        "category": "E",
+        "disclosure_requirement": "G1.3",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 59,
+        "methodology": "Gender pay gap supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "market-based",
+        "rel:MEASURED_FROM:coverage_pct": 60,
+        "rel:MEASURED_FROM:quality_assessment": "A"
+      }
+    },
+    {
+      "metric": "Board independence ratio",
+      "id": "d19818d5-a30e-5829-89fb-6a95ae185a64",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio",
+        "category": "E",
+        "disclosure_requirement": "S1.1",
+        "data_source": "Supplier portal",
+        "frequency": "quarterly",
+        "data_quality_score": 78,
+        "methodology": "Board independence ratio supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 46851,
+        "rel:REPORTED_IN:period": "Q1 2024",
+        "rel:REPORTED_IN:assured": false,
+        "rel:REPORTED_IN:page_reference": 136
+      }
+    },
+    {
+      "metric": "Water withdrawal",
+      "id": "6fc53160-8687-5ad0-9e3a-1c84128cb80d",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal",
+        "category": "S",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Sphera",
+        "frequency": "daily",
+        "data_quality_score": 51,
+        "methodology": "Water withdrawal supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 39232,
+        "rel:REPORTED_IN:period": "FY2023",
+        "rel:REPORTED_IN:assured": false,
+        "rel:REPORTED_IN:page_reference": 83
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions — updated",
+      "id": "a6c44a0f-2a7f-54fb-b4d7-9b3ff0b64be8",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions — updated",
+        "category": "E",
+        "disclosure_requirement": "S1.1",
+        "data_source": "Sphera",
+        "frequency": "weekly",
+        "data_quality_score": 65,
+        "methodology": "Scope 1 GHG emissions — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap #6",
+      "id": "790b643a-a96b-5c8a-8024-aec5618effce",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap #6",
+        "category": "E",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Utility invoices",
+        "frequency": "annual",
+        "data_quality_score": 37,
+        "methodology": "Gender pay gap #6 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "activity-based",
+        "rel:MEASURED_FROM:coverage_pct": 92,
+        "rel:MEASURED_FROM:quality_assessment": "B"
+      }
+    },
+    {
+      "metric": "Board independence ratio",
+      "id": "9e697d6e-5fa5-5c07-9b2a-ac6ead8d0a15",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio",
+        "category": "G",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Supplier portal",
+        "frequency": "monthly",
+        "data_quality_score": 49,
+        "methodology": "Board independence ratio supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal (Brno)",
+      "id": "d0891a00-65d4-554d-8134-25e318d8a85f",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal (Brno)",
+        "category": "E",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Sphera",
+        "frequency": "daily",
+        "data_quality_score": 47,
+        "methodology": "Water withdrawal (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 34796,
+        "rel:REPORTED_IN:period": "Q1 2024",
+        "rel:REPORTED_IN:assured": true,
+        "rel:REPORTED_IN:page_reference": 71
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions (FY2024)",
+      "id": "44e6ace4-1e09-53f4-af71-79e1fc62e90c",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions (FY2024)",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Supplier portal",
+        "frequency": "daily",
+        "data_quality_score": 48,
+        "methodology": "Scope 1 GHG emissions (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap v2",
+      "id": "a8f8c5a9-c568-5fde-904b-15e359d7bdea",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap v2",
+        "category": "G",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Utility invoices",
+        "frequency": "weekly",
+        "data_quality_score": 85,
+        "methodology": "Gender pay gap v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio — updated",
+      "id": "c66a8aaf-0572-5b82-87cf-b42c69cd63aa",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio — updated",
+        "category": "E",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Sphera",
+        "frequency": "weekly",
+        "data_quality_score": 9,
+        "methodology": "Board independence ratio — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 38511,
+        "rel:REPORTED_IN:period": "Q1 2024",
+        "rel:REPORTED_IN:assured": true,
+        "rel:REPORTED_IN:page_reference": 31
+      }
+    },
+    {
+      "metric": "Water withdrawal #12",
+      "id": "5fcf1ba2-59fe-52d5-89e6-e7ecb17188d9",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal #12",
+        "category": "S",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Sphera",
+        "frequency": "quarterly",
+        "data_quality_score": 10,
+        "methodology": "Water withdrawal #12 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "GHG Protocol",
+        "rel:MEASURED_FROM:coverage_pct": 89,
+        "rel:MEASURED_FROM:quality_assessment": "C"
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions",
+      "id": "66f6dc73-a9a9-5f74-8279-77d3bfb3e385",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions",
+        "category": "S",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Utility invoices",
+        "frequency": "daily",
+        "data_quality_score": 65,
+        "methodology": "Scope 1 GHG emissions supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap (Brno)",
+      "id": "8ac511a0-fd7c-560a-b3b1-9802b007235b",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap (Brno)",
+        "category": "S",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 50,
+        "methodology": "Gender pay gap (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio (FY2024)",
+      "id": "d644a293-06ff-58fe-8e42-b8b2d8a25f9a",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio (FY2024)",
+        "category": "E",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Supplier portal",
+        "frequency": "annual",
+        "data_quality_score": 20,
+        "methodology": "Board independence ratio (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal v2",
+      "id": "0869d0f0-0781-553f-ab5d-a373a9ff75be",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal v2",
+        "category": "S",
+        "disclosure_requirement": "E1.5",
+        "data_source": "Utility invoices",
+        "frequency": "weekly",
+        "data_quality_score": 54,
+        "methodology": "Water withdrawal v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions — updated",
+      "id": "1d20e22a-14af-5e91-9bf8-57639f17b98d",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions — updated",
+        "category": "S",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Utility invoices",
+        "frequency": "weekly",
+        "data_quality_score": 52,
+        "methodology": "Scope 1 GHG emissions — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "location-based",
+        "rel:MEASURED_FROM:coverage_pct": 67,
+        "rel:MEASURED_FROM:quality_assessment": "A",
+        "rel:REPORTED_IN:value": 26352,
+        "rel:REPORTED_IN:period": "Q1 2024",
+        "rel:REPORTED_IN:assured": true,
+        "rel:REPORTED_IN:page_reference": 177
+      }
+    },
+    {
+      "metric": "Gender pay gap #18",
+      "id": "f2a2df97-0e40-5ad0-bc8b-6d796c9a1ae6",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap #18",
+        "category": "G",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Sphera",
+        "frequency": "weekly",
+        "data_quality_score": 15,
+        "methodology": "Gender pay gap #18 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 13171,
+        "rel:REPORTED_IN:period": "FY2023",
+        "rel:REPORTED_IN:assured": true,
+        "rel:REPORTED_IN:page_reference": 151
+      }
+    },
+    {
+      "metric": "Board independence ratio",
+      "id": "9b819644-cb40-5693-9af0-40d0480821e1",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio",
+        "category": "S",
+        "disclosure_requirement": "S1.1",
+        "data_source": "ERP/HR feeds",
+        "frequency": "daily",
+        "data_quality_score": 42,
+        "methodology": "Board independence ratio supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal (Brno)",
+      "id": "b3446cd6-9beb-529c-bae0-1d7140ec7b59",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal (Brno)",
+        "category": "S",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Sphera",
+        "frequency": "annual",
+        "data_quality_score": 89,
+        "methodology": "Water withdrawal (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 40346,
+        "rel:REPORTED_IN:period": "FY2023",
+        "rel:REPORTED_IN:assured": true,
+        "rel:REPORTED_IN:page_reference": 139
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions (FY2024)",
+      "id": "05bc0113-69be-5f8a-b2a6-9e58c88c1e51",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions (FY2024)",
+        "category": "S",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Utility invoices",
+        "frequency": "daily",
+        "data_quality_score": 96,
+        "methodology": "Scope 1 GHG emissions (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 16343,
+        "rel:REPORTED_IN:period": "FY2023",
+        "rel:REPORTED_IN:assured": false,
+        "rel:REPORTED_IN:page_reference": 26
+      }
+    },
+    {
+      "metric": "Gender pay gap v2",
+      "id": "5f715a84-2285-5ea2-97c7-1c9f7e7701a0",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap v2",
+        "category": "S",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Utility invoices",
+        "frequency": "annual",
+        "data_quality_score": 62,
+        "methodology": "Gender pay gap v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "market-based",
+        "rel:MEASURED_FROM:coverage_pct": 76,
+        "rel:MEASURED_FROM:quality_assessment": "A"
+      }
+    },
+    {
+      "metric": "Board independence ratio — updated",
+      "id": "f4f08ef6-ce42-5db6-8e97-61e3d116bf0e",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio — updated",
+        "category": "E",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Supplier portal",
+        "frequency": "daily",
+        "data_quality_score": 60,
+        "methodology": "Board independence ratio — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 38931,
+        "rel:REPORTED_IN:period": "Q1 2024",
+        "rel:REPORTED_IN:assured": true,
+        "rel:REPORTED_IN:page_reference": 103
+      }
+    },
+    {
+      "metric": "Water withdrawal #24",
+      "id": "953fd9d8-e35b-5e70-9796-707af1bbfb9e",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal #24",
+        "category": "S",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Sphera",
+        "frequency": "monthly",
+        "data_quality_score": 90,
+        "methodology": "Water withdrawal #24 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions",
+      "id": "4d46d08d-93f5-5a8f-8818-09ee2c67784d",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions",
+        "category": "G",
+        "disclosure_requirement": "E1.5",
+        "data_source": "Supplier portal",
+        "frequency": "daily",
+        "data_quality_score": 91,
+        "methodology": "Scope 1 GHG emissions supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap (Brno)",
+      "id": "308f7cfa-7fcd-5195-ac72-7b00b77fcccd",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap (Brno)",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "ERP/HR feeds",
+        "frequency": "daily",
+        "data_quality_score": 91,
+        "methodology": "Gender pay gap (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio (FY2024)",
+      "id": "f22b8778-43c6-51fe-b836-ecf3c42574c2",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio (FY2024)",
+        "category": "S",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "ERP/HR feeds",
+        "frequency": "monthly",
+        "data_quality_score": 35,
+        "methodology": "Board independence ratio (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal v2",
+      "id": "bd18c792-b38c-54b2-a2b1-1eb222a7d213",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal v2",
+        "category": "G",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Supplier portal",
+        "frequency": "weekly",
+        "data_quality_score": 77,
+        "methodology": "Water withdrawal v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 9820,
+        "rel:REPORTED_IN:period": "FY2024",
+        "rel:REPORTED_IN:assured": true,
+        "rel:REPORTED_IN:page_reference": 103
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions — updated",
+      "id": "05bf941a-874b-5d7e-ae0c-e21cecf00256",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions — updated",
+        "category": "E",
+        "disclosure_requirement": "S1.1",
+        "data_source": "ERP/HR feeds",
+        "frequency": "weekly",
+        "data_quality_score": 52,
+        "methodology": "Scope 1 GHG emissions — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap #30",
+      "id": "819ef0e2-e092-53cf-b2e6-5343a8ffd213",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap #30",
+        "category": "S",
+        "disclosure_requirement": "E1.5",
+        "data_source": "Sphera",
+        "frequency": "daily",
+        "data_quality_score": 22,
+        "methodology": "Gender pay gap #30 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio",
+      "id": "defd2364-1734-56a6-9948-b22fbd39705e",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio",
+        "category": "G",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Utility invoices",
+        "frequency": "annual",
+        "data_quality_score": 88,
+        "methodology": "Board independence ratio supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal (Brno)",
+      "id": "9bf8cd48-005a-54b7-8ea9-85aab1b29ed0",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal (Brno)",
+        "category": "S",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Sphera",
+        "frequency": "monthly",
+        "data_quality_score": 28,
+        "methodology": "Water withdrawal (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions (FY2024)",
+      "id": "9f339a9c-4168-5ae0-8131-d27656fca98d",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions (FY2024)",
+        "category": "S",
+        "disclosure_requirement": "S1.1",
+        "data_source": "Utility invoices",
+        "frequency": "daily",
+        "data_quality_score": 20,
+        "methodology": "Scope 1 GHG emissions (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap v2",
+      "id": "dec5883a-e484-51c5-acc2-b36657140d84",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap v2",
+        "category": "S",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Utility invoices",
+        "frequency": "quarterly",
+        "data_quality_score": 83,
+        "methodology": "Gender pay gap v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "GHG Protocol",
+        "rel:MEASURED_FROM:coverage_pct": 91,
+        "rel:MEASURED_FROM:quality_assessment": "B"
+      }
+    },
+    {
+      "metric": "Board independence ratio — updated",
+      "id": "196afeee-281f-5ebd-84c7-173df1c39eef",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio — updated",
+        "category": "S",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Utility invoices",
+        "frequency": "quarterly",
+        "data_quality_score": 20,
+        "methodology": "Board independence ratio — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal #36",
+      "id": "ca4688f9-7d28-5c50-afb4-ea65a37c5a80",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal #36",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Utility invoices",
+        "frequency": "quarterly",
+        "data_quality_score": 96,
+        "methodology": "Water withdrawal #36 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions",
+      "id": "f221a54e-db49-5cf0-9b71-44209c89d9f1",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions",
+        "category": "S",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Supplier portal",
+        "frequency": "annual",
+        "data_quality_score": 95,
+        "methodology": "Scope 1 GHG emissions supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap (Brno)",
+      "id": "1873bec0-3c36-51b6-9cbf-cdd82e9f58e3",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap (Brno)",
+        "category": "E",
+        "disclosure_requirement": "S1.1",
+        "data_source": "Supplier portal",
+        "frequency": "annual",
+        "data_quality_score": 25,
+        "methodology": "Gender pay gap (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio (FY2024)",
+      "id": "617d4c41-91c8-5529-8b40-3a8b05c06720",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio (FY2024)",
+        "category": "G",
+        "disclosure_requirement": "G1.3",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 70,
+        "methodology": "Board independence ratio (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal v2",
+      "id": "ddff1fe3-0097-5bd1-8617-1fde6bb37898",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal v2",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "ERP/HR feeds",
+        "frequency": "quarterly",
+        "data_quality_score": 35,
+        "methodology": "Water withdrawal v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "market-based",
+        "rel:MEASURED_FROM:coverage_pct": 69,
+        "rel:MEASURED_FROM:quality_assessment": "C"
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions — updated",
+      "id": "ce2086cd-23cc-505c-b487-e12081f23297",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions — updated",
+        "category": "S",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Supplier portal",
+        "frequency": "daily",
+        "data_quality_score": 78,
+        "methodology": "Scope 1 GHG emissions — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap #42",
+      "id": "6f5f34e3-9964-5a2b-be35-7498efa8da13",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap #42",
+        "category": "S",
+        "disclosure_requirement": "E1.5",
+        "data_source": "ERP/HR feeds",
+        "frequency": "daily",
+        "data_quality_score": 16,
+        "methodology": "Gender pay gap #42 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "GHG Protocol",
+        "rel:MEASURED_FROM:coverage_pct": 79,
+        "rel:MEASURED_FROM:quality_assessment": "C"
+      }
+    },
+    {
+      "metric": "Board independence ratio",
+      "id": "577d808a-f283-5f89-8146-d54cd0d0e9d3",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio",
+        "category": "E",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Utility invoices",
+        "frequency": "weekly",
+        "data_quality_score": 72,
+        "methodology": "Board independence ratio supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "location-based",
+        "rel:MEASURED_FROM:coverage_pct": 93,
+        "rel:MEASURED_FROM:quality_assessment": "A",
+        "rel:REPORTED_IN:value": 2898,
+        "rel:REPORTED_IN:period": "Q4 2024",
+        "rel:REPORTED_IN:assured": false,
+        "rel:REPORTED_IN:page_reference": 158
+      }
+    },
+    {
+      "metric": "Water withdrawal (Brno)",
+      "id": "c60c8672-69a8-5ce0-8ed8-f923c19d022a",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal (Brno)",
+        "category": "S",
+        "disclosure_requirement": "E1.5",
+        "data_source": "Sphera",
+        "frequency": "quarterly",
+        "data_quality_score": 45,
+        "methodology": "Water withdrawal (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions (FY2024)",
+      "id": "ae142850-877e-5dfb-b8d4-d8023d2c8583",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions (FY2024)",
+        "category": "G",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Utility invoices",
+        "frequency": "weekly",
+        "data_quality_score": 92,
+        "methodology": "Scope 1 GHG emissions (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 33024,
+        "rel:REPORTED_IN:period": "Q1 2024",
+        "rel:REPORTED_IN:assured": false,
+        "rel:REPORTED_IN:page_reference": 58
+      }
+    },
+    {
+      "metric": "Gender pay gap v2",
+      "id": "0aa95927-2b72-54ae-ab79-b8d91a905e9f",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap v2",
+        "category": "G",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "ERP/HR feeds",
+        "frequency": "daily",
+        "data_quality_score": 86,
+        "methodology": "Gender pay gap v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio — updated",
+      "id": "f387dec5-f1ef-5dc6-b254-8664fe7670e6",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio — updated",
+        "category": "G",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "ERP/HR feeds",
+        "frequency": "weekly",
+        "data_quality_score": 69,
+        "methodology": "Board independence ratio — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal #48",
+      "id": "a90c76cc-6720-58d0-81b4-d17c95e6660d",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal #48",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 26,
+        "methodology": "Water withdrawal #48 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions",
+      "id": "5901d9a3-96d6-5d63-9db2-5519b53339a6",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions",
+        "category": "E",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 71,
+        "methodology": "Scope 1 GHG emissions supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap (Brno)",
+      "id": "9567e18a-6fdf-5691-bed7-3d367516f01f",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap (Brno)",
+        "category": "S",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Supplier portal",
+        "frequency": "quarterly",
+        "data_quality_score": 86,
+        "methodology": "Gender pay gap (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "activity-based",
+        "rel:MEASURED_FROM:coverage_pct": 83,
+        "rel:MEASURED_FROM:quality_assessment": "C"
+      }
+    },
+    {
+      "metric": "Board independence ratio (FY2024)",
+      "id": "0517f6b0-62fa-5266-b514-7c05c649b38a",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio (FY2024)",
+        "category": "G",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 83,
+        "methodology": "Board independence ratio (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 3308,
+        "rel:REPORTED_IN:period": "Q1 2024",
+        "rel:REPORTED_IN:assured": false,
+        "rel:REPORTED_IN:page_reference": 56
+      }
+    },
+    {
+      "metric": "Water withdrawal v2",
+      "id": "911f5cfc-5b4f-53d7-8b79-d371ed1bc64f",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal v2",
+        "category": "G",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "ERP/HR feeds",
+        "frequency": "daily",
+        "data_quality_score": 79,
+        "methodology": "Water withdrawal v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "market-based",
+        "rel:MEASURED_FROM:coverage_pct": 77,
+        "rel:MEASURED_FROM:quality_assessment": "A"
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions — updated",
+      "id": "1a3e38e7-7192-55a5-9f12-22a8f5fceb60",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions — updated",
+        "category": "E",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Supplier portal",
+        "frequency": "daily",
+        "data_quality_score": 10,
+        "methodology": "Scope 1 GHG emissions — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 31493,
+        "rel:REPORTED_IN:period": "FY2024",
+        "rel:REPORTED_IN:assured": false,
+        "rel:REPORTED_IN:page_reference": 110
+      }
+    },
+    {
+      "metric": "Gender pay gap #54",
+      "id": "1a464fea-7b1f-5802-aac7-7c4fc2496b59",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap #54",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Sphera",
+        "frequency": "daily",
+        "data_quality_score": 38,
+        "methodology": "Gender pay gap #54 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio",
+      "id": "129b9e37-62be-5451-8a2b-9e1b62428795",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio",
+        "category": "G",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Utility invoices",
+        "frequency": "daily",
+        "data_quality_score": 86,
+        "methodology": "Board independence ratio supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal (Brno)",
+      "id": "7d837a7f-b61b-5279-91c9-ef961e1ebdb8",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal (Brno)",
+        "category": "E",
+        "disclosure_requirement": "E1.5",
+        "data_source": "Supplier portal",
+        "frequency": "annual",
+        "data_quality_score": 66,
+        "methodology": "Water withdrawal (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "market-based",
+        "rel:MEASURED_FROM:coverage_pct": 63,
+        "rel:MEASURED_FROM:quality_assessment": "A",
+        "rel:REPORTED_IN:value": 32614,
+        "rel:REPORTED_IN:period": "FY2024",
+        "rel:REPORTED_IN:assured": false,
+        "rel:REPORTED_IN:page_reference": 121
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions (FY2024)",
+      "id": "47cf01c1-fb80-59de-bcca-e853cd84a92b",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions (FY2024)",
+        "category": "E",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Utility invoices",
+        "frequency": "annual",
+        "data_quality_score": 63,
+        "methodology": "Scope 1 GHG emissions (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap v2",
+      "id": "2641517b-848f-5432-a7fa-a750b8121d4c",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap v2",
+        "category": "E",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Sphera",
+        "frequency": "quarterly",
+        "data_quality_score": 61,
+        "methodology": "Gender pay gap v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio — updated",
+      "id": "9e3039b6-0e5e-5ef9-955b-0a29b30ab1a9",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio — updated",
+        "category": "S",
+        "disclosure_requirement": "E1.5",
+        "data_source": "Utility invoices",
+        "frequency": "quarterly",
+        "data_quality_score": 48,
+        "methodology": "Board independence ratio — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal #60",
+      "id": "395a7051-916b-50e8-abaf-e7ac86349a59",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal #60",
+        "category": "G",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Supplier portal",
+        "frequency": "annual",
+        "data_quality_score": 98,
+        "methodology": "Water withdrawal #60 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions",
+      "id": "f7e37ade-8b5a-515f-8b48-f27754da1bce",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions",
+        "category": "S",
+        "disclosure_requirement": "E1.5",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 70,
+        "methodology": "Scope 1 GHG emissions supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap (Brno)",
+      "id": "47f2971d-45b4-5f5f-83b2-bb158b4b00bf",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap (Brno)",
+        "category": "G",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Supplier portal",
+        "frequency": "quarterly",
+        "data_quality_score": 64,
+        "methodology": "Gender pay gap (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio (FY2024)",
+      "id": "70577615-b5d3-526b-8544-fd43505e0df2",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio (FY2024)",
+        "category": "E",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Utility invoices",
+        "frequency": "quarterly",
+        "data_quality_score": 23,
+        "methodology": "Board independence ratio (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal v2",
+      "id": "7e7088b4-d1eb-530c-a7d9-34e8302f031e",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal v2",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Supplier portal",
+        "frequency": "weekly",
+        "data_quality_score": 83,
+        "methodology": "Water withdrawal v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "location-based",
+        "rel:MEASURED_FROM:coverage_pct": 70,
+        "rel:MEASURED_FROM:quality_assessment": "B"
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions — updated",
+      "id": "63639b6a-fec5-5f37-a07f-152eab47df6e",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions — updated",
+        "category": "S",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 78,
+        "methodology": "Scope 1 GHG emissions — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap #66",
+      "id": "b4b6b94f-23d9-5e10-8822-de5b8ca28f7a",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap #66",
+        "category": "G",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "ERP/HR feeds",
+        "frequency": "quarterly",
+        "data_quality_score": 68,
+        "methodology": "Gender pay gap #66 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "GHG Protocol",
+        "rel:MEASURED_FROM:coverage_pct": 91,
+        "rel:MEASURED_FROM:quality_assessment": "C"
+      }
+    },
+    {
+      "metric": "Board independence ratio",
+      "id": "5209f8c1-b91f-59b6-8531-4415a89f5fc1",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio",
+        "category": "G",
+        "disclosure_requirement": "E1.5",
+        "data_source": "Utility invoices",
+        "frequency": "annual",
+        "data_quality_score": 68,
+        "methodology": "Board independence ratio supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal (Brno)",
+      "id": "992b40c0-337d-5a6b-9d47-d3236f2f197a",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal (Brno)",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Utility invoices",
+        "frequency": "daily",
+        "data_quality_score": 63,
+        "methodology": "Water withdrawal (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "location-based",
+        "rel:MEASURED_FROM:coverage_pct": 80,
+        "rel:MEASURED_FROM:quality_assessment": "A"
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions (FY2024)",
+      "id": "9411a0bd-46b5-5274-90cd-5be8bc8c42a6",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions (FY2024)",
+        "category": "E",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Supplier portal",
+        "frequency": "monthly",
+        "data_quality_score": 11,
+        "methodology": "Scope 1 GHG emissions (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap v2",
+      "id": "ba9d2d1c-ce02-5c4f-97ed-96c6a65a770e",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap v2",
+        "category": "S",
+        "disclosure_requirement": "E1.5",
+        "data_source": "Utility invoices",
+        "frequency": "annual",
+        "data_quality_score": 73,
+        "methodology": "Gender pay gap v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio — updated",
+      "id": "29d75503-fe39-5d9f-9323-0295c3dcbf88",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio — updated",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Utility invoices",
+        "frequency": "quarterly",
+        "data_quality_score": 38,
+        "methodology": "Board independence ratio — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal #72",
+      "id": "28129da4-a644-5ee4-8a0b-a40c55e85a3e",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal #72",
+        "category": "G",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Utility invoices",
+        "frequency": "annual",
+        "data_quality_score": 10,
+        "methodology": "Water withdrawal #72 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions",
+      "id": "4915e84c-7920-57d9-80f1-52f53454009f",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions",
+        "category": "S",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 75,
+        "methodology": "Scope 1 GHG emissions supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap (Brno)",
+      "id": "f8c07ae5-4648-50ef-a661-0a25fa2bd265",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap (Brno)",
+        "category": "S",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Utility invoices",
+        "frequency": "daily",
+        "data_quality_score": 62,
+        "methodology": "Gender pay gap (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "GHG Protocol",
+        "rel:MEASURED_FROM:coverage_pct": 74,
+        "rel:MEASURED_FROM:quality_assessment": "C"
+      }
+    },
+    {
+      "metric": "Board independence ratio (FY2024)",
+      "id": "e5cb27b5-6165-5416-b4f0-3a36260fa73d",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio (FY2024)",
+        "category": "G",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Sphera",
+        "frequency": "quarterly",
+        "data_quality_score": 17,
+        "methodology": "Board independence ratio (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal v2",
+      "id": "561ad45d-89eb-50dc-831b-cb67327e2772",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal v2",
+        "category": "S",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Supplier portal",
+        "frequency": "daily",
+        "data_quality_score": 51,
+        "methodology": "Water withdrawal v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "GHG Protocol",
+        "rel:MEASURED_FROM:coverage_pct": 76,
+        "rel:MEASURED_FROM:quality_assessment": "A"
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions — updated",
+      "id": "d2e6f113-4989-50f0-af91-28a7f9b2af4d",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions — updated",
+        "category": "E",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Utility invoices",
+        "frequency": "daily",
+        "data_quality_score": 10,
+        "methodology": "Scope 1 GHG emissions — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap #78",
+      "id": "9b86420d-6525-53a7-babc-e4c45edbc177",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap #78",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 65,
+        "methodology": "Gender pay gap #78 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "location-based",
+        "rel:MEASURED_FROM:coverage_pct": 71,
+        "rel:MEASURED_FROM:quality_assessment": "A"
+      }
+    },
+    {
+      "metric": "Board independence ratio",
+      "id": "6ac9acd7-8aba-51a9-a7f7-fdd0b6ebea55",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio",
+        "category": "G",
+        "disclosure_requirement": "E1.5",
+        "data_source": "ERP/HR feeds",
+        "frequency": "daily",
+        "data_quality_score": 70,
+        "methodology": "Board independence ratio supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal (Brno)",
+      "id": "5a1bbca6-8571-57fc-b22a-bd83cfd2847b",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal (Brno)",
+        "category": "E",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Supplier portal",
+        "frequency": "quarterly",
+        "data_quality_score": 55,
+        "methodology": "Water withdrawal (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions (FY2024)",
+      "id": "e26e80be-ab3f-5b96-80d4-36914d7a2ef9",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions (FY2024)",
+        "category": "G",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Supplier portal",
+        "frequency": "daily",
+        "data_quality_score": 48,
+        "methodology": "Scope 1 GHG emissions (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "activity-based",
+        "rel:MEASURED_FROM:coverage_pct": 87,
+        "rel:MEASURED_FROM:quality_assessment": "C"
+      }
+    },
+    {
+      "metric": "Gender pay gap v2",
+      "id": "a2782e22-f7a0-5bcf-868d-7ad1fbd242d6",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap v2",
+        "category": "G",
+        "disclosure_requirement": "S1.1",
+        "data_source": "Utility invoices",
+        "frequency": "daily",
+        "data_quality_score": 43,
+        "methodology": "Gender pay gap v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio — updated",
+      "id": "3907f59e-9d7f-515d-9254-0dc9194458ef",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio — updated",
+        "category": "S",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Supplier portal",
+        "frequency": "annual",
+        "data_quality_score": 91,
+        "methodology": "Board independence ratio — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal #84",
+      "id": "4511dbc6-7f56-53a8-a041-65f97744b3be",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal #84",
+        "category": "E",
+        "disclosure_requirement": "E1.5",
+        "data_source": "Supplier portal",
+        "frequency": "monthly",
+        "data_quality_score": 81,
+        "methodology": "Water withdrawal #84 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions",
+      "id": "065554d3-3a65-5bd9-aaaf-bd67e2280a9d",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions",
+        "category": "S",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "ERP/HR feeds",
+        "frequency": "monthly",
+        "data_quality_score": 79,
+        "methodology": "Scope 1 GHG emissions supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap (Brno)",
+      "id": "a7fdd2e3-46fa-57f7-b6d3-c8b7f4d8dd11",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap (Brno)",
+        "category": "S",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Utility invoices",
+        "frequency": "quarterly",
+        "data_quality_score": 92,
+        "methodology": "Gender pay gap (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio (FY2024)",
+      "id": "d3c8e57c-a120-5a43-8777-80a995b3af09",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio (FY2024)",
+        "category": "E",
+        "disclosure_requirement": "ESRS E1-6",
+        "data_source": "Sphera",
+        "frequency": "quarterly",
+        "data_quality_score": 7,
+        "methodology": "Board independence ratio (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal v2",
+      "id": "5fa54974-4471-558b-a5d6-4af815e10d9c",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal v2",
+        "category": "S",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Utility invoices",
+        "frequency": "quarterly",
+        "data_quality_score": 57,
+        "methodology": "Water withdrawal v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:MEASURED_FROM:calculation_method": "activity-based",
+        "rel:MEASURED_FROM:coverage_pct": 64,
+        "rel:MEASURED_FROM:quality_assessment": "A"
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions — updated",
+      "id": "30095a30-cfcf-580c-8dc2-ae3487b0a05f",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions — updated",
+        "category": "G",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Utility invoices",
+        "frequency": "daily",
+        "data_quality_score": 83,
+        "methodology": "Scope 1 GHG emissions — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap #90",
+      "id": "d36930ed-1283-5e89-9bec-992cae9fed64",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap #90",
+        "category": "S",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Sphera",
+        "frequency": "quarterly",
+        "data_quality_score": 71,
+        "methodology": "Gender pay gap #90 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio",
+      "id": "53510972-a40b-550e-b647-46832ed0e80d",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio",
+        "category": "E",
+        "disclosure_requirement": "S1.1",
+        "data_source": "Supplier portal",
+        "frequency": "weekly",
+        "data_quality_score": 72,
+        "methodology": "Board independence ratio supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal (Brno)",
+      "id": "42b71571-3d8d-5d36-8c4f-631fdd55140c",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal (Brno)",
+        "category": "S",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "ERP/HR feeds",
+        "frequency": "weekly",
+        "data_quality_score": 73,
+        "methodology": "Water withdrawal (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions (FY2024)",
+      "id": "19597f51-2fa6-5e5f-81d5-c88fa0169cd4",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions (FY2024)",
+        "category": "S",
+        "disclosure_requirement": "S1.1",
+        "data_source": "Supplier portal",
+        "frequency": "annual",
+        "data_quality_score": 83,
+        "methodology": "Scope 1 GHG emissions (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap v2",
+      "id": "06f7b42a-245c-54fe-82f9-6b2948b58821",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap v2",
+        "category": "S",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "ERP/HR feeds",
+        "frequency": "annual",
+        "data_quality_score": 76,
+        "methodology": "Gender pay gap v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Board independence ratio — updated",
+      "id": "eb91e5b5-25d1-5288-b6b9-2069c1d263cc",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio — updated",
+        "category": "S",
+        "disclosure_requirement": "ESRS S1-14",
+        "data_source": "Supplier portal",
+        "frequency": "annual",
+        "data_quality_score": 95,
+        "methodology": "Board independence ratio — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal #96",
+      "id": "1c6647b6-6487-59ad-84ed-bbd53e5320ec",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal #96",
+        "category": "E",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Utility invoices",
+        "frequency": "annual",
+        "data_quality_score": 66,
+        "methodology": "Water withdrawal #96 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Scope 1 GHG emissions",
+      "id": "701e2524-d56f-51f4-b426-8190b23db723",
+      "domain_id": "esg",
+      "data": {
+        "unit": "tCO2e",
+        "name": "Scope 1 GHG emissions",
+        "category": "S",
+        "disclosure_requirement": "S1.1",
+        "data_source": "Supplier portal",
+        "frequency": "annual",
+        "data_quality_score": 20,
+        "methodology": "Scope 1 GHG emissions supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Gender pay gap (Brno)",
+      "id": "e00b1b40-4c10-586d-bdfb-e42d1fd55ebc",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Gender pay gap (Brno)",
+        "category": "G",
+        "disclosure_requirement": "G1.3",
+        "data_source": "Utility invoices",
+        "frequency": "weekly",
+        "data_quality_score": 49,
+        "methodology": "Gender pay gap (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:REPORTED_IN:value": 37828,
+        "rel:REPORTED_IN:period": "Q4 2024",
+        "rel:REPORTED_IN:assured": false,
+        "rel:REPORTED_IN:page_reference": 56
+      }
+    },
+    {
+      "metric": "Board independence ratio (FY2024)",
+      "id": "95d3504c-e06f-54bc-8807-43d128facd00",
+      "domain_id": "esg",
+      "data": {
+        "unit": "%",
+        "name": "Board independence ratio (FY2024)",
+        "category": "E",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Sphera",
+        "frequency": "annual",
+        "data_quality_score": 96,
+        "methodology": "Board independence ratio (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "metric": "Water withdrawal v2",
+      "id": "c8cee7c3-41d4-57e9-9c7e-3135f38f0c52",
+      "domain_id": "esg",
+      "data": {
+        "unit": "m³",
+        "name": "Water withdrawal v2",
+        "category": "E",
+        "disclosure_requirement": "ESRS G1-1",
+        "data_source": "Utility invoices",
+        "frequency": "annual",
+        "data_quality_score": 66,
+        "methodology": "Water withdrawal v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    }
+  ]
+}

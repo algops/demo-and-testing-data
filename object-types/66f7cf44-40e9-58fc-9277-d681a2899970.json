@@ -1,0 +1,12 @@
+{
+  "id": "66f7cf44-40e9-58fc-9277-d681a2899970",
+  "name": "system",
+  "description": "Object type system",
+  "org_id": "org:anchor",
+  "domain_id": "shared",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 12,
+  "datapoint_count": 0
+}

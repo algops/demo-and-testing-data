@@ -1,0 +1,12 @@
+{
+  "id": "e6823b6e-f0f1-5219-baaf-076c0ad828bd",
+  "name": "tax_treaty",
+  "description": "Object type tax_treaty",
+  "org_id": "org:anchor",
+  "domain_id": "tax",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 6,
+  "datapoint_count": 5
+}

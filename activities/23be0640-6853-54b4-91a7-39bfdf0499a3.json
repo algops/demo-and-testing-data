@@ -1,0 +1,38 @@
+{
+  "id": "23be0640-6853-54b4-91a7-39bfdf0499a3",
+  "name": "Tax filing ops — krok 2",
+  "description": "Aktivita workflow Tax filing ops",
+  "type": "enrich",
+  "object_type": "engagement",
+  "status": "active",
+  "verification_status": true,
+  "setup": {
+    "data": {
+      "integration_step": {
+        "id": "a96d3a9f-20bc-5c5d-af47-58e367de01d0",
+        "type": "source",
+        "destination": {}
+      }
+    }
+  },
+  "runtime_stats": {
+    "total_requests": 507,
+    "successful_requests": 453,
+    "failed_requests": 54,
+    "success_rate": 0.94,
+    "average_duration": 90.0,
+    "last_used_at": "2025-06-01T12:00:00Z"
+  },
+  "metadata": {
+    "owner_org_id": "org:anchor",
+    "owner_org_name": "Meridian Pay a.s.",
+    "created_at": "2025-06-01T12:00:00Z",
+    "updated_at": "2025-06-01T12:00:00Z",
+    "workflows": [
+      {
+        "id": "69646cb7-122d-59c5-8777-f41dfafe6348",
+        "name": "Tax filing ops"
+      }
+    ]
+  }
+}

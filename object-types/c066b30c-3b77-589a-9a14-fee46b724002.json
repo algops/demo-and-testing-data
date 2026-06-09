@@ -1,0 +1,12 @@
+{
+  "id": "c066b30c-3b77-589a-9a14-fee46b724002",
+  "name": "database",
+  "description": "Object type database",
+  "org_id": "org:anchor",
+  "domain_id": "it",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 10,
+  "datapoint_count": 8
+}

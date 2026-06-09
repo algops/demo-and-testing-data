@@ -1,0 +1,12 @@
+{
+  "id": "acd8edb8-e328-5c5e-afb4-e3d59c297eae",
+  "name": "person",
+  "description": "Object type person",
+  "org_id": "org:anchor",
+  "domain_id": "shared",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 220,
+  "datapoint_count": 5
+}

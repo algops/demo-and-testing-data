@@ -1,0 +1,12 @@
+{
+  "id": "6cd01a75-5c59-59bd-bc80-6329953fcc2c",
+  "name": "template",
+  "description": "Object type template",
+  "org_id": "org:anchor",
+  "domain_id": "legal",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 15,
+  "datapoint_count": 10
+}

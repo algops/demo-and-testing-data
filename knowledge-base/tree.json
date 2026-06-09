@@ -1,62 +1,734 @@
 {
   "tree": [
     {
-      "id": "folder-support",
-      "name": "support",
+      "id": "folder-63d3b239",
+      "name": "knowledgebase",
       "type": "folder",
       "children": [
         {
-          "id": "file-troubleshooting",
-          "name": "troubleshooting.md",
-          "type": "file",
-          "fileId": "kb-troubleshooting"
+          "id": "folder-6383aba0",
+          "name": "esg",
+          "type": "folder",
+          "children": [
+            {
+              "id": "folder-13908efb",
+              "name": "compliance",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-2d9be334",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-a8e71948",
+                      "name": "politika-udržitelného-financování-v1.md",
+                      "type": "file",
+                      "fileId": "kb-esg-007"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-4d9926c2",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-d2172992",
+                      "name": "politika-životního-prostředí-meridian-pay.md",
+                      "type": "file",
+                      "fileId": "kb-esg-001"
+                    },
+                    {
+                      "id": "file-75d9a2da",
+                      "name": "příručka-csrd-a-esrs-pro-fy2024.md",
+                      "type": "file",
+                      "fileId": "kb-esg-002"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-69e11a16",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-5d33ada9",
+                      "name": "metodika-výpočtu-taxonomy-alignment-kpi.md",
+                      "type": "file",
+                      "fileId": "kb-esg-009"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-e0656d12",
+              "name": "engineering",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-67fcf1c7",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-71f32394",
+                      "name": "faq:-eu-taxonomy-a-dnsh-kritéria.md",
+                      "type": "file",
+                      "fileId": "kb-esg-006"
+                    },
+                    {
+                      "id": "file-a2f2ad20",
+                      "name": "adr:-architektura-esg-datové-platformy.md",
+                      "type": "file",
+                      "fileId": "kb-esg-010"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-30e8e81c",
+              "name": "operations",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-6d6e80b1",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-7065843e",
+                      "name": "runbook-sběru-emisních-dat-scope-1–3.md",
+                      "type": "file",
+                      "fileId": "kb-esg-003"
+                    },
+                    {
+                      "id": "file-70c375d1",
+                      "name": "sop:-double-materiality-assessment.md",
+                      "type": "file",
+                      "fileId": "kb-esg-004"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-74bf554a",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-e547fd1b",
+                      "name": "runbook:-csddd-due-diligence-dodavatelů.md",
+                      "type": "file",
+                      "fileId": "kb-esg-008"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-203b68de",
+              "name": "templates",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-d3e9f735",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-85d86123",
+                      "name": "šablona-esg-dotazníku-pro-dodavatele.md",
+                      "type": "file",
+                      "fileId": "kb-esg-005"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "id": "file-faq",
-          "name": "faq.md",
-          "type": "file",
-          "fileId": "kb-faq"
-        }
-      ]
-    },
-    {
-      "id": "folder-installation",
-      "name": "installation",
-      "type": "folder",
-      "children": [
+          "id": "folder-c09b3cab",
+          "name": "hr",
+          "type": "folder",
+          "children": [
+            {
+              "id": "folder-321cdebb",
+              "name": "compliance",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-850a78df",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-fe3fbb91",
+                      "name": "politika-home-office-v1.md",
+                      "type": "file",
+                      "fileId": "kb-hr-049"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-20ca9dde",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-8abbfdec",
+                      "name": "politika-pracovněprávních-vztahů.md",
+                      "type": "file",
+                      "fileId": "kb-hr-043"
+                    },
+                    {
+                      "id": "file-9ca9caf6",
+                      "name": "příručka-bozp-a-povinná-školení.md",
+                      "type": "file",
+                      "fileId": "kb-hr-048"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-e67b9f72",
+              "name": "operations",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-3e6c4216",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-cb43e8e4",
+                      "name": "runbook:-roční-hodnocení-výkonu.md",
+                      "type": "file",
+                      "fileId": "kb-hr-051"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-89944655",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-e7ce206b",
+                      "name": "sop:-nástup-nového-zaměstnance.md",
+                      "type": "file",
+                      "fileId": "kb-hr-044"
+                    },
+                    {
+                      "id": "file-f918ae31",
+                      "name": "runbook:-řízení-absence-a-dovolené.md",
+                      "type": "file",
+                      "fileId": "kb-hr-045"
+                    },
+                    {
+                      "id": "file-04510fb3",
+                      "name": "faq:-benefity-a-sick-days.md",
+                      "type": "file",
+                      "fileId": "kb-hr-047"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-cb1fea18",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-b15dfb36",
+                      "name": "sop:-offboarding-a-předání-přístupů.md",
+                      "type": "file",
+                      "fileId": "kb-hr-050"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-58c1ad81",
+              "name": "templates",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-f5e729d6",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-bb08413d",
+                      "name": "šablona-pracovní-smlouvy-—-hq.md",
+                      "type": "file",
+                      "fileId": "kb-hr-046"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-5d8accb4",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-ffad1ca3",
+                      "name": "šablona-interního-přesunu.md",
+                      "type": "file",
+                      "fileId": "kb-hr-052"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
-          "id": "file-install-guide",
-          "name": "guide-v2.md",
-          "type": "file",
-          "fileId": "kb-install-guide"
-        }
-      ]
-    },
-    {
-      "id": "folder-skills",
-      "name": "skills",
-      "type": "folder",
-      "children": [
+          "id": "folder-23faf8db",
+          "name": "it",
+          "type": "folder",
+          "children": [
+            {
+              "id": "folder-1cab5f1e",
+              "name": "compliance",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-bc48d533",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-9c90c37c",
+                      "name": "politika-bezpečnosti-vývoje-(secure-sdlc).md",
+                      "type": "file",
+                      "fileId": "kb-it-014"
+                    },
+                    {
+                      "id": "file-f81b1b3b",
+                      "name": "příručka-snyk-a-dependency-scanning.md",
+                      "type": "file",
+                      "fileId": "kb-it-021"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-e71e1af6",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-9133a21e",
+                      "name": "politika-přístupu-k-produkčním-systémům.md",
+                      "type": "file",
+                      "fileId": "kb-it-022"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-be884b75",
+              "name": "engineering",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-74c84f37",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-8628d88b",
+                      "name": "adr-012:-event-driven-integrace-s-core-banking.md",
+                      "type": "file",
+                      "fileId": "kb-it-019"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-7d71d2e2",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-7eec0910",
+                      "name": "adr-001:-mikroservisní-architektura-platební-brány.md",
+                      "type": "file",
+                      "fileId": "kb-it-011"
+                    },
+                    {
+                      "id": "file-3cd7e38c",
+                      "name": "příručka-observability-—-datadog-a-slo.md",
+                      "type": "file",
+                      "fileId": "kb-it-015"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-fa1884ba",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-a1d63b8b",
+                      "name": "faq:-gitlab-ci/cd-a-release-train.md",
+                      "type": "file",
+                      "fileId": "kb-it-017"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-89a304fd",
+              "name": "operations",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-715880d0",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-506369a9",
+                      "name": "runbook:-rollback-produkčního-release.md",
+                      "type": "file",
+                      "fileId": "kb-it-018"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-48cf1b20",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-8ed2b8b7",
+                      "name": "runbook-incident-response-p1/p2.md",
+                      "type": "file",
+                      "fileId": "kb-it-012"
+                    },
+                    {
+                      "id": "file-df928676",
+                      "name": "sop:-code-review-a-merge-do-main.md",
+                      "type": "file",
+                      "fileId": "kb-it-013"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-99acb621",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-12fc1013",
+                      "name": "sop:-on-call-rotace-a-eskalace.md",
+                      "type": "file",
+                      "fileId": "kb-it-020"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-59e120c4",
+              "name": "templates",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-c70c2e72",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-453da0f0",
+                      "name": "šablona-rfc-pro-změny-infrastruktury.md",
+                      "type": "file",
+                      "fileId": "kb-it-016"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
-          "id": "file-support-tone",
-          "name": "support-tone.md",
-          "type": "file",
-          "fileId": "kb-support-tone"
-        }
-      ]
-    },
-    {
-      "id": "folder-internal",
-      "name": "internal",
-      "type": "folder",
-      "restricted": true,
-      "restrictReason": "Internal policies — read-only in demo",
-      "children": [
+          "id": "folder-61872c8b",
+          "name": "legal",
+          "type": "folder",
+          "children": [
+            {
+              "id": "folder-94219f6c",
+              "name": "compliance",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-4202b390",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-da19cb64",
+                      "name": "politika-schvalování-smluv-nad-500-tis.-kč.md",
+                      "type": "file",
+                      "fileId": "kb-legal-030"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-9c4c3ac1",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-acb44d20",
+                      "name": "politika-compliance-a-whistleblowingu.md",
+                      "type": "file",
+                      "fileId": "kb-legal-023"
+                    },
+                    {
+                      "id": "file-2141b64c",
+                      "name": "příručka-gdpr-pro-smluvní-vztahy.md",
+                      "type": "file",
+                      "fileId": "kb-legal-026"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-89a22669",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-214378e9",
+                      "name": "přehled-legislativních-změn-q1-2025.md",
+                      "type": "file",
+                      "fileId": "kb-legal-031"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-562d7b1f",
+              "name": "operations",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-89f7def5",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-9bc66e87",
+                      "name": "sop:-conflict-check-před-novým-mandatem.md",
+                      "type": "file",
+                      "fileId": "kb-legal-025"
+                    },
+                    {
+                      "id": "file-e645174a",
+                      "name": "runbook:-due-diligence-—-fáze-a-checklist.md",
+                      "type": "file",
+                      "fileId": "kb-legal-027"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-79e5da16",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-f3ac7159",
+                      "name": "runbook:-redakce-citlivých-údajů-ve-spisech.md",
+                      "type": "file",
+                      "fileId": "kb-legal-032"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-e3b31b7b",
+              "name": "templates",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-1293ad1d",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-0829e11b",
+                      "name": "šablona-smlouvy-o-dílo-—-it-služby.md",
+                      "type": "file",
+                      "fileId": "kb-legal-029"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-adc85368",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-3062af73",
+                      "name": "šablona-nda-—-standardní-ujednání.md",
+                      "type": "file",
+                      "fileId": "kb-legal-024"
+                    },
+                    {
+                      "id": "file-8ef43dd8",
+                      "name": "faq:-imanage-a-správa-spisů.md",
+                      "type": "file",
+                      "fileId": "kb-legal-028"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
-          "id": "file-hr-policy",
-          "name": "hr-policies.md",
-          "type": "file",
-          "fileId": "kb-hr-policies"
+          "id": "folder-2d8d871d",
+          "name": "tax",
+          "type": "folder",
+          "children": [
+            {
+              "id": "folder-7d793e4c",
+              "name": "compliance",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-100bd4b2",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-84ca7e25",
+                      "name": "metodika-účtování-leasingu-dle-čús.md",
+                      "type": "file",
+                      "fileId": "kb-tax-039"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-9b7b00de",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-6b55d492",
+                      "name": "příručka-dph-pro-finanční-transakce.md",
+                      "type": "file",
+                      "fileId": "kb-tax-033"
+                    },
+                    {
+                      "id": "file-a331a829",
+                      "name": "faq:-elektronické-podání-přes-epo.md",
+                      "type": "file",
+                      "fileId": "kb-tax-037"
+                    },
+                    {
+                      "id": "file-89cdb7d4",
+                      "name": "politika-daňového-řízení-a-archivace.md",
+                      "type": "file",
+                      "fileId": "kb-tax-038"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-5d12cbc7",
+              "name": "operations",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-ecd844c1",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-64e7ca54",
+                      "name": "sop:-zpracování-záloh-na-daň-z-příjmů.md",
+                      "type": "file",
+                      "fileId": "kb-tax-041"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-a751e1e1",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-52948688",
+                      "name": "sop:-měsíční-dph-kontrola-a-podání.md",
+                      "type": "file",
+                      "fileId": "kb-tax-034"
+                    },
+                    {
+                      "id": "file-c8139cd3",
+                      "name": "runbook:-roční-daň-z-příjmů-po.md",
+                      "type": "file",
+                      "fileId": "kb-tax-035"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-51b0fdf5",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-19649b6f",
+                      "name": "runbook:-kontrola-od-finanční-správy.md",
+                      "type": "file",
+                      "fileId": "kb-tax-040"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-2e0a5ab2",
+              "name": "templates",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-ed46d4c9",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-a1d4ab58",
+                      "name": "šablona-transfer-pricing-dokumentace.md",
+                      "type": "file",
+                      "fileId": "kb-tax-036"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-2cc7f0d1",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-cb269f21",
+                      "name": "šablona-potvrzení-pro-zahraniční-zdanění.md",
+                      "type": "file",
+                      "fileId": "kb-tax-042"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }

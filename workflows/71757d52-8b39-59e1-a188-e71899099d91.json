@@ -1,0 +1,56 @@
+{
+  "id": "71757d52-8b39-59e1-a188-e71899099d91",
+  "slug": "it_code_review",
+  "name": "IT code review",
+  "domain_id": "it",
+  "owner_org_id": "org:anchor",
+  "status": "active",
+  "output_datasets": [
+    "it_service_health"
+  ],
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "description": "Workflow it_code_review pro doménu it",
+  "verification_status": true,
+  "owner_org_name": "Meridian Pay a.s.",
+  "last_used_at": "2025-06-01T12:00:00Z",
+  "total_executions": 25,
+  "successful_executions": 22,
+  "failed_executions": 3,
+  "success_rate": 0.89,
+  "activities_count": 2,
+  "phases_count": 2,
+  "average_duration": 150.5,
+  "setup": {
+    "data": {
+      "it_code_review_krok_1": {
+        "id": "83d4d296-bb4a-56b8-ba09-39b64f83db58",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 1,
+            "domain_id": "it"
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "977329aa-c751-5709-b506-df43a9af7451"
+            ]
+          }
+        }
+      },
+      "it_code_review_krok_2": {
+        "id": "977329aa-c751-5709-b506-df43a9af7451",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "domain_id": "it"
+          }
+        },
+        "destination": {}
+      }
+    }
+  }
+}

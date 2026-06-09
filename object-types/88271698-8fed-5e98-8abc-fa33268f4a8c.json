@@ -1,0 +1,12 @@
+{
+  "id": "88271698-8fed-5e98-8abc-fa33268f4a8c",
+  "name": "standard",
+  "description": "Object type standard",
+  "org_id": "org:anchor",
+  "domain_id": "esg",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 10,
+  "datapoint_count": 7
+}

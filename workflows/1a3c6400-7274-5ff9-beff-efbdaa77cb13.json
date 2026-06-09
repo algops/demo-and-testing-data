@@ -1,0 +1,57 @@
+{
+  "id": "1a3c6400-7274-5ff9-beff-efbdaa77cb13",
+  "slug": "legal_knowhow_index",
+  "name": "Legal know-how index",
+  "domain_id": "legal",
+  "owner_org_id": "org:anchor",
+  "status": "active",
+  "output_datasets": [
+    "legal_matter_index",
+    "legal_contract_index"
+  ],
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "description": "Workflow legal_knowhow_index pro doménu legal",
+  "verification_status": true,
+  "owner_org_name": "Meridian Pay a.s.",
+  "last_used_at": "2025-06-01T12:00:00Z",
+  "total_executions": 35,
+  "successful_executions": 30,
+  "failed_executions": 5,
+  "success_rate": 0.85,
+  "activities_count": 2,
+  "phases_count": 2,
+  "average_duration": 210.5,
+  "setup": {
+    "data": {
+      "legal_know_how_index_krok_1": {
+        "id": "6ce1c5d6-0222-527a-aa48-5a50c2cf1083",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 1,
+            "domain_id": "legal"
+          }
+        },
+        "destination": {
+          "activity": {
+            "id": [
+              "fbec8031-0713-5c89-b7e6-3bb113f76a2e"
+            ]
+          }
+        }
+      },
+      "legal_know_how_index_krok_2": {
+        "id": "fbec8031-0713-5c89-b7e6-3bb113f76a2e",
+        "type": "activity",
+        "setup": {
+          "config": {
+            "phase": 2,
+            "domain_id": "legal"
+          }
+        },
+        "destination": {}
+      }
+    }
+  }
+}

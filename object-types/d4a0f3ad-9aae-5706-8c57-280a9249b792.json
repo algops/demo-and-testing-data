@@ -1,0 +1,12 @@
+{
+  "id": "d4a0f3ad-9aae-5706-8c57-280a9249b792",
+  "name": "environment",
+  "description": "Object type environment",
+  "org_id": "org:anchor",
+  "domain_id": "it",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 5,
+  "datapoint_count": 7
+}

@@ -1,0 +1,136 @@
+{
+  "object_type_id": "864abc18-5c4f-5fb6-b5ab-9739c533e3a7",
+  "object_type_name": "economic_activity",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "economic_activity": "4.1 Electricity from solar PV",
+      "id": "58d6b872-d7cf-58f1-b6df-3fd40228419b",
+      "domain_id": "esg",
+      "data": {
+        "taxonomy_eligible": true,
+        "taxonomy_aligned": "aligned",
+        "name": "4.1 Electricity from solar PV",
+        "nace_code": "1.7",
+        "revenue_share_pct": 49,
+        "capex_share_pct": 94,
+        "opex_share_pct": 13,
+        "sc_criteria_met": true,
+        "dnsh_status": "ESG dnsh status — 4.1 Electricity from solar PV"
+      }
+    },
+    {
+      "economic_activity": "4.3 Electricity from wind",
+      "id": "c108927d-62d3-5ef1-8179-e6c960cf67d0",
+      "domain_id": "esg",
+      "data": {
+        "taxonomy_eligible": true,
+        "taxonomy_aligned": "aligned",
+        "name": "4.3 Electricity from wind",
+        "nace_code": "2.8",
+        "revenue_share_pct": 9,
+        "capex_share_pct": 41,
+        "opex_share_pct": 57,
+        "sc_criteria_met": true,
+        "dnsh_status": "ESG dnsh status — 4.3 Electricity from wind"
+      }
+    },
+    {
+      "economic_activity": "4.29 Electricity from fossil gas",
+      "id": "330e1e93-6ecf-5e10-a606-3cdcdd388a51",
+      "domain_id": "esg",
+      "data": {
+        "taxonomy_eligible": false,
+        "taxonomy_aligned": "not aligned",
+        "name": "4.29 Electricity from fossil gas",
+        "nace_code": "3.7",
+        "revenue_share_pct": 52,
+        "capex_share_pct": 53,
+        "opex_share_pct": 62,
+        "sc_criteria_met": false,
+        "dnsh_status": "ESG dnsh status — 4.29 Electricity from fossil gas"
+      }
+    },
+    {
+      "economic_activity": "7.7 Acquisition of non-residential buildings",
+      "id": "54fd7935-5c98-5cc2-b5ed-bf554f50b8cd",
+      "domain_id": "esg",
+      "data": {
+        "taxonomy_eligible": true,
+        "taxonomy_aligned": "pending",
+        "name": "7.7 Acquisition of non-residential buildings",
+        "nace_code": "7.2",
+        "revenue_share_pct": 92,
+        "capex_share_pct": 89,
+        "opex_share_pct": 74,
+        "sc_criteria_met": true,
+        "dnsh_status": "ESG dnsh status — 7.7 Acquisition of non-residential build"
+      }
+    },
+    {
+      "economic_activity": "4.1 Electricity from solar PV — updated",
+      "id": "bac52b5b-4da1-5b9e-ab1c-1ec72e8212a0",
+      "domain_id": "esg",
+      "data": {
+        "taxonomy_eligible": true,
+        "taxonomy_aligned": "aligned",
+        "name": "4.1 Electricity from solar PV — updated",
+        "nace_code": "6.2",
+        "revenue_share_pct": 27,
+        "capex_share_pct": 73,
+        "opex_share_pct": 55,
+        "sc_criteria_met": true,
+        "dnsh_status": "ESG dnsh status — 4.1 Electricity from solar PV — updated"
+      }
+    },
+    {
+      "economic_activity": "4.3 Electricity from wind #6",
+      "id": "a959d0c6-e96a-5325-a693-26f1dd301b59",
+      "domain_id": "esg",
+      "data": {
+        "taxonomy_eligible": true,
+        "taxonomy_aligned": "aligned",
+        "name": "4.3 Electricity from wind #6",
+        "nace_code": "4.1",
+        "revenue_share_pct": 7,
+        "capex_share_pct": 43,
+        "opex_share_pct": 64,
+        "sc_criteria_met": false,
+        "dnsh_status": "ESG dnsh status — 4.3 Electricity from wind #6"
+      }
+    },
+    {
+      "economic_activity": "4.29 Electricity from fossil gas",
+      "id": "e787c356-a399-5bee-818a-97daeaf47fdb",
+      "domain_id": "esg",
+      "data": {
+        "taxonomy_eligible": false,
+        "taxonomy_aligned": "not aligned",
+        "name": "4.29 Electricity from fossil gas",
+        "nace_code": "9.7",
+        "revenue_share_pct": 34,
+        "capex_share_pct": 36,
+        "opex_share_pct": 63,
+        "sc_criteria_met": false,
+        "dnsh_status": "ESG dnsh status — 4.29 Electricity from fossil gas"
+      }
+    },
+    {
+      "economic_activity": "7.7 Acquisition of non-residential buildings (Brno)",
+      "id": "9a66e643-b121-5ca5-b73b-b1f42910fb8d",
+      "domain_id": "esg",
+      "data": {
+        "taxonomy_eligible": true,
+        "taxonomy_aligned": "pending",
+        "name": "7.7 Acquisition of non-residential buildings (Brno)",
+        "nace_code": "3.5",
+        "revenue_share_pct": 29,
+        "capex_share_pct": 97,
+        "opex_share_pct": 19,
+        "sc_criteria_met": true,
+        "dnsh_status": "ESG dnsh status — 7.7 Acquisition of non-residential build"
+      }
+    }
+  ]
+}

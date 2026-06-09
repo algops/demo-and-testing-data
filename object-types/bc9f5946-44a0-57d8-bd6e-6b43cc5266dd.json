@@ -1,0 +1,12 @@
+{
+  "id": "bc9f5946-44a0-57d8-bd6e-6b43cc5266dd",
+  "name": "account",
+  "description": "Object type account",
+  "org_id": "org:anchor",
+  "domain_id": "tax",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "deleted_at": null,
+  "object_count": 30,
+  "datapoint_count": 7
+}
