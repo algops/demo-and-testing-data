@@ -1,0 +1,12 @@
+{
+  "id": "kb-hr-118",
+  "title": "Skill: Training compliance reporter",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Published",
+      "createdAt": "2025-06-01T12:00:00Z",
+      "content": "# Skill: Training compliance reporter\n\n> Organizace: **Meridian Pay a.s.** | Doména: **hr** | Typ: agent_skill | Citlivost: internal\n\n## Workflow odpovědi\n\n1. **Porozumění** — identifikuj záměr dotazu a dotčené KB sekce.\n2. **Vyhledání** — prohledej:\n- Prohledej `knowledgebase/hr/compliance/core`\n- Prohledej `knowledgebase/hr/operations/core`\n3. **Validace** — ověř proti SAP SuccessFactors pokud jde o stav systému/recordů.\n4. **Odpověď** — struktura: shrnutí → citace KB cesty → doporučený krok.\n5. **Eskalace** — pokud chybí podklad, otevři handoff na supervizora.\n\n## Použití nástrojů\n\n- **LLM HR assistant** — doplňkové akce dle oprávnění v chat-agent setup (execute_tool).\n- Integrační data nikdy nepřepisují schválený text politik v KB.\n\n## Formát citace\n\n```\n[KB: knowledgebase/hr/<section>/<sub>/<soubor>.md | verze core]\n```\n\n## Guardrails (operativní)\n\n- Reportuj pouze data ze schválených systémů\n- U expirovaných školení vždy navrhni nápravný plán\n\n## Příklady interakcí\n\n**Q:** Kdo nemá platné BOZP školení?\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n\n**Q:** Jaká školení jsou povinná pro nováčky?\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n\n\n## Kontrolní seznam kvality\n\n- [ ] Odpověď má alespoň jednu KB citaci\n- [ ] Guardrails dodrženy\n- [ ] Žádné vymyšlené metriky nebo termíny\n- [ ] Eskalace nabídnuta pokud data chybí\n"
+    }
+  ]
+}

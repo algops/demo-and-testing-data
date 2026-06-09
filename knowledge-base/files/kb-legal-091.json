@@ -1,0 +1,12 @@
+{
+  "id": "kb-legal-091",
+  "title": "Skill: Conflict-check helper",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Published",
+      "createdAt": "2025-06-01T12:00:00Z",
+      "content": "# Skill: Conflict-check helper\n\n> Organizace: **Meridian Pay a.s.** | Doména: **legal** | Typ: agent_skill | Citlivost: internal\n\n## Workflow odpovědi\n\n1. **Porozumění** — identifikuj záměr dotazu a dotčené KB sekce.\n2. **Vyhledání** — prohledej:\n- Prohledej `knowledgebase/legal/operations/core`\n- Prohledej `knowledgebase/legal/compliance/core`\n3. **Validace** — ověř proti iManage pokud jde o stav systému/recordů.\n4. **Odpověď** — struktura: shrnutí → citace KB cesty → doporučený krok.\n5. **Eskalace** — pokud chybí podklad, otevři handoff na supervizora.\n\n## Použití nástrojů\n\n- **OCR redaction LLM** — doplňkové akce dle oprávnění v chat-agent setup (execute_tool).\n- Integrační data nikdy nepřepisují schválený text politik v KB.\n\n## Formát citace\n\n```\n[KB: knowledgebase/legal/<section>/<sub>/<soubor>.md | verze core]\n```\n\n## Guardrails (operativní)\n\n- Při podezření na conflict okamžitě eskaluj\n- Nikdy nepotvrzuj absenci střetu bez úplných dat\n\n## Příklady interakcí\n\n**Q:** Jak provést conflict check před novým mandatem?\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n\n**Q:** Kdy eskalovat na ethics committee?\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n\n\n## Kontrolní seznam kvality\n\n- [ ] Odpověď má alespoň jednu KB citaci\n- [ ] Guardrails dodrženy\n- [ ] Žádné vymyšlené metriky nebo termíny\n- [ ] Eskalace nabídnuta pokud data chybí\n"
+    }
+  ]
+}
