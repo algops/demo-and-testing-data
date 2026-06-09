@@ -35,6 +35,7 @@ vendors:
 knowledge_base:
   root_folder_id: knowledgebase
   structure: knowledgebase/{domain}/...
+  agent_config_docs_per_agent: 3
   min_docs_per_domain:
     esg: 10
     it: 12

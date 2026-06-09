@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from .catalogues import DOMAIN_INTEGRATIONS
+from .catalogues import DOMAIN_INTEGRATIONS, DOMAIN_KB_TITLES
 
 ORG_NAME = "Meridian Pay a.s."
 DISCLAIMER = "Vygenerováno pro demo účely"
@@ -26,6 +26,8 @@ def render_document(doc: dict) -> str:
     kind = doc.get("doc_kind", "guideline")
     title = doc["title"]
     sensitivity = doc.get("sensitivity", "internal")
+    if kind in ("system_prompt", "agent_role", "agent_skill"):
+        return _render_agent_document(doc)
     builders = {
         "policy": _policy,
         "guideline": _guideline,
@@ -37,6 +39,167 @@ def render_document(doc: dict) -> str:
     }
     body_fn = builders.get(kind, _guideline)
     return body_fn(title, domain, sensitivity)
+
+
+def _kb_refs(domain: str, limit: int = 4) -> str:
+    specs = DOMAIN_KB_TITLES.get(domain, [])[:limit]
+    if not specs:
+        return f"- `knowledgebase/{domain}/`"
+    lines = []
+    for s in specs:
+        lines.append(f"- `{s['section']}/{s['sub']}` — {s['title']}")
+    return "\n".join(lines)
+
+
+def _render_agent_document(doc: dict) -> str:
+    kind = doc.get("doc_kind", "system_prompt")
+    builders = {
+        "system_prompt": _system_prompt,
+        "agent_role": _agent_role,
+        "agent_skill": _agent_skill,
+    }
+    return builders[kind](doc)
+
+
+def _system_prompt(doc: dict) -> str:
+    domain = doc["domain_id"]
+    name = doc.get("agent_name", doc["title"])
+    use_case = doc.get("use_case", "")
+    persona = doc.get("persona", "doménový asistent")
+    audience = doc.get("audience", "zaměstnanci")
+    guardrails = doc.get("guardrails", [])
+    sections = doc.get("must_read_sections", [])
+    integration = _integration_name(domain)
+    sensitivity = doc.get("sensitivity", "internal")
+    agent_slug = doc.get("agent_slug", "agent")
+    guardrail_lines = "\n".join(f"- {g}" for g in guardrails) or "- Dodržuj interní politiky domény"
+    section_lines = "\n".join(f"- `knowledgebase/{domain}/{s}`" for s in sections) or f"- `knowledgebase/{domain}/`"
+
+    return _header(f"System prompt: {name}", domain, "system_prompt", sensitivity) + f"""## Role a mise
+
+Jsi **{name}** — chat agent pro {ORG_NAME} v doméně `{domain}`.
+**Persona:** {persona}
+**Primární účel:** {use_case}
+**Cílové publikum:** {audience}
+
+## Rozsah znalostní báze
+
+Čerpáš z dokumentů v KB pod cestami:
+{section_lines}
+- `knowledgebase/{domain}/agents/{agent_slug}/core/` — tvoje konfigurace (role, skill)
+
+Autoritativní operativní data čti z integrace **{integration}**; KB popisuje interpretaci a postupy.
+
+## Chování
+
+1. Odpovídej stručně, v češtině, s odkazem na konkrétní KB dokument.
+2. Pokud informace v KB chybí, řekni to explicitně a navrhni eskalaci.
+3. U citlivých témat používej interní klasifikaci `{sensitivity}`.
+
+## Guardrails
+
+{guardrail_lines}
+
+## Mimo rozsah / eskalace
+
+- Právní, daňové nebo bezpečnostní závěry bez schváleného dokumentu → eskaluj na `#agents-{domain}` (supervisor Slack).
+- Požadavky mimo doménu `{domain}` → přesměruj na příslušného doménového agenta.
+
+## Související dokumenty v KB
+
+{_kb_refs(domain)}
+"""
+
+
+def _agent_role(doc: dict) -> str:
+    domain = doc["domain_id"]
+    name = doc.get("agent_name", doc["title"])
+    audience = doc.get("audience", "zaměstnanci")
+    use_case = doc.get("use_case", "")
+    sensitivity = doc.get("sensitivity", "internal")
+    integration = _integration_name(domain)
+
+    return _header(f"Role: {name}", domain, "agent_role", sensitivity) + f"""## Odpovědnosti
+
+| Oblast | Popis |
+|--------|-------|
+| Primární use-case | {use_case} |
+| Publikum | {audience} |
+| Doména | `{domain}` @ {ORG_NAME} |
+| Zdroj dat | {integration} + schválená KB |
+
+## Matice oprávnění
+
+| Smí | Nesmí |
+|-----|-------|
+| Vysvětlovat schválené SOP, politiky a runbooky z KB | Vydávat závazná právní/daňová stanoviska |
+| Navrhovat další kroky dle dokumentovaných postupů | Měnit produkční systémy nebo data |
+| Citovat cesty v `knowledgebase/{domain}/` | Šířit osobní údaje mimo účel dotazu |
+| Eskalovat na supervizora `#agents-{domain}` | Obcházet guardrails definované v system promptu |
+
+## Handoff pravidla
+
+- **Supervisor:** Slack `#agents-{domain}` — steering, schválení výjimek
+- **Domain owner:** `#domain-{domain}` — chyby v dokumentaci (ticket `KB-FIX`)
+- **Lidský expert:** při nejistotě nebo vysokém dopadu na zákazníka/regulátora
+
+## Compliance
+
+Agent je řízen dokumenty v `knowledgebase/{domain}/agents/` a musí být v souladu s platnými politikami v `compliance/core/`.
+Revize role: minimálně při změně use-case nebo guardrails.
+"""
+
+
+def _agent_skill(doc: dict) -> str:
+    domain = doc["domain_id"]
+    name = doc.get("agent_name", doc["title"])
+    guardrails = doc.get("guardrails", [])
+    demo_questions = doc.get("demo_questions", [])
+    sections = doc.get("must_read_sections", [])
+    sensitivity = doc.get("sensitivity", "internal")
+    integration = _integration_name(domain)
+    tools = [i["name"] for i in DOMAIN_INTEGRATIONS.get(domain, []) if i["role"] == "tool"]
+    tool_name = tools[0] if tools else "doménový nástroj"
+    guardrail_lines = "\n".join(f"- {g}" for g in guardrails) or "- Viz system prompt"
+    section_lines = "\n".join(f"- Prohledej `knowledgebase/{domain}/{s}`" for s in sections)
+    qa_lines = ""
+    for q in demo_questions:
+        qa_lines += f"\n**Q:** {q}\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n"
+
+    return _header(f"Skill: {name}", domain, "agent_skill", sensitivity) + f"""## Workflow odpovědi
+
+1. **Porozumění** — identifikuj záměr dotazu a dotčené KB sekce.
+2. **Vyhledání** — prohledej:
+{section_lines}
+3. **Validace** — ověř proti {integration} pokud jde o stav systému/recordů.
+4. **Odpověď** — struktura: shrnutí → citace KB cesty → doporučený krok.
+5. **Eskalace** — pokud chybí podklad, otevři handoff na supervizora.
+
+## Použití nástrojů
+
+- **{tool_name}** — doplňkové akce dle oprávnění v chat-agent setup (execute_tool).
+- Integrační data nikdy nepřepisují schválený text politik v KB.
+
+## Formát citace
+
+```
+[KB: knowledgebase/{domain}/<section>/<sub>/<soubor>.md | verze core]
+```
+
+## Guardrails (operativní)
+
+{guardrail_lines}
+
+## Příklady interakcí
+{qa_lines}
+
+## Kontrolní seznam kvality
+
+- [ ] Odpověď má alespoň jednu KB citaci
+- [ ] Guardrails dodrženy
+- [ ] Žádné vymyšlené metriky nebo termíny
+- [ ] Eskalace nabídnuta pokud data chybí
+"""
 
 
 def _policy(title: str, domain: str, sensitivity: str) -> str:

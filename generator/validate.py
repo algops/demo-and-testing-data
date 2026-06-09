@@ -7,9 +7,14 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
+import json
+
+from .agent_specs import DOMAIN_AGENTS, build_agent_kb_grants, get_agent_slug
 from .attribute_types import get_data_type, validate_value_for_type
 from .audit_values import GENERIC_VALUE_RE, TEMPLATE_DESC_RE, audit_values
 from .util import DOMAINS, ROOT
+
+AGENT_CONFIG_KINDS = {"system_prompt", "agent_role", "agent_skill"}
 
 FORBIDDEN = {
     ("object-type", "agent"),
@@ -138,10 +143,49 @@ def validate(
     if kb_edge_count < 50:
         errors.append(f"Expected KB/agent/integration semantic edges, found {kb_edge_count}")
 
+    expected_agent_docs = sum(len(DOMAIN_AGENTS[d]) for d in DOMAINS) * 3
+    agent_config_docs = [d for d in knowledge_docs if d.get("doc_kind") in AGENT_CONFIG_KINDS]
+    if len(agent_config_docs) != expected_agent_docs:
+        errors.append(
+            f"Expected {expected_agent_docs} agent config docs, found {len(agent_config_docs)}"
+        )
+
     for domain, minimum in min_docs.items():
-        count = len([d for d in knowledge_docs if d.get("domain_id") == domain])
+        count = len(
+            [
+                d
+                for d in knowledge_docs
+                if d.get("domain_id") == domain and d.get("doc_kind") not in AGENT_CONFIG_KINDS
+            ]
+        )
         if count < minimum:
-            errors.append(f"KB docs for {domain}: {count} < {minimum}")
+            errors.append(f"KB ops docs for {domain}: {count} < {minimum}")
+
+    folders_path = ROOT / "knowledge-folders.json"
+    if folders_path.is_file():
+        folder_paths = {
+            "/" + f["path"] for f in json.loads(folders_path.read_text(encoding="utf-8"))["knowledge_folders"]
+        }
+        for domain in DOMAINS:
+            for spec in DOMAIN_AGENTS[domain]:
+                slug = get_agent_slug(spec)
+                for grant in build_agent_kb_grants(domain, slug, spec.get("must_read_sections", [])):
+                    if grant["treePath"] not in folder_paths:
+                        errors.append(f"KB grant path missing from folders: {grant['treePath']}")
+
+    agent_reads = [
+        r
+        for r in relationships
+        if r.get("origin_type") == "agent"
+        and r.get("relationship_kind") == "reads"
+        and r.get("destination_type") == "knowledge-doc"
+    ]
+    config_doc_ids = {d["id"] for d in agent_config_docs}
+    reads_config = [r for r in agent_reads if r["destination_id"] in config_doc_ids]
+    if len(reads_config) < expected_agent_docs:
+        errors.append(
+            f"Expected agent reads edges to config docs >= {expected_agent_docs}, found {len(reads_config)}"
+        )
 
     for doc in knowledge_docs:
         if doc.get("token_count", 0) < MIN_TOKEN_COUNT:
@@ -156,8 +200,6 @@ def validate(
 
     projects_path = ROOT / "projects.json"
     if projects_path.is_file():
-        import json
-
         projects_data = json.loads(projects_path.read_text(encoding="utf-8"))
         projects = projects_data.get("projects", [])
         if len(projects) != 5:

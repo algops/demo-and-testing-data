@@ -1,161 +1,161 @@
 {
   "chat_agents": [
     {
-      "id": "45d9c8b1-cbb2-5cf2-a56a-7c39f0892db8",
+      "id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
       "name": "CSRD gap & disclosure copilot",
       "description": "Mezery v CSRD disclosure",
       "status": "active",
       "domain_id": "esg"
     },
     {
-      "id": "f65f5b44-63af-5bc8-a8d6-31e7093afb62",
+      "id": "765260e9-f7f2-5a92-8584-91b67a018727",
       "name": "Taxonomy alignment explainer",
       "description": "Vysvětlení EU taxonomie",
       "status": "draft",
       "domain_id": "esg"
     },
     {
-      "id": "151d989f-1b08-588e-940f-054fa8628f19",
+      "id": "784b89f4-2265-553e-8c75-6285c7f40701",
       "name": "Supplier risk assistant",
       "description": "Riziko dodavatelů",
       "status": "draft",
       "domain_id": "esg"
     },
     {
-      "id": "f1ebf0ba-92df-5b21-9503-cc33ce678deb",
+      "id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
       "name": "Audit-finding remediation guide",
       "description": "Náprava auditních nálezů",
       "status": "draft",
       "domain_id": "esg"
     },
     {
-      "id": "a5f3867a-2f88-5c29-b104-936139ba0810",
+      "id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
       "name": "Agentic engineering KB builder",
       "description": "Budování znalostní báze z GitLab a Confluence",
       "status": "active",
       "domain_id": "it"
     },
     {
-      "id": "17787503-0d77-55e0-8ab0-3be7adf06089",
+      "id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
       "name": "Automated code review copilot",
       "description": "Automatizované code review a Snyk nálezy",
       "status": "draft",
       "domain_id": "it"
     },
     {
-      "id": "6bd7f954-8662-5d9d-964b-7116cb98fee8",
+      "id": "6eb5ae57-7f66-52f2-9654-6bdc5e2497fd",
       "name": "Incident/runbook assistant",
       "description": "Asistence při incidentech a runboocích",
       "status": "draft",
       "domain_id": "it"
     },
     {
-      "id": "b95444c1-a5fd-5585-af0f-59bf56b1fb1f",
+      "id": "5ce2532f-636f-5549-b4bb-ea51bc8bb257",
       "name": "Architecture & ADR Q&A",
       "description": "Dotazy na ADR a architekturu",
       "status": "draft",
       "domain_id": "it"
     },
     {
-      "id": "62e4f3f7-af47-5974-b324-b9b3825c9fd6",
+      "id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
       "name": "PM/tech comms assistant",
       "description": "Shrnutí technických rozhodnutí do Slacku",
       "status": "draft",
       "domain_id": "it"
     },
     {
-      "id": "00948b45-a8b2-5169-a1d8-2830c3405edc",
+      "id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
       "name": "In-house know-how copilot",
       "description": "Interní právní know-how",
       "status": "active",
       "domain_id": "legal"
     },
     {
-      "id": "3de12303-d2d7-53a6-bf15-1020f9c1f394",
+      "id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
       "name": "Contract/template finder",
       "description": "Vyhledávání smluv a šablon",
       "status": "draft",
       "domain_id": "legal"
     },
     {
-      "id": "723375f8-b5d4-5d57-b2bb-a763c35f21c1",
+      "id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
       "name": "DD progress assistant",
       "description": "Sledování due diligence",
       "status": "draft",
       "domain_id": "legal"
     },
     {
-      "id": "943ffadb-285c-53ff-b0ea-58936fccf307",
+      "id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
       "name": "Conflict-check helper",
       "description": "Kontrola střetu zájmů",
       "status": "draft",
       "domain_id": "legal"
     },
     {
-      "id": "5a940d85-38a8-5416-b978-2a805b5a2c2a",
+      "id": "5d0892a3-8a0a-574a-b523-63854de66124",
       "name": "Legislative update summarizer",
       "description": "Shrnutí legislativních změn",
       "status": "draft",
       "domain_id": "legal"
     },
     {
-      "id": "0c1b8c46-a259-51d7-99b1-9d01254a6df6",
+      "id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
       "name": "Filing deadline tracker",
       "description": "Sledování termínů podání",
       "status": "active",
       "domain_id": "tax"
     },
     {
-      "id": "3f1f8d55-9202-561f-806f-1eec0271abf1",
+      "id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
       "name": "Account tax-treatment Q&A",
       "description": "Daňové zacházení s účty",
       "status": "draft",
       "domain_id": "tax"
     },
     {
-      "id": "b121e519-df2f-523b-9ae3-ec2deed4b3ee",
+      "id": "f49da2ad-5920-5aed-a717-7484878482ae",
       "name": "TP documentation assistant",
       "description": "Transfer pricing dokumentace",
       "status": "draft",
       "domain_id": "tax"
     },
     {
-      "id": "d95ef750-babe-517c-b09e-3649aac62cdc",
+      "id": "12307065-d948-52d4-982d-08a4d16e714a",
       "name": "DPH/sazba change explainer",
       "description": "Změny sazeb DPH",
       "status": "draft",
       "domain_id": "tax"
     },
     {
-      "id": "657340ff-94c7-5ea1-9377-5eb68460902a",
+      "id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
       "name": "SOP & policy copilot",
       "description": "Odpovědi na HR SOP a politiky",
       "status": "active",
       "domain_id": "hr"
     },
     {
-      "id": "81f7b016-ad2b-53f7-a51d-1410dbb0383f",
+      "id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
       "name": "Leave/absence navigator",
       "description": "Navigace dovolené a absence",
       "status": "draft",
       "domain_id": "hr"
     },
     {
-      "id": "8fbe1704-0583-56ec-a38e-2079b5d17211",
+      "id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
       "name": "Onboarding checklist assistant",
       "description": "Onboarding checklisty",
       "status": "draft",
       "domain_id": "hr"
     },
     {
-      "id": "cb40be4c-b29b-506f-a70e-66916ab49bc9",
+      "id": "50093576-b483-5abe-b817-a71e1a9ba850",
       "name": "Training compliance reporter",
       "description": "BOZP a školení compliance",
       "status": "draft",
       "domain_id": "hr"
     },
     {
-      "id": "e3f7bd0c-ab32-55e9-82e8-77daef979acf",
+      "id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
       "name": "Benefits eligibility guide",
       "description": "Nárok na benefity",
       "status": "draft",

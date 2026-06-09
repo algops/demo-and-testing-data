@@ -7,6 +7,7 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Any
 
+from .agent_specs import AGENT_DOC_FILES, get_agent_slug
 from .catalogues import DOMAIN_AGENTS, DOMAIN_INTEGRATIONS, TYPE_REFRAME, _load_domain_spec, get_kb_doc_specs
 from .semantic.edge_values import materialize_edge_values
 from .semantic.example_pools import build_instance
@@ -449,6 +450,18 @@ def emit_org_bridges(state: GraphState) -> None:
             state.add_rel("integration", iid, "object", sys_oid, "related_to", {"bridge": "implements"})
 
 
+def _ensure_kb_folder(state: GraphState, folder_path: str, root_id: str) -> str:
+    if folder_path in state.kb_folder_ids:
+        return state.kb_folder_ids[folder_path]
+    parts = folder_path.split("/")
+    parent_path = "/".join(parts[:-1])
+    parent_id = _ensure_kb_folder(state, parent_path, root_id) if parent_path else root_id
+    fid = make_id(f"knowledge-folder:{folder_path}")
+    state.kb_folder_ids[folder_path] = fid
+    state.add_rel("knowledge-folder", parent_id, "knowledge-folder", fid, "contains_folder")
+    return fid
+
+
 def emit_kb_structure(state: GraphState, min_docs: dict[str, int]) -> None:
     root_id = make_id("knowledge-folder:knowledgebase")
     state.kb_folder_ids["knowledgebase"] = root_id
@@ -461,19 +474,6 @@ def emit_kb_structure(state: GraphState, min_docs: dict[str, int]) -> None:
         state.add_rel("knowledge-folder", root_id, "knowledge-folder", dom_folder, "contains_folder")
 
         doc_specs = get_kb_doc_specs(domain, min_docs.get(domain, 10))
-        folder_cache: dict[str, str] = {}
-
-        def ensure_folder(folder_path: str) -> str:
-            if folder_path in state.kb_folder_ids:
-                return state.kb_folder_ids[folder_path]
-            parts = folder_path.split("/")
-            parent_path = "/".join(parts[:-1])
-            parent_id = ensure_folder(parent_path) if parent_path else root_id
-            fid = make_id(f"knowledge-folder:{folder_path}")
-            state.kb_folder_ids[folder_path] = fid
-            state.add_rel("knowledge-folder", parent_id, "knowledge-folder", fid, "contains_folder")
-            folder_cache[folder_path] = fid
-            return fid
 
         for i, spec in enumerate(doc_specs):
             section = spec["section"]
@@ -481,7 +481,7 @@ def emit_kb_structure(state: GraphState, min_docs: dict[str, int]) -> None:
             kind = spec["kind"]
             rel_path = f"{section}/{sub}/{kind}-{i + 1:03d}.md"
             folder_path = f"knowledgebase/{domain}/{section}/{sub}"
-            sub_id = ensure_folder(folder_path)
+            sub_id = _ensure_kb_folder(state, folder_path, root_id)
             doc_slug = rel_path.replace(".md", "").replace("/", "-")
             doc_id = make_id(f"knowledge-doc:{domain}:{doc_slug}")
             key = f"{domain}:{doc_slug}"
@@ -501,6 +501,104 @@ def emit_kb_structure(state: GraphState, min_docs: dict[str, int]) -> None:
                 state.add_rel("integration", iid, "knowledge-doc", doc_id, "syncs")
 
 
+def emit_agent_kb_structure(state: GraphState) -> None:
+    root_id = state.kb_folder_ids["knowledgebase"]
+    for domain in DOMAINS:
+        for spec in DOMAIN_AGENTS[domain]:
+            agent_slug = get_agent_slug(spec)
+            core_folder = f"knowledgebase/{domain}/agents/{agent_slug}/core"
+            core_id = _ensure_kb_folder(state, core_folder, root_id)
+
+            for filename, kind, label_prefix in AGENT_DOC_FILES:
+                rel_path = f"agents/{agent_slug}/core/{filename}"
+                doc_slug = rel_path.replace(".md", "").replace("/", "-")
+                doc_id = make_id(f"knowledge-doc:{domain}:{doc_slug}")
+                key = f"{domain}:{doc_slug}"
+                state.kb_doc_ids[key] = doc_id
+                state.kb_doc_meta[key] = {
+                    "title": f"{label_prefix}: {spec['name']}",
+                    "doc_kind": kind,
+                    "rel_path": rel_path,
+                    "section": "agents",
+                    "sub": "core",
+                    "agent_slug": agent_slug,
+                    "agent_name": spec["name"],
+                    "use_case": spec["use_case"],
+                    "persona": spec.get("persona", ""),
+                    "audience": spec.get("audience", ""),
+                    "guardrails": spec.get("guardrails", []),
+                    "demo_questions": spec.get("demo_questions", []),
+                    "must_read_sections": spec.get("must_read_sections", []),
+                    "operates_on": spec.get("operates_on", []),
+                }
+                state.add_rel("knowledge-folder", core_id, "knowledge-doc", doc_id, "contains_doc")
+
+
+def _ops_docs_for_sections(
+    state: GraphState, domain: str, sections: list[str]
+) -> list[str]:
+    keys: list[str] = []
+    for key, meta in state.kb_doc_meta.items():
+        if not key.startswith(f"{domain}:"):
+            continue
+        rel = meta.get("rel_path", "")
+        if rel.startswith("agents/"):
+            continue
+        for section in sections:
+            prefix = section if section.endswith("/") else f"{section}/"
+            if rel.startswith(prefix) or rel.startswith(section):
+                keys.append(key)
+                break
+    return keys
+
+
+def wire_agent_relationships(state: GraphState) -> None:
+    for domain in DOMAINS:
+        dom_folder = state.kb_folder_ids.get(f"knowledgebase/{domain}")
+        tools = [s for s in DOMAIN_INTEGRATIONS[domain] if s["role"] == "tool"]
+        policy_keys = [
+            k
+            for k, m in state.kb_doc_meta.items()
+            if k.startswith(f"{domain}:")
+            and m.get("doc_kind") == "policy"
+            and not m.get("rel_path", "").startswith("agents/")
+        ]
+
+        for spec in DOMAIN_AGENTS[domain]:
+            agent_slug = get_agent_slug(spec)
+            aid = make_id(f"agent:{domain}:{agent_slug}")
+            state.agent_ids[f"{domain}:{agent_slug}"] = aid
+
+            agent_folder_id = state.kb_folder_ids.get(f"knowledgebase/{domain}/agents/{agent_slug}")
+            if agent_folder_id:
+                state.add_rel("agent", aid, "knowledge-folder", agent_folder_id, "scoped_to")
+            if dom_folder:
+                state.add_rel("agent", aid, "knowledge-folder", dom_folder, "scoped_to")
+
+            config_keys = [
+                k
+                for k, m in state.kb_doc_meta.items()
+                if k.startswith(f"{domain}:")
+                and m.get("agent_slug") == agent_slug
+            ]
+            for ck in config_keys:
+                state.add_rel("agent", aid, "knowledge-doc", state.kb_doc_ids[ck], "reads")
+
+            for ok in _ops_docs_for_sections(state, domain, spec.get("must_read_sections", [])):
+                state.add_rel("agent", aid, "knowledge-doc", state.kb_doc_ids[ok], "reads")
+
+            if policy_keys:
+                policy_id = state.kb_doc_ids[policy_keys[0]]
+                for ck in config_keys:
+                    state.add_rel("knowledge-doc", state.kb_doc_ids[ck], "knowledge-doc", policy_id, "reads")
+
+            if tools:
+                tool_slug = slugify(tools[0]["name"])
+                tid = state.integration_ids.get(f"{domain}:{tool_slug}")
+                if tid:
+                    state.add_rel("agent", aid, "integration", tid, "uses_tool")
+
+
 def build_relationship_graph(min_docs: dict[str, int]) -> GraphState:
     state = GraphState()
     emit_org_layer(state)
@@ -508,26 +606,8 @@ def build_relationship_graph(min_docs: dict[str, int]) -> GraphState:
         emit_domain(state, domain)
     emit_org_bridges(state)
     emit_kb_structure(state, min_docs)
-
-    for domain in DOMAINS:
-        dom_folder = state.kb_folder_ids.get(f"knowledgebase/{domain}")
-        domain_docs = [k for k in state.kb_doc_ids if k.startswith(f"{domain}:")]
-        tools = [
-            s for s in DOMAIN_INTEGRATIONS[domain] if s["role"] == "tool"
-        ]
-        for spec in DOMAIN_AGENTS[domain]:
-            agent_slug = slugify(spec["name"])
-            aid = make_id(f"agent:{domain}:{agent_slug}")
-            state.agent_ids[f"{domain}:{agent_slug}"] = aid
-            if dom_folder:
-                state.add_rel("agent", aid, "knowledge-folder", dom_folder, "scoped_to")
-            for dk in domain_docs[:4]:
-                state.add_rel("agent", aid, "knowledge-doc", state.kb_doc_ids[dk], "reads")
-            if tools:
-                tool_slug = slugify(tools[0]["name"])
-                tid = state.integration_ids.get(f"{domain}:{tool_slug}")
-                if tid:
-                    state.add_rel("agent", aid, "integration", tid, "uses_tool")
+    emit_agent_kb_structure(state)
+    wire_agent_relationships(state)
 
     padding_start = len(state.relationships)
     pad_edge_counter = 100_000

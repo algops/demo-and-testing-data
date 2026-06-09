@@ -12244,967 +12244,2899 @@
       "relationship_kind": "syncs"
     },
     {
+      "origin_type": "knowledge-folder",
+      "origin_id": "6383aba0-9350-5a01-afc0-b40e29429027",
+      "destination_type": "knowledge-folder",
+      "destination_id": "085ab623-cb8a-5bef-9b63-1b00845fc0fb",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "085ab623-cb8a-5bef-9b63-1b00845fc0fb",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d40d7945-f4c9-5385-b91f-3ee4442dc272",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d40d7945-f4c9-5385-b91f-3ee4442dc272",
+      "destination_type": "knowledge-folder",
+      "destination_id": "c2efc567-9c61-545b-a942-89fa4924a4af",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c2efc567-9c61-545b-a942-89fa4924a4af",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d54b0c6c-8f82-59c7-8e91-329893cfc1ce",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c2efc567-9c61-545b-a942-89fa4924a4af",
+      "destination_type": "knowledge-doc",
+      "destination_id": "99468a0d-9c53-569c-8ebe-71af20f54985",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c2efc567-9c61-545b-a942-89fa4924a4af",
+      "destination_type": "knowledge-doc",
+      "destination_id": "c8aa873a-619d-5bd0-9121-690a922b3c03",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "085ab623-cb8a-5bef-9b63-1b00845fc0fb",
+      "destination_type": "knowledge-folder",
+      "destination_id": "c32f28f6-df50-5419-8126-807481b21ff0",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c32f28f6-df50-5419-8126-807481b21ff0",
+      "destination_type": "knowledge-folder",
+      "destination_id": "246ab13d-b09e-5f76-82e5-dd8321bd9a8c",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "246ab13d-b09e-5f76-82e5-dd8321bd9a8c",
+      "destination_type": "knowledge-doc",
+      "destination_id": "bb4e8c89-0c91-58dc-9206-4f70686b0d3b",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "246ab13d-b09e-5f76-82e5-dd8321bd9a8c",
+      "destination_type": "knowledge-doc",
+      "destination_id": "a6699ddb-54eb-5202-a717-caba7ce3821d",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "246ab13d-b09e-5f76-82e5-dd8321bd9a8c",
+      "destination_type": "knowledge-doc",
+      "destination_id": "e7554d48-7c9f-5889-a2c3-2af2fbdd98c2",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "085ab623-cb8a-5bef-9b63-1b00845fc0fb",
+      "destination_type": "knowledge-folder",
+      "destination_id": "b2f7556f-5ff8-5750-8c60-c577c7b5e7c9",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "b2f7556f-5ff8-5750-8c60-c577c7b5e7c9",
+      "destination_type": "knowledge-folder",
+      "destination_id": "e07bbfca-3e66-5972-a88a-a2dbf88fba4e",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "e07bbfca-3e66-5972-a88a-a2dbf88fba4e",
+      "destination_type": "knowledge-doc",
+      "destination_id": "a1cfbf07-f510-5689-8fa5-39085c7334f0",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "e07bbfca-3e66-5972-a88a-a2dbf88fba4e",
+      "destination_type": "knowledge-doc",
+      "destination_id": "df118d88-0454-58b4-be1e-e2348f4db4b9",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "e07bbfca-3e66-5972-a88a-a2dbf88fba4e",
+      "destination_type": "knowledge-doc",
+      "destination_id": "1271366e-469d-56fb-b912-267a00e3afdb",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "085ab623-cb8a-5bef-9b63-1b00845fc0fb",
+      "destination_type": "knowledge-folder",
+      "destination_id": "9048d807-cd7e-5de6-a513-9933b76a8f84",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "9048d807-cd7e-5de6-a513-9933b76a8f84",
+      "destination_type": "knowledge-folder",
+      "destination_id": "320c7be2-8226-52b2-af08-1d0db7ff3a45",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "320c7be2-8226-52b2-af08-1d0db7ff3a45",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b047b344-c274-5edc-b630-f271563bec8e",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "320c7be2-8226-52b2-af08-1d0db7ff3a45",
+      "destination_type": "knowledge-doc",
+      "destination_id": "4387f237-5919-5c81-bcaf-e63ba8aaff32",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "320c7be2-8226-52b2-af08-1d0db7ff3a45",
+      "destination_type": "knowledge-doc",
+      "destination_id": "3fa59a16-0a39-5294-b7e6-bedc177d7dc7",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "23faf8db-4692-571c-ae35-eb8a6c982ec9",
+      "destination_type": "knowledge-folder",
+      "destination_id": "c5de39e4-5f76-571a-a3ad-02b8317d2ec0",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c5de39e4-5f76-571a-a3ad-02b8317d2ec0",
+      "destination_type": "knowledge-folder",
+      "destination_id": "791a2625-692b-5c4b-b507-bc516d8d1a1a",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "791a2625-692b-5c4b-b507-bc516d8d1a1a",
+      "destination_type": "knowledge-folder",
+      "destination_id": "461d1278-8752-5ada-bf67-1cdc8b19d292",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "461d1278-8752-5ada-bf67-1cdc8b19d292",
+      "destination_type": "knowledge-doc",
+      "destination_id": "f3729be6-8841-5b4b-b118-a2062b7e2b53",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "461d1278-8752-5ada-bf67-1cdc8b19d292",
+      "destination_type": "knowledge-doc",
+      "destination_id": "2a6d7fe7-dc8d-5e39-aadd-37a73cd9375c",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "461d1278-8752-5ada-bf67-1cdc8b19d292",
+      "destination_type": "knowledge-doc",
+      "destination_id": "7c34c7db-6ae3-53ab-901f-b31c5e4834eb",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c5de39e4-5f76-571a-a3ad-02b8317d2ec0",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d36497f4-6b92-5863-8197-d1f1a7e9124b",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d36497f4-6b92-5863-8197-d1f1a7e9124b",
+      "destination_type": "knowledge-folder",
+      "destination_id": "078aec6b-4adc-54a5-9909-38873185ebba",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "078aec6b-4adc-54a5-9909-38873185ebba",
+      "destination_type": "knowledge-doc",
+      "destination_id": "e61092cf-b12a-5e68-b133-7f0d7fa76942",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "078aec6b-4adc-54a5-9909-38873185ebba",
+      "destination_type": "knowledge-doc",
+      "destination_id": "555e9a7d-7654-59c6-830e-da575ee74678",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "078aec6b-4adc-54a5-9909-38873185ebba",
+      "destination_type": "knowledge-doc",
+      "destination_id": "f8491d27-07a9-507d-8bb4-ac88c9f14d27",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c5de39e4-5f76-571a-a3ad-02b8317d2ec0",
+      "destination_type": "knowledge-folder",
+      "destination_id": "df6ea4cf-b530-5510-8961-f9f43e56d79e",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "df6ea4cf-b530-5510-8961-f9f43e56d79e",
+      "destination_type": "knowledge-folder",
+      "destination_id": "b69c795f-694d-507e-b23c-363cab229e0f",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "b69c795f-694d-507e-b23c-363cab229e0f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "fa4322db-665c-588b-a1ea-3540576dc23e",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "b69c795f-694d-507e-b23c-363cab229e0f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "f1a89c3b-8ad3-518b-aa7c-0e5c00282032",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "b69c795f-694d-507e-b23c-363cab229e0f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "41949ec6-4b7b-53b4-a8ca-b70c9a78e84f",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c5de39e4-5f76-571a-a3ad-02b8317d2ec0",
+      "destination_type": "knowledge-folder",
+      "destination_id": "8fca1122-c931-561d-a5a6-629ec4870561",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "8fca1122-c931-561d-a5a6-629ec4870561",
+      "destination_type": "knowledge-folder",
+      "destination_id": "142b13f4-b95e-514b-ad54-037566893056",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "142b13f4-b95e-514b-ad54-037566893056",
+      "destination_type": "knowledge-doc",
+      "destination_id": "e4f0c7e3-10d0-5f42-8d76-f555d786d1a0",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "142b13f4-b95e-514b-ad54-037566893056",
+      "destination_type": "knowledge-doc",
+      "destination_id": "5a28c35c-d395-5764-adec-73e775c76346",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "142b13f4-b95e-514b-ad54-037566893056",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b36e0891-154f-59f5-a5a0-12bf2a3034d5",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c5de39e4-5f76-571a-a3ad-02b8317d2ec0",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d9b7f0c5-97b0-55f6-810c-bce634393342",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d9b7f0c5-97b0-55f6-810c-bce634393342",
+      "destination_type": "knowledge-folder",
+      "destination_id": "7b5c79a1-20e3-503b-8c2a-6e0ec4b61188",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "7b5c79a1-20e3-503b-8c2a-6e0ec4b61188",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8ac4901b-5559-515b-96ce-0fd32baa1357",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "7b5c79a1-20e3-503b-8c2a-6e0ec4b61188",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9b3e90a0-6cf5-54e5-9529-d0fee8e6742d",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "7b5c79a1-20e3-503b-8c2a-6e0ec4b61188",
+      "destination_type": "knowledge-doc",
+      "destination_id": "ffce6975-faea-5b9f-b9bc-8ba4da193b6d",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "61872c8b-d6a9-533d-9914-2b100613525d",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d457d11f-c077-5f34-83fd-e39b53bfef76",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d457d11f-c077-5f34-83fd-e39b53bfef76",
+      "destination_type": "knowledge-folder",
+      "destination_id": "bec57bb8-4648-5209-b893-18acd826c833",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "bec57bb8-4648-5209-b893-18acd826c833",
+      "destination_type": "knowledge-folder",
+      "destination_id": "4964c2fc-ab70-5e73-b3dc-40c4ab0adce1",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "4964c2fc-ab70-5e73-b3dc-40c4ab0adce1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b18d8ab6-e69c-5809-b9b0-c5256867d29f",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "4964c2fc-ab70-5e73-b3dc-40c4ab0adce1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8a6d1e37-9200-5c4f-9cc2-a40f9dcb43dc",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "4964c2fc-ab70-5e73-b3dc-40c4ab0adce1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8b2cc296-ea9f-552c-b444-29bca438ce8b",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d457d11f-c077-5f34-83fd-e39b53bfef76",
+      "destination_type": "knowledge-folder",
+      "destination_id": "096f2e13-d0f7-5bc8-857c-46bc0494c35d",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "096f2e13-d0f7-5bc8-857c-46bc0494c35d",
+      "destination_type": "knowledge-folder",
+      "destination_id": "0b1a3fb3-43a0-5bda-8f32-9464c608b476",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "0b1a3fb3-43a0-5bda-8f32-9464c608b476",
+      "destination_type": "knowledge-doc",
+      "destination_id": "1592bd51-6b7c-5f29-af7b-bf07c9cd8ae8",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "0b1a3fb3-43a0-5bda-8f32-9464c608b476",
+      "destination_type": "knowledge-doc",
+      "destination_id": "208363f6-0da5-5f2c-89f5-355602dc0977",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "0b1a3fb3-43a0-5bda-8f32-9464c608b476",
+      "destination_type": "knowledge-doc",
+      "destination_id": "01a07a54-542b-5261-9b58-00e54a01be8f",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d457d11f-c077-5f34-83fd-e39b53bfef76",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d8ba8546-2d01-5ac0-b3d4-dabe45914de1",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d8ba8546-2d01-5ac0-b3d4-dabe45914de1",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d1cc8e2a-05cd-58d2-8a6a-3d4bad933069",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d1cc8e2a-05cd-58d2-8a6a-3d4bad933069",
+      "destination_type": "knowledge-doc",
+      "destination_id": "f4d3f264-7bff-567a-84bd-815be7e12c23",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d1cc8e2a-05cd-58d2-8a6a-3d4bad933069",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d6734b2b-b9ee-5bef-86b3-711f9b280bb8",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d1cc8e2a-05cd-58d2-8a6a-3d4bad933069",
+      "destination_type": "knowledge-doc",
+      "destination_id": "73b2eed4-5dae-542e-b3e5-dfd782ab9d2f",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d457d11f-c077-5f34-83fd-e39b53bfef76",
+      "destination_type": "knowledge-folder",
+      "destination_id": "a135d28e-927c-5ec9-ab1f-a5b9eaddde4c",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "a135d28e-927c-5ec9-ab1f-a5b9eaddde4c",
+      "destination_type": "knowledge-folder",
+      "destination_id": "8e24a470-69d6-589e-b8fb-0fca0205571f",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "8e24a470-69d6-589e-b8fb-0fca0205571f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b5aef682-67c3-5ea2-9f52-d6764f1cdaea",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "8e24a470-69d6-589e-b8fb-0fca0205571f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "0a2bcdf7-5acf-5cc4-8731-0f9d67a1def6",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "8e24a470-69d6-589e-b8fb-0fca0205571f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "3ef6f393-4960-53cd-97a3-a0de3310ed25",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d457d11f-c077-5f34-83fd-e39b53bfef76",
+      "destination_type": "knowledge-folder",
+      "destination_id": "7c64d08f-1764-5b56-8e93-0d4d1f6090d5",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "7c64d08f-1764-5b56-8e93-0d4d1f6090d5",
+      "destination_type": "knowledge-folder",
+      "destination_id": "22697552-9f51-5cfa-ab87-b37e7ecf3810",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "22697552-9f51-5cfa-ab87-b37e7ecf3810",
+      "destination_type": "knowledge-doc",
+      "destination_id": "5414df5c-e44d-5b8a-8457-fe007d4f3d53",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "22697552-9f51-5cfa-ab87-b37e7ecf3810",
+      "destination_type": "knowledge-doc",
+      "destination_id": "03bcb433-4cff-554c-98a2-208a6ad6f0be",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "22697552-9f51-5cfa-ab87-b37e7ecf3810",
+      "destination_type": "knowledge-doc",
+      "destination_id": "4b037c89-2be3-5715-b589-ab8fd2fedd6a",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "2d8d871d-afe3-5d95-b867-adb8f15ba069",
+      "destination_type": "knowledge-folder",
+      "destination_id": "5b38f877-511f-5537-b22d-4ac4cb1e966b",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "5b38f877-511f-5537-b22d-4ac4cb1e966b",
+      "destination_type": "knowledge-folder",
+      "destination_id": "8587c386-0b04-5d28-9ae9-505ce78b8f9e",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "8587c386-0b04-5d28-9ae9-505ce78b8f9e",
+      "destination_type": "knowledge-folder",
+      "destination_id": "8e56adcf-8e0b-5f2d-bb0e-5c4085549801",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "8e56adcf-8e0b-5f2d-bb0e-5c4085549801",
+      "destination_type": "knowledge-doc",
+      "destination_id": "61b9b239-f4d7-52fe-91c1-f957cd788c40",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "8e56adcf-8e0b-5f2d-bb0e-5c4085549801",
+      "destination_type": "knowledge-doc",
+      "destination_id": "dbc6c1f4-842f-52cf-af9e-c592b999b7df",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "8e56adcf-8e0b-5f2d-bb0e-5c4085549801",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d1704ac6-08df-53ee-a4c5-c10b8ed2f003",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "5b38f877-511f-5537-b22d-4ac4cb1e966b",
+      "destination_type": "knowledge-folder",
+      "destination_id": "1c812284-33f1-558b-a288-d99ca8861e94",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "1c812284-33f1-558b-a288-d99ca8861e94",
+      "destination_type": "knowledge-folder",
+      "destination_id": "093f4f7a-a574-5cf7-9dff-d0f93e5e346e",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "093f4f7a-a574-5cf7-9dff-d0f93e5e346e",
+      "destination_type": "knowledge-doc",
+      "destination_id": "7ad74555-1c1f-5b00-bd6f-fbf37e679c92",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "093f4f7a-a574-5cf7-9dff-d0f93e5e346e",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8fa3583b-0458-55bb-b0d3-ed0e8f65cc00",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "093f4f7a-a574-5cf7-9dff-d0f93e5e346e",
+      "destination_type": "knowledge-doc",
+      "destination_id": "e98339d7-fc9b-581b-887f-6e4487be2741",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "5b38f877-511f-5537-b22d-4ac4cb1e966b",
+      "destination_type": "knowledge-folder",
+      "destination_id": "b4bd604f-aa47-5524-a419-c2380c5e1e31",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "b4bd604f-aa47-5524-a419-c2380c5e1e31",
+      "destination_type": "knowledge-folder",
+      "destination_id": "7ea3bf05-ced7-5779-845f-867ea37e0cc9",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "7ea3bf05-ced7-5779-845f-867ea37e0cc9",
+      "destination_type": "knowledge-doc",
+      "destination_id": "7e7984dc-0597-50f0-8493-7a909fdee6cc",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "7ea3bf05-ced7-5779-845f-867ea37e0cc9",
+      "destination_type": "knowledge-doc",
+      "destination_id": "2798f490-dc2a-56cc-8e0c-8b6b0d466478",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "7ea3bf05-ced7-5779-845f-867ea37e0cc9",
+      "destination_type": "knowledge-doc",
+      "destination_id": "35b2037d-5b83-56bb-9e21-5dbfcaecf859",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "5b38f877-511f-5537-b22d-4ac4cb1e966b",
+      "destination_type": "knowledge-folder",
+      "destination_id": "c3d6f3c1-b35d-54b2-9626-4caea37e4a79",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c3d6f3c1-b35d-54b2-9626-4caea37e4a79",
+      "destination_type": "knowledge-folder",
+      "destination_id": "5372efa7-929a-528c-ae13-491d008768da",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "5372efa7-929a-528c-ae13-491d008768da",
+      "destination_type": "knowledge-doc",
+      "destination_id": "5a28a4f9-fa77-5a44-85ba-25b6fa650666",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "5372efa7-929a-528c-ae13-491d008768da",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b6c8f0fd-1bd3-5770-a684-11e0096ae45f",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "5372efa7-929a-528c-ae13-491d008768da",
+      "destination_type": "knowledge-doc",
+      "destination_id": "830f3672-7046-55df-a1e5-d690e4f3ffe2",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c09b3cab-8899-591f-942e-02577358c643",
+      "destination_type": "knowledge-folder",
+      "destination_id": "c2aed1da-629c-5dac-914f-4a9f69b4fc47",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c2aed1da-629c-5dac-914f-4a9f69b4fc47",
+      "destination_type": "knowledge-folder",
+      "destination_id": "4dcae91b-7537-574b-9af5-f92982b4f831",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "4dcae91b-7537-574b-9af5-f92982b4f831",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d29472e5-0a33-5e24-bb11-4be84af38e22",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d29472e5-0a33-5e24-bb11-4be84af38e22",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8bdbcb31-9f0e-5bbd-ba75-c6a2b46e9649",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d29472e5-0a33-5e24-bb11-4be84af38e22",
+      "destination_type": "knowledge-doc",
+      "destination_id": "2bc08f5b-3acb-53d8-9314-92372be0d1df",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d29472e5-0a33-5e24-bb11-4be84af38e22",
+      "destination_type": "knowledge-doc",
+      "destination_id": "dfb1ebac-e3d2-563f-bcf5-ce07e24e45ba",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c2aed1da-629c-5dac-914f-4a9f69b4fc47",
+      "destination_type": "knowledge-folder",
+      "destination_id": "fcd0fa14-5077-57ad-a04a-7520521a60ff",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "fcd0fa14-5077-57ad-a04a-7520521a60ff",
+      "destination_type": "knowledge-folder",
+      "destination_id": "234e7b4b-12ba-57e2-8f00-95dcca3e0bf1",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "234e7b4b-12ba-57e2-8f00-95dcca3e0bf1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "a6baadd9-69db-5df7-acc8-a0bc93cd11bb",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "234e7b4b-12ba-57e2-8f00-95dcca3e0bf1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "953c981a-67cf-5372-a384-f9dc542bb637",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "234e7b4b-12ba-57e2-8f00-95dcca3e0bf1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "2b3df690-ea2f-5e5c-bbad-e69bf7ca5bf4",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c2aed1da-629c-5dac-914f-4a9f69b4fc47",
+      "destination_type": "knowledge-folder",
+      "destination_id": "9f9418d2-b563-57a3-b6a2-531165746f55",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "9f9418d2-b563-57a3-b6a2-531165746f55",
+      "destination_type": "knowledge-folder",
+      "destination_id": "2a4edba7-afbc-538c-8f29-6d6575ed8d34",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "2a4edba7-afbc-538c-8f29-6d6575ed8d34",
+      "destination_type": "knowledge-doc",
+      "destination_id": "e68e79c5-127e-599a-b42c-9c1791b381d1",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "2a4edba7-afbc-538c-8f29-6d6575ed8d34",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9582f128-bd8e-5f58-a814-6f0a3a594541",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "2a4edba7-afbc-538c-8f29-6d6575ed8d34",
+      "destination_type": "knowledge-doc",
+      "destination_id": "7c431dad-75b4-5754-9ec2-7175417625eb",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c2aed1da-629c-5dac-914f-4a9f69b4fc47",
+      "destination_type": "knowledge-folder",
+      "destination_id": "3943e748-b472-5157-9450-be40215b7cf0",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "3943e748-b472-5157-9450-be40215b7cf0",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d21744f8-aa97-5d7e-a8fb-1677b5924502",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d21744f8-aa97-5d7e-a8fb-1677b5924502",
+      "destination_type": "knowledge-doc",
+      "destination_id": "df00c942-d1c5-50de-a155-f40b9d9578e6",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d21744f8-aa97-5d7e-a8fb-1677b5924502",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b74585a0-5b37-5d92-836a-72341c0dc81f",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "d21744f8-aa97-5d7e-a8fb-1677b5924502",
+      "destination_type": "knowledge-doc",
+      "destination_id": "824c642a-2b54-53b3-b3e1-3301371bdbaa",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "c2aed1da-629c-5dac-914f-4a9f69b4fc47",
+      "destination_type": "knowledge-folder",
+      "destination_id": "823c002b-b1cd-5bef-884c-9889822a5d1b",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "823c002b-b1cd-5bef-884c-9889822a5d1b",
+      "destination_type": "knowledge-folder",
+      "destination_id": "77b56705-5578-5755-ba21-7e3c4e07e9f3",
+      "relationship_kind": "contains_folder"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "77b56705-5578-5755-ba21-7e3c4e07e9f3",
+      "destination_type": "knowledge-doc",
+      "destination_id": "0fcdeda5-e227-50bb-8fe3-ccacfde6f427",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "77b56705-5578-5755-ba21-7e3c4e07e9f3",
+      "destination_type": "knowledge-doc",
+      "destination_id": "6b84de50-5ac2-5adc-8931-0e60ebc055f6",
+      "relationship_kind": "contains_doc"
+    },
+    {
+      "origin_type": "knowledge-folder",
+      "origin_id": "77b56705-5578-5755-ba21-7e3c4e07e9f3",
+      "destination_type": "knowledge-doc",
+      "destination_id": "ef5603bc-48a1-50e3-84c4-83f336056804",
+      "relationship_kind": "contains_doc"
+    },
+    {
       "origin_type": "agent",
-      "origin_id": "45d9c8b1-cbb2-5cf2-a56a-7c39f0892db8",
+      "origin_id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d40d7945-f4c9-5385-b91f-3ee4442dc272",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
       "destination_type": "knowledge-folder",
       "destination_id": "6383aba0-9350-5a01-afc0-b40e29429027",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "45d9c8b1-cbb2-5cf2-a56a-7c39f0892db8",
+      "origin_id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d54b0c6c-8f82-59c7-8e91-329893cfc1ce",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
+      "destination_type": "knowledge-doc",
+      "destination_id": "99468a0d-9c53-569c-8ebe-71af20f54985",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
+      "destination_type": "knowledge-doc",
+      "destination_id": "c8aa873a-619d-5bd0-9121-690a922b3c03",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
       "destination_type": "knowledge-doc",
       "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "45d9c8b1-cbb2-5cf2-a56a-7c39f0892db8",
+      "origin_id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
       "destination_type": "knowledge-doc",
       "destination_id": "75d9a2da-dc8d-5024-9c4d-3262b138be77",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "45d9c8b1-cbb2-5cf2-a56a-7c39f0892db8",
+      "origin_id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
       "destination_type": "knowledge-doc",
       "destination_id": "7065843e-4c7d-5bc7-8d1d-84f6a5d534fa",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "45d9c8b1-cbb2-5cf2-a56a-7c39f0892db8",
+      "origin_id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
       "destination_type": "knowledge-doc",
       "destination_id": "70c375d1-14e8-583a-bb59-f7223f460018",
       "relationship_kind": "reads"
     },
     {
+      "origin_type": "knowledge-doc",
+      "origin_id": "d54b0c6c-8f82-59c7-8e91-329893cfc1ce",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "99468a0d-9c53-569c-8ebe-71af20f54985",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "c8aa873a-619d-5bd0-9121-690a922b3c03",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
       "origin_type": "agent",
-      "origin_id": "45d9c8b1-cbb2-5cf2-a56a-7c39f0892db8",
+      "origin_id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
       "destination_type": "integration",
       "destination_id": "c93bf594-f370-52cb-83ee-adde91d3fc60",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f65f5b44-63af-5bc8-a8d6-31e7093afb62",
+      "origin_id": "765260e9-f7f2-5a92-8584-91b67a018727",
+      "destination_type": "knowledge-folder",
+      "destination_id": "c32f28f6-df50-5419-8126-807481b21ff0",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "765260e9-f7f2-5a92-8584-91b67a018727",
       "destination_type": "knowledge-folder",
       "destination_id": "6383aba0-9350-5a01-afc0-b40e29429027",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f65f5b44-63af-5bc8-a8d6-31e7093afb62",
+      "origin_id": "765260e9-f7f2-5a92-8584-91b67a018727",
+      "destination_type": "knowledge-doc",
+      "destination_id": "bb4e8c89-0c91-58dc-9206-4f70686b0d3b",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "765260e9-f7f2-5a92-8584-91b67a018727",
+      "destination_type": "knowledge-doc",
+      "destination_id": "a6699ddb-54eb-5202-a717-caba7ce3821d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "765260e9-f7f2-5a92-8584-91b67a018727",
+      "destination_type": "knowledge-doc",
+      "destination_id": "e7554d48-7c9f-5889-a2c3-2af2fbdd98c2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "765260e9-f7f2-5a92-8584-91b67a018727",
       "destination_type": "knowledge-doc",
       "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f65f5b44-63af-5bc8-a8d6-31e7093afb62",
+      "origin_id": "765260e9-f7f2-5a92-8584-91b67a018727",
       "destination_type": "knowledge-doc",
       "destination_id": "75d9a2da-dc8d-5024-9c4d-3262b138be77",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f65f5b44-63af-5bc8-a8d6-31e7093afb62",
+      "origin_id": "765260e9-f7f2-5a92-8584-91b67a018727",
       "destination_type": "knowledge-doc",
-      "destination_id": "7065843e-4c7d-5bc7-8d1d-84f6a5d534fa",
+      "destination_id": "71f32394-bc55-51b6-a90f-e9efce4c478b",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f65f5b44-63af-5bc8-a8d6-31e7093afb62",
+      "origin_id": "765260e9-f7f2-5a92-8584-91b67a018727",
       "destination_type": "knowledge-doc",
-      "destination_id": "70c375d1-14e8-583a-bb59-f7223f460018",
+      "destination_id": "a2f2ad20-3b72-56ac-9f34-8c67d3879ea5",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "bb4e8c89-0c91-58dc-9206-4f70686b0d3b",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "a6699ddb-54eb-5202-a717-caba7ce3821d",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "e7554d48-7c9f-5889-a2c3-2af2fbdd98c2",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f65f5b44-63af-5bc8-a8d6-31e7093afb62",
+      "origin_id": "765260e9-f7f2-5a92-8584-91b67a018727",
       "destination_type": "integration",
       "destination_id": "c93bf594-f370-52cb-83ee-adde91d3fc60",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "151d989f-1b08-588e-940f-054fa8628f19",
+      "origin_id": "784b89f4-2265-553e-8c75-6285c7f40701",
+      "destination_type": "knowledge-folder",
+      "destination_id": "b2f7556f-5ff8-5750-8c60-c577c7b5e7c9",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "784b89f4-2265-553e-8c75-6285c7f40701",
       "destination_type": "knowledge-folder",
       "destination_id": "6383aba0-9350-5a01-afc0-b40e29429027",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "151d989f-1b08-588e-940f-054fa8628f19",
+      "origin_id": "784b89f4-2265-553e-8c75-6285c7f40701",
       "destination_type": "knowledge-doc",
-      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "destination_id": "a1cfbf07-f510-5689-8fa5-39085c7334f0",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "151d989f-1b08-588e-940f-054fa8628f19",
+      "origin_id": "784b89f4-2265-553e-8c75-6285c7f40701",
       "destination_type": "knowledge-doc",
-      "destination_id": "75d9a2da-dc8d-5024-9c4d-3262b138be77",
+      "destination_id": "df118d88-0454-58b4-be1e-e2348f4db4b9",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "151d989f-1b08-588e-940f-054fa8628f19",
+      "origin_id": "784b89f4-2265-553e-8c75-6285c7f40701",
+      "destination_type": "knowledge-doc",
+      "destination_id": "1271366e-469d-56fb-b912-267a00e3afdb",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "784b89f4-2265-553e-8c75-6285c7f40701",
       "destination_type": "knowledge-doc",
       "destination_id": "7065843e-4c7d-5bc7-8d1d-84f6a5d534fa",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "151d989f-1b08-588e-940f-054fa8628f19",
+      "origin_id": "784b89f4-2265-553e-8c75-6285c7f40701",
       "destination_type": "knowledge-doc",
       "destination_id": "70c375d1-14e8-583a-bb59-f7223f460018",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "151d989f-1b08-588e-940f-054fa8628f19",
+      "origin_id": "784b89f4-2265-553e-8c75-6285c7f40701",
+      "destination_type": "knowledge-doc",
+      "destination_id": "85d86123-8e59-5f64-ba26-4d1b0b99426a",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "a1cfbf07-f510-5689-8fa5-39085c7334f0",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "df118d88-0454-58b4-be1e-e2348f4db4b9",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "1271366e-469d-56fb-b912-267a00e3afdb",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "784b89f4-2265-553e-8c75-6285c7f40701",
       "destination_type": "integration",
       "destination_id": "c93bf594-f370-52cb-83ee-adde91d3fc60",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f1ebf0ba-92df-5b21-9503-cc33ce678deb",
+      "origin_id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
+      "destination_type": "knowledge-folder",
+      "destination_id": "9048d807-cd7e-5de6-a513-9933b76a8f84",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
       "destination_type": "knowledge-folder",
       "destination_id": "6383aba0-9350-5a01-afc0-b40e29429027",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f1ebf0ba-92df-5b21-9503-cc33ce678deb",
+      "origin_id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b047b344-c274-5edc-b630-f271563bec8e",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
+      "destination_type": "knowledge-doc",
+      "destination_id": "4387f237-5919-5c81-bcaf-e63ba8aaff32",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
+      "destination_type": "knowledge-doc",
+      "destination_id": "3fa59a16-0a39-5294-b7e6-bedc177d7dc7",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
       "destination_type": "knowledge-doc",
       "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f1ebf0ba-92df-5b21-9503-cc33ce678deb",
+      "origin_id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
       "destination_type": "knowledge-doc",
       "destination_id": "75d9a2da-dc8d-5024-9c4d-3262b138be77",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f1ebf0ba-92df-5b21-9503-cc33ce678deb",
+      "origin_id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
       "destination_type": "knowledge-doc",
       "destination_id": "7065843e-4c7d-5bc7-8d1d-84f6a5d534fa",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "f1ebf0ba-92df-5b21-9503-cc33ce678deb",
+      "origin_id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
       "destination_type": "knowledge-doc",
       "destination_id": "70c375d1-14e8-583a-bb59-f7223f460018",
       "relationship_kind": "reads"
     },
     {
+      "origin_type": "knowledge-doc",
+      "origin_id": "b047b344-c274-5edc-b630-f271563bec8e",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "4387f237-5919-5c81-bcaf-e63ba8aaff32",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "3fa59a16-0a39-5294-b7e6-bedc177d7dc7",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d2172992-f6ff-589d-896c-bebc2777e93f",
+      "relationship_kind": "reads"
+    },
+    {
       "origin_type": "agent",
-      "origin_id": "f1ebf0ba-92df-5b21-9503-cc33ce678deb",
+      "origin_id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
       "destination_type": "integration",
       "destination_id": "c93bf594-f370-52cb-83ee-adde91d3fc60",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "a5f3867a-2f88-5c29-b104-936139ba0810",
+      "origin_id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
+      "destination_type": "knowledge-folder",
+      "destination_id": "791a2625-692b-5c4b-b507-bc516d8d1a1a",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
       "destination_type": "knowledge-folder",
       "destination_id": "23faf8db-4692-571c-ae35-eb8a6c982ec9",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "a5f3867a-2f88-5c29-b104-936139ba0810",
+      "origin_id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "f3729be6-8841-5b4b-b118-a2062b7e2b53",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "2a6d7fe7-dc8d-5e39-aadd-37a73cd9375c",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "7c34c7db-6ae3-53ab-901f-b31c5e4834eb",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
       "destination_type": "knowledge-doc",
       "destination_id": "7eec0910-d103-5889-9943-2ca90aa569e6",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "a5f3867a-2f88-5c29-b104-936139ba0810",
+      "origin_id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
       "destination_type": "knowledge-doc",
       "destination_id": "8ed2b8b7-7dcd-5271-8433-913b6b8858ad",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "a5f3867a-2f88-5c29-b104-936139ba0810",
+      "origin_id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
       "destination_type": "knowledge-doc",
       "destination_id": "df928676-a20b-5ccf-ae3b-3fae8eac36c3",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "a5f3867a-2f88-5c29-b104-936139ba0810",
+      "origin_id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "3cd7e38c-6088-5793-8ac6-5141e516aeb4",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "f3729be6-8841-5b4b-b118-a2062b7e2b53",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "2a6d7fe7-dc8d-5e39-aadd-37a73cd9375c",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "7c34c7db-6ae3-53ab-901f-b31c5e4834eb",
       "destination_type": "knowledge-doc",
       "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "a5f3867a-2f88-5c29-b104-936139ba0810",
+      "origin_id": "7f1162fc-8c70-5735-9283-74884ba4b4a1",
       "destination_type": "integration",
       "destination_id": "7d481564-2cd4-5a61-b375-0e87d848958b",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "17787503-0d77-55e0-8ab0-3be7adf06089",
+      "origin_id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d36497f4-6b92-5863-8197-d1f1a7e9124b",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
       "destination_type": "knowledge-folder",
       "destination_id": "23faf8db-4692-571c-ae35-eb8a6c982ec9",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "17787503-0d77-55e0-8ab0-3be7adf06089",
+      "origin_id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
       "destination_type": "knowledge-doc",
-      "destination_id": "7eec0910-d103-5889-9943-2ca90aa569e6",
+      "destination_id": "e61092cf-b12a-5e68-b133-7f0d7fa76942",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "17787503-0d77-55e0-8ab0-3be7adf06089",
+      "origin_id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
+      "destination_type": "knowledge-doc",
+      "destination_id": "555e9a7d-7654-59c6-830e-da575ee74678",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
+      "destination_type": "knowledge-doc",
+      "destination_id": "f8491d27-07a9-507d-8bb4-ac88c9f14d27",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
       "destination_type": "knowledge-doc",
       "destination_id": "8ed2b8b7-7dcd-5271-8433-913b6b8858ad",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "17787503-0d77-55e0-8ab0-3be7adf06089",
+      "origin_id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
       "destination_type": "knowledge-doc",
       "destination_id": "df928676-a20b-5ccf-ae3b-3fae8eac36c3",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "17787503-0d77-55e0-8ab0-3be7adf06089",
+      "origin_id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
       "destination_type": "knowledge-doc",
       "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "17787503-0d77-55e0-8ab0-3be7adf06089",
+      "origin_id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
+      "destination_type": "knowledge-doc",
+      "destination_id": "f81b1b3b-a38f-57a6-9efd-0b3691121224",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "e61092cf-b12a-5e68-b133-7f0d7fa76942",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "555e9a7d-7654-59c6-830e-da575ee74678",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "f8491d27-07a9-507d-8bb4-ac88c9f14d27",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
       "destination_type": "integration",
       "destination_id": "7d481564-2cd4-5a61-b375-0e87d848958b",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "6bd7f954-8662-5d9d-964b-7116cb98fee8",
+      "origin_id": "6eb5ae57-7f66-52f2-9654-6bdc5e2497fd",
+      "destination_type": "knowledge-folder",
+      "destination_id": "df6ea4cf-b530-5510-8961-f9f43e56d79e",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "6eb5ae57-7f66-52f2-9654-6bdc5e2497fd",
       "destination_type": "knowledge-folder",
       "destination_id": "23faf8db-4692-571c-ae35-eb8a6c982ec9",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "6bd7f954-8662-5d9d-964b-7116cb98fee8",
+      "origin_id": "6eb5ae57-7f66-52f2-9654-6bdc5e2497fd",
       "destination_type": "knowledge-doc",
-      "destination_id": "7eec0910-d103-5889-9943-2ca90aa569e6",
+      "destination_id": "fa4322db-665c-588b-a1ea-3540576dc23e",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "6bd7f954-8662-5d9d-964b-7116cb98fee8",
+      "origin_id": "6eb5ae57-7f66-52f2-9654-6bdc5e2497fd",
+      "destination_type": "knowledge-doc",
+      "destination_id": "f1a89c3b-8ad3-518b-aa7c-0e5c00282032",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "6eb5ae57-7f66-52f2-9654-6bdc5e2497fd",
+      "destination_type": "knowledge-doc",
+      "destination_id": "41949ec6-4b7b-53b4-a8ca-b70c9a78e84f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "6eb5ae57-7f66-52f2-9654-6bdc5e2497fd",
       "destination_type": "knowledge-doc",
       "destination_id": "8ed2b8b7-7dcd-5271-8433-913b6b8858ad",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "6bd7f954-8662-5d9d-964b-7116cb98fee8",
+      "origin_id": "6eb5ae57-7f66-52f2-9654-6bdc5e2497fd",
       "destination_type": "knowledge-doc",
       "destination_id": "df928676-a20b-5ccf-ae3b-3fae8eac36c3",
       "relationship_kind": "reads"
     },
     {
-      "origin_type": "agent",
-      "origin_id": "6bd7f954-8662-5d9d-964b-7116cb98fee8",
+      "origin_type": "knowledge-doc",
+      "origin_id": "fa4322db-665c-588b-a1ea-3540576dc23e",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "f1a89c3b-8ad3-518b-aa7c-0e5c00282032",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "41949ec6-4b7b-53b4-a8ca-b70c9a78e84f",
       "destination_type": "knowledge-doc",
       "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "6bd7f954-8662-5d9d-964b-7116cb98fee8",
+      "origin_id": "6eb5ae57-7f66-52f2-9654-6bdc5e2497fd",
       "destination_type": "integration",
       "destination_id": "7d481564-2cd4-5a61-b375-0e87d848958b",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "b95444c1-a5fd-5585-af0f-59bf56b1fb1f",
+      "origin_id": "5ce2532f-636f-5549-b4bb-ea51bc8bb257",
+      "destination_type": "knowledge-folder",
+      "destination_id": "8fca1122-c931-561d-a5a6-629ec4870561",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "5ce2532f-636f-5549-b4bb-ea51bc8bb257",
       "destination_type": "knowledge-folder",
       "destination_id": "23faf8db-4692-571c-ae35-eb8a6c982ec9",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "b95444c1-a5fd-5585-af0f-59bf56b1fb1f",
+      "origin_id": "5ce2532f-636f-5549-b4bb-ea51bc8bb257",
+      "destination_type": "knowledge-doc",
+      "destination_id": "e4f0c7e3-10d0-5f42-8d76-f555d786d1a0",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "5ce2532f-636f-5549-b4bb-ea51bc8bb257",
+      "destination_type": "knowledge-doc",
+      "destination_id": "5a28c35c-d395-5764-adec-73e775c76346",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "5ce2532f-636f-5549-b4bb-ea51bc8bb257",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b36e0891-154f-59f5-a5a0-12bf2a3034d5",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "5ce2532f-636f-5549-b4bb-ea51bc8bb257",
       "destination_type": "knowledge-doc",
       "destination_id": "7eec0910-d103-5889-9943-2ca90aa569e6",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "b95444c1-a5fd-5585-af0f-59bf56b1fb1f",
+      "origin_id": "5ce2532f-636f-5549-b4bb-ea51bc8bb257",
       "destination_type": "knowledge-doc",
-      "destination_id": "8ed2b8b7-7dcd-5271-8433-913b6b8858ad",
+      "destination_id": "3cd7e38c-6088-5793-8ac6-5141e516aeb4",
       "relationship_kind": "reads"
     },
     {
-      "origin_type": "agent",
-      "origin_id": "b95444c1-a5fd-5585-af0f-59bf56b1fb1f",
+      "origin_type": "knowledge-doc",
+      "origin_id": "e4f0c7e3-10d0-5f42-8d76-f555d786d1a0",
       "destination_type": "knowledge-doc",
-      "destination_id": "df928676-a20b-5ccf-ae3b-3fae8eac36c3",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
       "relationship_kind": "reads"
     },
     {
-      "origin_type": "agent",
-      "origin_id": "b95444c1-a5fd-5585-af0f-59bf56b1fb1f",
+      "origin_type": "knowledge-doc",
+      "origin_id": "5a28c35c-d395-5764-adec-73e775c76346",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "b36e0891-154f-59f5-a5a0-12bf2a3034d5",
       "destination_type": "knowledge-doc",
       "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "b95444c1-a5fd-5585-af0f-59bf56b1fb1f",
+      "origin_id": "5ce2532f-636f-5549-b4bb-ea51bc8bb257",
       "destination_type": "integration",
       "destination_id": "7d481564-2cd4-5a61-b375-0e87d848958b",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "62e4f3f7-af47-5974-b324-b9b3825c9fd6",
+      "origin_id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d9b7f0c5-97b0-55f6-810c-bce634393342",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
       "destination_type": "knowledge-folder",
       "destination_id": "23faf8db-4692-571c-ae35-eb8a6c982ec9",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "62e4f3f7-af47-5974-b324-b9b3825c9fd6",
+      "origin_id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8ac4901b-5559-515b-96ce-0fd32baa1357",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9b3e90a0-6cf5-54e5-9529-d0fee8e6742d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
+      "destination_type": "knowledge-doc",
+      "destination_id": "ffce6975-faea-5b9f-b9bc-8ba4da193b6d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
       "destination_type": "knowledge-doc",
       "destination_id": "7eec0910-d103-5889-9943-2ca90aa569e6",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "62e4f3f7-af47-5974-b324-b9b3825c9fd6",
+      "origin_id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
       "destination_type": "knowledge-doc",
       "destination_id": "8ed2b8b7-7dcd-5271-8433-913b6b8858ad",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "62e4f3f7-af47-5974-b324-b9b3825c9fd6",
+      "origin_id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
       "destination_type": "knowledge-doc",
       "destination_id": "df928676-a20b-5ccf-ae3b-3fae8eac36c3",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "62e4f3f7-af47-5974-b324-b9b3825c9fd6",
+      "origin_id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
+      "destination_type": "knowledge-doc",
+      "destination_id": "3cd7e38c-6088-5793-8ac6-5141e516aeb4",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "8ac4901b-5559-515b-96ce-0fd32baa1357",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "9b3e90a0-6cf5-54e5-9529-d0fee8e6742d",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "ffce6975-faea-5b9f-b9bc-8ba4da193b6d",
       "destination_type": "knowledge-doc",
       "destination_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "62e4f3f7-af47-5974-b324-b9b3825c9fd6",
+      "origin_id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
       "destination_type": "integration",
       "destination_id": "7d481564-2cd4-5a61-b375-0e87d848958b",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "00948b45-a8b2-5169-a1d8-2830c3405edc",
+      "origin_id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
+      "destination_type": "knowledge-folder",
+      "destination_id": "bec57bb8-4648-5209-b893-18acd826c833",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
       "destination_type": "knowledge-folder",
       "destination_id": "61872c8b-d6a9-533d-9914-2b100613525d",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "00948b45-a8b2-5169-a1d8-2830c3405edc",
+      "origin_id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b18d8ab6-e69c-5809-b9b0-c5256867d29f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8a6d1e37-9200-5c4f-9cc2-a40f9dcb43dc",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8b2cc296-ea9f-552c-b444-29bca438ce8b",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
       "destination_type": "knowledge-doc",
       "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "00948b45-a8b2-5169-a1d8-2830c3405edc",
-      "destination_type": "knowledge-doc",
-      "destination_id": "3062af73-1aa6-50fc-9f04-b78de16d5d47",
-      "relationship_kind": "reads"
-    },
-    {
-      "origin_type": "agent",
-      "origin_id": "00948b45-a8b2-5169-a1d8-2830c3405edc",
+      "origin_id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
       "destination_type": "knowledge-doc",
       "destination_id": "9bc66e87-0aa4-57ae-b188-6207fc6486fa",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "00948b45-a8b2-5169-a1d8-2830c3405edc",
+      "origin_id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
       "destination_type": "knowledge-doc",
       "destination_id": "2141b64c-865f-57ca-a1af-cb62a5fa14cb",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "00948b45-a8b2-5169-a1d8-2830c3405edc",
+      "origin_id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
+      "destination_type": "knowledge-doc",
+      "destination_id": "e645174a-24f2-54a2-86b7-da684432c619",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "b18d8ab6-e69c-5809-b9b0-c5256867d29f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "8a6d1e37-9200-5c4f-9cc2-a40f9dcb43dc",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "8b2cc296-ea9f-552c-b444-29bca438ce8b",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
       "destination_type": "integration",
       "destination_id": "0d604443-b626-5259-9e9a-4e3fe76ad6b8",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "3de12303-d2d7-53a6-bf15-1020f9c1f394",
+      "origin_id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
+      "destination_type": "knowledge-folder",
+      "destination_id": "096f2e13-d0f7-5bc8-857c-46bc0494c35d",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
       "destination_type": "knowledge-folder",
       "destination_id": "61872c8b-d6a9-533d-9914-2b100613525d",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "3de12303-d2d7-53a6-bf15-1020f9c1f394",
+      "origin_id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
+      "destination_type": "knowledge-doc",
+      "destination_id": "1592bd51-6b7c-5f29-af7b-bf07c9cd8ae8",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
+      "destination_type": "knowledge-doc",
+      "destination_id": "208363f6-0da5-5f2c-89f5-355602dc0977",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
+      "destination_type": "knowledge-doc",
+      "destination_id": "01a07a54-542b-5261-9b58-00e54a01be8f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
       "destination_type": "knowledge-doc",
       "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "3de12303-d2d7-53a6-bf15-1020f9c1f394",
+      "origin_id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
       "destination_type": "knowledge-doc",
       "destination_id": "3062af73-1aa6-50fc-9f04-b78de16d5d47",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "3de12303-d2d7-53a6-bf15-1020f9c1f394",
-      "destination_type": "knowledge-doc",
-      "destination_id": "9bc66e87-0aa4-57ae-b188-6207fc6486fa",
-      "relationship_kind": "reads"
-    },
-    {
-      "origin_type": "agent",
-      "origin_id": "3de12303-d2d7-53a6-bf15-1020f9c1f394",
+      "origin_id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
       "destination_type": "knowledge-doc",
       "destination_id": "2141b64c-865f-57ca-a1af-cb62a5fa14cb",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "3de12303-d2d7-53a6-bf15-1020f9c1f394",
+      "origin_id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8ef43dd8-9259-53e4-8592-c4f2d3f0b031",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "1592bd51-6b7c-5f29-af7b-bf07c9cd8ae8",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "208363f6-0da5-5f2c-89f5-355602dc0977",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "01a07a54-542b-5261-9b58-00e54a01be8f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "44995f69-12f4-54e2-8042-e9d5c41dd894",
       "destination_type": "integration",
       "destination_id": "0d604443-b626-5259-9e9a-4e3fe76ad6b8",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "723375f8-b5d4-5d57-b2bb-a763c35f21c1",
+      "origin_id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
+      "destination_type": "knowledge-folder",
+      "destination_id": "d8ba8546-2d01-5ac0-b3d4-dabe45914de1",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
       "destination_type": "knowledge-folder",
       "destination_id": "61872c8b-d6a9-533d-9914-2b100613525d",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "723375f8-b5d4-5d57-b2bb-a763c35f21c1",
+      "origin_id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
       "destination_type": "knowledge-doc",
-      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "destination_id": "f4d3f264-7bff-567a-84bd-815be7e12c23",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "723375f8-b5d4-5d57-b2bb-a763c35f21c1",
+      "origin_id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
       "destination_type": "knowledge-doc",
-      "destination_id": "3062af73-1aa6-50fc-9f04-b78de16d5d47",
+      "destination_id": "d6734b2b-b9ee-5bef-86b3-711f9b280bb8",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "723375f8-b5d4-5d57-b2bb-a763c35f21c1",
+      "origin_id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
+      "destination_type": "knowledge-doc",
+      "destination_id": "73b2eed4-5dae-542e-b3e5-dfd782ab9d2f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
       "destination_type": "knowledge-doc",
       "destination_id": "9bc66e87-0aa4-57ae-b188-6207fc6486fa",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "723375f8-b5d4-5d57-b2bb-a763c35f21c1",
+      "origin_id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
       "destination_type": "knowledge-doc",
-      "destination_id": "2141b64c-865f-57ca-a1af-cb62a5fa14cb",
+      "destination_id": "e645174a-24f2-54a2-86b7-da684432c619",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "f4d3f264-7bff-567a-84bd-815be7e12c23",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "d6734b2b-b9ee-5bef-86b3-711f9b280bb8",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "73b2eed4-5dae-542e-b3e5-dfd782ab9d2f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "723375f8-b5d4-5d57-b2bb-a763c35f21c1",
+      "origin_id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
       "destination_type": "integration",
       "destination_id": "0d604443-b626-5259-9e9a-4e3fe76ad6b8",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "943ffadb-285c-53ff-b0ea-58936fccf307",
+      "origin_id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
+      "destination_type": "knowledge-folder",
+      "destination_id": "a135d28e-927c-5ec9-ab1f-a5b9eaddde4c",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
       "destination_type": "knowledge-folder",
       "destination_id": "61872c8b-d6a9-533d-9914-2b100613525d",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "943ffadb-285c-53ff-b0ea-58936fccf307",
+      "origin_id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b5aef682-67c3-5ea2-9f52-d6764f1cdaea",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
+      "destination_type": "knowledge-doc",
+      "destination_id": "0a2bcdf7-5acf-5cc4-8731-0f9d67a1def6",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
+      "destination_type": "knowledge-doc",
+      "destination_id": "3ef6f393-4960-53cd-97a3-a0de3310ed25",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
       "destination_type": "knowledge-doc",
       "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "943ffadb-285c-53ff-b0ea-58936fccf307",
-      "destination_type": "knowledge-doc",
-      "destination_id": "3062af73-1aa6-50fc-9f04-b78de16d5d47",
-      "relationship_kind": "reads"
-    },
-    {
-      "origin_type": "agent",
-      "origin_id": "943ffadb-285c-53ff-b0ea-58936fccf307",
+      "origin_id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
       "destination_type": "knowledge-doc",
       "destination_id": "9bc66e87-0aa4-57ae-b188-6207fc6486fa",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "943ffadb-285c-53ff-b0ea-58936fccf307",
+      "origin_id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
       "destination_type": "knowledge-doc",
       "destination_id": "2141b64c-865f-57ca-a1af-cb62a5fa14cb",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "943ffadb-285c-53ff-b0ea-58936fccf307",
+      "origin_id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
+      "destination_type": "knowledge-doc",
+      "destination_id": "e645174a-24f2-54a2-86b7-da684432c619",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "b5aef682-67c3-5ea2-9f52-d6764f1cdaea",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "0a2bcdf7-5acf-5cc4-8731-0f9d67a1def6",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "3ef6f393-4960-53cd-97a3-a0de3310ed25",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
       "destination_type": "integration",
       "destination_id": "0d604443-b626-5259-9e9a-4e3fe76ad6b8",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "5a940d85-38a8-5416-b978-2a805b5a2c2a",
+      "origin_id": "5d0892a3-8a0a-574a-b523-63854de66124",
+      "destination_type": "knowledge-folder",
+      "destination_id": "7c64d08f-1764-5b56-8e93-0d4d1f6090d5",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "5d0892a3-8a0a-574a-b523-63854de66124",
       "destination_type": "knowledge-folder",
       "destination_id": "61872c8b-d6a9-533d-9914-2b100613525d",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "5a940d85-38a8-5416-b978-2a805b5a2c2a",
+      "origin_id": "5d0892a3-8a0a-574a-b523-63854de66124",
+      "destination_type": "knowledge-doc",
+      "destination_id": "5414df5c-e44d-5b8a-8457-fe007d4f3d53",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "5d0892a3-8a0a-574a-b523-63854de66124",
+      "destination_type": "knowledge-doc",
+      "destination_id": "03bcb433-4cff-554c-98a2-208a6ad6f0be",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "5d0892a3-8a0a-574a-b523-63854de66124",
+      "destination_type": "knowledge-doc",
+      "destination_id": "4b037c89-2be3-5715-b589-ab8fd2fedd6a",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "5d0892a3-8a0a-574a-b523-63854de66124",
       "destination_type": "knowledge-doc",
       "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "5a940d85-38a8-5416-b978-2a805b5a2c2a",
-      "destination_type": "knowledge-doc",
-      "destination_id": "3062af73-1aa6-50fc-9f04-b78de16d5d47",
-      "relationship_kind": "reads"
-    },
-    {
-      "origin_type": "agent",
-      "origin_id": "5a940d85-38a8-5416-b978-2a805b5a2c2a",
-      "destination_type": "knowledge-doc",
-      "destination_id": "9bc66e87-0aa4-57ae-b188-6207fc6486fa",
-      "relationship_kind": "reads"
-    },
-    {
-      "origin_type": "agent",
-      "origin_id": "5a940d85-38a8-5416-b978-2a805b5a2c2a",
+      "origin_id": "5d0892a3-8a0a-574a-b523-63854de66124",
       "destination_type": "knowledge-doc",
       "destination_id": "2141b64c-865f-57ca-a1af-cb62a5fa14cb",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "5a940d85-38a8-5416-b978-2a805b5a2c2a",
+      "origin_id": "5d0892a3-8a0a-574a-b523-63854de66124",
+      "destination_type": "knowledge-doc",
+      "destination_id": "214378e9-e3fd-57c1-a8d1-061003c8cca9",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "5414df5c-e44d-5b8a-8457-fe007d4f3d53",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "03bcb433-4cff-554c-98a2-208a6ad6f0be",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "4b037c89-2be3-5715-b589-ab8fd2fedd6a",
+      "destination_type": "knowledge-doc",
+      "destination_id": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "5d0892a3-8a0a-574a-b523-63854de66124",
       "destination_type": "integration",
       "destination_id": "0d604443-b626-5259-9e9a-4e3fe76ad6b8",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "0c1b8c46-a259-51d7-99b1-9d01254a6df6",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
+      "destination_type": "knowledge-folder",
+      "destination_id": "8587c386-0b04-5d28-9ae9-505ce78b8f9e",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
       "destination_type": "knowledge-folder",
       "destination_id": "2d8d871d-afe3-5d95-b867-adb8f15ba069",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "0c1b8c46-a259-51d7-99b1-9d01254a6df6",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
+      "destination_type": "knowledge-doc",
+      "destination_id": "61b9b239-f4d7-52fe-91c1-f957cd788c40",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
+      "destination_type": "knowledge-doc",
+      "destination_id": "dbc6c1f4-842f-52cf-af9e-c592b999b7df",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
+      "destination_type": "knowledge-doc",
+      "destination_id": "d1704ac6-08df-53ee-a4c5-c10b8ed2f003",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
       "destination_type": "knowledge-doc",
       "destination_id": "6b55d492-e930-5942-8252-632fae6f0ebd",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "0c1b8c46-a259-51d7-99b1-9d01254a6df6",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
       "destination_type": "knowledge-doc",
       "destination_id": "52948688-12e6-57e7-a490-f855c9d3fed7",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "0c1b8c46-a259-51d7-99b1-9d01254a6df6",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
       "destination_type": "knowledge-doc",
       "destination_id": "c8139cd3-33b9-5a32-b362-19aa797e5a1f",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "0c1b8c46-a259-51d7-99b1-9d01254a6df6",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
       "destination_type": "knowledge-doc",
-      "destination_id": "a1d4ab58-342c-5cbe-8b5a-88bdd5bdbf08",
+      "destination_id": "a331a829-f4ee-5197-a287-0440d9b9174e",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "0c1b8c46-a259-51d7-99b1-9d01254a6df6",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "61b9b239-f4d7-52fe-91c1-f957cd788c40",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "dbc6c1f4-842f-52cf-af9e-c592b999b7df",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "d1704ac6-08df-53ee-a4c5-c10b8ed2f003",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "1b92a12b-a3bd-500a-bbc0-2f2991f3fba6",
       "destination_type": "integration",
       "destination_id": "2fa826a0-6719-520a-bb46-2a61c9a4a294",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "3f1f8d55-9202-561f-806f-1eec0271abf1",
+      "origin_id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
+      "destination_type": "knowledge-folder",
+      "destination_id": "1c812284-33f1-558b-a288-d99ca8861e94",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
       "destination_type": "knowledge-folder",
       "destination_id": "2d8d871d-afe3-5d95-b867-adb8f15ba069",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "3f1f8d55-9202-561f-806f-1eec0271abf1",
+      "origin_id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
+      "destination_type": "knowledge-doc",
+      "destination_id": "7ad74555-1c1f-5b00-bd6f-fbf37e679c92",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8fa3583b-0458-55bb-b0d3-ed0e8f65cc00",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
+      "destination_type": "knowledge-doc",
+      "destination_id": "e98339d7-fc9b-581b-887f-6e4487be2741",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
       "destination_type": "knowledge-doc",
       "destination_id": "6b55d492-e930-5942-8252-632fae6f0ebd",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "3f1f8d55-9202-561f-806f-1eec0271abf1",
+      "origin_id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
       "destination_type": "knowledge-doc",
-      "destination_id": "52948688-12e6-57e7-a490-f855c9d3fed7",
+      "destination_id": "a331a829-f4ee-5197-a287-0440d9b9174e",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "3f1f8d55-9202-561f-806f-1eec0271abf1",
+      "origin_id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
       "destination_type": "knowledge-doc",
-      "destination_id": "c8139cd3-33b9-5a32-b362-19aa797e5a1f",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "7ad74555-1c1f-5b00-bd6f-fbf37e679c92",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "8fa3583b-0458-55bb-b0d3-ed0e8f65cc00",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "e98339d7-fc9b-581b-887f-6e4487be2741",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "3f1f8d55-9202-561f-806f-1eec0271abf1",
-      "destination_type": "knowledge-doc",
-      "destination_id": "a1d4ab58-342c-5cbe-8b5a-88bdd5bdbf08",
-      "relationship_kind": "reads"
-    },
-    {
-      "origin_type": "agent",
-      "origin_id": "3f1f8d55-9202-561f-806f-1eec0271abf1",
+      "origin_id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
       "destination_type": "integration",
       "destination_id": "2fa826a0-6719-520a-bb46-2a61c9a4a294",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "b121e519-df2f-523b-9ae3-ec2deed4b3ee",
+      "origin_id": "f49da2ad-5920-5aed-a717-7484878482ae",
+      "destination_type": "knowledge-folder",
+      "destination_id": "b4bd604f-aa47-5524-a419-c2380c5e1e31",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "f49da2ad-5920-5aed-a717-7484878482ae",
       "destination_type": "knowledge-folder",
       "destination_id": "2d8d871d-afe3-5d95-b867-adb8f15ba069",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "b121e519-df2f-523b-9ae3-ec2deed4b3ee",
+      "origin_id": "f49da2ad-5920-5aed-a717-7484878482ae",
+      "destination_type": "knowledge-doc",
+      "destination_id": "7e7984dc-0597-50f0-8493-7a909fdee6cc",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "f49da2ad-5920-5aed-a717-7484878482ae",
+      "destination_type": "knowledge-doc",
+      "destination_id": "2798f490-dc2a-56cc-8e0c-8b6b0d466478",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "f49da2ad-5920-5aed-a717-7484878482ae",
+      "destination_type": "knowledge-doc",
+      "destination_id": "35b2037d-5b83-56bb-9e21-5dbfcaecf859",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "f49da2ad-5920-5aed-a717-7484878482ae",
       "destination_type": "knowledge-doc",
       "destination_id": "6b55d492-e930-5942-8252-632fae6f0ebd",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "b121e519-df2f-523b-9ae3-ec2deed4b3ee",
-      "destination_type": "knowledge-doc",
-      "destination_id": "52948688-12e6-57e7-a490-f855c9d3fed7",
-      "relationship_kind": "reads"
-    },
-    {
-      "origin_type": "agent",
-      "origin_id": "b121e519-df2f-523b-9ae3-ec2deed4b3ee",
-      "destination_type": "knowledge-doc",
-      "destination_id": "c8139cd3-33b9-5a32-b362-19aa797e5a1f",
-      "relationship_kind": "reads"
-    },
-    {
-      "origin_type": "agent",
-      "origin_id": "b121e519-df2f-523b-9ae3-ec2deed4b3ee",
+      "origin_id": "f49da2ad-5920-5aed-a717-7484878482ae",
       "destination_type": "knowledge-doc",
       "destination_id": "a1d4ab58-342c-5cbe-8b5a-88bdd5bdbf08",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "b121e519-df2f-523b-9ae3-ec2deed4b3ee",
+      "origin_id": "f49da2ad-5920-5aed-a717-7484878482ae",
+      "destination_type": "knowledge-doc",
+      "destination_id": "a331a829-f4ee-5197-a287-0440d9b9174e",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "f49da2ad-5920-5aed-a717-7484878482ae",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "7e7984dc-0597-50f0-8493-7a909fdee6cc",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "2798f490-dc2a-56cc-8e0c-8b6b0d466478",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "35b2037d-5b83-56bb-9e21-5dbfcaecf859",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "f49da2ad-5920-5aed-a717-7484878482ae",
       "destination_type": "integration",
       "destination_id": "2fa826a0-6719-520a-bb46-2a61c9a4a294",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "d95ef750-babe-517c-b09e-3649aac62cdc",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
+      "destination_type": "knowledge-folder",
+      "destination_id": "c3d6f3c1-b35d-54b2-9626-4caea37e4a79",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
       "destination_type": "knowledge-folder",
       "destination_id": "2d8d871d-afe3-5d95-b867-adb8f15ba069",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "d95ef750-babe-517c-b09e-3649aac62cdc",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
+      "destination_type": "knowledge-doc",
+      "destination_id": "5a28a4f9-fa77-5a44-85ba-25b6fa650666",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b6c8f0fd-1bd3-5770-a684-11e0096ae45f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
+      "destination_type": "knowledge-doc",
+      "destination_id": "830f3672-7046-55df-a1e5-d690e4f3ffe2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
       "destination_type": "knowledge-doc",
       "destination_id": "6b55d492-e930-5942-8252-632fae6f0ebd",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "d95ef750-babe-517c-b09e-3649aac62cdc",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
       "destination_type": "knowledge-doc",
       "destination_id": "52948688-12e6-57e7-a490-f855c9d3fed7",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "d95ef750-babe-517c-b09e-3649aac62cdc",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
       "destination_type": "knowledge-doc",
       "destination_id": "c8139cd3-33b9-5a32-b362-19aa797e5a1f",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "d95ef750-babe-517c-b09e-3649aac62cdc",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
       "destination_type": "knowledge-doc",
-      "destination_id": "a1d4ab58-342c-5cbe-8b5a-88bdd5bdbf08",
+      "destination_id": "a331a829-f4ee-5197-a287-0440d9b9174e",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "d95ef750-babe-517c-b09e-3649aac62cdc",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "5a28a4f9-fa77-5a44-85ba-25b6fa650666",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "b6c8f0fd-1bd3-5770-a684-11e0096ae45f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "830f3672-7046-55df-a1e5-d690e4f3ffe2",
+      "destination_type": "knowledge-doc",
+      "destination_id": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "12307065-d948-52d4-982d-08a4d16e714a",
       "destination_type": "integration",
       "destination_id": "2fa826a0-6719-520a-bb46-2a61c9a4a294",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "657340ff-94c7-5ea1-9377-5eb68460902a",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
+      "destination_type": "knowledge-folder",
+      "destination_id": "4dcae91b-7537-574b-9af5-f92982b4f831",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
       "destination_type": "knowledge-folder",
       "destination_id": "c09b3cab-8899-591f-942e-02577358c643",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "657340ff-94c7-5ea1-9377-5eb68460902a",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8bdbcb31-9f0e-5bbd-ba75-c6a2b46e9649",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
+      "destination_type": "knowledge-doc",
+      "destination_id": "2bc08f5b-3acb-53d8-9314-92372be0d1df",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
+      "destination_type": "knowledge-doc",
+      "destination_id": "dfb1ebac-e3d2-563f-bcf5-ce07e24e45ba",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
       "destination_type": "knowledge-doc",
       "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "657340ff-94c7-5ea1-9377-5eb68460902a",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
       "destination_type": "knowledge-doc",
       "destination_id": "e7ce206b-bf8a-59e9-98f4-5ec9511d354c",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "657340ff-94c7-5ea1-9377-5eb68460902a",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
       "destination_type": "knowledge-doc",
       "destination_id": "f918ae31-54e2-5025-bf5f-2cd05a9a94cc",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "657340ff-94c7-5ea1-9377-5eb68460902a",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
       "destination_type": "knowledge-doc",
-      "destination_id": "bb08413d-f0ac-55d6-8647-bb343ed4df77",
+      "destination_id": "04510fb3-178e-56f1-a24a-286d95fda0c2",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "657340ff-94c7-5ea1-9377-5eb68460902a",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9ca9caf6-9d14-5b8f-a7ba-963bd985bdfc",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "8bdbcb31-9f0e-5bbd-ba75-c6a2b46e9649",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "2bc08f5b-3acb-53d8-9314-92372be0d1df",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "dfb1ebac-e3d2-563f-bcf5-ce07e24e45ba",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
       "destination_type": "integration",
       "destination_id": "bfc98ec0-621e-5f70-8e88-3505eb3f26f3",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "81f7b016-ad2b-53f7-a51d-1410dbb0383f",
+      "origin_id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
+      "destination_type": "knowledge-folder",
+      "destination_id": "fcd0fa14-5077-57ad-a04a-7520521a60ff",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
       "destination_type": "knowledge-folder",
       "destination_id": "c09b3cab-8899-591f-942e-02577358c643",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "81f7b016-ad2b-53f7-a51d-1410dbb0383f",
+      "origin_id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
       "destination_type": "knowledge-doc",
-      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "destination_id": "a6baadd9-69db-5df7-acc8-a0bc93cd11bb",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "81f7b016-ad2b-53f7-a51d-1410dbb0383f",
+      "origin_id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
+      "destination_type": "knowledge-doc",
+      "destination_id": "953c981a-67cf-5372-a384-f9dc542bb637",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
+      "destination_type": "knowledge-doc",
+      "destination_id": "2b3df690-ea2f-5e5c-bbad-e69bf7ca5bf4",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
       "destination_type": "knowledge-doc",
       "destination_id": "e7ce206b-bf8a-59e9-98f4-5ec9511d354c",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "81f7b016-ad2b-53f7-a51d-1410dbb0383f",
+      "origin_id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
       "destination_type": "knowledge-doc",
       "destination_id": "f918ae31-54e2-5025-bf5f-2cd05a9a94cc",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "81f7b016-ad2b-53f7-a51d-1410dbb0383f",
+      "origin_id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
       "destination_type": "knowledge-doc",
-      "destination_id": "bb08413d-f0ac-55d6-8647-bb343ed4df77",
+      "destination_id": "04510fb3-178e-56f1-a24a-286d95fda0c2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "a6baadd9-69db-5df7-acc8-a0bc93cd11bb",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "953c981a-67cf-5372-a384-f9dc542bb637",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "2b3df690-ea2f-5e5c-bbad-e69bf7ca5bf4",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "81f7b016-ad2b-53f7-a51d-1410dbb0383f",
+      "origin_id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
       "destination_type": "integration",
       "destination_id": "bfc98ec0-621e-5f70-8e88-3505eb3f26f3",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "8fbe1704-0583-56ec-a38e-2079b5d17211",
+      "origin_id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
+      "destination_type": "knowledge-folder",
+      "destination_id": "9f9418d2-b563-57a3-b6a2-531165746f55",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
       "destination_type": "knowledge-folder",
       "destination_id": "c09b3cab-8899-591f-942e-02577358c643",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "8fbe1704-0583-56ec-a38e-2079b5d17211",
+      "origin_id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
       "destination_type": "knowledge-doc",
-      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "destination_id": "e68e79c5-127e-599a-b42c-9c1791b381d1",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "8fbe1704-0583-56ec-a38e-2079b5d17211",
+      "origin_id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9582f128-bd8e-5f58-a814-6f0a3a594541",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
+      "destination_type": "knowledge-doc",
+      "destination_id": "7c431dad-75b4-5754-9ec2-7175417625eb",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
       "destination_type": "knowledge-doc",
       "destination_id": "e7ce206b-bf8a-59e9-98f4-5ec9511d354c",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "8fbe1704-0583-56ec-a38e-2079b5d17211",
+      "origin_id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
       "destination_type": "knowledge-doc",
       "destination_id": "f918ae31-54e2-5025-bf5f-2cd05a9a94cc",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "8fbe1704-0583-56ec-a38e-2079b5d17211",
+      "origin_id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
       "destination_type": "knowledge-doc",
       "destination_id": "bb08413d-f0ac-55d6-8647-bb343ed4df77",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "8fbe1704-0583-56ec-a38e-2079b5d17211",
+      "origin_id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
+      "destination_type": "knowledge-doc",
+      "destination_id": "04510fb3-178e-56f1-a24a-286d95fda0c2",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "e68e79c5-127e-599a-b42c-9c1791b381d1",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "9582f128-bd8e-5f58-a814-6f0a3a594541",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "7c431dad-75b4-5754-9ec2-7175417625eb",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
       "destination_type": "integration",
       "destination_id": "bfc98ec0-621e-5f70-8e88-3505eb3f26f3",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "cb40be4c-b29b-506f-a70e-66916ab49bc9",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
+      "destination_type": "knowledge-folder",
+      "destination_id": "3943e748-b472-5157-9450-be40215b7cf0",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
       "destination_type": "knowledge-folder",
       "destination_id": "c09b3cab-8899-591f-942e-02577358c643",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "cb40be4c-b29b-506f-a70e-66916ab49bc9",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
+      "destination_type": "knowledge-doc",
+      "destination_id": "df00c942-d1c5-50de-a155-f40b9d9578e6",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
+      "destination_type": "knowledge-doc",
+      "destination_id": "b74585a0-5b37-5d92-836a-72341c0dc81f",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
+      "destination_type": "knowledge-doc",
+      "destination_id": "824c642a-2b54-53b3-b3e1-3301371bdbaa",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
       "destination_type": "knowledge-doc",
       "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "cb40be4c-b29b-506f-a70e-66916ab49bc9",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
       "destination_type": "knowledge-doc",
       "destination_id": "e7ce206b-bf8a-59e9-98f4-5ec9511d354c",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "cb40be4c-b29b-506f-a70e-66916ab49bc9",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
       "destination_type": "knowledge-doc",
       "destination_id": "f918ae31-54e2-5025-bf5f-2cd05a9a94cc",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "cb40be4c-b29b-506f-a70e-66916ab49bc9",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
       "destination_type": "knowledge-doc",
-      "destination_id": "bb08413d-f0ac-55d6-8647-bb343ed4df77",
+      "destination_id": "04510fb3-178e-56f1-a24a-286d95fda0c2",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "cb40be4c-b29b-506f-a70e-66916ab49bc9",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9ca9caf6-9d14-5b8f-a7ba-963bd985bdfc",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "df00c942-d1c5-50de-a155-f40b9d9578e6",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "b74585a0-5b37-5d92-836a-72341c0dc81f",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "824c642a-2b54-53b3-b3e1-3301371bdbaa",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "50093576-b483-5abe-b817-a71e1a9ba850",
       "destination_type": "integration",
       "destination_id": "bfc98ec0-621e-5f70-8e88-3505eb3f26f3",
       "relationship_kind": "uses_tool"
     },
     {
       "origin_type": "agent",
-      "origin_id": "e3f7bd0c-ab32-55e9-82e8-77daef979acf",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
+      "destination_type": "knowledge-folder",
+      "destination_id": "823c002b-b1cd-5bef-884c-9889822a5d1b",
+      "relationship_kind": "scoped_to"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
       "destination_type": "knowledge-folder",
       "destination_id": "c09b3cab-8899-591f-942e-02577358c643",
       "relationship_kind": "scoped_to"
     },
     {
       "origin_type": "agent",
-      "origin_id": "e3f7bd0c-ab32-55e9-82e8-77daef979acf",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
+      "destination_type": "knowledge-doc",
+      "destination_id": "0fcdeda5-e227-50bb-8fe3-ccacfde6f427",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
+      "destination_type": "knowledge-doc",
+      "destination_id": "6b84de50-5ac2-5adc-8931-0e60ebc055f6",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
+      "destination_type": "knowledge-doc",
+      "destination_id": "ef5603bc-48a1-50e3-84c4-83f336056804",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
       "destination_type": "knowledge-doc",
       "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "e3f7bd0c-ab32-55e9-82e8-77daef979acf",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
       "destination_type": "knowledge-doc",
       "destination_id": "e7ce206b-bf8a-59e9-98f4-5ec9511d354c",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "e3f7bd0c-ab32-55e9-82e8-77daef979acf",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
       "destination_type": "knowledge-doc",
       "destination_id": "f918ae31-54e2-5025-bf5f-2cd05a9a94cc",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "e3f7bd0c-ab32-55e9-82e8-77daef979acf",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
       "destination_type": "knowledge-doc",
-      "destination_id": "bb08413d-f0ac-55d6-8647-bb343ed4df77",
+      "destination_id": "04510fb3-178e-56f1-a24a-286d95fda0c2",
       "relationship_kind": "reads"
     },
     {
       "origin_type": "agent",
-      "origin_id": "e3f7bd0c-ab32-55e9-82e8-77daef979acf",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
+      "destination_type": "knowledge-doc",
+      "destination_id": "9ca9caf6-9d14-5b8f-a7ba-963bd985bdfc",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "0fcdeda5-e227-50bb-8fe3-ccacfde6f427",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "6b84de50-5ac2-5adc-8931-0e60ebc055f6",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "knowledge-doc",
+      "origin_id": "ef5603bc-48a1-50e3-84c4-83f336056804",
+      "destination_type": "knowledge-doc",
+      "destination_id": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+      "relationship_kind": "reads"
+    },
+    {
+      "origin_type": "agent",
+      "origin_id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
       "destination_type": "integration",
       "destination_id": "bfc98ec0-621e-5f70-8e88-3505eb3f26f3",
       "relationship_kind": "uses_tool"

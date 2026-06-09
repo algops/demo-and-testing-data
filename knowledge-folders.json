@@ -479,6 +479,414 @@
       "org_id": "org:anchor",
       "domain_id": "hr",
       "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "085ab623-cb8a-5bef-9b63-1b00845fc0fb",
+      "path": "knowledgebase/esg/agents",
+      "name": "agents",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d40d7945-f4c9-5385-b91f-3ee4442dc272",
+      "path": "knowledgebase/esg/agents/csrd-gap-disclosure-copilot",
+      "name": "csrd-gap-disclosure-copilot",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "c2efc567-9c61-545b-a942-89fa4924a4af",
+      "path": "knowledgebase/esg/agents/csrd-gap-disclosure-copilot/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "c32f28f6-df50-5419-8126-807481b21ff0",
+      "path": "knowledgebase/esg/agents/taxonomy-alignment-explainer",
+      "name": "taxonomy-alignment-explainer",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "246ab13d-b09e-5f76-82e5-dd8321bd9a8c",
+      "path": "knowledgebase/esg/agents/taxonomy-alignment-explainer/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "b2f7556f-5ff8-5750-8c60-c577c7b5e7c9",
+      "path": "knowledgebase/esg/agents/supplier-risk-assistant",
+      "name": "supplier-risk-assistant",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "e07bbfca-3e66-5972-a88a-a2dbf88fba4e",
+      "path": "knowledgebase/esg/agents/supplier-risk-assistant/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "9048d807-cd7e-5de6-a513-9933b76a8f84",
+      "path": "knowledgebase/esg/agents/audit-finding-remediation-guide",
+      "name": "audit-finding-remediation-guide",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "320c7be2-8226-52b2-af08-1d0db7ff3a45",
+      "path": "knowledgebase/esg/agents/audit-finding-remediation-guide/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "c5de39e4-5f76-571a-a3ad-02b8317d2ec0",
+      "path": "knowledgebase/it/agents",
+      "name": "agents",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "791a2625-692b-5c4b-b507-bc516d8d1a1a",
+      "path": "knowledgebase/it/agents/agentic-engineering-kb-builder",
+      "name": "agentic-engineering-kb-builder",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "461d1278-8752-5ada-bf67-1cdc8b19d292",
+      "path": "knowledgebase/it/agents/agentic-engineering-kb-builder/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d36497f4-6b92-5863-8197-d1f1a7e9124b",
+      "path": "knowledgebase/it/agents/automated-code-review-copilot",
+      "name": "automated-code-review-copilot",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "078aec6b-4adc-54a5-9909-38873185ebba",
+      "path": "knowledgebase/it/agents/automated-code-review-copilot/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "df6ea4cf-b530-5510-8961-f9f43e56d79e",
+      "path": "knowledgebase/it/agents/incident-runbook-assistant",
+      "name": "incident-runbook-assistant",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "b69c795f-694d-507e-b23c-363cab229e0f",
+      "path": "knowledgebase/it/agents/incident-runbook-assistant/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "8fca1122-c931-561d-a5a6-629ec4870561",
+      "path": "knowledgebase/it/agents/architecture-adr-q-a",
+      "name": "architecture-adr-q-a",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "142b13f4-b95e-514b-ad54-037566893056",
+      "path": "knowledgebase/it/agents/architecture-adr-q-a/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d9b7f0c5-97b0-55f6-810c-bce634393342",
+      "path": "knowledgebase/it/agents/pm-tech-comms-assistant",
+      "name": "pm-tech-comms-assistant",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "7b5c79a1-20e3-503b-8c2a-6e0ec4b61188",
+      "path": "knowledgebase/it/agents/pm-tech-comms-assistant/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d457d11f-c077-5f34-83fd-e39b53bfef76",
+      "path": "knowledgebase/legal/agents",
+      "name": "agents",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "bec57bb8-4648-5209-b893-18acd826c833",
+      "path": "knowledgebase/legal/agents/in-house-know-how-copilot",
+      "name": "in-house-know-how-copilot",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "4964c2fc-ab70-5e73-b3dc-40c4ab0adce1",
+      "path": "knowledgebase/legal/agents/in-house-know-how-copilot/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "096f2e13-d0f7-5bc8-857c-46bc0494c35d",
+      "path": "knowledgebase/legal/agents/contract-template-finder",
+      "name": "contract-template-finder",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "0b1a3fb3-43a0-5bda-8f32-9464c608b476",
+      "path": "knowledgebase/legal/agents/contract-template-finder/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d8ba8546-2d01-5ac0-b3d4-dabe45914de1",
+      "path": "knowledgebase/legal/agents/dd-progress-assistant",
+      "name": "dd-progress-assistant",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d1cc8e2a-05cd-58d2-8a6a-3d4bad933069",
+      "path": "knowledgebase/legal/agents/dd-progress-assistant/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "a135d28e-927c-5ec9-ab1f-a5b9eaddde4c",
+      "path": "knowledgebase/legal/agents/conflict-check-helper",
+      "name": "conflict-check-helper",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "8e24a470-69d6-589e-b8fb-0fca0205571f",
+      "path": "knowledgebase/legal/agents/conflict-check-helper/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "7c64d08f-1764-5b56-8e93-0d4d1f6090d5",
+      "path": "knowledgebase/legal/agents/legislative-update-summarizer",
+      "name": "legislative-update-summarizer",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "22697552-9f51-5cfa-ab87-b37e7ecf3810",
+      "path": "knowledgebase/legal/agents/legislative-update-summarizer/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "5b38f877-511f-5537-b22d-4ac4cb1e966b",
+      "path": "knowledgebase/tax/agents",
+      "name": "agents",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "8587c386-0b04-5d28-9ae9-505ce78b8f9e",
+      "path": "knowledgebase/tax/agents/filing-deadline-tracker",
+      "name": "filing-deadline-tracker",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "8e56adcf-8e0b-5f2d-bb0e-5c4085549801",
+      "path": "knowledgebase/tax/agents/filing-deadline-tracker/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "1c812284-33f1-558b-a288-d99ca8861e94",
+      "path": "knowledgebase/tax/agents/account-tax-treatment-q-a",
+      "name": "account-tax-treatment-q-a",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "093f4f7a-a574-5cf7-9dff-d0f93e5e346e",
+      "path": "knowledgebase/tax/agents/account-tax-treatment-q-a/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "b4bd604f-aa47-5524-a419-c2380c5e1e31",
+      "path": "knowledgebase/tax/agents/tp-documentation-assistant",
+      "name": "tp-documentation-assistant",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "7ea3bf05-ced7-5779-845f-867ea37e0cc9",
+      "path": "knowledgebase/tax/agents/tp-documentation-assistant/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "c3d6f3c1-b35d-54b2-9626-4caea37e4a79",
+      "path": "knowledgebase/tax/agents/dph-sazba-change-explainer",
+      "name": "dph-sazba-change-explainer",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "5372efa7-929a-528c-ae13-491d008768da",
+      "path": "knowledgebase/tax/agents/dph-sazba-change-explainer/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "c2aed1da-629c-5dac-914f-4a9f69b4fc47",
+      "path": "knowledgebase/hr/agents",
+      "name": "agents",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "4dcae91b-7537-574b-9af5-f92982b4f831",
+      "path": "knowledgebase/hr/agents/sop-policy-copilot",
+      "name": "sop-policy-copilot",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d29472e5-0a33-5e24-bb11-4be84af38e22",
+      "path": "knowledgebase/hr/agents/sop-policy-copilot/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "fcd0fa14-5077-57ad-a04a-7520521a60ff",
+      "path": "knowledgebase/hr/agents/leave-absence-navigator",
+      "name": "leave-absence-navigator",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "234e7b4b-12ba-57e2-8f00-95dcca3e0bf1",
+      "path": "knowledgebase/hr/agents/leave-absence-navigator/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "9f9418d2-b563-57a3-b6a2-531165746f55",
+      "path": "knowledgebase/hr/agents/onboarding-checklist-assistant",
+      "name": "onboarding-checklist-assistant",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "2a4edba7-afbc-538c-8f29-6d6575ed8d34",
+      "path": "knowledgebase/hr/agents/onboarding-checklist-assistant/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "3943e748-b472-5157-9450-be40215b7cf0",
+      "path": "knowledgebase/hr/agents/training-compliance-reporter",
+      "name": "training-compliance-reporter",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d21744f8-aa97-5d7e-a8fb-1677b5924502",
+      "path": "knowledgebase/hr/agents/training-compliance-reporter/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "823c002b-b1cd-5bef-884c-9889822a5d1b",
+      "path": "knowledgebase/hr/agents/benefits-eligibility-guide",
+      "name": "benefits-eligibility-guide",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "77b56705-5578-5755-ba21-7e3c4e07e9f3",
+      "path": "knowledgebase/hr/agents/benefits-eligibility-guide/core",
+      "name": "core",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z"
     }
   ]
 }

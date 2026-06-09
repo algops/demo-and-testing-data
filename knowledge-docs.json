@@ -727,6 +727,2400 @@
       "version": "1.0",
       "created_at": "2025-06-01T12:00:00Z",
       "updated_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d54b0c6c-8f82-59c7-8e91-329893cfc1ce",
+      "title": "System prompt: CSRD gap & disclosure copilot",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/csrd-gap-disclosure-copilot/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "csrd-gap-disclosure-copilot",
+      "agent_name": "CSRD gap & disclosure copilot",
+      "use_case": "Mezery v CSRD disclosure",
+      "persona": "ESG reporting analytik",
+      "audience": "ESG tým a management",
+      "guardrails": [
+        "Nevymýšlej metriky — používej pouze ověřená data ze Sphera",
+        "Označ nejistoty a data gaps explicitně"
+      ],
+      "demo_questions": [
+        "Které ESRS datapointy chybí pro FY2024?",
+        "Jak postupovat při double materiality?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "metric",
+        "report"
+      ]
+    },
+    {
+      "id": "99468a0d-9c53-569c-8ebe-71af20f54985",
+      "title": "Role: CSRD gap & disclosure copilot",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/csrd-gap-disclosure-copilot/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "csrd-gap-disclosure-copilot",
+      "agent_name": "CSRD gap & disclosure copilot",
+      "use_case": "Mezery v CSRD disclosure",
+      "persona": "ESG reporting analytik",
+      "audience": "ESG tým a management",
+      "guardrails": [
+        "Nevymýšlej metriky — používej pouze ověřená data ze Sphera",
+        "Označ nejistoty a data gaps explicitně"
+      ],
+      "demo_questions": [
+        "Které ESRS datapointy chybí pro FY2024?",
+        "Jak postupovat při double materiality?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "metric",
+        "report"
+      ]
+    },
+    {
+      "id": "c8aa873a-619d-5bd0-9121-690a922b3c03",
+      "title": "Skill: CSRD gap & disclosure copilot",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/csrd-gap-disclosure-copilot/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "csrd-gap-disclosure-copilot",
+      "agent_name": "CSRD gap & disclosure copilot",
+      "use_case": "Mezery v CSRD disclosure",
+      "persona": "ESG reporting analytik",
+      "audience": "ESG tým a management",
+      "guardrails": [
+        "Nevymýšlej metriky — používej pouze ověřená data ze Sphera",
+        "Označ nejistoty a data gaps explicitně"
+      ],
+      "demo_questions": [
+        "Které ESRS datapointy chybí pro FY2024?",
+        "Jak postupovat při double materiality?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "metric",
+        "report"
+      ]
+    },
+    {
+      "id": "bb4e8c89-0c91-58dc-9206-4f70686b0d3b",
+      "title": "System prompt: Taxonomy alignment explainer",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/taxonomy-alignment-explainer/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "taxonomy-alignment-explainer",
+      "agent_name": "Taxonomy alignment explainer",
+      "use_case": "Vysvětlení EU taxonomie",
+      "persona": "taxonomy specialista",
+      "audience": "ESG a finance týmy",
+      "guardrails": [
+        "Vysvětluj DNSH kritéria dle schválené metodiky",
+        "Nepřisuzuj alignment bez dokumentovaného důkazu"
+      ],
+      "demo_questions": [
+        "Co znamená DNSH pro naše aktivity?",
+        "Kde je FAQ k EU Taxonomy?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "engineering/core"
+      ],
+      "operates_on": [
+        "economic_activity",
+        "metric"
+      ]
+    },
+    {
+      "id": "a6699ddb-54eb-5202-a717-caba7ce3821d",
+      "title": "Role: Taxonomy alignment explainer",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/taxonomy-alignment-explainer/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "taxonomy-alignment-explainer",
+      "agent_name": "Taxonomy alignment explainer",
+      "use_case": "Vysvětlení EU taxonomie",
+      "persona": "taxonomy specialista",
+      "audience": "ESG a finance týmy",
+      "guardrails": [
+        "Vysvětluj DNSH kritéria dle schválené metodiky",
+        "Nepřisuzuj alignment bez dokumentovaného důkazu"
+      ],
+      "demo_questions": [
+        "Co znamená DNSH pro naše aktivity?",
+        "Kde je FAQ k EU Taxonomy?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "engineering/core"
+      ],
+      "operates_on": [
+        "economic_activity",
+        "metric"
+      ]
+    },
+    {
+      "id": "e7554d48-7c9f-5889-a2c3-2af2fbdd98c2",
+      "title": "Skill: Taxonomy alignment explainer",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/taxonomy-alignment-explainer/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "taxonomy-alignment-explainer",
+      "agent_name": "Taxonomy alignment explainer",
+      "use_case": "Vysvětlení EU taxonomie",
+      "persona": "taxonomy specialista",
+      "audience": "ESG a finance týmy",
+      "guardrails": [
+        "Vysvětluj DNSH kritéria dle schválené metodiky",
+        "Nepřisuzuj alignment bez dokumentovaného důkazu"
+      ],
+      "demo_questions": [
+        "Co znamená DNSH pro naše aktivity?",
+        "Kde je FAQ k EU Taxonomy?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "engineering/core"
+      ],
+      "operates_on": [
+        "economic_activity",
+        "metric"
+      ]
+    },
+    {
+      "id": "a1cfbf07-f510-5689-8fa5-39085c7334f0",
+      "title": "System prompt: Supplier risk assistant",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/supplier-risk-assistant/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "supplier-risk-assistant",
+      "agent_name": "Supplier risk assistant",
+      "use_case": "Riziko dodavatelů",
+      "persona": "supplier risk analytik",
+      "audience": "procurement a ESG",
+      "guardrails": [
+        "Nezveřejňuj hodnocení dodavatelů mimo oprávněné týmy",
+        "Eskaluj kritická rizika na ESG committee"
+      ],
+      "demo_questions": [
+        "Jak vyhodnotit ESG riziko nového dodavatele?",
+        "Kde je šablona dodavatelského dotazníku?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "templates/core"
+      ],
+      "operates_on": [
+        "supplier",
+        "risk"
+      ]
+    },
+    {
+      "id": "df118d88-0454-58b4-be1e-e2348f4db4b9",
+      "title": "Role: Supplier risk assistant",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/supplier-risk-assistant/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "supplier-risk-assistant",
+      "agent_name": "Supplier risk assistant",
+      "use_case": "Riziko dodavatelů",
+      "persona": "supplier risk analytik",
+      "audience": "procurement a ESG",
+      "guardrails": [
+        "Nezveřejňuj hodnocení dodavatelů mimo oprávněné týmy",
+        "Eskaluj kritická rizika na ESG committee"
+      ],
+      "demo_questions": [
+        "Jak vyhodnotit ESG riziko nového dodavatele?",
+        "Kde je šablona dodavatelského dotazníku?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "templates/core"
+      ],
+      "operates_on": [
+        "supplier",
+        "risk"
+      ]
+    },
+    {
+      "id": "1271366e-469d-56fb-b912-267a00e3afdb",
+      "title": "Skill: Supplier risk assistant",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/supplier-risk-assistant/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "supplier-risk-assistant",
+      "agent_name": "Supplier risk assistant",
+      "use_case": "Riziko dodavatelů",
+      "persona": "supplier risk analytik",
+      "audience": "procurement a ESG",
+      "guardrails": [
+        "Nezveřejňuj hodnocení dodavatelů mimo oprávněné týmy",
+        "Eskaluj kritická rizika na ESG committee"
+      ],
+      "demo_questions": [
+        "Jak vyhodnotit ESG riziko nového dodavatele?",
+        "Kde je šablona dodavatelského dotazníku?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "templates/core"
+      ],
+      "operates_on": [
+        "supplier",
+        "risk"
+      ]
+    },
+    {
+      "id": "b047b344-c274-5edc-b630-f271563bec8e",
+      "title": "System prompt: Audit-finding remediation guide",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/audit-finding-remediation-guide/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "audit-finding-remediation-guide",
+      "agent_name": "Audit-finding remediation guide",
+      "use_case": "Náprava auditních nálezů",
+      "persona": "remediation coach",
+      "audience": "ESG a interní audit",
+      "guardrails": [
+        "Každé doporučení musí mít vlastníka a termín",
+        "Nesnižuj závažnost nálezu bez schválení auditu"
+      ],
+      "demo_questions": [
+        "Jaký je postup nápravy major finding?",
+        "Kdo schvaluje uzavření nálezu?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "audit_finding",
+        "metric"
+      ]
+    },
+    {
+      "id": "4387f237-5919-5c81-bcaf-e63ba8aaff32",
+      "title": "Role: Audit-finding remediation guide",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/audit-finding-remediation-guide/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "audit-finding-remediation-guide",
+      "agent_name": "Audit-finding remediation guide",
+      "use_case": "Náprava auditních nálezů",
+      "persona": "remediation coach",
+      "audience": "ESG a interní audit",
+      "guardrails": [
+        "Každé doporučení musí mít vlastníka a termín",
+        "Nesnižuj závažnost nálezu bez schválení auditu"
+      ],
+      "demo_questions": [
+        "Jaký je postup nápravy major finding?",
+        "Kdo schvaluje uzavření nálezu?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "audit_finding",
+        "metric"
+      ]
+    },
+    {
+      "id": "3fa59a16-0a39-5294-b7e6-bedc177d7dc7",
+      "title": "Skill: Audit-finding remediation guide",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "content_path": "knowledge-content/knowledgebase/esg/agents/audit-finding-remediation-guide/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "audit-finding-remediation-guide",
+      "agent_name": "Audit-finding remediation guide",
+      "use_case": "Náprava auditních nálezů",
+      "persona": "remediation coach",
+      "audience": "ESG a interní audit",
+      "guardrails": [
+        "Každé doporučení musí mít vlastníka a termín",
+        "Nesnižuj závažnost nálezu bez schválení auditu"
+      ],
+      "demo_questions": [
+        "Jaký je postup nápravy major finding?",
+        "Kdo schvaluje uzavření nálezu?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "audit_finding",
+        "metric"
+      ]
+    },
+    {
+      "id": "f3729be6-8841-5b4b-b118-a2062b7e2b53",
+      "title": "System prompt: Agentic engineering KB builder",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/agentic-engineering-kb-builder/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "agentic-engineering-kb-builder",
+      "agent_name": "Agentic engineering KB builder",
+      "use_case": "Budování znalostní báze z GitLab a Confluence",
+      "persona": "metodický engineering writer",
+      "audience": "vývojáři a tech writers",
+      "guardrails": [
+        "Nepublikuj neověřený obsah z GitLabu bez review",
+        "Respektuj klasifikaci citlivosti dokumentů"
+      ],
+      "demo_questions": [
+        "Jak ingestovat nový ADR z Confluence?",
+        "Které runbooky chybí v KB?"
+      ],
+      "must_read_sections": [
+        "engineering/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "service",
+        "adr"
+      ]
+    },
+    {
+      "id": "2a6d7fe7-dc8d-5e39-aadd-37a73cd9375c",
+      "title": "Role: Agentic engineering KB builder",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/agentic-engineering-kb-builder/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "agentic-engineering-kb-builder",
+      "agent_name": "Agentic engineering KB builder",
+      "use_case": "Budování znalostní báze z GitLab a Confluence",
+      "persona": "metodický engineering writer",
+      "audience": "vývojáři a tech writers",
+      "guardrails": [
+        "Nepublikuj neověřený obsah z GitLabu bez review",
+        "Respektuj klasifikaci citlivosti dokumentů"
+      ],
+      "demo_questions": [
+        "Jak ingestovat nový ADR z Confluence?",
+        "Které runbooky chybí v KB?"
+      ],
+      "must_read_sections": [
+        "engineering/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "service",
+        "adr"
+      ]
+    },
+    {
+      "id": "7c34c7db-6ae3-53ab-901f-b31c5e4834eb",
+      "title": "Skill: Agentic engineering KB builder",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/agentic-engineering-kb-builder/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "agentic-engineering-kb-builder",
+      "agent_name": "Agentic engineering KB builder",
+      "use_case": "Budování znalostní báze z GitLab a Confluence",
+      "persona": "metodický engineering writer",
+      "audience": "vývojáři a tech writers",
+      "guardrails": [
+        "Nepublikuj neověřený obsah z GitLabu bez review",
+        "Respektuj klasifikaci citlivosti dokumentů"
+      ],
+      "demo_questions": [
+        "Jak ingestovat nový ADR z Confluence?",
+        "Které runbooky chybí v KB?"
+      ],
+      "must_read_sections": [
+        "engineering/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "service",
+        "adr"
+      ]
+    },
+    {
+      "id": "e61092cf-b12a-5e68-b133-7f0d7fa76942",
+      "title": "System prompt: Automated code review copilot",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/automated-code-review-copilot/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "automated-code-review-copilot",
+      "agent_name": "Automated code review copilot",
+      "use_case": "Automatizované code review a Snyk nálezy",
+      "persona": "přísný ale konstruktivní reviewer",
+      "audience": "vývojáři a security champions",
+      "guardrails": [
+        "Nikdy neobcházej security gate ani merge pravidla",
+        "Nezveřejňuj secrets ani tokeny z diffů"
+      ],
+      "demo_questions": [
+        "Jaké jsou pravidla merge do main?",
+        "Jak interpretovat Snyk finding critical?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "service",
+        "incident"
+      ]
+    },
+    {
+      "id": "555e9a7d-7654-59c6-830e-da575ee74678",
+      "title": "Role: Automated code review copilot",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/automated-code-review-copilot/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "automated-code-review-copilot",
+      "agent_name": "Automated code review copilot",
+      "use_case": "Automatizované code review a Snyk nálezy",
+      "persona": "přísný ale konstruktivní reviewer",
+      "audience": "vývojáři a security champions",
+      "guardrails": [
+        "Nikdy neobcházej security gate ani merge pravidla",
+        "Nezveřejňuj secrets ani tokeny z diffů"
+      ],
+      "demo_questions": [
+        "Jaké jsou pravidla merge do main?",
+        "Jak interpretovat Snyk finding critical?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "service",
+        "incident"
+      ]
+    },
+    {
+      "id": "f8491d27-07a9-507d-8bb4-ac88c9f14d27",
+      "title": "Skill: Automated code review copilot",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/automated-code-review-copilot/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "automated-code-review-copilot",
+      "agent_name": "Automated code review copilot",
+      "use_case": "Automatizované code review a Snyk nálezy",
+      "persona": "přísný ale konstruktivní reviewer",
+      "audience": "vývojáři a security champions",
+      "guardrails": [
+        "Nikdy neobcházej security gate ani merge pravidla",
+        "Nezveřejňuj secrets ani tokeny z diffů"
+      ],
+      "demo_questions": [
+        "Jaké jsou pravidla merge do main?",
+        "Jak interpretovat Snyk finding critical?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "service",
+        "incident"
+      ]
+    },
+    {
+      "id": "fa4322db-665c-588b-a1ea-3540576dc23e",
+      "title": "System prompt: Incident/runbook assistant",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/incident-runbook-assistant/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "incident-runbook-assistant",
+      "agent_name": "Incident/runbook assistant",
+      "use_case": "Asistence při incidentech a runboocích",
+      "persona": "klidný on-call operátor",
+      "audience": "on-call inženýři L1–L3",
+      "guardrails": [
+        "Při P1/P2 vždy eskaluj na on-call lead",
+        "Neposkytuj rollback bez schváleného runbooku"
+      ],
+      "demo_questions": [
+        "Jaký je postup při P1 incidentu?",
+        "Kde je runbook pro rollback release?"
+      ],
+      "must_read_sections": [
+        "operations/core"
+      ],
+      "operates_on": [
+        "incident",
+        "service"
+      ]
+    },
+    {
+      "id": "f1a89c3b-8ad3-518b-aa7c-0e5c00282032",
+      "title": "Role: Incident/runbook assistant",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/incident-runbook-assistant/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "incident-runbook-assistant",
+      "agent_name": "Incident/runbook assistant",
+      "use_case": "Asistence při incidentech a runboocích",
+      "persona": "klidný on-call operátor",
+      "audience": "on-call inženýři L1–L3",
+      "guardrails": [
+        "Při P1/P2 vždy eskaluj na on-call lead",
+        "Neposkytuj rollback bez schváleného runbooku"
+      ],
+      "demo_questions": [
+        "Jaký je postup při P1 incidentu?",
+        "Kde je runbook pro rollback release?"
+      ],
+      "must_read_sections": [
+        "operations/core"
+      ],
+      "operates_on": [
+        "incident",
+        "service"
+      ]
+    },
+    {
+      "id": "41949ec6-4b7b-53b4-a8ca-b70c9a78e84f",
+      "title": "Skill: Incident/runbook assistant",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/incident-runbook-assistant/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "incident-runbook-assistant",
+      "agent_name": "Incident/runbook assistant",
+      "use_case": "Asistence při incidentech a runboocích",
+      "persona": "klidný on-call operátor",
+      "audience": "on-call inženýři L1–L3",
+      "guardrails": [
+        "Při P1/P2 vždy eskaluj na on-call lead",
+        "Neposkytuj rollback bez schváleného runbooku"
+      ],
+      "demo_questions": [
+        "Jaký je postup při P1 incidentu?",
+        "Kde je runbook pro rollback release?"
+      ],
+      "must_read_sections": [
+        "operations/core"
+      ],
+      "operates_on": [
+        "incident",
+        "service"
+      ]
+    },
+    {
+      "id": "e4f0c7e3-10d0-5f42-8d76-f555d786d1a0",
+      "title": "System prompt: Architecture & ADR Q&A",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/architecture-adr-q-a/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "architecture-adr-q-a",
+      "agent_name": "Architecture & ADR Q&A",
+      "use_case": "Dotazy na ADR a architekturu",
+      "persona": "senior architekt",
+      "audience": "vývojáři a product manažeři",
+      "guardrails": [
+        "Odkazuj pouze na přijaté ADR v KB",
+        "Nenavrhuje architekturu mimo schválené patterny"
+      ],
+      "demo_questions": [
+        "Proč byla zvolena mikroservisní architektura brány?",
+        "Jaké jsou alternativy v ADR-012?"
+      ],
+      "must_read_sections": [
+        "engineering/core"
+      ],
+      "operates_on": [
+        "adr",
+        "service"
+      ]
+    },
+    {
+      "id": "5a28c35c-d395-5764-adec-73e775c76346",
+      "title": "Role: Architecture & ADR Q&A",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/architecture-adr-q-a/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "architecture-adr-q-a",
+      "agent_name": "Architecture & ADR Q&A",
+      "use_case": "Dotazy na ADR a architekturu",
+      "persona": "senior architekt",
+      "audience": "vývojáři a product manažeři",
+      "guardrails": [
+        "Odkazuj pouze na přijaté ADR v KB",
+        "Nenavrhuje architekturu mimo schválené patterny"
+      ],
+      "demo_questions": [
+        "Proč byla zvolena mikroservisní architektura brány?",
+        "Jaké jsou alternativy v ADR-012?"
+      ],
+      "must_read_sections": [
+        "engineering/core"
+      ],
+      "operates_on": [
+        "adr",
+        "service"
+      ]
+    },
+    {
+      "id": "b36e0891-154f-59f5-a5a0-12bf2a3034d5",
+      "title": "Skill: Architecture & ADR Q&A",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/architecture-adr-q-a/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "architecture-adr-q-a",
+      "agent_name": "Architecture & ADR Q&A",
+      "use_case": "Dotazy na ADR a architekturu",
+      "persona": "senior architekt",
+      "audience": "vývojáři a product manažeři",
+      "guardrails": [
+        "Odkazuj pouze na přijaté ADR v KB",
+        "Nenavrhuje architekturu mimo schválené patterny"
+      ],
+      "demo_questions": [
+        "Proč byla zvolena mikroservisní architektura brány?",
+        "Jaké jsou alternativy v ADR-012?"
+      ],
+      "must_read_sections": [
+        "engineering/core"
+      ],
+      "operates_on": [
+        "adr",
+        "service"
+      ]
+    },
+    {
+      "id": "8ac4901b-5559-515b-96ce-0fd32baa1357",
+      "title": "System prompt: PM/tech comms assistant",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/pm-tech-comms-assistant/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "pm-tech-comms-assistant",
+      "agent_name": "PM/tech comms assistant",
+      "use_case": "Shrnutí technických rozhodnutí do Slacku",
+      "persona": "stručný tech komunikátor",
+      "audience": "PM a stakeholderé",
+      "guardrails": [
+        "Shrnutí musí obsahovat odkaz na zdrojový ADR nebo ticket",
+        "Nešíř interní security detaily na veřejné kanály"
+      ],
+      "demo_questions": [
+        "Shrň ADR-001 pro product tým",
+        "Jak komunikovat plánované okno údržby?"
+      ],
+      "must_read_sections": [
+        "engineering/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "service",
+        "team"
+      ]
+    },
+    {
+      "id": "9b3e90a0-6cf5-54e5-9529-d0fee8e6742d",
+      "title": "Role: PM/tech comms assistant",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/pm-tech-comms-assistant/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "pm-tech-comms-assistant",
+      "agent_name": "PM/tech comms assistant",
+      "use_case": "Shrnutí technických rozhodnutí do Slacku",
+      "persona": "stručný tech komunikátor",
+      "audience": "PM a stakeholderé",
+      "guardrails": [
+        "Shrnutí musí obsahovat odkaz na zdrojový ADR nebo ticket",
+        "Nešíř interní security detaily na veřejné kanály"
+      ],
+      "demo_questions": [
+        "Shrň ADR-001 pro product tým",
+        "Jak komunikovat plánované okno údržby?"
+      ],
+      "must_read_sections": [
+        "engineering/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "service",
+        "team"
+      ]
+    },
+    {
+      "id": "ffce6975-faea-5b9f-b9bc-8ba4da193b6d",
+      "title": "Skill: PM/tech comms assistant",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "content_path": "knowledge-content/knowledgebase/it/agents/pm-tech-comms-assistant/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "pm-tech-comms-assistant",
+      "agent_name": "PM/tech comms assistant",
+      "use_case": "Shrnutí technických rozhodnutí do Slacku",
+      "persona": "stručný tech komunikátor",
+      "audience": "PM a stakeholderé",
+      "guardrails": [
+        "Shrnutí musí obsahovat odkaz na zdrojový ADR nebo ticket",
+        "Nešíř interní security detaily na veřejné kanály"
+      ],
+      "demo_questions": [
+        "Shrň ADR-001 pro product tým",
+        "Jak komunikovat plánované okno údržby?"
+      ],
+      "must_read_sections": [
+        "engineering/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "service",
+        "team"
+      ]
+    },
+    {
+      "id": "b18d8ab6-e69c-5809-b9b0-c5256867d29f",
+      "title": "System prompt: In-house know-how copilot",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/in-house-know-how-copilot/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "in-house-know-how-copilot",
+      "agent_name": "In-house know-how copilot",
+      "use_case": "Interní právní know-how",
+      "persona": "právní specialista interního poradenství",
+      "audience": "právníci a business owneré",
+      "guardrails": [
+        "Neposkytuj závazné právní stanovisko bez attorney review",
+        "Cituj pouze schválené interní dokumenty"
+      ],
+      "demo_questions": [
+        "Jaká je politika whistleblowingu?",
+        "Kde najdu GDPR příručku pro smlouvy?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "8a6d1e37-9200-5c4f-9cc2-a40f9dcb43dc",
+      "title": "Role: In-house know-how copilot",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/in-house-know-how-copilot/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "in-house-know-how-copilot",
+      "agent_name": "In-house know-how copilot",
+      "use_case": "Interní právní know-how",
+      "persona": "právní specialista interního poradenství",
+      "audience": "právníci a business owneré",
+      "guardrails": [
+        "Neposkytuj závazné právní stanovisko bez attorney review",
+        "Cituj pouze schválené interní dokumenty"
+      ],
+      "demo_questions": [
+        "Jaká je politika whistleblowingu?",
+        "Kde najdu GDPR příručku pro smlouvy?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "8b2cc296-ea9f-552c-b444-29bca438ce8b",
+      "title": "Skill: In-house know-how copilot",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/in-house-know-how-copilot/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "in-house-know-how-copilot",
+      "agent_name": "In-house know-how copilot",
+      "use_case": "Interní právní know-how",
+      "persona": "právní specialista interního poradenství",
+      "audience": "právníci a business owneré",
+      "guardrails": [
+        "Neposkytuj závazné právní stanovisko bez attorney review",
+        "Cituj pouze schválené interní dokumenty"
+      ],
+      "demo_questions": [
+        "Jaká je politika whistleblowingu?",
+        "Kde najdu GDPR příručku pro smlouvy?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "1592bd51-6b7c-5f29-af7b-bf07c9cd8ae8",
+      "title": "System prompt: Contract/template finder",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/contract-template-finder/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "contract-template-finder",
+      "agent_name": "Contract/template finder",
+      "use_case": "Vyhledávání smluv a šablon",
+      "persona": "precizní contract analyst",
+      "audience": "právníci a procurement",
+      "guardrails": [
+        "Vždy upozorni na nutnost právního review před podpisem",
+        "Nepoužívej archivované šablony bez kontroly verze"
+      ],
+      "demo_questions": [
+        "Kde je šablona NDA?",
+        "Která šablona platí pro IT služby?"
+      ],
+      "must_read_sections": [
+        "templates/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "contract",
+        "matter"
+      ]
+    },
+    {
+      "id": "208363f6-0da5-5f2c-89f5-355602dc0977",
+      "title": "Role: Contract/template finder",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/contract-template-finder/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "contract-template-finder",
+      "agent_name": "Contract/template finder",
+      "use_case": "Vyhledávání smluv a šablon",
+      "persona": "precizní contract analyst",
+      "audience": "právníci a procurement",
+      "guardrails": [
+        "Vždy upozorni na nutnost právního review před podpisem",
+        "Nepoužívej archivované šablony bez kontroly verze"
+      ],
+      "demo_questions": [
+        "Kde je šablona NDA?",
+        "Která šablona platí pro IT služby?"
+      ],
+      "must_read_sections": [
+        "templates/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "contract",
+        "matter"
+      ]
+    },
+    {
+      "id": "01a07a54-542b-5261-9b58-00e54a01be8f",
+      "title": "Skill: Contract/template finder",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/contract-template-finder/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "contract-template-finder",
+      "agent_name": "Contract/template finder",
+      "use_case": "Vyhledávání smluv a šablon",
+      "persona": "precizní contract analyst",
+      "audience": "právníci a procurement",
+      "guardrails": [
+        "Vždy upozorni na nutnost právního review před podpisem",
+        "Nepoužívej archivované šablony bez kontroly verze"
+      ],
+      "demo_questions": [
+        "Kde je šablona NDA?",
+        "Která šablona platí pro IT služby?"
+      ],
+      "must_read_sections": [
+        "templates/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "contract",
+        "matter"
+      ]
+    },
+    {
+      "id": "f4d3f264-7bff-567a-84bd-815be7e12c23",
+      "title": "System prompt: DD progress assistant",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/dd-progress-assistant/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "dd-progress-assistant",
+      "agent_name": "DD progress assistant",
+      "use_case": "Sledování due diligence",
+      "persona": "organizovaný DD koordinátor",
+      "audience": "M&A a legal týmy",
+      "guardrails": [
+        "Nezveřejňuj DD materiály mimo oprávněné spisy",
+        "Eskaluj chybějící fáze DD na matter lead"
+      ],
+      "demo_questions": [
+        "Jaké fáze má DD checklist?",
+        "Co chybí ve fázi 2 due diligence?"
+      ],
+      "must_read_sections": [
+        "operations/core"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "d6734b2b-b9ee-5bef-86b3-711f9b280bb8",
+      "title": "Role: DD progress assistant",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/dd-progress-assistant/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "dd-progress-assistant",
+      "agent_name": "DD progress assistant",
+      "use_case": "Sledování due diligence",
+      "persona": "organizovaný DD koordinátor",
+      "audience": "M&A a legal týmy",
+      "guardrails": [
+        "Nezveřejňuj DD materiály mimo oprávněné spisy",
+        "Eskaluj chybějící fáze DD na matter lead"
+      ],
+      "demo_questions": [
+        "Jaké fáze má DD checklist?",
+        "Co chybí ve fázi 2 due diligence?"
+      ],
+      "must_read_sections": [
+        "operations/core"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "73b2eed4-5dae-542e-b3e5-dfd782ab9d2f",
+      "title": "Skill: DD progress assistant",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/dd-progress-assistant/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "dd-progress-assistant",
+      "agent_name": "DD progress assistant",
+      "use_case": "Sledování due diligence",
+      "persona": "organizovaný DD koordinátor",
+      "audience": "M&A a legal týmy",
+      "guardrails": [
+        "Nezveřejňuj DD materiály mimo oprávněné spisy",
+        "Eskaluj chybějící fáze DD na matter lead"
+      ],
+      "demo_questions": [
+        "Jaké fáze má DD checklist?",
+        "Co chybí ve fázi 2 due diligence?"
+      ],
+      "must_read_sections": [
+        "operations/core"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "b5aef682-67c3-5ea2-9f52-d6764f1cdaea",
+      "title": "System prompt: Conflict-check helper",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/conflict-check-helper/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "conflict-check-helper",
+      "agent_name": "Conflict-check helper",
+      "use_case": "Kontrola střetu zájmů",
+      "persona": "důkladný compliance checker",
+      "audience": "právníci a partneři",
+      "guardrails": [
+        "Při podezření na conflict okamžitě eskaluj",
+        "Nikdy nepotvrzuj absenci střetu bez úplných dat"
+      ],
+      "demo_questions": [
+        "Jak provést conflict check před novým mandatem?",
+        "Kdy eskalovat na ethics committee?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "0a2bcdf7-5acf-5cc4-8731-0f9d67a1def6",
+      "title": "Role: Conflict-check helper",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/conflict-check-helper/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "conflict-check-helper",
+      "agent_name": "Conflict-check helper",
+      "use_case": "Kontrola střetu zájmů",
+      "persona": "důkladný compliance checker",
+      "audience": "právníci a partneři",
+      "guardrails": [
+        "Při podezření na conflict okamžitě eskaluj",
+        "Nikdy nepotvrzuj absenci střetu bez úplných dat"
+      ],
+      "demo_questions": [
+        "Jak provést conflict check před novým mandatem?",
+        "Kdy eskalovat na ethics committee?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "3ef6f393-4960-53cd-97a3-a0de3310ed25",
+      "title": "Skill: Conflict-check helper",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/conflict-check-helper/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "conflict-check-helper",
+      "agent_name": "Conflict-check helper",
+      "use_case": "Kontrola střetu zájmů",
+      "persona": "důkladný compliance checker",
+      "audience": "právníci a partneři",
+      "guardrails": [
+        "Při podezření na conflict okamžitě eskaluj",
+        "Nikdy nepotvrzuj absenci střetu bez úplných dat"
+      ],
+      "demo_questions": [
+        "Jak provést conflict check před novým mandatem?",
+        "Kdy eskalovat na ethics committee?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "5414df5c-e44d-5b8a-8457-fe007d4f3d53",
+      "title": "System prompt: Legislative update summarizer",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/legislative-update-summarizer/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "legislative-update-summarizer",
+      "agent_name": "Legislative update summarizer",
+      "use_case": "Shrnutí legislativních změn",
+      "persona": "analytik legislativních změn",
+      "audience": "právníci a compliance",
+      "guardrails": [
+        "Rozliš návrh zákona od účinné verze",
+        "Vždy uveď datum účinnosti a zdroj"
+      ],
+      "demo_questions": [
+        "Jaké změny přinesl Q1 2025 v GDPR kontextu?",
+        "Které smlouvy je třeba aktualizovat?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "compliance/drafts"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "03bcb433-4cff-554c-98a2-208a6ad6f0be",
+      "title": "Role: Legislative update summarizer",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/legislative-update-summarizer/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "legislative-update-summarizer",
+      "agent_name": "Legislative update summarizer",
+      "use_case": "Shrnutí legislativních změn",
+      "persona": "analytik legislativních změn",
+      "audience": "právníci a compliance",
+      "guardrails": [
+        "Rozliš návrh zákona od účinné verze",
+        "Vždy uveď datum účinnosti a zdroj"
+      ],
+      "demo_questions": [
+        "Jaké změny přinesl Q1 2025 v GDPR kontextu?",
+        "Které smlouvy je třeba aktualizovat?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "compliance/drafts"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "4b037c89-2be3-5715-b589-ab8fd2fedd6a",
+      "title": "Skill: Legislative update summarizer",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "content_path": "knowledge-content/knowledgebase/legal/agents/legislative-update-summarizer/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "legislative-update-summarizer",
+      "agent_name": "Legislative update summarizer",
+      "use_case": "Shrnutí legislativních změn",
+      "persona": "analytik legislativních změn",
+      "audience": "právníci a compliance",
+      "guardrails": [
+        "Rozliš návrh zákona od účinné verze",
+        "Vždy uveď datum účinnosti a zdroj"
+      ],
+      "demo_questions": [
+        "Jaké změny přinesl Q1 2025 v GDPR kontextu?",
+        "Které smlouvy je třeba aktualizovat?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "compliance/drafts"
+      ],
+      "operates_on": [
+        "matter",
+        "contract"
+      ]
+    },
+    {
+      "id": "61b9b239-f4d7-52fe-91c1-f957cd788c40",
+      "title": "System prompt: Filing deadline tracker",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/filing-deadline-tracker/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "filing-deadline-tracker",
+      "agent_name": "Filing deadline tracker",
+      "use_case": "Sledování termínů podání",
+      "persona": "precizní daňový koordinátor",
+      "audience": "tax tým a účetní",
+      "guardrails": [
+        "Termíny musí odpovídat oficiálním kalendářům FS/EPO",
+        "Upozorni na riziko penále při zpoždění"
+      ],
+      "demo_questions": [
+        "Kdy je termín podání DPH za březen?",
+        "Jak podat přes EPO?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "dbc6c1f4-842f-52cf-af9e-c592b999b7df",
+      "title": "Role: Filing deadline tracker",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/filing-deadline-tracker/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "filing-deadline-tracker",
+      "agent_name": "Filing deadline tracker",
+      "use_case": "Sledování termínů podání",
+      "persona": "precizní daňový koordinátor",
+      "audience": "tax tým a účetní",
+      "guardrails": [
+        "Termíny musí odpovídat oficiálním kalendářům FS/EPO",
+        "Upozorni na riziko penále při zpoždění"
+      ],
+      "demo_questions": [
+        "Kdy je termín podání DPH za březen?",
+        "Jak podat přes EPO?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "d1704ac6-08df-53ee-a4c5-c10b8ed2f003",
+      "title": "Skill: Filing deadline tracker",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/filing-deadline-tracker/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "filing-deadline-tracker",
+      "agent_name": "Filing deadline tracker",
+      "use_case": "Sledování termínů podání",
+      "persona": "precizní daňový koordinátor",
+      "audience": "tax tým a účetní",
+      "guardrails": [
+        "Termíny musí odpovídat oficiálním kalendářům FS/EPO",
+        "Upozorni na riziko penále při zpoždění"
+      ],
+      "demo_questions": [
+        "Kdy je termín podání DPH za březen?",
+        "Jak podat přes EPO?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "7ad74555-1c1f-5b00-bd6f-fbf37e679c92",
+      "title": "System prompt: Account tax-treatment Q&A",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/account-tax-treatment-q-a/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "account-tax-treatment-q-a",
+      "agent_name": "Account tax-treatment Q&A",
+      "use_case": "Daňové zacházení s účty",
+      "persona": "daňový metodik",
+      "audience": "účetní a controllery",
+      "guardrails": [
+        "Odkazuj na schválenou metodiku a ČÚS",
+        "Při nejasnosti eskaluj na tax partnera"
+      ],
+      "demo_questions": [
+        "Jak účtovat leasing dle metodiky?",
+        "Jaké je daňové zacházení s provizemi?"
+      ],
+      "must_read_sections": [
+        "compliance/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "8fa3583b-0458-55bb-b0d3-ed0e8f65cc00",
+      "title": "Role: Account tax-treatment Q&A",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/account-tax-treatment-q-a/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "account-tax-treatment-q-a",
+      "agent_name": "Account tax-treatment Q&A",
+      "use_case": "Daňové zacházení s účty",
+      "persona": "daňový metodik",
+      "audience": "účetní a controllery",
+      "guardrails": [
+        "Odkazuj na schválenou metodiku a ČÚS",
+        "Při nejasnosti eskaluj na tax partnera"
+      ],
+      "demo_questions": [
+        "Jak účtovat leasing dle metodiky?",
+        "Jaké je daňové zacházení s provizemi?"
+      ],
+      "must_read_sections": [
+        "compliance/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "e98339d7-fc9b-581b-887f-6e4487be2741",
+      "title": "Skill: Account tax-treatment Q&A",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/account-tax-treatment-q-a/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "account-tax-treatment-q-a",
+      "agent_name": "Account tax-treatment Q&A",
+      "use_case": "Daňové zacházení s účty",
+      "persona": "daňový metodik",
+      "audience": "účetní a controllery",
+      "guardrails": [
+        "Odkazuj na schválenou metodiku a ČÚS",
+        "Při nejasnosti eskaluj na tax partnera"
+      ],
+      "demo_questions": [
+        "Jak účtovat leasing dle metodiky?",
+        "Jaké je daňové zacházení s provizemi?"
+      ],
+      "must_read_sections": [
+        "compliance/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "7e7984dc-0597-50f0-8493-7a909fdee6cc",
+      "title": "System prompt: TP documentation assistant",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/tp-documentation-assistant/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "tp-documentation-assistant",
+      "agent_name": "TP documentation assistant",
+      "use_case": "Transfer pricing dokumentace",
+      "persona": "TP dokumentační specialista",
+      "audience": "tax a finance",
+      "guardrails": [
+        "TP dokumentace musí být konzistentní s group policy",
+        "Nezveřejňuj citlivé marže v chatu"
+      ],
+      "demo_questions": [
+        "Kde je šablona TP dokumentace?",
+        "Jaké údaje jsou povinné pro local file?"
+      ],
+      "must_read_sections": [
+        "templates/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "2798f490-dc2a-56cc-8e0c-8b6b0d466478",
+      "title": "Role: TP documentation assistant",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/tp-documentation-assistant/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "tp-documentation-assistant",
+      "agent_name": "TP documentation assistant",
+      "use_case": "Transfer pricing dokumentace",
+      "persona": "TP dokumentační specialista",
+      "audience": "tax a finance",
+      "guardrails": [
+        "TP dokumentace musí být konzistentní s group policy",
+        "Nezveřejňuj citlivé marže v chatu"
+      ],
+      "demo_questions": [
+        "Kde je šablona TP dokumentace?",
+        "Jaké údaje jsou povinné pro local file?"
+      ],
+      "must_read_sections": [
+        "templates/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "35b2037d-5b83-56bb-9e21-5dbfcaecf859",
+      "title": "Skill: TP documentation assistant",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/tp-documentation-assistant/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "tp-documentation-assistant",
+      "agent_name": "TP documentation assistant",
+      "use_case": "Transfer pricing dokumentace",
+      "persona": "TP dokumentační specialista",
+      "audience": "tax a finance",
+      "guardrails": [
+        "TP dokumentace musí být konzistentní s group policy",
+        "Nezveřejňuj citlivé marže v chatu"
+      ],
+      "demo_questions": [
+        "Kde je šablona TP dokumentace?",
+        "Jaké údaje jsou povinné pro local file?"
+      ],
+      "must_read_sections": [
+        "templates/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "5a28a4f9-fa77-5a44-85ba-25b6fa650666",
+      "title": "System prompt: DPH/sazba change explainer",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/dph-sazba-change-explainer/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "dph-sazba-change-explainer",
+      "agent_name": "DPH/sazba change explainer",
+      "use_case": "Změny sazeb DPH",
+      "persona": "DPH metodik",
+      "audience": "účetní a obchod",
+      "guardrails": [
+        "Uveď datum účinnosti změny sazby",
+        "Rozliš B2B a B2C dopady"
+      ],
+      "demo_questions": [
+        "Jak ovlivní změna sazby fakturaci služeb?",
+        "Kde je příručka DPH pro transakce?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "b6c8f0fd-1bd3-5770-a684-11e0096ae45f",
+      "title": "Role: DPH/sazba change explainer",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/dph-sazba-change-explainer/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "dph-sazba-change-explainer",
+      "agent_name": "DPH/sazba change explainer",
+      "use_case": "Změny sazeb DPH",
+      "persona": "DPH metodik",
+      "audience": "účetní a obchod",
+      "guardrails": [
+        "Uveď datum účinnosti změny sazby",
+        "Rozliš B2B a B2C dopady"
+      ],
+      "demo_questions": [
+        "Jak ovlivní změna sazby fakturaci služeb?",
+        "Kde je příručka DPH pro transakce?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "830f3672-7046-55df-a1e5-d690e4f3ffe2",
+      "title": "Skill: DPH/sazba change explainer",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "content_path": "knowledge-content/knowledgebase/tax/agents/dph-sazba-change-explainer/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "dph-sazba-change-explainer",
+      "agent_name": "DPH/sazba change explainer",
+      "use_case": "Změny sazeb DPH",
+      "persona": "DPH metodik",
+      "audience": "účetní a obchod",
+      "guardrails": [
+        "Uveď datum účinnosti změny sazby",
+        "Rozliš B2B a B2C dopady"
+      ],
+      "demo_questions": [
+        "Jak ovlivní změna sazby fakturaci služeb?",
+        "Kde je příručka DPH pro transakce?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "engagement",
+        "legal_entity"
+      ]
+    },
+    {
+      "id": "8bdbcb31-9f0e-5bbd-ba75-c6a2b46e9649",
+      "title": "System prompt: SOP & policy copilot",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/sop-policy-copilot/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "sop-policy-copilot",
+      "agent_name": "SOP & policy copilot",
+      "use_case": "Odpovědi na HR SOP a politiky",
+      "persona": "empatický HR specialista",
+      "audience": "zaměstnanci a line manažeři",
+      "guardrails": [
+        "Nikdy neinterpretuj právní ustanovení bez odkazu na schválenou politiku v KB",
+        "Nezpracovávej osobní údaje nad rámec dotazu"
+      ],
+      "demo_questions": [
+        "Jaký je postup při nástupu nového zaměstnance?",
+        "Kde najdu aktuální politiku home office?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "employee",
+        "training"
+      ]
+    },
+    {
+      "id": "2bc08f5b-3acb-53d8-9314-92372be0d1df",
+      "title": "Role: SOP & policy copilot",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/sop-policy-copilot/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "sop-policy-copilot",
+      "agent_name": "SOP & policy copilot",
+      "use_case": "Odpovědi na HR SOP a politiky",
+      "persona": "empatický HR specialista",
+      "audience": "zaměstnanci a line manažeři",
+      "guardrails": [
+        "Nikdy neinterpretuj právní ustanovení bez odkazu na schválenou politiku v KB",
+        "Nezpracovávej osobní údaje nad rámec dotazu"
+      ],
+      "demo_questions": [
+        "Jaký je postup při nástupu nového zaměstnance?",
+        "Kde najdu aktuální politiku home office?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "employee",
+        "training"
+      ]
+    },
+    {
+      "id": "dfb1ebac-e3d2-563f-bcf5-ce07e24e45ba",
+      "title": "Skill: SOP & policy copilot",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/sop-policy-copilot/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "sop-policy-copilot",
+      "agent_name": "SOP & policy copilot",
+      "use_case": "Odpovědi na HR SOP a politiky",
+      "persona": "empatický HR specialista",
+      "audience": "zaměstnanci a line manažeři",
+      "guardrails": [
+        "Nikdy neinterpretuj právní ustanovení bez odkazu na schválenou politiku v KB",
+        "Nezpracovávej osobní údaje nad rámec dotazu"
+      ],
+      "demo_questions": [
+        "Jaký je postup při nástupu nového zaměstnance?",
+        "Kde najdu aktuální politiku home office?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "employee",
+        "training"
+      ]
+    },
+    {
+      "id": "a6baadd9-69db-5df7-acc8-a0bc93cd11bb",
+      "title": "System prompt: Leave/absence navigator",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/leave-absence-navigator/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "leave-absence-navigator",
+      "agent_name": "Leave/absence navigator",
+      "use_case": "Navigace dovolené a absence",
+      "persona": "praktický HR poradce pro absence",
+      "audience": "zaměstnanci a HRBP",
+      "guardrails": [
+        "Odkazuj na runbook absence, ne na neoficiální praxi",
+        "U citlivých případů doporuč kontakt HRBP"
+      ],
+      "demo_questions": [
+        "Kolik dní dovolené mi zbývá?",
+        "Jak nahlásit sick day?"
+      ],
+      "must_read_sections": [
+        "operations/core"
+      ],
+      "operates_on": [
+        "employee"
+      ]
+    },
+    {
+      "id": "953c981a-67cf-5372-a384-f9dc542bb637",
+      "title": "Role: Leave/absence navigator",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/leave-absence-navigator/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "leave-absence-navigator",
+      "agent_name": "Leave/absence navigator",
+      "use_case": "Navigace dovolené a absence",
+      "persona": "praktický HR poradce pro absence",
+      "audience": "zaměstnanci a HRBP",
+      "guardrails": [
+        "Odkazuj na runbook absence, ne na neoficiální praxi",
+        "U citlivých případů doporuč kontakt HRBP"
+      ],
+      "demo_questions": [
+        "Kolik dní dovolené mi zbývá?",
+        "Jak nahlásit sick day?"
+      ],
+      "must_read_sections": [
+        "operations/core"
+      ],
+      "operates_on": [
+        "employee"
+      ]
+    },
+    {
+      "id": "2b3df690-ea2f-5e5c-bbad-e69bf7ca5bf4",
+      "title": "Skill: Leave/absence navigator",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/leave-absence-navigator/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "leave-absence-navigator",
+      "agent_name": "Leave/absence navigator",
+      "use_case": "Navigace dovolené a absence",
+      "persona": "praktický HR poradce pro absence",
+      "audience": "zaměstnanci a HRBP",
+      "guardrails": [
+        "Odkazuj na runbook absence, ne na neoficiální praxi",
+        "U citlivých případů doporuč kontakt HRBP"
+      ],
+      "demo_questions": [
+        "Kolik dní dovolené mi zbývá?",
+        "Jak nahlásit sick day?"
+      ],
+      "must_read_sections": [
+        "operations/core"
+      ],
+      "operates_on": [
+        "employee"
+      ]
+    },
+    {
+      "id": "e68e79c5-127e-599a-b42c-9c1791b381d1",
+      "title": "System prompt: Onboarding checklist assistant",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/onboarding-checklist-assistant/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "onboarding-checklist-assistant",
+      "agent_name": "Onboarding checklist assistant",
+      "use_case": "Onboarding checklisty",
+      "persona": "systematický onboarding koordinátor",
+      "audience": "HR a hiring manažeři",
+      "guardrails": [
+        "Checklist musí odpovídat aktuálnímu SOP nástupu",
+        "Nepřeskakuj BOZP a compliance kroky"
+      ],
+      "demo_questions": [
+        "Co je potřeba před prvním dnem nového zaměstnance?",
+        "Kde je šablona pracovní smlouvy?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "templates/core"
+      ],
+      "operates_on": [
+        "employee",
+        "training"
+      ]
+    },
+    {
+      "id": "9582f128-bd8e-5f58-a814-6f0a3a594541",
+      "title": "Role: Onboarding checklist assistant",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/onboarding-checklist-assistant/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "onboarding-checklist-assistant",
+      "agent_name": "Onboarding checklist assistant",
+      "use_case": "Onboarding checklisty",
+      "persona": "systematický onboarding koordinátor",
+      "audience": "HR a hiring manažeři",
+      "guardrails": [
+        "Checklist musí odpovídat aktuálnímu SOP nástupu",
+        "Nepřeskakuj BOZP a compliance kroky"
+      ],
+      "demo_questions": [
+        "Co je potřeba před prvním dnem nového zaměstnance?",
+        "Kde je šablona pracovní smlouvy?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "templates/core"
+      ],
+      "operates_on": [
+        "employee",
+        "training"
+      ]
+    },
+    {
+      "id": "7c431dad-75b4-5754-9ec2-7175417625eb",
+      "title": "Skill: Onboarding checklist assistant",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/onboarding-checklist-assistant/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "onboarding-checklist-assistant",
+      "agent_name": "Onboarding checklist assistant",
+      "use_case": "Onboarding checklisty",
+      "persona": "systematický onboarding koordinátor",
+      "audience": "HR a hiring manažeři",
+      "guardrails": [
+        "Checklist musí odpovídat aktuálnímu SOP nástupu",
+        "Nepřeskakuj BOZP a compliance kroky"
+      ],
+      "demo_questions": [
+        "Co je potřeba před prvním dnem nového zaměstnance?",
+        "Kde je šablona pracovní smlouvy?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "templates/core"
+      ],
+      "operates_on": [
+        "employee",
+        "training"
+      ]
+    },
+    {
+      "id": "df00c942-d1c5-50de-a155-f40b9d9578e6",
+      "title": "System prompt: Training compliance reporter",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/training-compliance-reporter/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "training-compliance-reporter",
+      "agent_name": "Training compliance reporter",
+      "use_case": "BOZP a školení compliance",
+      "persona": "compliance reporter pro školení",
+      "audience": "HR a safety officers",
+      "guardrails": [
+        "Reportuj pouze data ze schválených systémů",
+        "U expirovaných školení vždy navrhni nápravný plán"
+      ],
+      "demo_questions": [
+        "Kdo nemá platné BOZP školení?",
+        "Jaká školení jsou povinná pro nováčky?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "employee",
+        "training"
+      ]
+    },
+    {
+      "id": "b74585a0-5b37-5d92-836a-72341c0dc81f",
+      "title": "Role: Training compliance reporter",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/training-compliance-reporter/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "training-compliance-reporter",
+      "agent_name": "Training compliance reporter",
+      "use_case": "BOZP a školení compliance",
+      "persona": "compliance reporter pro školení",
+      "audience": "HR a safety officers",
+      "guardrails": [
+        "Reportuj pouze data ze schválených systémů",
+        "U expirovaných školení vždy navrhni nápravný plán"
+      ],
+      "demo_questions": [
+        "Kdo nemá platné BOZP školení?",
+        "Jaká školení jsou povinná pro nováčky?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "employee",
+        "training"
+      ]
+    },
+    {
+      "id": "824c642a-2b54-53b3-b3e1-3301371bdbaa",
+      "title": "Skill: Training compliance reporter",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/training-compliance-reporter/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "training-compliance-reporter",
+      "agent_name": "Training compliance reporter",
+      "use_case": "BOZP a školení compliance",
+      "persona": "compliance reporter pro školení",
+      "audience": "HR a safety officers",
+      "guardrails": [
+        "Reportuj pouze data ze schválených systémů",
+        "U expirovaných školení vždy navrhni nápravný plán"
+      ],
+      "demo_questions": [
+        "Kdo nemá platné BOZP školení?",
+        "Jaká školení jsou povinná pro nováčky?"
+      ],
+      "must_read_sections": [
+        "compliance/core",
+        "operations/core"
+      ],
+      "operates_on": [
+        "employee",
+        "training"
+      ]
+    },
+    {
+      "id": "0fcdeda5-e227-50bb-8fe3-ccacfde6f427",
+      "title": "System prompt: Benefits eligibility guide",
+      "doc_kind": "system_prompt",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/benefits-eligibility-guide/core/system-prompt-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "benefits-eligibility-guide",
+      "agent_name": "Benefits eligibility guide",
+      "use_case": "Nárok na benefity",
+      "persona": "benefits poradce",
+      "audience": "zaměstnanci",
+      "guardrails": [
+        "Nárok na benefity vždy ověř dle politiky a seniority",
+        "Nezveřejňuj mzdové údaje jiných zaměstnanců"
+      ],
+      "demo_questions": [
+        "Mám nárok na sick days?",
+        "Kdy začíná nárok na stravenkový paušál?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "employee"
+      ]
+    },
+    {
+      "id": "6b84de50-5ac2-5adc-8931-0e60ebc055f6",
+      "title": "Role: Benefits eligibility guide",
+      "doc_kind": "agent_role",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/benefits-eligibility-guide/core/role-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "benefits-eligibility-guide",
+      "agent_name": "Benefits eligibility guide",
+      "use_case": "Nárok na benefity",
+      "persona": "benefits poradce",
+      "audience": "zaměstnanci",
+      "guardrails": [
+        "Nárok na benefity vždy ověř dle politiky a seniority",
+        "Nezveřejňuj mzdové údaje jiných zaměstnanců"
+      ],
+      "demo_questions": [
+        "Mám nárok na sick days?",
+        "Kdy začíná nárok na stravenkový paušál?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "employee"
+      ]
+    },
+    {
+      "id": "ef5603bc-48a1-50e3-84c4-83f336056804",
+      "title": "Skill: Benefits eligibility guide",
+      "doc_kind": "agent_skill",
+      "language": "cs",
+      "sensitivity": "internal",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "content_path": "knowledge-content/knowledgebase/hr/agents/benefits-eligibility-guide/core/skill-001.md",
+      "token_count": 800,
+      "version": "1.0",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "agent_slug": "benefits-eligibility-guide",
+      "agent_name": "Benefits eligibility guide",
+      "use_case": "Nárok na benefity",
+      "persona": "benefits poradce",
+      "audience": "zaměstnanci",
+      "guardrails": [
+        "Nárok na benefity vždy ověř dle politiky a seniority",
+        "Nezveřejňuj mzdové údaje jiných zaměstnanců"
+      ],
+      "demo_questions": [
+        "Mám nárok na sick days?",
+        "Kdy začíná nárok na stravenkový paušál?"
+      ],
+      "must_read_sections": [
+        "operations/core",
+        "compliance/core"
+      ],
+      "operates_on": [
+        "employee"
+      ]
     }
   ]
 }

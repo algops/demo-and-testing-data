@@ -11,7 +11,8 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
-from .util import NOW, ROOT
+from .agent_specs import DOMAIN_AGENTS, build_agent_kb_grants, get_agent_slug
+from .util import NOW, ROOT, slugify
 
 ANCHOR_ORG_NAME = "Meridian Pay a.s."
 ANCHOR_ORG_ID = "org:anchor"
@@ -526,9 +527,29 @@ def publish_sources(source: Path, target: Path, dry_run: bool) -> None:
     write_json(sources_dir / "sources.json", {"sources": ui_sources}, dry_run)
 
 
+def _resolve_object_type_ids(
+    object_types: list[dict], domain: str, slugs: list[str]
+) -> list[str]:
+    by_key = {(ot.get("domain_id"), ot.get("name")): ot["id"] for ot in object_types}
+    ids: list[str] = []
+    for slug in slugs:
+        oid = by_key.get((domain, slug)) or by_key.get(("shared", slug))
+        if oid and oid not in ids:
+            ids.append(oid)
+    return ids
+
+
+def _agent_spec_by_slug(domain: str, slug: str) -> dict | None:
+    for spec in DOMAIN_AGENTS.get(domain, []):
+        if get_agent_slug(spec) == slug:
+            return spec
+    return None
+
+
 def publish_chat_agents(source: Path, target: Path, dry_run: bool) -> None:
     agents = load_json(source / "agents.json")["agents"]
     integrations = load_json(source / "integrations.json")["integrations"]
+    object_types = load_json(source / "object-types.json")["object_types"]
     agents_dir = target / "chat-agents"
     if not dry_run and agents_dir.exists():
         for old in agents_dir.glob("*.json"):
@@ -549,7 +570,17 @@ def publish_chat_agents(source: Path, target: Path, dry_run: bool) -> None:
     for agent in agents:
         domain = agent.get("domain_id", "shared")
         file_id = agent["id"]
-        tree_path = f"/knowledgebase/{domain}"
+        agent_slug = agent.get("slug") or slugify(agent["name"])
+        agent_spec = _agent_spec_by_slug(domain, agent_slug) or {}
+        kb_grants = build_agent_kb_grants(
+            domain,
+            agent_slug,
+            agent_spec.get("must_read_sections", []),
+        )
+        object_type_ids = _resolve_object_type_ids(
+            object_types, domain, agent_spec.get("operates_on", [])
+        )
+        skills_path = f"/knowledgebase/{domain}/agents/{agent_slug}"
         tool_ids = tools_by_domain.get(domain, [])
         source_ids = sources_by_domain.get(domain, [])
         detail = {
@@ -571,13 +602,11 @@ def publish_chat_agents(source: Path, target: Path, dry_run: bool) -> None:
                     },
                 },
                 "knowledge_base_access": {
-                    "grants": [
-                        {"treePath": tree_path, "scope": "folder", "includeDescendants": True},
-                    ],
-                    "skillsPath": f"/skills/{domain}",
+                    "grants": kb_grants,
+                    "skillsPath": skills_path,
                     "skillFilePaths": [],
                 },
-                "data_warehouse_access": {"objectTypeIds": []},
+                "data_warehouse_access": {"objectTypeIds": object_type_ids},
                 "realtime_data_access": {
                     "grants": [
                         {

@@ -5,6 +5,7 @@ from __future__ import annotations
 from typing import Any
 
 from .attribute_types import get_data_type
+from .agent_specs import get_agent_slug
 from .catalogues import DOMAIN_AGENTS, DOMAIN_INTEGRATIONS, _load_domain_spec
 from .graph import GraphState, ORG_TYPES, SYSTEM_NAMES, VENDOR_NAMES, DEPT_NAMES
 from .util import DOMAINS, NOW, ORG_ID, ROOT, SHARED, load_yaml_simple, make_id, slugify
@@ -130,7 +131,7 @@ def derive_agents(state: GraphState) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] = []
     for domain in DOMAINS:
         for i, spec in enumerate(DOMAIN_AGENTS[domain]):
-            slug = slugify(spec["name"])
+            slug = get_agent_slug(spec)
             aid = make_id(f"agent:{domain}:{slug}")
             items.append(
                 {
@@ -205,20 +206,32 @@ def derive_knowledge_docs(state: GraphState) -> list[dict[str, Any]]:
         meta = state.kb_doc_meta.get(key, {})
         rel_path = meta.get("rel_path", f"core/doc-{key.split(':', 1)[1]}.md")
         title = meta.get("title", rel_path)
-        items.append(
-            {
-                "id": did,
-                "title": title,
-                "doc_kind": meta.get("doc_kind", "guideline"),
-                "language": "cs",
-                "sensitivity": "internal",
-                "org_id": ORG_ID,
-                "domain_id": domain,
-                "content_path": f"knowledge-content/knowledgebase/{domain}/{rel_path}",
-                "token_count": 800,
-                "version": "1.0",
-                "created_at": NOW,
-                "updated_at": NOW,
-            }
-        )
+        doc_record: dict[str, Any] = {
+            "id": did,
+            "title": title,
+            "doc_kind": meta.get("doc_kind", "guideline"),
+            "language": "cs",
+            "sensitivity": "internal",
+            "org_id": ORG_ID,
+            "domain_id": domain,
+            "content_path": f"knowledge-content/knowledgebase/{domain}/{rel_path}",
+            "token_count": 800,
+            "version": "1.0",
+            "created_at": NOW,
+            "updated_at": NOW,
+        }
+        for field in (
+            "agent_slug",
+            "agent_name",
+            "use_case",
+            "persona",
+            "audience",
+            "guardrails",
+            "demo_questions",
+            "must_read_sections",
+            "operates_on",
+        ):
+            if field in meta:
+                doc_record[field] = meta[field]
+        items.append(doc_record)
     return items

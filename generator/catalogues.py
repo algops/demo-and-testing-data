@@ -5,6 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
+from .agent_specs import DOMAIN_AGENTS
 from .attribute_types import get_data_type
 from .util import ROOT, DOMAINS, load_json_block, slugify
 
@@ -14,42 +15,6 @@ DOMAIN_PROPOZICE = {
     "legal": "03_LEGAL.md",
     "tax": "04_TAX_ACCOUNTING.md",
     "hr": "05_HR_SOP.md",
-}
-
-DOMAIN_AGENTS: dict[str, list[dict[str, str]]] = {
-    "it": [
-        {"name": "Agentic engineering KB builder", "use_case": "Budování znalostní báze z GitLab a Confluence"},
-        {"name": "Automated code review copilot", "use_case": "Automatizované code review a Snyk nálezy"},
-        {"name": "Incident/runbook assistant", "use_case": "Asistence při incidentech a runboocích"},
-        {"name": "Architecture & ADR Q&A", "use_case": "Dotazy na ADR a architekturu"},
-        {"name": "PM/tech comms assistant", "use_case": "Shrnutí technických rozhodnutí do Slacku"},
-    ],
-    "legal": [
-        {"name": "In-house know-how copilot", "use_case": "Interní právní know-how"},
-        {"name": "Contract/template finder", "use_case": "Vyhledávání smluv a šablon"},
-        {"name": "DD progress assistant", "use_case": "Sledování due diligence"},
-        {"name": "Conflict-check helper", "use_case": "Kontrola střetu zájmů"},
-        {"name": "Legislative update summarizer", "use_case": "Shrnutí legislativních změn"},
-    ],
-    "esg": [
-        {"name": "CSRD gap & disclosure copilot", "use_case": "Mezery v CSRD disclosure"},
-        {"name": "Taxonomy alignment explainer", "use_case": "Vysvětlení EU taxonomie"},
-        {"name": "Supplier risk assistant", "use_case": "Riziko dodavatelů"},
-        {"name": "Audit-finding remediation guide", "use_case": "Náprava auditních nálezů"},
-    ],
-    "tax": [
-        {"name": "Filing deadline tracker", "use_case": "Sledování termínů podání"},
-        {"name": "Account tax-treatment Q&A", "use_case": "Daňové zacházení s účty"},
-        {"name": "TP documentation assistant", "use_case": "Transfer pricing dokumentace"},
-        {"name": "DPH/sazba change explainer", "use_case": "Změny sazeb DPH"},
-    ],
-    "hr": [
-        {"name": "SOP & policy copilot", "use_case": "Odpovědi na HR SOP a politiky"},
-        {"name": "Leave/absence navigator", "use_case": "Navigace dovolené a absence"},
-        {"name": "Onboarding checklist assistant", "use_case": "Onboarding checklisty"},
-        {"name": "Training compliance reporter", "use_case": "BOZP a školení compliance"},
-        {"name": "Benefits eligibility guide", "use_case": "Nárok na benefity"},
-    ],
 }
 
 DOMAIN_INTEGRATIONS: dict[str, list[dict[str, str]]] = {
@@ -170,11 +135,19 @@ def write_agents(domain: str, out: Path) -> None:
     lines = [
         f"# {domain.upper()} — Agents (use-case based)",
         "",
-        "| Agent | Primary use-case (cs) |",
-        "|-------|----------------------|",
+        "| Agent | Primary use-case (cs) | operates_on | must_read_sections |",
+        "|-------|----------------------|-------------|-------------------|",
     ]
     for a in DOMAIN_AGENTS[domain]:
-        lines.append(f"| {a['name']} | {a['use_case']} |")
+        ops = ", ".join(a.get("operates_on", []))
+        sections = ", ".join(a.get("must_read_sections", []))
+        lines.append(f"| {a['name']} | {a['use_case']} | {ops} | {sections} |")
+    lines.extend(["", "## Guardrails (per agent)", ""])
+    for a in DOMAIN_AGENTS[domain]:
+        lines.append(f"### {a['name']}")
+        for g in a.get("guardrails", []):
+            lines.append(f"- {g}")
+        lines.append("")
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
