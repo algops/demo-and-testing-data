@@ -1,12 +1,15 @@
 {
   "id": "kb-it-016",
-  "title": "Šablona RFC pro změny infrastruktury",
+  "title": "Politika bezpečnosti vývoje (Secure SDLC)",
+  "project_id": "org:anchor:it",
+  "content_path": "knowledge-content/knowledgebase/it/compliance/core/policy-004.md",
+  "knowledge_doc_id": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# Šablona RFC pro změny infrastruktury\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: template | Citlivost: internal\n\n## Šablona\n\n**Šablona RFC pro změny infrastruktury** — použijte pro standardizované dokumenty v Meridian Pay a.s..\n\n```\nDokument č.: [MP-IT-____]\nVerze: 1.0\nDatum účinnosti: [DD.MM.RRRR]\nStrany smluvních stran:\n  1. Meridian Pay a.s., IČO: [●●●●●●●●], sídlo Praha\n  2. [Název druhé strany], IČO: [________]\n\nPředmět:\n[Stručný popis předmětu smlouvy / procesu / formuláře]\n\nDoba trvání:\nOd [datum] do [datum / neurčito]\n\nPlatební podmínky:\n[Splatnost, měna CZK/EUR, způsob úhrady]\n\nOchrana dat:\nStrany se zavazují zpracovávat osobní údaje dle GDPR a interních politik Meridian Pay a.s..\n\nPodpisy:\n_______________________          _______________________\nza Meridian Pay a.s.                    za druhou stranu\n```\n\n## Pokyny k vyplnění\n\n- Povinná pole označená [hranatými závorkami]\n- Právní review povinné před podpisem u smluv nad 500 000 Kč\n- Archivace podepsané verze v `knowledgebase/it/templates/archive/`\n"
+      "content": "# Politika bezpečnosti vývoje (Secure SDLC)\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: policy | Citlivost: internal\n\n## Účel a rozsah\n\nTato politika stanovuje závazná pravidla pro oblast **politika bezpečnosti vývoje (secure sdlc)** v rámci Meridian Pay a.s.. Platí pro všechny zaměstnance, dodavatele s přístupem k interním systémům a vedení společnosti.\n\n## Odpovědnosti\n\n| Role | Odpovědnost |\n|------|-------------|\n| Vedení společnosti | Schválení politiky, alokace zdrojů |\n| Domain owner (it) | Aktualizace, compliance monitoring |\n| Line managers | Zajištění dodržování v týmech |\n| Interní audit | Nezávislá kontrola každých 12 měsíců |\n\n## Klíčová ustanovení\n\n1. Všechny procesy v doméně it musí být dokumentovány a verzovány v znalostní bázi pod `knowledgebase/it/`.\n2. Data z integrace **GitLab** jsou považována za autoritativní zdroj pro operativní rozhodování.\n3. Odchylky od politiky vyžadují písemnou výjimku schválenou domain ownerem a záznam v registru rizik.\n4. Porušení politiky může vést k disciplinárnímu řízení dle interních předpisů Meridian Pay a.s..\n\n## Životní cyklus dokumentu\n\n- **Návrh:** domain owner + právní/compliance (dle domény)\n- **Review:** minimálně jednou ročně nebo při změně regulace\n- **Schválení:** člen představenstva pro politiku úrovně 1\n- **Distribuce:** publikace v KB, notifikace přes Slack #compliance\n\n## Související dokumenty\n\n- Runbooky a SOP v `knowledgebase/it/operations/`\n- Integrační dokumentace k systému GitLab\n- Registr rizik Meridian Pay a.s. (interní)\n\n## Revize\n\n| Verze | Datum | Autor | Změna |\n|-------|-------|-------|-------|\n| 1.0 | 2025-03-01 | Domain owner it | První vydání |\n"
     }
   ]
 }

@@ -6,6 +6,7 @@
       "name": "knowledgebase",
       "org_id": "org:anchor",
       "domain_id": "shared",
+      "project_id": null,
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -14,6 +15,7 @@
       "name": "esg",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -22,6 +24,7 @@
       "name": "compliance",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -30,6 +33,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -38,6 +42,7 @@
       "name": "operations",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -46,6 +51,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -54,6 +60,7 @@
       "name": "templates",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -62,6 +69,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -70,6 +78,7 @@
       "name": "engineering",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -78,6 +87,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -86,6 +96,7 @@
       "name": "archive",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -94,6 +105,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -102,6 +114,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -110,6 +123,7 @@
       "name": "it",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -118,6 +132,7 @@
       "name": "engineering",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -126,6 +141,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -134,6 +150,7 @@
       "name": "operations",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -142,6 +159,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -150,6 +168,7 @@
       "name": "compliance",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -158,6 +177,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -166,6 +186,7 @@
       "name": "templates",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -174,6 +195,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -182,6 +204,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -190,6 +213,7 @@
       "name": "archive",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -198,6 +222,7 @@
       "name": "archive",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -206,6 +231,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -214,6 +240,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -222,6 +249,7 @@
       "name": "legal",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -230,6 +258,7 @@
       "name": "compliance",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -238,6 +267,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -246,6 +276,7 @@
       "name": "templates",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -254,6 +285,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -262,6 +294,7 @@
       "name": "operations",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -270,6 +303,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -278,6 +312,7 @@
       "name": "archive",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -286,6 +321,7 @@
       "name": "archive",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -294,6 +330,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -302,6 +339,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -310,6 +348,7 @@
       "name": "tax",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -318,6 +357,7 @@
       "name": "compliance",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -326,6 +366,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -334,6 +375,7 @@
       "name": "operations",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -342,6 +384,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -350,6 +393,7 @@
       "name": "templates",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -358,6 +402,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -366,6 +411,7 @@
       "name": "archive",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -374,6 +420,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -382,6 +429,7 @@
       "name": "archive",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -390,6 +438,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -398,6 +447,7 @@
       "name": "hr",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -406,6 +456,7 @@
       "name": "compliance",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -414,6 +465,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -422,6 +474,7 @@
       "name": "operations",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -430,6 +483,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -438,6 +492,7 @@
       "name": "templates",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -446,6 +501,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -454,6 +510,7 @@
       "name": "archive",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -462,6 +519,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -470,6 +528,7 @@
       "name": "archive",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -478,6 +537,7 @@
       "name": "drafts",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -486,6 +546,7 @@
       "name": "agents",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -494,6 +555,7 @@
       "name": "csrd-gap-disclosure-copilot",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -502,6 +564,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -510,6 +573,7 @@
       "name": "taxonomy-alignment-explainer",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -518,6 +582,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -526,6 +591,7 @@
       "name": "supplier-risk-assistant",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -534,6 +600,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -542,6 +609,7 @@
       "name": "audit-finding-remediation-guide",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -550,6 +618,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "esg",
+      "project_id": "org:anchor:esg",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -558,6 +627,7 @@
       "name": "agents",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -566,6 +636,7 @@
       "name": "agentic-engineering-kb-builder",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -574,6 +645,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -582,6 +654,7 @@
       "name": "automated-code-review-copilot",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -590,6 +663,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -598,6 +672,7 @@
       "name": "incident-runbook-assistant",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -606,6 +681,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -614,6 +690,7 @@
       "name": "architecture-adr-q-a",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -622,6 +699,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -630,6 +708,7 @@
       "name": "pm-tech-comms-assistant",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -638,6 +717,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "it",
+      "project_id": "org:anchor:it",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -646,6 +726,7 @@
       "name": "agents",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -654,6 +735,7 @@
       "name": "in-house-know-how-copilot",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -662,6 +744,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -670,6 +753,7 @@
       "name": "contract-template-finder",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -678,6 +762,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -686,6 +771,7 @@
       "name": "dd-progress-assistant",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -694,6 +780,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -702,6 +789,7 @@
       "name": "conflict-check-helper",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -710,6 +798,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -718,6 +807,7 @@
       "name": "legislative-update-summarizer",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -726,6 +816,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "legal",
+      "project_id": "org:anchor:legal",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -734,6 +825,7 @@
       "name": "agents",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -742,6 +834,7 @@
       "name": "filing-deadline-tracker",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -750,6 +843,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -758,6 +852,7 @@
       "name": "account-tax-treatment-q-a",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -766,6 +861,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -774,6 +870,7 @@
       "name": "tp-documentation-assistant",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -782,6 +879,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -790,6 +888,7 @@
       "name": "dph-sazba-change-explainer",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -798,6 +897,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "tax",
+      "project_id": "org:anchor:tax",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -806,6 +906,7 @@
       "name": "agents",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -814,6 +915,7 @@
       "name": "sop-policy-copilot",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -822,6 +924,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -830,6 +933,7 @@
       "name": "leave-absence-navigator",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -838,6 +942,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -846,6 +951,7 @@
       "name": "onboarding-checklist-assistant",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -854,6 +960,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -862,6 +969,7 @@
       "name": "training-compliance-reporter",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -870,6 +978,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -878,6 +987,7 @@
       "name": "benefits-eligibility-guide",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     },
     {
@@ -886,6 +996,7 @@
       "name": "core",
       "org_id": "org:anchor",
       "domain_id": "hr",
+      "project_id": "org:anchor:hr",
       "created_at": "2025-06-01T12:00:00Z"
     }
   ]

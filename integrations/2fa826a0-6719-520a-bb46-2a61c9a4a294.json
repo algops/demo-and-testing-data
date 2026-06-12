@@ -1,0 +1,113 @@
+{
+  "id": "2fa826a0-6719-520a-bb46-2a61c9a4a294",
+  "name": "Tax calc validators",
+  "description": "Tax calc validators — integrace domény tax pro Meridian Pay a.s.",
+  "integration_role": "tool",
+  "org_id": "org:anchor",
+  "domain_id": "tax",
+  "project_id": "org:anchor:tax",
+  "status": "active",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "source_type": "Integration",
+  "delivery_type": "Endpoint",
+  "max_concurrent_runs": 10,
+  "timeout": 30,
+  "average_run_duration": 35,
+  "owner_org_id": "org:anchor",
+  "owner_org_name": "Meridian Pay a.s.",
+  "last_used_at": "2025-06-01T12:00:00Z",
+  "total_runs": 270,
+  "successful_runs": 245,
+  "failed_runs": 25,
+  "success_rate": 0.88,
+  "activities_count": 0,
+  "workflows_count": 0,
+  "use_cases_count": 1,
+  "guardrails_count": 1,
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body"
+            ],
+            "mapping_status": "mapped"
+          },
+          "run_id": {
+            "path": [
+              "id"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.meridianpay.cz/integrations/tax-calc-validators",
+        "method": "POST",
+        "headers": {
+          "Authorization": "Bearer <<$auth_key>>",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "query": "<<$run_setup>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {}
+    },
+    "status_request": {
+      "mappings": {
+        "request": {},
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.meridianpay.cz/integrations/tax-calc-validators",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {},
+        "response": {}
+      },
+      "request_template": {
+        "url": "https://api.meridianpay.cz/integrations/tax-calc-validators",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": [],
+      "response_mappings": {}
+    }
+  }
+}

@@ -1,6 +1,9 @@
 {
   "id": "kb-it-017",
   "title": "FAQ: GitLab CI/CD a release train",
+  "project_id": "org:anchor:it",
+  "content_path": "knowledge-content/knowledgebase/it/engineering/drafts/faq-007.md",
+  "knowledge_doc_id": "a1d63b8b-82b3-5cd5-b56b-858de67ad980",
   "versions": [
     {
       "id": "v1",

@@ -1,0 +1,73 @@
+{
+  "id": "5ce2532f-636f-5549-b4bb-ea51bc8bb257",
+  "name": "Architecture & ADR Q&A",
+  "description": "Dotazy na ADR a architekturu",
+  "status": "draft",
+  "domain_id": "it",
+  "project_id": "org:anchor:it",
+  "org_id": "org:anchor",
+  "setup": {
+    "accessibility": {
+      "primary": {
+        "type": "web_widget",
+        "enabled": true,
+        "bidirectional": true,
+        "label": "Web widget"
+      },
+      "supervisor": {
+        "type": "slack",
+        "enabled": false,
+        "bidirectional": true,
+        "canSteer": true,
+        "label": "#agents-it"
+      }
+    },
+    "knowledge_base_access": {
+      "grants": [
+        {
+          "treePath": "/knowledgebase/it/agents/architecture-adr-q-a",
+          "scope": "folder",
+          "includeDescendants": true
+        },
+        {
+          "treePath": "/knowledgebase/it/engineering/core",
+          "scope": "folder",
+          "includeDescendants": true
+        }
+      ],
+      "skillsPath": "/knowledgebase/it/agents/architecture-adr-q-a",
+      "skillFilePaths": []
+    },
+    "data_warehouse_access": {
+      "objectTypeIds": [
+        "508f90cb-9a2a-5bde-854e-b31c23c93ca1",
+        "1f3a262e-7754-5a68-b65b-0b4cb5d90d98"
+      ]
+    },
+    "realtime_data_access": {
+      "grants": [
+        {
+          "sourceId": "e544df81-ff66-5f90-88ff-da682bd0d148",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        },
+        {
+          "sourceId": "5165655b-4e94-5322-8fcb-51300c06c7df",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        }
+      ]
+    },
+    "actions_access": {
+      "grants": [
+        {
+          "sourceId": "7d481564-2cd4-5a61-b375-0e87d848958b",
+          "actionKey": "execute_tool",
+          "label": "Tool action",
+          "description": "Execute via 7d481564-2cd4-5a61-b375-0e87d848958b",
+          "permission": "execute"
+        }
+      ]
+    }
+  }
+}

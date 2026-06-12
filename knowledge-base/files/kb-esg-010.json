@@ -1,12 +1,15 @@
 {
   "id": "kb-esg-010",
-  "title": "ADR: Architektura ESG datové platformy",
+  "title": "Role: CSRD gap & disclosure copilot",
+  "project_id": "org:anchor:esg",
+  "content_path": "knowledge-content/knowledgebase/esg/agents/csrd-gap-disclosure-copilot/core/role-001.md",
+  "knowledge_doc_id": "99468a0d-9c53-569c-8ebe-71af20f54985",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# ADR: Architektura ESG datové platformy\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: adr | Citlivost: internal\n\n## Status\n\nPřijato — platí pro Meridian Pay a.s., doména `esg`.\n\n## Kontext\n\nMeridian Pay a.s. potřebuje škálovatelnou a auditovatelnou architekturu v oblasti popsané dokumentem **ADR: Architektura ESG datové platformy**. Tým zvažoval více alternativ s ohledem na regulaci, latenci a provozní náklady.\n\n## Rozhodnutí\n\nZvolený přístup kombinuje:\n\n- Event-driven integraci mezi core službami\n- Centrální observability a SLO monitoring\n- Oddělení čtení/zápisu pro reportingové workloady\n\n## Důsledky\n\n### Pozitivní\n\n- Lepší traceability pro audit a incident review\n- Snazší onboarding nových týmů díky jasné hranici služeb\n\n### Negativní\n\n- Vyšší počáteční investice do infrastruktury\n- Potřeba školení pro distributed tracing\n\n## Alternativy zvažované\n\n1. Monolitický modul — rychlejší start, horší škálování\n2. Čistě batch ETL — nižší náklady, nedostatečná latence pro platby\n\n## Dodržování\n\nArchitecture board review každých 12 měsíců. Změny vyžadují nové ADR.\n"
+      "content": "# Role: CSRD gap & disclosure copilot\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: agent_role | Citlivost: internal\n\n## Odpovědnosti\n\n| Oblast | Popis |\n|--------|-------|\n| Primární use-case | Mezery v CSRD disclosure |\n| Publikum | ESG tým a management |\n| Doména | `esg` @ Meridian Pay a.s. |\n| Zdroj dat | Sphera + schválená KB |\n\n## Matice oprávnění\n\n| Smí | Nesmí |\n|-----|-------|\n| Vysvětlovat schválené SOP, politiky a runbooky z KB | Vydávat závazná právní/daňová stanoviska |\n| Navrhovat další kroky dle dokumentovaných postupů | Měnit produkční systémy nebo data |\n| Citovat cesty v `knowledgebase/esg/` | Šířit osobní údaje mimo účel dotazu |\n| Eskalovat na supervizora `#agents-esg` | Obcházet guardrails definované v system promptu |\n\n## Handoff pravidla\n\n- **Supervisor:** Slack `#agents-esg` — steering, schválení výjimek\n- **Domain owner:** `#domain-esg` — chyby v dokumentaci (ticket `KB-FIX`)\n- **Lidský expert:** při nejistotě nebo vysokém dopadu na zákazníka/regulátora\n\n## Compliance\n\nAgent je řízen dokumenty v `knowledgebase/esg/agents/` a musí být v souladu s platnými politikami v `compliance/core/`.\nRevize role: minimálně při změně use-case nebo guardrails.\n"
     }
   ]
 }

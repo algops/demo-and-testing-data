@@ -1,0 +1,113 @@
+{
+  "id": "be768950-5ebc-5e73-a81d-684854497bff",
+  "name": "Contracts/matter index",
+  "description": "Contracts/matter index — integrace domény legal pro Meridian Pay a.s.",
+  "integration_role": "destination",
+  "org_id": "org:anchor",
+  "domain_id": "legal",
+  "project_id": "org:anchor:legal",
+  "status": "active",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "source_type": "Integration",
+  "delivery_type": "Endpoint",
+  "max_concurrent_runs": 10,
+  "timeout": 30,
+  "average_run_duration": 40,
+  "owner_org_id": "org:anchor",
+  "owner_org_name": "Meridian Pay a.s.",
+  "last_used_at": "2025-06-01T12:00:00Z",
+  "total_runs": 226,
+  "successful_runs": 205,
+  "failed_runs": 21,
+  "success_rate": 0.88,
+  "activities_count": 0,
+  "workflows_count": 0,
+  "use_cases_count": 0,
+  "guardrails_count": 0,
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body"
+            ],
+            "mapping_status": "mapped"
+          },
+          "run_id": {
+            "path": [
+              "id"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.meridianpay.cz/integrations/contracts-matter-index",
+        "method": "POST",
+        "headers": {
+          "Authorization": "Bearer <<$auth_key>>",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "query": "<<$run_setup>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {}
+    },
+    "status_request": {
+      "mappings": {
+        "request": {},
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.meridianpay.cz/integrations/contracts-matter-index",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {},
+        "response": {}
+      },
+      "request_template": {
+        "url": "https://api.meridianpay.cz/integrations/contracts-matter-index",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": [],
+      "response_mappings": {}
+    }
+  }
+}

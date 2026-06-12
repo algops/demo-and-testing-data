@@ -4,6 +4,7 @@
   "description": "Object type runbook",
   "org_id": "org:anchor",
   "domain_id": "it",
+  "project_id": "org:anchor:it",
   "created_at": "2025-06-01T12:00:00Z",
   "updated_at": "2025-06-01T12:00:00Z",
   "deleted_at": null,

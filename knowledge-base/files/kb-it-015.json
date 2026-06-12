@@ -1,12 +1,15 @@
 {
   "id": "kb-it-015",
-  "title": "Příručka observability — Datadog a SLO",
+  "title": "Role: PM/tech comms assistant",
+  "project_id": "org:anchor:it",
+  "content_path": "knowledge-content/knowledgebase/it/agents/pm-tech-comms-assistant/core/role-001.md",
+  "knowledge_doc_id": "9b3e90a0-6cf5-54e5-9529-d0fee8e6742d",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# Příručka observability — Datadog a SLO\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: guideline | Citlivost: internal\n\n## Kontext\n\nMeridian Pay a.s. provozuje platební a fintech služby v regulovaném prostředí. Tato příručka vysvětluje, jak interpretovat požadavky v oblasti **Příručka observability — Datadog a SLO** a jak je promítnout do praxe domény `it`.\n\n## Regulační a interní rámec\n\n- Soulad s českou a EU legislativou relevantní pro doménu it\n- Propojení na datové zdroje v **GitLab** a související systémy\n- Mapování požadavků na object types a datapointy v AlgOps katalogu\n\n## Postup implementace\n\n1. **Identifikace rozsahu** — určete dotčené týmy, systémy a procesy.\n2. **Gap analýza** — porovnejte stávající stav s požadavky příručky.\n3. **Akční plán** — vlastník, termín, měřitelný výstup.\n4. **Validace** — kontrola vzorkem záznamů z GitLab.\n5. **Reporting** — kvartální status pro ESG/compliance výbor (dle domény).\n\n## Metriky úspěchu\n\n- Pokrytí dokumentovaných procesů ≥ 90 %\n- Počet otevřených gapů s překročeným SLA ≤ 3\n- Úspěšnost auditních kontrol bez major finding\n\n## Časté chyby\n\n- Spoléhání na neoficiální Excel místo schválené KB verze\n- Neaktuální reference na zrušené interní postupy\n- Chybějící vazba na zdrojová data v integraci\n\n## Kontakt\n\nDomain owner `it` — slack:#domain-it\n"
+      "content": "# Role: PM/tech comms assistant\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: agent_role | Citlivost: internal\n\n## Odpovědnosti\n\n| Oblast | Popis |\n|--------|-------|\n| Primární use-case | Shrnutí technických rozhodnutí do Slacku |\n| Publikum | PM a stakeholderé |\n| Doména | `it` @ Meridian Pay a.s. |\n| Zdroj dat | GitLab + schválená KB |\n\n## Matice oprávnění\n\n| Smí | Nesmí |\n|-----|-------|\n| Vysvětlovat schválené SOP, politiky a runbooky z KB | Vydávat závazná právní/daňová stanoviska |\n| Navrhovat další kroky dle dokumentovaných postupů | Měnit produkční systémy nebo data |\n| Citovat cesty v `knowledgebase/it/` | Šířit osobní údaje mimo účel dotazu |\n| Eskalovat na supervizora `#agents-it` | Obcházet guardrails definované v system promptu |\n\n## Handoff pravidla\n\n- **Supervisor:** Slack `#agents-it` — steering, schválení výjimek\n- **Domain owner:** `#domain-it` — chyby v dokumentaci (ticket `KB-FIX`)\n- **Lidský expert:** při nejistotě nebo vysokém dopadu na zákazníka/regulátora\n\n## Compliance\n\nAgent je řízen dokumenty v `knowledgebase/it/agents/` a musí být v souladu s platnými politikami v `compliance/core/`.\nRevize role: minimálně při změně use-case nebo guardrails.\n"
     }
   ]
 }

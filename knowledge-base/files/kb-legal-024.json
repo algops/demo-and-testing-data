@@ -1,12 +1,15 @@
 {
   "id": "kb-legal-024",
-  "title": "Šablona NDA — standardní ujednání",
+  "title": "Runbook: Redakce citlivých údajů ve spisech",
+  "project_id": "org:anchor:legal",
+  "content_path": "knowledge-content/knowledgebase/legal/operations/drafts/runbook-010.md",
+  "knowledge_doc_id": "f3ac7159-7867-531d-bb3f-474b99e94185",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# Šablona NDA — standardní ujednání\n\n> Organizace: **Meridian Pay a.s.** | Doména: **legal** | Typ: template | Citlivost: internal\n\n## Šablona\n\n**Šablona NDA — standardní ujednání** — použijte pro standardizované dokumenty v Meridian Pay a.s..\n\n```\nDokument č.: [MP-LEGAL-____]\nVerze: 1.0\nDatum účinnosti: [DD.MM.RRRR]\nStrany smluvních stran:\n  1. Meridian Pay a.s., IČO: [●●●●●●●●], sídlo Praha\n  2. [Název druhé strany], IČO: [________]\n\nPředmět:\n[Stručný popis předmětu smlouvy / procesu / formuláře]\n\nDoba trvání:\nOd [datum] do [datum / neurčito]\n\nPlatební podmínky:\n[Splatnost, měna CZK/EUR, způsob úhrady]\n\nOchrana dat:\nStrany se zavazují zpracovávat osobní údaje dle GDPR a interních politik Meridian Pay a.s..\n\nPodpisy:\n_______________________          _______________________\nza Meridian Pay a.s.                    za druhou stranu\n```\n\n## Pokyny k vyplnění\n\n- Povinná pole označená [hranatými závorkami]\n- Právní review povinné před podpisem u smluv nad 500 000 Kč\n- Archivace podepsané verze v `knowledgebase/legal/templates/archive/`\n"
+      "content": "# Runbook: Redakce citlivých údajů ve spisech\n\n> Organizace: **Meridian Pay a.s.** | Doména: **legal** | Typ: runbook | Citlivost: internal\n\n## Přehled\n\nRunbook popisuje operativní postup: **Runbook: Redakce citlivých údajů ve spisech**. Používejte při incidentech, plánovaných oknech i ad-hoc eskalacích v doméně legal.\n\n## Předpoklady\n\n- Přístup do **iManage** a souvisejících systémů\n- Role: operátor L2+ nebo on-call engineer\n- Aktuální kontakty v PagerDuty / Slack `#oncall-legal`\n\n## Kroky\n\n### 1. Detekce a klasifikace\n\n- Ověřte alert nebo ticket v monitoringu.\n- Přiřaďte závažnost P1–P4 dle dopadu na zákazníky Meridian Pay a.s..\n\n### 2. Stabilizace\n\n- Izolujte dotčenou službu nebo datový tok.\n- Zdokumentujte čas začátku incidentu (UTC).\n\n### 3. Diagnostika\n\n- Zkontrolujte logy a poslední deploye v integraci iManage.\n- Porovnejte s posledním známým dobrým stavem (baseline dataset).\n\n### 4. Náprava\n\n- Aplikujte schválený rollback nebo hotfix dle SOP.\n- Po obnově služby spusťte smoke testy.\n\n### 5. Uzavření\n\n- Aktualizujte ticket, přidejte timeline.\n- Do 48 hodin post-mortem pro P1/P2.\n\n## Eskalace\n\n| Úroveň | Kontakt | Podmínka |\n|--------|---------|----------|\n| L1 | Service desk | První reakce |\n| L2 | Domain on-call | P3+, neznámá příčina |\n| L3 | Architekt / vendor | P1/P2, data loss risk |\n\n## Přílohy\n\n- Odkaz na dashboard v iManage\n- Checklist pro handover mezi směnami\n"
     }
   ]
 }

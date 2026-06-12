@@ -1,0 +1,15 @@
+{
+  "id": "kb-it-025",
+  "title": "Skill: Automated code review copilot",
+  "project_id": "org:anchor:it",
+  "content_path": "knowledge-content/knowledgebase/it/agents/automated-code-review-copilot/core/skill-001.md",
+  "knowledge_doc_id": "f8491d27-07a9-507d-8bb4-ac88c9f14d27",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Published",
+      "createdAt": "2025-06-01T12:00:00Z",
+      "content": "# Skill: Automated code review copilot\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: agent_skill | Citlivost: internal\n\n## Workflow odpovědi\n\n1. **Porozumění** — identifikuj záměr dotazu a dotčené KB sekce.\n2. **Vyhledání** — prohledej:\n- Prohledej `knowledgebase/it/compliance/core`\n- Prohledej `knowledgebase/it/operations/core`\n3. **Validace** — ověř proti GitLab pokud jde o stav systému/recordů.\n4. **Odpověď** — struktura: shrnutí → citace KB cesty → doporučený krok.\n5. **Eskalace** — pokud chybí podklad, otevři handoff na supervizora.\n\n## Použití nástrojů\n\n- **LLM gateway** — doplňkové akce dle oprávnění v chat-agent setup (execute_tool).\n- Integrační data nikdy nepřepisují schválený text politik v KB.\n\n## Formát citace\n\n```\n[KB: knowledgebase/it/<section>/<sub>/<soubor>.md | verze core]\n```\n\n## Guardrails (operativní)\n\n- Nikdy neobcházej security gate ani merge pravidla\n- Nezveřejňuj secrets ani tokeny z diffů\n\n## Příklady interakcí\n\n**Q:** Jaké jsou pravidla merge do main?\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n\n**Q:** Jak interpretovat Snyk finding critical?\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n\n\n## Kontrolní seznam kvality\n\n- [ ] Odpověď má alespoň jednu KB citaci\n- [ ] Guardrails dodrženy\n- [ ] Žádné vymyšlené metriky nebo termíny\n- [ ] Eskalace nabídnuta pokud data chybí\n"
+    }
+  ]
+}

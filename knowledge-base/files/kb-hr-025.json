@@ -1,0 +1,15 @@
+{
+  "id": "kb-hr-025",
+  "title": "Šablona interního přesunu",
+  "project_id": "org:anchor:hr",
+  "content_path": "knowledge-content/knowledgebase/hr/templates/drafts/template-010.md",
+  "knowledge_doc_id": "ffad1ca3-e693-5f28-8e73-1d42edb301c2",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Published",
+      "createdAt": "2025-06-01T12:00:00Z",
+      "content": "# Šablona interního přesunu\n\n> Organizace: **Meridian Pay a.s.** | Doména: **hr** | Typ: template | Citlivost: internal\n\n## Šablona\n\n**Šablona interního přesunu** — použijte pro standardizované dokumenty v Meridian Pay a.s..\n\n```\nDokument č.: [MP-HR-____]\nVerze: 1.0\nDatum účinnosti: [DD.MM.RRRR]\nStrany smluvních stran:\n  1. Meridian Pay a.s., IČO: [●●●●●●●●], sídlo Praha\n  2. [Název druhé strany], IČO: [________]\n\nPředmět:\n[Stručný popis předmětu smlouvy / procesu / formuláře]\n\nDoba trvání:\nOd [datum] do [datum / neurčito]\n\nPlatební podmínky:\n[Splatnost, měna CZK/EUR, způsob úhrady]\n\nOchrana dat:\nStrany se zavazují zpracovávat osobní údaje dle GDPR a interních politik Meridian Pay a.s..\n\nPodpisy:\n_______________________          _______________________\nza Meridian Pay a.s.                    za druhou stranu\n```\n\n## Pokyny k vyplnění\n\n- Povinná pole označená [hranatými závorkami]\n- Právní review povinné před podpisem u smluv nad 500 000 Kč\n- Archivace podepsané verze v `knowledgebase/hr/templates/archive/`\n"
+    }
+  ]
+}

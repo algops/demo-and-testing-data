@@ -1,0 +1,15 @@
+{
+  "id": "kb-it-010",
+  "title": "ADR-001: Mikroservisní architektura platební brány",
+  "project_id": "org:anchor:it",
+  "content_path": "knowledge-content/knowledgebase/it/engineering/core/adr-001.md",
+  "knowledge_doc_id": "7eec0910-d103-5889-9943-2ca90aa569e6",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Published",
+      "createdAt": "2025-06-01T12:00:00Z",
+      "content": "# ADR-001: Mikroservisní architektura platební brány\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: adr | Citlivost: internal\n\n## Status\n\nPřijato — platí pro Meridian Pay a.s., doména `it`.\n\n## Kontext\n\nMeridian Pay a.s. potřebuje škálovatelnou a auditovatelnou architekturu v oblasti popsané dokumentem **ADR-001: Mikroservisní architektura platební brány**. Tým zvažoval více alternativ s ohledem na regulaci, latenci a provozní náklady.\n\n## Rozhodnutí\n\nZvolený přístup kombinuje:\n\n- Event-driven integraci mezi core službami\n- Centrální observability a SLO monitoring\n- Oddělení čtení/zápisu pro reportingové workloady\n\n## Důsledky\n\n### Pozitivní\n\n- Lepší traceability pro audit a incident review\n- Snazší onboarding nových týmů díky jasné hranici služeb\n\n### Negativní\n\n- Vyšší počáteční investice do infrastruktury\n- Potřeba školení pro distributed tracing\n\n## Alternativy zvažované\n\n1. Monolitický modul — rychlejší start, horší škálování\n2. Čistě batch ETL — nižší náklady, nedostatečná latence pro platby\n\n## Dodržování\n\nArchitecture board review každých 12 měsíců. Změny vyžadují nové ADR.\n"
+    }
+  ]
+}

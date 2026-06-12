@@ -1,0 +1,15 @@
+{
+  "id": "kb-tax-004",
+  "title": "SOP: Měsíční DPH kontrola a podání",
+  "project_id": "org:anchor:tax",
+  "content_path": "knowledge-content/knowledgebase/tax/operations/core/sop-002.md",
+  "knowledge_doc_id": "52948688-12e6-57e7-a490-f855c9d3fed7",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Published",
+      "createdAt": "2025-06-01T12:00:00Z",
+      "content": "# SOP: Měsíční DPH kontrola a podání\n\n> Organizace: **Meridian Pay a.s.** | Doména: **tax** | Typ: sop | Citlivost: internal\n\n## Standardní operační postup\n\n**SOP: Měsíční DPH kontrola a podání** — závazný postup pro zaměstnance Meridian Pay a.s. v doméně `tax`.\n\n## Rozsah\n\nPlatí pro všechny týmy podílející se na procesu. Výjimky pouze po schválení domain ownerem.\n\n## Kroky\n\n1. **Příprava** — ověřte oprávnění, šablony a aktuální verzi dokumentace v KB.\n2. **Provedení** — postupujte podle checklistu; každý krok zaznamenejte v ticketu.\n3. **Kontrola kvality** — nezávislý reviewer u transakcí nad prahem 100 000 Kč (nebo dle domény).\n4. **Archivace** — uložte výstupy do `knowledgebase/tax/operations/archive/`.\n\n## Checklist\n\n- [ ] Vstupní data validována\n- [ ] Schválení druhým členem týmu (four-eyes)\n- [ ] Výstup uložen v autoritativním systému\n- [ ] Notifikace stakeholderům odeslána\n\n## Metriky\n\n- SLA zpracování dle typu požadavku\n- Počet vrácení k doplnění ≤ 5 % měsíčně\n\n## Revize\n\nRevize SOP minimálně každých 6 měsíců nebo po změně regulace.\n"
+    }
+  ]
+}

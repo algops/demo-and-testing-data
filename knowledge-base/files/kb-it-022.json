@@ -1,12 +1,15 @@
 {
   "id": "kb-it-022",
-  "title": "Politika přístupu k produkčním systémům",
+  "title": "Role: Incident/runbook assistant",
+  "project_id": "org:anchor:it",
+  "content_path": "knowledge-content/knowledgebase/it/agents/incident-runbook-assistant/core/role-001.md",
+  "knowledge_doc_id": "f1a89c3b-8ad3-518b-aa7c-0e5c00282032",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# Politika přístupu k produkčním systémům\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: policy | Citlivost: internal\n\n## Účel a rozsah\n\nTato politika stanovuje závazná pravidla pro oblast **politika přístupu k produkčním systémům** v rámci Meridian Pay a.s.. Platí pro všechny zaměstnance, dodavatele s přístupem k interním systémům a vedení společnosti.\n\n## Odpovědnosti\n\n| Role | Odpovědnost |\n|------|-------------|\n| Vedení společnosti | Schválení politiky, alokace zdrojů |\n| Domain owner (it) | Aktualizace, compliance monitoring |\n| Line managers | Zajištění dodržování v týmech |\n| Interní audit | Nezávislá kontrola každých 12 měsíců |\n\n## Klíčová ustanovení\n\n1. Všechny procesy v doméně it musí být dokumentovány a verzovány v znalostní bázi pod `knowledgebase/it/`.\n2. Data z integrace **GitLab** jsou považována za autoritativní zdroj pro operativní rozhodování.\n3. Odchylky od politiky vyžadují písemnou výjimku schválenou domain ownerem a záznam v registru rizik.\n4. Porušení politiky může vést k disciplinárnímu řízení dle interních předpisů Meridian Pay a.s..\n\n## Životní cyklus dokumentu\n\n- **Návrh:** domain owner + právní/compliance (dle domény)\n- **Review:** minimálně jednou ročně nebo při změně regulace\n- **Schválení:** člen představenstva pro politiku úrovně 1\n- **Distribuce:** publikace v KB, notifikace přes Slack #compliance\n\n## Související dokumenty\n\n- Runbooky a SOP v `knowledgebase/it/operations/`\n- Integrační dokumentace k systému GitLab\n- Registr rizik Meridian Pay a.s. (interní)\n\n## Revize\n\n| Verze | Datum | Autor | Změna |\n|-------|-------|-------|-------|\n| 1.0 | 2025-03-01 | Domain owner it | První vydání |\n"
+      "content": "# Role: Incident/runbook assistant\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: agent_role | Citlivost: internal\n\n## Odpovědnosti\n\n| Oblast | Popis |\n|--------|-------|\n| Primární use-case | Asistence při incidentech a runboocích |\n| Publikum | on-call inženýři L1–L3 |\n| Doména | `it` @ Meridian Pay a.s. |\n| Zdroj dat | GitLab + schválená KB |\n\n## Matice oprávnění\n\n| Smí | Nesmí |\n|-----|-------|\n| Vysvětlovat schválené SOP, politiky a runbooky z KB | Vydávat závazná právní/daňová stanoviska |\n| Navrhovat další kroky dle dokumentovaných postupů | Měnit produkční systémy nebo data |\n| Citovat cesty v `knowledgebase/it/` | Šířit osobní údaje mimo účel dotazu |\n| Eskalovat na supervizora `#agents-it` | Obcházet guardrails definované v system promptu |\n\n## Handoff pravidla\n\n- **Supervisor:** Slack `#agents-it` — steering, schválení výjimek\n- **Domain owner:** `#domain-it` — chyby v dokumentaci (ticket `KB-FIX`)\n- **Lidský expert:** při nejistotě nebo vysokém dopadu na zákazníka/regulátora\n\n## Compliance\n\nAgent je řízen dokumenty v `knowledgebase/it/agents/` a musí být v souladu s platnými politikami v `compliance/core/`.\nRevize role: minimálně při změně use-case nebo guardrails.\n"
     }
   ]
 }

@@ -1,0 +1,77 @@
+{
+  "id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
+  "name": "Benefits eligibility guide",
+  "description": "Nárok na benefity",
+  "status": "draft",
+  "domain_id": "hr",
+  "project_id": "org:anchor:hr",
+  "org_id": "org:anchor",
+  "setup": {
+    "accessibility": {
+      "primary": {
+        "type": "web_widget",
+        "enabled": true,
+        "bidirectional": true,
+        "label": "Web widget"
+      },
+      "supervisor": {
+        "type": "slack",
+        "enabled": false,
+        "bidirectional": true,
+        "canSteer": true,
+        "label": "#agents-hr"
+      }
+    },
+    "knowledge_base_access": {
+      "grants": [
+        {
+          "treePath": "/knowledgebase/hr/agents/benefits-eligibility-guide",
+          "scope": "folder",
+          "includeDescendants": true
+        },
+        {
+          "treePath": "/knowledgebase/hr/operations/core",
+          "scope": "folder",
+          "includeDescendants": true
+        },
+        {
+          "treePath": "/knowledgebase/hr/compliance/core",
+          "scope": "folder",
+          "includeDescendants": true
+        }
+      ],
+      "skillsPath": "/knowledgebase/hr/agents/benefits-eligibility-guide",
+      "skillFilePaths": []
+    },
+    "data_warehouse_access": {
+      "objectTypeIds": [
+        "ece632b2-e12c-5fd8-a032-a1081e564eab"
+      ]
+    },
+    "realtime_data_access": {
+      "grants": [
+        {
+          "sourceId": "a38440d7-ad50-50d5-8b35-e44b5d6aa0d6",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        },
+        {
+          "sourceId": "6217ffa5-671c-50dd-9ff3-0116f2f7f805",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        }
+      ]
+    },
+    "actions_access": {
+      "grants": [
+        {
+          "sourceId": "bfc98ec0-621e-5f70-8e88-3505eb3f26f3",
+          "actionKey": "execute_tool",
+          "label": "Tool action",
+          "description": "Execute via bfc98ec0-621e-5f70-8e88-3505eb3f26f3",
+          "permission": "execute"
+        }
+      ]
+    }
+  }
+}

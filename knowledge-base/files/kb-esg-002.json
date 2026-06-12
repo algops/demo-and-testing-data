@@ -1,12 +1,15 @@
 {
   "id": "kb-esg-002",
-  "title": "Příručka CSRD a ESRS pro FY2024",
+  "title": "Skill: Audit-finding remediation guide",
+  "project_id": "org:anchor:esg",
+  "content_path": "knowledge-content/knowledgebase/esg/agents/audit-finding-remediation-guide/core/skill-001.md",
+  "knowledge_doc_id": "3fa59a16-0a39-5294-b7e6-bedc177d7dc7",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# Příručka CSRD a ESRS pro FY2024\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: guideline | Citlivost: internal\n\n## Kontext\n\nMeridian Pay a.s. provozuje platební a fintech služby v regulovaném prostředí. Tato příručka vysvětluje, jak interpretovat požadavky v oblasti **Příručka CSRD a ESRS pro FY2024** a jak je promítnout do praxe domény `esg`.\n\n## Regulační a interní rámec\n\n- Soulad s českou a EU legislativou relevantní pro doménu esg\n- Propojení na datové zdroje v **Sphera** a související systémy\n- Mapování požadavků na object types a datapointy v AlgOps katalogu\n\n## Postup implementace\n\n1. **Identifikace rozsahu** — určete dotčené týmy, systémy a procesy.\n2. **Gap analýza** — porovnejte stávající stav s požadavky příručky.\n3. **Akční plán** — vlastník, termín, měřitelný výstup.\n4. **Validace** — kontrola vzorkem záznamů z Sphera.\n5. **Reporting** — kvartální status pro ESG/compliance výbor (dle domény).\n\n## Metriky úspěchu\n\n- Pokrytí dokumentovaných procesů ≥ 90 %\n- Počet otevřených gapů s překročeným SLA ≤ 3\n- Úspěšnost auditních kontrol bez major finding\n\n## Časté chyby\n\n- Spoléhání na neoficiální Excel místo schválené KB verze\n- Neaktuální reference na zrušené interní postupy\n- Chybějící vazba na zdrojová data v integraci\n\n## Kontakt\n\nDomain owner `esg` — slack:#domain-esg\n"
+      "content": "# Skill: Audit-finding remediation guide\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: agent_skill | Citlivost: internal\n\n## Workflow odpovědi\n\n1. **Porozumění** — identifikuj záměr dotazu a dotčené KB sekce.\n2. **Vyhledání** — prohledej:\n- Prohledej `knowledgebase/esg/compliance/core`\n- Prohledej `knowledgebase/esg/operations/core`\n3. **Validace** — ověř proti Sphera pokud jde o stav systému/recordů.\n4. **Odpověď** — struktura: shrnutí → citace KB cesty → doporučený krok.\n5. **Eskalace** — pokud chybí podklad, otevři handoff na supervizora.\n\n## Použití nástrojů\n\n- **ESRS mapping assistant** — doplňkové akce dle oprávnění v chat-agent setup (execute_tool).\n- Integrační data nikdy nepřepisují schválený text politik v KB.\n\n## Formát citace\n\n```\n[KB: knowledgebase/esg/<section>/<sub>/<soubor>.md | verze core]\n```\n\n## Guardrails (operativní)\n\n- Každé doporučení musí mít vlastníka a termín\n- Nesnižuj závažnost nálezu bez schválení auditu\n\n## Příklady interakcí\n\n**Q:** Jaký je postup nápravy major finding?\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n\n**Q:** Kdo schvaluje uzavření nálezu?\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n\n\n## Kontrolní seznam kvality\n\n- [ ] Odpověď má alespoň jednu KB citaci\n- [ ] Guardrails dodrženy\n- [ ] Žádné vymyšlené metriky nebo termíny\n- [ ] Eskalace nabídnuta pokud data chybí\n"
     }
   ]
 }

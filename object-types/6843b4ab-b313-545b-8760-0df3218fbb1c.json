@@ -4,6 +4,7 @@
   "description": "Object type leave_type",
   "org_id": "org:anchor",
   "domain_id": "hr",
+  "project_id": "org:anchor:hr",
   "created_at": "2025-06-01T12:00:00Z",
   "updated_at": "2025-06-01T12:00:00Z",
   "deleted_at": null,
