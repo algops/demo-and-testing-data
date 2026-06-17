@@ -1,0 +1,75 @@
+{
+  "id": "25494b7b-145d-5a7d-bfda-8a337fa5a6ae",
+  "name": "Audit-finding remediation guide",
+  "description": "Náprava auditních nálezů",
+  "status": "draft",
+  "setup": {
+    "accessibility": {
+      "primary": {
+        "type": "web_widget",
+        "enabled": true,
+        "bidirectional": true,
+        "label": "Web widget"
+      },
+      "supervisor": {
+        "type": "slack",
+        "enabled": false,
+        "bidirectional": true,
+        "canSteer": true,
+        "label": "#agents-esg"
+      }
+    },
+    "knowledge_base_access": {
+      "grants": [
+        {
+          "treePath": "/knowledgebase/esg/agents/audit-finding-remediation-guide",
+          "scope": "folder",
+          "includeDescendants": true
+        },
+        {
+          "treePath": "/knowledgebase/esg/compliance/core",
+          "scope": "folder",
+          "includeDescendants": true
+        },
+        {
+          "treePath": "/knowledgebase/esg/operations/core",
+          "scope": "folder",
+          "includeDescendants": true
+        }
+      ],
+      "skillsPath": "/knowledgebase/esg/agents/audit-finding-remediation-guide",
+      "skillFilePaths": []
+    },
+    "data_warehouse_access": {
+      "objectTypeIds": [
+        "b5d0dc83-8966-56f2-8774-f1674242e518",
+        "6588f65a-32f2-56b3-87d0-2217a6733a79"
+      ]
+    },
+    "realtime_data_access": {
+      "grants": [
+        {
+          "sourceId": "78d78ec7-eb76-5a4a-915b-9b58ab9e7d96",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        },
+        {
+          "sourceId": "97e2b8ec-72e9-50d9-86c1-bde2b6f2ac93",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        }
+      ]
+    },
+    "actions_access": {
+      "grants": [
+        {
+          "sourceId": "c93bf594-f370-52cb-83ee-adde91d3fc60",
+          "actionKey": "execute_tool",
+          "label": "Tool action",
+          "description": "Execute via c93bf594-f370-52cb-83ee-adde91d3fc60",
+          "permission": "execute"
+        }
+      ]
+    }
+  }
+}

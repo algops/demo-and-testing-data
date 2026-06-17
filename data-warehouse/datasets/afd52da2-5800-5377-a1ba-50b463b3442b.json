@@ -1,0 +1,147 @@
+{
+  "data": [
+    {
+      "feature_flag": "ff_multi_currency",
+      "id": "d14d8dc5-175d-56bf-a660-020cac98a948",
+      "domain_id": "it",
+      "data": {
+        "name": "ff_multi_currency",
+        "created_date": "2023-01-13",
+        "description": "ff_multi_currency is part of the Meridian Pay engineering platform (feature_flag).",
+        "owner": "People",
+        "service": "payments-api",
+        "stale": true,
+        "status": "archived"
+      }
+    },
+    {
+      "feature_flag": "ff_new_onboarding_flow",
+      "id": "b897a8b8-b864-54b1-8f50-8a7945523570",
+      "domain_id": "it",
+      "data": {
+        "name": "ff_new_onboarding_flow",
+        "created_date": "2024-07-31",
+        "description": "ff_new_onboarding_flow is part of the Meridian Pay engineering platform (feature_flag).",
+        "owner": "Engineering",
+        "service": "invoicing-service",
+        "stale": true,
+        "status": "draft"
+      }
+    },
+    {
+      "feature_flag": "ff_graphql_analytics",
+      "id": "867bcf0b-ef20-5441-9698-38d2303f83a8",
+      "domain_id": "it",
+      "data": {
+        "name": "ff_graphql_analytics",
+        "created_date": "2023-06-28",
+        "description": "ff_graphql_analytics is part of the Meridian Pay engineering platform (feature_flag).",
+        "owner": "Legal",
+        "service": "marketplace-listing",
+        "stale": false,
+        "status": "under_review",
+        "rel:CONTROLS:rollout_pct": 72
+      }
+    },
+    {
+      "feature_flag": "ff_multi_currency v2",
+      "id": "bac561e4-269c-5315-8393-e0b4a8a40ce9",
+      "domain_id": "it",
+      "data": {
+        "name": "ff_multi_currency v2",
+        "created_date": "2024-04-15",
+        "description": "ff_multi_currency v2 is part of the Meridian Pay engineering platform (feature_flag).",
+        "owner": "ESG",
+        "service": "orders-service",
+        "stale": false,
+        "status": "archived"
+      }
+    },
+    {
+      "feature_flag": "ff_new_onboarding_flow — updated",
+      "id": "69b02468-74be-56fa-85c3-7fd0abb01c69",
+      "domain_id": "it",
+      "data": {
+        "name": "ff_new_onboarding_flow — updated",
+        "created_date": "2023-09-01",
+        "description": "ff_new_onboarding_flow — updated is part of the Meridian Pay engineering platform (feature_flag).",
+        "owner": "Engineering",
+        "service": "auth-gateway",
+        "stale": false,
+        "status": "under_review"
+      }
+    },
+    {
+      "feature_flag": "ff_graphql_analytics #6",
+      "id": "0fbf4fb7-3c32-51a7-a034-2b2ba3e50d9a",
+      "domain_id": "it",
+      "data": {
+        "name": "ff_graphql_analytics #6",
+        "created_date": "2024-06-12",
+        "description": "ff_graphql_analytics #6 is part of the Meridian Pay engineering platform (feature_flag).",
+        "owner": "Engineering",
+        "service": "notification-hub",
+        "stale": false,
+        "status": "active",
+        "rel:CONTROLS:rollout_pct": 32
+      }
+    },
+    {
+      "feature_flag": "ff_multi_currency",
+      "id": "5f816ea3-168b-56e1-b4cd-c185cff634d9",
+      "domain_id": "it",
+      "data": {
+        "name": "ff_multi_currency",
+        "created_date": "2023-12-30",
+        "description": "ff_multi_currency is part of the Meridian Pay engineering platform (feature_flag).",
+        "owner": "Engineering",
+        "service": "payments-api",
+        "stale": true,
+        "status": "archived"
+      }
+    },
+    {
+      "feature_flag": "ff_new_onboarding_flow",
+      "id": "abfc695e-2d72-528b-b392-61a506a0bdc6",
+      "domain_id": "it",
+      "data": {
+        "name": "ff_new_onboarding_flow",
+        "created_date": "2024-11-27",
+        "description": "ff_new_onboarding_flow is part of the Meridian Pay engineering platform (feature_flag).",
+        "owner": "Engineering",
+        "service": "invoicing-service",
+        "stale": true,
+        "status": "draft",
+        "rel:CONTROLS:rollout_pct": 50
+      }
+    },
+    {
+      "feature_flag": "ff_multi_currency (FY2024)",
+      "id": "ef618b06-a512-52b2-9b46-c5af496ac568",
+      "domain_id": "it",
+      "data": {
+        "name": "ff_multi_currency (FY2024)",
+        "created_date": "2023-09-22",
+        "description": "ff_multi_currency (FY2024) is part of the Meridian Pay engineering platform (feature_flag).",
+        "owner": "Finance",
+        "service": "marketplace-listing",
+        "stale": true,
+        "status": "archived"
+      }
+    },
+    {
+      "feature_flag": "ff_new_onboarding_flow v2",
+      "id": "e081b4f4-b79f-5a8c-80b3-ebc8c2ea8b41",
+      "domain_id": "it",
+      "data": {
+        "name": "ff_new_onboarding_flow v2",
+        "created_date": "2024-10-13",
+        "description": "ff_new_onboarding_flow v2 is part of the Meridian Pay engineering platform (feature_flag).",
+        "owner": "People",
+        "service": "orders-service",
+        "stale": false,
+        "status": "draft"
+      }
+    }
+  ]
+}

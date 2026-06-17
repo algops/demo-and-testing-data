@@ -1,0 +1,1679 @@
+{
+  "data": [
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "afcac383-283b-55d7-8fab-e58f42e6a5f7",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "operational",
+        "matter_id": "CON-0001",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2023-06-24",
+        "status": "active",
+        "value_czk": 3905734,
+        "governing_law": "Slovak law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "cs",
+        "rel:GOVERNED_BY:specific_sections": "medium"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas",
+      "id": "6d594c8d-ab9e-5776-ac5d-1a4bb384edcc",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas",
+        "type": "operational",
+        "matter_id": "CON-0002",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2024-06-02",
+        "status": "under_review",
+        "value_czk": 945635,
+        "governing_law": "Slovak law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance",
+      "id": "8d9f23ef-24e3-5107-97ab-67e1e96b8f94",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance",
+        "type": "technical",
+        "matter_id": "CON-0003",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-01-19",
+        "status": "draft",
+        "value_czk": 262773,
+        "governing_law": "EU law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "014abec0-b557-5d5e-a80a-67e838fbc22f",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "operational",
+        "matter_id": "CON-0004",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2024-09-30",
+        "status": "under_review",
+        "value_czk": 187726,
+        "governing_law": "Czech law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "171a4a5d-d0ac-558c-af60-4cb7b6cbbd8d",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "governance",
+        "matter_id": "CON-0005",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2023-03-02",
+        "status": "draft",
+        "value_czk": 4438245,
+        "governing_law": "German law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "cs/en",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "medium",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "medium"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #6",
+      "id": "b5476a76-7a04-53d3-9358-d7414ace2d19",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #6",
+        "type": "financial",
+        "matter_id": "CON-0006",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2024-03-13",
+        "status": "under_review",
+        "value_czk": 209912,
+        "governing_law": "German law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "5e7bcadc-278e-5f03-a9a9-da32cc200473",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "financial",
+        "matter_id": "CON-0007",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-11-20",
+        "status": "active",
+        "value_czk": 2628132,
+        "governing_law": "Czech law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "f9952f96-9cc7-54b7-b99a-45d2c1bab1ff",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "financial",
+        "matter_id": "CON-0008",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2024-02-28",
+        "status": "under_review",
+        "value_czk": 1900296,
+        "governing_law": "Czech law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "b387e5e2-3a41-5b0e-aa13-60a52a95219d",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "governance",
+        "matter_id": "CON-0009",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2023-03-03",
+        "status": "expired",
+        "value_czk": 4629213,
+        "governing_law": "EU law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "7b711fad-0052-56c0-8fdf-5e833103eba2",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "operational",
+        "matter_id": "CON-0010",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2024-02-02",
+        "status": "active",
+        "value_czk": 2347584,
+        "governing_law": "EU law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "875a3d20-4eab-516e-9502-24fe6520d434",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "governance",
+        "matter_id": "CON-0011",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2023-05-05",
+        "status": "expired",
+        "value_czk": 391407,
+        "governing_law": "EU law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #12",
+      "id": "00eb39a8-8126-5d18-ab18-531adf0b848b",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #12",
+        "type": "technical",
+        "matter_id": "CON-0012",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2024-09-06",
+        "status": "active",
+        "value_czk": 103264,
+        "governing_law": "Czech law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs",
+        "rel:BELONGS_TO_MATTER:document_role": "medium"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "385896d3-c7e1-5cc5-8de5-e3d10ebf4a54",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "governance",
+        "matter_id": "CON-0013",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2023-12-21",
+        "status": "draft",
+        "value_czk": 1779397,
+        "governing_law": "EU law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "00449535-fb04-5af1-a8a8-3df324c90ec3",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "technical",
+        "matter_id": "CON-0014",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2024-03-30",
+        "status": "expired",
+        "value_czk": 365589,
+        "governing_law": "EU law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "41d96535-85ab-599c-af38-2019a0c19316",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "operational",
+        "matter_id": "CON-0015",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2023-08-03",
+        "status": "active",
+        "value_czk": 4728413,
+        "governing_law": "EU law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs",
+        "rel:BELONGS_TO_MATTER:document_role": "medium"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "41abc041-5a43-50c6-a8f0-3bea2af7a9de",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "operational",
+        "matter_id": "CON-0016",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-09-16",
+        "status": "draft",
+        "value_czk": 3944126,
+        "governing_law": "EU law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs",
+        "rel:BELONGS_TO_MATTER:document_role": "medium"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "b324e64c-9b3a-5159-bf82-b1fcdcc39ce4",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "financial",
+        "matter_id": "CON-0017",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-12-17",
+        "status": "under_review",
+        "value_czk": 4223456,
+        "governing_law": "EU law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "cs/en",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "high",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "medium",
+        "rel:BELONGS_TO_MATTER:document_role": "low"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #18",
+      "id": "424df053-251d-5515-a313-46a00425dabd",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #18",
+        "type": "operational",
+        "matter_id": "CON-0018",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2024-05-25",
+        "status": "draft",
+        "value_czk": 3696290,
+        "governing_law": "Slovak law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "94bbd254-aec9-5c46-a9f2-db4ae31d37e0",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "technical",
+        "matter_id": "CON-0019",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2023-01-27",
+        "status": "expired",
+        "value_czk": 1525452,
+        "governing_law": "EU law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "en",
+        "rel:GOVERNED_BY:specific_sections": "high",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "medium",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "medium"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "c40b937b-97df-59d8-a2f4-53e4cee71e41",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "operational",
+        "matter_id": "CON-0020",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2024-08-15",
+        "status": "expired",
+        "value_czk": 4913394,
+        "governing_law": "Slovak law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "cs",
+        "rel:GOVERNED_BY:specific_sections": "medium"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "f6c9952c-320c-54d6-98fb-787aa09f0085",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "governance",
+        "matter_id": "CON-0021",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2023-06-16",
+        "status": "draft",
+        "value_czk": 872621,
+        "governing_law": "EU law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "low",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "high"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "bac92acb-6180-5057-8cc4-427388b2787d",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "technical",
+        "matter_id": "CON-0022",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2024-08-29",
+        "status": "expired",
+        "value_czk": 4113506,
+        "governing_law": "Czech law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs",
+        "rel:GOVERNED_BY:specific_sections": "low"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "ac16d62e-7e96-595a-98af-a788420235f9",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "financial",
+        "matter_id": "CON-0023",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-07-18",
+        "status": "archived",
+        "value_czk": 1194244,
+        "governing_law": "German law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #24",
+      "id": "ac55dad5-e027-5c9b-8625-f7fa458e80e3",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #24",
+        "type": "governance",
+        "matter_id": "CON-0024",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2024-06-20",
+        "status": "draft",
+        "value_czk": 319228,
+        "governing_law": "Czech law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "0a946d07-8e21-5a8b-8f6e-82179ed793d6",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "operational",
+        "matter_id": "CON-0025",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2023-08-03",
+        "status": "draft",
+        "value_czk": 2932124,
+        "governing_law": "EU law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "7541d4e8-0564-5b82-8d6d-749255850eeb",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "financial",
+        "matter_id": "CON-0026",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-10-10",
+        "status": "draft",
+        "value_czk": 775399,
+        "governing_law": "German law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "cs",
+        "rel:GOVERNED_BY:specific_sections": "medium",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "medium",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "low"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "4fced1a7-f521-5a52-9a76-d2a34524921e",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "technical",
+        "matter_id": "CON-0027",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2023-01-08",
+        "status": "under_review",
+        "value_czk": 2119085,
+        "governing_law": "EU law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "6d780780-339d-5436-b521-994b35c06667",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "financial",
+        "matter_id": "CON-0028",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-01-03",
+        "status": "under_review",
+        "value_czk": 420979,
+        "governing_law": "Czech law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs/en",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "high",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "high"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "6afbf1af-dba4-5bfb-acfe-bf6380a98716",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "operational",
+        "matter_id": "CON-0029",
+        "client": "Internal — Group Treasury",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2023-07-21",
+        "status": "under_review",
+        "value_czk": 872076,
+        "governing_law": "German law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #30",
+      "id": "9eec8e6a-06f1-5dd6-8f22-47d104b648d4",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #30",
+        "type": "operational",
+        "matter_id": "CON-0030",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2024-04-21",
+        "status": "draft",
+        "value_czk": 3056524,
+        "governing_law": "Slovak law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "428da659-8fdb-5930-b531-006cbee0cd44",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "operational",
+        "matter_id": "CON-0031",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2023-12-09",
+        "status": "archived",
+        "value_czk": 1407300,
+        "governing_law": "German law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "b589e4ac-097b-5723-af95-79e5c842e3a2",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "technical",
+        "matter_id": "CON-0032",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2024-04-04",
+        "status": "archived",
+        "value_czk": 3944795,
+        "governing_law": "Czech law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "en",
+        "rel:GOVERNED_BY:specific_sections": "high"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "e14ff9f9-132f-596b-a17b-ca7efdb91102",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "governance",
+        "matter_id": "CON-0033",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2023-08-07",
+        "status": "archived",
+        "value_czk": 4600275,
+        "governing_law": "EU law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "35aadfc3-9745-5e32-b7cb-0d374799db29",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "governance",
+        "matter_id": "CON-0034",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-12-11",
+        "status": "archived",
+        "value_czk": 482538,
+        "governing_law": "Czech law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "en",
+        "rel:BELONGS_TO_MATTER:document_role": "medium"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "084c6e5b-0a50-5ede-bc37-131ddaf009ce",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "technical",
+        "matter_id": "CON-0035",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2023-07-07",
+        "status": "draft",
+        "value_czk": 4737474,
+        "governing_law": "Czech law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #36",
+      "id": "4c5445ea-5d33-50b6-9354-6fd975e97a4f",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #36",
+        "type": "governance",
+        "matter_id": "CON-0036",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-02-28",
+        "status": "under_review",
+        "value_czk": 4916394,
+        "governing_law": "EU law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "en",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "high",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "high"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "075814c0-ca40-525b-8263-b329cb33de58",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "governance",
+        "matter_id": "CON-0037",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2023-12-15",
+        "status": "under_review",
+        "value_czk": 2374863,
+        "governing_law": "Czech law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "029bc9e3-2fa2-52a1-824c-1691ab90a07f",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "governance",
+        "matter_id": "CON-0038",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2024-09-13",
+        "status": "expired",
+        "value_czk": 1079361,
+        "governing_law": "German law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "en",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "medium",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "high"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "4e3cb084-04ab-50a0-a8c7-0ad74e253cd0",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "governance",
+        "matter_id": "CON-0039",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-08-23",
+        "status": "active",
+        "value_czk": 722518,
+        "governing_law": "German law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "en",
+        "rel:BELONGS_TO_MATTER:document_role": "high"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "73da57a8-ed6a-5293-9dcf-77930d098e6a",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "operational",
+        "matter_id": "CON-0040",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2024-05-21",
+        "status": "active",
+        "value_czk": 1291128,
+        "governing_law": "German law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "medium",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "high"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "ed3eb196-e25a-550f-84c1-2969e7a4d642",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "operational",
+        "matter_id": "CON-0041",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2023-12-16",
+        "status": "expired",
+        "value_czk": 1157525,
+        "governing_law": "German law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "en",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "medium",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "low"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #42",
+      "id": "0ed10ce9-ff07-5cac-83a4-0bd2b6e1f8be",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #42",
+        "type": "technical",
+        "matter_id": "CON-0042",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2024-04-06",
+        "status": "active",
+        "value_czk": 234856,
+        "governing_law": "EU law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "en",
+        "rel:BELONGS_TO_MATTER:document_role": "medium"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "a463d764-8e2e-59bc-8b2d-383009beea94",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "governance",
+        "matter_id": "CON-0043",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2023-10-31",
+        "status": "expired",
+        "value_czk": 4650889,
+        "governing_law": "German law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "en",
+        "rel:GOVERNED_BY:specific_sections": "low"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "948054b0-7f5a-551a-a2e7-54c087a2cb7d",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "financial",
+        "matter_id": "CON-0044",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2024-05-13",
+        "status": "draft",
+        "value_czk": 4112125,
+        "governing_law": "Slovak law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "cs",
+        "rel:GOVERNED_BY:specific_sections": "medium",
+        "rel:BELONGS_TO_MATTER:document_role": "high"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "61edabb1-7d67-5505-a2ea-325a23868096",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "financial",
+        "matter_id": "CON-0045",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2023-08-22",
+        "status": "draft",
+        "value_czk": 1398803,
+        "governing_law": "Slovak law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "high",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "medium"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "c7df333c-b885-5aeb-8280-04a28f46b3ef",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "financial",
+        "matter_id": "CON-0046",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2024-02-29",
+        "status": "active",
+        "value_czk": 2706050,
+        "governing_law": "EU law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "ed79f319-60bf-5bfc-8f1a-e34d73db91f2",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "governance",
+        "matter_id": "CON-0047",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-10-15",
+        "status": "active",
+        "value_czk": 2708716,
+        "governing_law": "Slovak law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "en",
+        "rel:GOVERNED_BY:specific_sections": "medium"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #48",
+      "id": "4f09dcaa-6807-50a4-a04f-231f5f31d7de",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #48",
+        "type": "technical",
+        "matter_id": "CON-0048",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-06-03",
+        "status": "active",
+        "value_czk": 259087,
+        "governing_law": "German law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs",
+        "rel:GOVERNED_BY:specific_sections": "medium"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "4d641bf0-f5db-5260-8fcd-b724df24e059",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "technical",
+        "matter_id": "CON-0049",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-01-03",
+        "status": "expired",
+        "value_czk": 4306455,
+        "governing_law": "Slovak law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "en",
+        "rel:BELONGS_TO_MATTER:document_role": "low"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "58cf705f-bbea-53a1-961d-33c46ff1a043",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "governance",
+        "matter_id": "CON-0050",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-08-14",
+        "status": "archived",
+        "value_czk": 992171,
+        "governing_law": "German law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "3674f4da-f1d8-5227-aed9-2362bc07fd29",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "operational",
+        "matter_id": "CON-0051",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2023-07-25",
+        "status": "expired",
+        "value_czk": 1898553,
+        "governing_law": "German law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "low",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "high"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "0ee4d7b7-662a-5c67-81b7-fbf06aba56a7",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "governance",
+        "matter_id": "CON-0052",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-11-24",
+        "status": "draft",
+        "value_czk": 4944177,
+        "governing_law": "EU law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "a721137a-2396-543b-978e-a0cebd729d8c",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "operational",
+        "matter_id": "CON-0053",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2023-08-17",
+        "status": "active",
+        "value_czk": 4343184,
+        "governing_law": "German law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #54",
+      "id": "b3807953-4d41-580d-941d-a15d48036ee6",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #54",
+        "type": "governance",
+        "matter_id": "CON-0054",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2024-07-22",
+        "status": "draft",
+        "value_czk": 3637308,
+        "governing_law": "Slovak law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "en",
+        "rel:GOVERNED_BY:specific_sections": "low"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "fddd8ae9-99a0-58fe-8692-410ead8598a9",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "operational",
+        "matter_id": "CON-0055",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2023-06-29",
+        "status": "archived",
+        "value_czk": 3787762,
+        "governing_law": "Czech law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "cs/en",
+        "rel:GOVERNED_BY:specific_sections": "medium",
+        "rel:BELONGS_TO_MATTER:document_role": "low"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "98635324-e889-5367-8c26-078b1c831865",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "technical",
+        "matter_id": "CON-0056",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2024-05-27",
+        "status": "draft",
+        "value_czk": 3605362,
+        "governing_law": "German law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "894be40f-386e-5801-8321-b35f146c7748",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "operational",
+        "matter_id": "CON-0057",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-06-05",
+        "status": "under_review",
+        "value_czk": 4456544,
+        "governing_law": "Slovak law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "edebc4ff-887b-5ed7-8de0-67a04e5f47f6",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "technical",
+        "matter_id": "CON-0058",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2024-07-28",
+        "status": "archived",
+        "value_czk": 3527195,
+        "governing_law": "EU law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "eee1854d-f024-529f-b06a-f66536fc33b4",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "financial",
+        "matter_id": "CON-0059",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-07-15",
+        "status": "archived",
+        "value_czk": 4696172,
+        "governing_law": "German law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "en",
+        "rel:GOVERNED_BY:specific_sections": "high",
+        "rel:BELONGS_TO_MATTER:document_role": "low"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #60",
+      "id": "82e5bd70-06ec-5367-8049-aec3ee9ed620",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #60",
+        "type": "governance",
+        "matter_id": "CON-0060",
+        "client": "Internal — Group Treasury",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-08-25",
+        "status": "draft",
+        "value_czk": 275150,
+        "governing_law": "Czech law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "4825eb65-e85d-522f-8b74-7a6100ffed46",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "governance",
+        "matter_id": "CON-0061",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2023-12-01",
+        "status": "archived",
+        "value_czk": 3549364,
+        "governing_law": "EU law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "fb7d2ff2-9e7b-5531-b2a7-021210a249c3",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "financial",
+        "matter_id": "CON-0062",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2024-05-21",
+        "status": "under_review",
+        "value_czk": 609728,
+        "governing_law": "Slovak law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "c12a25c3-fdf3-5d92-9c5d-50e153cf9a8f",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "technical",
+        "matter_id": "CON-0063",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2023-12-22",
+        "status": "active",
+        "value_czk": 3180647,
+        "governing_law": "Czech law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "6e34fd65-9a2c-5c2d-b3e7-fb808ec1c0ce",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "operational",
+        "matter_id": "CON-0064",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2024-08-24",
+        "status": "draft",
+        "value_czk": 3047966,
+        "governing_law": "EU law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "ead303f8-0393-5fdb-948d-d79f245ccf6b",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "governance",
+        "matter_id": "CON-0065",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2023-01-25",
+        "status": "archived",
+        "value_czk": 2496655,
+        "governing_law": "Czech law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #66",
+      "id": "69a43304-130b-5844-a6f0-2761bcb082ed",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #66",
+        "type": "financial",
+        "matter_id": "CON-0066",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-03-26",
+        "status": "expired",
+        "value_czk": 2756222,
+        "governing_law": "Slovak law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "5b9452a4-c673-5f23-944d-a878d3ed86bd",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "governance",
+        "matter_id": "CON-0067",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2023-10-24",
+        "status": "archived",
+        "value_czk": 1255589,
+        "governing_law": "Czech law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "cs/en",
+        "rel:GOVERNED_BY:specific_sections": "low"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "eeb3d356-e445-50af-aa14-5b17370c80be",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "governance",
+        "matter_id": "CON-0068",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2024-07-29",
+        "status": "archived",
+        "value_czk": 1417587,
+        "governing_law": "Czech law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "8578dc5d-6f31-599e-967c-02f4a0bb029e",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "financial",
+        "matter_id": "CON-0069",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2023-11-11",
+        "status": "expired",
+        "value_czk": 4513541,
+        "governing_law": "Czech law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "bc1eec0e-7b99-5903-b0cb-5227fb8bcbc3",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "operational",
+        "matter_id": "CON-0070",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2024-01-09",
+        "status": "under_review",
+        "value_czk": 2970996,
+        "governing_law": "Slovak law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "b2c85ac5-f987-5171-95e5-6babe9fb3c6a",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "technical",
+        "matter_id": "CON-0071",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-12-30",
+        "status": "archived",
+        "value_czk": 291252,
+        "governing_law": "Czech law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "cs",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "medium",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "high"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #72",
+      "id": "5bfd9d27-c6eb-5cdd-b89a-a859de3333c3",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #72",
+        "type": "financial",
+        "matter_id": "CON-0072",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2024-03-05",
+        "status": "draft",
+        "value_czk": 1142349,
+        "governing_law": "Czech law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "79a1303e-71c3-5fc3-bc37-918fb915b6e4",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "operational",
+        "matter_id": "CON-0073",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2023-09-05",
+        "status": "under_review",
+        "value_czk": 406657,
+        "governing_law": "EU law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "f6ca832b-2d74-59ab-aa0f-4a2c27adf71d",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "operational",
+        "matter_id": "CON-0074",
+        "client": "Internal — Group Treasury",
+        "counterparty": "Kovář & Partners advokátní kancelář s.r.o.",
+        "execution_date": "2024-05-09",
+        "status": "active",
+        "value_czk": 605723,
+        "governing_law": "Slovak law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "cs",
+        "rel:BELONGS_TO_MATTER:document_role": "high"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "73371055-576d-52ff-977f-0215dda53312",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "operational",
+        "matter_id": "CON-0075",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2023-04-13",
+        "status": "draft",
+        "value_czk": 2998878,
+        "governing_law": "Czech law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs",
+        "rel:BELONGS_TO_MATTER:document_role": "medium"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "35bf4303-93be-57b7-a48f-04f2ce6e5959",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "governance",
+        "matter_id": "CON-0076",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Finanční Centrum s.r.o.",
+        "execution_date": "2024-03-23",
+        "status": "expired",
+        "value_czk": 2078554,
+        "governing_law": "Czech law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs/en",
+        "rel:BELONGS_TO_MATTER:document_role": "low"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "b64ceec8-bc2a-55b9-8c44-98fb3d2dff2d",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "operational",
+        "matter_id": "CON-0077",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-05-25",
+        "status": "draft",
+        "value_czk": 4555743,
+        "governing_law": "Czech law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #78",
+      "id": "e8e7708b-b8f5-5df1-b7ff-4f471fb26a74",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #78",
+        "type": "technical",
+        "matter_id": "CON-0078",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2024-04-04",
+        "status": "under_review",
+        "value_czk": 950303,
+        "governing_law": "EU law",
+        "template_used": "DPA template",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "69bd4786-8ef2-527b-a5a7-4a74de98546d",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "technical",
+        "matter_id": "CON-0079",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "AWS EMEA",
+        "execution_date": "2023-04-27",
+        "status": "under_review",
+        "value_czk": 996616,
+        "governing_law": "Slovak law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "en"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas (Brno)",
+      "id": "e9a56281-6036-5477-a70d-bf71c020dc39",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas (Brno)",
+        "type": "operational",
+        "matter_id": "CON-0080",
+        "client": "Meridian Pay SK s.r.o.",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2024-07-03",
+        "status": "archived",
+        "value_czk": 4723562,
+        "governing_law": "Czech law",
+        "template_used": "MSA v3.2",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas (Brno)",
+        "language": "en",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "medium",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "high"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance (FY2024)",
+      "id": "5e39f34b-cf2e-5e1f-9900-04180f1550e5",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance (FY2024)",
+        "type": "technical",
+        "matter_id": "CON-0081",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2023-05-26",
+        "status": "under_review",
+        "value_czk": 2667303,
+        "governing_law": "German law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs/en",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "high",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "high"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon v2",
+      "id": "addbcfcf-9917-5357-bcbb-82e9b9b9141b",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon v2",
+        "type": "technical",
+        "matter_id": "CON-0082",
+        "client": "Anchor Payments GmbH",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2024-04-06",
+        "status": "active",
+        "value_czk": 4040266,
+        "governing_law": "Slovak law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon v2",
+        "language": "cs"
+      }
+    },
+    {
+      "contract": "NDA – Project Atlas — updated",
+      "id": "a2882d19-6a87-5e7c-87f5-cdff360129e1",
+      "domain_id": "legal",
+      "data": {
+        "title": "NDA – Project Atlas — updated",
+        "type": "technical",
+        "matter_id": "CON-0083",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Benefity a.s.",
+        "execution_date": "2023-08-13",
+        "status": "expired",
+        "value_czk": 763081,
+        "governing_law": "Czech law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — NDA – Project Atlas — updated",
+        "language": "en",
+        "rel:BASED_ON_TEMPLATE:deviation_level": "high",
+        "rel:BASED_ON_TEMPLATE:deviations_description": "high"
+      }
+    },
+    {
+      "contract": "Service Agreement – Meridian Pay maintenance #84",
+      "id": "2a2a53c0-2d72-550f-b36e-517f675a8f11",
+      "domain_id": "legal",
+      "data": {
+        "title": "Service Agreement – Meridian Pay maintenance #84",
+        "type": "technical",
+        "matter_id": "CON-0084",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2024-02-03",
+        "status": "archived",
+        "value_czk": 1720057,
+        "governing_law": "Slovak law",
+        "template_used": "NDA standard",
+        "deviations_from_template": "Legal deviations from template — Service Agreement – Meridian Pay mainten",
+        "language": "cs/en"
+      }
+    },
+    {
+      "contract": "SPA – Project Falcon",
+      "id": "9b4b3055-261f-5c4d-89bf-5803bec4c1d2",
+      "domain_id": "legal",
+      "data": {
+        "title": "SPA – Project Falcon",
+        "type": "technical",
+        "matter_id": "CON-0085",
+        "client": "Meridian Pay a.s.",
+        "counterparty": "Deloitte CZ",
+        "execution_date": "2023-08-06",
+        "status": "under_review",
+        "value_czk": 2386381,
+        "governing_law": "Slovak law",
+        "template_used": "SOW template",
+        "deviations_from_template": "Legal deviations from template — SPA – Project Falcon",
+        "language": "en"
+      }
+    }
+  ]
+}

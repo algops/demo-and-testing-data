@@ -1,0 +1,28 @@
+{
+  "datasets": [
+    {
+      "id": "d504785c-602a-5513-9685-bc8e68db24a8",
+      "name": "legal_matter_index",
+      "org_id": "org:anchor",
+      "domain": "legal",
+      "object_type_id": null,
+      "workflow_id": null,
+      "objects": [],
+      "row_count": 0,
+      "min_rows_target": 50,
+      "generated_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "d45d036d-7ced-5071-bacf-3127299c7496",
+      "name": "legal_contract_index",
+      "org_id": "org:anchor",
+      "domain": "legal",
+      "object_type_id": null,
+      "workflow_id": null,
+      "objects": [],
+      "row_count": 0,
+      "min_rows_target": 40,
+      "generated_at": "2025-06-01T12:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "data": [
+    {
+      "organization": "Meridian Pay a.s.",
+      "id": "c41ed147-ea51-5758-bc11-22bd2f3244a6",
+      "domain_id": "shared",
+      "data": {
+        "deployment_frequency": "12/week",
+        "incident_mttr_minutes": 15,
+        "tech_debt_ratio_pct": 12,
+        "sop_query_response_hours": 5,
+        "onboarding_completion_pct": 85,
+        "template_find_time_minutes": 10,
+        "filing_on_time_pct": 89,
+        "open_deadline_count": 5,
+        "esrs_coverage_pct": 75,
+        "supplier_response_rate_pct": 76
+      }
+    }
+  ]
+}

@@ -1,0 +1,884 @@
+{
+  "data": [
+    {
+      "role": "Software Engineer",
+      "id": "0369f863-8e3c-5711-bf34-8ec36818f77d",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer",
+        "code": "ROLE-001",
+        "department": "Engineering",
+        "level": "HR level — Software Engineer",
+        "band": "HR band — Software Engineer",
+        "reports_to": "HR reports to — Software Engineer",
+        "headcount": 144,
+        "location": "Bratislava",
+        "shift_work": true,
+        "rel:APPROVES:approval_level": "medium",
+        "rel:APPROVES:delegation_allowed": "low",
+        "rel:APPROVES:escalation_to": "medium"
+      }
+    },
+    {
+      "role": "Software Engineer R&D",
+      "id": "74eb0cc2-844f-5136-b881-05de1af68cc8",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D",
+        "code": "ROLE-002",
+        "department": "Engineering",
+        "level": "HR level — Software Engineer R&D",
+        "band": "HR band — Software Engineer R&D",
+        "reports_to": "HR reports to — Software Engineer R&D",
+        "headcount": 32,
+        "location": "Bratislava",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "HR Business Partner",
+      "id": "a830ffbb-2298-57e6-a36b-de7eaf2173d2",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner",
+        "code": "ROLE-003",
+        "department": "ESG",
+        "level": "HR level — HR Business Partner",
+        "band": "HR band — HR Business Partner",
+        "reports_to": "HR reports to — HR Business Partner",
+        "headcount": 44,
+        "location": "remote",
+        "shift_work": true
+      }
+    },
+    {
+      "role": "Software Engineer v2",
+      "id": "ac3c4b83-094e-50b5-a926-919b923b6fe4",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer v2",
+        "code": "ROLE-004",
+        "department": "Finance",
+        "level": "HR level — Software Engineer v2",
+        "band": "HR band — Software Engineer v2",
+        "reports_to": "HR reports to — Software Engineer v2",
+        "headcount": 77,
+        "location": "Praha",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer R&D — updated",
+      "id": "c9d8b1d5-98a2-5900-bcd4-03d37d7d8fe3",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D — updated",
+        "code": "ROLE-005",
+        "department": "Operations",
+        "level": "HR level — Software Engineer R&D — updated",
+        "band": "HR band — Software Engineer R&D — updated",
+        "reports_to": "HR reports to — Software Engineer R&D — updated",
+        "headcount": 137,
+        "location": "remote",
+        "shift_work": true,
+        "rel:BELONGS_TO:primary": "high",
+        "rel:BELONGS_TO:location": "medium"
+      }
+    },
+    {
+      "role": "HR Business Partner #6",
+      "id": "599355da-1236-5118-a197-4c13f967fea4",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner #6",
+        "code": "ROLE-006",
+        "department": "ESG",
+        "level": "HR level — HR Business Partner #6",
+        "band": "HR band — HR Business Partner #6",
+        "reports_to": "HR reports to — HR Business Partner #6",
+        "headcount": 126,
+        "location": "Bratislava",
+        "shift_work": false,
+        "rel:IN_BAND:typical_position_in_range": "low"
+      }
+    },
+    {
+      "role": "Software Engineer",
+      "id": "7562a42f-efa3-5614-9163-b1959870b51f",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer",
+        "code": "ROLE-007",
+        "department": "ESG",
+        "level": "HR level — Software Engineer",
+        "band": "HR band — Software Engineer",
+        "reports_to": "HR reports to — Software Engineer",
+        "headcount": 138,
+        "location": "Brno",
+        "shift_work": true,
+        "rel:BELONGS_TO:primary": "medium",
+        "rel:BELONGS_TO:location": "low"
+      }
+    },
+    {
+      "role": "Software Engineer R&D (Brno)",
+      "id": "a63db80d-8af5-573a-a553-ccf9306dc966",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D (Brno)",
+        "code": "ROLE-008",
+        "department": "Operations",
+        "level": "HR level — Software Engineer R&D (Brno)",
+        "band": "HR band — Software Engineer R&D (Brno)",
+        "reports_to": "HR reports to — Software Engineer R&D (Brno)",
+        "headcount": 12,
+        "location": "Brno",
+        "shift_work": true,
+        "rel:APPROVES:approval_level": "medium",
+        "rel:APPROVES:delegation_allowed": "medium",
+        "rel:APPROVES:escalation_to": "medium"
+      }
+    },
+    {
+      "role": "HR Business Partner (FY2024)",
+      "id": "d2442326-2598-5710-a27c-2cd0c6d969cb",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner (FY2024)",
+        "code": "ROLE-009",
+        "department": "Finance",
+        "level": "HR level — HR Business Partner (FY2024)",
+        "band": "HR band — HR Business Partner (FY2024)",
+        "reports_to": "HR reports to — HR Business Partner (FY2024)",
+        "headcount": 37,
+        "location": "Bratislava",
+        "shift_work": true,
+        "rel:BELONGS_TO:primary": "medium",
+        "rel:BELONGS_TO:location": "high",
+        "rel:IN_BAND:typical_position_in_range": "low"
+      }
+    },
+    {
+      "role": "Software Engineer v2",
+      "id": "5d31d745-182b-5b7a-a069-2a042f3c00ca",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer v2",
+        "code": "ROLE-010",
+        "department": "Finance",
+        "level": "HR level — Software Engineer v2",
+        "band": "HR band — Software Engineer v2",
+        "reports_to": "HR reports to — Software Engineer v2",
+        "headcount": 155,
+        "location": "Brno",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer R&D — updated",
+      "id": "085be6e4-ba9b-5393-823d-4291bf0d7f54",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D — updated",
+        "code": "ROLE-011",
+        "department": "Legal",
+        "level": "HR level — Software Engineer R&D — updated",
+        "band": "HR band — Software Engineer R&D — updated",
+        "reports_to": "HR reports to — Software Engineer R&D — updated",
+        "headcount": 33,
+        "location": "remote",
+        "shift_work": true,
+        "rel:ELIGIBLE_FOR:condition": "high",
+        "rel:ELIGIBLE_FOR:after_probation": "medium",
+        "rel:ELIGIBLE_FOR:band_minimum": "low",
+        "rel:IN_BAND:typical_position_in_range": "low"
+      }
+    },
+    {
+      "role": "HR Business Partner #12",
+      "id": "a5bd6cac-03c1-503d-aca5-6844c59db89d",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner #12",
+        "code": "ROLE-012",
+        "department": "ESG",
+        "level": "HR level — HR Business Partner #12",
+        "band": "HR band — HR Business Partner #12",
+        "reports_to": "HR reports to — HR Business Partner #12",
+        "headcount": 66,
+        "location": "Bratislava",
+        "shift_work": false,
+        "rel:IN_BAND:typical_position_in_range": "medium"
+      }
+    },
+    {
+      "role": "Software Engineer",
+      "id": "9844968a-0662-59fc-b1a1-f632fefd7031",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer",
+        "code": "ROLE-013",
+        "department": "Operations",
+        "level": "HR level — Software Engineer",
+        "band": "HR band — Software Engineer",
+        "reports_to": "HR reports to — Software Engineer",
+        "headcount": 42,
+        "location": "remote",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer R&D (Brno)",
+      "id": "19346a92-2500-52d3-95f4-876db912b86f",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D (Brno)",
+        "code": "ROLE-014",
+        "department": "Engineering",
+        "level": "HR level — Software Engineer R&D (Brno)",
+        "band": "HR band — Software Engineer R&D (Brno)",
+        "reports_to": "HR reports to — Software Engineer R&D (Brno)",
+        "headcount": 66,
+        "location": "remote",
+        "shift_work": true
+      }
+    },
+    {
+      "role": "HR Business Partner (FY2024)",
+      "id": "b1227622-f70b-5cc3-9601-33312e87bf51",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner (FY2024)",
+        "code": "ROLE-015",
+        "department": "ESG",
+        "level": "HR level — HR Business Partner (FY2024)",
+        "band": "HR band — HR Business Partner (FY2024)",
+        "reports_to": "HR reports to — HR Business Partner (FY2024)",
+        "headcount": 53,
+        "location": "Praha",
+        "shift_work": false,
+        "rel:IN_BAND:typical_position_in_range": "high"
+      }
+    },
+    {
+      "role": "Software Engineer v2",
+      "id": "9ccf5610-af0f-50c9-9a1f-517c03bcac2a",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer v2",
+        "code": "ROLE-016",
+        "department": "Operations",
+        "level": "HR level — Software Engineer v2",
+        "band": "HR band — Software Engineer v2",
+        "reports_to": "HR reports to — Software Engineer v2",
+        "headcount": 179,
+        "location": "Brno",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer R&D — updated",
+      "id": "7770883e-2497-5666-aedc-0514395a9701",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D — updated",
+        "code": "ROLE-017",
+        "department": "ESG",
+        "level": "HR level — Software Engineer R&D — updated",
+        "band": "HR band — Software Engineer R&D — updated",
+        "reports_to": "HR reports to — Software Engineer R&D — updated",
+        "headcount": 169,
+        "location": "Brno",
+        "shift_work": false,
+        "rel:BELONGS_TO:primary": "medium",
+        "rel:BELONGS_TO:location": "medium"
+      }
+    },
+    {
+      "role": "HR Business Partner #18",
+      "id": "0ce27954-8782-5d1c-a7d3-98930b3e1b16",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner #18",
+        "code": "ROLE-018",
+        "department": "Risk & Compliance",
+        "level": "HR level — HR Business Partner #18",
+        "band": "HR band — HR Business Partner #18",
+        "reports_to": "HR reports to — HR Business Partner #18",
+        "headcount": 40,
+        "location": "Bratislava",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer",
+      "id": "971cbe0c-307a-59e3-920f-c26a3e7e2abd",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer",
+        "code": "ROLE-019",
+        "department": "People",
+        "level": "HR level — Software Engineer",
+        "band": "HR band — Software Engineer",
+        "reports_to": "HR reports to — Software Engineer",
+        "headcount": 7,
+        "location": "Brno",
+        "shift_work": true,
+        "rel:ELIGIBLE_FOR:condition": "high",
+        "rel:ELIGIBLE_FOR:after_probation": "medium",
+        "rel:ELIGIBLE_FOR:band_minimum": "low",
+        "rel:BELONGS_TO:primary": "low",
+        "rel:BELONGS_TO:location": "medium"
+      }
+    },
+    {
+      "role": "Software Engineer R&D (Brno)",
+      "id": "91bddcee-7267-527c-a13b-40311d1e590c",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D (Brno)",
+        "code": "ROLE-020",
+        "department": "Legal",
+        "level": "HR level — Software Engineer R&D (Brno)",
+        "band": "HR band — Software Engineer R&D (Brno)",
+        "reports_to": "HR reports to — Software Engineer R&D (Brno)",
+        "headcount": 32,
+        "location": "Praha",
+        "shift_work": false,
+        "rel:APPROVES:approval_level": "low",
+        "rel:APPROVES:delegation_allowed": "high",
+        "rel:APPROVES:escalation_to": "medium"
+      }
+    },
+    {
+      "role": "HR Business Partner (FY2024)",
+      "id": "934027ca-d497-5d2d-b86b-a0b176f08158",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner (FY2024)",
+        "code": "ROLE-021",
+        "department": "Engineering",
+        "level": "HR level — HR Business Partner (FY2024)",
+        "band": "HR band — HR Business Partner (FY2024)",
+        "reports_to": "HR reports to — HR Business Partner (FY2024)",
+        "headcount": 85,
+        "location": "Praha",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer v2",
+      "id": "fa631817-029a-5212-bc63-8206ff03b971",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer v2",
+        "code": "ROLE-022",
+        "department": "Legal",
+        "level": "HR level — Software Engineer v2",
+        "band": "HR band — Software Engineer v2",
+        "reports_to": "HR reports to — Software Engineer v2",
+        "headcount": 200,
+        "location": "Bratislava",
+        "shift_work": true
+      }
+    },
+    {
+      "role": "Software Engineer R&D — updated",
+      "id": "3b72422a-58b8-5249-914d-ef59746e81b0",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D — updated",
+        "code": "ROLE-023",
+        "department": "Risk & Compliance",
+        "level": "HR level — Software Engineer R&D — updated",
+        "band": "HR band — Software Engineer R&D — updated",
+        "reports_to": "HR reports to — Software Engineer R&D — updated",
+        "headcount": 58,
+        "location": "Bratislava",
+        "shift_work": true,
+        "rel:APPROVES:approval_level": "medium",
+        "rel:APPROVES:delegation_allowed": "high",
+        "rel:APPROVES:escalation_to": "medium"
+      }
+    },
+    {
+      "role": "HR Business Partner #24",
+      "id": "9085fd80-8cf5-5624-8a85-afccb9386163",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner #24",
+        "code": "ROLE-024",
+        "department": "Engineering",
+        "level": "HR level — HR Business Partner #24",
+        "band": "HR band — HR Business Partner #24",
+        "reports_to": "HR reports to — HR Business Partner #24",
+        "headcount": 97,
+        "location": "Brno",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer",
+      "id": "1d1882e1-1772-5252-9557-6364ae1711d0",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer",
+        "code": "ROLE-025",
+        "department": "Engineering",
+        "level": "HR level — Software Engineer",
+        "band": "HR band — Software Engineer",
+        "reports_to": "HR reports to — Software Engineer",
+        "headcount": 32,
+        "location": "Brno",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer R&D (Brno)",
+      "id": "644b3c6f-dff9-5538-aadd-93176b07503e",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D (Brno)",
+        "code": "ROLE-026",
+        "department": "ESG",
+        "level": "HR level — Software Engineer R&D (Brno)",
+        "band": "HR band — Software Engineer R&D (Brno)",
+        "reports_to": "HR reports to — Software Engineer R&D (Brno)",
+        "headcount": 126,
+        "location": "Praha",
+        "shift_work": false,
+        "rel:BELONGS_TO:primary": "high",
+        "rel:BELONGS_TO:location": "high"
+      }
+    },
+    {
+      "role": "HR Business Partner (FY2024)",
+      "id": "37aa1d7c-6f95-5b44-965f-f9a6dd5df960",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner (FY2024)",
+        "code": "ROLE-027",
+        "department": "Operations",
+        "level": "HR level — HR Business Partner (FY2024)",
+        "band": "HR band — HR Business Partner (FY2024)",
+        "reports_to": "HR reports to — HR Business Partner (FY2024)",
+        "headcount": 147,
+        "location": "Bratislava",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer v2",
+      "id": "6d70512c-3db5-5209-ae35-f3d9b2e6b573",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer v2",
+        "code": "ROLE-028",
+        "department": "ESG",
+        "level": "HR level — Software Engineer v2",
+        "band": "HR band — Software Engineer v2",
+        "reports_to": "HR reports to — Software Engineer v2",
+        "headcount": 26,
+        "location": "Praha",
+        "shift_work": true,
+        "rel:IN_BAND:typical_position_in_range": "high"
+      }
+    },
+    {
+      "role": "Software Engineer R&D — updated",
+      "id": "a88bed31-a9f9-5140-b9dc-2e0cff4242c9",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D — updated",
+        "code": "ROLE-029",
+        "department": "Legal",
+        "level": "HR level — Software Engineer R&D — updated",
+        "band": "HR band — Software Engineer R&D — updated",
+        "reports_to": "HR reports to — Software Engineer R&D — updated",
+        "headcount": 193,
+        "location": "remote",
+        "shift_work": true
+      }
+    },
+    {
+      "role": "HR Business Partner #30",
+      "id": "cd8c54ff-c486-5851-99eb-f268a68a32eb",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner #30",
+        "code": "ROLE-030",
+        "department": "Legal",
+        "level": "HR level — HR Business Partner #30",
+        "band": "HR band — HR Business Partner #30",
+        "reports_to": "HR reports to — HR Business Partner #30",
+        "headcount": 190,
+        "location": "remote",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer",
+      "id": "703081c8-bc52-5648-a5f6-18edf29073c3",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer",
+        "code": "ROLE-031",
+        "department": "ESG",
+        "level": "HR level — Software Engineer",
+        "band": "HR band — Software Engineer",
+        "reports_to": "HR reports to — Software Engineer",
+        "headcount": 33,
+        "location": "Bratislava",
+        "shift_work": true
+      }
+    },
+    {
+      "role": "Software Engineer R&D (Brno)",
+      "id": "012698da-c317-5c35-aa5f-358ad2f5794d",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D (Brno)",
+        "code": "ROLE-032",
+        "department": "Operations",
+        "level": "HR level — Software Engineer R&D (Brno)",
+        "band": "HR band — Software Engineer R&D (Brno)",
+        "reports_to": "HR reports to — Software Engineer R&D (Brno)",
+        "headcount": 132,
+        "location": "Brno",
+        "shift_work": true,
+        "rel:BELONGS_TO:primary": "medium",
+        "rel:BELONGS_TO:location": "medium"
+      }
+    },
+    {
+      "role": "HR Business Partner (FY2024)",
+      "id": "58343bee-11d2-5994-8184-50806b4da5b9",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner (FY2024)",
+        "code": "ROLE-033",
+        "department": "Finance",
+        "level": "HR level — HR Business Partner (FY2024)",
+        "band": "HR band — HR Business Partner (FY2024)",
+        "reports_to": "HR reports to — HR Business Partner (FY2024)",
+        "headcount": 97,
+        "location": "Bratislava",
+        "shift_work": true,
+        "rel:ELIGIBLE_FOR:condition": "high",
+        "rel:ELIGIBLE_FOR:after_probation": "high",
+        "rel:ELIGIBLE_FOR:band_minimum": "high"
+      }
+    },
+    {
+      "role": "Software Engineer v2",
+      "id": "35041de7-850a-50b2-acc0-54ef1e245256",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer v2",
+        "code": "ROLE-034",
+        "department": "Operations",
+        "level": "HR level — Software Engineer v2",
+        "band": "HR band — Software Engineer v2",
+        "reports_to": "HR reports to — Software Engineer v2",
+        "headcount": 164,
+        "location": "Bratislava",
+        "shift_work": true,
+        "rel:ELIGIBLE_FOR:condition": "medium",
+        "rel:ELIGIBLE_FOR:after_probation": "low",
+        "rel:ELIGIBLE_FOR:band_minimum": "medium",
+        "rel:IN_BAND:typical_position_in_range": "medium"
+      }
+    },
+    {
+      "role": "Software Engineer R&D — updated",
+      "id": "9063b142-6d9c-553a-937c-cb504c822380",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D — updated",
+        "code": "ROLE-035",
+        "department": "Operations",
+        "level": "HR level — Software Engineer R&D — updated",
+        "band": "HR band — Software Engineer R&D — updated",
+        "reports_to": "HR reports to — Software Engineer R&D — updated",
+        "headcount": 156,
+        "location": "remote",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "HR Business Partner #36",
+      "id": "c72a805d-6836-564b-b8fa-1326034d4d11",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner #36",
+        "code": "ROLE-036",
+        "department": "Finance",
+        "level": "HR level — HR Business Partner #36",
+        "band": "HR band — HR Business Partner #36",
+        "reports_to": "HR reports to — HR Business Partner #36",
+        "headcount": 113,
+        "location": "Bratislava",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer",
+      "id": "f945e4f8-a2aa-5729-8b8f-b8daa54e986f",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer",
+        "code": "ROLE-037",
+        "department": "ESG",
+        "level": "HR level — Software Engineer",
+        "band": "HR band — Software Engineer",
+        "reports_to": "HR reports to — Software Engineer",
+        "headcount": 74,
+        "location": "Bratislava",
+        "shift_work": false,
+        "rel:BELONGS_TO:primary": "medium",
+        "rel:BELONGS_TO:location": "low"
+      }
+    },
+    {
+      "role": "Software Engineer R&D (Brno)",
+      "id": "07465956-6c51-5286-9012-b77e50e7e112",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D (Brno)",
+        "code": "ROLE-038",
+        "department": "ESG",
+        "level": "HR level — Software Engineer R&D (Brno)",
+        "band": "HR band — Software Engineer R&D (Brno)",
+        "reports_to": "HR reports to — Software Engineer R&D (Brno)",
+        "headcount": 184,
+        "location": "Brno",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "HR Business Partner (FY2024)",
+      "id": "8f02b302-4a7f-5057-a6fb-f980841badd6",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner (FY2024)",
+        "code": "ROLE-039",
+        "department": "Operations",
+        "level": "HR level — HR Business Partner (FY2024)",
+        "band": "HR band — HR Business Partner (FY2024)",
+        "reports_to": "HR reports to — HR Business Partner (FY2024)",
+        "headcount": 23,
+        "location": "Bratislava",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer v2",
+      "id": "5c152605-1916-579e-a2f5-3ac51a80deef",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer v2",
+        "code": "ROLE-040",
+        "department": "Risk & Compliance",
+        "level": "HR level — Software Engineer v2",
+        "band": "HR band — Software Engineer v2",
+        "reports_to": "HR reports to — Software Engineer v2",
+        "headcount": 81,
+        "location": "Praha",
+        "shift_work": true,
+        "rel:ELIGIBLE_FOR:condition": "low",
+        "rel:ELIGIBLE_FOR:after_probation": "low",
+        "rel:ELIGIBLE_FOR:band_minimum": "high",
+        "rel:BELONGS_TO:primary": "medium",
+        "rel:BELONGS_TO:location": "low"
+      }
+    },
+    {
+      "role": "Software Engineer R&D — updated",
+      "id": "919f03ec-ec6d-5b10-abb5-98683e6a4242",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D — updated",
+        "code": "ROLE-041",
+        "department": "Engineering",
+        "level": "HR level — Software Engineer R&D — updated",
+        "band": "HR band — Software Engineer R&D — updated",
+        "reports_to": "HR reports to — Software Engineer R&D — updated",
+        "headcount": 187,
+        "location": "Brno",
+        "shift_work": true,
+        "rel:ELIGIBLE_FOR:condition": "low",
+        "rel:ELIGIBLE_FOR:after_probation": "low",
+        "rel:ELIGIBLE_FOR:band_minimum": "low",
+        "rel:APPROVES:approval_level": "low",
+        "rel:APPROVES:delegation_allowed": "low",
+        "rel:APPROVES:escalation_to": "low",
+        "rel:IN_BAND:typical_position_in_range": "medium"
+      }
+    },
+    {
+      "role": "HR Business Partner #42",
+      "id": "6b15aca6-41cf-583e-80c9-8fc561087e98",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner #42",
+        "code": "ROLE-042",
+        "department": "Finance",
+        "level": "HR level — HR Business Partner #42",
+        "band": "HR band — HR Business Partner #42",
+        "reports_to": "HR reports to — HR Business Partner #42",
+        "headcount": 148,
+        "location": "Praha",
+        "shift_work": true,
+        "rel:BELONGS_TO:primary": "low",
+        "rel:BELONGS_TO:location": "high",
+        "rel:APPROVES:approval_level": "medium",
+        "rel:APPROVES:delegation_allowed": "medium",
+        "rel:APPROVES:escalation_to": "medium"
+      }
+    },
+    {
+      "role": "Software Engineer",
+      "id": "eb17214d-024c-5984-a1da-d60770fab1df",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer",
+        "code": "ROLE-043",
+        "department": "Operations",
+        "level": "HR level — Software Engineer",
+        "band": "HR band — Software Engineer",
+        "reports_to": "HR reports to — Software Engineer",
+        "headcount": 74,
+        "location": "remote",
+        "shift_work": true
+      }
+    },
+    {
+      "role": "Software Engineer R&D (Brno)",
+      "id": "0a74f4a9-cdb7-503d-90d2-870f149f0a42",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D (Brno)",
+        "code": "ROLE-044",
+        "department": "People",
+        "level": "HR level — Software Engineer R&D (Brno)",
+        "band": "HR band — Software Engineer R&D (Brno)",
+        "reports_to": "HR reports to — Software Engineer R&D (Brno)",
+        "headcount": 174,
+        "location": "Brno",
+        "shift_work": false,
+        "rel:ELIGIBLE_FOR:condition": "low",
+        "rel:ELIGIBLE_FOR:after_probation": "high",
+        "rel:ELIGIBLE_FOR:band_minimum": "low"
+      }
+    },
+    {
+      "role": "HR Business Partner (FY2024)",
+      "id": "2772bdb0-c85d-50da-b7db-8f989da284be",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner (FY2024)",
+        "code": "ROLE-045",
+        "department": "People",
+        "level": "HR level — HR Business Partner (FY2024)",
+        "band": "HR band — HR Business Partner (FY2024)",
+        "reports_to": "HR reports to — HR Business Partner (FY2024)",
+        "headcount": 132,
+        "location": "Praha",
+        "shift_work": false
+      }
+    },
+    {
+      "role": "Software Engineer v2",
+      "id": "b190c5d6-6fa5-5fc9-a67c-f612a171d539",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer v2",
+        "code": "ROLE-046",
+        "department": "Engineering",
+        "level": "HR level — Software Engineer v2",
+        "band": "HR band — Software Engineer v2",
+        "reports_to": "HR reports to — Software Engineer v2",
+        "headcount": 158,
+        "location": "Brno",
+        "shift_work": true,
+        "rel:ELIGIBLE_FOR:condition": "medium",
+        "rel:ELIGIBLE_FOR:after_probation": "low",
+        "rel:ELIGIBLE_FOR:band_minimum": "low"
+      }
+    },
+    {
+      "role": "Software Engineer R&D — updated",
+      "id": "17185604-46ce-5789-bdb0-1eae19063417",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D — updated",
+        "code": "ROLE-047",
+        "department": "Operations",
+        "level": "HR level — Software Engineer R&D — updated",
+        "band": "HR band — Software Engineer R&D — updated",
+        "reports_to": "HR reports to — Software Engineer R&D — updated",
+        "headcount": 109,
+        "location": "Bratislava",
+        "shift_work": true
+      }
+    },
+    {
+      "role": "HR Business Partner #48",
+      "id": "09461ac1-723b-5d10-8e53-d3bb61063b5c",
+      "domain_id": "hr",
+      "data": {
+        "title": "HR Business Partner #48",
+        "code": "ROLE-048",
+        "department": "Operations",
+        "level": "HR level — HR Business Partner #48",
+        "band": "HR band — HR Business Partner #48",
+        "reports_to": "HR reports to — HR Business Partner #48",
+        "headcount": 170,
+        "location": "Praha",
+        "shift_work": false,
+        "rel:APPROVES:approval_level": "medium",
+        "rel:APPROVES:delegation_allowed": "high",
+        "rel:APPROVES:escalation_to": "high"
+      }
+    },
+    {
+      "role": "Software Engineer",
+      "id": "d97f98e0-d96c-5bbe-9d77-c2956ea14a1a",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer",
+        "code": "ROLE-049",
+        "department": "Finance",
+        "level": "HR level — Software Engineer",
+        "band": "HR band — Software Engineer",
+        "reports_to": "HR reports to — Software Engineer",
+        "headcount": 173,
+        "location": "Brno",
+        "shift_work": true,
+        "rel:IN_BAND:typical_position_in_range": "high"
+      }
+    },
+    {
+      "role": "Software Engineer R&D (Brno)",
+      "id": "864e5f1b-ad80-524d-bdce-9b5d837167a4",
+      "domain_id": "hr",
+      "data": {
+        "title": "Software Engineer R&D (Brno)",
+        "code": "ROLE-050",
+        "department": "Engineering",
+        "level": "HR level — Software Engineer R&D (Brno)",
+        "band": "HR band — Software Engineer R&D (Brno)",
+        "reports_to": "HR reports to — Software Engineer R&D (Brno)",
+        "headcount": 94,
+        "location": "Brno",
+        "shift_work": false,
+        "rel:ELIGIBLE_FOR:condition": "high",
+        "rel:ELIGIBLE_FOR:after_probation": "low",
+        "rel:ELIGIBLE_FOR:band_minimum": "medium",
+        "rel:APPROVES:approval_level": "high",
+        "rel:APPROVES:delegation_allowed": "medium",
+        "rel:APPROVES:escalation_to": "low"
+      }
+    }
+  ]
+}

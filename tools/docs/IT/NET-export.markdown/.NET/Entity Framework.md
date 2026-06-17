@@ -1,0 +1,57 @@
+# Entity Framework
+
+# Owned entities projection
+
+Mapping the properties of an owned entity will not cause an issue but mapping the owned entity itself will.
+
+```csharp
+var query = from bookings in _unitOfWork.DomainRootManager<BookingOffer>( ).Query
+
+                    join customers in _unitOfWork.ReadOnlyRepository<User>( )
+                        on bookings.Renter.UserGuid equals customers.Guid
+
+                    join operators in _unitOfWork.ReadOnlyRepository<FleetOperator>( )
+                        on bookings.Operator.Guid equals operators.Account.Guid
+
+                    where bookings.Guid == bookingGuid
+
+                    select new
+                    {
+                        Booking = bookings,
+                        CustomerEmail = customers.Email,
+                        CustomerAddress = customers.PrimaryAddress, // <- Owned entity
+                        OperatorName = operators.BrandName,
+                    };
+
+var result = await query.SingleAsync( );
+```
+
+**Causes:**
+
+```bash
+System.InvalidOperationException: A tracking query is attempting to project an owned entity without a corresponding owner in its result, but owned entities cannot be tracked without their owner. Either include the owner entity in the result or make the query non-tracking using 'AsNoTracking'.
+```
+
+For the example above, the fix would be to map a specific property of the `PrimaryAddress` object, e.g., `CustomerAddressCountry = customers.PrimaryAddress.Country`.
+
+# The null conditional operator in expression trees
+
+The lambda expressions are converted into expression trees that don't support the null conditional operators. One possible workaround is checking the nullable value and using a ternary operator.
+
+This code will cause an exception:
+
+```csharp
+select new
+{
+  Booking = bookings,
+  CustomerEmail = customers.Email,
+  CustomerCountry = customers.PrimaryAddress?.Country,
+  OperatorName = operators.BrandName
+};
+```
+
+**Fix:**
+
+```csharp
+CustomerCountry = customers.PrimaryAddress != null ? customers.PrimaryAddress.Country.ToString( ) : "";
+```

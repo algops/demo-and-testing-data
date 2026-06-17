@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "system": "SAP SuccessFactors",
+      "id": "f83d357c-8270-5a56-a079-fe6a90d62056",
+      "domain_id": "hr",
+      "data": {
+        "name": "SAP SuccessFactors",
+        "type": "technical",
+        "vendor": "Finanční Centrum s.r.o.",
+        "url": "https://system.meridianpay.cz/1",
+        "admin_contact": "HR admin contact — SAP SuccessFactors",
+        "go_live_date": "2023-05-31",
+        "module_status": "HR module status — SAP SuccessFactors",
+        "data_completeness": "HR data completeness — SAP SuccessFactors"
+      }
+    },
+    {
+      "system": "Recruitee",
+      "id": "318e5409-ecaa-5e39-9c0d-1e8a7bc645e8",
+      "domain_id": "hr",
+      "data": {
+        "name": "Recruitee",
+        "type": "governance",
+        "vendor": "Deloitte CZ",
+        "url": "https://system.meridianpay.cz/2",
+        "admin_contact": "HR admin contact — Recruitee",
+        "go_live_date": "2024-11-16",
+        "module_status": "HR module status — Recruitee",
+        "data_completeness": "HR data completeness — Recruitee"
+      }
+    },
+    {
+      "system": "SharePoint",
+      "id": "7ea3ef8c-eeca-5077-9e12-6f3a84c54d11",
+      "domain_id": "hr",
+      "data": {
+        "name": "SharePoint",
+        "type": "operational",
+        "vendor": "Kovář & Partners advokátní kancelář s.r.o.",
+        "url": "https://system.meridianpay.cz/3",
+        "admin_contact": "HR admin contact — SharePoint",
+        "go_live_date": "2023-04-23",
+        "module_status": "HR module status — SharePoint",
+        "data_completeness": "HR data completeness — SharePoint"
+      }
+    },
+    {
+      "system": "Excel Dovolene_2024.xlsx",
+      "id": "049278c5-a38a-5ba2-8435-5efaa678f357",
+      "domain_id": "hr",
+      "data": {
+        "name": "Excel Dovolene_2024.xlsx",
+        "type": "governance",
+        "vendor": "Deloitte CZ",
+        "url": "https://system.meridianpay.cz/4",
+        "admin_contact": "HR admin contact — Excel Dovolene_2024.xlsx",
+        "go_live_date": "2024-05-11",
+        "module_status": "HR module status — Excel Dovolene_2024.xlsx",
+        "data_completeness": "HR data completeness — Excel Dovolene_2024.xlsx"
+      }
+    },
+    {
+      "system": "SAP SuccessFactors — updated",
+      "id": "7ce94e1e-0d34-5422-8c07-a0ee9db627f5",
+      "domain_id": "hr",
+      "data": {
+        "name": "SAP SuccessFactors — updated",
+        "type": "operational",
+        "vendor": "Finanční Centrum s.r.o.",
+        "url": "https://system.meridianpay.cz/5",
+        "admin_contact": "HR admin contact — SAP SuccessFactors — updated",
+        "go_live_date": "2023-12-03",
+        "module_status": "HR module status — SAP SuccessFactors — updated",
+        "data_completeness": "HR data completeness — SAP SuccessFactors — updated"
+      }
+    },
+    {
+      "system": "Recruitee #6",
+      "id": "4e511588-e14a-5286-98c7-87bde231e139",
+      "domain_id": "hr",
+      "data": {
+        "name": "Recruitee #6",
+        "type": "operational",
+        "vendor": "Finanční Centrum s.r.o.",
+        "url": "https://system.meridianpay.cz/6",
+        "admin_contact": "HR admin contact — Recruitee #6",
+        "go_live_date": "2024-12-18",
+        "module_status": "HR module status — Recruitee #6",
+        "data_completeness": "HR data completeness — Recruitee #6"
+      }
+    },
+    {
+      "system": "SharePoint",
+      "id": "f798fd97-62ca-5ec9-bd90-2ce25b09f008",
+      "domain_id": "hr",
+      "data": {
+        "name": "SharePoint",
+        "type": "technical",
+        "vendor": "Finanční Centrum s.r.o.",
+        "url": "https://system.meridianpay.cz/7",
+        "admin_contact": "HR admin contact — SharePoint",
+        "go_live_date": "2023-05-12",
+        "module_status": "HR module status — SharePoint",
+        "data_completeness": "HR data completeness — SharePoint"
+      }
+    },
+    {
+      "system": "Excel Dovolene_2024.xlsx (Brno)",
+      "id": "eb448294-efef-51d7-b7ce-39c2fb9b284a",
+      "domain_id": "hr",
+      "data": {
+        "name": "Excel Dovolene_2024.xlsx (Brno)",
+        "type": "financial",
+        "vendor": "Kovář & Partners advokátní kancelář s.r.o.",
+        "url": "https://system.meridianpay.cz/8",
+        "admin_contact": "HR admin contact — Excel Dovolene_2024.xlsx (Brno)",
+        "go_live_date": "2024-04-22",
+        "module_status": "HR module status — Excel Dovolene_2024.xlsx (Brno)",
+        "data_completeness": "HR data completeness — Excel Dovolene_2024.xlsx (Brno)"
+      }
+    }
+  ]
+}

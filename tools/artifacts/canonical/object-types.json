@@ -1,0 +1,704 @@
+{
+  "object_types": [
+    {
+      "id": "7064f40a-a954-5b1e-9bab-af297991db00",
+      "name": "organization",
+      "description": "Object type organization",
+      "org_id": "org:anchor",
+      "domain_id": "shared",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "acd8edb8-e328-5c5e-afb4-e3d59c297eae",
+      "name": "person",
+      "description": "Object type person",
+      "org_id": "org:anchor",
+      "domain_id": "shared",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "ece632b2-e12c-5fd8-a032-a1081e564eab",
+      "name": "employee",
+      "description": "Object type employee",
+      "org_id": "org:anchor",
+      "domain_id": "shared",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "3faca80d-dbce-5bf2-b395-be72941f3e58",
+      "name": "department",
+      "description": "Object type department",
+      "org_id": "org:anchor",
+      "domain_id": "shared",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "5d5381eb-84be-58aa-aa07-a208c55bd8fc",
+      "name": "team",
+      "description": "Object type team",
+      "org_id": "org:anchor",
+      "domain_id": "shared",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "66f7cf44-40e9-58fc-9277-d681a2899970",
+      "name": "system",
+      "description": "Object type system",
+      "org_id": "org:anchor",
+      "domain_id": "shared",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "6e9dad99-a11d-558e-91ff-c17844624153",
+      "name": "vendor",
+      "description": "Object type vendor",
+      "org_id": "org:anchor",
+      "domain_id": "shared",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "664546af-b3d3-532b-92bc-ed2c3f6b4ffa",
+      "name": "regulation",
+      "description": "Object type regulation",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "88271698-8fed-5e98-8abc-fa33268f4a8c",
+      "name": "standard",
+      "description": "Object type standard",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "4bb6cbd0-44ae-5e45-a2c5-ff9f3120a6aa",
+      "name": "disclosure_requirement",
+      "description": "Object type disclosure_requirement",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "6588f65a-32f2-56b3-87d0-2217a6733a79",
+      "name": "metric",
+      "description": "Object type metric",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "7518164e-ef43-525c-8cb0-3c22d9b598e4",
+      "name": "policy",
+      "description": "Object type policy",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "71284220-29c0-51a7-aaf1-63c9726a5caf",
+      "name": "report",
+      "description": "Object type report",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "864abc18-5c4f-5fb6-b5ab-9739c533e3a7",
+      "name": "economic_activity",
+      "description": "Object type economic_activity",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "112a40a6-70bc-50da-ae85-7c519c1dc880",
+      "name": "supplier",
+      "description": "Object type supplier",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "fd5d26b2-b165-5aee-8eb9-d1278f0113de",
+      "name": "risk",
+      "description": "Object type risk",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "3880c1f7-8b97-540e-9b2d-b6f97eb2b4a2",
+      "name": "target",
+      "description": "Object type target",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "7e3754c9-94e0-5f53-8eb4-0b6f23214ece",
+      "name": "data_source",
+      "description": "Object type data_source",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "84a6be18-c2c4-5b5f-9455-c69ddbed5913",
+      "name": "material_topic",
+      "description": "Object type material_topic",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "b5d0dc83-8966-56f2-8774-f1674242e518",
+      "name": "audit_finding",
+      "description": "Object type audit_finding",
+      "org_id": "org:anchor",
+      "domain_id": "esg",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "3351709c-82b3-5ed8-ab5c-3a868de1bf4d",
+      "name": "legislation",
+      "description": "Object type legislation",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "4eca5a9f-4e74-5698-8c7a-30b4a97196a3",
+      "name": "court_decision",
+      "description": "Object type court_decision",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "5d7f1f0e-e07c-5a9d-867a-ffc6239d168d",
+      "name": "contract",
+      "description": "Object type contract",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "6cd01a75-5c59-59bd-bc80-6329953fcc2c",
+      "name": "template",
+      "description": "Object type template",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "c169a054-cecd-5fc6-9222-5258532fb4fe",
+      "name": "legal_opinion",
+      "description": "Object type legal_opinion",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "fcf6d2c6-fb06-50e8-b26d-5984e1c4e28a",
+      "name": "counterparty",
+      "description": "Object type counterparty",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "d06f9b88-53fd-5841-a24c-1813c6a81f2b",
+      "name": "matter",
+      "description": "Object type matter",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "cace976f-773a-549b-8db4-f356e60e8147",
+      "name": "internal_guideline",
+      "description": "Object type internal_guideline",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "eec99958-e508-599d-80bb-af18c7884b08",
+      "name": "legal_area",
+      "description": "Object type legal_area",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "135b3c7a-7c5b-5ca1-bed2-3486ece11d16",
+      "name": "person",
+      "description": "Object type person",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "8cf6c4e5-ff3a-5f5d-ae51-a4ed0b0ea42c",
+      "name": "ddproject",
+      "description": "Object type ddproject",
+      "org_id": "org:anchor",
+      "domain_id": "legal",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "ed00f6bf-e4e1-5a3d-aff0-15b4dfb196e8",
+      "name": "tax_law",
+      "description": "Object type tax_law",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "96da7e7f-ff1a-57df-aa3a-b4e1d225a31a",
+      "name": "accounting_standard",
+      "description": "Object type accounting_standard",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "e430e85c-1090-58e2-8287-367215498ec4",
+      "name": "tax_form",
+      "description": "Object type tax_form",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "bc9f5946-44a0-57d8-bd6e-6b43cc5266dd",
+      "name": "account",
+      "description": "Object type account",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "52c09f6d-c07c-5b60-84cc-91b49c47facb",
+      "name": "tax_rate",
+      "description": "Object type tax_rate",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "de28b2b3-f8fc-5f54-9f8c-0c9e52b164f1",
+      "name": "legal_entity",
+      "description": "Object type legal_entity",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "243114ba-848e-580e-b52d-f1a9fc50df5e",
+      "name": "engagement",
+      "description": "Object type engagement",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "860b5abb-5ea0-59f2-9f65-81d4f6537bc8",
+      "name": "internal_procedure",
+      "description": "Object type internal_procedure",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "bbfebc52-8f12-5b0a-a59e-8da9c6447f7c",
+      "name": "deadline",
+      "description": "Object type deadline",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "49a36ded-8d1f-5777-a61a-970cad0ca1d8",
+      "name": "tax_ruling",
+      "description": "Object type tax_ruling",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "e6823b6e-f0f1-5219-baaf-076c0ad828bd",
+      "name": "tax_treaty",
+      "description": "Object type tax_treaty",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "45bbe913-e8e9-5c23-81f5-9079d94cb85a",
+      "name": "tax_control",
+      "description": "Object type tax_control",
+      "org_id": "org:anchor",
+      "domain_id": "tax",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "1933fc19-87ab-5126-ad09-08740f6d9f37",
+      "name": "policy",
+      "description": "Object type policy",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "4420c2ee-cbe7-5e3f-9e08-199999edb0e2",
+      "name": "process",
+      "description": "Object type process",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "74b2f02b-d93e-50a6-9160-94e4b9ffe9f3",
+      "name": "benefit",
+      "description": "Object type benefit",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "c64583f4-84ca-55ef-9b62-8adbaf2ea8ff",
+      "name": "role",
+      "description": "Object type role",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "b4a8d493-0edb-518e-af38-22404bf46ed2",
+      "name": "department",
+      "description": "Object type department",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "0b5deecc-1b51-5ae2-8486-bcdea6a34078",
+      "name": "training",
+      "description": "Object type training",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "82a1838d-4c76-5c2f-8128-089bdaf1ed92",
+      "name": "document",
+      "description": "Object type document",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "9f0686fc-2034-5c59-af2e-ca410df8495a",
+      "name": "system",
+      "description": "Object type system",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "6843b4ab-b313-545b-8760-0df3218fbb1c",
+      "name": "leave_type",
+      "description": "Object type leave_type",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "2d81daa5-78d6-5cd4-ab3e-58d17b62cc0e",
+      "name": "legal_requirement",
+      "description": "Object type legal_requirement",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "e0207c2c-99fe-5b01-8951-7de3d96ec17e",
+      "name": "compensation_band",
+      "description": "Object type compensation_band",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "df89a23b-5351-5732-9e51-f532774c0539",
+      "name": "grievance_case",
+      "description": "Object type grievance_case",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "2f5a31fa-df2b-591c-a00a-9550542f0513",
+      "name": "performance_review",
+      "description": "Object type performance_review",
+      "org_id": "org:anchor",
+      "domain_id": "hr",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "508f90cb-9a2a-5bde-854e-b31c23c93ca1",
+      "name": "adr",
+      "description": "Object type adr",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "05f68e76-49dc-5947-add3-587d24826de9",
+      "name": "api",
+      "description": "Object type api",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "c066b30c-3b77-589a-9a14-fee46b724002",
+      "name": "database",
+      "description": "Object type database",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "d53e44a0-8d6a-512f-8c45-5361683cff0a",
+      "name": "dependency",
+      "description": "Object type dependency",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "d4a0f3ad-9aae-5706-8c57-280a9249b792",
+      "name": "environment",
+      "description": "Object type environment",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "afd52da2-5800-5377-a1ba-50b463b3442b",
+      "name": "feature_flag",
+      "description": "Object type feature_flag",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "ac774f20-6ac3-59cb-8da9-f4e52d3767aa",
+      "name": "guideline",
+      "description": "Object type guideline",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "74f6332a-0372-5c5c-8795-1c1b3f028960",
+      "name": "incident",
+      "description": "Object type incident",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "64565db3-be2d-5929-a067-789f6b41b524",
+      "name": "pipeline",
+      "description": "Object type pipeline",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "1dba833f-b7ee-5b5d-a347-42b6bc074c01",
+      "name": "runbook",
+      "description": "Object type runbook",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "1f3a262e-7754-5a68-b65b-0b4cb5d90d98",
+      "name": "service",
+      "description": "Object type service",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "96d67a49-47d7-5596-8342-6235f42aeddc",
+      "name": "slo",
+      "description": "Object type slo",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "447b4c76-0f0a-5e86-8737-c62a5a1e0fdf",
+      "name": "team",
+      "description": "Object type team",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    },
+    {
+      "id": "1de26239-c659-5c6b-9ba5-ae01479b8269",
+      "name": "tech_debt",
+      "description": "Object type tech_debt",
+      "org_id": "org:anchor",
+      "domain_id": "it",
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z",
+      "deleted_at": null
+    }
+  ]
+}

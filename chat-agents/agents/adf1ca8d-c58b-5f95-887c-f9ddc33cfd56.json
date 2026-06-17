@@ -1,0 +1,70 @@
+{
+  "id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
+  "name": "DD progress assistant",
+  "description": "Sledování due diligence",
+  "status": "draft",
+  "setup": {
+    "accessibility": {
+      "primary": {
+        "type": "web_widget",
+        "enabled": true,
+        "bidirectional": true,
+        "label": "Web widget"
+      },
+      "supervisor": {
+        "type": "slack",
+        "enabled": false,
+        "bidirectional": true,
+        "canSteer": true,
+        "label": "#agents-legal"
+      }
+    },
+    "knowledge_base_access": {
+      "grants": [
+        {
+          "treePath": "/knowledgebase/legal/agents/dd-progress-assistant",
+          "scope": "folder",
+          "includeDescendants": true
+        },
+        {
+          "treePath": "/knowledgebase/legal/operations/core",
+          "scope": "folder",
+          "includeDescendants": true
+        }
+      ],
+      "skillsPath": "/knowledgebase/legal/agents/dd-progress-assistant",
+      "skillFilePaths": []
+    },
+    "data_warehouse_access": {
+      "objectTypeIds": [
+        "d06f9b88-53fd-5841-a24c-1813c6a81f2b",
+        "5d7f1f0e-e07c-5a9d-867a-ffc6239d168d"
+      ]
+    },
+    "realtime_data_access": {
+      "grants": [
+        {
+          "sourceId": "53acc2d7-4211-576f-9bc4-8c6b448be243",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        },
+        {
+          "sourceId": "e33946f7-2123-582b-83aa-f007c6b615b2",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        }
+      ]
+    },
+    "actions_access": {
+      "grants": [
+        {
+          "sourceId": "0d604443-b626-5259-9e9a-4e3fe76ad6b8",
+          "actionKey": "execute_tool",
+          "label": "Tool action",
+          "description": "Execute via 0d604443-b626-5259-9e9a-4e3fe76ad6b8",
+          "permission": "execute"
+        }
+      ]
+    }
+  }
+}

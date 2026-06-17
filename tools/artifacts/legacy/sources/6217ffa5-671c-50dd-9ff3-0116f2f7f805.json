@@ -1,0 +1,111 @@
+{
+  "id": "6217ffa5-671c-50dd-9ff3-0116f2f7f805",
+  "name": "Recruitee",
+  "description": "Recruitee — integrace domény hr pro Meridian Pay a.s.",
+  "source_type": "Integration",
+  "delivery_type": "Endpoint",
+  "max_concurrent_runs": 10,
+  "timeout": 30,
+  "average_run_duration": 50,
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "status": "active",
+  "owner_org_id": "org:anchor",
+  "owner_org_name": "Meridian Pay a.s.",
+  "domain_id": "hr",
+  "integration_role": "source",
+  "last_used_at": "2025-06-01T12:00:00Z",
+  "total_runs": 303,
+  "successful_runs": 275,
+  "failed_runs": 28,
+  "success_rate": 0.94,
+  "activities_count": 1,
+  "workflows_count": 1,
+  "use_cases_count": 0,
+  "guardrails_count": 0,
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body"
+            ],
+            "mapping_status": "mapped"
+          },
+          "run_id": {
+            "path": [
+              "id"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.recruitee.com/c",
+        "method": "POST",
+        "headers": {
+          "Authorization": "Bearer <<$auth_key>>",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "query": "<<$run_setup>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {}
+    },
+    "status_request": {
+      "mappings": {
+        "request": {},
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.recruitee.com/c",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {},
+        "response": {}
+      },
+      "request_template": {
+        "url": "https://api.recruitee.com/c",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": [],
+      "response_mappings": {}
+    }
+  }
+}

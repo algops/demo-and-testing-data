@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "legal_requirement": "Dovolená min. 4 týdny",
+      "id": "f8bb27ef-b841-53ba-bbc3-39cf2654a944",
+      "domain_id": "hr",
+      "data": {
+        "name": "Dovolená min. 4 týdny",
+        "law_reference": "zákon č. 563/1991 Sb.",
+        "requirement_type": "HR requirement type — Dovolená min. 4 týdny",
+        "frequency": "weekly",
+        "deadline": "2024-10-15",
+        "penalty": "HR penalty — Dovolená min. 4 týdny",
+        "responsible": "People",
+        "compliance_status": "draft"
+      }
+    },
+    {
+      "legal_requirement": "BOZP školení periodické",
+      "id": "d8a6115c-56e7-5483-8254-7ba4d7327c46",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP školení periodické",
+        "law_reference": "zákon č. 262/2006 Sb.",
+        "requirement_type": "HR requirement type — BOZP školení periodické",
+        "frequency": "annual",
+        "deadline": "2024-09-02",
+        "penalty": "HR penalty — BOZP školení periodické",
+        "responsible": "Finance",
+        "compliance_status": "draft"
+      }
+    },
+    {
+      "legal_requirement": "Informační povinnost DPP/DPČ",
+      "id": "eb8f35b7-18cb-542d-a5d5-88092e3d11ab",
+      "domain_id": "hr",
+      "data": {
+        "name": "Informační povinnost DPP/DPČ",
+        "law_reference": "zákon č. 416/2009 Sb.",
+        "requirement_type": "HR requirement type — Informační povinnost DPP/DPČ",
+        "frequency": "daily",
+        "deadline": "2024-12-20",
+        "penalty": "HR penalty — Informační povinnost DPP/DPČ",
+        "responsible": "Legal",
+        "compliance_status": "expired"
+      }
+    },
+    {
+      "legal_requirement": "Dovolená min. 4 týdny v2",
+      "id": "5b84aa15-9fac-5d7b-9aa3-9b3b4fbdf9f7",
+      "domain_id": "hr",
+      "data": {
+        "name": "Dovolená min. 4 týdny v2",
+        "law_reference": "zákon č. 416/2009 Sb.",
+        "requirement_type": "HR requirement type — Dovolená min. 4 týdny v2",
+        "frequency": "monthly",
+        "deadline": "2024-01-23",
+        "penalty": "HR penalty — Dovolená min. 4 týdny v2",
+        "responsible": "Engineering",
+        "compliance_status": "expired"
+      }
+    },
+    {
+      "legal_requirement": "BOZP školení periodické — updated",
+      "id": "08cb7f1f-f569-54cd-ae4b-7a043b1e46fe",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP školení periodické — updated",
+        "law_reference": "zákon č. 262/2006 Sb.",
+        "requirement_type": "HR requirement type — BOZP školení periodické — updated",
+        "frequency": "monthly",
+        "deadline": "2024-09-18",
+        "penalty": "HR penalty — BOZP školení periodické — updated",
+        "responsible": "Risk & Compliance",
+        "compliance_status": "under_review"
+      }
+    },
+    {
+      "legal_requirement": "Informační povinnost DPP/DPČ #6",
+      "id": "1637eca1-d490-5672-b7d9-55e8c6b56e26",
+      "domain_id": "hr",
+      "data": {
+        "name": "Informační povinnost DPP/DPČ #6",
+        "law_reference": "zákon č. 563/1991 Sb.",
+        "requirement_type": "HR requirement type — Informační povinnost DPP/DPČ #6",
+        "frequency": "monthly",
+        "deadline": "2024-04-24",
+        "penalty": "HR penalty — Informační povinnost DPP/DPČ #6",
+        "responsible": "Engineering",
+        "compliance_status": "draft"
+      }
+    },
+    {
+      "legal_requirement": "Dovolená min. 4 týdny",
+      "id": "bc6eaf42-68f7-550a-b5c7-a299b9f50b5c",
+      "domain_id": "hr",
+      "data": {
+        "name": "Dovolená min. 4 týdny",
+        "law_reference": "zákon č. 110/2019 Sb.",
+        "requirement_type": "HR requirement type — Dovolená min. 4 týdny",
+        "frequency": "weekly",
+        "deadline": "2024-03-16",
+        "penalty": "HR penalty — Dovolená min. 4 týdny",
+        "responsible": "Legal",
+        "compliance_status": "archived"
+      }
+    },
+    {
+      "legal_requirement": "BOZP školení periodické (Brno)",
+      "id": "ee274f58-9619-5338-8926-34531bac637e",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP školení periodické (Brno)",
+        "law_reference": "zákon č. 563/1991 Sb.",
+        "requirement_type": "HR requirement type — BOZP školení periodické (Brno)",
+        "frequency": "weekly",
+        "deadline": "2024-12-17",
+        "penalty": "HR penalty — BOZP školení periodické (Brno)",
+        "responsible": "Operations",
+        "compliance_status": "active"
+      }
+    }
+  ]
+}

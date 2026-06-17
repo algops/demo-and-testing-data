@@ -1,0 +1,21 @@
+{
+  "generated_at": "2025-06-01T12:00:00Z",
+  "anchor_org": "org:anchor",
+  "enabled_domains": [
+    "it"
+  ],
+  "checksums": {
+    "relationships": "82a4b7711db5f99a",
+    "objects": "c599e6170f406e49",
+    "object_types": "9d811977df2b3281"
+  },
+  "counts": {
+    "relationships": 11266,
+    "objects": 1909,
+    "object_types": 70,
+    "datapoints": 714,
+    "values": 19904,
+    "knowledge_docs": 121,
+    "workflows": 3
+  }
+}

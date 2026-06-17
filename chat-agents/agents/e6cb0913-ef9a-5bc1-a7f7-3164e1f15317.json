@@ -1,0 +1,70 @@
+{
+  "id": "e6cb0913-ef9a-5bc1-a7f7-3164e1f15317",
+  "name": "Account tax-treatment Q&A",
+  "description": "Daňové zacházení s účty",
+  "status": "draft",
+  "setup": {
+    "accessibility": {
+      "primary": {
+        "type": "web_widget",
+        "enabled": true,
+        "bidirectional": true,
+        "label": "Web widget"
+      },
+      "supervisor": {
+        "type": "slack",
+        "enabled": false,
+        "bidirectional": true,
+        "canSteer": true,
+        "label": "#agents-tax"
+      }
+    },
+    "knowledge_base_access": {
+      "grants": [
+        {
+          "treePath": "/knowledgebase/tax/agents/account-tax-treatment-q-a",
+          "scope": "folder",
+          "includeDescendants": true
+        },
+        {
+          "treePath": "/knowledgebase/tax/compliance/core",
+          "scope": "folder",
+          "includeDescendants": true
+        }
+      ],
+      "skillsPath": "/knowledgebase/tax/agents/account-tax-treatment-q-a",
+      "skillFilePaths": []
+    },
+    "data_warehouse_access": {
+      "objectTypeIds": [
+        "243114ba-848e-580e-b52d-f1a9fc50df5e",
+        "de28b2b3-f8fc-5f54-9f8c-0c9e52b164f1"
+      ]
+    },
+    "realtime_data_access": {
+      "grants": [
+        {
+          "sourceId": "a396b15f-d53e-5e78-9ae2-38e97a0db9db",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        },
+        {
+          "sourceId": "a96d3a9f-20bc-5c5d-af47-58e367de01d0",
+          "label": "Realtime feed",
+          "streamKey": "events"
+        }
+      ]
+    },
+    "actions_access": {
+      "grants": [
+        {
+          "sourceId": "2fa826a0-6719-520a-bb46-2a61c9a4a294",
+          "actionKey": "execute_tool",
+          "label": "Tool action",
+          "description": "Execute via 2fa826a0-6719-520a-bb46-2a61c9a4a294",
+          "permission": "execute"
+        }
+      ]
+    }
+  }
+}

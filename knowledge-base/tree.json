@@ -29,23 +29,28 @@
                           "id": "file-b047b344",
                           "name": "system-prompt:-audit-finding-remediation-guide.md",
                           "type": "file",
-                          "fileId": "kb-esg-062"
+                          "fileId": "b047b344-c274-5edc-b630-f271563bec8e",
+                          "project_id": "org:anchor:esg"
                         },
                         {
                           "id": "file-4387f237",
                           "name": "role:-audit-finding-remediation-guide.md",
                           "type": "file",
-                          "fileId": "kb-esg-063"
+                          "fileId": "4387f237-5919-5c81-bcaf-e63ba8aaff32",
+                          "project_id": "org:anchor:esg"
                         },
                         {
                           "id": "file-3fa59a16",
                           "name": "skill:-audit-finding-remediation-guide.md",
                           "type": "file",
-                          "fileId": "kb-esg-064"
+                          "fileId": "3fa59a16-0a39-5294-b7e6-bedc177d7dc7",
+                          "project_id": "org:anchor:esg"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 },
                 {
                   "id": "folder-d40d7945",
@@ -61,23 +66,28 @@
                           "id": "file-d54b0c6c",
                           "name": "system-prompt:-csrd-gap-&-disclosure-copilot.md",
                           "type": "file",
-                          "fileId": "kb-esg-053"
+                          "fileId": "d54b0c6c-8f82-59c7-8e91-329893cfc1ce",
+                          "project_id": "org:anchor:esg"
                         },
                         {
                           "id": "file-99468a0d",
                           "name": "role:-csrd-gap-&-disclosure-copilot.md",
                           "type": "file",
-                          "fileId": "kb-esg-054"
+                          "fileId": "99468a0d-9c53-569c-8ebe-71af20f54985",
+                          "project_id": "org:anchor:esg"
                         },
                         {
                           "id": "file-c8aa873a",
                           "name": "skill:-csrd-gap-&-disclosure-copilot.md",
                           "type": "file",
-                          "fileId": "kb-esg-055"
+                          "fileId": "c8aa873a-619d-5bd0-9121-690a922b3c03",
+                          "project_id": "org:anchor:esg"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 },
                 {
                   "id": "folder-b2f7556f",
@@ -93,23 +103,28 @@
                           "id": "file-a1cfbf07",
                           "name": "system-prompt:-supplier-risk-assistant.md",
                           "type": "file",
-                          "fileId": "kb-esg-059"
+                          "fileId": "a1cfbf07-f510-5689-8fa5-39085c7334f0",
+                          "project_id": "org:anchor:esg"
                         },
                         {
                           "id": "file-df118d88",
                           "name": "role:-supplier-risk-assistant.md",
                           "type": "file",
-                          "fileId": "kb-esg-060"
+                          "fileId": "df118d88-0454-58b4-be1e-e2348f4db4b9",
+                          "project_id": "org:anchor:esg"
                         },
                         {
                           "id": "file-1271366e",
                           "name": "skill:-supplier-risk-assistant.md",
                           "type": "file",
-                          "fileId": "kb-esg-061"
+                          "fileId": "1271366e-469d-56fb-b912-267a00e3afdb",
+                          "project_id": "org:anchor:esg"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 },
                 {
                   "id": "folder-c32f28f6",
@@ -125,25 +140,31 @@
                           "id": "file-bb4e8c89",
                           "name": "system-prompt:-taxonomy-alignment-explainer.md",
                           "type": "file",
-                          "fileId": "kb-esg-056"
+                          "fileId": "bb4e8c89-0c91-58dc-9206-4f70686b0d3b",
+                          "project_id": "org:anchor:esg"
                         },
                         {
                           "id": "file-a6699ddb",
                           "name": "role:-taxonomy-alignment-explainer.md",
                           "type": "file",
-                          "fileId": "kb-esg-057"
+                          "fileId": "a6699ddb-54eb-5202-a717-caba7ce3821d",
+                          "project_id": "org:anchor:esg"
                         },
                         {
                           "id": "file-e7554d48",
                           "name": "skill:-taxonomy-alignment-explainer.md",
                           "type": "file",
-                          "fileId": "kb-esg-058"
+                          "fileId": "e7554d48-7c9f-5889-a2c3-2af2fbdd98c2",
+                          "project_id": "org:anchor:esg"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:esg"
             },
             {
               "id": "folder-13908efb",
@@ -159,9 +180,11 @@
                       "id": "file-a8e71948",
                       "name": "politika-udržitelného-financování-v1.md",
                       "type": "file",
-                      "fileId": "kb-esg-007"
+                      "fileId": "a8e71948-66bd-5325-afa4-af2d95f39cad",
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 },
                 {
                   "id": "folder-4d9926c2",
@@ -172,15 +195,18 @@
                       "id": "file-d2172992",
                       "name": "politika-životního-prostředí-meridian-pay.md",
                       "type": "file",
-                      "fileId": "kb-esg-001"
+                      "fileId": "d2172992-f6ff-589d-896c-bebc2777e93f",
+                      "project_id": "org:anchor:esg"
                     },
                     {
                       "id": "file-75d9a2da",
                       "name": "příručka-csrd-a-esrs-pro-fy2024.md",
                       "type": "file",
-                      "fileId": "kb-esg-002"
+                      "fileId": "75d9a2da-dc8d-5024-9c4d-3262b138be77",
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 },
                 {
                   "id": "folder-69e11a16",
@@ -191,11 +217,14 @@
                       "id": "file-5d33ada9",
                       "name": "metodika-výpočtu-taxonomy-alignment-kpi.md",
                       "type": "file",
-                      "fileId": "kb-esg-009"
+                      "fileId": "5d33ada9-dffc-5314-a833-8bd91ece807e",
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:esg"
             },
             {
               "id": "folder-e0656d12",
@@ -211,17 +240,21 @@
                       "id": "file-71f32394",
                       "name": "faq:-eu-taxonomy-a-dnsh-kritéria.md",
                       "type": "file",
-                      "fileId": "kb-esg-006"
+                      "fileId": "71f32394-bc55-51b6-a90f-e9efce4c478b",
+                      "project_id": "org:anchor:esg"
                     },
                     {
                       "id": "file-a2f2ad20",
                       "name": "adr:-architektura-esg-datové-platformy.md",
                       "type": "file",
-                      "fileId": "kb-esg-010"
+                      "fileId": "a2f2ad20-3b72-56ac-9f34-8c67d3879ea5",
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:esg"
             },
             {
               "id": "folder-30e8e81c",
@@ -237,15 +270,18 @@
                       "id": "file-7065843e",
                       "name": "runbook-sběru-emisních-dat-scope-1–3.md",
                       "type": "file",
-                      "fileId": "kb-esg-003"
+                      "fileId": "7065843e-4c7d-5bc7-8d1d-84f6a5d534fa",
+                      "project_id": "org:anchor:esg"
                     },
                     {
                       "id": "file-70c375d1",
                       "name": "sop:-double-materiality-assessment.md",
                       "type": "file",
-                      "fileId": "kb-esg-004"
+                      "fileId": "70c375d1-14e8-583a-bb59-f7223f460018",
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 },
                 {
                   "id": "folder-74bf554a",
@@ -256,11 +292,14 @@
                       "id": "file-e547fd1b",
                       "name": "runbook:-csddd-due-diligence-dodavatelů.md",
                       "type": "file",
-                      "fileId": "kb-esg-008"
+                      "fileId": "e547fd1b-9570-5b93-a209-aa794175ce6c",
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:esg"
             },
             {
               "id": "folder-203b68de",
@@ -276,13 +315,17 @@
                       "id": "file-85d86123",
                       "name": "šablona-esg-dotazníku-pro-dodavatele.md",
                       "type": "file",
-                      "fileId": "kb-esg-005"
+                      "fileId": "85d86123-8e59-5f64-ba26-4d1b0b99426a",
+                      "project_id": "org:anchor:esg"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:esg"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:esg"
             }
-          ]
+          ],
+          "project_id": "org:anchor:esg"
         },
         {
           "id": "folder-c09b3cab",
@@ -308,23 +351,28 @@
                           "id": "file-0fcdeda5",
                           "name": "system-prompt:-benefits-eligibility-guide.md",
                           "type": "file",
-                          "fileId": "kb-hr-119"
+                          "fileId": "0fcdeda5-e227-50bb-8fe3-ccacfde6f427",
+                          "project_id": "org:anchor:hr"
                         },
                         {
                           "id": "file-6b84de50",
                           "name": "role:-benefits-eligibility-guide.md",
                           "type": "file",
-                          "fileId": "kb-hr-120"
+                          "fileId": "6b84de50-5ac2-5adc-8931-0e60ebc055f6",
+                          "project_id": "org:anchor:hr"
                         },
                         {
                           "id": "file-ef5603bc",
                           "name": "skill:-benefits-eligibility-guide.md",
                           "type": "file",
-                          "fileId": "kb-hr-121"
+                          "fileId": "ef5603bc-48a1-50e3-84c4-83f336056804",
+                          "project_id": "org:anchor:hr"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 },
                 {
                   "id": "folder-fcd0fa14",
@@ -340,23 +388,28 @@
                           "id": "file-a6baadd9",
                           "name": "system-prompt:-leave/absence-navigator.md",
                           "type": "file",
-                          "fileId": "kb-hr-110"
+                          "fileId": "a6baadd9-69db-5df7-acc8-a0bc93cd11bb",
+                          "project_id": "org:anchor:hr"
                         },
                         {
                           "id": "file-953c981a",
                           "name": "role:-leave/absence-navigator.md",
                           "type": "file",
-                          "fileId": "kb-hr-111"
+                          "fileId": "953c981a-67cf-5372-a384-f9dc542bb637",
+                          "project_id": "org:anchor:hr"
                         },
                         {
                           "id": "file-2b3df690",
                           "name": "skill:-leave/absence-navigator.md",
                           "type": "file",
-                          "fileId": "kb-hr-112"
+                          "fileId": "2b3df690-ea2f-5e5c-bbad-e69bf7ca5bf4",
+                          "project_id": "org:anchor:hr"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 },
                 {
                   "id": "folder-9f9418d2",
@@ -372,23 +425,28 @@
                           "id": "file-e68e79c5",
                           "name": "system-prompt:-onboarding-checklist-assistant.md",
                           "type": "file",
-                          "fileId": "kb-hr-113"
+                          "fileId": "e68e79c5-127e-599a-b42c-9c1791b381d1",
+                          "project_id": "org:anchor:hr"
                         },
                         {
                           "id": "file-9582f128",
                           "name": "role:-onboarding-checklist-assistant.md",
                           "type": "file",
-                          "fileId": "kb-hr-114"
+                          "fileId": "9582f128-bd8e-5f58-a814-6f0a3a594541",
+                          "project_id": "org:anchor:hr"
                         },
                         {
                           "id": "file-7c431dad",
                           "name": "skill:-onboarding-checklist-assistant.md",
                           "type": "file",
-                          "fileId": "kb-hr-115"
+                          "fileId": "7c431dad-75b4-5754-9ec2-7175417625eb",
+                          "project_id": "org:anchor:hr"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 },
                 {
                   "id": "folder-4dcae91b",
@@ -404,23 +462,28 @@
                           "id": "file-8bdbcb31",
                           "name": "system-prompt:-sop-&-policy-copilot.md",
                           "type": "file",
-                          "fileId": "kb-hr-107"
+                          "fileId": "8bdbcb31-9f0e-5bbd-ba75-c6a2b46e9649",
+                          "project_id": "org:anchor:hr"
                         },
                         {
                           "id": "file-2bc08f5b",
                           "name": "role:-sop-&-policy-copilot.md",
                           "type": "file",
-                          "fileId": "kb-hr-108"
+                          "fileId": "2bc08f5b-3acb-53d8-9314-92372be0d1df",
+                          "project_id": "org:anchor:hr"
                         },
                         {
                           "id": "file-dfb1ebac",
                           "name": "skill:-sop-&-policy-copilot.md",
                           "type": "file",
-                          "fileId": "kb-hr-109"
+                          "fileId": "dfb1ebac-e3d2-563f-bcf5-ce07e24e45ba",
+                          "project_id": "org:anchor:hr"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 },
                 {
                   "id": "folder-3943e748",
@@ -436,25 +499,31 @@
                           "id": "file-df00c942",
                           "name": "system-prompt:-training-compliance-reporter.md",
                           "type": "file",
-                          "fileId": "kb-hr-116"
+                          "fileId": "df00c942-d1c5-50de-a155-f40b9d9578e6",
+                          "project_id": "org:anchor:hr"
                         },
                         {
                           "id": "file-b74585a0",
                           "name": "role:-training-compliance-reporter.md",
                           "type": "file",
-                          "fileId": "kb-hr-117"
+                          "fileId": "b74585a0-5b37-5d92-836a-72341c0dc81f",
+                          "project_id": "org:anchor:hr"
                         },
                         {
                           "id": "file-824c642a",
                           "name": "skill:-training-compliance-reporter.md",
                           "type": "file",
-                          "fileId": "kb-hr-118"
+                          "fileId": "824c642a-2b54-53b3-b3e1-3301371bdbaa",
+                          "project_id": "org:anchor:hr"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:hr"
             },
             {
               "id": "folder-321cdebb",
@@ -470,9 +539,11 @@
                       "id": "file-fe3fbb91",
                       "name": "politika-home-office-v1.md",
                       "type": "file",
-                      "fileId": "kb-hr-049"
+                      "fileId": "fe3fbb91-e6c8-5f22-bc44-2546881a05d2",
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 },
                 {
                   "id": "folder-20ca9dde",
@@ -483,17 +554,21 @@
                       "id": "file-8abbfdec",
                       "name": "politika-pracovněprávních-vztahů.md",
                       "type": "file",
-                      "fileId": "kb-hr-043"
+                      "fileId": "8abbfdec-c537-50e6-8d75-38a8532dfa7d",
+                      "project_id": "org:anchor:hr"
                     },
                     {
                       "id": "file-9ca9caf6",
                       "name": "příručka-bozp-a-povinná-školení.md",
                       "type": "file",
-                      "fileId": "kb-hr-048"
+                      "fileId": "9ca9caf6-9d14-5b8f-a7ba-963bd985bdfc",
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:hr"
             },
             {
               "id": "folder-e67b9f72",
@@ -509,9 +584,11 @@
                       "id": "file-cb43e8e4",
                       "name": "runbook:-roční-hodnocení-výkonu.md",
                       "type": "file",
-                      "fileId": "kb-hr-051"
+                      "fileId": "cb43e8e4-872f-5121-9864-b9b871eda49c",
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 },
                 {
                   "id": "folder-89944655",
@@ -522,21 +599,25 @@
                       "id": "file-e7ce206b",
                       "name": "sop:-nástup-nového-zaměstnance.md",
                       "type": "file",
-                      "fileId": "kb-hr-044"
+                      "fileId": "e7ce206b-bf8a-59e9-98f4-5ec9511d354c",
+                      "project_id": "org:anchor:hr"
                     },
                     {
                       "id": "file-f918ae31",
                       "name": "runbook:-řízení-absence-a-dovolené.md",
                       "type": "file",
-                      "fileId": "kb-hr-045"
+                      "fileId": "f918ae31-54e2-5025-bf5f-2cd05a9a94cc",
+                      "project_id": "org:anchor:hr"
                     },
                     {
                       "id": "file-04510fb3",
                       "name": "faq:-benefity-a-sick-days.md",
                       "type": "file",
-                      "fileId": "kb-hr-047"
+                      "fileId": "04510fb3-178e-56f1-a24a-286d95fda0c2",
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 },
                 {
                   "id": "folder-cb1fea18",
@@ -547,11 +628,14 @@
                       "id": "file-b15dfb36",
                       "name": "sop:-offboarding-a-předání-přístupů.md",
                       "type": "file",
-                      "fileId": "kb-hr-050"
+                      "fileId": "b15dfb36-bb1c-522e-b843-40c9dc14068d",
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:hr"
             },
             {
               "id": "folder-58c1ad81",
@@ -567,9 +651,11 @@
                       "id": "file-bb08413d",
                       "name": "šablona-pracovní-smlouvy-—-hq.md",
                       "type": "file",
-                      "fileId": "kb-hr-046"
+                      "fileId": "bb08413d-f0ac-55d6-8647-bb343ed4df77",
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 },
                 {
                   "id": "folder-5d8accb4",
@@ -580,13 +666,17 @@
                       "id": "file-ffad1ca3",
                       "name": "šablona-interního-přesunu.md",
                       "type": "file",
-                      "fileId": "kb-hr-052"
+                      "fileId": "ffad1ca3-e693-5f28-8e73-1d42edb301c2",
+                      "project_id": "org:anchor:hr"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:hr"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:hr"
             }
-          ]
+          ],
+          "project_id": "org:anchor:hr"
         },
         {
           "id": "folder-23faf8db",
@@ -610,25 +700,30 @@
                       "children": [
                         {
                           "id": "file-f3729be6",
-                          "name": "system-prompt:-agentic-engineering-kb-builder.md",
+                          "name": "system-prompt-agentic-engineering-kb-builder.md",
                           "type": "file",
-                          "fileId": "kb-it-065"
+                          "fileId": "f3729be6-8841-5b4b-b118-a2062b7e2b53",
+                          "project_id": "org:anchor:it"
                         },
                         {
                           "id": "file-2a6d7fe7",
-                          "name": "role:-agentic-engineering-kb-builder.md",
+                          "name": "role-agentic-engineering-kb-builder.md",
                           "type": "file",
-                          "fileId": "kb-it-066"
+                          "fileId": "2a6d7fe7-dc8d-5e39-aadd-37a73cd9375c",
+                          "project_id": "org:anchor:it"
                         },
                         {
                           "id": "file-7c34c7db",
-                          "name": "skill:-agentic-engineering-kb-builder.md",
+                          "name": "skill-agentic-engineering-kb-builder.md",
                           "type": "file",
-                          "fileId": "kb-it-067"
+                          "fileId": "7c34c7db-6ae3-53ab-901f-b31c5e4834eb",
+                          "project_id": "org:anchor:it"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 },
                 {
                   "id": "folder-8fca1122",
@@ -642,25 +737,30 @@
                       "children": [
                         {
                           "id": "file-e4f0c7e3",
-                          "name": "system-prompt:-architecture-&-adr-q&a.md",
+                          "name": "system-prompt-architecture-adr-q-a.md",
                           "type": "file",
-                          "fileId": "kb-it-074"
+                          "fileId": "e4f0c7e3-10d0-5f42-8d76-f555d786d1a0",
+                          "project_id": "org:anchor:it"
                         },
                         {
                           "id": "file-5a28c35c",
-                          "name": "role:-architecture-&-adr-q&a.md",
+                          "name": "role-architecture-adr-q-a.md",
                           "type": "file",
-                          "fileId": "kb-it-075"
+                          "fileId": "5a28c35c-d395-5764-adec-73e775c76346",
+                          "project_id": "org:anchor:it"
                         },
                         {
                           "id": "file-b36e0891",
-                          "name": "skill:-architecture-&-adr-q&a.md",
+                          "name": "skill-architecture-adr-q-a.md",
                           "type": "file",
-                          "fileId": "kb-it-076"
+                          "fileId": "b36e0891-154f-59f5-a5a0-12bf2a3034d5",
+                          "project_id": "org:anchor:it"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 },
                 {
                   "id": "folder-d36497f4",
@@ -674,25 +774,30 @@
                       "children": [
                         {
                           "id": "file-e61092cf",
-                          "name": "system-prompt:-automated-code-review-copilot.md",
+                          "name": "system-prompt-automated-code-review-copilot.md",
                           "type": "file",
-                          "fileId": "kb-it-068"
+                          "fileId": "e61092cf-b12a-5e68-b133-7f0d7fa76942",
+                          "project_id": "org:anchor:it"
                         },
                         {
                           "id": "file-555e9a7d",
-                          "name": "role:-automated-code-review-copilot.md",
+                          "name": "role-automated-code-review-copilot.md",
                           "type": "file",
-                          "fileId": "kb-it-069"
+                          "fileId": "555e9a7d-7654-59c6-830e-da575ee74678",
+                          "project_id": "org:anchor:it"
                         },
                         {
                           "id": "file-f8491d27",
-                          "name": "skill:-automated-code-review-copilot.md",
+                          "name": "skill-automated-code-review-copilot.md",
                           "type": "file",
-                          "fileId": "kb-it-070"
+                          "fileId": "f8491d27-07a9-507d-8bb4-ac88c9f14d27",
+                          "project_id": "org:anchor:it"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 },
                 {
                   "id": "folder-df6ea4cf",
@@ -706,25 +811,30 @@
                       "children": [
                         {
                           "id": "file-fa4322db",
-                          "name": "system-prompt:-incident/runbook-assistant.md",
+                          "name": "system-prompt-incident-runbook-assistant.md",
                           "type": "file",
-                          "fileId": "kb-it-071"
+                          "fileId": "fa4322db-665c-588b-a1ea-3540576dc23e",
+                          "project_id": "org:anchor:it"
                         },
                         {
                           "id": "file-f1a89c3b",
-                          "name": "role:-incident/runbook-assistant.md",
+                          "name": "role-incident-runbook-assistant.md",
                           "type": "file",
-                          "fileId": "kb-it-072"
+                          "fileId": "f1a89c3b-8ad3-518b-aa7c-0e5c00282032",
+                          "project_id": "org:anchor:it"
                         },
                         {
                           "id": "file-41949ec6",
-                          "name": "skill:-incident/runbook-assistant.md",
+                          "name": "skill-incident-runbook-assistant.md",
                           "type": "file",
-                          "fileId": "kb-it-073"
+                          "fileId": "41949ec6-4b7b-53b4-a8ca-b70c9a78e84f",
+                          "project_id": "org:anchor:it"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 },
                 {
                   "id": "folder-d9b7f0c5",
@@ -738,27 +848,33 @@
                       "children": [
                         {
                           "id": "file-8ac4901b",
-                          "name": "system-prompt:-pm/tech-comms-assistant.md",
+                          "name": "system-prompt-pm-tech-comms-assistant.md",
                           "type": "file",
-                          "fileId": "kb-it-077"
+                          "fileId": "8ac4901b-5559-515b-96ce-0fd32baa1357",
+                          "project_id": "org:anchor:it"
                         },
                         {
                           "id": "file-9b3e90a0",
-                          "name": "role:-pm/tech-comms-assistant.md",
+                          "name": "role-pm-tech-comms-assistant.md",
                           "type": "file",
-                          "fileId": "kb-it-078"
+                          "fileId": "9b3e90a0-6cf5-54e5-9529-d0fee8e6742d",
+                          "project_id": "org:anchor:it"
                         },
                         {
                           "id": "file-ffce6975",
-                          "name": "skill:-pm/tech-comms-assistant.md",
+                          "name": "skill-pm-tech-comms-assistant.md",
                           "type": "file",
-                          "fileId": "kb-it-079"
+                          "fileId": "ffce6975-faea-5b9f-b9bc-8ba4da193b6d",
+                          "project_id": "org:anchor:it"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:it"
             },
             {
               "id": "folder-1cab5f1e",
@@ -772,17 +888,20 @@
                   "children": [
                     {
                       "id": "file-9c90c37c",
-                      "name": "politika-bezpečnosti-vývoje-(secure-sdlc).md",
+                      "name": "issue-labels-and-workflow-states.md",
                       "type": "file",
-                      "fileId": "kb-it-014"
+                      "fileId": "9c90c37c-659b-5b6a-9d0b-e00b60f53477",
+                      "project_id": "org:anchor:it"
                     },
                     {
                       "id": "file-f81b1b3b",
-                      "name": "příručka-snyk-a-dependency-scanning.md",
+                      "name": "nuget-package-configuration.md",
                       "type": "file",
-                      "fileId": "kb-it-021"
+                      "fileId": "f81b1b3b-a38f-57a6-9efd-0b3691121224",
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 },
                 {
                   "id": "folder-e71e1af6",
@@ -791,13 +910,16 @@
                   "children": [
                     {
                       "id": "file-9133a21e",
-                      "name": "politika-přístupu-k-produkčním-systémům.md",
+                      "name": "credentials-and-secrets-handling.md",
                       "type": "file",
-                      "fileId": "kb-it-022"
+                      "fileId": "9133a21e-d576-5799-920a-c32cf44f9d8e",
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:it"
             },
             {
               "id": "folder-be884b75",
@@ -811,11 +933,13 @@
                   "children": [
                     {
                       "id": "file-8628d88b",
-                      "name": "adr-012:-event-driven-integrace-s-core-banking.md",
+                      "name": "entity-framework-data-access-patterns.md",
                       "type": "file",
-                      "fileId": "kb-it-019"
+                      "fileId": "8628d88b-590c-5bba-8fa1-24ad35b80814",
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 },
                 {
                   "id": "folder-7d71d2e2",
@@ -824,17 +948,20 @@
                   "children": [
                     {
                       "id": "file-7eec0910",
-                      "name": "adr-001:-mikroservisní-architektura-platební-brány.md",
+                      "name": "bounded-contexts-and-domain-events.md",
                       "type": "file",
-                      "fileId": "kb-it-011"
+                      "fileId": "7eec0910-d103-5889-9943-2ca90aa569e6",
+                      "project_id": "org:anchor:it"
                     },
                     {
                       "id": "file-3cd7e38c",
-                      "name": "příručka-observability-—-datadog-a-slo.md",
+                      "name": "development-specifications-and-handover-flow.md",
                       "type": "file",
-                      "fileId": "kb-it-015"
+                      "fileId": "3cd7e38c-6088-5793-8ac6-5141e516aeb4",
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 },
                 {
                   "id": "folder-fa1884ba",
@@ -843,13 +970,16 @@
                   "children": [
                     {
                       "id": "file-a1d63b8b",
-                      "name": "faq:-gitlab-ci/cd-a-release-train.md",
+                      "name": "sprint-cadence-and-planning-rules.md",
                       "type": "file",
-                      "fileId": "kb-it-017"
+                      "fileId": "a1d63b8b-82b3-5cd5-b56b-858de67ad980",
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:it"
             },
             {
               "id": "folder-89a304fd",
@@ -863,11 +993,13 @@
                   "children": [
                     {
                       "id": "file-506369a9",
-                      "name": "runbook:-rollback-produkčního-release.md",
+                      "name": "release-and-deploy-strategy.md",
                       "type": "file",
-                      "fileId": "kb-it-018"
+                      "fileId": "506369a9-c37d-55f5-8b68-5191d0eab795",
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 },
                 {
                   "id": "folder-48cf1b20",
@@ -876,17 +1008,20 @@
                   "children": [
                     {
                       "id": "file-8ed2b8b7",
-                      "name": "runbook-incident-response-p1/p2.md",
+                      "name": "git-strategy-trunk-based-development.md",
                       "type": "file",
-                      "fileId": "kb-it-012"
+                      "fileId": "8ed2b8b7-7dcd-5271-8433-913b6b8858ad",
+                      "project_id": "org:anchor:it"
                     },
                     {
                       "id": "file-df928676",
-                      "name": "sop:-code-review-a-merge-do-main.md",
+                      "name": "code-review-process.md",
                       "type": "file",
-                      "fileId": "kb-it-013"
+                      "fileId": "df928676-a20b-5ccf-ae3b-3fae8eac36c3",
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 },
                 {
                   "id": "folder-99acb621",
@@ -895,13 +1030,16 @@
                   "children": [
                     {
                       "id": "file-12fc1013",
-                      "name": "sop:-on-call-rotace-a-eskalace.md",
+                      "name": "team-sync-cadence.md",
                       "type": "file",
-                      "fileId": "kb-it-020"
+                      "fileId": "12fc1013-40a5-5cae-bfb2-5931fff52e6c",
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:it"
             },
             {
               "id": "folder-59e120c4",
@@ -915,15 +1053,19 @@
                   "children": [
                     {
                       "id": "file-453da0f0",
-                      "name": "šablona-rfc-pro-změny-infrastruktury.md",
+                      "name": "epic-specifications-template.md",
                       "type": "file",
-                      "fileId": "kb-it-016"
+                      "fileId": "453da0f0-75fc-5509-b6bf-cb6ac4a63222",
+                      "project_id": "org:anchor:it"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:it"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:it"
             }
-          ]
+          ],
+          "project_id": "org:anchor:it"
         },
         {
           "id": "folder-61872c8b",
@@ -949,23 +1091,28 @@
                           "id": "file-b5aef682",
                           "name": "system-prompt:-conflict-check-helper.md",
                           "type": "file",
-                          "fileId": "kb-legal-089"
+                          "fileId": "b5aef682-67c3-5ea2-9f52-d6764f1cdaea",
+                          "project_id": "org:anchor:legal"
                         },
                         {
                           "id": "file-0a2bcdf7",
                           "name": "role:-conflict-check-helper.md",
                           "type": "file",
-                          "fileId": "kb-legal-090"
+                          "fileId": "0a2bcdf7-5acf-5cc4-8731-0f9d67a1def6",
+                          "project_id": "org:anchor:legal"
                         },
                         {
                           "id": "file-3ef6f393",
                           "name": "skill:-conflict-check-helper.md",
                           "type": "file",
-                          "fileId": "kb-legal-091"
+                          "fileId": "3ef6f393-4960-53cd-97a3-a0de3310ed25",
+                          "project_id": "org:anchor:legal"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 },
                 {
                   "id": "folder-096f2e13",
@@ -981,23 +1128,28 @@
                           "id": "file-1592bd51",
                           "name": "system-prompt:-contract/template-finder.md",
                           "type": "file",
-                          "fileId": "kb-legal-083"
+                          "fileId": "1592bd51-6b7c-5f29-af7b-bf07c9cd8ae8",
+                          "project_id": "org:anchor:legal"
                         },
                         {
                           "id": "file-208363f6",
                           "name": "role:-contract/template-finder.md",
                           "type": "file",
-                          "fileId": "kb-legal-084"
+                          "fileId": "208363f6-0da5-5f2c-89f5-355602dc0977",
+                          "project_id": "org:anchor:legal"
                         },
                         {
                           "id": "file-01a07a54",
                           "name": "skill:-contract/template-finder.md",
                           "type": "file",
-                          "fileId": "kb-legal-085"
+                          "fileId": "01a07a54-542b-5261-9b58-00e54a01be8f",
+                          "project_id": "org:anchor:legal"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 },
                 {
                   "id": "folder-d8ba8546",
@@ -1013,23 +1165,28 @@
                           "id": "file-f4d3f264",
                           "name": "system-prompt:-dd-progress-assistant.md",
                           "type": "file",
-                          "fileId": "kb-legal-086"
+                          "fileId": "f4d3f264-7bff-567a-84bd-815be7e12c23",
+                          "project_id": "org:anchor:legal"
                         },
                         {
                           "id": "file-d6734b2b",
                           "name": "role:-dd-progress-assistant.md",
                           "type": "file",
-                          "fileId": "kb-legal-087"
+                          "fileId": "d6734b2b-b9ee-5bef-86b3-711f9b280bb8",
+                          "project_id": "org:anchor:legal"
                         },
                         {
                           "id": "file-73b2eed4",
                           "name": "skill:-dd-progress-assistant.md",
                           "type": "file",
-                          "fileId": "kb-legal-088"
+                          "fileId": "73b2eed4-5dae-542e-b3e5-dfd782ab9d2f",
+                          "project_id": "org:anchor:legal"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 },
                 {
                   "id": "folder-bec57bb8",
@@ -1045,23 +1202,28 @@
                           "id": "file-b18d8ab6",
                           "name": "system-prompt:-in-house-know-how-copilot.md",
                           "type": "file",
-                          "fileId": "kb-legal-080"
+                          "fileId": "b18d8ab6-e69c-5809-b9b0-c5256867d29f",
+                          "project_id": "org:anchor:legal"
                         },
                         {
                           "id": "file-8a6d1e37",
                           "name": "role:-in-house-know-how-copilot.md",
                           "type": "file",
-                          "fileId": "kb-legal-081"
+                          "fileId": "8a6d1e37-9200-5c4f-9cc2-a40f9dcb43dc",
+                          "project_id": "org:anchor:legal"
                         },
                         {
                           "id": "file-8b2cc296",
                           "name": "skill:-in-house-know-how-copilot.md",
                           "type": "file",
-                          "fileId": "kb-legal-082"
+                          "fileId": "8b2cc296-ea9f-552c-b444-29bca438ce8b",
+                          "project_id": "org:anchor:legal"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 },
                 {
                   "id": "folder-7c64d08f",
@@ -1077,25 +1239,31 @@
                           "id": "file-5414df5c",
                           "name": "system-prompt:-legislative-update-summarizer.md",
                           "type": "file",
-                          "fileId": "kb-legal-092"
+                          "fileId": "5414df5c-e44d-5b8a-8457-fe007d4f3d53",
+                          "project_id": "org:anchor:legal"
                         },
                         {
                           "id": "file-03bcb433",
                           "name": "role:-legislative-update-summarizer.md",
                           "type": "file",
-                          "fileId": "kb-legal-093"
+                          "fileId": "03bcb433-4cff-554c-98a2-208a6ad6f0be",
+                          "project_id": "org:anchor:legal"
                         },
                         {
                           "id": "file-4b037c89",
                           "name": "skill:-legislative-update-summarizer.md",
                           "type": "file",
-                          "fileId": "kb-legal-094"
+                          "fileId": "4b037c89-2be3-5715-b589-ab8fd2fedd6a",
+                          "project_id": "org:anchor:legal"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:legal"
             },
             {
               "id": "folder-94219f6c",
@@ -1111,9 +1279,11 @@
                       "id": "file-da19cb64",
                       "name": "politika-schvalování-smluv-nad-500-tis.-kč.md",
                       "type": "file",
-                      "fileId": "kb-legal-030"
+                      "fileId": "da19cb64-3283-5344-bff8-b874d1538a19",
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 },
                 {
                   "id": "folder-9c4c3ac1",
@@ -1124,15 +1294,18 @@
                       "id": "file-acb44d20",
                       "name": "politika-compliance-a-whistleblowingu.md",
                       "type": "file",
-                      "fileId": "kb-legal-023"
+                      "fileId": "acb44d20-f6f5-5dcd-b3f7-4bbb4ca5b2ef",
+                      "project_id": "org:anchor:legal"
                     },
                     {
                       "id": "file-2141b64c",
                       "name": "příručka-gdpr-pro-smluvní-vztahy.md",
                       "type": "file",
-                      "fileId": "kb-legal-026"
+                      "fileId": "2141b64c-865f-57ca-a1af-cb62a5fa14cb",
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 },
                 {
                   "id": "folder-89a22669",
@@ -1143,11 +1316,14 @@
                       "id": "file-214378e9",
                       "name": "přehled-legislativních-změn-q1-2025.md",
                       "type": "file",
-                      "fileId": "kb-legal-031"
+                      "fileId": "214378e9-e3fd-57c1-a8d1-061003c8cca9",
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:legal"
             },
             {
               "id": "folder-562d7b1f",
@@ -1163,15 +1339,18 @@
                       "id": "file-9bc66e87",
                       "name": "sop:-conflict-check-před-novým-mandatem.md",
                       "type": "file",
-                      "fileId": "kb-legal-025"
+                      "fileId": "9bc66e87-0aa4-57ae-b188-6207fc6486fa",
+                      "project_id": "org:anchor:legal"
                     },
                     {
                       "id": "file-e645174a",
                       "name": "runbook:-due-diligence-—-fáze-a-checklist.md",
                       "type": "file",
-                      "fileId": "kb-legal-027"
+                      "fileId": "e645174a-24f2-54a2-86b7-da684432c619",
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 },
                 {
                   "id": "folder-79e5da16",
@@ -1182,11 +1361,14 @@
                       "id": "file-f3ac7159",
                       "name": "runbook:-redakce-citlivých-údajů-ve-spisech.md",
                       "type": "file",
-                      "fileId": "kb-legal-032"
+                      "fileId": "f3ac7159-7867-531d-bb3f-474b99e94185",
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:legal"
             },
             {
               "id": "folder-e3b31b7b",
@@ -1202,9 +1384,11 @@
                       "id": "file-0829e11b",
                       "name": "šablona-smlouvy-o-dílo-—-it-služby.md",
                       "type": "file",
-                      "fileId": "kb-legal-029"
+                      "fileId": "0829e11b-de9f-5189-b6f9-b30592270ed2",
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 },
                 {
                   "id": "folder-adc85368",
@@ -1215,19 +1399,24 @@
                       "id": "file-3062af73",
                       "name": "šablona-nda-—-standardní-ujednání.md",
                       "type": "file",
-                      "fileId": "kb-legal-024"
+                      "fileId": "3062af73-1aa6-50fc-9f04-b78de16d5d47",
+                      "project_id": "org:anchor:legal"
                     },
                     {
                       "id": "file-8ef43dd8",
                       "name": "faq:-imanage-a-správa-spisů.md",
                       "type": "file",
-                      "fileId": "kb-legal-028"
+                      "fileId": "8ef43dd8-9259-53e4-8592-c4f2d3f0b031",
+                      "project_id": "org:anchor:legal"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:legal"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:legal"
             }
-          ]
+          ],
+          "project_id": "org:anchor:legal"
         },
         {
           "id": "folder-2d8d871d",
@@ -1253,23 +1442,28 @@
                           "id": "file-7ad74555",
                           "name": "system-prompt:-account-tax-treatment-q&a.md",
                           "type": "file",
-                          "fileId": "kb-tax-098"
+                          "fileId": "7ad74555-1c1f-5b00-bd6f-fbf37e679c92",
+                          "project_id": "org:anchor:tax"
                         },
                         {
                           "id": "file-8fa3583b",
                           "name": "role:-account-tax-treatment-q&a.md",
                           "type": "file",
-                          "fileId": "kb-tax-099"
+                          "fileId": "8fa3583b-0458-55bb-b0d3-ed0e8f65cc00",
+                          "project_id": "org:anchor:tax"
                         },
                         {
                           "id": "file-e98339d7",
                           "name": "skill:-account-tax-treatment-q&a.md",
                           "type": "file",
-                          "fileId": "kb-tax-100"
+                          "fileId": "e98339d7-fc9b-581b-887f-6e4487be2741",
+                          "project_id": "org:anchor:tax"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 },
                 {
                   "id": "folder-c3d6f3c1",
@@ -1285,23 +1479,28 @@
                           "id": "file-5a28a4f9",
                           "name": "system-prompt:-dph/sazba-change-explainer.md",
                           "type": "file",
-                          "fileId": "kb-tax-104"
+                          "fileId": "5a28a4f9-fa77-5a44-85ba-25b6fa650666",
+                          "project_id": "org:anchor:tax"
                         },
                         {
                           "id": "file-b6c8f0fd",
                           "name": "role:-dph/sazba-change-explainer.md",
                           "type": "file",
-                          "fileId": "kb-tax-105"
+                          "fileId": "b6c8f0fd-1bd3-5770-a684-11e0096ae45f",
+                          "project_id": "org:anchor:tax"
                         },
                         {
                           "id": "file-830f3672",
                           "name": "skill:-dph/sazba-change-explainer.md",
                           "type": "file",
-                          "fileId": "kb-tax-106"
+                          "fileId": "830f3672-7046-55df-a1e5-d690e4f3ffe2",
+                          "project_id": "org:anchor:tax"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 },
                 {
                   "id": "folder-8587c386",
@@ -1317,23 +1516,28 @@
                           "id": "file-61b9b239",
                           "name": "system-prompt:-filing-deadline-tracker.md",
                           "type": "file",
-                          "fileId": "kb-tax-095"
+                          "fileId": "61b9b239-f4d7-52fe-91c1-f957cd788c40",
+                          "project_id": "org:anchor:tax"
                         },
                         {
                           "id": "file-dbc6c1f4",
                           "name": "role:-filing-deadline-tracker.md",
                           "type": "file",
-                          "fileId": "kb-tax-096"
+                          "fileId": "dbc6c1f4-842f-52cf-af9e-c592b999b7df",
+                          "project_id": "org:anchor:tax"
                         },
                         {
                           "id": "file-d1704ac6",
                           "name": "skill:-filing-deadline-tracker.md",
                           "type": "file",
-                          "fileId": "kb-tax-097"
+                          "fileId": "d1704ac6-08df-53ee-a4c5-c10b8ed2f003",
+                          "project_id": "org:anchor:tax"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 },
                 {
                   "id": "folder-b4bd604f",
@@ -1349,25 +1553,31 @@
                           "id": "file-7e7984dc",
                           "name": "system-prompt:-tp-documentation-assistant.md",
                           "type": "file",
-                          "fileId": "kb-tax-101"
+                          "fileId": "7e7984dc-0597-50f0-8493-7a909fdee6cc",
+                          "project_id": "org:anchor:tax"
                         },
                         {
                           "id": "file-2798f490",
                           "name": "role:-tp-documentation-assistant.md",
                           "type": "file",
-                          "fileId": "kb-tax-102"
+                          "fileId": "2798f490-dc2a-56cc-8e0c-8b6b0d466478",
+                          "project_id": "org:anchor:tax"
                         },
                         {
                           "id": "file-35b2037d",
                           "name": "skill:-tp-documentation-assistant.md",
                           "type": "file",
-                          "fileId": "kb-tax-103"
+                          "fileId": "35b2037d-5b83-56bb-9e21-5dbfcaecf859",
+                          "project_id": "org:anchor:tax"
                         }
-                      ]
+                      ],
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:tax"
             },
             {
               "id": "folder-7d793e4c",
@@ -1383,9 +1593,11 @@
                       "id": "file-84ca7e25",
                       "name": "metodika-účtování-leasingu-dle-čús.md",
                       "type": "file",
-                      "fileId": "kb-tax-039"
+                      "fileId": "84ca7e25-cc7c-59df-93a5-c58537ead2f9",
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 },
                 {
                   "id": "folder-9b7b00de",
@@ -1396,23 +1608,28 @@
                       "id": "file-6b55d492",
                       "name": "příručka-dph-pro-finanční-transakce.md",
                       "type": "file",
-                      "fileId": "kb-tax-033"
+                      "fileId": "6b55d492-e930-5942-8252-632fae6f0ebd",
+                      "project_id": "org:anchor:tax"
                     },
                     {
                       "id": "file-a331a829",
                       "name": "faq:-elektronické-podání-přes-epo.md",
                       "type": "file",
-                      "fileId": "kb-tax-037"
+                      "fileId": "a331a829-f4ee-5197-a287-0440d9b9174e",
+                      "project_id": "org:anchor:tax"
                     },
                     {
                       "id": "file-89cdb7d4",
                       "name": "politika-daňového-řízení-a-archivace.md",
                       "type": "file",
-                      "fileId": "kb-tax-038"
+                      "fileId": "89cdb7d4-735d-5bbc-984b-241c81bf5ab2",
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:tax"
             },
             {
               "id": "folder-5d12cbc7",
@@ -1428,9 +1645,11 @@
                       "id": "file-64e7ca54",
                       "name": "sop:-zpracování-záloh-na-daň-z-příjmů.md",
                       "type": "file",
-                      "fileId": "kb-tax-041"
+                      "fileId": "64e7ca54-be29-5cdc-b2c7-20170ea1af92",
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 },
                 {
                   "id": "folder-a751e1e1",
@@ -1441,15 +1660,18 @@
                       "id": "file-52948688",
                       "name": "sop:-měsíční-dph-kontrola-a-podání.md",
                       "type": "file",
-                      "fileId": "kb-tax-034"
+                      "fileId": "52948688-12e6-57e7-a490-f855c9d3fed7",
+                      "project_id": "org:anchor:tax"
                     },
                     {
                       "id": "file-c8139cd3",
                       "name": "runbook:-roční-daň-z-příjmů-po.md",
                       "type": "file",
-                      "fileId": "kb-tax-035"
+                      "fileId": "c8139cd3-33b9-5a32-b362-19aa797e5a1f",
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 },
                 {
                   "id": "folder-51b0fdf5",
@@ -1460,11 +1682,14 @@
                       "id": "file-19649b6f",
                       "name": "runbook:-kontrola-od-finanční-správy.md",
                       "type": "file",
-                      "fileId": "kb-tax-040"
+                      "fileId": "19649b6f-a591-5b67-9676-f868b2df4481",
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:tax"
             },
             {
               "id": "folder-2e0a5ab2",
@@ -1480,9 +1705,11 @@
                       "id": "file-a1d4ab58",
                       "name": "šablona-transfer-pricing-dokumentace.md",
                       "type": "file",
-                      "fileId": "kb-tax-036"
+                      "fileId": "a1d4ab58-342c-5cbe-8b5a-88bdd5bdbf08",
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 },
                 {
                   "id": "folder-2cc7f0d1",
@@ -1493,13 +1720,17 @@
                       "id": "file-cb269f21",
                       "name": "šablona-potvrzení-pro-zahraniční-zdanění.md",
                       "type": "file",
-                      "fileId": "kb-tax-042"
+                      "fileId": "cb269f21-522c-5054-88a4-c72b1ea87ca7",
+                      "project_id": "org:anchor:tax"
                     }
-                  ]
+                  ],
+                  "project_id": "org:anchor:tax"
                 }
-              ]
+              ],
+              "project_id": "org:anchor:tax"
             }
-          ]
+          ],
+          "project_id": "org:anchor:tax"
         }
       ]
     }

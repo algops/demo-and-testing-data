@@ -1,0 +1,154 @@
+{
+  "data": [
+    {
+      "adr": "ADR-001 Adopt event-driven architecture",
+      "id": "66a3ce24-0fa6-559c-8661-d21799f643a1",
+      "domain_id": "it",
+      "data": {
+        "title": "ADR-001 Adopt event-driven architecture",
+        "author": "Operations",
+        "category": "governance",
+        "date": "2023-10-27",
+        "id": "ADR-0001",
+        "linked_incidents": "IT linked incidents — ADR-001 Adopt event-driven architecture",
+        "status": "under_review",
+        "superseded_by": "IT superseded by — ADR-001 Adopt event-driven architecture"
+      }
+    },
+    {
+      "adr": "ADR-015 Use gRPC for inter-service communication",
+      "id": "ee8eb546-bf28-5055-818d-b34e61c86f26",
+      "domain_id": "it",
+      "data": {
+        "title": "ADR-015 Use gRPC for inter-service communication",
+        "author": "Risk & Compliance",
+        "category": "governance",
+        "date": "2024-02-25",
+        "id": "ADR-0002",
+        "linked_incidents": "IT linked incidents — ADR-015 Use gRPC for inter-service commu",
+        "status": "draft",
+        "superseded_by": "IT superseded by — ADR-015 Use gRPC for inter-service commu"
+      }
+    },
+    {
+      "adr": "ADR-007 Use MongoDB for session storage",
+      "id": "5fe83e40-f5df-5499-9862-4fef56f61310",
+      "domain_id": "it",
+      "data": {
+        "title": "ADR-007 Use MongoDB for session storage",
+        "author": "People",
+        "category": "operational",
+        "date": "2023-11-14",
+        "id": "ADR-0003",
+        "linked_incidents": "IT linked incidents — ADR-007 Use MongoDB for session storage",
+        "status": "expired",
+        "superseded_by": "IT superseded by — ADR-007 Use MongoDB for session storage"
+      }
+    },
+    {
+      "adr": "ADR-001 Adopt event-driven architecture v2",
+      "id": "350b86d6-d252-5472-a6c4-70a72aed8133",
+      "domain_id": "it",
+      "data": {
+        "title": "ADR-001 Adopt event-driven architecture v2",
+        "author": "Legal",
+        "category": "compliance",
+        "date": "2024-04-23",
+        "id": "ADR-0004",
+        "linked_incidents": "IT linked incidents — ADR-001 Adopt event-driven architecture ",
+        "status": "active",
+        "superseded_by": "IT superseded by — ADR-001 Adopt event-driven architecture "
+      }
+    },
+    {
+      "adr": "ADR-015 Use gRPC for inter-service communication — updated",
+      "id": "0a940e00-17df-5bbb-bc0a-813dadc8674a",
+      "domain_id": "it",
+      "data": {
+        "title": "ADR-015 Use gRPC for inter-service communication — updated",
+        "author": "Operations",
+        "category": "technical",
+        "date": "2023-12-25",
+        "id": "ADR-0005",
+        "linked_incidents": "IT linked incidents — ADR-015 Use gRPC for inter-service commu",
+        "status": "archived",
+        "superseded_by": "IT superseded by — ADR-015 Use gRPC for inter-service commu"
+      }
+    },
+    {
+      "adr": "ADR-007 Use MongoDB for session storage #6",
+      "id": "05f1f34a-3d33-5f32-8fba-108bc7e4289a",
+      "domain_id": "it",
+      "data": {
+        "title": "ADR-007 Use MongoDB for session storage #6",
+        "author": "Operations",
+        "category": "technical",
+        "date": "2024-02-29",
+        "id": "ADR-0006",
+        "linked_incidents": "IT linked incidents — ADR-007 Use MongoDB for session storage ",
+        "status": "draft",
+        "superseded_by": "IT superseded by — ADR-007 Use MongoDB for session storage "
+      }
+    },
+    {
+      "adr": "ADR-001 Adopt event-driven architecture",
+      "id": "7f4cdcd4-35cc-5627-9788-7b076556028c",
+      "domain_id": "it",
+      "data": {
+        "title": "ADR-001 Adopt event-driven architecture",
+        "author": "Engineering",
+        "category": "operational",
+        "date": "2023-06-05",
+        "id": "ADR-0007",
+        "linked_incidents": "IT linked incidents — ADR-001 Adopt event-driven architecture",
+        "status": "under_review",
+        "superseded_by": "IT superseded by — ADR-001 Adopt event-driven architecture"
+      }
+    },
+    {
+      "adr": "ADR-015 Use gRPC for inter-service communication",
+      "id": "7a008db3-2efa-5b4d-b690-b155bc1e853f",
+      "domain_id": "it",
+      "data": {
+        "title": "ADR-015 Use gRPC for inter-service communication",
+        "author": "Engineering",
+        "category": "operational",
+        "date": "2024-04-30",
+        "id": "ADR-0008",
+        "linked_incidents": "IT linked incidents — ADR-015 Use gRPC for inter-service commu",
+        "status": "expired",
+        "superseded_by": "IT superseded by — ADR-015 Use gRPC for inter-service commu"
+      }
+    },
+    {
+      "adr": "ADR-001 Adopt event-driven architecture (FY2024)",
+      "id": "9bde68f9-b090-53d4-8804-38f9aee603cc",
+      "domain_id": "it",
+      "data": {
+        "title": "ADR-001 Adopt event-driven architecture (FY2024)",
+        "author": "Finance",
+        "category": "technical",
+        "date": "2023-08-21",
+        "id": "ADR-0009",
+        "linked_incidents": "IT linked incidents — ADR-001 Adopt event-driven architecture ",
+        "status": "archived",
+        "superseded_by": "IT superseded by — ADR-001 Adopt event-driven architecture "
+      }
+    },
+    {
+      "adr": "ADR-015 Use gRPC for inter-service communication v2",
+      "id": "282b1041-a054-5ec5-8297-8319c3c1c885",
+      "domain_id": "it",
+      "data": {
+        "title": "ADR-015 Use gRPC for inter-service communication v2",
+        "author": "Operations",
+        "category": "compliance",
+        "date": "2024-08-02",
+        "id": "ADR-0010",
+        "linked_incidents": "IT linked incidents — ADR-015 Use gRPC for inter-service commu",
+        "status": "expired",
+        "superseded_by": "IT superseded by — ADR-015 Use gRPC for inter-service commu"
+      }
+    }
+  ]
+}

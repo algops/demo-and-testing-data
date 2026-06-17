@@ -1,0 +1,496 @@
+{
+  "data": [
+    {
+      "training": "BOZP vstupní školení",
+      "id": "e67b20c4-0404-5562-a830-875671debdaa",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP vstupní školení",
+        "code": "TRAI-001",
+        "type": "financial",
+        "mandatory": false,
+        "frequency": "daily",
+        "duration_hours": 10,
+        "provider": "SendGrid",
+        "certification": "HR certification — BOZP vstupní školení",
+        "evidence_system": "HR evidence system — BOZP vstupní školení",
+        "compliance_rate_pct": 84,
+        "rel:TRACKS_COMPLIANCE:evidence_type": "medium",
+        "rel:TRACKS_COMPLIANCE:audit_ready": "high"
+      }
+    },
+    {
+      "training": "BOZP periodické — výroba",
+      "id": "9bbfea1f-61f3-5c42-89c0-0e73a7028f3d",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — výroba",
+        "code": "TRAI-002",
+        "type": "technical",
+        "mandatory": true,
+        "frequency": "annual",
+        "duration_hours": 2,
+        "provider": "SendGrid",
+        "certification": "HR certification — BOZP periodické — výroba",
+        "evidence_system": "HR evidence system — BOZP periodické — výroba",
+        "compliance_rate_pct": 47
+      }
+    },
+    {
+      "training": "BOZP periodické — admin",
+      "id": "ce8f1aeb-89b2-5c32-8863-d5902d7cc67d",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — admin",
+        "code": "TRAI-003",
+        "type": "governance",
+        "mandatory": false,
+        "frequency": "monthly",
+        "duration_hours": 2,
+        "provider": "Auth0",
+        "certification": "HR certification — BOZP periodické — admin",
+        "evidence_system": "HR evidence system — BOZP periodické — admin",
+        "compliance_rate_pct": 97
+      }
+    },
+    {
+      "training": "Svařování ČSN EN ISO 9606",
+      "id": "46f05dc0-2d4f-5a83-8fed-e9c039be6c3c",
+      "domain_id": "hr",
+      "data": {
+        "name": "Svařování ČSN EN ISO 9606",
+        "code": "TRAI-004",
+        "type": "financial",
+        "mandatory": false,
+        "frequency": "annual",
+        "duration_hours": 3,
+        "provider": "AWS",
+        "certification": "HR certification — Svařování ČSN EN ISO 9606",
+        "evidence_system": "HR evidence system — Svařování ČSN EN ISO 9606",
+        "compliance_rate_pct": 60,
+        "rel:PART_OF_ONBOARDING:day_in_onboarding": "medium",
+        "rel:PART_OF_ONBOARDING:sequence_order": "low"
+      }
+    },
+    {
+      "training": "Leadership program",
+      "id": "95914481-bb4d-537e-b76b-537b64db0892",
+      "domain_id": "hr",
+      "data": {
+        "name": "Leadership program",
+        "code": "TRAI-005",
+        "type": "technical",
+        "mandatory": true,
+        "frequency": "monthly",
+        "duration_hours": 136,
+        "provider": "Cloudflare",
+        "certification": "HR certification — Leadership program",
+        "evidence_system": "HR evidence system — Leadership program",
+        "compliance_rate_pct": 57
+      }
+    },
+    {
+      "training": "BOZP vstupní školení #6",
+      "id": "98daa7da-7a2a-51bd-a50b-25d185f28f9f",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP vstupní školení #6",
+        "code": "TRAI-006",
+        "type": "operational",
+        "mandatory": false,
+        "frequency": "monthly",
+        "duration_hours": 40,
+        "provider": "Auth0",
+        "certification": "HR certification — BOZP vstupní školení #6",
+        "evidence_system": "HR evidence system — BOZP vstupní školení #6",
+        "compliance_rate_pct": 33
+      }
+    },
+    {
+      "training": "BOZP periodické — výroba",
+      "id": "2ed99246-efcb-590e-9f64-656fc9cb98ad",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — výroba",
+        "code": "TRAI-007",
+        "type": "technical",
+        "mandatory": false,
+        "frequency": "annual",
+        "duration_hours": 77,
+        "provider": "Auth0",
+        "certification": "HR certification — BOZP periodické — výroba",
+        "evidence_system": "HR evidence system — BOZP periodické — výroba",
+        "compliance_rate_pct": 59,
+        "rel:REQUIRED_FOR:mandatory": true,
+        "rel:REQUIRED_FOR:within_days_of_start": "46",
+        "rel:REQUIRED_FOR:recertification_months": "low"
+      }
+    },
+    {
+      "training": "BOZP periodické — admin (Brno)",
+      "id": "4abee5bc-8dfd-5752-9f91-65cfbac54b49",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — admin (Brno)",
+        "code": "TRAI-008",
+        "type": "financial",
+        "mandatory": false,
+        "frequency": "monthly",
+        "duration_hours": 113,
+        "provider": "SendGrid",
+        "certification": "HR certification — BOZP periodické — admin (Brno)",
+        "evidence_system": "HR evidence system — BOZP periodické — admin (Brno)",
+        "compliance_rate_pct": 25,
+        "rel:PART_OF_ONBOARDING:day_in_onboarding": "high",
+        "rel:PART_OF_ONBOARDING:sequence_order": "medium"
+      }
+    },
+    {
+      "training": "Svařování ČSN EN ISO 9606 (FY2024)",
+      "id": "50f4671a-1655-5da9-9929-54e35788955c",
+      "domain_id": "hr",
+      "data": {
+        "name": "Svařování ČSN EN ISO 9606 (FY2024)",
+        "code": "TRAI-009",
+        "type": "financial",
+        "mandatory": false,
+        "frequency": "weekly",
+        "duration_hours": 2,
+        "provider": "Auth0",
+        "certification": "HR certification — Svařování ČSN EN ISO 9606 (FY2024)",
+        "evidence_system": "HR evidence system — Svařování ČSN EN ISO 9606 (FY2024)",
+        "compliance_rate_pct": 95
+      }
+    },
+    {
+      "training": "Leadership program v2",
+      "id": "f206d28c-535e-58f2-b0d9-923e7227f538",
+      "domain_id": "hr",
+      "data": {
+        "name": "Leadership program v2",
+        "code": "TRAI-010",
+        "type": "financial",
+        "mandatory": true,
+        "frequency": "quarterly",
+        "duration_hours": 73,
+        "provider": "AWS",
+        "certification": "HR certification — Leadership program v2",
+        "evidence_system": "HR evidence system — Leadership program v2",
+        "compliance_rate_pct": 22
+      }
+    },
+    {
+      "training": "BOZP vstupní školení — updated",
+      "id": "3eca55c6-c716-55d6-bdd1-d5a55acb12b1",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP vstupní školení — updated",
+        "code": "TRAI-011",
+        "type": "technical",
+        "mandatory": false,
+        "frequency": "annual",
+        "duration_hours": 9,
+        "provider": "Cloudflare",
+        "certification": "HR certification — BOZP vstupní školení — updated",
+        "evidence_system": "HR evidence system — BOZP vstupní školení — updated",
+        "compliance_rate_pct": 90
+      }
+    },
+    {
+      "training": "BOZP periodické — výroba #12",
+      "id": "2b8e4c6c-ce74-5144-82d1-650bbb8fbefa",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — výroba #12",
+        "code": "TRAI-012",
+        "type": "financial",
+        "mandatory": false,
+        "frequency": "annual",
+        "duration_hours": 31,
+        "provider": "SendGrid",
+        "certification": "HR certification — BOZP periodické — výroba #12",
+        "evidence_system": "HR evidence system — BOZP periodické — výroba #12",
+        "compliance_rate_pct": 67,
+        "rel:REQUIRED_FOR:mandatory": false,
+        "rel:REQUIRED_FOR:within_days_of_start": "51",
+        "rel:REQUIRED_FOR:recertification_months": "high",
+        "rel:PART_OF_ONBOARDING:day_in_onboarding": "medium",
+        "rel:PART_OF_ONBOARDING:sequence_order": "high"
+      }
+    },
+    {
+      "training": "BOZP periodické — admin",
+      "id": "aa99a4de-3fed-571a-b637-209606cc37d7",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — admin",
+        "code": "TRAI-013",
+        "type": "technical",
+        "mandatory": true,
+        "frequency": "annual",
+        "duration_hours": 103,
+        "provider": "SendGrid",
+        "certification": "HR certification — BOZP periodické — admin",
+        "evidence_system": "HR evidence system — BOZP periodické — admin",
+        "compliance_rate_pct": 21
+      }
+    },
+    {
+      "training": "Svařování ČSN EN ISO 9606 (Brno)",
+      "id": "2ba2c71a-079d-512c-b774-45b0eb33d638",
+      "domain_id": "hr",
+      "data": {
+        "name": "Svařování ČSN EN ISO 9606 (Brno)",
+        "code": "TRAI-014",
+        "type": "operational",
+        "mandatory": true,
+        "frequency": "monthly",
+        "duration_hours": 33,
+        "provider": "Cloudflare",
+        "certification": "HR certification — Svařování ČSN EN ISO 9606 (Brno)",
+        "evidence_system": "HR evidence system — Svařování ČSN EN ISO 9606 (Brno)",
+        "compliance_rate_pct": 49
+      }
+    },
+    {
+      "training": "Leadership program (FY2024)",
+      "id": "924a31f6-ba51-5c60-9f07-a6f5e8462fc3",
+      "domain_id": "hr",
+      "data": {
+        "name": "Leadership program (FY2024)",
+        "code": "TRAI-015",
+        "type": "operational",
+        "mandatory": true,
+        "frequency": "monthly",
+        "duration_hours": 174,
+        "provider": "Auth0",
+        "certification": "HR certification — Leadership program (FY2024)",
+        "evidence_system": "HR evidence system — Leadership program (FY2024)",
+        "compliance_rate_pct": 59
+      }
+    },
+    {
+      "training": "BOZP vstupní školení v2",
+      "id": "c12787fb-a5ec-5be1-ae6e-7b691cd4e67b",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP vstupní školení v2",
+        "code": "TRAI-016",
+        "type": "operational",
+        "mandatory": false,
+        "frequency": "weekly",
+        "duration_hours": 75,
+        "provider": "Auth0",
+        "certification": "HR certification — BOZP vstupní školení v2",
+        "evidence_system": "HR evidence system — BOZP vstupní školení v2",
+        "compliance_rate_pct": 67
+      }
+    },
+    {
+      "training": "BOZP periodické — výroba — updated",
+      "id": "359c5186-c0f9-5b18-9063-257d27f2fa22",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — výroba — updated",
+        "code": "TRAI-017",
+        "type": "operational",
+        "mandatory": false,
+        "frequency": "quarterly",
+        "duration_hours": 159,
+        "provider": "Cloudflare",
+        "certification": "HR certification — BOZP periodické — výroba — updated",
+        "evidence_system": "HR evidence system — BOZP periodické — výroba — updated",
+        "compliance_rate_pct": 98,
+        "rel:REQUIRED_FOR:mandatory": true,
+        "rel:REQUIRED_FOR:within_days_of_start": "20",
+        "rel:REQUIRED_FOR:recertification_months": "low"
+      }
+    },
+    {
+      "training": "BOZP periodické — admin #18",
+      "id": "f4e0ab82-df9b-5e52-ad06-c64651020d40",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — admin #18",
+        "code": "TRAI-018",
+        "type": "financial",
+        "mandatory": true,
+        "frequency": "annual",
+        "duration_hours": 30,
+        "provider": "Auth0",
+        "certification": "HR certification — BOZP periodické — admin #18",
+        "evidence_system": "HR evidence system — BOZP periodické — admin #18",
+        "compliance_rate_pct": 94
+      }
+    },
+    {
+      "training": "Svařování ČSN EN ISO 9606",
+      "id": "9b0e3025-6d67-599d-ba6d-58c6d10e9d94",
+      "domain_id": "hr",
+      "data": {
+        "name": "Svařování ČSN EN ISO 9606",
+        "code": "TRAI-019",
+        "type": "financial",
+        "mandatory": false,
+        "frequency": "quarterly",
+        "duration_hours": 122,
+        "provider": "AWS",
+        "certification": "HR certification — Svařování ČSN EN ISO 9606",
+        "evidence_system": "HR evidence system — Svařování ČSN EN ISO 9606",
+        "compliance_rate_pct": 94,
+        "rel:REQUIRED_FOR:mandatory": true,
+        "rel:REQUIRED_FOR:within_days_of_start": "5",
+        "rel:REQUIRED_FOR:recertification_months": "medium"
+      }
+    },
+    {
+      "training": "Leadership program (Brno)",
+      "id": "e08b00e1-4151-5bed-980f-b35ee5b898e5",
+      "domain_id": "hr",
+      "data": {
+        "name": "Leadership program (Brno)",
+        "code": "TRAI-020",
+        "type": "financial",
+        "mandatory": true,
+        "frequency": "daily",
+        "duration_hours": 162,
+        "provider": "Cloudflare",
+        "certification": "HR certification — Leadership program (Brno)",
+        "evidence_system": "HR evidence system — Leadership program (Brno)",
+        "compliance_rate_pct": 34
+      }
+    },
+    {
+      "training": "BOZP vstupní školení (FY2024)",
+      "id": "8a6cea5c-cd7d-5284-92e1-4f2b9b736d62",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP vstupní školení (FY2024)",
+        "code": "TRAI-021",
+        "type": "operational",
+        "mandatory": true,
+        "frequency": "weekly",
+        "duration_hours": 10,
+        "provider": "Auth0",
+        "certification": "HR certification — BOZP vstupní školení (FY2024)",
+        "evidence_system": "HR evidence system — BOZP vstupní školení (FY2024)",
+        "compliance_rate_pct": 29,
+        "rel:TRACKS_COMPLIANCE:evidence_type": "medium",
+        "rel:TRACKS_COMPLIANCE:audit_ready": "low"
+      }
+    },
+    {
+      "training": "BOZP periodické — výroba v2",
+      "id": "a5f54973-1ee6-5ed6-99e9-62450bb3a2dd",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — výroba v2",
+        "code": "TRAI-022",
+        "type": "financial",
+        "mandatory": false,
+        "frequency": "monthly",
+        "duration_hours": 158,
+        "provider": "Cloudflare",
+        "certification": "HR certification — BOZP periodické — výroba v2",
+        "evidence_system": "HR evidence system — BOZP periodické — výroba v2",
+        "compliance_rate_pct": 16,
+        "rel:PART_OF_ONBOARDING:day_in_onboarding": "medium",
+        "rel:PART_OF_ONBOARDING:sequence_order": "low"
+      }
+    },
+    {
+      "training": "BOZP periodické — admin — updated",
+      "id": "92c6e3ac-201d-5353-bb65-9bea0aadaacb",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — admin — updated",
+        "code": "TRAI-023",
+        "type": "operational",
+        "mandatory": false,
+        "frequency": "weekly",
+        "duration_hours": 135,
+        "provider": "Auth0",
+        "certification": "HR certification — BOZP periodické — admin — updated",
+        "evidence_system": "HR evidence system — BOZP periodické — admin — updated",
+        "compliance_rate_pct": 94,
+        "rel:REQUIRED_FOR:mandatory": false,
+        "rel:REQUIRED_FOR:within_days_of_start": "53",
+        "rel:REQUIRED_FOR:recertification_months": "high",
+        "rel:PART_OF_ONBOARDING:day_in_onboarding": "low",
+        "rel:PART_OF_ONBOARDING:sequence_order": "medium",
+        "rel:TRACKS_COMPLIANCE:evidence_type": "high",
+        "rel:TRACKS_COMPLIANCE:audit_ready": "medium"
+      }
+    },
+    {
+      "training": "Svařování ČSN EN ISO 9606 #24",
+      "id": "9417fa1d-82bb-501e-bce1-9f65cd9a6639",
+      "domain_id": "hr",
+      "data": {
+        "name": "Svařování ČSN EN ISO 9606 #24",
+        "code": "TRAI-024",
+        "type": "financial",
+        "mandatory": true,
+        "frequency": "annual",
+        "duration_hours": 110,
+        "provider": "SendGrid",
+        "certification": "HR certification — Svařování ČSN EN ISO 9606 #24",
+        "evidence_system": "HR evidence system — Svařování ČSN EN ISO 9606 #24",
+        "compliance_rate_pct": 12
+      }
+    },
+    {
+      "training": "Leadership program",
+      "id": "21f7fea4-0e67-5179-b75c-e4aff0dc8262",
+      "domain_id": "hr",
+      "data": {
+        "name": "Leadership program",
+        "code": "TRAI-025",
+        "type": "technical",
+        "mandatory": true,
+        "frequency": "annual",
+        "duration_hours": 29,
+        "provider": "Auth0",
+        "certification": "HR certification — Leadership program",
+        "evidence_system": "HR evidence system — Leadership program",
+        "compliance_rate_pct": 51,
+        "rel:TRACKS_COMPLIANCE:evidence_type": "low",
+        "rel:TRACKS_COMPLIANCE:audit_ready": "high"
+      }
+    },
+    {
+      "training": "BOZP vstupní školení (Brno)",
+      "id": "2a92d94d-cd72-586c-a7cd-0f59f1713026",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP vstupní školení (Brno)",
+        "code": "TRAI-026",
+        "type": "governance",
+        "mandatory": false,
+        "frequency": "weekly",
+        "duration_hours": 64,
+        "provider": "Auth0",
+        "certification": "HR certification — BOZP vstupní školení (Brno)",
+        "evidence_system": "HR evidence system — BOZP vstupní školení (Brno)",
+        "compliance_rate_pct": 11
+      }
+    },
+    {
+      "training": "BOZP periodické — výroba (FY2024)",
+      "id": "8dbfc801-39d4-5d56-b758-d63fe25617b8",
+      "domain_id": "hr",
+      "data": {
+        "name": "BOZP periodické — výroba (FY2024)",
+        "code": "TRAI-027",
+        "type": "financial",
+        "mandatory": true,
+        "frequency": "monthly",
+        "duration_hours": 14,
+        "provider": "Auth0",
+        "certification": "HR certification — BOZP periodické — výroba (FY2024)",
+        "evidence_system": "HR evidence system — BOZP periodické — výroba (FY2024)",
+        "compliance_rate_pct": 32
+      }
+    }
+  ]
+}

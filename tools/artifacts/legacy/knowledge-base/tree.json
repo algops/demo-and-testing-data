@@ -1,0 +1,1507 @@
+{
+  "tree": [
+    {
+      "id": "folder-63d3b239",
+      "name": "knowledgebase",
+      "type": "folder",
+      "children": [
+        {
+          "id": "folder-6383aba0",
+          "name": "esg",
+          "type": "folder",
+          "children": [
+            {
+              "id": "folder-085ab623",
+              "name": "agents",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-9048d807",
+                  "name": "audit-finding-remediation-guide",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-320c7be2",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-b047b344",
+                          "name": "system-prompt:-audit-finding-remediation-guide.md",
+                          "type": "file",
+                          "fileId": "kb-esg-062"
+                        },
+                        {
+                          "id": "file-4387f237",
+                          "name": "role:-audit-finding-remediation-guide.md",
+                          "type": "file",
+                          "fileId": "kb-esg-063"
+                        },
+                        {
+                          "id": "file-3fa59a16",
+                          "name": "skill:-audit-finding-remediation-guide.md",
+                          "type": "file",
+                          "fileId": "kb-esg-064"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-d40d7945",
+                  "name": "csrd-gap-disclosure-copilot",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-c2efc567",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-d54b0c6c",
+                          "name": "system-prompt:-csrd-gap-&-disclosure-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-esg-053"
+                        },
+                        {
+                          "id": "file-99468a0d",
+                          "name": "role:-csrd-gap-&-disclosure-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-esg-054"
+                        },
+                        {
+                          "id": "file-c8aa873a",
+                          "name": "skill:-csrd-gap-&-disclosure-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-esg-055"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-b2f7556f",
+                  "name": "supplier-risk-assistant",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-e07bbfca",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-a1cfbf07",
+                          "name": "system-prompt:-supplier-risk-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-esg-059"
+                        },
+                        {
+                          "id": "file-df118d88",
+                          "name": "role:-supplier-risk-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-esg-060"
+                        },
+                        {
+                          "id": "file-1271366e",
+                          "name": "skill:-supplier-risk-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-esg-061"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-c32f28f6",
+                  "name": "taxonomy-alignment-explainer",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-246ab13d",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-bb4e8c89",
+                          "name": "system-prompt:-taxonomy-alignment-explainer.md",
+                          "type": "file",
+                          "fileId": "kb-esg-056"
+                        },
+                        {
+                          "id": "file-a6699ddb",
+                          "name": "role:-taxonomy-alignment-explainer.md",
+                          "type": "file",
+                          "fileId": "kb-esg-057"
+                        },
+                        {
+                          "id": "file-e7554d48",
+                          "name": "skill:-taxonomy-alignment-explainer.md",
+                          "type": "file",
+                          "fileId": "kb-esg-058"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-13908efb",
+              "name": "compliance",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-2d9be334",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-a8e71948",
+                      "name": "politika-udržitelného-financování-v1.md",
+                      "type": "file",
+                      "fileId": "kb-esg-007"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-4d9926c2",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-d2172992",
+                      "name": "politika-životního-prostředí-meridian-pay.md",
+                      "type": "file",
+                      "fileId": "kb-esg-001"
+                    },
+                    {
+                      "id": "file-75d9a2da",
+                      "name": "příručka-csrd-a-esrs-pro-fy2024.md",
+                      "type": "file",
+                      "fileId": "kb-esg-002"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-69e11a16",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-5d33ada9",
+                      "name": "metodika-výpočtu-taxonomy-alignment-kpi.md",
+                      "type": "file",
+                      "fileId": "kb-esg-009"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-e0656d12",
+              "name": "engineering",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-67fcf1c7",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-71f32394",
+                      "name": "faq:-eu-taxonomy-a-dnsh-kritéria.md",
+                      "type": "file",
+                      "fileId": "kb-esg-006"
+                    },
+                    {
+                      "id": "file-a2f2ad20",
+                      "name": "adr:-architektura-esg-datové-platformy.md",
+                      "type": "file",
+                      "fileId": "kb-esg-010"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-30e8e81c",
+              "name": "operations",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-6d6e80b1",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-7065843e",
+                      "name": "runbook-sběru-emisních-dat-scope-1–3.md",
+                      "type": "file",
+                      "fileId": "kb-esg-003"
+                    },
+                    {
+                      "id": "file-70c375d1",
+                      "name": "sop:-double-materiality-assessment.md",
+                      "type": "file",
+                      "fileId": "kb-esg-004"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-74bf554a",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-e547fd1b",
+                      "name": "runbook:-csddd-due-diligence-dodavatelů.md",
+                      "type": "file",
+                      "fileId": "kb-esg-008"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-203b68de",
+              "name": "templates",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-d3e9f735",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-85d86123",
+                      "name": "šablona-esg-dotazníku-pro-dodavatele.md",
+                      "type": "file",
+                      "fileId": "kb-esg-005"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "folder-c09b3cab",
+          "name": "hr",
+          "type": "folder",
+          "children": [
+            {
+              "id": "folder-c2aed1da",
+              "name": "agents",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-823c002b",
+                  "name": "benefits-eligibility-guide",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-77b56705",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-0fcdeda5",
+                          "name": "system-prompt:-benefits-eligibility-guide.md",
+                          "type": "file",
+                          "fileId": "kb-hr-119"
+                        },
+                        {
+                          "id": "file-6b84de50",
+                          "name": "role:-benefits-eligibility-guide.md",
+                          "type": "file",
+                          "fileId": "kb-hr-120"
+                        },
+                        {
+                          "id": "file-ef5603bc",
+                          "name": "skill:-benefits-eligibility-guide.md",
+                          "type": "file",
+                          "fileId": "kb-hr-121"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-fcd0fa14",
+                  "name": "leave-absence-navigator",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-234e7b4b",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-a6baadd9",
+                          "name": "system-prompt:-leave/absence-navigator.md",
+                          "type": "file",
+                          "fileId": "kb-hr-110"
+                        },
+                        {
+                          "id": "file-953c981a",
+                          "name": "role:-leave/absence-navigator.md",
+                          "type": "file",
+                          "fileId": "kb-hr-111"
+                        },
+                        {
+                          "id": "file-2b3df690",
+                          "name": "skill:-leave/absence-navigator.md",
+                          "type": "file",
+                          "fileId": "kb-hr-112"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-9f9418d2",
+                  "name": "onboarding-checklist-assistant",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-2a4edba7",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-e68e79c5",
+                          "name": "system-prompt:-onboarding-checklist-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-hr-113"
+                        },
+                        {
+                          "id": "file-9582f128",
+                          "name": "role:-onboarding-checklist-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-hr-114"
+                        },
+                        {
+                          "id": "file-7c431dad",
+                          "name": "skill:-onboarding-checklist-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-hr-115"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-4dcae91b",
+                  "name": "sop-policy-copilot",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-d29472e5",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-8bdbcb31",
+                          "name": "system-prompt:-sop-&-policy-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-hr-107"
+                        },
+                        {
+                          "id": "file-2bc08f5b",
+                          "name": "role:-sop-&-policy-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-hr-108"
+                        },
+                        {
+                          "id": "file-dfb1ebac",
+                          "name": "skill:-sop-&-policy-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-hr-109"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-3943e748",
+                  "name": "training-compliance-reporter",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-d21744f8",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-df00c942",
+                          "name": "system-prompt:-training-compliance-reporter.md",
+                          "type": "file",
+                          "fileId": "kb-hr-116"
+                        },
+                        {
+                          "id": "file-b74585a0",
+                          "name": "role:-training-compliance-reporter.md",
+                          "type": "file",
+                          "fileId": "kb-hr-117"
+                        },
+                        {
+                          "id": "file-824c642a",
+                          "name": "skill:-training-compliance-reporter.md",
+                          "type": "file",
+                          "fileId": "kb-hr-118"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-321cdebb",
+              "name": "compliance",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-850a78df",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-fe3fbb91",
+                      "name": "politika-home-office-v1.md",
+                      "type": "file",
+                      "fileId": "kb-hr-049"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-20ca9dde",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-8abbfdec",
+                      "name": "politika-pracovněprávních-vztahů.md",
+                      "type": "file",
+                      "fileId": "kb-hr-043"
+                    },
+                    {
+                      "id": "file-9ca9caf6",
+                      "name": "příručka-bozp-a-povinná-školení.md",
+                      "type": "file",
+                      "fileId": "kb-hr-048"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-e67b9f72",
+              "name": "operations",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-3e6c4216",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-cb43e8e4",
+                      "name": "runbook:-roční-hodnocení-výkonu.md",
+                      "type": "file",
+                      "fileId": "kb-hr-051"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-89944655",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-e7ce206b",
+                      "name": "sop:-nástup-nového-zaměstnance.md",
+                      "type": "file",
+                      "fileId": "kb-hr-044"
+                    },
+                    {
+                      "id": "file-f918ae31",
+                      "name": "runbook:-řízení-absence-a-dovolené.md",
+                      "type": "file",
+                      "fileId": "kb-hr-045"
+                    },
+                    {
+                      "id": "file-04510fb3",
+                      "name": "faq:-benefity-a-sick-days.md",
+                      "type": "file",
+                      "fileId": "kb-hr-047"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-cb1fea18",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-b15dfb36",
+                      "name": "sop:-offboarding-a-předání-přístupů.md",
+                      "type": "file",
+                      "fileId": "kb-hr-050"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-58c1ad81",
+              "name": "templates",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-f5e729d6",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-bb08413d",
+                      "name": "šablona-pracovní-smlouvy-—-hq.md",
+                      "type": "file",
+                      "fileId": "kb-hr-046"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-5d8accb4",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-ffad1ca3",
+                      "name": "šablona-interního-přesunu.md",
+                      "type": "file",
+                      "fileId": "kb-hr-052"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "folder-23faf8db",
+          "name": "it",
+          "type": "folder",
+          "children": [
+            {
+              "id": "folder-c5de39e4",
+              "name": "agents",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-791a2625",
+                  "name": "agentic-engineering-kb-builder",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-461d1278",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-f3729be6",
+                          "name": "system-prompt:-agentic-engineering-kb-builder.md",
+                          "type": "file",
+                          "fileId": "kb-it-065"
+                        },
+                        {
+                          "id": "file-2a6d7fe7",
+                          "name": "role:-agentic-engineering-kb-builder.md",
+                          "type": "file",
+                          "fileId": "kb-it-066"
+                        },
+                        {
+                          "id": "file-7c34c7db",
+                          "name": "skill:-agentic-engineering-kb-builder.md",
+                          "type": "file",
+                          "fileId": "kb-it-067"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-8fca1122",
+                  "name": "architecture-adr-q-a",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-142b13f4",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-e4f0c7e3",
+                          "name": "system-prompt:-architecture-&-adr-q&a.md",
+                          "type": "file",
+                          "fileId": "kb-it-074"
+                        },
+                        {
+                          "id": "file-5a28c35c",
+                          "name": "role:-architecture-&-adr-q&a.md",
+                          "type": "file",
+                          "fileId": "kb-it-075"
+                        },
+                        {
+                          "id": "file-b36e0891",
+                          "name": "skill:-architecture-&-adr-q&a.md",
+                          "type": "file",
+                          "fileId": "kb-it-076"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-d36497f4",
+                  "name": "automated-code-review-copilot",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-078aec6b",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-e61092cf",
+                          "name": "system-prompt:-automated-code-review-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-it-068"
+                        },
+                        {
+                          "id": "file-555e9a7d",
+                          "name": "role:-automated-code-review-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-it-069"
+                        },
+                        {
+                          "id": "file-f8491d27",
+                          "name": "skill:-automated-code-review-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-it-070"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-df6ea4cf",
+                  "name": "incident-runbook-assistant",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-b69c795f",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-fa4322db",
+                          "name": "system-prompt:-incident/runbook-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-it-071"
+                        },
+                        {
+                          "id": "file-f1a89c3b",
+                          "name": "role:-incident/runbook-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-it-072"
+                        },
+                        {
+                          "id": "file-41949ec6",
+                          "name": "skill:-incident/runbook-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-it-073"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-d9b7f0c5",
+                  "name": "pm-tech-comms-assistant",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-7b5c79a1",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-8ac4901b",
+                          "name": "system-prompt:-pm/tech-comms-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-it-077"
+                        },
+                        {
+                          "id": "file-9b3e90a0",
+                          "name": "role:-pm/tech-comms-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-it-078"
+                        },
+                        {
+                          "id": "file-ffce6975",
+                          "name": "skill:-pm/tech-comms-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-it-079"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-1cab5f1e",
+              "name": "compliance",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-bc48d533",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-9c90c37c",
+                      "name": "politika-bezpečnosti-vývoje-(secure-sdlc).md",
+                      "type": "file",
+                      "fileId": "kb-it-014"
+                    },
+                    {
+                      "id": "file-f81b1b3b",
+                      "name": "příručka-snyk-a-dependency-scanning.md",
+                      "type": "file",
+                      "fileId": "kb-it-021"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-e71e1af6",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-9133a21e",
+                      "name": "politika-přístupu-k-produkčním-systémům.md",
+                      "type": "file",
+                      "fileId": "kb-it-022"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-be884b75",
+              "name": "engineering",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-74c84f37",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-8628d88b",
+                      "name": "adr-012:-event-driven-integrace-s-core-banking.md",
+                      "type": "file",
+                      "fileId": "kb-it-019"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-7d71d2e2",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-7eec0910",
+                      "name": "adr-001:-mikroservisní-architektura-platební-brány.md",
+                      "type": "file",
+                      "fileId": "kb-it-011"
+                    },
+                    {
+                      "id": "file-3cd7e38c",
+                      "name": "příručka-observability-—-datadog-a-slo.md",
+                      "type": "file",
+                      "fileId": "kb-it-015"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-fa1884ba",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-a1d63b8b",
+                      "name": "faq:-gitlab-ci/cd-a-release-train.md",
+                      "type": "file",
+                      "fileId": "kb-it-017"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-89a304fd",
+              "name": "operations",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-715880d0",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-506369a9",
+                      "name": "runbook:-rollback-produkčního-release.md",
+                      "type": "file",
+                      "fileId": "kb-it-018"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-48cf1b20",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-8ed2b8b7",
+                      "name": "runbook-incident-response-p1/p2.md",
+                      "type": "file",
+                      "fileId": "kb-it-012"
+                    },
+                    {
+                      "id": "file-df928676",
+                      "name": "sop:-code-review-a-merge-do-main.md",
+                      "type": "file",
+                      "fileId": "kb-it-013"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-99acb621",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-12fc1013",
+                      "name": "sop:-on-call-rotace-a-eskalace.md",
+                      "type": "file",
+                      "fileId": "kb-it-020"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-59e120c4",
+              "name": "templates",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-c70c2e72",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-453da0f0",
+                      "name": "šablona-rfc-pro-změny-infrastruktury.md",
+                      "type": "file",
+                      "fileId": "kb-it-016"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "folder-61872c8b",
+          "name": "legal",
+          "type": "folder",
+          "children": [
+            {
+              "id": "folder-d457d11f",
+              "name": "agents",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-a135d28e",
+                  "name": "conflict-check-helper",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-8e24a470",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-b5aef682",
+                          "name": "system-prompt:-conflict-check-helper.md",
+                          "type": "file",
+                          "fileId": "kb-legal-089"
+                        },
+                        {
+                          "id": "file-0a2bcdf7",
+                          "name": "role:-conflict-check-helper.md",
+                          "type": "file",
+                          "fileId": "kb-legal-090"
+                        },
+                        {
+                          "id": "file-3ef6f393",
+                          "name": "skill:-conflict-check-helper.md",
+                          "type": "file",
+                          "fileId": "kb-legal-091"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-096f2e13",
+                  "name": "contract-template-finder",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-0b1a3fb3",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-1592bd51",
+                          "name": "system-prompt:-contract/template-finder.md",
+                          "type": "file",
+                          "fileId": "kb-legal-083"
+                        },
+                        {
+                          "id": "file-208363f6",
+                          "name": "role:-contract/template-finder.md",
+                          "type": "file",
+                          "fileId": "kb-legal-084"
+                        },
+                        {
+                          "id": "file-01a07a54",
+                          "name": "skill:-contract/template-finder.md",
+                          "type": "file",
+                          "fileId": "kb-legal-085"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-d8ba8546",
+                  "name": "dd-progress-assistant",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-d1cc8e2a",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-f4d3f264",
+                          "name": "system-prompt:-dd-progress-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-legal-086"
+                        },
+                        {
+                          "id": "file-d6734b2b",
+                          "name": "role:-dd-progress-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-legal-087"
+                        },
+                        {
+                          "id": "file-73b2eed4",
+                          "name": "skill:-dd-progress-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-legal-088"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-bec57bb8",
+                  "name": "in-house-know-how-copilot",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-4964c2fc",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-b18d8ab6",
+                          "name": "system-prompt:-in-house-know-how-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-legal-080"
+                        },
+                        {
+                          "id": "file-8a6d1e37",
+                          "name": "role:-in-house-know-how-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-legal-081"
+                        },
+                        {
+                          "id": "file-8b2cc296",
+                          "name": "skill:-in-house-know-how-copilot.md",
+                          "type": "file",
+                          "fileId": "kb-legal-082"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-7c64d08f",
+                  "name": "legislative-update-summarizer",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-22697552",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-5414df5c",
+                          "name": "system-prompt:-legislative-update-summarizer.md",
+                          "type": "file",
+                          "fileId": "kb-legal-092"
+                        },
+                        {
+                          "id": "file-03bcb433",
+                          "name": "role:-legislative-update-summarizer.md",
+                          "type": "file",
+                          "fileId": "kb-legal-093"
+                        },
+                        {
+                          "id": "file-4b037c89",
+                          "name": "skill:-legislative-update-summarizer.md",
+                          "type": "file",
+                          "fileId": "kb-legal-094"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-94219f6c",
+              "name": "compliance",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-4202b390",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-da19cb64",
+                      "name": "politika-schvalování-smluv-nad-500-tis.-kč.md",
+                      "type": "file",
+                      "fileId": "kb-legal-030"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-9c4c3ac1",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-acb44d20",
+                      "name": "politika-compliance-a-whistleblowingu.md",
+                      "type": "file",
+                      "fileId": "kb-legal-023"
+                    },
+                    {
+                      "id": "file-2141b64c",
+                      "name": "příručka-gdpr-pro-smluvní-vztahy.md",
+                      "type": "file",
+                      "fileId": "kb-legal-026"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-89a22669",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-214378e9",
+                      "name": "přehled-legislativních-změn-q1-2025.md",
+                      "type": "file",
+                      "fileId": "kb-legal-031"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-562d7b1f",
+              "name": "operations",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-89f7def5",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-9bc66e87",
+                      "name": "sop:-conflict-check-před-novým-mandatem.md",
+                      "type": "file",
+                      "fileId": "kb-legal-025"
+                    },
+                    {
+                      "id": "file-e645174a",
+                      "name": "runbook:-due-diligence-—-fáze-a-checklist.md",
+                      "type": "file",
+                      "fileId": "kb-legal-027"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-79e5da16",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-f3ac7159",
+                      "name": "runbook:-redakce-citlivých-údajů-ve-spisech.md",
+                      "type": "file",
+                      "fileId": "kb-legal-032"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-e3b31b7b",
+              "name": "templates",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-1293ad1d",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-0829e11b",
+                      "name": "šablona-smlouvy-o-dílo-—-it-služby.md",
+                      "type": "file",
+                      "fileId": "kb-legal-029"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-adc85368",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-3062af73",
+                      "name": "šablona-nda-—-standardní-ujednání.md",
+                      "type": "file",
+                      "fileId": "kb-legal-024"
+                    },
+                    {
+                      "id": "file-8ef43dd8",
+                      "name": "faq:-imanage-a-správa-spisů.md",
+                      "type": "file",
+                      "fileId": "kb-legal-028"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "folder-2d8d871d",
+          "name": "tax",
+          "type": "folder",
+          "children": [
+            {
+              "id": "folder-5b38f877",
+              "name": "agents",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-1c812284",
+                  "name": "account-tax-treatment-q-a",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-093f4f7a",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-7ad74555",
+                          "name": "system-prompt:-account-tax-treatment-q&a.md",
+                          "type": "file",
+                          "fileId": "kb-tax-098"
+                        },
+                        {
+                          "id": "file-8fa3583b",
+                          "name": "role:-account-tax-treatment-q&a.md",
+                          "type": "file",
+                          "fileId": "kb-tax-099"
+                        },
+                        {
+                          "id": "file-e98339d7",
+                          "name": "skill:-account-tax-treatment-q&a.md",
+                          "type": "file",
+                          "fileId": "kb-tax-100"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-c3d6f3c1",
+                  "name": "dph-sazba-change-explainer",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-5372efa7",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-5a28a4f9",
+                          "name": "system-prompt:-dph/sazba-change-explainer.md",
+                          "type": "file",
+                          "fileId": "kb-tax-104"
+                        },
+                        {
+                          "id": "file-b6c8f0fd",
+                          "name": "role:-dph/sazba-change-explainer.md",
+                          "type": "file",
+                          "fileId": "kb-tax-105"
+                        },
+                        {
+                          "id": "file-830f3672",
+                          "name": "skill:-dph/sazba-change-explainer.md",
+                          "type": "file",
+                          "fileId": "kb-tax-106"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-8587c386",
+                  "name": "filing-deadline-tracker",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-8e56adcf",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-61b9b239",
+                          "name": "system-prompt:-filing-deadline-tracker.md",
+                          "type": "file",
+                          "fileId": "kb-tax-095"
+                        },
+                        {
+                          "id": "file-dbc6c1f4",
+                          "name": "role:-filing-deadline-tracker.md",
+                          "type": "file",
+                          "fileId": "kb-tax-096"
+                        },
+                        {
+                          "id": "file-d1704ac6",
+                          "name": "skill:-filing-deadline-tracker.md",
+                          "type": "file",
+                          "fileId": "kb-tax-097"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-b4bd604f",
+                  "name": "tp-documentation-assistant",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "folder-7ea3bf05",
+                      "name": "core",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "id": "file-7e7984dc",
+                          "name": "system-prompt:-tp-documentation-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-tax-101"
+                        },
+                        {
+                          "id": "file-2798f490",
+                          "name": "role:-tp-documentation-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-tax-102"
+                        },
+                        {
+                          "id": "file-35b2037d",
+                          "name": "skill:-tp-documentation-assistant.md",
+                          "type": "file",
+                          "fileId": "kb-tax-103"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-7d793e4c",
+              "name": "compliance",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-100bd4b2",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-84ca7e25",
+                      "name": "metodika-účtování-leasingu-dle-čús.md",
+                      "type": "file",
+                      "fileId": "kb-tax-039"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-9b7b00de",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-6b55d492",
+                      "name": "příručka-dph-pro-finanční-transakce.md",
+                      "type": "file",
+                      "fileId": "kb-tax-033"
+                    },
+                    {
+                      "id": "file-a331a829",
+                      "name": "faq:-elektronické-podání-přes-epo.md",
+                      "type": "file",
+                      "fileId": "kb-tax-037"
+                    },
+                    {
+                      "id": "file-89cdb7d4",
+                      "name": "politika-daňového-řízení-a-archivace.md",
+                      "type": "file",
+                      "fileId": "kb-tax-038"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-5d12cbc7",
+              "name": "operations",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-ecd844c1",
+                  "name": "archive",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-64e7ca54",
+                      "name": "sop:-zpracování-záloh-na-daň-z-příjmů.md",
+                      "type": "file",
+                      "fileId": "kb-tax-041"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-a751e1e1",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-52948688",
+                      "name": "sop:-měsíční-dph-kontrola-a-podání.md",
+                      "type": "file",
+                      "fileId": "kb-tax-034"
+                    },
+                    {
+                      "id": "file-c8139cd3",
+                      "name": "runbook:-roční-daň-z-příjmů-po.md",
+                      "type": "file",
+                      "fileId": "kb-tax-035"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-51b0fdf5",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-19649b6f",
+                      "name": "runbook:-kontrola-od-finanční-správy.md",
+                      "type": "file",
+                      "fileId": "kb-tax-040"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "folder-2e0a5ab2",
+              "name": "templates",
+              "type": "folder",
+              "children": [
+                {
+                  "id": "folder-ed46d4c9",
+                  "name": "core",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-a1d4ab58",
+                      "name": "šablona-transfer-pricing-dokumentace.md",
+                      "type": "file",
+                      "fileId": "kb-tax-036"
+                    }
+                  ]
+                },
+                {
+                  "id": "folder-2cc7f0d1",
+                  "name": "drafts",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "id": "file-cb269f21",
+                      "name": "šablona-potvrzení-pro-zahraniční-zdanění.md",
+                      "type": "file",
+                      "fileId": "kb-tax-042"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

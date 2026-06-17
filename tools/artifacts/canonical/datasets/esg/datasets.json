@@ -1,0 +1,28 @@
+{
+  "datasets": [
+    {
+      "id": "36acf39d-79ce-56ff-afe3-be98bfb078e3",
+      "name": "esg_metric_facts",
+      "org_id": "org:anchor",
+      "domain": "esg",
+      "object_type_id": null,
+      "workflow_id": null,
+      "objects": [],
+      "row_count": 0,
+      "min_rows_target": 80,
+      "generated_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "4718dd26-b763-571a-a180-601560584595",
+      "name": "esg_supplier_risk",
+      "org_id": "org:anchor",
+      "domain": "esg",
+      "object_type_id": null,
+      "workflow_id": null,
+      "objects": [],
+      "row_count": 0,
+      "min_rows_target": 60,
+      "generated_at": "2025-06-01T12:00:00Z"
+    }
+  ]
+}

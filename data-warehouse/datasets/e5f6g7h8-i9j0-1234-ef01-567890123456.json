@@ -1,0 +1,3848 @@
+{
+  "data": [
+    {
+      "jobpost": "Senior Software Engineer",
+      "data": {
+        "type": "Contract",
+        "department": "IT",
+        "location": "San Francisco, CA",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-04T04:35:15.209Z",
+        "expiryDate": "2025-08-20T18:59:48.631Z",
+        "applications": 19,
+        "hiringManager": "Sarah Johnson",
+        "experience": "2-7 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Product Manager",
+      "data": {
+        "type": "Part-time",
+        "department": "Sales",
+        "location": "New York, NY",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-29T08:53:00.800Z",
+        "expiryDate": "2025-08-20T16:57:03.246Z",
+        "applications": 44,
+        "hiringManager": "Michael Chen",
+        "experience": "3-8 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Data Scientist",
+      "data": {
+        "type": "Part-time",
+        "department": "Sales",
+        "location": "Boston, MA",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-27T04:30:20.578Z",
+        "expiryDate": "2025-08-16T12:21:23.915Z",
+        "applications": 26,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "4-9 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Marketing Specialist",
+      "data": {
+        "type": "Internship",
+        "department": "Operations",
+        "location": "Chicago, IL",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-04T12:38:49.072Z",
+        "expiryDate": "2025-08-09T19:38:49.559Z",
+        "applications": 15,
+        "hiringManager": "David Kim",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Security Engineer",
+      "data": {
+        "type": "Full-time",
+        "department": "Design",
+        "location": "Austin, TX",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-12T07:54:04.214Z",
+        "expiryDate": "2025-08-19T03:03:30.126Z",
+        "applications": 65,
+        "hiringManager": "Alex Thompson",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "UX Designer",
+      "data": {
+        "type": "Internship",
+        "department": "Design",
+        "location": "Seattle, WA",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-09T04:35:40.454Z",
+        "expiryDate": "2025-08-15T11:33:26.398Z",
+        "applications": 37,
+        "hiringManager": "Maria Garcia",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "DevOps Engineer",
+      "data": {
+        "type": "Part-time",
+        "department": "Operations",
+        "location": "Los Angeles, CA",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-07-26T01:07:54.864Z",
+        "expiryDate": "2025-08-21T00:53:38.816Z",
+        "applications": 57,
+        "hiringManager": "Sarah Johnson",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Business Analyst",
+      "data": {
+        "type": "Internship",
+        "department": "Finance",
+        "location": "Denver, CO",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-25T12:40:18.786Z",
+        "expiryDate": "2025-08-18T05:20:37.510Z",
+        "applications": 50,
+        "hiringManager": "Michael Chen",
+        "experience": "9-14 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Sales Representative",
+      "data": {
+        "type": "Contract",
+        "department": "Finance",
+        "location": "Atlanta, GA",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-29T10:47:18.262Z",
+        "expiryDate": "2025-08-27T04:24:31.790Z",
+        "applications": 75,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "2-7 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Content Writer",
+      "data": {
+        "type": "Contract",
+        "department": "Sales",
+        "location": "Miami, FL",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-26T16:26:24.913Z",
+        "expiryDate": "2025-08-11T00:14:53.820Z",
+        "applications": 82,
+        "hiringManager": "David Kim",
+        "experience": "3-8 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "QA Engineer",
+      "data": {
+        "type": "Full-time",
+        "department": "Marketing",
+        "location": "Portland, OR",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-21T08:53:34.735Z",
+        "expiryDate": "2025-08-10T18:23:49.424Z",
+        "applications": 65,
+        "hiringManager": "Alex Thompson",
+        "experience": "4-9 years",
+        "skills": [
+          "SEO",
+          "Content Marketing",
+          "Social Media",
+          "Analytics"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Project Manager",
+      "data": {
+        "type": "Freelance",
+        "department": "Sales",
+        "location": "Dallas, TX",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-05T22:29:42.445Z",
+        "expiryDate": "2025-08-15T22:43:46.216Z",
+        "applications": 30,
+        "hiringManager": "Maria Garcia",
+        "experience": "5-10 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Financial Analyst",
+      "data": {
+        "type": "Full-time",
+        "department": "IT",
+        "location": "San Francisco, CA",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-25T09:13:36.431Z",
+        "expiryDate": "2025-08-29T11:32:40.347Z",
+        "applications": 56,
+        "hiringManager": "Sarah Johnson",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "HR Specialist",
+      "data": {
+        "type": "Full-time",
+        "department": "IT",
+        "location": "New York, NY",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-10T13:06:06.055Z",
+        "expiryDate": "2025-08-12T19:10:57.841Z",
+        "applications": 59,
+        "hiringManager": "Michael Chen",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Legal Counsel",
+      "data": {
+        "type": "Freelance",
+        "department": "HR",
+        "location": "Boston, MA",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-19T02:09:44.730Z",
+        "expiryDate": "2025-09-01T09:28:29.959Z",
+        "applications": 30,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Operations Manager",
+      "data": {
+        "type": "Contract",
+        "department": "Sales",
+        "location": "Chicago, IL",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-08-01T05:21:32.611Z",
+        "expiryDate": "2025-08-18T17:48:29.491Z",
+        "applications": 38,
+        "hiringManager": "David Kim",
+        "experience": "9-14 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Customer Success Manager",
+      "data": {
+        "type": "Part-time",
+        "department": "Sales",
+        "location": "Austin, TX",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-07-08T14:09:54.129Z",
+        "expiryDate": "2025-08-24T02:53:39.584Z",
+        "applications": 68,
+        "hiringManager": "Alex Thompson",
+        "experience": "2-7 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Research Scientist",
+      "data": {
+        "type": "Contract",
+        "department": "Sales",
+        "location": "Seattle, WA",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-18T20:44:22.616Z",
+        "expiryDate": "2025-08-20T23:55:51.693Z",
+        "applications": 88,
+        "hiringManager": "Maria Garcia",
+        "experience": "3-8 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Graphic Designer",
+      "data": {
+        "type": "Contract",
+        "department": "Legal",
+        "location": "Los Angeles, CA",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-10T03:26:53.618Z",
+        "expiryDate": "2025-08-06T14:38:55.570Z",
+        "applications": 11,
+        "hiringManager": "Sarah Johnson",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "System Administrator",
+      "data": {
+        "type": "Contract",
+        "department": "Engineering",
+        "location": "Denver, CO",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-17T10:05:33.631Z",
+        "expiryDate": "2025-08-23T04:41:49.315Z",
+        "applications": 17,
+        "hiringManager": "Michael Chen",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "Java",
+          "Kubernetes",
+          "Docker"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Frontend Developer",
+      "data": {
+        "type": "Internship",
+        "department": "Security",
+        "location": "Atlanta, GA",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-16T15:17:08.106Z",
+        "expiryDate": "2025-08-25T20:20:38.031Z",
+        "applications": 17,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Backend Developer",
+      "data": {
+        "type": "Part-time",
+        "department": "Design",
+        "location": "Miami, FL",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-31T19:11:20.096Z",
+        "expiryDate": "2025-08-07T17:42:04.312Z",
+        "applications": 22,
+        "hiringManager": "David Kim",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Full Stack Developer",
+      "data": {
+        "type": "Part-time",
+        "department": "Product",
+        "location": "Portland, OR",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-07T00:15:45.508Z",
+        "expiryDate": "2025-08-30T21:06:51.399Z",
+        "applications": 28,
+        "hiringManager": "Alex Thompson",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Mobile Developer",
+      "data": {
+        "type": "Freelance",
+        "department": "Product",
+        "location": "Dallas, TX",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-30T01:17:14.247Z",
+        "expiryDate": "2025-08-03T18:09:23.415Z",
+        "applications": 47,
+        "hiringManager": "Maria Garcia",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Data Engineer",
+      "data": {
+        "type": "Full-time",
+        "department": "Data Science",
+        "location": "San Francisco, CA",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-20T15:46:22.151Z",
+        "expiryDate": "2025-08-20T04:56:21.546Z",
+        "applications": 71,
+        "hiringManager": "Sarah Johnson",
+        "experience": "2-7 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Machine Learning Engineer",
+      "data": {
+        "type": "Full-time",
+        "department": "Product",
+        "location": "New York, NY",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-26T05:47:33.535Z",
+        "expiryDate": "2025-08-07T01:06:55.922Z",
+        "applications": 15,
+        "hiringManager": "Michael Chen",
+        "experience": "3-8 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Cloud Architect",
+      "data": {
+        "type": "Internship",
+        "department": "Operations",
+        "location": "Boston, MA",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-07-20T05:14:34.568Z",
+        "expiryDate": "2025-08-17T07:18:41.877Z",
+        "applications": 69,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Network Engineer",
+      "data": {
+        "type": "Freelance",
+        "department": "IT",
+        "location": "Chicago, IL",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-20T07:30:31.422Z",
+        "expiryDate": "2025-08-06T04:21:04.890Z",
+        "applications": 6,
+        "hiringManager": "David Kim",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Database Administrator",
+      "data": {
+        "type": "Part-time",
+        "department": "Marketing",
+        "location": "Austin, TX",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-25T04:18:54.320Z",
+        "expiryDate": "2025-09-01T13:11:30.747Z",
+        "applications": 99,
+        "hiringManager": "Alex Thompson",
+        "experience": "6-11 years",
+        "skills": [
+          "SEO",
+          "Content Marketing",
+          "Social Media",
+          "Analytics"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "UI Designer",
+      "data": {
+        "type": "Contract",
+        "department": "Finance",
+        "location": "Seattle, WA",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-29T21:44:22.201Z",
+        "expiryDate": "2025-08-12T19:40:38.659Z",
+        "applications": 79,
+        "hiringManager": "Maria Garcia",
+        "experience": "7-12 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Product Designer",
+      "data": {
+        "type": "Full-time",
+        "department": "Design",
+        "location": "Los Angeles, CA",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-14T01:43:38.215Z",
+        "expiryDate": "2025-08-27T04:23:40.039Z",
+        "applications": 57,
+        "hiringManager": "Sarah Johnson",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Growth Hacker",
+      "data": {
+        "type": "Internship",
+        "department": "Security",
+        "location": "Denver, CO",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-14T14:48:45.213Z",
+        "expiryDate": "2025-08-23T09:12:14.088Z",
+        "applications": 49,
+        "hiringManager": "Michael Chen",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "SEO Specialist",
+      "data": {
+        "type": "Full-time",
+        "department": "Legal",
+        "location": "Atlanta, GA",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-08T21:32:54.057Z",
+        "expiryDate": "2025-08-05T04:43:50.299Z",
+        "applications": 28,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "2-7 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Social Media Manager",
+      "data": {
+        "type": "Contract",
+        "department": "Product",
+        "location": "Miami, FL",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-29T08:50:05.925Z",
+        "expiryDate": "2025-08-30T01:58:10.486Z",
+        "applications": 71,
+        "hiringManager": "David Kim",
+        "experience": "3-8 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Brand Manager",
+      "data": {
+        "type": "Part-time",
+        "department": "IT",
+        "location": "Portland, OR",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-23T23:16:47.231Z",
+        "expiryDate": "2025-08-06T03:58:19.222Z",
+        "applications": 80,
+        "hiringManager": "Alex Thompson",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Event Coordinator",
+      "data": {
+        "type": "Contract",
+        "department": "Security",
+        "location": "Dallas, TX",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-11T00:22:59.693Z",
+        "expiryDate": "2025-08-09T23:02:25.461Z",
+        "applications": 84,
+        "hiringManager": "Maria Garcia",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Public Relations Manager",
+      "data": {
+        "type": "Freelance",
+        "department": "HR",
+        "location": "San Francisco, CA",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-07-25T00:40:15.919Z",
+        "expiryDate": "2025-08-06T01:46:56.588Z",
+        "applications": 8,
+        "hiringManager": "Sarah Johnson",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Copywriter",
+      "data": {
+        "type": "Freelance",
+        "department": "Engineering",
+        "location": "New York, NY",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-05T15:26:46.023Z",
+        "expiryDate": "2025-08-28T06:10:12.601Z",
+        "applications": 23,
+        "hiringManager": "Michael Chen",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "Java",
+          "Kubernetes",
+          "Docker"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Editor",
+      "data": {
+        "type": "Contract",
+        "department": "Security",
+        "location": "Boston, MA",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-20T15:17:53.779Z",
+        "expiryDate": "2025-08-19T03:38:43.355Z",
+        "applications": 84,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Translator",
+      "data": {
+        "type": "Part-time",
+        "department": "HR",
+        "location": "Chicago, IL",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-06T09:50:01.199Z",
+        "expiryDate": "2025-08-24T17:21:59.561Z",
+        "applications": 67,
+        "hiringManager": "David Kim",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Interpreter",
+      "data": {
+        "type": "Freelance",
+        "department": "Data Science",
+        "location": "Austin, TX",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-21T13:39:37.379Z",
+        "expiryDate": "2025-08-16T04:37:56.704Z",
+        "applications": 81,
+        "hiringManager": "Alex Thompson",
+        "experience": "2-7 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Teacher",
+      "data": {
+        "type": "Contract",
+        "department": "Design",
+        "location": "Seattle, WA",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-20T16:47:04.890Z",
+        "expiryDate": "2025-08-28T17:59:09.905Z",
+        "applications": 41,
+        "hiringManager": "Maria Garcia",
+        "experience": "3-8 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Professor",
+      "data": {
+        "type": "Internship",
+        "department": "HR",
+        "location": "Los Angeles, CA",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-18T03:56:47.868Z",
+        "expiryDate": "2025-08-24T08:28:11.386Z",
+        "applications": 19,
+        "hiringManager": "Sarah Johnson",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Researcher",
+      "data": {
+        "type": "Full-time",
+        "department": "HR",
+        "location": "Denver, CO",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-19T05:02:55.721Z",
+        "expiryDate": "2025-08-18T17:33:20.057Z",
+        "applications": 88,
+        "hiringManager": "Michael Chen",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Consultant",
+      "data": {
+        "type": "Full-time",
+        "department": "Legal",
+        "location": "Atlanta, GA",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-22T20:58:04.383Z",
+        "expiryDate": "2025-08-04T06:51:21.428Z",
+        "applications": 81,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Advisor",
+      "data": {
+        "type": "Part-time",
+        "department": "Product",
+        "location": "Miami, FL",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-15T14:36:28.028Z",
+        "expiryDate": "2025-08-18T15:22:22.626Z",
+        "applications": 17,
+        "hiringManager": "David Kim",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Mentor",
+      "data": {
+        "type": "Internship",
+        "department": "Finance",
+        "location": "Portland, OR",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-07-11T11:36:08.403Z",
+        "expiryDate": "2025-08-26T05:47:09.178Z",
+        "applications": 89,
+        "hiringManager": "Alex Thompson",
+        "experience": "8-13 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Coach",
+      "data": {
+        "type": "Freelance",
+        "department": "Design",
+        "location": "Dallas, TX",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-26T10:04:52.179Z",
+        "expiryDate": "2025-08-26T09:06:17.403Z",
+        "applications": 87,
+        "hiringManager": "Maria Garcia",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Trainer",
+      "data": {
+        "type": "Part-time",
+        "department": "Operations",
+        "location": "San Francisco, CA",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-03T22:44:36.131Z",
+        "expiryDate": "2025-08-03T17:35:37.611Z",
+        "applications": 85,
+        "hiringManager": "Sarah Johnson",
+        "experience": "2-7 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Recruiter",
+      "data": {
+        "type": "Freelance",
+        "department": "Legal",
+        "location": "New York, NY",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-05T10:23:49.911Z",
+        "expiryDate": "2025-08-27T21:24:02.372Z",
+        "applications": 91,
+        "hiringManager": "Michael Chen",
+        "experience": "3-8 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Talent Acquisition Specialist",
+      "data": {
+        "type": "Contract",
+        "department": "IT",
+        "location": "Boston, MA",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-26T09:36:40.404Z",
+        "expiryDate": "2025-08-11T00:50:06.809Z",
+        "applications": 49,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Compensation Analyst",
+      "data": {
+        "type": "Full-time",
+        "department": "IT",
+        "location": "Chicago, IL",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-29T16:28:12.075Z",
+        "expiryDate": "2025-08-25T20:05:37.094Z",
+        "applications": 48,
+        "hiringManager": "David Kim",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Benefits Administrator",
+      "data": {
+        "type": "Internship",
+        "department": "Product",
+        "location": "Austin, TX",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-16T14:27:01.824Z",
+        "expiryDate": "2025-08-25T07:01:31.485Z",
+        "applications": 33,
+        "hiringManager": "Alex Thompson",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Training Coordinator",
+      "data": {
+        "type": "Part-time",
+        "department": "IT",
+        "location": "Seattle, WA",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-12T15:47:37.471Z",
+        "expiryDate": "2025-08-17T21:01:13.341Z",
+        "applications": 96,
+        "hiringManager": "Maria Garcia",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Learning & Development Specialist",
+      "data": {
+        "type": "Part-time",
+        "department": "Data Science",
+        "location": "Los Angeles, CA",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-04T19:12:58.703Z",
+        "expiryDate": "2025-08-04T18:56:02.763Z",
+        "applications": 93,
+        "hiringManager": "Sarah Johnson",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Organizational Development Specialist",
+      "data": {
+        "type": "Freelance",
+        "department": "Engineering",
+        "location": "Denver, CO",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-14T21:14:09.032Z",
+        "expiryDate": "2025-08-03T22:16:35.848Z",
+        "applications": 82,
+        "hiringManager": "Michael Chen",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "Java",
+          "Kubernetes",
+          "Docker"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Change Management Specialist",
+      "data": {
+        "type": "Full-time",
+        "department": "Data Science",
+        "location": "Atlanta, GA",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-07-19T03:07:30.527Z",
+        "expiryDate": "2025-08-27T18:06:32.425Z",
+        "applications": 59,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "2-7 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Diversity & Inclusion Specialist",
+      "data": {
+        "type": "Freelance",
+        "department": "Legal",
+        "location": "Miami, FL",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-20T00:06:52.020Z",
+        "expiryDate": "2025-08-08T02:12:10.837Z",
+        "applications": 19,
+        "hiringManager": "David Kim",
+        "experience": "3-8 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Employee Relations Specialist",
+      "data": {
+        "type": "Freelance",
+        "department": "Operations",
+        "location": "Portland, OR",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-08-02T13:38:06.427Z",
+        "expiryDate": "2025-08-21T21:43:35.897Z",
+        "applications": 59,
+        "hiringManager": "Alex Thompson",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Labor Relations Specialist",
+      "data": {
+        "type": "Internship",
+        "department": "Product",
+        "location": "Dallas, TX",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-27T09:55:44.908Z",
+        "expiryDate": "2025-08-27T13:28:23.551Z",
+        "applications": 24,
+        "hiringManager": "Maria Garcia",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Compliance Specialist",
+      "data": {
+        "type": "Contract",
+        "department": "Marketing",
+        "location": "San Francisco, CA",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-08T17:58:55.983Z",
+        "expiryDate": "2025-08-10T19:32:10.316Z",
+        "applications": 95,
+        "hiringManager": "Sarah Johnson",
+        "experience": "6-11 years",
+        "skills": [
+          "SEO",
+          "Content Marketing",
+          "Social Media",
+          "Analytics"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Risk Manager",
+      "data": {
+        "type": "Internship",
+        "department": "Engineering",
+        "location": "New York, NY",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-19T15:03:12.974Z",
+        "expiryDate": "2025-08-21T12:12:43.074Z",
+        "applications": 72,
+        "hiringManager": "Michael Chen",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "Java",
+          "Kubernetes",
+          "Docker"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Internal Auditor",
+      "data": {
+        "type": "Internship",
+        "department": "Security",
+        "location": "Boston, MA",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-30T09:18:00.383Z",
+        "expiryDate": "2025-08-17T19:27:18.613Z",
+        "applications": 34,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "External Auditor",
+      "data": {
+        "type": "Full-time",
+        "department": "Legal",
+        "location": "Chicago, IL",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-25T04:51:31.595Z",
+        "expiryDate": "2025-08-31T16:56:05.282Z",
+        "applications": 43,
+        "hiringManager": "David Kim",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Tax Specialist",
+      "data": {
+        "type": "Internship",
+        "department": "Sales",
+        "location": "Austin, TX",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-14T06:18:15.269Z",
+        "expiryDate": "2025-08-16T02:35:57.037Z",
+        "applications": 85,
+        "hiringManager": "Alex Thompson",
+        "experience": "2-7 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Budget Analyst",
+      "data": {
+        "type": "Freelance",
+        "department": "Legal",
+        "location": "Seattle, WA",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-07T10:35:55.979Z",
+        "expiryDate": "2025-08-03T12:06:58.057Z",
+        "applications": 69,
+        "hiringManager": "Maria Garcia",
+        "experience": "3-8 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Investment Analyst",
+      "data": {
+        "type": "Freelance",
+        "department": "Marketing",
+        "location": "Los Angeles, CA",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-07-24T08:26:27.877Z",
+        "expiryDate": "2025-08-29T22:05:05.277Z",
+        "applications": 67,
+        "hiringManager": "Sarah Johnson",
+        "experience": "4-9 years",
+        "skills": [
+          "SEO",
+          "Content Marketing",
+          "Social Media",
+          "Analytics"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Portfolio Manager",
+      "data": {
+        "type": "Part-time",
+        "department": "Legal",
+        "location": "Denver, CO",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-04T05:49:57.999Z",
+        "expiryDate": "2025-08-25T02:50:52.073Z",
+        "applications": 39,
+        "hiringManager": "Michael Chen",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Treasury Analyst",
+      "data": {
+        "type": "Contract",
+        "department": "Product",
+        "location": "Atlanta, GA",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-07T19:35:03.045Z",
+        "expiryDate": "2025-08-23T16:26:44.161Z",
+        "applications": 19,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Credit Analyst",
+      "data": {
+        "type": "Full-time",
+        "department": "Legal",
+        "location": "Miami, FL",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-05T17:17:31.960Z",
+        "expiryDate": "2025-09-01T15:57:23.001Z",
+        "applications": 56,
+        "hiringManager": "David Kim",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Loan Officer",
+      "data": {
+        "type": "Internship",
+        "department": "Security",
+        "location": "Portland, OR",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-13T09:35:28.568Z",
+        "expiryDate": "2025-08-29T06:05:04.674Z",
+        "applications": 96,
+        "hiringManager": "Alex Thompson",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Insurance Agent",
+      "data": {
+        "type": "Freelance",
+        "department": "Product",
+        "location": "Dallas, TX",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-26T07:49:01.280Z",
+        "expiryDate": "2025-08-29T19:15:31.223Z",
+        "applications": 21,
+        "hiringManager": "Maria Garcia",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Claims Adjuster",
+      "data": {
+        "type": "Freelance",
+        "department": "Finance",
+        "location": "San Francisco, CA",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-18T05:54:54.536Z",
+        "expiryDate": "2025-08-17T02:29:46.734Z",
+        "applications": 32,
+        "hiringManager": "Sarah Johnson",
+        "experience": "2-7 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Underwriter",
+      "data": {
+        "type": "Internship",
+        "department": "Operations",
+        "location": "New York, NY",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-14T19:26:13.687Z",
+        "expiryDate": "2025-08-09T21:12:18.849Z",
+        "applications": 95,
+        "hiringManager": "Michael Chen",
+        "experience": "3-8 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Actuary",
+      "data": {
+        "type": "Contract",
+        "department": "Finance",
+        "location": "Boston, MA",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-28T01:45:58.138Z",
+        "expiryDate": "2025-08-15T13:53:56.400Z",
+        "applications": 43,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "4-9 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Statistician",
+      "data": {
+        "type": "Contract",
+        "department": "IT",
+        "location": "Chicago, IL",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-28T20:31:50.353Z",
+        "expiryDate": "2025-08-04T16:00:09.522Z",
+        "applications": 46,
+        "hiringManager": "David Kim",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Economist",
+      "data": {
+        "type": "Full-time",
+        "department": "Data Science",
+        "location": "Austin, TX",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-08-02T03:05:35.996Z",
+        "expiryDate": "2025-08-30T16:38:06.875Z",
+        "applications": 18,
+        "hiringManager": "Alex Thompson",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Market Research Analyst",
+      "data": {
+        "type": "Freelance",
+        "department": "Finance",
+        "location": "Seattle, WA",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-04T18:08:21.025Z",
+        "expiryDate": "2025-08-16T16:22:59.134Z",
+        "applications": 78,
+        "hiringManager": "Maria Garcia",
+        "experience": "7-12 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Survey Researcher",
+      "data": {
+        "type": "Full-time",
+        "department": "Operations",
+        "location": "Los Angeles, CA",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-14T18:16:17.812Z",
+        "expiryDate": "2025-08-14T06:49:16.948Z",
+        "applications": 28,
+        "hiringManager": "Sarah Johnson",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Demographer",
+      "data": {
+        "type": "Contract",
+        "department": "Legal",
+        "location": "Denver, CO",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-14T18:42:33.918Z",
+        "expiryDate": "2025-08-11T06:26:24.165Z",
+        "applications": 43,
+        "hiringManager": "Michael Chen",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Geographer",
+      "data": {
+        "type": "Contract",
+        "department": "Engineering",
+        "location": "Atlanta, GA",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-25T09:26:25.577Z",
+        "expiryDate": "2025-08-13T15:17:41.612Z",
+        "applications": 31,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "2-7 years",
+        "skills": [
+          "Python",
+          "Java",
+          "Kubernetes",
+          "Docker"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Cartographer",
+      "data": {
+        "type": "Freelance",
+        "department": "IT",
+        "location": "Miami, FL",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-08-02T12:33:08.737Z",
+        "expiryDate": "2025-09-01T11:14:02.782Z",
+        "applications": 88,
+        "hiringManager": "David Kim",
+        "experience": "3-8 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Urban Planner",
+      "data": {
+        "type": "Contract",
+        "department": "Data Science",
+        "location": "Portland, OR",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-17T22:11:48.523Z",
+        "expiryDate": "2025-08-30T13:18:05.928Z",
+        "applications": 2,
+        "hiringManager": "Alex Thompson",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Environmental Scientist",
+      "data": {
+        "type": "Freelance",
+        "department": "Finance",
+        "location": "Dallas, TX",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-28T17:38:56.718Z",
+        "expiryDate": "2025-08-21T00:24:47.459Z",
+        "applications": 62,
+        "hiringManager": "Maria Garcia",
+        "experience": "5-10 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Conservation Scientist",
+      "data": {
+        "type": "Internship",
+        "department": "Operations",
+        "location": "San Francisco, CA",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-13T12:18:05.757Z",
+        "expiryDate": "2025-08-30T23:15:51.015Z",
+        "applications": 57,
+        "hiringManager": "Sarah Johnson",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Forester",
+      "data": {
+        "type": "Contract",
+        "department": "Sales",
+        "location": "New York, NY",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-25T11:57:37.747Z",
+        "expiryDate": "2025-08-16T17:50:35.508Z",
+        "applications": 21,
+        "hiringManager": "Michael Chen",
+        "experience": "7-12 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Agricultural Scientist",
+      "data": {
+        "type": "Part-time",
+        "department": "Engineering",
+        "location": "Boston, MA",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-07-23T04:19:11.010Z",
+        "expiryDate": "2025-08-26T10:20:56.597Z",
+        "applications": 24,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "Java",
+          "Kubernetes",
+          "Docker"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Food Scientist",
+      "data": {
+        "type": "Full-time",
+        "department": "HR",
+        "location": "Chicago, IL",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-18T18:25:12.302Z",
+        "expiryDate": "2025-08-19T08:47:24.953Z",
+        "applications": 96,
+        "hiringManager": "David Kim",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Animal Scientist",
+      "data": {
+        "type": "Part-time",
+        "department": "Legal",
+        "location": "Austin, TX",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-14T12:42:08.857Z",
+        "expiryDate": "2025-08-26T17:15:04.720Z",
+        "applications": 37,
+        "hiringManager": "Alex Thompson",
+        "experience": "2-7 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Veterinarian",
+      "data": {
+        "type": "Full-time",
+        "department": "Sales",
+        "location": "Seattle, WA",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-05T22:16:31.938Z",
+        "expiryDate": "2025-08-17T05:44:00.522Z",
+        "applications": 27,
+        "hiringManager": "Maria Garcia",
+        "experience": "3-8 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Veterinary Technician",
+      "data": {
+        "type": "Internship",
+        "department": "Operations",
+        "location": "Los Angeles, CA",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-09T14:04:20.508Z",
+        "expiryDate": "2025-08-13T07:25:17.175Z",
+        "applications": 96,
+        "hiringManager": "Sarah Johnson",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Zookeeper",
+      "data": {
+        "type": "Contract",
+        "department": "Design",
+        "location": "Denver, CO",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-22T02:21:01.099Z",
+        "expiryDate": "2025-08-30T02:13:09.715Z",
+        "applications": 79,
+        "hiringManager": "Michael Chen",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Animal Trainer",
+      "data": {
+        "type": "Freelance",
+        "department": "Finance",
+        "location": "Atlanta, GA",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-31T11:22:51.779Z",
+        "expiryDate": "2025-08-12T14:57:48.236Z",
+        "applications": 47,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "6-11 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Pet Groomer",
+      "data": {
+        "type": "Part-time",
+        "department": "HR",
+        "location": "Miami, FL",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-25T22:11:13.244Z",
+        "expiryDate": "2025-08-31T16:15:50.569Z",
+        "applications": 17,
+        "hiringManager": "David Kim",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Pet Sitter",
+      "data": {
+        "type": "Freelance",
+        "department": "Operations",
+        "location": "Portland, OR",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-23T04:44:29.279Z",
+        "expiryDate": "2025-08-21T16:11:54.050Z",
+        "applications": 70,
+        "hiringManager": "Alex Thompson",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Dog Walker",
+      "data": {
+        "type": "Part-time",
+        "department": "Operations",
+        "location": "Dallas, TX",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-22T10:18:36.862Z",
+        "expiryDate": "2025-08-13T03:08:51.136Z",
+        "applications": 24,
+        "hiringManager": "Maria Garcia",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Veterinary Assistant",
+      "data": {
+        "type": "Internship",
+        "department": "IT",
+        "location": "San Francisco, CA",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-07-31T13:53:45.691Z",
+        "expiryDate": "2025-08-10T00:44:06.182Z",
+        "applications": 50,
+        "hiringManager": "Sarah Johnson",
+        "experience": "2-7 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Animal Control Officer",
+      "data": {
+        "type": "Full-time",
+        "department": "Sales",
+        "location": "New York, NY",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-12T15:41:59.026Z",
+        "expiryDate": "2025-08-29T07:06:43.126Z",
+        "applications": 42,
+        "hiringManager": "Michael Chen",
+        "experience": "3-8 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Wildlife Biologist",
+      "data": {
+        "type": "Freelance",
+        "department": "Operations",
+        "location": "Boston, MA",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-24T03:17:38.300Z",
+        "expiryDate": "2025-08-14T11:08:03.446Z",
+        "applications": 34,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Marine Biologist",
+      "data": {
+        "type": "Internship",
+        "department": "IT",
+        "location": "Chicago, IL",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-08-01T08:23:22.494Z",
+        "expiryDate": "2025-08-08T09:11:11.090Z",
+        "applications": 44,
+        "hiringManager": "David Kim",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Botanist",
+      "data": {
+        "type": "Part-time",
+        "department": "Security",
+        "location": "Austin, TX",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-29T21:46:07.469Z",
+        "expiryDate": "2025-08-27T12:38:32.889Z",
+        "applications": 84,
+        "hiringManager": "Alex Thompson",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Microbiologist",
+      "data": {
+        "type": "Contract",
+        "department": "Engineering",
+        "location": "Seattle, WA",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-27T00:54:18.000Z",
+        "expiryDate": "2025-08-03T01:06:44.724Z",
+        "applications": 12,
+        "hiringManager": "Maria Garcia",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "Java",
+          "Kubernetes",
+          "Docker"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Biochemist",
+      "data": {
+        "type": "Contract",
+        "department": "Sales",
+        "location": "Los Angeles, CA",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-17T15:42:36.933Z",
+        "expiryDate": "2025-08-23T16:37:51.599Z",
+        "applications": 36,
+        "hiringManager": "Sarah Johnson",
+        "experience": "8-13 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Biophysicist",
+      "data": {
+        "type": "Internship",
+        "department": "Design",
+        "location": "Denver, CO",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-04T11:18:31.214Z",
+        "expiryDate": "2025-08-07T23:29:23.822Z",
+        "applications": 30,
+        "hiringManager": "Michael Chen",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Molecular Biologist",
+      "data": {
+        "type": "Full-time",
+        "department": "Sales",
+        "location": "Atlanta, GA",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-22T13:24:53.206Z",
+        "expiryDate": "2025-08-16T11:15:02.543Z",
+        "applications": 1,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "2-7 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Geneticist",
+      "data": {
+        "type": "Contract",
+        "department": "Engineering",
+        "location": "Miami, FL",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-22T22:11:17.356Z",
+        "expiryDate": "2025-08-21T02:17:14.022Z",
+        "applications": 3,
+        "hiringManager": "David Kim",
+        "experience": "3-8 years",
+        "skills": [
+          "Python",
+          "Java",
+          "Kubernetes",
+          "Docker"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Immunologist",
+      "data": {
+        "type": "Internship",
+        "department": "HR",
+        "location": "Portland, OR",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-07-20T23:21:04.349Z",
+        "expiryDate": "2025-08-29T07:14:27.247Z",
+        "applications": 63,
+        "hiringManager": "Alex Thompson",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Epidemiologist",
+      "data": {
+        "type": "Freelance",
+        "department": "Operations",
+        "location": "Dallas, TX",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-24T07:52:14.503Z",
+        "expiryDate": "2025-08-11T21:21:46.968Z",
+        "applications": 17,
+        "hiringManager": "Maria Garcia",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Pharmacist",
+      "data": {
+        "type": "Freelance",
+        "department": "HR",
+        "location": "San Francisco, CA",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-24T06:16:38.157Z",
+        "expiryDate": "2025-09-01T11:54:45.985Z",
+        "applications": 58,
+        "hiringManager": "Sarah Johnson",
+        "experience": "6-11 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Pharmacy Technician",
+      "data": {
+        "type": "Contract",
+        "department": "Product",
+        "location": "New York, NY",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-28T18:35:52.241Z",
+        "expiryDate": "2025-08-16T02:56:27.557Z",
+        "applications": 1,
+        "hiringManager": "Michael Chen",
+        "experience": "7-12 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Medical Technologist",
+      "data": {
+        "type": "Internship",
+        "department": "Operations",
+        "location": "Boston, MA",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-20T03:25:04.517Z",
+        "expiryDate": "2025-08-05T02:45:01.752Z",
+        "applications": 14,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Radiologic Technologist",
+      "data": {
+        "type": "Part-time",
+        "department": "Security",
+        "location": "Chicago, IL",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-14T01:09:16.637Z",
+        "expiryDate": "2025-08-27T19:16:16.519Z",
+        "applications": 24,
+        "hiringManager": "David Kim",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Respiratory Therapist",
+      "data": {
+        "type": "Freelance",
+        "department": "Sales",
+        "location": "Austin, TX",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-07T21:57:14.073Z",
+        "expiryDate": "2025-08-21T12:27:07.436Z",
+        "applications": 84,
+        "hiringManager": "Alex Thompson",
+        "experience": "2-7 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "low",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Physical Therapist",
+      "data": {
+        "type": "Full-time",
+        "department": "Legal",
+        "location": "Seattle, WA",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-22T21:13:43.308Z",
+        "expiryDate": "2025-08-20T12:46:23.129Z",
+        "applications": 82,
+        "hiringManager": "Maria Garcia",
+        "experience": "3-8 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Occupational Therapist",
+      "data": {
+        "type": "Full-time",
+        "department": "Data Science",
+        "location": "Los Angeles, CA",
+        "salary": "$100,000 - $170,000",
+        "status": "active",
+        "postedDate": "2025-07-20T14:08:34.551Z",
+        "expiryDate": "2025-08-21T00:57:28.730Z",
+        "applications": 81,
+        "hiringManager": "Sarah Johnson",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Speech-Language Pathologist",
+      "data": {
+        "type": "Contract",
+        "department": "Finance",
+        "location": "Denver, CO",
+        "salary": "$110,000 - $185,000",
+        "status": "active",
+        "postedDate": "2025-07-21T21:08:27.915Z",
+        "expiryDate": "2025-08-10T07:52:54.757Z",
+        "applications": 35,
+        "hiringManager": "Michael Chen",
+        "experience": "5-10 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Audiologist",
+      "data": {
+        "type": "Freelance",
+        "department": "Finance",
+        "location": "Atlanta, GA",
+        "salary": "$120,000 - $200,000",
+        "status": "active",
+        "postedDate": "2025-08-01T15:33:23.832Z",
+        "expiryDate": "2025-08-13T22:52:44.116Z",
+        "applications": 96,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "6-11 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Optometrist",
+      "data": {
+        "type": "Internship",
+        "department": "Sales",
+        "location": "Miami, FL",
+        "salary": "$130,000 - $215,000",
+        "status": "active",
+        "postedDate": "2025-07-11T13:20:53.614Z",
+        "expiryDate": "2025-08-02T20:55:00.229Z",
+        "applications": 10,
+        "hiringManager": "David Kim",
+        "experience": "7-12 years",
+        "skills": [
+          "CRM",
+          "Lead Generation",
+          "Negotiation",
+          "Client Relations"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Financial Services Group"
+      }
+    },
+    {
+      "jobpost": "Dental Hygienist",
+      "data": {
+        "type": "Contract",
+        "department": "IT",
+        "location": "Portland, OR",
+        "salary": "$140,000 - $230,000",
+        "status": "active",
+        "postedDate": "2025-07-30T04:53:02.450Z",
+        "expiryDate": "2025-08-20T21:44:09.977Z",
+        "applications": 46,
+        "hiringManager": "Alex Thompson",
+        "experience": "8-13 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "EduTech Learning"
+      }
+    },
+    {
+      "jobpost": "Dental Assistant",
+      "data": {
+        "type": "Contract",
+        "department": "Legal",
+        "location": "Dallas, TX",
+        "salary": "$150,000 - $245,000",
+        "status": "active",
+        "postedDate": "2025-07-04T10:31:26.726Z",
+        "expiryDate": "2025-08-11T02:17:58.650Z",
+        "applications": 27,
+        "hiringManager": "Maria Garcia",
+        "experience": "9-14 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Cloud Infrastructure Pro"
+      }
+    },
+    {
+      "jobpost": "Medical Assistant",
+      "data": {
+        "type": "Freelance",
+        "department": "IT",
+        "location": "San Francisco, CA",
+        "salary": "$60,000 - $110,000",
+        "status": "active",
+        "postedDate": "2025-07-19T09:14:01.186Z",
+        "expiryDate": "2025-08-20T17:52:14.102Z",
+        "applications": 6,
+        "hiringManager": "Sarah Johnson",
+        "experience": "2-7 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Remote",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "critical",
+        "company": "TechCorp Solutions"
+      }
+    },
+    {
+      "jobpost": "Nursing Assistant",
+      "data": {
+        "type": "Internship",
+        "department": "Finance",
+        "location": "New York, NY",
+        "salary": "$70,000 - $125,000",
+        "status": "active",
+        "postedDate": "2025-07-19T21:45:47.084Z",
+        "expiryDate": "2025-08-19T11:12:31.120Z",
+        "applications": 9,
+        "hiringManager": "Michael Chen",
+        "experience": "3-8 years",
+        "skills": [
+          "Financial Analysis",
+          "Excel",
+          "QuickBooks",
+          "Budgeting"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "high",
+        "company": "Global Retail Inc"
+      }
+    },
+    {
+      "jobpost": "Home Health Aide",
+      "data": {
+        "type": "Contract",
+        "department": "Legal",
+        "location": "Boston, MA",
+        "salary": "$80,000 - $140,000",
+        "status": "active",
+        "postedDate": "2025-07-03T18:39:31.242Z",
+        "expiryDate": "2025-09-01T04:15:49.107Z",
+        "applications": 60,
+        "hiringManager": "Emily Rodriguez",
+        "experience": "4-9 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Bachelor's Degree",
+        "remote": "Hybrid",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "HealthTech Innovations"
+      }
+    },
+    {
+      "jobpost": "Personal Care Aide",
+      "data": {
+        "type": "Internship",
+        "department": "Product",
+        "location": "Chicago, IL",
+        "salary": "$90,000 - $155,000",
+        "status": "active",
+        "postedDate": "2025-07-10T11:22:10.865Z",
+        "expiryDate": "2025-08-12T22:06:31.265Z",
+        "applications": 36,
+        "hiringManager": "David Kim",
+        "experience": "5-10 years",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "education": "Master's Degree",
+        "remote": "On-site",
+        "benefits": [
+          "Health Insurance",
+          "401k",
+          "Stock Options",
+          "Flexible PTO"
+        ],
+        "priority": "medium",
+        "company": "Financial Services Group"
+      }
+    }
+  ]
+}

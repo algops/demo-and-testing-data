@@ -1,0 +1,336 @@
+{
+  "data": [
+    {
+      "policy": "ENV-POL-001 Environmental Policy v3.2",
+      "id": "19b425f0-b2a1-580d-a894-f12d17e6980f",
+      "domain_id": "esg",
+      "data": {
+        "title": "ENV-POL-001 Environmental Policy v3.2",
+        "code": "POLI-001",
+        "version": "v2.3",
+        "owner_department": "Risk & Compliance",
+        "approval_date": "2023-10-03",
+        "next_review_date": "2023-05-19",
+        "status": "expired",
+        "scope": "ENV-POL-001 Environmental Policy v3.2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — ENV-POL-001 Environmental Policy v3.2",
+        "rel:ADDRESSES_TOPIC:coverage_level": "full"
+      }
+    },
+    {
+      "policy": "SOC-POL-003 Diversity & Inclusion Policy v2.0",
+      "id": "d1a0f799-54b5-5545-8684-9c13cac54a69",
+      "domain_id": "esg",
+      "data": {
+        "title": "SOC-POL-003 Diversity & Inclusion Policy v2.0",
+        "code": "POLI-002",
+        "version": "v3.2",
+        "owner_department": "Engineering",
+        "approval_date": "2024-11-11",
+        "next_review_date": "2024-10-27",
+        "status": "draft",
+        "scope": "SOC-POL-003 Diversity & Inclusion Policy v2.0 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — SOC-POL-003 Diversity & Inclusion Policy"
+      }
+    },
+    {
+      "policy": "GOV-POL-001 Anti-corruption Policy v4.0",
+      "id": "fbf8567a-d281-5442-a370-0a781d139457",
+      "domain_id": "esg",
+      "data": {
+        "title": "GOV-POL-001 Anti-corruption Policy v4.0",
+        "code": "POLI-003",
+        "version": "v2.0",
+        "owner_department": "Operations",
+        "approval_date": "2023-09-29",
+        "next_review_date": "2023-04-26",
+        "status": "draft",
+        "scope": "GOV-POL-001 Anti-corruption Policy v4.0 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — GOV-POL-001 Anti-corruption Policy v4.0"
+      }
+    },
+    {
+      "policy": "ENV-POL-001 Environmental Policy v3.2 v2",
+      "id": "dcf8c004-355c-5941-8c9b-9d6a172a95be",
+      "domain_id": "esg",
+      "data": {
+        "title": "ENV-POL-001 Environmental Policy v3.2 v2",
+        "code": "POLI-004",
+        "version": "v1.1",
+        "owner_department": "People",
+        "approval_date": "2024-06-18",
+        "next_review_date": "2024-08-29",
+        "status": "active",
+        "scope": "ENV-POL-001 Environmental Policy v3.2 v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — ENV-POL-001 Environmental Policy v3.2 v2",
+        "rel:MITIGATES:residual_risk_level": "low",
+        "rel:MITIGATES:control_type": "preventive"
+      }
+    },
+    {
+      "policy": "SOC-POL-003 Diversity & Inclusion Policy v2.0 — updated",
+      "id": "ad83e216-ca34-5f14-aea7-0f876e74cef3",
+      "domain_id": "esg",
+      "data": {
+        "title": "SOC-POL-003 Diversity & Inclusion Policy v2.0 — updated",
+        "code": "POLI-005",
+        "version": "v2.0",
+        "owner_department": "ESG",
+        "approval_date": "2023-03-22",
+        "next_review_date": "2023-07-28",
+        "status": "under_review",
+        "scope": "SOC-POL-003 Diversity & Inclusion Policy v2.0 — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — SOC-POL-003 Diversity & Inclusion Policy",
+        "rel:ADDRESSES_TOPIC:coverage_level": "full"
+      }
+    },
+    {
+      "policy": "GOV-POL-001 Anti-corruption Policy v4.0 #6",
+      "id": "113a4611-d2e7-5244-bd5f-ec032537f544",
+      "domain_id": "esg",
+      "data": {
+        "title": "GOV-POL-001 Anti-corruption Policy v4.0 #6",
+        "code": "POLI-006",
+        "version": "v4.3",
+        "owner_department": "Risk & Compliance",
+        "approval_date": "2024-05-27",
+        "next_review_date": "2024-06-13",
+        "status": "archived",
+        "scope": "GOV-POL-001 Anti-corruption Policy v4.0 #6 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — GOV-POL-001 Anti-corruption Policy v4.0 "
+      }
+    },
+    {
+      "policy": "ENV-POL-001 Environmental Policy v3.2",
+      "id": "238c5aaa-3e99-54a9-9794-4bb1ea9101b3",
+      "domain_id": "esg",
+      "data": {
+        "title": "ENV-POL-001 Environmental Policy v3.2",
+        "code": "POLI-007",
+        "version": "v1.1",
+        "owner_department": "Operations",
+        "approval_date": "2023-10-21",
+        "next_review_date": "2023-04-29",
+        "status": "expired",
+        "scope": "ENV-POL-001 Environmental Policy v3.2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — ENV-POL-001 Environmental Policy v3.2"
+      }
+    },
+    {
+      "policy": "SOC-POL-003 Diversity & Inclusion Policy v2.0 (Brno)",
+      "id": "3c92fc4f-734d-5939-901e-a163f2e4b7e7",
+      "domain_id": "esg",
+      "data": {
+        "title": "SOC-POL-003 Diversity & Inclusion Policy v2.0 (Brno)",
+        "code": "POLI-008",
+        "version": "v1.2",
+        "owner_department": "People",
+        "approval_date": "2024-03-31",
+        "next_review_date": "2024-01-19",
+        "status": "under_review",
+        "scope": "SOC-POL-003 Diversity & Inclusion Policy v2.0 (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — SOC-POL-003 Diversity & Inclusion Policy",
+        "rel:MITIGATES:residual_risk_level": "high",
+        "rel:MITIGATES:control_type": "detective"
+      }
+    },
+    {
+      "policy": "GOV-POL-001 Anti-corruption Policy v4.0 (FY2024)",
+      "id": "01a30b9e-31d6-5ba2-8afa-2d7ad981ab40",
+      "domain_id": "esg",
+      "data": {
+        "title": "GOV-POL-001 Anti-corruption Policy v4.0 (FY2024)",
+        "code": "POLI-009",
+        "version": "v4.2",
+        "owner_department": "Operations",
+        "approval_date": "2023-05-29",
+        "next_review_date": "2023-01-20",
+        "status": "active",
+        "scope": "GOV-POL-001 Anti-corruption Policy v4.0 (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — GOV-POL-001 Anti-corruption Policy v4.0 ",
+        "rel:MITIGATES:residual_risk_level": "high",
+        "rel:MITIGATES:control_type": "detective"
+      }
+    },
+    {
+      "policy": "ENV-POL-001 Environmental Policy v3.2 v2",
+      "id": "c919e01e-7578-55c8-b373-1fd1b1df840c",
+      "domain_id": "esg",
+      "data": {
+        "title": "ENV-POL-001 Environmental Policy v3.2 v2",
+        "code": "POLI-010",
+        "version": "v3.9",
+        "owner_department": "ESG",
+        "approval_date": "2024-02-24",
+        "next_review_date": "2024-06-20",
+        "status": "archived",
+        "scope": "ENV-POL-001 Environmental Policy v3.2 v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — ENV-POL-001 Environmental Policy v3.2 v2"
+      }
+    },
+    {
+      "policy": "SOC-POL-003 Diversity & Inclusion Policy v2.0 — updated",
+      "id": "97999e80-6caa-58dc-b0a0-24fcec9ab559",
+      "domain_id": "esg",
+      "data": {
+        "title": "SOC-POL-003 Diversity & Inclusion Policy v2.0 — updated",
+        "code": "POLI-011",
+        "version": "v4.8",
+        "owner_department": "ESG",
+        "approval_date": "2023-09-10",
+        "next_review_date": "2023-03-10",
+        "status": "expired",
+        "scope": "SOC-POL-003 Diversity & Inclusion Policy v2.0 — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — SOC-POL-003 Diversity & Inclusion Policy"
+      }
+    },
+    {
+      "policy": "GOV-POL-001 Anti-corruption Policy v4.0 #12",
+      "id": "0b671761-53dc-5cf2-bcd1-b3b8233806db",
+      "domain_id": "esg",
+      "data": {
+        "title": "GOV-POL-001 Anti-corruption Policy v4.0 #12",
+        "code": "POLI-012",
+        "version": "v4.4",
+        "owner_department": "Finance",
+        "approval_date": "2024-02-27",
+        "next_review_date": "2024-06-18",
+        "status": "draft",
+        "scope": "GOV-POL-001 Anti-corruption Policy v4.0 #12 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — GOV-POL-001 Anti-corruption Policy v4.0 "
+      }
+    },
+    {
+      "policy": "ENV-POL-001 Environmental Policy v3.2",
+      "id": "b453882a-3975-58f2-a868-76d2a96090f5",
+      "domain_id": "esg",
+      "data": {
+        "title": "ENV-POL-001 Environmental Policy v3.2",
+        "code": "POLI-013",
+        "version": "v4.4",
+        "owner_department": "Operations",
+        "approval_date": "2023-04-06",
+        "next_review_date": "2023-01-08",
+        "status": "archived",
+        "scope": "ENV-POL-001 Environmental Policy v3.2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — ENV-POL-001 Environmental Policy v3.2"
+      }
+    },
+    {
+      "policy": "SOC-POL-003 Diversity & Inclusion Policy v2.0 (Brno)",
+      "id": "262b5df1-3c1c-5fe2-be8f-589d2a037e03",
+      "domain_id": "esg",
+      "data": {
+        "title": "SOC-POL-003 Diversity & Inclusion Policy v2.0 (Brno)",
+        "code": "POLI-014",
+        "version": "v3.9",
+        "owner_department": "Operations",
+        "approval_date": "2024-04-08",
+        "next_review_date": "2024-03-30",
+        "status": "expired",
+        "scope": "SOC-POL-003 Diversity & Inclusion Policy v2.0 (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — SOC-POL-003 Diversity & Inclusion Policy"
+      }
+    },
+    {
+      "policy": "GOV-POL-001 Anti-corruption Policy v4.0 (FY2024)",
+      "id": "b3e2c15e-a009-5561-9e01-c5325945939e",
+      "domain_id": "esg",
+      "data": {
+        "title": "GOV-POL-001 Anti-corruption Policy v4.0 (FY2024)",
+        "code": "POLI-015",
+        "version": "v4.6",
+        "owner_department": "ESG",
+        "approval_date": "2023-06-17",
+        "next_review_date": "2023-02-14",
+        "status": "under_review",
+        "scope": "GOV-POL-001 Anti-corruption Policy v4.0 (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — GOV-POL-001 Anti-corruption Policy v4.0 "
+      }
+    },
+    {
+      "policy": "ENV-POL-001 Environmental Policy v3.2 v2",
+      "id": "777b0104-f96f-5add-b490-110904a54f43",
+      "domain_id": "esg",
+      "data": {
+        "title": "ENV-POL-001 Environmental Policy v3.2 v2",
+        "code": "POLI-016",
+        "version": "v1.2",
+        "owner_department": "Finance",
+        "approval_date": "2024-09-01",
+        "next_review_date": "2024-06-14",
+        "status": "draft",
+        "scope": "ENV-POL-001 Environmental Policy v3.2 v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — ENV-POL-001 Environmental Policy v3.2 v2",
+        "rel:ADDRESSES_TOPIC:coverage_level": "partial"
+      }
+    },
+    {
+      "policy": "SOC-POL-003 Diversity & Inclusion Policy v2.0 — updated",
+      "id": "9f55cd18-9848-531a-ad64-ab1c0d2a59c3",
+      "domain_id": "esg",
+      "data": {
+        "title": "SOC-POL-003 Diversity & Inclusion Policy v2.0 — updated",
+        "code": "POLI-017",
+        "version": "v1.4",
+        "owner_department": "People",
+        "approval_date": "2023-05-01",
+        "next_review_date": "2023-08-17",
+        "status": "archived",
+        "scope": "SOC-POL-003 Diversity & Inclusion Policy v2.0 — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — SOC-POL-003 Diversity & Inclusion Policy",
+        "rel:ADDRESSES_TOPIC:coverage_level": "full"
+      }
+    },
+    {
+      "policy": "GOV-POL-001 Anti-corruption Policy v4.0 #18",
+      "id": "9de766ee-20ec-55d5-958c-832ec2c24f69",
+      "domain_id": "esg",
+      "data": {
+        "title": "GOV-POL-001 Anti-corruption Policy v4.0 #18",
+        "code": "POLI-018",
+        "version": "v3.4",
+        "owner_department": "ESG",
+        "approval_date": "2024-10-20",
+        "next_review_date": "2024-01-06",
+        "status": "archived",
+        "scope": "GOV-POL-001 Anti-corruption Policy v4.0 #18 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — GOV-POL-001 Anti-corruption Policy v4.0 ",
+        "rel:MITIGATES:residual_risk_level": "low",
+        "rel:MITIGATES:control_type": "detective"
+      }
+    },
+    {
+      "policy": "ENV-POL-001 Environmental Policy v3.2",
+      "id": "efc64c1f-1e45-5d24-88eb-0befad9ce404",
+      "domain_id": "esg",
+      "data": {
+        "title": "ENV-POL-001 Environmental Policy v3.2",
+        "code": "POLI-019",
+        "version": "v3.3",
+        "owner_department": "Engineering",
+        "approval_date": "2023-12-08",
+        "next_review_date": "2023-03-02",
+        "status": "under_review",
+        "scope": "ENV-POL-001 Environmental Policy v3.2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — ENV-POL-001 Environmental Policy v3.2"
+      }
+    },
+    {
+      "policy": "SOC-POL-003 Diversity & Inclusion Policy v2.0 (Brno)",
+      "id": "ce319cb6-1e8d-5d91-be78-5e54f65b6ef5",
+      "domain_id": "esg",
+      "data": {
+        "title": "SOC-POL-003 Diversity & Inclusion Policy v2.0 (Brno)",
+        "code": "POLI-020",
+        "version": "v3.2",
+        "owner_department": "People",
+        "approval_date": "2024-12-17",
+        "next_review_date": "2024-09-14",
+        "status": "archived",
+        "scope": "SOC-POL-003 Diversity & Inclusion Policy v2.0 (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "related_esrs": "ESG related esrs — SOC-POL-003 Diversity & Inclusion Policy"
+      }
+    }
+  ]
+}

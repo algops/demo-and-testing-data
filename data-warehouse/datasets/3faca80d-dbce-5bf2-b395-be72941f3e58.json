@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "department": "Engineering",
+      "id": "f01c2ea0-9429-50bc-83f4-3d2576fef987",
+      "domain_id": "shared",
+      "data": {}
+    },
+    {
+      "department": "Product",
+      "id": "f061c7be-6b5d-5ed1-9e47-d34de1360ef4",
+      "domain_id": "shared",
+      "data": {}
+    },
+    {
+      "department": "Operations",
+      "id": "a9ccd946-5707-531c-8ef4-227eeae589be",
+      "domain_id": "shared",
+      "data": {}
+    },
+    {
+      "department": "Risk & Compliance",
+      "id": "f924c71e-c911-5438-8294-cca92e1aa2a8",
+      "domain_id": "shared",
+      "data": {}
+    },
+    {
+      "department": "Finance",
+      "id": "86528858-64aa-5026-bbf0-b1eaa2df8f13",
+      "domain_id": "shared",
+      "data": {}
+    },
+    {
+      "department": "People",
+      "id": "69cf57de-7f4d-5ab1-9206-009d070ef401",
+      "domain_id": "shared",
+      "data": {}
+    },
+    {
+      "department": "ESG",
+      "id": "ae274b15-b2f2-5c3a-8a88-1403e0b1cff6",
+      "domain_id": "shared",
+      "data": {}
+    },
+    {
+      "department": "Sales",
+      "id": "2bab3655-7ecb-57ce-bd7b-d71e715e44c7",
+      "domain_id": "shared",
+      "data": {}
+    },
+    {
+      "department": "G&A",
+      "id": "c67dbebf-490b-57e2-8ddc-63298d7e4af8",
+      "domain_id": "shared",
+      "data": {}
+    },
+    {
+      "department": "Legal",
+      "id": "39e55a95-745d-5f15-9f81-89aafe917fec",
+      "domain_id": "shared",
+      "data": {}
+    }
+  ]
+}
