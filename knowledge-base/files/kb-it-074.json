@@ -1,6 +1,8 @@
 {
   "id": "kb-it-074",
   "title": "System prompt: Architecture & ADR Q&A",
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
+  "content_path": "knowledgebase/it/agents/architecture-adr-q-a/core/system-prompt-001.md",
   "versions": [
     {
       "id": "v1",

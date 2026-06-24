@@ -4,10 +4,10 @@
   "description": "Object type contract",
   "org_id": "org:anchor",
   "domain_id": "legal",
-  "project_id": "org:anchor:legal",
   "created_at": "2025-06-01T12:00:00Z",
   "updated_at": "2025-06-01T12:00:00Z",
   "deleted_at": null,
+  "project_id": "0f03a1d8-d327-5d6e-9654-c574c6658c06",
   "object_count": 85,
   "datapoint_count": 12
 }

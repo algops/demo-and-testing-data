@@ -1,15 +1,14 @@
 {
   "id": "kb-esg-008",
-  "title": "Příručka CSRD a ESRS pro FY2024",
-  "project_id": "org:anchor:esg",
-  "content_path": "knowledge-content/knowledgebase/esg/compliance/core/guideline-002.md",
-  "knowledge_doc_id": "75d9a2da-dc8d-5024-9c4d-3262b138be77",
+  "title": "Runbook: CSDDD due diligence dodavatelů",
+  "project_id": "478c1584-69c0-5545-9f34-33d311b96d71",
+  "content_path": "knowledgebase/esg/operations/drafts/runbook-008.md",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# Příručka CSRD a ESRS pro FY2024\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: guideline | Citlivost: internal\n\n## Kontext\n\nMeridian Pay a.s. provozuje platební a fintech služby v regulovaném prostředí. Tato příručka vysvětluje, jak interpretovat požadavky v oblasti **Příručka CSRD a ESRS pro FY2024** a jak je promítnout do praxe domény `esg`.\n\n## Regulační a interní rámec\n\n- Soulad s českou a EU legislativou relevantní pro doménu esg\n- Propojení na datové zdroje v **Sphera** a související systémy\n- Mapování požadavků na object types a datapointy v AlgOps katalogu\n\n## Postup implementace\n\n1. **Identifikace rozsahu** — určete dotčené týmy, systémy a procesy.\n2. **Gap analýza** — porovnejte stávající stav s požadavky příručky.\n3. **Akční plán** — vlastník, termín, měřitelný výstup.\n4. **Validace** — kontrola vzorkem záznamů z Sphera.\n5. **Reporting** — kvartální status pro ESG/compliance výbor (dle domény).\n\n## Metriky úspěchu\n\n- Pokrytí dokumentovaných procesů ≥ 90 %\n- Počet otevřených gapů s překročeným SLA ≤ 3\n- Úspěšnost auditních kontrol bez major finding\n\n## Časté chyby\n\n- Spoléhání na neoficiální Excel místo schválené KB verze\n- Neaktuální reference na zrušené interní postupy\n- Chybějící vazba na zdrojová data v integraci\n\n## Kontakt\n\nDomain owner `esg` — slack:#domain-esg\n"
+      "content": "# Runbook: CSDDD due diligence dodavatelů\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: runbook | Citlivost: internal\n\n## Přehled\n\nRunbook popisuje operativní postup: **Runbook: CSDDD due diligence dodavatelů**. Používejte při incidentech, plánovaných oknech i ad-hoc eskalacích v doméně esg.\n\n## Předpoklady\n\n- Přístup do **Sphera** a souvisejících systémů\n- Role: operátor L2+ nebo on-call engineer\n- Aktuální kontakty v PagerDuty / Slack `#oncall-esg`\n\n## Kroky\n\n### 1. Detekce a klasifikace\n\n- Ověřte alert nebo ticket v monitoringu.\n- Přiřaďte závažnost P1–P4 dle dopadu na zákazníky Meridian Pay a.s..\n\n### 2. Stabilizace\n\n- Izolujte dotčenou službu nebo datový tok.\n- Zdokumentujte čas začátku incidentu (UTC).\n\n### 3. Diagnostika\n\n- Zkontrolujte logy a poslední deploye v integraci Sphera.\n- Porovnejte s posledním známým dobrým stavem (baseline dataset).\n\n### 4. Náprava\n\n- Aplikujte schválený rollback nebo hotfix dle SOP.\n- Po obnově služby spusťte smoke testy.\n\n### 5. Uzavření\n\n- Aktualizujte ticket, přidejte timeline.\n- Do 48 hodin post-mortem pro P1/P2.\n\n## Eskalace\n\n| Úroveň | Kontakt | Podmínka |\n|--------|---------|----------|\n| L1 | Service desk | První reakce |\n| L2 | Domain on-call | P3+, neznámá příčina |\n| L3 | Architekt / vendor | P1/P2, data loss risk |\n\n## Přílohy\n\n- Odkaz na dashboard v Sphera\n- Checklist pro handover mezi směnami\n"
     }
   ]
 }

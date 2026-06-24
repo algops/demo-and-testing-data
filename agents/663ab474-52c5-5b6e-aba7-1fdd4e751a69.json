@@ -1,11 +1,14 @@
 {
   "id": "663ab474-52c5-5b6e-aba7-1fdd4e751a69",
   "name": "Leave/absence navigator",
+  "slug": "leave-absence-navigator",
   "description": "Navigace dovolené a absence",
   "status": "draft",
   "domain_id": "hr",
-  "project_id": "org:anchor:hr",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Navigace dovolené a absence",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -68,5 +71,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "4e6ad2e9-e4d9-535b-a067-df35346e47cc"
 }

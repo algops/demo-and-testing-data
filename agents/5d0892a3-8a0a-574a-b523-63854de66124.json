@@ -1,11 +1,14 @@
 {
   "id": "5d0892a3-8a0a-574a-b523-63854de66124",
   "name": "Legislative update summarizer",
+  "slug": "legislative-update-summarizer",
   "description": "Shrnutí legislativních změn",
   "status": "draft",
   "domain_id": "legal",
-  "project_id": "org:anchor:legal",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Shrnutí legislativních změn",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -74,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "0f03a1d8-d327-5d6e-9654-c574c6658c06"
 }

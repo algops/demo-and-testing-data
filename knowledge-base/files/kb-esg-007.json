@@ -1,15 +1,14 @@
 {
   "id": "kb-esg-007",
-  "title": "FAQ: EU Taxonomy a DNSH kritéria",
-  "project_id": "org:anchor:esg",
-  "content_path": "knowledge-content/knowledgebase/esg/engineering/core/faq-006.md",
-  "knowledge_doc_id": "71f32394-bc55-51b6-a90f-e9efce4c478b",
+  "title": "Politika udržitelného financování v1",
+  "project_id": "478c1584-69c0-5545-9f34-33d311b96d71",
+  "content_path": "knowledgebase/esg/compliance/archive/policy-007.md",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# FAQ: EU Taxonomy a DNSH kritéria\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: faq | Citlivost: internal\n\n## Často kladené dotazy\n\n### Kdo je vlastník procesu v doméně esg?\n\nDomain owner jmenuje představenstvo Meridian Pay a.s.. Kontaktujte `#domain-esg` na Slacku.\n\n### Kde najdu autoritativní data?\n\nPrimární zdroj je integrace **Sphera**. KB dokumenty popisují interpretaci, nenahrazují systémová data.\n\n### Jak často se dokumenty aktualizují?\n\nPolitiky a SOP minimálně ročně; runbooky po každém větším incidentu; FAQ průběžně dle dotazů z chat agentů.\n\n### Jak nahlásit chybu v dokumentaci?\n\nVytvořte ticket typu `KB-FIX` s odkazem na cestu v `knowledgebase/esg/`.\n\n### Mohu použít starší verzi šablony?\n\nNe — vždy používejte verzi označenou jako **core** nebo poslední schválenou v archive.\n\n### Jak souvisí tento FAQ s chat agenty?\n\nDoménoví agenti čerpají z tohoto FAQ a propojených runbooků pro odpovědi zaměstnancům Meridian Pay a.s..\n"
+      "content": "# Politika udržitelného financování v1\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: policy | Citlivost: internal\n\n## Účel a rozsah\n\nTato politika stanovuje závazná pravidla pro oblast **politika udržitelného financování v1** v rámci Meridian Pay a.s.. Platí pro všechny zaměstnance, dodavatele s přístupem k interním systémům a vedení společnosti.\n\n## Odpovědnosti\n\n| Role | Odpovědnost |\n|------|-------------|\n| Vedení společnosti | Schválení politiky, alokace zdrojů |\n| Domain owner (esg) | Aktualizace, compliance monitoring |\n| Line managers | Zajištění dodržování v týmech |\n| Interní audit | Nezávislá kontrola každých 12 měsíců |\n\n## Klíčová ustanovení\n\n1. Všechny procesy v doméně esg musí být dokumentovány a verzovány v znalostní bázi pod `knowledgebase/esg/`.\n2. Data z integrace **Sphera** jsou považována za autoritativní zdroj pro operativní rozhodování.\n3. Odchylky od politiky vyžadují písemnou výjimku schválenou domain ownerem a záznam v registru rizik.\n4. Porušení politiky může vést k disciplinárnímu řízení dle interních předpisů Meridian Pay a.s..\n\n## Životní cyklus dokumentu\n\n- **Návrh:** domain owner + právní/compliance (dle domény)\n- **Review:** minimálně jednou ročně nebo při změně regulace\n- **Schválení:** člen představenstva pro politiku úrovně 1\n- **Distribuce:** publikace v KB, notifikace přes Slack #compliance\n\n## Související dokumenty\n\n- Runbooky a SOP v `knowledgebase/esg/operations/`\n- Integrační dokumentace k systému Sphera\n- Registr rizik Meridian Pay a.s. (interní)\n\n## Revize\n\n| Verze | Datum | Autor | Změna |\n|-------|-------|-------|-------|\n| 1.0 | 2025-03-01 | Domain owner esg | První vydání |\n"
     }
   ]
 }

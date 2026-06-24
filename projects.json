@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "id": "org:anchor:esg",
+      "id": "478c1584-69c0-5545-9f34-33d311b96d71",
       "name": "ESG Compliance",
       "domain_id": "esg",
       "org_id": "org:anchor",
@@ -10,7 +10,7 @@
       "plan": "Enterprise"
     },
     {
-      "id": "org:anchor:it",
+      "id": "9cfef61f-98d8-5f89-aab8-513423de066f",
       "name": "IT & Engineering",
       "domain_id": "it",
       "org_id": "org:anchor",
@@ -19,7 +19,7 @@
       "plan": "Enterprise"
     },
     {
-      "id": "org:anchor:legal",
+      "id": "0f03a1d8-d327-5d6e-9654-c574c6658c06",
       "name": "Legal",
       "domain_id": "legal",
       "org_id": "org:anchor",
@@ -28,7 +28,7 @@
       "plan": "Enterprise"
     },
     {
-      "id": "org:anchor:tax",
+      "id": "ffe04e47-1382-5fdd-b6c4-bb39c1de02dd",
       "name": "Tax & Accounting",
       "domain_id": "tax",
       "org_id": "org:anchor",
@@ -37,7 +37,7 @@
       "plan": "Enterprise"
     },
     {
-      "id": "org:anchor:hr",
+      "id": "4e6ad2e9-e4d9-535b-a067-df35346e47cc",
       "name": "HR & People",
       "domain_id": "hr",
       "org_id": "org:anchor",

@@ -1,11 +1,14 @@
 {
   "id": "adf1ca8d-c58b-5f95-887c-f9ddc33cfd56",
   "name": "DD progress assistant",
+  "slug": "dd-progress-assistant",
   "description": "Sledování due diligence",
   "status": "draft",
   "domain_id": "legal",
-  "project_id": "org:anchor:legal",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Sledování due diligence",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -69,5 +72,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "0f03a1d8-d327-5d6e-9654-c574c6658c06"
 }

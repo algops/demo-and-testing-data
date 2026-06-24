@@ -1,15 +1,14 @@
 {
   "id": "kb-esg-003",
-  "title": "Role: Audit-finding remediation guide",
-  "project_id": "org:anchor:esg",
-  "content_path": "knowledge-content/knowledgebase/esg/agents/audit-finding-remediation-guide/core/role-001.md",
-  "knowledge_doc_id": "4387f237-5919-5c81-bcaf-e63ba8aaff32",
+  "title": "Runbook sběru emisních dat Scope 1–3",
+  "project_id": "478c1584-69c0-5545-9f34-33d311b96d71",
+  "content_path": "knowledgebase/esg/operations/core/runbook-003.md",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# Role: Audit-finding remediation guide\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: agent_role | Citlivost: internal\n\n## Odpovědnosti\n\n| Oblast | Popis |\n|--------|-------|\n| Primární use-case | Náprava auditních nálezů |\n| Publikum | ESG a interní audit |\n| Doména | `esg` @ Meridian Pay a.s. |\n| Zdroj dat | Sphera + schválená KB |\n\n## Matice oprávnění\n\n| Smí | Nesmí |\n|-----|-------|\n| Vysvětlovat schválené SOP, politiky a runbooky z KB | Vydávat závazná právní/daňová stanoviska |\n| Navrhovat další kroky dle dokumentovaných postupů | Měnit produkční systémy nebo data |\n| Citovat cesty v `knowledgebase/esg/` | Šířit osobní údaje mimo účel dotazu |\n| Eskalovat na supervizora `#agents-esg` | Obcházet guardrails definované v system promptu |\n\n## Handoff pravidla\n\n- **Supervisor:** Slack `#agents-esg` — steering, schválení výjimek\n- **Domain owner:** `#domain-esg` — chyby v dokumentaci (ticket `KB-FIX`)\n- **Lidský expert:** při nejistotě nebo vysokém dopadu na zákazníka/regulátora\n\n## Compliance\n\nAgent je řízen dokumenty v `knowledgebase/esg/agents/` a musí být v souladu s platnými politikami v `compliance/core/`.\nRevize role: minimálně při změně use-case nebo guardrails.\n"
+      "content": "# Runbook sběru emisních dat Scope 1–3\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: runbook | Citlivost: internal\n\n## Přehled\n\nRunbook popisuje operativní postup: **Runbook sběru emisních dat Scope 1–3**. Používejte při incidentech, plánovaných oknech i ad-hoc eskalacích v doméně esg.\n\n## Předpoklady\n\n- Přístup do **Sphera** a souvisejících systémů\n- Role: operátor L2+ nebo on-call engineer\n- Aktuální kontakty v PagerDuty / Slack `#oncall-esg`\n\n## Kroky\n\n### 1. Detekce a klasifikace\n\n- Ověřte alert nebo ticket v monitoringu.\n- Přiřaďte závažnost P1–P4 dle dopadu na zákazníky Meridian Pay a.s..\n\n### 2. Stabilizace\n\n- Izolujte dotčenou službu nebo datový tok.\n- Zdokumentujte čas začátku incidentu (UTC).\n\n### 3. Diagnostika\n\n- Zkontrolujte logy a poslední deploye v integraci Sphera.\n- Porovnejte s posledním známým dobrým stavem (baseline dataset).\n\n### 4. Náprava\n\n- Aplikujte schválený rollback nebo hotfix dle SOP.\n- Po obnově služby spusťte smoke testy.\n\n### 5. Uzavření\n\n- Aktualizujte ticket, přidejte timeline.\n- Do 48 hodin post-mortem pro P1/P2.\n\n## Eskalace\n\n| Úroveň | Kontakt | Podmínka |\n|--------|---------|----------|\n| L1 | Service desk | První reakce |\n| L2 | Domain on-call | P3+, neznámá příčina |\n| L3 | Architekt / vendor | P1/P2, data loss risk |\n\n## Přílohy\n\n- Odkaz na dashboard v Sphera\n- Checklist pro handover mezi směnami\n"
     }
   ]
 }

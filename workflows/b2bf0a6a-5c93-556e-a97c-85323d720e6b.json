@@ -3,6 +3,7 @@
   "slug": "it_incident_sync",
   "name": "IT incident sync",
   "domain_id": "it",
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
   "owner_org_id": "org:anchor",
   "status": "active",
   "output_datasets": [

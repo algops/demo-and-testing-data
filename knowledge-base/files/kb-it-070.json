@@ -1,6 +1,8 @@
 {
   "id": "kb-it-070",
   "title": "Skill: Automated code review copilot",
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
+  "content_path": "knowledgebase/it/agents/automated-code-review-copilot/core/skill-001.md",
   "versions": [
     {
       "id": "v1",

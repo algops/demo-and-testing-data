@@ -1,11 +1,14 @@
 {
   "id": "dfd432e3-20fe-57c3-b33a-fc72e6619069",
   "name": "Benefits eligibility guide",
+  "slug": "benefits-eligibility-guide",
   "description": "Nárok na benefity",
   "status": "draft",
   "domain_id": "hr",
-  "project_id": "org:anchor:hr",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Nárok na benefity",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -73,5 +76,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "4e6ad2e9-e4d9-535b-a067-df35346e47cc"
 }

@@ -1,11 +1,14 @@
 {
   "id": "9636f8c3-d7de-5d70-9855-4c990a7de057",
   "name": "Onboarding checklist assistant",
+  "slug": "onboarding-checklist-assistant",
   "description": "Onboarding checklisty",
   "status": "draft",
   "domain_id": "hr",
-  "project_id": "org:anchor:hr",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Onboarding checklisty",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -74,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "4e6ad2e9-e4d9-535b-a067-df35346e47cc"
 }

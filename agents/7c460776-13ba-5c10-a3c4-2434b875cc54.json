@@ -1,11 +1,14 @@
 {
   "id": "7c460776-13ba-5c10-a3c4-2434b875cc54",
   "name": "PM/tech comms assistant",
+  "slug": "pm-tech-comms-assistant",
   "description": "Shrnutí technických rozhodnutí do Slacku",
   "status": "draft",
   "domain_id": "it",
-  "project_id": "org:anchor:it",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Shrnutí technických rozhodnutí do Slacku",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -74,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f"
 }

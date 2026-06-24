@@ -3,6 +3,7 @@
   "slug": "hr_sop_sync",
   "name": "HR SOP sync",
   "domain_id": "hr",
+  "project_id": "4e6ad2e9-e4d9-535b-a067-df35346e47cc",
   "owner_org_id": "org:anchor",
   "status": "active",
   "output_datasets": [

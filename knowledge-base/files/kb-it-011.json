@@ -1,15 +1,14 @@
 {
   "id": "kb-it-011",
-  "title": "ADR-012: Event-driven integrace s core banking",
-  "project_id": "org:anchor:it",
-  "content_path": "knowledge-content/knowledgebase/it/engineering/archive/adr-009.md",
-  "knowledge_doc_id": "8628d88b-590c-5bba-8fa1-24ad35b80814",
+  "title": "ADR-001: Mikroservisní architektura platební brány",
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
+  "content_path": "knowledgebase/it/engineering/core/adr-001.md",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# ADR-012: Event-driven integrace s core banking\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: adr | Citlivost: internal\n\n## Status\n\nPřijato — platí pro Meridian Pay a.s., doména `it`.\n\n## Kontext\n\nMeridian Pay a.s. potřebuje škálovatelnou a auditovatelnou architekturu v oblasti popsané dokumentem **ADR-012: Event-driven integrace s core banking**. Tým zvažoval více alternativ s ohledem na regulaci, latenci a provozní náklady.\n\n## Rozhodnutí\n\nZvolený přístup kombinuje:\n\n- Event-driven integraci mezi core službami\n- Centrální observability a SLO monitoring\n- Oddělení čtení/zápisu pro reportingové workloady\n\n## Důsledky\n\n### Pozitivní\n\n- Lepší traceability pro audit a incident review\n- Snazší onboarding nových týmů díky jasné hranici služeb\n\n### Negativní\n\n- Vyšší počáteční investice do infrastruktury\n- Potřeba školení pro distributed tracing\n\n## Alternativy zvažované\n\n1. Monolitický modul — rychlejší start, horší škálování\n2. Čistě batch ETL — nižší náklady, nedostatečná latence pro platby\n\n## Dodržování\n\nArchitecture board review každých 12 měsíců. Změny vyžadují nové ADR.\n"
+      "content": "# ADR-001: Mikroservisní architektura platební brány\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: adr | Citlivost: internal\n\n## Status\n\nPřijato — platí pro Meridian Pay a.s., doména `it`.\n\n## Kontext\n\nMeridian Pay a.s. potřebuje škálovatelnou a auditovatelnou architekturu v oblasti popsané dokumentem **ADR-001: Mikroservisní architektura platební brány**. Tým zvažoval více alternativ s ohledem na regulaci, latenci a provozní náklady.\n\n## Rozhodnutí\n\nZvolený přístup kombinuje:\n\n- Event-driven integraci mezi core službami\n- Centrální observability a SLO monitoring\n- Oddělení čtení/zápisu pro reportingové workloady\n\n## Důsledky\n\n### Pozitivní\n\n- Lepší traceability pro audit a incident review\n- Snazší onboarding nových týmů díky jasné hranici služeb\n\n### Negativní\n\n- Vyšší počáteční investice do infrastruktury\n- Potřeba školení pro distributed tracing\n\n## Alternativy zvažované\n\n1. Monolitický modul — rychlejší start, horší škálování\n2. Čistě batch ETL — nižší náklady, nedostatečná latence pro platby\n\n## Dodržování\n\nArchitecture board review každých 12 měsíců. Změny vyžadují nové ADR.\n"
     }
   ]
 }

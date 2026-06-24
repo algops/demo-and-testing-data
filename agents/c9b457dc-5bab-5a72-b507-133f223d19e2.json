@@ -1,11 +1,14 @@
 {
   "id": "c9b457dc-5bab-5a72-b507-133f223d19e2",
   "name": "CSRD gap & disclosure copilot",
+  "slug": "csrd-gap-disclosure-copilot",
   "description": "Mezery v CSRD disclosure",
   "status": "active",
   "domain_id": "esg",
-  "project_id": "org:anchor:esg",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Mezery v CSRD disclosure",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -74,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "478c1584-69c0-5545-9f34-33d311b96d71"
 }

@@ -1,11 +1,14 @@
 {
   "id": "44b41f8e-9839-5ac5-be5b-9f109c3a2378",
   "name": "Conflict-check helper",
+  "slug": "conflict-check-helper",
   "description": "Kontrola střetu zájmů",
   "status": "draft",
   "domain_id": "legal",
-  "project_id": "org:anchor:legal",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Kontrola střetu zájmů",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -74,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "0f03a1d8-d327-5d6e-9654-c574c6658c06"
 }

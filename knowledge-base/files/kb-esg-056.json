@@ -1,6 +1,8 @@
 {
   "id": "kb-esg-056",
   "title": "System prompt: Taxonomy alignment explainer",
+  "project_id": "478c1584-69c0-5545-9f34-33d311b96d71",
+  "content_path": "knowledgebase/esg/agents/taxonomy-alignment-explainer/core/system-prompt-001.md",
   "versions": [
     {
       "id": "v1",

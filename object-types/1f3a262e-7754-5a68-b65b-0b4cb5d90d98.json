@@ -4,10 +4,10 @@
   "description": "Object type service",
   "org_id": "org:anchor",
   "domain_id": "it",
-  "project_id": "org:anchor:it",
   "created_at": "2025-06-01T12:00:00Z",
   "updated_at": "2025-06-01T12:00:00Z",
   "deleted_at": null,
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
   "object_count": 24,
   "datapoint_count": 13
 }

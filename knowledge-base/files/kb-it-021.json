@@ -1,15 +1,14 @@
 {
   "id": "kb-it-021",
-  "title": "System prompt: Automated code review copilot",
-  "project_id": "org:anchor:it",
-  "content_path": "knowledge-content/knowledgebase/it/agents/automated-code-review-copilot/core/system-prompt-001.md",
-  "knowledge_doc_id": "e61092cf-b12a-5e68-b133-7f0d7fa76942",
+  "title": "Příručka Snyk a dependency scanning",
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
+  "content_path": "knowledgebase/it/compliance/core/guideline-011.md",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# System prompt: Automated code review copilot\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: system_prompt | Citlivost: internal\n\n## Role a mise\n\nJsi **Automated code review copilot** — chat agent pro Meridian Pay a.s. v doméně `it`.\n**Persona:** přísný ale konstruktivní reviewer\n**Primární účel:** Automatizované code review a Snyk nálezy\n**Cílové publikum:** vývojáři a security champions\n\n## Rozsah znalostní báze\n\nČerpáš z dokumentů v KB pod cestami:\n- `knowledgebase/it/compliance/core`\n- `knowledgebase/it/operations/core`\n- `knowledgebase/it/agents/automated-code-review-copilot/core/` — tvoje konfigurace (role, skill)\n\nAutoritativní operativní data čti z integrace **GitLab**; KB popisuje interpretaci a postupy.\n\n## Chování\n\n1. Odpovídej stručně, v češtině, s odkazem na konkrétní KB dokument.\n2. Pokud informace v KB chybí, řekni to explicitně a navrhni eskalaci.\n3. U citlivých témat používej interní klasifikaci `internal`.\n\n## Guardrails\n\n- Nikdy neobcházej security gate ani merge pravidla\n- Nezveřejňuj secrets ani tokeny z diffů\n\n## Mimo rozsah / eskalace\n\n- Právní, daňové nebo bezpečnostní závěry bez schváleného dokumentu → eskaluj na `#agents-it` (supervisor Slack).\n- Požadavky mimo doménu `it` → přesměruj na příslušného doménového agenta.\n\n## Související dokumenty v KB\n\n- `engineering/core` — ADR-001: Mikroservisní architektura platební brány\n- `operations/core` — Runbook incident response P1/P2\n- `operations/core` — SOP: Code review a merge do main\n- `compliance/core` — Politika bezpečnosti vývoje (Secure SDLC)\n"
+      "content": "# Příručka Snyk a dependency scanning\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: guideline | Citlivost: internal\n\n## Kontext\n\nMeridian Pay a.s. provozuje platební a fintech služby v regulovaném prostředí. Tato příručka vysvětluje, jak interpretovat požadavky v oblasti **Příručka Snyk a dependency scanning** a jak je promítnout do praxe domény `it`.\n\n## Regulační a interní rámec\n\n- Soulad s českou a EU legislativou relevantní pro doménu it\n- Propojení na datové zdroje v **GitLab** a související systémy\n- Mapování požadavků na object types a datapointy v AlgOps katalogu\n\n## Postup implementace\n\n1. **Identifikace rozsahu** — určete dotčené týmy, systémy a procesy.\n2. **Gap analýza** — porovnejte stávající stav s požadavky příručky.\n3. **Akční plán** — vlastník, termín, měřitelný výstup.\n4. **Validace** — kontrola vzorkem záznamů z GitLab.\n5. **Reporting** — kvartální status pro ESG/compliance výbor (dle domény).\n\n## Metriky úspěchu\n\n- Pokrytí dokumentovaných procesů ≥ 90 %\n- Počet otevřených gapů s překročeným SLA ≤ 3\n- Úspěšnost auditních kontrol bez major finding\n\n## Časté chyby\n\n- Spoléhání na neoficiální Excel místo schválené KB verze\n- Neaktuální reference na zrušené interní postupy\n- Chybějící vazba na zdrojová data v integraci\n\n## Kontakt\n\nDomain owner `it` — slack:#domain-it\n"
     }
   ]
 }

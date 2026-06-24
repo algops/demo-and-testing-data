@@ -1,6 +1,8 @@
 {
   "id": "kb-it-073",
   "title": "Skill: Incident/runbook assistant",
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
+  "content_path": "knowledgebase/it/agents/incident-runbook-assistant/core/skill-001.md",
   "versions": [
     {
       "id": "v1",

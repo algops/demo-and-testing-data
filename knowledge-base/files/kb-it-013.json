@@ -1,15 +1,14 @@
 {
   "id": "kb-it-013",
-  "title": "Runbook incident response P1/P2",
-  "project_id": "org:anchor:it",
-  "content_path": "knowledge-content/knowledgebase/it/operations/core/runbook-002.md",
-  "knowledge_doc_id": "8ed2b8b7-7dcd-5271-8433-913b6b8858ad",
+  "title": "SOP: Code review a merge do main",
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
+  "content_path": "knowledgebase/it/operations/core/sop-003.md",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# Runbook incident response P1/P2\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: runbook | Citlivost: internal\n\n## Přehled\n\nRunbook popisuje operativní postup: **Runbook incident response P1/P2**. Používejte při incidentech, plánovaných oknech i ad-hoc eskalacích v doméně it.\n\n## Předpoklady\n\n- Přístup do **GitLab** a souvisejících systémů\n- Role: operátor L2+ nebo on-call engineer\n- Aktuální kontakty v PagerDuty / Slack `#oncall-it`\n\n## Kroky\n\n### 1. Detekce a klasifikace\n\n- Ověřte alert nebo ticket v monitoringu.\n- Přiřaďte závažnost P1–P4 dle dopadu na zákazníky Meridian Pay a.s..\n\n### 2. Stabilizace\n\n- Izolujte dotčenou službu nebo datový tok.\n- Zdokumentujte čas začátku incidentu (UTC).\n\n### 3. Diagnostika\n\n- Zkontrolujte logy a poslední deploye v integraci GitLab.\n- Porovnejte s posledním známým dobrým stavem (baseline dataset).\n\n### 4. Náprava\n\n- Aplikujte schválený rollback nebo hotfix dle SOP.\n- Po obnově služby spusťte smoke testy.\n\n### 5. Uzavření\n\n- Aktualizujte ticket, přidejte timeline.\n- Do 48 hodin post-mortem pro P1/P2.\n\n## Eskalace\n\n| Úroveň | Kontakt | Podmínka |\n|--------|---------|----------|\n| L1 | Service desk | První reakce |\n| L2 | Domain on-call | P3+, neznámá příčina |\n| L3 | Architekt / vendor | P1/P2, data loss risk |\n\n## Přílohy\n\n- Odkaz na dashboard v GitLab\n- Checklist pro handover mezi směnami\n"
+      "content": "# SOP: Code review a merge do main\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: sop | Citlivost: internal\n\n## Standardní operační postup\n\n**SOP: Code review a merge do main** — závazný postup pro zaměstnance Meridian Pay a.s. v doméně `it`.\n\n## Rozsah\n\nPlatí pro všechny týmy podílející se na procesu. Výjimky pouze po schválení domain ownerem.\n\n## Kroky\n\n1. **Příprava** — ověřte oprávnění, šablony a aktuální verzi dokumentace v KB.\n2. **Provedení** — postupujte podle checklistu; každý krok zaznamenejte v ticketu.\n3. **Kontrola kvality** — nezávislý reviewer u transakcí nad prahem 100 000 Kč (nebo dle domény).\n4. **Archivace** — uložte výstupy do `knowledgebase/it/operations/archive/`.\n\n## Checklist\n\n- [ ] Vstupní data validována\n- [ ] Schválení druhým členem týmu (four-eyes)\n- [ ] Výstup uložen v autoritativním systému\n- [ ] Notifikace stakeholderům odeslána\n\n## Metriky\n\n- SLA zpracování dle typu požadavku\n- Počet vrácení k doplnění ≤ 5 % měsíčně\n\n## Revize\n\nRevize SOP minimálně každých 6 měsíců nebo po změně regulace.\n"
     }
   ]
 }

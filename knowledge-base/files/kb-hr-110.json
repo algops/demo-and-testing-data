@@ -1,6 +1,8 @@
 {
   "id": "kb-hr-110",
   "title": "System prompt: Leave/absence navigator",
+  "project_id": "4e6ad2e9-e4d9-535b-a067-df35346e47cc",
+  "content_path": "knowledgebase/hr/agents/leave-absence-navigator/core/system-prompt-001.md",
   "versions": [
     {
       "id": "v1",

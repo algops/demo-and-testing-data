@@ -1,11 +1,14 @@
 {
   "id": "765260e9-f7f2-5a92-8584-91b67a018727",
   "name": "Taxonomy alignment explainer",
+  "slug": "taxonomy-alignment-explainer",
   "description": "Vysvětlení EU taxonomie",
   "status": "draft",
   "domain_id": "esg",
-  "project_id": "org:anchor:esg",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Vysvětlení EU taxonomie",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -74,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "478c1584-69c0-5545-9f34-33d311b96d71"
 }

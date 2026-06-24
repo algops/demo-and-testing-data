@@ -1,11 +1,14 @@
 {
   "id": "f49da2ad-5920-5aed-a717-7484878482ae",
   "name": "TP documentation assistant",
+  "slug": "tp-documentation-assistant",
   "description": "Transfer pricing dokumentace",
   "status": "draft",
   "domain_id": "tax",
-  "project_id": "org:anchor:tax",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Transfer pricing dokumentace",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -74,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "ffe04e47-1382-5fdd-b6c4-bb39c1de02dd"
 }

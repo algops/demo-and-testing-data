@@ -3,6 +3,7 @@
   "slug": "legal_knowhow_index",
   "name": "Legal know-how index",
   "domain_id": "legal",
+  "project_id": "0f03a1d8-d327-5d6e-9654-c574c6658c06",
   "owner_org_id": "org:anchor",
   "status": "active",
   "output_datasets": [

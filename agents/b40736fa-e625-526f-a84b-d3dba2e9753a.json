@@ -1,11 +1,14 @@
 {
   "id": "b40736fa-e625-526f-a84b-d3dba2e9753a",
   "name": "SOP & policy copilot",
+  "slug": "sop-policy-copilot",
   "description": "Odpovědi na HR SOP a politiky",
   "status": "active",
   "domain_id": "hr",
-  "project_id": "org:anchor:hr",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Odpovědi na HR SOP a politiky",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -74,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "4e6ad2e9-e4d9-535b-a067-df35346e47cc"
 }

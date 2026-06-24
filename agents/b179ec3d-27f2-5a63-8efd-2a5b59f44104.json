@@ -1,11 +1,14 @@
 {
   "id": "b179ec3d-27f2-5a63-8efd-2a5b59f44104",
   "name": "In-house know-how copilot",
+  "slug": "in-house-know-how-copilot",
   "description": "Interní právní know-how",
   "status": "active",
   "domain_id": "legal",
-  "project_id": "org:anchor:legal",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Interní právní know-how",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -74,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "0f03a1d8-d327-5d6e-9654-c574c6658c06"
 }

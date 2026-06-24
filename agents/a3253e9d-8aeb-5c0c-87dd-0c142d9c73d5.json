@@ -1,11 +1,14 @@
 {
   "id": "a3253e9d-8aeb-5c0c-87dd-0c142d9c73d5",
   "name": "Automated code review copilot",
+  "slug": "automated-code-review-copilot",
   "description": "Automatizované code review a Snyk nálezy",
   "status": "draft",
   "domain_id": "it",
-  "project_id": "org:anchor:it",
   "org_id": "org:anchor",
+  "primary_use_case_cs": "Automatizované code review a Snyk nálezy",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
   "setup": {
     "accessibility": {
       "primary": {
@@ -74,5 +77,6 @@
         }
       ]
     }
-  }
+  },
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f"
 }

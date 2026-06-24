@@ -1,15 +1,14 @@
 {
   "id": "kb-esg-004",
-  "title": "Metodika výpočtu taxonomy alignment KPI",
-  "project_id": "org:anchor:esg",
-  "content_path": "knowledge-content/knowledgebase/esg/compliance/drafts/guideline-009.md",
-  "knowledge_doc_id": "5d33ada9-dffc-5314-a833-8bd91ece807e",
+  "title": "SOP: Double materiality assessment",
+  "project_id": "478c1584-69c0-5545-9f34-33d311b96d71",
+  "content_path": "knowledgebase/esg/operations/core/sop-004.md",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# Metodika výpočtu taxonomy alignment KPI\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: guideline | Citlivost: internal\n\n## Kontext\n\nMeridian Pay a.s. provozuje platební a fintech služby v regulovaném prostředí. Tato příručka vysvětluje, jak interpretovat požadavky v oblasti **Metodika výpočtu taxonomy alignment KPI** a jak je promítnout do praxe domény `esg`.\n\n## Regulační a interní rámec\n\n- Soulad s českou a EU legislativou relevantní pro doménu esg\n- Propojení na datové zdroje v **Sphera** a související systémy\n- Mapování požadavků na object types a datapointy v AlgOps katalogu\n\n## Postup implementace\n\n1. **Identifikace rozsahu** — určete dotčené týmy, systémy a procesy.\n2. **Gap analýza** — porovnejte stávající stav s požadavky příručky.\n3. **Akční plán** — vlastník, termín, měřitelný výstup.\n4. **Validace** — kontrola vzorkem záznamů z Sphera.\n5. **Reporting** — kvartální status pro ESG/compliance výbor (dle domény).\n\n## Metriky úspěchu\n\n- Pokrytí dokumentovaných procesů ≥ 90 %\n- Počet otevřených gapů s překročeným SLA ≤ 3\n- Úspěšnost auditních kontrol bez major finding\n\n## Časté chyby\n\n- Spoléhání na neoficiální Excel místo schválené KB verze\n- Neaktuální reference na zrušené interní postupy\n- Chybějící vazba na zdrojová data v integraci\n\n## Kontakt\n\nDomain owner `esg` — slack:#domain-esg\n"
+      "content": "# SOP: Double materiality assessment\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: sop | Citlivost: internal\n\n## Standardní operační postup\n\n**SOP: Double materiality assessment** — závazný postup pro zaměstnance Meridian Pay a.s. v doméně `esg`.\n\n## Rozsah\n\nPlatí pro všechny týmy podílející se na procesu. Výjimky pouze po schválení domain ownerem.\n\n## Kroky\n\n1. **Příprava** — ověřte oprávnění, šablony a aktuální verzi dokumentace v KB.\n2. **Provedení** — postupujte podle checklistu; každý krok zaznamenejte v ticketu.\n3. **Kontrola kvality** — nezávislý reviewer u transakcí nad prahem 100 000 Kč (nebo dle domény).\n4. **Archivace** — uložte výstupy do `knowledgebase/esg/operations/archive/`.\n\n## Checklist\n\n- [ ] Vstupní data validována\n- [ ] Schválení druhým členem týmu (four-eyes)\n- [ ] Výstup uložen v autoritativním systému\n- [ ] Notifikace stakeholderům odeslána\n\n## Metriky\n\n- SLA zpracování dle typu požadavku\n- Počet vrácení k doplnění ≤ 5 % měsíčně\n\n## Revize\n\nRevize SOP minimálně každých 6 měsíců nebo po změně regulace.\n"
     }
   ]
 }

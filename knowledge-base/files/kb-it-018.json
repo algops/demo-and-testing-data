@@ -1,15 +1,14 @@
 {
   "id": "kb-it-018",
-  "title": "Skill: Architecture & ADR Q&A",
-  "project_id": "org:anchor:it",
-  "content_path": "knowledge-content/knowledgebase/it/agents/architecture-adr-q-a/core/skill-001.md",
-  "knowledge_doc_id": "b36e0891-154f-59f5-a5a0-12bf2a3034d5",
+  "title": "Runbook: Rollback produkčního release",
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
+  "content_path": "knowledgebase/it/operations/archive/runbook-008.md",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# Skill: Architecture & ADR Q&A\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: agent_skill | Citlivost: internal\n\n## Workflow odpovědi\n\n1. **Porozumění** — identifikuj záměr dotazu a dotčené KB sekce.\n2. **Vyhledání** — prohledej:\n- Prohledej `knowledgebase/it/engineering/core`\n3. **Validace** — ověř proti GitLab pokud jde o stav systému/recordů.\n4. **Odpověď** — struktura: shrnutí → citace KB cesty → doporučený krok.\n5. **Eskalace** — pokud chybí podklad, otevři handoff na supervizora.\n\n## Použití nástrojů\n\n- **LLM gateway** — doplňkové akce dle oprávnění v chat-agent setup (execute_tool).\n- Integrační data nikdy nepřepisují schválený text politik v KB.\n\n## Formát citace\n\n```\n[KB: knowledgebase/it/<section>/<sub>/<soubor>.md | verze core]\n```\n\n## Guardrails (operativní)\n\n- Odkazuj pouze na přijaté ADR v KB\n- Nenavrhuje architekturu mimo schválené patterny\n\n## Příklady interakcí\n\n**Q:** Proč byla zvolena mikroservisní architektura brány?\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n\n**Q:** Jaké jsou alternativy v ADR-012?\n**A:** (1) Najdi relevantní dokument v KB. (2) Cituj cestu a verzi. (3) Shrň odpověď pro uživatele.\n\n\n## Kontrolní seznam kvality\n\n- [ ] Odpověď má alespoň jednu KB citaci\n- [ ] Guardrails dodrženy\n- [ ] Žádné vymyšlené metriky nebo termíny\n- [ ] Eskalace nabídnuta pokud data chybí\n"
+      "content": "# Runbook: Rollback produkčního release\n\n> Organizace: **Meridian Pay a.s.** | Doména: **it** | Typ: runbook | Citlivost: internal\n\n## Přehled\n\nRunbook popisuje operativní postup: **Runbook: Rollback produkčního release**. Používejte při incidentech, plánovaných oknech i ad-hoc eskalacích v doméně it.\n\n## Předpoklady\n\n- Přístup do **GitLab** a souvisejících systémů\n- Role: operátor L2+ nebo on-call engineer\n- Aktuální kontakty v PagerDuty / Slack `#oncall-it`\n\n## Kroky\n\n### 1. Detekce a klasifikace\n\n- Ověřte alert nebo ticket v monitoringu.\n- Přiřaďte závažnost P1–P4 dle dopadu na zákazníky Meridian Pay a.s..\n\n### 2. Stabilizace\n\n- Izolujte dotčenou službu nebo datový tok.\n- Zdokumentujte čas začátku incidentu (UTC).\n\n### 3. Diagnostika\n\n- Zkontrolujte logy a poslední deploye v integraci GitLab.\n- Porovnejte s posledním známým dobrým stavem (baseline dataset).\n\n### 4. Náprava\n\n- Aplikujte schválený rollback nebo hotfix dle SOP.\n- Po obnově služby spusťte smoke testy.\n\n### 5. Uzavření\n\n- Aktualizujte ticket, přidejte timeline.\n- Do 48 hodin post-mortem pro P1/P2.\n\n## Eskalace\n\n| Úroveň | Kontakt | Podmínka |\n|--------|---------|----------|\n| L1 | Service desk | První reakce |\n| L2 | Domain on-call | P3+, neznámá příčina |\n| L3 | Architekt / vendor | P1/P2, data loss risk |\n\n## Přílohy\n\n- Odkaz na dashboard v GitLab\n- Checklist pro handover mezi směnami\n"
     }
   ]
 }

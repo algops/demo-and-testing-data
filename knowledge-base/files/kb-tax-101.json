@@ -1,6 +1,8 @@
 {
   "id": "kb-tax-101",
   "title": "System prompt: TP documentation assistant",
+  "project_id": "ffe04e47-1382-5fdd-b6c4-bb39c1de02dd",
+  "content_path": "knowledgebase/tax/agents/tp-documentation-assistant/core/system-prompt-001.md",
   "versions": [
     {
       "id": "v1",

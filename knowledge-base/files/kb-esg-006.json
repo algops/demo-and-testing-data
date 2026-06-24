@@ -1,15 +1,14 @@
 {
   "id": "kb-esg-006",
-  "title": "SOP: Double materiality assessment",
-  "project_id": "org:anchor:esg",
-  "content_path": "knowledge-content/knowledgebase/esg/operations/core/sop-004.md",
-  "knowledge_doc_id": "70c375d1-14e8-583a-bb59-f7223f460018",
+  "title": "FAQ: EU Taxonomy a DNSH kritéria",
+  "project_id": "478c1584-69c0-5545-9f34-33d311b96d71",
+  "content_path": "knowledgebase/esg/engineering/core/faq-006.md",
   "versions": [
     {
       "id": "v1",
       "label": "Published",
       "createdAt": "2025-06-01T12:00:00Z",
-      "content": "# SOP: Double materiality assessment\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: sop | Citlivost: internal\n\n## Standardní operační postup\n\n**SOP: Double materiality assessment** — závazný postup pro zaměstnance Meridian Pay a.s. v doméně `esg`.\n\n## Rozsah\n\nPlatí pro všechny týmy podílející se na procesu. Výjimky pouze po schválení domain ownerem.\n\n## Kroky\n\n1. **Příprava** — ověřte oprávnění, šablony a aktuální verzi dokumentace v KB.\n2. **Provedení** — postupujte podle checklistu; každý krok zaznamenejte v ticketu.\n3. **Kontrola kvality** — nezávislý reviewer u transakcí nad prahem 100 000 Kč (nebo dle domény).\n4. **Archivace** — uložte výstupy do `knowledgebase/esg/operations/archive/`.\n\n## Checklist\n\n- [ ] Vstupní data validována\n- [ ] Schválení druhým členem týmu (four-eyes)\n- [ ] Výstup uložen v autoritativním systému\n- [ ] Notifikace stakeholderům odeslána\n\n## Metriky\n\n- SLA zpracování dle typu požadavku\n- Počet vrácení k doplnění ≤ 5 % měsíčně\n\n## Revize\n\nRevize SOP minimálně každých 6 měsíců nebo po změně regulace.\n"
+      "content": "# FAQ: EU Taxonomy a DNSH kritéria\n\n> Organizace: **Meridian Pay a.s.** | Doména: **esg** | Typ: faq | Citlivost: internal\n\n## Často kladené dotazy\n\n### Kdo je vlastník procesu v doméně esg?\n\nDomain owner jmenuje představenstvo Meridian Pay a.s.. Kontaktujte `#domain-esg` na Slacku.\n\n### Kde najdu autoritativní data?\n\nPrimární zdroj je integrace **Sphera**. KB dokumenty popisují interpretaci, nenahrazují systémová data.\n\n### Jak často se dokumenty aktualizují?\n\nPolitiky a SOP minimálně ročně; runbooky po každém větším incidentu; FAQ průběžně dle dotazů z chat agentů.\n\n### Jak nahlásit chybu v dokumentaci?\n\nVytvořte ticket typu `KB-FIX` s odkazem na cestu v `knowledgebase/esg/`.\n\n### Mohu použít starší verzi šablony?\n\nNe — vždy používejte verzi označenou jako **core** nebo poslední schválenou v archive.\n\n### Jak souvisí tento FAQ s chat agenty?\n\nDoménoví agenti čerpají z tohoto FAQ a propojených runbooků pro odpovědi zaměstnancům Meridian Pay a.s..\n"
     }
   ]
 }

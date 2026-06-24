@@ -4,10 +4,10 @@
   "description": "Object type role",
   "org_id": "org:anchor",
   "domain_id": "hr",
-  "project_id": "org:anchor:hr",
   "created_at": "2025-06-01T12:00:00Z",
   "updated_at": "2025-06-01T12:00:00Z",
   "deleted_at": null,
+  "project_id": "4e6ad2e9-e4d9-535b-a067-df35346e47cc",
   "object_count": 50,
   "datapoint_count": 9
 }

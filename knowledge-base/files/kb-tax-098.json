@@ -1,6 +1,8 @@
 {
   "id": "kb-tax-098",
   "title": "System prompt: Account tax-treatment Q&A",
+  "project_id": "ffe04e47-1382-5fdd-b6c4-bb39c1de02dd",
+  "content_path": "knowledgebase/tax/agents/account-tax-treatment-q-a/core/system-prompt-001.md",
   "versions": [
     {
       "id": "v1",

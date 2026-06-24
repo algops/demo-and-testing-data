@@ -4,10 +4,10 @@
   "description": "Object type tax_ruling",
   "org_id": "org:anchor",
   "domain_id": "tax",
-  "project_id": "org:anchor:tax",
   "created_at": "2025-06-01T12:00:00Z",
   "updated_at": "2025-06-01T12:00:00Z",
   "deleted_at": null,
+  "project_id": "ffe04e47-1382-5fdd-b6c4-bb39c1de02dd",
   "object_count": 8,
   "datapoint_count": 8
 }

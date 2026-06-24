@@ -5,6 +5,7 @@
       "slug": "it_kb_ingest",
       "name": "IT KB ingest",
       "domain_id": "it",
+      "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
       "owner_org_id": "org:anchor",
       "status": "active",
       "output_datasets": [
@@ -29,6 +30,7 @@
       "slug": "it_code_review",
       "name": "IT code review",
       "domain_id": "it",
+      "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
       "owner_org_id": "org:anchor",
       "status": "active",
       "output_datasets": [
@@ -53,6 +55,7 @@
       "slug": "it_incident_sync",
       "name": "IT incident sync",
       "domain_id": "it",
+      "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
       "owner_org_id": "org:anchor",
       "status": "active",
       "output_datasets": [
@@ -77,6 +80,7 @@
       "slug": "legal_knowhow_index",
       "name": "Legal know-how index",
       "domain_id": "legal",
+      "project_id": "0f03a1d8-d327-5d6e-9654-c574c6658c06",
       "owner_org_id": "org:anchor",
       "status": "active",
       "output_datasets": [
@@ -102,6 +106,7 @@
       "slug": "esg_evidence_collect",
       "name": "ESG evidence collect",
       "domain_id": "esg",
+      "project_id": "478c1584-69c0-5545-9f34-33d311b96d71",
       "owner_org_id": "org:anchor",
       "status": "active",
       "output_datasets": [
@@ -127,6 +132,7 @@
       "slug": "tax_filing_ops",
       "name": "Tax filing ops",
       "domain_id": "tax",
+      "project_id": "ffe04e47-1382-5fdd-b6c4-bb39c1de02dd",
       "owner_org_id": "org:anchor",
       "status": "active",
       "output_datasets": [
@@ -152,6 +158,7 @@
       "slug": "hr_sop_sync",
       "name": "HR SOP sync",
       "domain_id": "hr",
+      "project_id": "4e6ad2e9-e4d9-535b-a067-df35346e47cc",
       "owner_org_id": "org:anchor",
       "status": "active",
       "output_datasets": [

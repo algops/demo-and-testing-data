@@ -1,0 +1,13 @@
+{
+  "id": "kb-0b1e7d19",
+  "title": "New document",
+  "project_id": "9cfef61f-98d8-5f89-aab8-513423de066f",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Published",
+      "createdAt": "2026-06-24T16:22:38.510Z",
+      "content": "# New document\n"
+    }
+  ]
+}
