@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from .agent_specs import DOMAIN_AGENTS, build_agent_kb_grants, get_agent_slug
-from .util import NOW, ROOT, slugify
+from .util import CANONICAL_ROOT, DOMAINS, NOW, project_id_for_domain, slugify
 
 ANCHOR_ORG_NAME = "Meridian Pay a.s."
 ANCHOR_ORG_ID = "org:anchor"
@@ -165,6 +165,26 @@ def publish_datasets(
             "data": rows,
         }
         write_json(datasets_dir / f"{oid}.json", payload, dry_run)
+
+    catalog: list[dict[str, Any]] = []
+    for domain in DOMAINS:
+        domain_path = source / "datasets" / domain / "datasets.json"
+        if not domain_path.is_file():
+            continue
+        for record in load_json(domain_path).get("datasets", []):
+            catalog.append(
+                {
+                    "id": record["id"],
+                    "name": record["name"],
+                    "org_id": record.get("org_id", ANCHOR_ORG_ID),
+                    "domain": record.get("domain", domain),
+                    "project_id": record.get("project_id") or project_id_for_domain(domain),
+                    "object_type_id": record.get("object_type_id"),
+                    "workflow_id": record.get("workflow_id"),
+                    "row_count": record.get("row_count", len(record.get("objects", []))),
+                }
+            )
+    write_json(datasets_dir / "datasets.json", {"datasets": catalog}, dry_run)
 
 
 def publish_workflows_and_activities(source: Path, target: Path, dry_run: bool) -> None:
@@ -358,28 +378,36 @@ def _build_folder_node(
     folders: list[dict],
     docs: list[dict],
     doc_file_ids: dict[str, str],
+    doc_domains: dict[str, str],
 ) -> dict:
     path = folder["path"]
+    domain = path.split("/")[1] if "/" in path and path != "knowledgebase" else None
+    pid = project_id_for_domain(domain) if domain in DOMAINS else None
     children: list[dict] = []
     for child_folder in _folder_children(folders, path):
-        children.append(_build_folder_node(child_folder, folders, docs, doc_file_ids))
+        children.append(_build_folder_node(child_folder, folders, docs, doc_file_ids, doc_domains))
     for doc in _docs_in_folder(docs, path):
         file_id = doc_file_ids[doc["id"]]
         filename = doc["title"][:60].replace(" ", "-").lower() + ".md"
-        children.append(
-            {
-                "id": f"file-{doc['id'][:8]}",
-                "name": filename,
-                "type": "file",
-                "fileId": file_id,
-            }
-        )
-    return {
+        file_node: dict[str, Any] = {
+            "id": f"file-{doc['id'][:8]}",
+            "name": filename,
+            "type": "file",
+            "fileId": file_id,
+        }
+        doc_pid = doc.get("project_id") or project_id_for_domain(doc_domains.get(doc["id"], ""))
+        if doc_pid:
+            file_node["project_id"] = doc_pid
+        children.append(file_node)
+    node: dict[str, Any] = {
         "id": f"folder-{folder['id'][:8]}",
         "name": folder["name"],
         "type": "folder",
         "children": children,
     }
+    if pid:
+        node["project_id"] = pid
+    return node
 
 
 def publish_knowledge_base(source: Path, target: Path, dry_run: bool) -> None:
@@ -387,14 +415,16 @@ def publish_knowledge_base(source: Path, target: Path, dry_run: bool) -> None:
     docs = load_json(source / "knowledge-docs.json")["knowledge_docs"]
 
     doc_file_ids: dict[str, str] = {}
+    doc_domains: dict[str, str] = {}
     for i, doc in enumerate(docs):
         domain = doc.get("domain_id", "shared")
         doc_file_ids[doc["id"]] = f"kb-{domain}-{i + 1:03d}"
+        doc_domains[doc["id"]] = domain
 
     roots = [f for f in folders if f["path"] == "knowledgebase"]
     tree = []
     for root in roots:
-        tree.append(_build_folder_node(root, folders, docs, doc_file_ids))
+        tree.append(_build_folder_node(root, folders, docs, doc_file_ids, doc_domains))
 
     write_json(target / "knowledge-base" / "tree.json", {"tree": tree}, dry_run)
 
@@ -415,9 +445,12 @@ def publish_knowledge_base(source: Path, target: Path, dry_run: bool) -> None:
             else:
                 content = f"# {doc['title']}\n\n(Dokument vygenerován pro demo.)\n"
 
+        rel_path = doc.get("content_path", "").replace("knowledge-content/", "")
         payload = {
             "id": file_id,
             "title": doc["title"],
+            "project_id": doc.get("project_id") or project_id_for_domain(domain),
+            "content_path": rel_path,
             "versions": [
                 {
                     "id": "v1",
@@ -473,6 +506,55 @@ def _default_source_setup(name: str, delivery_type: str = "Endpoint") -> dict[st
             "response_mappings": {},
         },
     }
+
+
+def publish_integrations(source: Path, target: Path, dry_run: bool) -> None:
+    integrations = load_json(source / "integrations.json")["integrations"]
+    integrations_dir = target / "integrations"
+    if not dry_run:
+        integrations_dir.mkdir(parents=True, exist_ok=True)
+        for old in integrations_dir.glob("*.json"):
+            old.unlink()
+
+    ui_integrations = []
+    for i, integration in enumerate(integrations):
+        role = integration.get("integration_role", "source")
+        if role == "destination":
+            continue
+        iid = integration["id"]
+        name = integration["name"]
+        domain = integration.get("domain_id", "shared")
+        pid = integration.get("project_id") or project_id_for_domain(domain)
+        list_entry = {
+            **integration,
+            "description": f"{name} — integrace domény {domain} pro {ANCHOR_ORG_NAME}",
+            "source_type": "Integration",
+            "delivery_type": "Endpoint",
+            "max_concurrent_runs": 10,
+            "timeout": 30,
+            "average_run_duration": 35 + (i % 5) * 5,
+            "owner_org_id": ANCHOR_ORG_ID,
+            "owner_org_name": ANCHOR_ORG_NAME,
+            "last_used_at": integration.get("updated_at", NOW),
+            "total_runs": 50 + i * 11,
+            "successful_runs": 45 + i * 10,
+            "failed_runs": 5 + i,
+            "success_rate": round(0.88 + (i % 4) * 0.02, 3),
+            "activities_count": 1 if role == "source" else 0,
+            "workflows_count": 1 if role == "source" else 0,
+            "use_cases_count": 1 if role == "tool" else 0,
+            "guardrails_count": 1 if role == "tool" else 0,
+        }
+        if pid:
+            list_entry["project_id"] = pid
+        ui_integrations.append({k: v for k, v in list_entry.items() if k != "setup"})
+        detail = {
+            **list_entry,
+            "setup": _default_source_setup(name),
+        }
+        write_json(integrations_dir / f"{iid}.json", detail, dry_run)
+
+    write_json(target / "integrations.json", {"integrations": ui_integrations}, dry_run)
 
 
 def publish_sources(source: Path, target: Path, dry_run: bool) -> None:
@@ -544,6 +626,118 @@ def _agent_spec_by_slug(domain: str, slug: str) -> dict | None:
         if get_agent_slug(spec) == slug:
             return spec
     return None
+
+
+def publish_agents(source: Path, target: Path, dry_run: bool) -> None:
+    agents = load_json(source / "agents.json")["agents"]
+    integrations = load_json(source / "integrations.json")["integrations"]
+    object_types = load_json(source / "object-types.json")["object_types"]
+    agents_dir = target / "agents"
+    if not dry_run:
+        agents_dir.mkdir(parents=True, exist_ok=True)
+        for old in agents_dir.glob("*.json"):
+            old.unlink()
+
+    tools_by_domain: dict[str, list[str]] = {}
+    sources_by_domain: dict[str, list[str]] = {}
+    for integ in integrations:
+        domain = integ.get("domain_id", "shared")
+        role = integ.get("integration_role", "source")
+        if role == "tool":
+            tools_by_domain.setdefault(domain, []).append(integ["id"])
+        elif role == "source":
+            sources_by_domain.setdefault(domain, []).append(integ["id"])
+
+    list_items = []
+    for agent in agents:
+        domain = agent.get("domain_id", "shared")
+        file_id = agent["id"]
+        agent_slug = agent.get("slug") or slugify(agent["name"])
+        agent_spec = _agent_spec_by_slug(domain, agent_slug) or {}
+        kb_grants = build_agent_kb_grants(
+            domain,
+            agent_slug,
+            agent_spec.get("must_read_sections", []),
+        )
+        object_type_ids = _resolve_object_type_ids(
+            object_types, domain, agent_spec.get("operates_on", [])
+        )
+        skills_path = f"/knowledgebase/{domain}/agents/{agent_slug}"
+        tool_ids = tools_by_domain.get(domain, [])
+        source_ids = sources_by_domain.get(domain, [])
+        pid = agent.get("project_id") or project_id_for_domain(domain)
+        detail = {
+            "id": file_id,
+            "name": agent["name"],
+            "slug": agent_slug,
+            "description": agent.get("description") or agent.get("primary_use_case_cs", ""),
+            "status": agent.get("status", "draft"),
+            "domain_id": domain,
+            "org_id": agent.get("org_id", ANCHOR_ORG_ID),
+            "primary_use_case_cs": agent.get("primary_use_case_cs"),
+            "created_at": agent.get("created_at", NOW),
+            "updated_at": agent.get("updated_at", NOW),
+            "setup": {
+                "accessibility": {
+                    "primary": {"type": "web_widget", "enabled": True, "bidirectional": True, "label": "Web widget"},
+                    "supervisor": {
+                        "type": "slack",
+                        "enabled": agent.get("status") == "active",
+                        "bidirectional": True,
+                        "canSteer": True,
+                        "label": f"#agents-{domain}",
+                    },
+                },
+                "knowledge_base_access": {
+                    "grants": kb_grants,
+                    "skillsPath": skills_path,
+                    "skillFilePaths": [],
+                },
+                "data_warehouse_access": {"objectTypeIds": object_type_ids},
+                "realtime_data_access": {
+                    "grants": [
+                        {
+                            "sourceId": sid,
+                            "label": "Realtime feed",
+                            "streamKey": "events",
+                        }
+                        for sid in source_ids[:2]
+                    ],
+                },
+                "actions_access": {
+                    "grants": [
+                        {
+                            "sourceId": tid,
+                            "actionKey": "execute_tool",
+                            "label": "Tool action",
+                            "description": f"Execute via {tid}",
+                            "permission": "execute",
+                        }
+                        for tid in tool_ids[:1]
+                    ],
+                },
+            },
+        }
+        if pid:
+            detail["project_id"] = pid
+        write_json(agents_dir / f"{file_id}.json", detail, dry_run)
+        list_item = {
+            "id": agent["id"],
+            "name": agent["name"],
+            "slug": agent_slug,
+            "description": detail["description"],
+            "status": agent.get("status", "draft"),
+            "domain_id": domain,
+            "org_id": agent.get("org_id", ANCHOR_ORG_ID),
+            "primary_use_case_cs": agent.get("primary_use_case_cs"),
+            "created_at": agent.get("created_at", NOW),
+            "updated_at": agent.get("updated_at", NOW),
+        }
+        if pid:
+            list_item["project_id"] = pid
+        list_items.append(list_item)
+
+    write_json(target / "agents.json", {"agents": list_items}, dry_run)
 
 
 def publish_chat_agents(source: Path, target: Path, dry_run: bool) -> None:
@@ -649,8 +843,6 @@ def copy_canonical(source: Path, target: Path, dry_run: bool) -> None:
     names = [
         "relationships.json",
         "objects.json",
-        "agents.json",
-        "integrations.json",
         "values.json",
         "generation_manifest.json",
         "validation_report.json",
@@ -679,16 +871,19 @@ def copy_canonical(source: Path, target: Path, dry_run: bool) -> None:
             shutil.copytree(kb_src, kb_dst)
 
 
-def publish(target: Path, dry_run: bool = False) -> dict[str, Any]:
-    source = ROOT
+def publish(target: Path, dry_run: bool = False, legacy: bool = False) -> dict[str, Any]:
+    source = CANONICAL_ROOT
     print(f"Publishing from {source} -> {target}")
     object_types, name_by_id = publish_object_types(source, target, dry_run)
     publish_datasets(source, target, object_types, name_by_id, dry_run)
     publish_workflows_and_activities(source, target, dry_run)
     publish_factors(source, target, object_types, dry_run)
     publish_knowledge_base(source, target, dry_run)
-    publish_sources(source, target, dry_run)
-    publish_chat_agents(source, target, dry_run)
+    publish_integrations(source, target, dry_run)
+    publish_agents(source, target, dry_run)
+    if legacy:
+        publish_sources(source, target, dry_run)
+        publish_chat_agents(source, target, dry_run)
     copy_canonical(source, target, dry_run)
     stats = {
         "object_types": len(object_types),
@@ -704,12 +899,13 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Publish demo data to UI layout")
     parser.add_argument("--target", required=True, help="Path to ui/data directory")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--legacy", action="store_true", help="Also emit sources/ and chat-agents/")
     args = parser.parse_args()
     target = Path(args.target).resolve()
     if not target.is_dir():
         print(f"Target not found: {target}", file=sys.stderr)
         return 1
-    publish(target, dry_run=args.dry_run)
+    publish(target, dry_run=args.dry_run, legacy=args.legacy)
     return 0
 
 

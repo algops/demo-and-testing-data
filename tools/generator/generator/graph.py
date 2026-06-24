@@ -32,6 +32,7 @@ from .util import (
     load_yaml_simple,
     make_id,
     parse_range,
+    project_id_for_domain,
     slugify,
     CANONICAL_ROOT,
 )
@@ -189,6 +190,9 @@ def _add_domain_edge(
     extra_meta: dict[str, Any] | None = None,
 ) -> None:
     meta: dict[str, Any] = {"domain_edge": rel_spec["type"], "domain_id": domain}
+    pid = project_id_for_domain(domain)
+    if pid:
+        meta["project_id"] = pid
     if extra_meta:
         meta.update(extra_meta)
     edge_values = materialize_edge_values(state, origin_oid, rel_spec, domain, edge_index)
@@ -649,7 +653,61 @@ def build_relationship_graph(min_docs: dict[str, int], domains: tuple[str, ...] 
 
     state.relationships = _truncate_relationships(state.relationships, padding_start)
     state.relationships = _reorder_relationships(state.relationships)
+    state.relationships = _finalize_relationships(state)
     return state
+
+
+def _finalize_relationships(state: GraphState) -> list[dict[str, Any]]:
+    agent_domains = {
+        make_id(f"agent:{domain}:{get_agent_slug(spec)}"): domain
+        for domain in DOMAINS
+        for spec in DOMAIN_AGENTS[domain]
+    }
+    integration_domains = {
+        iid: key.split(":", 1)[0] for key, iid in state.integration_ids.items()
+    }
+    kb_doc_domains = {did: key.split(":", 1)[0] for key, did in state.kb_doc_ids.items()}
+    kb_folder_domains: dict[str, str] = {}
+    for path, fid in state.kb_folder_ids.items():
+        parts = path.split("/")
+        if len(parts) > 1 and parts[1] in DOMAINS:
+            kb_folder_domains[fid] = parts[1]
+
+    finalized: list[dict[str, Any]] = []
+    for rel in state.relationships:
+        edge = dict(rel)
+        edge["id"] = make_id(
+            f"relationship:{rel['origin_type']}:{rel['origin_id']}:"
+            f"{rel['destination_type']}:{rel['destination_id']}:{rel['relationship_kind']}"
+        )
+        meta = dict(edge.get("metadata") or {})
+        if "project_id" not in meta:
+            domain = meta.get("domain_id")
+            if not domain:
+                origin_id = rel.get("origin_id", "")
+                dest_id = rel.get("destination_id", "")
+                origin_type = rel.get("origin_type", "")
+                dest_type = rel.get("destination_type", "")
+                if origin_type == "agent" and origin_id in agent_domains:
+                    domain = agent_domains[origin_id]
+                elif dest_type == "integration" and dest_id in integration_domains:
+                    domain = integration_domains[dest_id]
+                elif origin_type == "integration" and origin_id in integration_domains:
+                    domain = integration_domains[origin_id]
+                elif dest_type == "knowledge-doc" and dest_id in kb_doc_domains:
+                    domain = kb_doc_domains[dest_id]
+                elif origin_type == "knowledge-doc" and origin_id in kb_doc_domains:
+                    domain = kb_doc_domains[origin_id]
+                elif dest_type == "knowledge-folder" and dest_id in kb_folder_domains:
+                    domain = kb_folder_domains[dest_id]
+                elif origin_type == "knowledge-folder" and origin_id in kb_folder_domains:
+                    domain = kb_folder_domains[origin_id]
+            pid = project_id_for_domain(domain) if isinstance(domain, str) else None
+            if pid:
+                meta["project_id"] = pid
+        edge["metadata"] = meta
+        finalized.append(edge)
+    return finalized
 
 
 SEMANTIC_KINDS = {

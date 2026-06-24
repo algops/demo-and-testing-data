@@ -12,7 +12,7 @@ import json
 from .agent_specs import DOMAIN_AGENTS, build_agent_kb_grants, get_agent_slug
 from .attribute_types import get_data_type, validate_value_for_type
 from .audit_values import GENERIC_VALUE_RE, TEMPLATE_DESC_RE, audit_values
-from .util import DOMAINS, CANONICAL_ROOT
+from .util import DOMAINS, CANONICAL_ROOT, project_id_for_domain
 
 AGENT_CONFIG_KINDS = {"system_prompt", "agent_role", "agent_skill"}
 
@@ -199,14 +199,62 @@ def validate(
                     errors.append(f"Demo disclaimer found in {content_path}")
 
     projects_path = CANONICAL_ROOT / "projects.json"
+    project_ids: set[str] = set()
     if projects_path.is_file():
         projects_data = json.loads(projects_path.read_text(encoding="utf-8"))
         projects = projects_data.get("projects", [])
+        project_ids = {p["id"] for p in projects}
         if len(projects) != 5:
             errors.append(f"Expected 5 projects, found {len(projects)}")
         domain_ids = {p.get("domain_id") for p in projects}
         if domain_ids != set(DOMAINS):
             errors.append(f"Project domain_ids mismatch: {domain_ids}")
+        for p in projects:
+            expected = project_id_for_domain(p.get("domain_id"))
+            if expected and p.get("id") != expected:
+                errors.append(f"Project {p.get('domain_id')} id should be {expected}, got {p.get('id')}")
+
+    def _check_project_ids(label: str, items: list[dict] | None) -> None:
+        if not items or not project_ids:
+            return
+        for item in items:
+            domain = item.get("domain_id") or item.get("domain")
+            if domain not in DOMAINS:
+                continue
+            pid = item.get("project_id")
+            expected = project_id_for_domain(domain)
+            if not pid:
+                errors.append(f"Missing project_id on {label} {item.get('id')}")
+            elif pid not in project_ids:
+                errors.append(f"Invalid project_id on {label} {item.get('id')}: {pid}")
+            elif expected and pid != expected:
+                errors.append(f"project_id mismatch on {label} {item.get('id')}")
+
+    integrations_path = CANONICAL_ROOT / "integrations.json"
+    if integrations_path.is_file():
+        _check_project_ids(
+            "integration",
+            json.loads(integrations_path.read_text(encoding="utf-8")).get("integrations"),
+        )
+    agents_path = CANONICAL_ROOT / "agents.json"
+    if agents_path.is_file():
+        _check_project_ids(
+            "agent",
+            json.loads(agents_path.read_text(encoding="utf-8")).get("agents"),
+        )
+
+    for rel in relationships:
+        meta = rel.get("metadata") or {}
+        if rel.get("relationship_kind") == "related_to" and meta.get("domain_edge"):
+            pid = meta.get("project_id")
+            domain = meta.get("domain_id")
+            expected = project_id_for_domain(domain) if domain in DOMAINS else None
+            if expected and pid != expected:
+                errors.append(
+                    f"Relationship domain edge missing/wrong project_id for {meta.get('domain_edge')}"
+                )
+        if not rel.get("id"):
+            errors.append("Relationship missing id")
 
     for slug in (
         "it_service_health",

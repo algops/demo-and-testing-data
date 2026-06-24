@@ -13,8 +13,26 @@ Relationship-first pipeline for the Meridian Pay anchor tenant (five domain modu
 
 ```bash
 pip install -r requirements.txt
-python -m generator.main
+cd tools/generator && python3 -m generator.main
+python3 -m generator.publish_ui --target ../..
 ```
+
+Or one shot from repo root: `./tools/scripts/scripts/sync-to-ui-data.sh`
+
+## Project IDs
+
+Each domain project uses a stable UUID from `make_id("project:{domain_id}")` (see `generator/util.py`). Example: `esg` → `478c1584-69c0-5545-9f34-33d311b96d71`. All domain-scoped entities and relationship `metadata.project_id` values use these IDs.
+
+## Phase order
+
+```
+catalogues → graph → derive (+ project_id) → kb_content → orchestration (+ project_id)
+→ validate → publish_ui
+```
+
+## Published UI layout (`publish_ui --target <ui/data>`)
+
+Flat layout at repo root: `integrations.json` + `integrations/{id}.json`, `agents.json` + `agents/{id}.json`, `datasets/datasets.json`, `knowledge-base/tree.json` + `knowledge-base/files/`. Legacy `sources/` and `chat-agents/` require `--legacy`.
 
 ## Run (IT domain only)
 

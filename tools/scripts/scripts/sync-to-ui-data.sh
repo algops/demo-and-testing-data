@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-UI_DATA="${UI_DATA:-$ROOT/../ui/data}"
+TOOLS="$(cd "$(dirname "$0")/../.." && pwd)"
+GENERATOR="$TOOLS/generator"
+UI_DATA="${UI_DATA:-$TOOLS/..}"
+PYTHON="${PYTHON:-python3}"
 
-cd "$ROOT"
-python3 -m generator.main
-python3 -m generator.publish_ui --target "$UI_DATA"
+cd "$GENERATOR"
+"$PYTHON" -m generator.main
+"$PYTHON" -m generator.publish_ui --target "$UI_DATA"
 echo "Synced to $UI_DATA"

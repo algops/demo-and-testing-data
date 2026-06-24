@@ -27,6 +27,12 @@ def make_id(seed: str) -> str:
     return str(uuid.uuid5(NAMESPACE, seed))
 
 
+def project_id_for_domain(domain_id: str | None) -> str | None:
+    if domain_id and domain_id in DOMAINS:
+        return make_id(f"project:{domain_id}")
+    return None
+
+
 def slugify(name: str) -> str:
     s = re.sub(r"([a-z0-9])([A-Z])", r"\1_\2", name)
     return s.lower().replace(" ", "_").replace("-", "_")

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from .util import BLUEPRINTS_ROOT, DOMAINS, NOW, ORG_ID, load_yaml_simple, make_id, slugify
+from .util import BLUEPRINTS_ROOT, DOMAINS, NOW, ORG_ID, load_yaml_simple, make_id, project_id_for_domain, slugify
 
 WORKFLOW_SPECS = [
     ("it_kb_ingest", "it", "IT KB ingest", ["it_service_health"]),
@@ -62,6 +62,7 @@ def derive_workflows() -> list[dict[str, Any]]:
                 "slug": slug,
                 "name": name,
                 "domain_id": domain,
+                "project_id": project_id_for_domain(domain),
                 "owner_org_id": ORG_ID,
                 "status": "active",
                 "output_datasets": datasets,
@@ -87,6 +88,7 @@ def derive_activities(workflows: list[dict], integrations: list[dict]) -> list[d
                     "step_index": idx,
                     "integration_id": integ["id"],
                     "domain_id": domain,
+                    "project_id": project_id_for_domain(domain),
                     "owner_org_id": ORG_ID,
                     "status": "active",
                     "created_at": NOW,
@@ -124,6 +126,7 @@ def derive_factors(activities: list[dict]) -> list[dict[str, Any]]:
                     "type": ftype,
                     "activity_id": act["id"],
                     "domain_id": domain,
+                    "project_id": project_id_for_domain(domain),
                     "object_type_id": object_type_id,
                     "datapoint_id": datapoint_id,
                     "factor_type": factor_type,
@@ -167,6 +170,7 @@ def derive_datasets(
             "name": slug,
             "org_id": ORG_ID,
             "domain": domain,
+            "project_id": project_id_for_domain(domain),
             "object_type_id": ot_id,
             "workflow_id": wf["id"] if wf else None,
             "objects": objs,
