@@ -1,0 +1,158 @@
+{
+  "object_type_id": "860b5abb-5ea0-59f2-9f65-81d4f6537bc8",
+  "object_type_name": "internal_procedure",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "internal_procedure": "IP-001 DPH přiznání checklist v3.0",
+      "id": "640a0f0a-6282-5c17-b412-ce10a84743e5",
+      "domain_id": "tax",
+      "data": {
+        "status": "current",
+        "title": "IP-001 DPH přiznání checklist v3.0",
+        "code": "INTE-001",
+        "category": "technical",
+        "version": "v2.0",
+        "owner": "Operations",
+        "last_updated": "2023-04-25",
+        "known_gaps": "IP-001 DPH přiznání checklist v3.0 — tax filing and compliance context for Meridian Pay group."
+      }
+    },
+    {
+      "internal_procedure": "IP-003 Roční závěrka postup v2.0",
+      "id": "2de4f9cc-d89d-54fd-9428-4951a9bdc433",
+      "domain_id": "tax",
+      "data": {
+        "status": "current",
+        "title": "IP-003 Roční závěrka postup v2.0",
+        "code": "INTE-002",
+        "category": "financial",
+        "version": "v4.9",
+        "owner": "Finance",
+        "last_updated": "2024-05-02",
+        "known_gaps": "IP-003 Roční závěrka postup v2.0 — tax filing and compliance context for Meridian Pay group."
+      }
+    },
+    {
+      "internal_procedure": "IP-007 Transfer pricing dokumentace v0.0",
+      "id": "caa7e5cf-cc89-5114-82c9-70d0436efd1d",
+      "domain_id": "tax",
+      "data": {
+        "title": "IP-007 Transfer pricing dokumentace v0.0",
+        "code": "INTE-003",
+        "category": "technical",
+        "version": "v3.6",
+        "owner": "Finance",
+        "last_updated": "2023-07-24",
+        "status": "draft",
+        "known_gaps": "IP-007 Transfer pricing dokumentace v0.0 — tax filing and compliance context for Meridian Pay group."
+      }
+    },
+    {
+      "internal_procedure": "IP-010 AML postup pro daňové poradce v1.0",
+      "id": "52b85f05-6c82-5bdf-b302-37ebf20d9273",
+      "domain_id": "tax",
+      "data": {
+        "status": "outdated — 2021",
+        "title": "IP-010 AML postup pro daňové poradce v1.0",
+        "code": "INTE-004",
+        "category": "operational",
+        "version": "v3.0",
+        "owner": "Engineering",
+        "last_updated": "2024-07-02",
+        "known_gaps": "IP-010 AML postup pro daňové poradce v1.0 — tax filing and compliance context for Meridian Pay group."
+      }
+    },
+    {
+      "internal_procedure": "IP-001 DPH přiznání checklist v3.0 — updated",
+      "id": "ba2b2532-16be-5160-9eff-4b83a7d64eca",
+      "domain_id": "tax",
+      "data": {
+        "status": "current",
+        "title": "IP-001 DPH přiznání checklist v3.0 — updated",
+        "code": "INTE-005",
+        "category": "operational",
+        "version": "v1.2",
+        "owner": "Legal",
+        "last_updated": "2023-08-14",
+        "known_gaps": "IP-001 DPH přiznání checklist v3.0 — updated — tax filing and compliance context for Meridian Pay group."
+      }
+    },
+    {
+      "internal_procedure": "IP-003 Roční závěrka postup v2.0 #6",
+      "id": "85bd4835-125b-5b20-ba9a-2ee41e43fc75",
+      "domain_id": "tax",
+      "data": {
+        "status": "current",
+        "title": "IP-003 Roční závěrka postup v2.0 #6",
+        "code": "INTE-006",
+        "category": "financial",
+        "version": "v3.0",
+        "owner": "Engineering",
+        "last_updated": "2024-04-11",
+        "known_gaps": "IP-003 Roční závěrka postup v2.0 #6 — tax filing and compliance context for Meridian Pay group."
+      }
+    },
+    {
+      "internal_procedure": "IP-007 Transfer pricing dokumentace v0.0",
+      "id": "bb3f29dc-6170-57fe-ada0-632a3937c849",
+      "domain_id": "tax",
+      "data": {
+        "title": "IP-007 Transfer pricing dokumentace v0.0",
+        "code": "INTE-007",
+        "category": "financial",
+        "version": "v3.2",
+        "owner": "Finance",
+        "last_updated": "2023-05-15",
+        "status": "draft",
+        "known_gaps": "IP-007 Transfer pricing dokumentace v0.0 — tax filing and compliance context for Meridian Pay group."
+      }
+    },
+    {
+      "internal_procedure": "IP-010 AML postup pro daňové poradce v1.0 (Brno)",
+      "id": "8db3d6a1-a3cf-5f43-862b-f5a11e7f0da2",
+      "domain_id": "tax",
+      "data": {
+        "status": "outdated — 2021",
+        "title": "IP-010 AML postup pro daňové poradce v1.0 (Brno)",
+        "code": "INTE-008",
+        "category": "governance",
+        "version": "v2.2",
+        "owner": "Finance",
+        "last_updated": "2024-01-12",
+        "known_gaps": "IP-010 AML postup pro daňové poradce v1.0 (Brno) — tax filing and compliance context for Meridian Pay group."
+      }
+    },
+    {
+      "internal_procedure": "IP-001 DPH přiznání checklist v3.0 (FY2024)",
+      "id": "e3a2a8d5-53a6-51d6-a436-e39202c1cf31",
+      "domain_id": "tax",
+      "data": {
+        "status": "current",
+        "title": "IP-001 DPH přiznání checklist v3.0 (FY2024)",
+        "code": "INTE-009",
+        "category": "financial",
+        "version": "v3.1",
+        "owner": "Engineering",
+        "last_updated": "2023-12-13",
+        "known_gaps": "IP-001 DPH přiznání checklist v3.0 (FY2024) — tax filing and compliance context for Meridian Pay group."
+      }
+    },
+    {
+      "internal_procedure": "IP-003 Roční závěrka postup v2.0 v2",
+      "id": "1077e283-24f3-55fe-a41d-38ab6fbb3e67",
+      "domain_id": "tax",
+      "data": {
+        "status": "current",
+        "title": "IP-003 Roční závěrka postup v2.0 v2",
+        "code": "INTE-010",
+        "category": "financial",
+        "version": "v4.1",
+        "owner": "Legal",
+        "last_updated": "2024-04-17",
+        "known_gaps": "IP-003 Roční závěrka postup v2.0 v2 — tax filing and compliance context for Meridian Pay group."
+      }
+    }
+  ]
+}

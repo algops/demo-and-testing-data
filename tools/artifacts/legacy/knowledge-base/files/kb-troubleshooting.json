@@ -1,0 +1,18 @@
+{
+  "id": "kb-troubleshooting",
+  "title": "Troubleshooting common issues",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Initial",
+      "createdAt": "2025-01-15T10:00:00.000Z",
+      "content": "# Troubleshooting\n\n## App will not start\n\n1. Confirm you are on a supported OS (Windows 10+, macOS 12+, Ubuntu 22.04+).\n2. Run `algops doctor` and fix any reported configuration errors.\n3. Clear the local cache: `algops cache clear` then restart the app.\n\n## Connection timeouts\n\n- Check firewall rules allow outbound HTTPS to `api.algops.example`.\n- Verify your API key in **Settings → Integrations**.\n"
+    },
+    {
+      "id": "v2",
+      "label": "Updated steps",
+      "createdAt": "2025-02-01T14:30:00.000Z",
+      "content": "# Troubleshooting\n\n## App will not start\n\n1. Confirm you are on a supported OS (Windows 10+, macOS 12+, Ubuntu 22.04+).\n2. Run `algops doctor --fix` to auto-repair common issues.\n3. Clear the local cache: `algops cache clear` then restart the app.\n4. If the problem persists, collect logs with `algops logs export` and contact support.\n\n## Connection timeouts\n\n- Check firewall rules allow outbound HTTPS to `api.algops.example`.\n- Verify your API key in **Settings → Integrations**.\n- Try switching to the backup endpoint in **Settings → Network**.\n"
+    }
+  ]
+}

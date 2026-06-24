@@ -1,0 +1,382 @@
+{
+  "object_type_id": "fcf6d2c6-fb06-50e8-b26d-5984e1c4e28a",
+  "object_type_name": "counterparty",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "counterparty": "LogiCorp a.s.",
+      "id": "01641b9f-71bd-5770-bcb3-0648c40924aa",
+      "domain_id": "legal",
+      "data": {
+        "name": "LogiCorp a.s.",
+        "id": "COU-0001",
+        "type": "financial",
+        "sector": "technical",
+        "aml_status": "Legal aml status — LogiCorp a.s.",
+        "aml_last_check": "Legal aml last check — LogiCorp a.s.",
+        "engagement_since": "Legal engagement since — LogiCorp a.s.",
+        "key_contact": "Legal key contact — LogiCorp a.s.",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — LogiCorp a.s."
+      }
+    },
+    {
+      "counterparty": "PayFlow SK s.r.o. s.r.o.",
+      "id": "0b64f4c7-e7ce-55ba-8ae3-171a1748e679",
+      "domain_id": "legal",
+      "data": {
+        "name": "PayFlow SK s.r.o. s.r.o.",
+        "id": "COU-0002",
+        "type": "governance",
+        "sector": "financial",
+        "aml_status": "Legal aml status — PayFlow SK s.r.o. s.r.o.",
+        "aml_last_check": "Legal aml last check — PayFlow SK s.r.o. s.r.o.",
+        "engagement_since": "Legal engagement since — PayFlow SK s.r.o. s.r.o.",
+        "key_contact": "Legal key contact — PayFlow SK s.r.o. s.r.o.",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — PayFlow SK s.r.o. s.r.o."
+      }
+    },
+    {
+      "counterparty": "Město Brno",
+      "id": "fbea9653-4e57-5ee5-a959-4581734ac534",
+      "domain_id": "legal",
+      "data": {
+        "name": "Město Brno",
+        "id": "COU-0003",
+        "type": "financial",
+        "sector": "technical",
+        "aml_status": "Legal aml status — Město Brno",
+        "aml_last_check": "Legal aml last check — Město Brno",
+        "engagement_since": "Legal engagement since — Město Brno",
+        "key_contact": "Legal key contact — Město Brno",
+        "conflict_check_complete": true,
+        "revenue_tier": "Legal revenue tier — Město Brno"
+      }
+    },
+    {
+      "counterparty": "Nordic Capital PE Fund",
+      "id": "dbf7883f-0d3b-540c-89ab-404484effca7",
+      "domain_id": "legal",
+      "data": {
+        "name": "Nordic Capital PE Fund",
+        "id": "COU-0004",
+        "type": "operational",
+        "sector": "financial",
+        "aml_status": "Legal aml status — Nordic Capital PE Fund",
+        "aml_last_check": "Legal aml last check — Nordic Capital PE Fund",
+        "engagement_since": "Legal engagement since — Nordic Capital PE Fund",
+        "key_contact": "Legal key contact — Nordic Capital PE Fund",
+        "conflict_check_complete": true,
+        "revenue_tier": "Legal revenue tier — Nordic Capital PE Fund"
+      }
+    },
+    {
+      "counterparty": "LogiCorp a.s. — updated",
+      "id": "0e301c49-60de-52d7-a3a3-fbf4e3aea302",
+      "domain_id": "legal",
+      "data": {
+        "name": "LogiCorp a.s. — updated",
+        "id": "COU-0005",
+        "type": "operational",
+        "sector": "financial",
+        "aml_status": "Legal aml status — LogiCorp a.s. — updated",
+        "aml_last_check": "Legal aml last check — LogiCorp a.s. — updated",
+        "engagement_since": "Legal engagement since — LogiCorp a.s. — updated",
+        "key_contact": "Legal key contact — LogiCorp a.s. — updated",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — LogiCorp a.s. — updated"
+      }
+    },
+    {
+      "counterparty": "PayFlow SK s.r.o. s.r.o. #6",
+      "id": "cf54e399-d939-583e-93aa-bdd3e00f6787",
+      "domain_id": "legal",
+      "data": {
+        "name": "PayFlow SK s.r.o. s.r.o. #6",
+        "id": "COU-0006",
+        "type": "technical",
+        "sector": "technical",
+        "aml_status": "Legal aml status — PayFlow SK s.r.o. s.r.o. #6",
+        "aml_last_check": "Legal aml last check — PayFlow SK s.r.o. s.r.o. #6",
+        "engagement_since": "Legal engagement since — PayFlow SK s.r.o. s.r.o. #6",
+        "key_contact": "Legal key contact — PayFlow SK s.r.o. s.r.o. #6",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — PayFlow SK s.r.o. s.r.o. #6"
+      }
+    },
+    {
+      "counterparty": "Město Brno",
+      "id": "d12a588d-aaa1-5133-b85f-913df9e125c5",
+      "domain_id": "legal",
+      "data": {
+        "name": "Město Brno",
+        "id": "COU-0007",
+        "type": "technical",
+        "sector": "operational",
+        "aml_status": "Legal aml status — Město Brno",
+        "aml_last_check": "Legal aml last check — Město Brno",
+        "engagement_since": "Legal engagement since — Město Brno",
+        "key_contact": "Legal key contact — Město Brno",
+        "conflict_check_complete": true,
+        "revenue_tier": "Legal revenue tier — Město Brno"
+      }
+    },
+    {
+      "counterparty": "Nordic Capital PE Fund (Brno)",
+      "id": "327fed51-5f1b-5e5d-9119-bb6b3ef28748",
+      "domain_id": "legal",
+      "data": {
+        "name": "Nordic Capital PE Fund (Brno)",
+        "id": "COU-0008",
+        "type": "financial",
+        "sector": "governance",
+        "aml_status": "Legal aml status — Nordic Capital PE Fund (Brno)",
+        "aml_last_check": "Legal aml last check — Nordic Capital PE Fund (Brno)",
+        "engagement_since": "Legal engagement since — Nordic Capital PE Fund (Brno)",
+        "key_contact": "Legal key contact — Nordic Capital PE Fund (Brno)",
+        "conflict_check_complete": true,
+        "revenue_tier": "Legal revenue tier — Nordic Capital PE Fund (Brno)"
+      }
+    },
+    {
+      "counterparty": "LogiCorp a.s. (FY2024)",
+      "id": "13fe8294-2d2e-5111-ab39-4a2e1d2cb2c0",
+      "domain_id": "legal",
+      "data": {
+        "name": "LogiCorp a.s. (FY2024)",
+        "id": "COU-0009",
+        "type": "operational",
+        "sector": "governance",
+        "aml_status": "Legal aml status — LogiCorp a.s. (FY2024)",
+        "aml_last_check": "Legal aml last check — LogiCorp a.s. (FY2024)",
+        "engagement_since": "Legal engagement since — LogiCorp a.s. (FY2024)",
+        "key_contact": "Legal key contact — LogiCorp a.s. (FY2024)",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — LogiCorp a.s. (FY2024)"
+      }
+    },
+    {
+      "counterparty": "PayFlow SK s.r.o. s.r.o. v2",
+      "id": "5e25fcf0-06a3-5397-9d97-e603a61a7a11",
+      "domain_id": "legal",
+      "data": {
+        "name": "PayFlow SK s.r.o. s.r.o. v2",
+        "id": "COU-0010",
+        "type": "financial",
+        "sector": "operational",
+        "aml_status": "Legal aml status — PayFlow SK s.r.o. s.r.o. v2",
+        "aml_last_check": "Legal aml last check — PayFlow SK s.r.o. s.r.o. v2",
+        "engagement_since": "Legal engagement since — PayFlow SK s.r.o. s.r.o. v2",
+        "key_contact": "Legal key contact — PayFlow SK s.r.o. s.r.o. v2",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — PayFlow SK s.r.o. s.r.o. v2"
+      }
+    },
+    {
+      "counterparty": "Město Brno — updated",
+      "id": "4fff3936-18d5-58a9-9d73-3a6b15fd9507",
+      "domain_id": "legal",
+      "data": {
+        "name": "Město Brno — updated",
+        "id": "COU-0011",
+        "type": "operational",
+        "sector": "operational",
+        "aml_status": "Legal aml status — Město Brno — updated",
+        "aml_last_check": "Legal aml last check — Město Brno — updated",
+        "engagement_since": "Legal engagement since — Město Brno — updated",
+        "key_contact": "Legal key contact — Město Brno — updated",
+        "conflict_check_complete": true,
+        "revenue_tier": "Legal revenue tier — Město Brno — updated"
+      }
+    },
+    {
+      "counterparty": "Nordic Capital PE Fund #12",
+      "id": "c940f8ee-6896-5440-9237-88a64a13564a",
+      "domain_id": "legal",
+      "data": {
+        "name": "Nordic Capital PE Fund #12",
+        "id": "COU-0012",
+        "type": "governance",
+        "sector": "governance",
+        "aml_status": "Legal aml status — Nordic Capital PE Fund #12",
+        "aml_last_check": "Legal aml last check — Nordic Capital PE Fund #12",
+        "engagement_since": "Legal engagement since — Nordic Capital PE Fund #12",
+        "key_contact": "Legal key contact — Nordic Capital PE Fund #12",
+        "conflict_check_complete": true,
+        "revenue_tier": "Legal revenue tier — Nordic Capital PE Fund #12"
+      }
+    },
+    {
+      "counterparty": "LogiCorp a.s.",
+      "id": "59a3a5a7-50ef-5821-8bbb-5d0d745f9c95",
+      "domain_id": "legal",
+      "data": {
+        "name": "LogiCorp a.s.",
+        "id": "COU-0013",
+        "type": "technical",
+        "sector": "governance",
+        "aml_status": "Legal aml status — LogiCorp a.s.",
+        "aml_last_check": "Legal aml last check — LogiCorp a.s.",
+        "engagement_since": "Legal engagement since — LogiCorp a.s.",
+        "key_contact": "Legal key contact — LogiCorp a.s.",
+        "conflict_check_complete": true,
+        "revenue_tier": "Legal revenue tier — LogiCorp a.s."
+      }
+    },
+    {
+      "counterparty": "PayFlow SK s.r.o. s.r.o. (Brno)",
+      "id": "7b7ddd66-194d-5dac-baca-f8878c34c097",
+      "domain_id": "legal",
+      "data": {
+        "name": "PayFlow SK s.r.o. s.r.o. (Brno)",
+        "id": "COU-0014",
+        "type": "technical",
+        "sector": "financial",
+        "aml_status": "Legal aml status — PayFlow SK s.r.o. s.r.o. (Brno)",
+        "aml_last_check": "Legal aml last check — PayFlow SK s.r.o. s.r.o. (Brno)",
+        "engagement_since": "Legal engagement since — PayFlow SK s.r.o. s.r.o. (Brno)",
+        "key_contact": "Legal key contact — PayFlow SK s.r.o. s.r.o. (Brno)",
+        "conflict_check_complete": true,
+        "revenue_tier": "Legal revenue tier — PayFlow SK s.r.o. s.r.o. (Brno)"
+      }
+    },
+    {
+      "counterparty": "Město Brno (FY2024)",
+      "id": "32132c1c-c9c0-5a7e-8980-1527710041d6",
+      "domain_id": "legal",
+      "data": {
+        "name": "Město Brno (FY2024)",
+        "id": "COU-0015",
+        "type": "operational",
+        "sector": "operational",
+        "aml_status": "Legal aml status — Město Brno (FY2024)",
+        "aml_last_check": "Legal aml last check — Město Brno (FY2024)",
+        "engagement_since": "Legal engagement since — Město Brno (FY2024)",
+        "key_contact": "Legal key contact — Město Brno (FY2024)",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — Město Brno (FY2024)"
+      }
+    },
+    {
+      "counterparty": "Nordic Capital PE Fund v2",
+      "id": "f1af1640-2bc8-5cc3-a0e6-0a2c2a322592",
+      "domain_id": "legal",
+      "data": {
+        "name": "Nordic Capital PE Fund v2",
+        "id": "COU-0016",
+        "type": "technical",
+        "sector": "operational",
+        "aml_status": "Legal aml status — Nordic Capital PE Fund v2",
+        "aml_last_check": "Legal aml last check — Nordic Capital PE Fund v2",
+        "engagement_since": "Legal engagement since — Nordic Capital PE Fund v2",
+        "key_contact": "Legal key contact — Nordic Capital PE Fund v2",
+        "conflict_check_complete": true,
+        "revenue_tier": "Legal revenue tier — Nordic Capital PE Fund v2"
+      }
+    },
+    {
+      "counterparty": "LogiCorp a.s. — updated",
+      "id": "f147c260-e93b-5a41-b0f9-a20c46eb628b",
+      "domain_id": "legal",
+      "data": {
+        "name": "LogiCorp a.s. — updated",
+        "id": "COU-0017",
+        "type": "operational",
+        "sector": "governance",
+        "aml_status": "Legal aml status — LogiCorp a.s. — updated",
+        "aml_last_check": "Legal aml last check — LogiCorp a.s. — updated",
+        "engagement_since": "Legal engagement since — LogiCorp a.s. — updated",
+        "key_contact": "Legal key contact — LogiCorp a.s. — updated",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — LogiCorp a.s. — updated"
+      }
+    },
+    {
+      "counterparty": "PayFlow SK s.r.o. s.r.o. #18",
+      "id": "14395dd1-0175-57c0-b84a-884cc192054b",
+      "domain_id": "legal",
+      "data": {
+        "name": "PayFlow SK s.r.o. s.r.o. #18",
+        "id": "COU-0018",
+        "type": "technical",
+        "sector": "financial",
+        "aml_status": "Legal aml status — PayFlow SK s.r.o. s.r.o. #18",
+        "aml_last_check": "Legal aml last check — PayFlow SK s.r.o. s.r.o. #18",
+        "engagement_since": "Legal engagement since — PayFlow SK s.r.o. s.r.o. #18",
+        "key_contact": "Legal key contact — PayFlow SK s.r.o. s.r.o. #18",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — PayFlow SK s.r.o. s.r.o. #18"
+      }
+    },
+    {
+      "counterparty": "Město Brno",
+      "id": "5213d09a-f553-5bde-8f56-5bdea9b17565",
+      "domain_id": "legal",
+      "data": {
+        "name": "Město Brno",
+        "id": "COU-0019",
+        "type": "financial",
+        "sector": "financial",
+        "aml_status": "Legal aml status — Město Brno",
+        "aml_last_check": "Legal aml last check — Město Brno",
+        "engagement_since": "Legal engagement since — Město Brno",
+        "key_contact": "Legal key contact — Město Brno",
+        "conflict_check_complete": true,
+        "revenue_tier": "Legal revenue tier — Město Brno"
+      }
+    },
+    {
+      "counterparty": "Nordic Capital PE Fund (Brno)",
+      "id": "b0694045-9b26-523f-aa75-98ba735b5fb2",
+      "domain_id": "legal",
+      "data": {
+        "name": "Nordic Capital PE Fund (Brno)",
+        "id": "COU-0020",
+        "type": "financial",
+        "sector": "financial",
+        "aml_status": "Legal aml status — Nordic Capital PE Fund (Brno)",
+        "aml_last_check": "Legal aml last check — Nordic Capital PE Fund (Brno)",
+        "engagement_since": "Legal engagement since — Nordic Capital PE Fund (Brno)",
+        "key_contact": "Legal key contact — Nordic Capital PE Fund (Brno)",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — Nordic Capital PE Fund (Brno)"
+      }
+    },
+    {
+      "counterparty": "LogiCorp a.s. (FY2024)",
+      "id": "9b0368f2-9133-5237-a988-6dee437c12a2",
+      "domain_id": "legal",
+      "data": {
+        "name": "LogiCorp a.s. (FY2024)",
+        "id": "COU-0021",
+        "type": "technical",
+        "sector": "technical",
+        "aml_status": "Legal aml status — LogiCorp a.s. (FY2024)",
+        "aml_last_check": "Legal aml last check — LogiCorp a.s. (FY2024)",
+        "engagement_since": "Legal engagement since — LogiCorp a.s. (FY2024)",
+        "key_contact": "Legal key contact — LogiCorp a.s. (FY2024)",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — LogiCorp a.s. (FY2024)"
+      }
+    },
+    {
+      "counterparty": "PayFlow SK s.r.o. s.r.o. v2",
+      "id": "eb070901-d065-53d7-b52c-0f3323381001",
+      "domain_id": "legal",
+      "data": {
+        "name": "PayFlow SK s.r.o. s.r.o. v2",
+        "id": "COU-0022",
+        "type": "operational",
+        "sector": "technical",
+        "aml_status": "Legal aml status — PayFlow SK s.r.o. s.r.o. v2",
+        "aml_last_check": "Legal aml last check — PayFlow SK s.r.o. s.r.o. v2",
+        "engagement_since": "Legal engagement since — PayFlow SK s.r.o. s.r.o. v2",
+        "key_contact": "Legal key contact — PayFlow SK s.r.o. s.r.o. v2",
+        "conflict_check_complete": false,
+        "revenue_tier": "Legal revenue tier — PayFlow SK s.r.o. s.r.o. v2"
+      }
+    }
+  ]
+}

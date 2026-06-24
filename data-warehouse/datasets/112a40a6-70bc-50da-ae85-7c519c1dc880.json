@@ -1,0 +1,1347 @@
+{
+  "data": [
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "561154a2-efcf-5df8-bf4f-9bbff5b165a7",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0001",
+        "sector": "technical",
+        "last_assessment_date": "2023-11-11",
+        "assessment_status": "active",
+        "spend_annual_czk": 514713,
+        "critical": true,
+        "rel:SUPPLIES_TO:supply_category": "Tier 2",
+        "rel:SUPPLIES_TO:criticality": "important"
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s.",
+      "id": "b4f90622-2879-55ec-86ec-852cdc64d736",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s.",
+        "id": "SUP-0002",
+        "country": "CZ",
+        "sector": "operational",
+        "last_assessment_date": "2024-10-31",
+        "assessment_status": "active",
+        "spend_annual_czk": 946254,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd.",
+      "id": "e2ab8d19-d0fa-561b-a562-e43366611776",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd.",
+        "id": "SUP-0003",
+        "country": "SK",
+        "sector": "operational",
+        "risk_score": "medium",
+        "last_assessment_date": "2023-08-13",
+        "assessment_status": "draft",
+        "spend_annual_czk": 1141958,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "0df05f4c-87ff-5963-b47a-267662b2cec9",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0004",
+        "sector": "operational",
+        "last_assessment_date": "2024-03-12",
+        "assessment_status": "expired",
+        "spend_annual_czk": 616629,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "c103294c-0af4-52fb-be6e-f6bc11e13342",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0005",
+        "country": "IN",
+        "sector": "governance",
+        "last_assessment_date": "2023-10-23",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1630130,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #6",
+      "id": "eecc46e5-7b42-5481-ba7d-372ac47b0171",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #6",
+        "id": "SUP-0006",
+        "country": "SK",
+        "sector": "governance",
+        "risk_score": "low",
+        "last_assessment_date": "2024-12-04",
+        "assessment_status": "expired",
+        "spend_annual_czk": 473560,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "c5d0670a-ae5a-5959-977f-7a7d54008fcf",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0007",
+        "sector": "governance",
+        "last_assessment_date": "2023-05-21",
+        "assessment_status": "active",
+        "spend_annual_czk": 1177522,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "a3b88afa-9ca7-5fe3-9b70-eef4ee7d193a",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0008",
+        "country": "US",
+        "sector": "technical",
+        "last_assessment_date": "2024-01-25",
+        "assessment_status": "archived",
+        "spend_annual_czk": 1984649,
+        "critical": false,
+        "rel:ASSESSED_FOR:assessment_date": "2024-12-09",
+        "rel:ASSESSED_FOR:score": 12,
+        "rel:ASSESSED_FOR:method": "EcoVadis"
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "bec15312-08cf-59a0-bbc3-32f57f2869ab",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0009",
+        "country": "IN",
+        "sector": "governance",
+        "risk_score": "high",
+        "last_assessment_date": "2023-08-02",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 322932,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "55b4aaf6-5fe2-5984-a562-346167228b67",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0010",
+        "sector": "technical",
+        "last_assessment_date": "2024-04-04",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1003040,
+        "critical": true,
+        "rel:ASSESSED_FOR:assessment_date": "2024-07-22",
+        "rel:ASSESSED_FOR:score": 17,
+        "rel:ASSESSED_FOR:method": "custom questionnaire"
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "de287d04-2e50-5a2d-9164-cddb8204bdb5",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0011",
+        "country": "SK",
+        "sector": "governance",
+        "last_assessment_date": "2023-12-29",
+        "assessment_status": "draft",
+        "spend_annual_czk": 1699835,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #12",
+      "id": "00ef6907-afcf-5fe4-87a3-a0990efb3de4",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #12",
+        "id": "SUP-0012",
+        "country": "CZ",
+        "sector": "technical",
+        "risk_score": "medium",
+        "last_assessment_date": "2024-10-12",
+        "assessment_status": "expired",
+        "spend_annual_czk": 291212,
+        "critical": false,
+        "rel:ASSESSED_FOR:assessment_date": "2024-11-10",
+        "rel:ASSESSED_FOR:score": 91,
+        "rel:ASSESSED_FOR:method": "EcoVadis"
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "e81f9f4f-2dcd-5d1e-a0ff-174becc4d91c",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0013",
+        "sector": "financial",
+        "last_assessment_date": "2023-05-11",
+        "assessment_status": "draft",
+        "spend_annual_czk": 702611,
+        "critical": true,
+        "rel:SUPPLIES_TO:supply_category": "Tier 3",
+        "rel:SUPPLIES_TO:criticality": "standard"
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "5e196261-f20b-5a3f-9a2a-f71d71e45aa8",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0014",
+        "country": "US",
+        "sector": "governance",
+        "last_assessment_date": "2024-02-17",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1529564,
+        "critical": true,
+        "rel:ASSESSED_FOR:assessment_date": "2024-09-08",
+        "rel:ASSESSED_FOR:score": 54,
+        "rel:ASSESSED_FOR:method": "internal"
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "65fffa37-357a-5188-818a-099fc96cffc1",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0015",
+        "country": "CZ",
+        "sector": "governance",
+        "risk_score": "medium",
+        "last_assessment_date": "2023-12-11",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1274419,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "dfb500ab-6184-5a79-ac7d-0294646f7ea6",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0016",
+        "sector": "operational",
+        "last_assessment_date": "2024-04-06",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1528978,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "05b3c69d-1bbf-51f7-a369-3260d4c25d26",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0017",
+        "country": "US",
+        "sector": "financial",
+        "last_assessment_date": "2023-06-20",
+        "assessment_status": "archived",
+        "spend_annual_czk": 1916298,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #18",
+      "id": "5acf9ca9-c1d7-57b4-b4b8-208dedf780ad",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #18",
+        "id": "SUP-0018",
+        "country": "SK",
+        "sector": "financial",
+        "risk_score": "high",
+        "last_assessment_date": "2024-03-01",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 1927722,
+        "critical": true,
+        "rel:ASSESSED_FOR:assessment_date": "2024-03-04",
+        "rel:ASSESSED_FOR:score": 22,
+        "rel:ASSESSED_FOR:method": "internal"
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "c1050efe-0d13-5357-90b8-11c1b1e017e5",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0019",
+        "sector": "financial",
+        "last_assessment_date": "2023-07-23",
+        "assessment_status": "draft",
+        "spend_annual_czk": 1167794,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "37f38d0e-ebd4-52d0-85c5-8015c405a706",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0020",
+        "country": "DE",
+        "sector": "technical",
+        "last_assessment_date": "2024-08-26",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1370467,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "de541fda-50f2-55b7-9500-b96dd56069a7",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0021",
+        "country": "DE",
+        "sector": "governance",
+        "risk_score": "medium",
+        "last_assessment_date": "2023-09-20",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 987281,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "4e714b3b-3ed6-582c-bc1b-7f90cf05dafe",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0022",
+        "sector": "technical",
+        "last_assessment_date": "2024-06-12",
+        "assessment_status": "draft",
+        "spend_annual_czk": 787424,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "6ec1f327-2a01-567e-b5ea-d930621f783f",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0023",
+        "country": "US",
+        "sector": "operational",
+        "last_assessment_date": "2023-10-16",
+        "assessment_status": "draft",
+        "spend_annual_czk": 1564518,
+        "critical": true,
+        "rel:SUPPLIES_TO:supply_category": "Tier 2",
+        "rel:SUPPLIES_TO:criticality": "standard"
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #24",
+      "id": "56fee0d5-61b5-51ef-854e-de2b5e48be6b",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #24",
+        "id": "SUP-0024",
+        "country": "CZ",
+        "sector": "governance",
+        "risk_score": "high",
+        "last_assessment_date": "2024-10-26",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1519974,
+        "critical": false,
+        "rel:SUPPLIES_TO:supply_category": "Tier 3",
+        "rel:SUPPLIES_TO:criticality": "critical"
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "5f9690b1-536d-542e-9d73-681b51df885a",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0025",
+        "sector": "governance",
+        "last_assessment_date": "2023-03-20",
+        "assessment_status": "draft",
+        "spend_annual_czk": 701777,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "396154dd-e188-588a-82cf-5637c51d5489",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0026",
+        "country": "US",
+        "sector": "financial",
+        "last_assessment_date": "2024-09-12",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1382812,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "43780b7a-0e11-5154-9b14-1d2ea0edd1de",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0027",
+        "country": "DE",
+        "sector": "technical",
+        "risk_score": "high",
+        "last_assessment_date": "2023-11-25",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 976428,
+        "critical": true,
+        "rel:ASSESSED_FOR:assessment_date": "2024-05-15",
+        "rel:ASSESSED_FOR:score": 34,
+        "rel:ASSESSED_FOR:method": "EcoVadis",
+        "rel:SUPPLIES_TO:supply_category": "Tier 3",
+        "rel:SUPPLIES_TO:criticality": "critical"
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "45bef0ec-86f3-579a-8767-0b93f631a9b7",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0028",
+        "sector": "governance",
+        "last_assessment_date": "2024-03-27",
+        "assessment_status": "draft",
+        "spend_annual_czk": 1520606,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "d692f6a5-8086-5c70-a011-4116779facfa",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0029",
+        "country": "SK",
+        "sector": "operational",
+        "last_assessment_date": "2023-09-26",
+        "assessment_status": "active",
+        "spend_annual_czk": 1769654,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #30",
+      "id": "6cb9932d-0017-5eef-aef7-a7cb253902da",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #30",
+        "id": "SUP-0030",
+        "country": "CZ",
+        "sector": "operational",
+        "risk_score": "medium",
+        "last_assessment_date": "2024-03-11",
+        "assessment_status": "draft",
+        "spend_annual_czk": 152539,
+        "critical": true,
+        "rel:ASSESSED_FOR:assessment_date": "2024-12-12",
+        "rel:ASSESSED_FOR:score": 59,
+        "rel:ASSESSED_FOR:method": "EcoVadis"
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "c6997e20-c3f3-587f-8fd6-5b18af4ad81f",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0031",
+        "sector": "operational",
+        "last_assessment_date": "2023-04-22",
+        "assessment_status": "expired",
+        "spend_annual_czk": 966321,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "85c24bc8-beb9-577b-94c6-a9d43026f264",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0032",
+        "country": "CZ",
+        "sector": "technical",
+        "last_assessment_date": "2024-12-03",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 42991,
+        "critical": true,
+        "rel:ASSESSED_FOR:assessment_date": "2024-06-19",
+        "rel:ASSESSED_FOR:score": 64,
+        "rel:ASSESSED_FOR:method": "custom questionnaire"
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "b6508e28-6018-51df-a9ea-610932b1fa45",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0033",
+        "country": "IN",
+        "sector": "technical",
+        "risk_score": "low",
+        "last_assessment_date": "2023-01-09",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1524547,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "b85e4594-b9d9-5341-845c-d42ac4d0eaf1",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0034",
+        "sector": "governance",
+        "last_assessment_date": "2024-01-09",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1715314,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "8f699c0a-a7ce-5b9c-93a7-96e45fb0b59f",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0035",
+        "country": "SK",
+        "sector": "operational",
+        "last_assessment_date": "2023-02-19",
+        "assessment_status": "expired",
+        "spend_annual_czk": 322260,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #36",
+      "id": "bc6edb4c-0339-52b2-97f9-9d757376cc34",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #36",
+        "id": "SUP-0036",
+        "country": "SK",
+        "sector": "governance",
+        "risk_score": "medium",
+        "last_assessment_date": "2024-05-16",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 175715,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "5e0950d3-2179-5af4-960c-b5783c6df5f3",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0037",
+        "sector": "technical",
+        "last_assessment_date": "2023-08-24",
+        "assessment_status": "expired",
+        "spend_annual_czk": 520043,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "e2ffe227-d0c4-5fb7-aca8-2ba28c0aec6d",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0038",
+        "country": "DE",
+        "sector": "operational",
+        "last_assessment_date": "2024-11-30",
+        "assessment_status": "active",
+        "spend_annual_czk": 206084,
+        "critical": false,
+        "rel:ASSESSED_FOR:assessment_date": "2024-06-26",
+        "rel:ASSESSED_FOR:score": 51,
+        "rel:ASSESSED_FOR:method": "SASB",
+        "rel:SUPPLIES_TO:supply_category": "Tier 1",
+        "rel:SUPPLIES_TO:criticality": "standard"
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "dd2f6b9a-d428-580d-ac1e-101aac887874",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0039",
+        "country": "US",
+        "sector": "technical",
+        "risk_score": "high",
+        "last_assessment_date": "2023-09-01",
+        "assessment_status": "active",
+        "spend_annual_czk": 1345357,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "1d6e965f-29e5-58a2-8cf5-2317a3346560",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0040",
+        "sector": "financial",
+        "last_assessment_date": "2024-02-12",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 1782785,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "5e816347-67c2-5ceb-9556-efb2e959af85",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0041",
+        "country": "DE",
+        "sector": "operational",
+        "last_assessment_date": "2023-09-28",
+        "assessment_status": "active",
+        "spend_annual_czk": 491855,
+        "critical": true,
+        "rel:ASSESSED_FOR:assessment_date": "2024-05-08",
+        "rel:ASSESSED_FOR:score": 10,
+        "rel:ASSESSED_FOR:method": "custom questionnaire",
+        "rel:SUPPLIES_TO:supply_category": "Tier 3",
+        "rel:SUPPLIES_TO:criticality": "critical"
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #42",
+      "id": "26cd7910-2300-577e-882a-f1c656207e0b",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #42",
+        "id": "SUP-0042",
+        "country": "IN",
+        "sector": "technical",
+        "risk_score": "medium",
+        "last_assessment_date": "2024-01-24",
+        "assessment_status": "active",
+        "spend_annual_czk": 1445351,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "7ffe1c61-287c-5906-bef8-519f991b2298",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0043",
+        "sector": "operational",
+        "last_assessment_date": "2023-04-02",
+        "assessment_status": "archived",
+        "spend_annual_czk": 42837,
+        "critical": true,
+        "rel:ASSESSED_FOR:assessment_date": "2024-11-13",
+        "rel:ASSESSED_FOR:score": 95,
+        "rel:ASSESSED_FOR:method": "SASB",
+        "rel:SUPPLIES_TO:supply_category": "Tier 1",
+        "rel:SUPPLIES_TO:criticality": "important"
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "422242ac-fd3c-570e-9312-22fffdc62a55",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0044",
+        "country": "IN",
+        "sector": "financial",
+        "last_assessment_date": "2024-12-30",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 1957991,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "1dcf1f6c-8d47-56e4-8cda-92565668943e",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0045",
+        "country": "DE",
+        "sector": "financial",
+        "risk_score": "high",
+        "last_assessment_date": "2023-05-04",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1760389,
+        "critical": false,
+        "rel:SUPPLIES_TO:supply_category": "Tier 1",
+        "rel:SUPPLIES_TO:criticality": "standard"
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "08feeaa1-5b40-588b-8e85-9daa8216441f",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0046",
+        "sector": "governance",
+        "last_assessment_date": "2024-07-15",
+        "assessment_status": "draft",
+        "spend_annual_czk": 1667794,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "9ec55ae5-e002-5ce1-b501-cf245f74f224",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0047",
+        "country": "IN",
+        "sector": "governance",
+        "last_assessment_date": "2023-01-28",
+        "assessment_status": "active",
+        "spend_annual_czk": 926640,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #48",
+      "id": "c39a8153-69c9-578c-bea5-63739cbab863",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #48",
+        "id": "SUP-0048",
+        "country": "CZ",
+        "sector": "governance",
+        "risk_score": "high",
+        "last_assessment_date": "2024-11-10",
+        "assessment_status": "expired",
+        "spend_annual_czk": 841946,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "b4e89b35-1358-5a7f-b78d-6380b1f83060",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0049",
+        "sector": "operational",
+        "last_assessment_date": "2023-11-21",
+        "assessment_status": "archived",
+        "spend_annual_czk": 1653219,
+        "critical": false,
+        "rel:SUPPLIES_TO:supply_category": "Tier 3",
+        "rel:SUPPLIES_TO:criticality": "important"
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "eb01e3cd-b994-5077-9ef3-3afb144c713c",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0050",
+        "country": "US",
+        "sector": "financial",
+        "last_assessment_date": "2024-07-01",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1983719,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "11f34b51-69e6-5434-a9c7-c6ff2940723b",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0051",
+        "country": "US",
+        "sector": "financial",
+        "risk_score": "high",
+        "last_assessment_date": "2023-10-27",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 189713,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "df69b819-1a97-5b90-b5fb-c92aa89ee98c",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0052",
+        "sector": "financial",
+        "last_assessment_date": "2024-02-07",
+        "assessment_status": "active",
+        "spend_annual_czk": 571978,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "07baa0c9-a48b-5676-8c38-d1f48eac0b02",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0053",
+        "country": "US",
+        "sector": "financial",
+        "last_assessment_date": "2023-07-19",
+        "assessment_status": "archived",
+        "spend_annual_czk": 766443,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #54",
+      "id": "1af6d425-8b43-53b1-9975-ea866d275c4f",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #54",
+        "id": "SUP-0054",
+        "country": "CZ",
+        "sector": "operational",
+        "risk_score": "medium",
+        "last_assessment_date": "2024-08-15",
+        "assessment_status": "archived",
+        "spend_annual_czk": 1606659,
+        "critical": false,
+        "rel:SUPPLIES_TO:supply_category": "Tier 2",
+        "rel:SUPPLIES_TO:criticality": "important"
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "aacd6cbc-8a64-51d8-bd79-51085b9d63f9",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0055",
+        "sector": "operational",
+        "last_assessment_date": "2023-03-09",
+        "assessment_status": "active",
+        "spend_annual_czk": 402989,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "3b420aed-244c-577e-a60f-afe22c1c6c62",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0056",
+        "country": "US",
+        "sector": "technical",
+        "last_assessment_date": "2024-02-22",
+        "assessment_status": "active",
+        "spend_annual_czk": 197944,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "f7b2ab8d-3ff4-543f-ba93-96ec3baffebb",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0057",
+        "country": "IN",
+        "sector": "operational",
+        "risk_score": "high",
+        "last_assessment_date": "2023-11-03",
+        "assessment_status": "archived",
+        "spend_annual_czk": 1821348,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "a684a190-673d-55e4-973f-aecbaeed19df",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0058",
+        "sector": "operational",
+        "last_assessment_date": "2024-05-29",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 823274,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "1f9dd30a-a12e-5c76-a14e-5d96d1f1908c",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0059",
+        "country": "IN",
+        "sector": "financial",
+        "last_assessment_date": "2023-10-20",
+        "assessment_status": "expired",
+        "spend_annual_czk": 365641,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #60",
+      "id": "57aca67a-ed8d-58fd-833e-d9ed2e92fee2",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #60",
+        "id": "SUP-0060",
+        "country": "SK",
+        "sector": "financial",
+        "risk_score": "medium",
+        "last_assessment_date": "2024-06-03",
+        "assessment_status": "archived",
+        "spend_annual_czk": 1044155,
+        "critical": true,
+        "rel:ASSESSED_FOR:assessment_date": "2024-07-04",
+        "rel:ASSESSED_FOR:score": 69,
+        "rel:ASSESSED_FOR:method": "SASB"
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "81659d0e-4703-5db2-b275-59573297debd",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0061",
+        "sector": "operational",
+        "last_assessment_date": "2023-03-27",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 588733,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "6433e5d5-2a25-51e6-b71b-72cb060aba0b",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0062",
+        "country": "DE",
+        "sector": "technical",
+        "last_assessment_date": "2024-02-09",
+        "assessment_status": "archived",
+        "spend_annual_czk": 537852,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "053b0854-eb1b-50bb-8c9e-7ec0cf4ccdea",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0063",
+        "country": "US",
+        "sector": "financial",
+        "risk_score": "medium",
+        "last_assessment_date": "2023-02-24",
+        "assessment_status": "draft",
+        "spend_annual_czk": 648914,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "00dffc16-0b2d-5cb2-a14d-d0d165a3b497",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0064",
+        "sector": "technical",
+        "last_assessment_date": "2024-06-19",
+        "assessment_status": "expired",
+        "spend_annual_czk": 806686,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "154445de-858a-5ccf-991e-a982efe0f843",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0065",
+        "country": "US",
+        "sector": "governance",
+        "last_assessment_date": "2023-08-09",
+        "assessment_status": "expired",
+        "spend_annual_czk": 295473,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #66",
+      "id": "35cacdf2-5f65-514b-872d-abcf3d164a49",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #66",
+        "id": "SUP-0066",
+        "country": "DE",
+        "sector": "financial",
+        "risk_score": "medium",
+        "last_assessment_date": "2024-06-09",
+        "assessment_status": "draft",
+        "spend_annual_czk": 845168,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "79aee82b-8fda-53f3-af5c-084df195f362",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0067",
+        "sector": "governance",
+        "last_assessment_date": "2023-12-22",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 1217706,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "ba232056-c871-5a95-9a26-72a01a8662ed",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0068",
+        "country": "DE",
+        "sector": "technical",
+        "last_assessment_date": "2024-05-23",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 775493,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "ca65771d-92ae-55f9-849d-7e740a6bb8fc",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0069",
+        "country": "IN",
+        "sector": "financial",
+        "risk_score": "high",
+        "last_assessment_date": "2023-10-07",
+        "assessment_status": "draft",
+        "spend_annual_czk": 1439655,
+        "critical": true
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o. v2",
+      "id": "2a7e65b1-73e1-5fe7-b5b6-a3a48caf9d71",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o. v2",
+        "id": "SUP-0070",
+        "sector": "technical",
+        "last_assessment_date": "2024-12-28",
+        "assessment_status": "draft",
+        "spend_annual_czk": 929506,
+        "critical": false,
+        "rel:ASSESSED_FOR:assessment_date": "2024-03-01",
+        "rel:ASSESSED_FOR:score": 53,
+        "rel:ASSESSED_FOR:method": "EcoVadis"
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. — updated",
+      "id": "923abcd8-6960-5e90-8964-73c6740e58a9",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. — updated",
+        "id": "SUP-0071",
+        "country": "CZ",
+        "sector": "technical",
+        "last_assessment_date": "2023-12-11",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 301879,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. #72",
+      "id": "212b6f4f-faf6-558d-871e-ad63c7f47c96",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. #72",
+        "id": "SUP-0072",
+        "country": "SK",
+        "sector": "governance",
+        "risk_score": "high",
+        "last_assessment_date": "2024-03-19",
+        "assessment_status": "under_review",
+        "spend_annual_czk": 1664813,
+        "critical": false,
+        "rel:SUPPLIES_TO:supply_category": "Tier 1",
+        "rel:SUPPLIES_TO:criticality": "standard"
+      }
+    },
+    {
+      "supplier": "Siemens Energy s.r.o.",
+      "id": "b97cb271-dd50-558b-831c-ed3430dab6c5",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "country": "DE/CZ",
+        "risk_score": "low",
+        "name": "Siemens Energy s.r.o.",
+        "id": "SUP-0073",
+        "sector": "operational",
+        "last_assessment_date": "2023-08-18",
+        "assessment_status": "expired",
+        "spend_annual_czk": 1015028,
+        "critical": false,
+        "rel:SUPPLIES_TO:supply_category": "Tier 2",
+        "rel:SUPPLIES_TO:criticality": "critical"
+      }
+    },
+    {
+      "supplier": "Důl Paskov Mining a.s. (Brno)",
+      "id": "46cdf60e-6480-515b-938a-768970d256e6",
+      "domain_id": "esg",
+      "data": {
+        "tier": 1,
+        "risk_score": "high",
+        "name": "Důl Paskov Mining a.s. (Brno)",
+        "id": "SUP-0074",
+        "country": "IN",
+        "sector": "technical",
+        "last_assessment_date": "2024-10-05",
+        "assessment_status": "active",
+        "spend_annual_czk": 1668261,
+        "critical": false
+      }
+    },
+    {
+      "supplier": "No Name Chemicals Ltd. (FY2024)",
+      "id": "c1390522-23a6-5e98-a33f-53fce1a529ca",
+      "domain_id": "esg",
+      "data": {
+        "tier": 2,
+        "name": "No Name Chemicals Ltd. (FY2024)",
+        "id": "SUP-0075",
+        "country": "IN",
+        "sector": "operational",
+        "risk_score": "low",
+        "last_assessment_date": "2023-05-08",
+        "assessment_status": "archived",
+        "spend_annual_czk": 358837,
+        "critical": true,
+        "rel:ASSESSED_FOR:assessment_date": "2024-09-05",
+        "rel:ASSESSED_FOR:score": 82,
+        "rel:ASSESSED_FOR:method": "internal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "data": [
+    {
+      "template": "TPL-NDA-CZ-v4.1",
+      "id": "5f4fac0a-d471-5e89-8daf-750be4f61799",
+      "domain_id": "legal",
+      "data": {
+        "status": "current",
+        "title": "TPL-NDA-CZ-v4.1",
+        "code": "TEMP-001",
+        "type": "technical",
+        "version": "v4.7",
+        "author": "ESG",
+        "last_updated": "2023-05-23",
+        "language": "cs",
+        "jurisdiction": "DE",
+        "known_issues": "TPL-NDA-CZ-v4.1 — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-NDA-CZ-v3.0",
+      "id": "40360114-def2-57b7-ba75-2d2a0620b9da",
+      "domain_id": "legal",
+      "data": {
+        "title": "TPL-NDA-CZ-v3.0",
+        "code": "TEMP-002",
+        "type": "operational",
+        "version": "v1.4",
+        "author": "People",
+        "last_updated": "2024-09-11",
+        "language": "cs",
+        "jurisdiction": "CZ",
+        "status": "active",
+        "known_issues": "TPL-NDA-CZ-v3.0 — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-SPA-EN-v2.0",
+      "id": "709a6985-08ca-5b97-8bb6-88e38e6c1e7f",
+      "domain_id": "legal",
+      "data": {
+        "title": "TPL-SPA-EN-v2.0",
+        "code": "TEMP-003",
+        "type": "operational",
+        "version": "v1.1",
+        "author": "People",
+        "last_updated": "2023-12-14",
+        "language": "cs",
+        "jurisdiction": "CZ",
+        "status": "under_review",
+        "known_issues": "TPL-SPA-EN-v2.0 — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-EMPL-CZ-v3.0",
+      "id": "93371d62-6262-56b8-acce-7be83e0b7e25",
+      "domain_id": "legal",
+      "data": {
+        "status": "current",
+        "title": "TPL-EMPL-CZ-v3.0",
+        "code": "TEMP-004",
+        "type": "governance",
+        "version": "v2.4",
+        "author": "ESG",
+        "last_updated": "2024-11-15",
+        "language": "cs",
+        "jurisdiction": "EU",
+        "known_issues": "TPL-EMPL-CZ-v3.0 — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-NDA-CZ-v4.1 — updated",
+      "id": "dcde4a9c-f5cd-5065-aba4-9390b82d6f19",
+      "domain_id": "legal",
+      "data": {
+        "status": "current",
+        "title": "TPL-NDA-CZ-v4.1 — updated",
+        "code": "TEMP-005",
+        "type": "technical",
+        "version": "v4.3",
+        "author": "Legal",
+        "last_updated": "2023-12-05",
+        "language": "en",
+        "jurisdiction": "DE",
+        "known_issues": "TPL-NDA-CZ-v4.1 — updated — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-NDA-CZ-v3.0 #6",
+      "id": "a7c7216f-03dd-579b-a99f-c97f5eb1b2e7",
+      "domain_id": "legal",
+      "data": {
+        "title": "TPL-NDA-CZ-v3.0 #6",
+        "code": "TEMP-006",
+        "type": "governance",
+        "version": "v3.8",
+        "author": "ESG",
+        "last_updated": "2024-01-10",
+        "language": "cs",
+        "jurisdiction": "DE",
+        "status": "active",
+        "known_issues": "TPL-NDA-CZ-v3.0 #6 — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-SPA-EN-v2.0",
+      "id": "af984454-ba3e-539d-9125-19cdaae278ac",
+      "domain_id": "legal",
+      "data": {
+        "title": "TPL-SPA-EN-v2.0",
+        "code": "TEMP-007",
+        "type": "technical",
+        "version": "v4.5",
+        "author": "Risk & Compliance",
+        "last_updated": "2023-07-12",
+        "language": "en",
+        "jurisdiction": "DE",
+        "status": "active",
+        "known_issues": "TPL-SPA-EN-v2.0 — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-EMPL-CZ-v3.0 (Brno)",
+      "id": "4fa0829c-5653-5f12-94f6-2463593b6034",
+      "domain_id": "legal",
+      "data": {
+        "status": "current",
+        "title": "TPL-EMPL-CZ-v3.0 (Brno)",
+        "code": "TEMP-008",
+        "type": "operational",
+        "version": "v2.8",
+        "author": "Operations",
+        "last_updated": "2024-06-04",
+        "language": "cs/en",
+        "jurisdiction": "CZ",
+        "known_issues": "TPL-EMPL-CZ-v3.0 (Brno) — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-NDA-CZ-v4.1 (FY2024)",
+      "id": "28faa8f0-209f-5536-a8e4-07ba28410fb9",
+      "domain_id": "legal",
+      "data": {
+        "status": "current",
+        "title": "TPL-NDA-CZ-v4.1 (FY2024)",
+        "code": "TEMP-009",
+        "type": "technical",
+        "version": "v4.2",
+        "author": "Legal",
+        "last_updated": "2023-07-19",
+        "language": "en",
+        "jurisdiction": "EU",
+        "known_issues": "TPL-NDA-CZ-v4.1 (FY2024) — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-NDA-CZ-v3.0 v2",
+      "id": "700f8b91-e813-5ef2-a22e-639faef5de74",
+      "domain_id": "legal",
+      "data": {
+        "title": "TPL-NDA-CZ-v3.0 v2",
+        "code": "TEMP-010",
+        "type": "technical",
+        "version": "v4.7",
+        "author": "ESG",
+        "last_updated": "2024-03-21",
+        "language": "cs/en",
+        "jurisdiction": "EU",
+        "status": "under_review",
+        "known_issues": "TPL-NDA-CZ-v3.0 v2 — legal record maintained under Czech counsel review.",
+        "rel:COVERS_AREA:primary": "low"
+      }
+    },
+    {
+      "template": "TPL-SPA-EN-v2.0 — updated",
+      "id": "6064e778-a713-5dd5-90c6-a4afc1933df1",
+      "domain_id": "legal",
+      "data": {
+        "title": "TPL-SPA-EN-v2.0 — updated",
+        "code": "TEMP-011",
+        "type": "governance",
+        "version": "v4.9",
+        "author": "People",
+        "last_updated": "2023-11-12",
+        "language": "cs/en",
+        "jurisdiction": "SK",
+        "status": "archived",
+        "known_issues": "TPL-SPA-EN-v2.0 — updated — legal record maintained under Czech counsel review.",
+        "rel:COVERS_AREA:primary": "low"
+      }
+    },
+    {
+      "template": "TPL-EMPL-CZ-v3.0 #12",
+      "id": "a2472452-8c5a-5b22-b912-55c7eea6f3bd",
+      "domain_id": "legal",
+      "data": {
+        "status": "current",
+        "title": "TPL-EMPL-CZ-v3.0 #12",
+        "code": "TEMP-012",
+        "type": "governance",
+        "version": "v1.0",
+        "author": "ESG",
+        "last_updated": "2024-01-24",
+        "language": "cs",
+        "jurisdiction": "SK",
+        "known_issues": "TPL-EMPL-CZ-v3.0 #12 — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-NDA-CZ-v4.1",
+      "id": "1161a332-33dd-5f4d-9055-07dfeb3231a5",
+      "domain_id": "legal",
+      "data": {
+        "status": "current",
+        "title": "TPL-NDA-CZ-v4.1",
+        "code": "TEMP-013",
+        "type": "governance",
+        "version": "v1.5",
+        "author": "People",
+        "last_updated": "2023-02-19",
+        "language": "en",
+        "jurisdiction": "SK",
+        "known_issues": "TPL-NDA-CZ-v4.1 — legal record maintained under Czech counsel review.",
+        "rel:COVERS_AREA:primary": "high"
+      }
+    },
+    {
+      "template": "TPL-NDA-CZ-v3.0 (Brno)",
+      "id": "ef84d247-c054-54d5-b466-2323b175ef10",
+      "domain_id": "legal",
+      "data": {
+        "title": "TPL-NDA-CZ-v3.0 (Brno)",
+        "code": "TEMP-014",
+        "type": "governance",
+        "version": "v4.5",
+        "author": "Engineering",
+        "last_updated": "2024-12-04",
+        "language": "cs",
+        "jurisdiction": "CZ",
+        "status": "draft",
+        "known_issues": "TPL-NDA-CZ-v3.0 (Brno) — legal record maintained under Czech counsel review."
+      }
+    },
+    {
+      "template": "TPL-SPA-EN-v2.0 (FY2024)",
+      "id": "ed158abe-4189-5d0d-8f7d-0674d31b46c5",
+      "domain_id": "legal",
+      "data": {
+        "title": "TPL-SPA-EN-v2.0 (FY2024)",
+        "code": "TEMP-015",
+        "type": "governance",
+        "version": "v1.1",
+        "author": "Risk & Compliance",
+        "last_updated": "2023-06-06",
+        "language": "cs",
+        "jurisdiction": "SK",
+        "status": "draft",
+        "known_issues": "TPL-SPA-EN-v2.0 (FY2024) — legal record maintained under Czech counsel review.",
+        "rel:COVERS_AREA:primary": "low"
+      }
+    }
+  ]
+}

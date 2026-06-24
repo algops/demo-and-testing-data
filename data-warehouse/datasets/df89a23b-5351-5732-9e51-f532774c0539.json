@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "grievance_case": "GR-2024-001 Discrimination complaint",
+      "id": "59aa6e94-54c7-5650-9327-59a2571c943d",
+      "domain_id": "hr",
+      "data": {
+        "id": "GR-2024-001 Discrimination complaint",
+        "type": "operational",
+        "filed_date": "2023-06-15",
+        "filed_by_role": "HR filed by role — GR-2024-001 Discrimination complaint",
+        "status": "draft",
+        "severity": "medium",
+        "resolution": "open",
+        "days_to_resolve": 46,
+        "rel:RAISED_IN:alleged_violation": "high"
+      }
+    },
+    {
+      "grievance_case": "GR-2023-005 Overtime dispute",
+      "id": "7ab26791-3371-5067-8550-609771384b88",
+      "domain_id": "hr",
+      "data": {
+        "id": "GR-2023-005 Overtime dispute",
+        "type": "governance",
+        "filed_date": "2024-09-10",
+        "filed_by_role": "HR filed by role — GR-2023-005 Overtime dispute",
+        "status": "under_review",
+        "severity": "critical",
+        "resolution": "open",
+        "days_to_resolve": 79
+      }
+    },
+    {
+      "grievance_case": "GR-2024-001 Discrimination complaint (FY2024)",
+      "id": "e967ccf6-22c9-55cd-af85-230a31c2fcad",
+      "domain_id": "hr",
+      "data": {
+        "id": "GR-2024-001 Discrimination complaint (FY2024)",
+        "type": "governance",
+        "filed_date": "2023-03-12",
+        "filed_by_role": "HR filed by role — GR-2024-001 Discrimination complaint (FY",
+        "status": "draft",
+        "severity": "critical",
+        "resolution": "open",
+        "days_to_resolve": 73
+      }
+    },
+    {
+      "grievance_case": "GR-2023-005 Overtime dispute v2",
+      "id": "b1f20e8f-e125-5a99-a313-8394097a3b44",
+      "domain_id": "hr",
+      "data": {
+        "id": "GR-2023-005 Overtime dispute v2",
+        "type": "technical",
+        "filed_date": "2024-10-02",
+        "filed_by_role": "HR filed by role — GR-2023-005 Overtime dispute v2",
+        "status": "expired",
+        "severity": "critical",
+        "resolution": "mitigated",
+        "days_to_resolve": 53
+      }
+    },
+    {
+      "grievance_case": "GR-2024-001 Discrimination complaint — updated",
+      "id": "c5b817df-1956-5e6f-8ebd-44e5c25dcff6",
+      "domain_id": "hr",
+      "data": {
+        "id": "GR-2024-001 Discrimination complaint — updated",
+        "type": "operational",
+        "filed_date": "2023-10-25",
+        "filed_by_role": "HR filed by role — GR-2024-001 Discrimination complaint — u",
+        "status": "under_review",
+        "severity": "medium",
+        "resolution": "resolved",
+        "days_to_resolve": 35,
+        "rel:RAISED_IN:alleged_violation": "high"
+      }
+    },
+    {
+      "grievance_case": "GR-2023-005 Overtime dispute #6",
+      "id": "c3830095-384a-5661-935a-51d05971bee6",
+      "domain_id": "hr",
+      "data": {
+        "id": "GR-2023-005 Overtime dispute #6",
+        "type": "governance",
+        "filed_date": "2024-01-02",
+        "filed_by_role": "HR filed by role — GR-2023-005 Overtime dispute #6",
+        "status": "draft",
+        "severity": "low",
+        "resolution": "accepted",
+        "days_to_resolve": 77,
+        "rel:RAISED_IN:alleged_violation": "medium"
+      }
+    },
+    {
+      "grievance_case": "GR-2024-001 Discrimination complaint",
+      "id": "ab083b65-503c-5dbf-8075-19e283c1b871",
+      "domain_id": "hr",
+      "data": {
+        "id": "GR-2024-001 Discrimination complaint",
+        "type": "technical",
+        "filed_date": "2023-03-10",
+        "filed_by_role": "HR filed by role — GR-2024-001 Discrimination complaint",
+        "status": "active",
+        "severity": "low",
+        "resolution": "accepted",
+        "days_to_resolve": 53,
+        "rel:RAISED_IN:alleged_violation": "medium"
+      }
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "object_type_id": "135b3c7a-7c5b-5ca1-bed2-3486ece11d16",
+  "object_type_name": "person",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "person": "JUDr. Martin Kovář",
+      "id": "3ddf5c6f-ade0-5cdf-bd63-8eeda87b83dc",
+      "domain_id": "legal",
+      "data": {
+        "name": "JUDr. Martin Kovář",
+        "role": "Legal role — JUDr. Martin Kovář",
+        "seniority": "Legal seniority — JUDr. Martin Kovář",
+        "legal_area": "corporate",
+        "bar_number": "Legal bar number — JUDr. Martin Kovář",
+        "joined_date": "2023-03-01",
+        "hourly_rate_czk": 358348,
+        "utilization_target_pct": 24,
+        "languages": "cs/en"
+      }
+    },
+    {
+      "person": "Mgr. Eva Svobodová",
+      "id": "4e476b98-155c-5760-ab2a-0c9fde5418c3",
+      "domain_id": "legal",
+      "data": {
+        "name": "Mgr. Eva Svobodová",
+        "role": "Legal role — Mgr. Eva Svobodová",
+        "seniority": "Legal seniority — Mgr. Eva Svobodová",
+        "legal_area": "regulatory",
+        "bar_number": "Legal bar number — Mgr. Eva Svobodová",
+        "joined_date": "2024-08-15",
+        "hourly_rate_czk": 1027216,
+        "utilization_target_pct": 65,
+        "languages": "cs",
+        "rel:SPECIALIZES_IN:expertise_level": "low",
+        "rel:SPECIALIZES_IN:years_experience": "low"
+      }
+    },
+    {
+      "person": "JUDr. Martin Kovář (FY2024)",
+      "id": "63a4043d-0ab4-51eb-b1bd-e4153c6f425a",
+      "domain_id": "legal",
+      "data": {
+        "name": "JUDr. Martin Kovář (FY2024)",
+        "role": "Legal role — JUDr. Martin Kovář (FY2024)",
+        "seniority": "Legal seniority — JUDr. Martin Kovář (FY2024)",
+        "legal_area": "commercial",
+        "bar_number": "Legal bar number — JUDr. Martin Kovář (FY2024)",
+        "joined_date": "2023-10-27",
+        "hourly_rate_czk": 518831,
+        "utilization_target_pct": 30,
+        "languages": "en"
+      }
+    },
+    {
+      "person": "Mgr. Eva Svobodová v2",
+      "id": "d74967b6-7ca4-5fa4-8ca1-e4c375e1a4ce",
+      "domain_id": "legal",
+      "data": {
+        "name": "Mgr. Eva Svobodová v2",
+        "role": "Legal role — Mgr. Eva Svobodová v2",
+        "seniority": "Legal seniority — Mgr. Eva Svobodová v2",
+        "legal_area": "litigation",
+        "bar_number": "Legal bar number — Mgr. Eva Svobodová v2",
+        "joined_date": "2024-07-19",
+        "hourly_rate_czk": 116791,
+        "utilization_target_pct": 47,
+        "languages": "cs"
+      }
+    },
+    {
+      "person": "JUDr. Martin Kovář — updated",
+      "id": "653f0273-5074-55e7-a073-3d54d540f222",
+      "domain_id": "legal",
+      "data": {
+        "name": "JUDr. Martin Kovář — updated",
+        "role": "Legal role — JUDr. Martin Kovář — updated",
+        "seniority": "Legal seniority — JUDr. Martin Kovář — updated",
+        "legal_area": "corporate",
+        "bar_number": "Legal bar number — JUDr. Martin Kovář — updated",
+        "joined_date": "2023-11-19",
+        "hourly_rate_czk": 1787607,
+        "utilization_target_pct": 96,
+        "languages": "en"
+      }
+    },
+    {
+      "person": "Mgr. Eva Svobodová #6",
+      "id": "4a1c60b2-f855-549f-8406-e51f60a29392",
+      "domain_id": "legal",
+      "data": {
+        "name": "Mgr. Eva Svobodová #6",
+        "role": "Legal role — Mgr. Eva Svobodová #6",
+        "seniority": "Legal seniority — Mgr. Eva Svobodová #6",
+        "legal_area": "commercial",
+        "bar_number": "Legal bar number — Mgr. Eva Svobodová #6",
+        "joined_date": "2024-09-10",
+        "hourly_rate_czk": 1555765,
+        "utilization_target_pct": 79,
+        "languages": "cs/en"
+      }
+    },
+    {
+      "person": "JUDr. Martin Kovář",
+      "id": "7e687de9-5de8-53e8-a4cf-4cad7a569bcf",
+      "domain_id": "legal",
+      "data": {
+        "name": "JUDr. Martin Kovář",
+        "role": "Legal role — JUDr. Martin Kovář",
+        "seniority": "Legal seniority — JUDr. Martin Kovář",
+        "legal_area": "regulatory",
+        "bar_number": "Legal bar number — JUDr. Martin Kovář",
+        "joined_date": "2023-10-11",
+        "hourly_rate_czk": 619798,
+        "utilization_target_pct": 9,
+        "languages": "en"
+      }
+    },
+    {
+      "person": "Mgr. Eva Svobodová (Brno)",
+      "id": "a0665ab9-53c4-537b-8a8e-f573bf880fbe",
+      "domain_id": "legal",
+      "data": {
+        "name": "Mgr. Eva Svobodová (Brno)",
+        "role": "Legal role — Mgr. Eva Svobodová (Brno)",
+        "seniority": "Legal seniority — Mgr. Eva Svobodová (Brno)",
+        "legal_area": "commercial",
+        "bar_number": "Legal bar number — Mgr. Eva Svobodová (Brno)",
+        "joined_date": "2024-09-05",
+        "hourly_rate_czk": 1086584,
+        "utilization_target_pct": 80,
+        "languages": "cs/en"
+      }
+    },
+    {
+      "person": "JUDr. Martin Kovář (FY2024)",
+      "id": "6014b2d0-6ffa-5b8c-a0d9-c352b6e2e7d4",
+      "domain_id": "legal",
+      "data": {
+        "name": "JUDr. Martin Kovář (FY2024)",
+        "role": "Legal role — JUDr. Martin Kovář (FY2024)",
+        "seniority": "Legal seniority — JUDr. Martin Kovář (FY2024)",
+        "legal_area": "litigation",
+        "bar_number": "Legal bar number — JUDr. Martin Kovář (FY2024)",
+        "joined_date": "2023-12-14",
+        "hourly_rate_czk": 1908075,
+        "utilization_target_pct": 67,
+        "languages": "cs"
+      }
+    },
+    {
+      "person": "Mgr. Eva Svobodová v2",
+      "id": "d8412b4f-7960-55a7-a4f0-bc4817de0b82",
+      "domain_id": "legal",
+      "data": {
+        "name": "Mgr. Eva Svobodová v2",
+        "role": "Legal role — Mgr. Eva Svobodová v2",
+        "seniority": "Legal seniority — Mgr. Eva Svobodová v2",
+        "legal_area": "regulatory",
+        "bar_number": "Legal bar number — Mgr. Eva Svobodová v2",
+        "joined_date": "2024-02-01",
+        "hourly_rate_czk": 1117943,
+        "utilization_target_pct": 7,
+        "languages": "en",
+        "rel:SPECIALIZES_IN:expertise_level": "high",
+        "rel:SPECIALIZES_IN:years_experience": "low"
+      }
+    },
+    {
+      "person": "JUDr. Martin Kovář — updated",
+      "id": "d7084569-6664-5c35-922b-84afc1304d60",
+      "domain_id": "legal",
+      "data": {
+        "name": "JUDr. Martin Kovář — updated",
+        "role": "Legal role — JUDr. Martin Kovář — updated",
+        "seniority": "Legal seniority — JUDr. Martin Kovář — updated",
+        "legal_area": "litigation",
+        "bar_number": "Legal bar number — JUDr. Martin Kovář — updated",
+        "joined_date": "2023-06-11",
+        "hourly_rate_czk": 1170261,
+        "utilization_target_pct": 13,
+        "languages": "en"
+      }
+    },
+    {
+      "person": "Mgr. Eva Svobodová #12",
+      "id": "773ff377-cb10-5dd5-af32-3030413e36d1",
+      "domain_id": "legal",
+      "data": {
+        "name": "Mgr. Eva Svobodová #12",
+        "role": "Legal role — Mgr. Eva Svobodová #12",
+        "seniority": "Legal seniority — Mgr. Eva Svobodová #12",
+        "legal_area": "regulatory",
+        "bar_number": "Legal bar number — Mgr. Eva Svobodová #12",
+        "joined_date": "2024-08-01",
+        "hourly_rate_czk": 1874662,
+        "utilization_target_pct": 65,
+        "languages": "cs"
+      }
+    },
+    {
+      "person": "JUDr. Martin Kovář",
+      "id": "d383a362-3e46-5991-bedf-bcb841c7bd86",
+      "domain_id": "legal",
+      "data": {
+        "name": "JUDr. Martin Kovář",
+        "role": "Legal role — JUDr. Martin Kovář",
+        "seniority": "Legal seniority — JUDr. Martin Kovář",
+        "legal_area": "commercial",
+        "bar_number": "Legal bar number — JUDr. Martin Kovář",
+        "joined_date": "2023-11-15",
+        "hourly_rate_czk": 1979151,
+        "utilization_target_pct": 87,
+        "languages": "en"
+      }
+    },
+    {
+      "person": "Mgr. Eva Svobodová (Brno)",
+      "id": "a6b09c00-f20a-57d8-b946-d91271a8bc81",
+      "domain_id": "legal",
+      "data": {
+        "name": "Mgr. Eva Svobodová (Brno)",
+        "role": "Legal role — Mgr. Eva Svobodová (Brno)",
+        "seniority": "Legal seniority — Mgr. Eva Svobodová (Brno)",
+        "legal_area": "commercial",
+        "bar_number": "Legal bar number — Mgr. Eva Svobodová (Brno)",
+        "joined_date": "2024-12-23",
+        "hourly_rate_czk": 924840,
+        "utilization_target_pct": 7,
+        "languages": "cs",
+        "rel:SPECIALIZES_IN:expertise_level": "high",
+        "rel:SPECIALIZES_IN:years_experience": "low"
+      }
+    }
+  ]
+}

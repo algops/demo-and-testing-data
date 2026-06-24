@@ -1,0 +1,86 @@
+{
+  "object_type_id": "e6823b6e-f0f1-5219-baaf-076c0ad828bd",
+  "object_type_name": "tax_treaty",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "tax_treaty": "SZDZ CZ–DE",
+      "id": "adbb8d3f-c54d-5563-b388-8a70e182b2cd",
+      "domain_id": "tax",
+      "data": {
+        "countries": "SZDZ CZ–DE",
+        "treaty_number": "Tax treaty number — SZDZ CZ–DE",
+        "effective_date": "2023-04-27",
+        "withholding_rates": "Tax withholding rates — SZDZ CZ–DE",
+        "applicable_articles": "Tax applicable articles — SZDZ CZ–DE",
+        "rel:MODIFIES_RATE:treaty_rate": "5%",
+        "rel:MODIFIES_RATE:conditions": "low",
+        "rel:MODIFIES_RATE:applicable_article": "medium"
+      }
+    },
+    {
+      "tax_treaty": "SZDZ CZ–CY",
+      "id": "c2da23a5-ded2-5219-a326-ffe5b47c7bb7",
+      "domain_id": "tax",
+      "data": {
+        "countries": "SZDZ CZ–CY",
+        "treaty_number": "Tax treaty number — SZDZ CZ–CY",
+        "effective_date": "2024-04-26",
+        "withholding_rates": "Tax withholding rates — SZDZ CZ–CY",
+        "applicable_articles": "Tax applicable articles — SZDZ CZ–CY"
+      }
+    },
+    {
+      "tax_treaty": "SZDZ CZ–LU",
+      "id": "40f0d1c3-f23e-5e16-9a8e-5c1e70298a38",
+      "domain_id": "tax",
+      "data": {
+        "countries": "SZDZ CZ–LU",
+        "treaty_number": "Tax treaty number — SZDZ CZ–LU",
+        "effective_date": "2023-04-18",
+        "withholding_rates": "Tax withholding rates — SZDZ CZ–LU",
+        "applicable_articles": "Tax applicable articles — SZDZ CZ–LU",
+        "rel:MODIFIES_RATE:treaty_rate": "0%",
+        "rel:MODIFIES_RATE:conditions": "high",
+        "rel:MODIFIES_RATE:applicable_article": "low"
+      }
+    },
+    {
+      "tax_treaty": "SZDZ CZ–DE v2",
+      "id": "a030e922-e9ee-5e37-9cea-028dae8f5d7d",
+      "domain_id": "tax",
+      "data": {
+        "countries": "SZDZ CZ–DE v2",
+        "treaty_number": "Tax treaty number — SZDZ CZ–DE v2",
+        "effective_date": "2024-08-30",
+        "withholding_rates": "Tax withholding rates — SZDZ CZ–DE v2",
+        "applicable_articles": "Tax applicable articles — SZDZ CZ–DE v2"
+      }
+    },
+    {
+      "tax_treaty": "SZDZ CZ–CY — updated",
+      "id": "9c28f780-24c6-5dee-97f7-4ae0e7331c4c",
+      "domain_id": "tax",
+      "data": {
+        "countries": "SZDZ CZ–CY — updated",
+        "treaty_number": "Tax treaty number — SZDZ CZ–CY — updated",
+        "effective_date": "2023-04-30",
+        "withholding_rates": "Tax withholding rates — SZDZ CZ–CY — updated",
+        "applicable_articles": "Tax applicable articles — SZDZ CZ–CY — updated"
+      }
+    },
+    {
+      "tax_treaty": "SZDZ CZ–LU #6",
+      "id": "3587c385-7306-5c69-a8a7-af0dff55c5ce",
+      "domain_id": "tax",
+      "data": {
+        "countries": "SZDZ CZ–LU #6",
+        "treaty_number": "Tax treaty number — SZDZ CZ–LU #6",
+        "effective_date": "2024-09-21",
+        "withholding_rates": "Tax withholding rates — SZDZ CZ–LU #6",
+        "applicable_articles": "Tax applicable articles — SZDZ CZ–LU #6"
+      }
+    }
+  ]
+}

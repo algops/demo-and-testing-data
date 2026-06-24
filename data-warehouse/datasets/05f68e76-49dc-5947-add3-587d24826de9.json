@@ -1,0 +1,599 @@
+{
+  "data": [
+    {
+      "api": "Payments API v3",
+      "id": "403f0edd-3a03-5ea2-84cb-b880dafcd205",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v3",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/1",
+        "breaking_changes": "auth change",
+        "consumer_count": 168,
+        "docs_url": "https://api.meridianpay.cz/1",
+        "protocol": "HTTPS",
+        "rate_limit": "IT rate limit — Payments API v3",
+        "status": "under_review",
+        "version": "v4.4"
+      }
+    },
+    {
+      "api": "Payments API v1",
+      "id": "e9f0dccb-9cad-5a27-a916-c210ff960046",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v1",
+        "auth_method": "OAuth2",
+        "base_url": "https://api.meridianpay.cz/2",
+        "breaking_changes": "schema migration",
+        "consumer_count": 56,
+        "docs_url": "https://api.meridianpay.cz/2",
+        "protocol": "WebSocket",
+        "rate_limit": "IT rate limit — Payments API v1",
+        "status": "under_review",
+        "version": "v2.5"
+      }
+    },
+    {
+      "api": "Analytics API",
+      "id": "9be077c1-4258-521b-ab53-ff9d4046044a",
+      "domain_id": "it",
+      "data": {
+        "name": "Analytics API",
+        "auth_method": "OAuth2",
+        "base_url": "https://api.meridianpay.cz/3",
+        "breaking_changes": "schema migration",
+        "consumer_count": 140,
+        "docs_url": "https://api.meridianpay.cz/3",
+        "protocol": "AMQP",
+        "rate_limit": "IT rate limit — Analytics API",
+        "status": "active",
+        "version": "v4.4"
+      }
+    },
+    {
+      "api": "Inter-service Auth",
+      "id": "da3b8f11-60de-58da-b89a-d19acd3bf4cd",
+      "domain_id": "it",
+      "data": {
+        "name": "Inter-service Auth",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/4",
+        "breaking_changes": "none",
+        "consumer_count": 117,
+        "docs_url": "https://api.meridianpay.cz/4",
+        "protocol": "HTTPS",
+        "rate_limit": "IT rate limit — Inter-service Auth",
+        "status": "draft",
+        "version": "v1.0"
+      }
+    },
+    {
+      "api": "Payments API v3 — updated",
+      "id": "6d83ed83-a0bc-5cdd-a27a-3cc9dab641f0",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v3 — updated",
+        "auth_method": "API key",
+        "base_url": "https://api.meridianpay.cz/5",
+        "breaking_changes": "API v2",
+        "consumer_count": 33,
+        "docs_url": "https://api.meridianpay.cz/5",
+        "protocol": "gRPC",
+        "rate_limit": "IT rate limit — Payments API v3 — updated",
+        "status": "active",
+        "version": "v2.9"
+      }
+    },
+    {
+      "api": "Payments API v1 #6",
+      "id": "426208ea-087c-5717-b1af-fb07bf095999",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v1 #6",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/6",
+        "breaking_changes": "API v2",
+        "consumer_count": 85,
+        "docs_url": "https://api.meridianpay.cz/6",
+        "protocol": "gRPC",
+        "rate_limit": "IT rate limit — Payments API v1 #6",
+        "status": "expired",
+        "version": "v1.4"
+      }
+    },
+    {
+      "api": "Analytics API",
+      "id": "07424137-9658-5732-899e-9b2a8aed0319",
+      "domain_id": "it",
+      "data": {
+        "name": "Analytics API",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/7",
+        "breaking_changes": "API v2",
+        "consumer_count": 139,
+        "docs_url": "https://api.meridianpay.cz/7",
+        "protocol": "AMQP",
+        "rate_limit": "IT rate limit — Analytics API",
+        "status": "draft",
+        "version": "v1.0"
+      }
+    },
+    {
+      "api": "Inter-service Auth",
+      "id": "5f517c61-49a6-5dd0-bc13-5267f11bc5f4",
+      "domain_id": "it",
+      "data": {
+        "name": "Inter-service Auth",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/8",
+        "breaking_changes": "none",
+        "consumer_count": 92,
+        "docs_url": "https://api.meridianpay.cz/8",
+        "protocol": "gRPC",
+        "rate_limit": "IT rate limit — Inter-service Auth",
+        "status": "expired",
+        "version": "v3.0"
+      }
+    },
+    {
+      "api": "Payments API v3 (FY2024)",
+      "id": "7f6f7c7e-0fc5-5be0-a914-58b672e5044c",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v3 (FY2024)",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/9",
+        "breaking_changes": "schema migration",
+        "consumer_count": 14,
+        "docs_url": "https://api.meridianpay.cz/9",
+        "protocol": "gRPC",
+        "rate_limit": "IT rate limit — Payments API v3 (FY2024)",
+        "status": "under_review",
+        "version": "v1.1"
+      }
+    },
+    {
+      "api": "Payments API v1 v2",
+      "id": "febd7e4b-9220-5a41-aa12-aa0a7e095b19",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v1 v2",
+        "auth_method": "mTLS",
+        "base_url": "https://api.meridianpay.cz/10",
+        "breaking_changes": "auth change",
+        "consumer_count": 200,
+        "docs_url": "https://api.meridianpay.cz/10",
+        "protocol": "AMQP",
+        "rate_limit": "IT rate limit — Payments API v1 v2",
+        "status": "expired",
+        "version": "v1.7"
+      }
+    },
+    {
+      "api": "Analytics API — updated",
+      "id": "1898cd77-e451-59a0-9099-60fba0d9703d",
+      "domain_id": "it",
+      "data": {
+        "name": "Analytics API — updated",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/11",
+        "breaking_changes": "none",
+        "consumer_count": 187,
+        "docs_url": "https://api.meridianpay.cz/11",
+        "protocol": "AMQP",
+        "rate_limit": "IT rate limit — Analytics API — updated",
+        "status": "under_review",
+        "version": "v1.0"
+      }
+    },
+    {
+      "api": "Inter-service Auth #12",
+      "id": "65404a90-651b-5dee-914d-d2694daaf8cf",
+      "domain_id": "it",
+      "data": {
+        "name": "Inter-service Auth #12",
+        "auth_method": "mTLS",
+        "base_url": "https://api.meridianpay.cz/12",
+        "breaking_changes": "auth change",
+        "consumer_count": 110,
+        "docs_url": "https://api.meridianpay.cz/12",
+        "protocol": "HTTPS",
+        "rate_limit": "IT rate limit — Inter-service Auth #12",
+        "status": "under_review",
+        "version": "v4.1"
+      }
+    },
+    {
+      "api": "Payments API v3 — updated",
+      "id": "eedb2a40-cbc3-5ee2-93f0-3167db1032b7",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v3 — updated",
+        "auth_method": "OAuth2",
+        "base_url": "https://api.meridianpay.cz/13",
+        "breaking_changes": "schema migration",
+        "consumer_count": 156,
+        "docs_url": "https://api.meridianpay.cz/13",
+        "protocol": "gRPC",
+        "rate_limit": "IT rate limit — Payments API v3 — updated",
+        "status": "active",
+        "version": "v2.4"
+      }
+    },
+    {
+      "api": "Payments API v1 #6 (Brno)",
+      "id": "75422779-6aa5-5b4e-ae01-fb33ea354156",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v1 #6 (Brno)",
+        "auth_method": "API key",
+        "base_url": "https://api.meridianpay.cz/14",
+        "breaking_changes": "auth change",
+        "consumer_count": 153,
+        "docs_url": "https://api.meridianpay.cz/14",
+        "protocol": "AMQP",
+        "rate_limit": "IT rate limit — Payments API v1 #6 (Brno)",
+        "status": "under_review",
+        "version": "v4.1"
+      }
+    },
+    {
+      "api": "Analytics API (FY2024)",
+      "id": "8ee62893-3d98-531c-bdbf-03c96d60216e",
+      "domain_id": "it",
+      "data": {
+        "name": "Analytics API (FY2024)",
+        "auth_method": "OAuth2",
+        "base_url": "https://api.meridianpay.cz/15",
+        "breaking_changes": "API v2",
+        "consumer_count": 111,
+        "docs_url": "https://api.meridianpay.cz/15",
+        "protocol": "WebSocket",
+        "rate_limit": "IT rate limit — Analytics API (FY2024)",
+        "status": "draft",
+        "version": "v4.5"
+      }
+    },
+    {
+      "api": "Inter-service Auth v2",
+      "id": "60ab2403-c0cc-510b-8678-2393c5719421",
+      "domain_id": "it",
+      "data": {
+        "name": "Inter-service Auth v2",
+        "auth_method": "mTLS",
+        "base_url": "https://api.meridianpay.cz/16",
+        "breaking_changes": "auth change",
+        "consumer_count": 107,
+        "docs_url": "https://api.meridianpay.cz/16",
+        "protocol": "HTTPS",
+        "rate_limit": "IT rate limit — Inter-service Auth v2",
+        "status": "archived",
+        "version": "v4.5"
+      }
+    },
+    {
+      "api": "Payments API v3 — updated",
+      "id": "18364753-4b4b-5d33-a703-90f8ddb6c511",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v3 — updated",
+        "auth_method": "API key",
+        "base_url": "https://api.meridianpay.cz/17",
+        "breaking_changes": "schema migration",
+        "consumer_count": 40,
+        "docs_url": "https://api.meridianpay.cz/17",
+        "protocol": "WebSocket",
+        "rate_limit": "IT rate limit — Payments API v3 — updated",
+        "status": "active",
+        "version": "v1.1"
+      }
+    },
+    {
+      "api": "Payments API v1 #18",
+      "id": "8dfe4a75-dc86-5152-8a63-ba5964478db7",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v1 #18",
+        "auth_method": "OAuth2",
+        "base_url": "https://api.meridianpay.cz/18",
+        "breaking_changes": "auth change",
+        "consumer_count": 25,
+        "docs_url": "https://api.meridianpay.cz/18",
+        "protocol": "AMQP",
+        "rate_limit": "IT rate limit — Payments API v1 #18",
+        "status": "draft",
+        "version": "v1.9"
+      }
+    },
+    {
+      "api": "Analytics API",
+      "id": "a78c3381-fa50-5665-88ab-fca8955ff3d9",
+      "domain_id": "it",
+      "data": {
+        "name": "Analytics API",
+        "auth_method": "API key",
+        "base_url": "https://api.meridianpay.cz/19",
+        "breaking_changes": "none",
+        "consumer_count": 106,
+        "docs_url": "https://api.meridianpay.cz/19",
+        "protocol": "AMQP",
+        "rate_limit": "IT rate limit — Analytics API",
+        "status": "under_review",
+        "version": "v1.4"
+      }
+    },
+    {
+      "api": "Inter-service Auth (Brno)",
+      "id": "ae88fb76-bf54-5e73-866a-024179f118e5",
+      "domain_id": "it",
+      "data": {
+        "name": "Inter-service Auth (Brno)",
+        "auth_method": "API key",
+        "base_url": "https://api.meridianpay.cz/20",
+        "breaking_changes": "schema migration",
+        "consumer_count": 27,
+        "docs_url": "https://api.meridianpay.cz/20",
+        "protocol": "gRPC",
+        "rate_limit": "IT rate limit — Inter-service Auth (Brno)",
+        "status": "draft",
+        "version": "v4.3"
+      }
+    },
+    {
+      "api": "Payments API v3 — updated (FY2024)",
+      "id": "13fb699f-50ba-5102-aaa1-6f5200407800",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v3 — updated (FY2024)",
+        "auth_method": "OAuth2",
+        "base_url": "https://api.meridianpay.cz/21",
+        "breaking_changes": "schema migration",
+        "consumer_count": 143,
+        "docs_url": "https://api.meridianpay.cz/21",
+        "protocol": "AMQP",
+        "rate_limit": "IT rate limit — Payments API v3 — updated (FY2024)",
+        "status": "active",
+        "version": "v3.9"
+      }
+    },
+    {
+      "api": "Payments API v1 #6 v2",
+      "id": "1f673d07-b613-545a-a7ce-79135d694941",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v1 #6 v2",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/22",
+        "breaking_changes": "auth change",
+        "consumer_count": 144,
+        "docs_url": "https://api.meridianpay.cz/22",
+        "protocol": "HTTPS",
+        "rate_limit": "IT rate limit — Payments API v1 #6 v2",
+        "status": "expired",
+        "version": "v3.0"
+      }
+    },
+    {
+      "api": "Analytics API — updated",
+      "id": "bf9f0ff0-03e4-574d-b2c1-038551266660",
+      "domain_id": "it",
+      "data": {
+        "name": "Analytics API — updated",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/23",
+        "breaking_changes": "schema migration",
+        "consumer_count": 180,
+        "docs_url": "https://api.meridianpay.cz/23",
+        "protocol": "AMQP",
+        "rate_limit": "IT rate limit — Analytics API — updated",
+        "status": "archived",
+        "version": "v3.0"
+      }
+    },
+    {
+      "api": "Inter-service Auth #24",
+      "id": "fec45134-b214-50c7-b83c-7880edb5155c",
+      "domain_id": "it",
+      "data": {
+        "name": "Inter-service Auth #24",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/24",
+        "breaking_changes": "API v2",
+        "consumer_count": 145,
+        "docs_url": "https://api.meridianpay.cz/24",
+        "protocol": "WebSocket",
+        "rate_limit": "IT rate limit — Inter-service Auth #24",
+        "status": "active",
+        "version": "v2.0"
+      }
+    },
+    {
+      "api": "Payments API v3",
+      "id": "3ce36557-21d7-5825-8e3a-560c00cc94e9",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v3",
+        "auth_method": "OAuth2",
+        "base_url": "https://api.meridianpay.cz/25",
+        "breaking_changes": "API v2",
+        "consumer_count": 97,
+        "docs_url": "https://api.meridianpay.cz/25",
+        "protocol": "WebSocket",
+        "rate_limit": "IT rate limit — Payments API v3",
+        "status": "under_review",
+        "version": "v3.2"
+      }
+    },
+    {
+      "api": "Payments API v1 (Brno)",
+      "id": "7f099ffe-4c24-5994-a9d8-bbac35458c3a",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v1 (Brno)",
+        "auth_method": "API key",
+        "base_url": "https://api.meridianpay.cz/26",
+        "breaking_changes": "schema migration",
+        "consumer_count": 185,
+        "docs_url": "https://api.meridianpay.cz/26",
+        "protocol": "AMQP",
+        "rate_limit": "IT rate limit — Payments API v1 (Brno)",
+        "status": "expired",
+        "version": "v1.0"
+      }
+    },
+    {
+      "api": "Analytics API (FY2024)",
+      "id": "540145c3-5897-5f0d-aa05-ba8403738e7d",
+      "domain_id": "it",
+      "data": {
+        "name": "Analytics API (FY2024)",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/27",
+        "breaking_changes": "API v2",
+        "consumer_count": 194,
+        "docs_url": "https://api.meridianpay.cz/27",
+        "protocol": "HTTPS",
+        "rate_limit": "IT rate limit — Analytics API (FY2024)",
+        "status": "active",
+        "version": "v3.7"
+      }
+    },
+    {
+      "api": "Inter-service Auth v2",
+      "id": "852c0a7d-1cbe-5fe9-9f58-8cf50670d603",
+      "domain_id": "it",
+      "data": {
+        "name": "Inter-service Auth v2",
+        "auth_method": "mTLS",
+        "base_url": "https://api.meridianpay.cz/28",
+        "breaking_changes": "auth change",
+        "consumer_count": 156,
+        "docs_url": "https://api.meridianpay.cz/28",
+        "protocol": "WebSocket",
+        "rate_limit": "IT rate limit — Inter-service Auth v2",
+        "status": "under_review",
+        "version": "v3.3"
+      }
+    },
+    {
+      "api": "Payments API v3 — updated — updated",
+      "id": "3d678142-e72b-5f0c-b2d2-1a8cb222be01",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v3 — updated — updated",
+        "auth_method": "OAuth2",
+        "base_url": "https://api.meridianpay.cz/29",
+        "breaking_changes": "schema migration",
+        "consumer_count": 111,
+        "docs_url": "https://api.meridianpay.cz/29",
+        "protocol": "HTTPS",
+        "rate_limit": "IT rate limit — Payments API v3 — updated — updated",
+        "status": "archived",
+        "version": "v4.8"
+      }
+    },
+    {
+      "api": "Payments API v1 #6 #30",
+      "id": "b6e30c49-7b49-5435-a0a7-ff2eb3a972d0",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v1 #6 #30",
+        "auth_method": "API key",
+        "base_url": "https://api.meridianpay.cz/30",
+        "breaking_changes": "none",
+        "consumer_count": 57,
+        "docs_url": "https://api.meridianpay.cz/30",
+        "protocol": "WebSocket",
+        "rate_limit": "IT rate limit — Payments API v1 #6 #30",
+        "status": "expired",
+        "version": "v1.0"
+      }
+    },
+    {
+      "api": "Analytics API",
+      "id": "26ab53f1-f2ab-51a1-9228-54fa6ae2826a",
+      "domain_id": "it",
+      "data": {
+        "name": "Analytics API",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/31",
+        "breaking_changes": "schema migration",
+        "consumer_count": 55,
+        "docs_url": "https://api.meridianpay.cz/31",
+        "protocol": "gRPC",
+        "rate_limit": "IT rate limit — Analytics API",
+        "status": "archived",
+        "version": "v3.5"
+      }
+    },
+    {
+      "api": "Inter-service Auth (Brno)",
+      "id": "7468a47d-3b8b-513b-a48c-059cfbfb3f8f",
+      "domain_id": "it",
+      "data": {
+        "name": "Inter-service Auth (Brno)",
+        "auth_method": "OAuth2",
+        "base_url": "https://api.meridianpay.cz/32",
+        "breaking_changes": "none",
+        "consumer_count": 128,
+        "docs_url": "https://api.meridianpay.cz/32",
+        "protocol": "WebSocket",
+        "rate_limit": "IT rate limit — Inter-service Auth (Brno)",
+        "status": "draft",
+        "version": "v2.6"
+      }
+    },
+    {
+      "api": "Payments API v3 (FY2024)",
+      "id": "6b58e2f8-6292-51ab-93ea-4a242dcb0e82",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v3 (FY2024)",
+        "auth_method": "SAML",
+        "base_url": "https://api.meridianpay.cz/33",
+        "breaking_changes": "schema migration",
+        "consumer_count": 19,
+        "docs_url": "https://api.meridianpay.cz/33",
+        "protocol": "WebSocket",
+        "rate_limit": "IT rate limit — Payments API v3 (FY2024)",
+        "status": "active",
+        "version": "v4.0"
+      }
+    },
+    {
+      "api": "Payments API v1 v2",
+      "id": "a6d33263-aad9-578b-8c05-48a6d2addf8a",
+      "domain_id": "it",
+      "data": {
+        "name": "Payments API v1 v2",
+        "auth_method": "mTLS",
+        "base_url": "https://api.meridianpay.cz/34",
+        "breaking_changes": "none",
+        "consumer_count": 81,
+        "docs_url": "https://api.meridianpay.cz/34",
+        "protocol": "WebSocket",
+        "rate_limit": "IT rate limit — Payments API v1 v2",
+        "status": "expired",
+        "version": "v4.6"
+      }
+    },
+    {
+      "api": "Analytics API — updated",
+      "id": "715ba908-a912-56b6-89fc-35d6512db0b6",
+      "domain_id": "it",
+      "data": {
+        "name": "Analytics API — updated",
+        "auth_method": "API key",
+        "base_url": "https://api.meridianpay.cz/35",
+        "breaking_changes": "none",
+        "consumer_count": 104,
+        "docs_url": "https://api.meridianpay.cz/35",
+        "protocol": "HTTPS",
+        "rate_limit": "IT rate limit — Analytics API — updated",
+        "status": "archived",
+        "version": "v2.9"
+      }
+    }
+  ]
+}

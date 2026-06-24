@@ -1,0 +1,304 @@
+{
+  "data": [
+    {
+      "deadline": "DPPO řádný",
+      "id": "87387fbf-f6c1-52f5-94ea-d919f19be76c",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPPO řádný",
+        "type": "governance",
+        "base_date_rule": "2023-08-22",
+        "offset_days": 62,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — DPPO řádný",
+        "penalty_czk": 1707618,
+        "applies_to": "management"
+      }
+    },
+    {
+      "deadline": "DPH měsíční",
+      "id": "e2f30243-59e9-5e85-a14d-c824834f7252",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPH měsíční",
+        "type": "financial",
+        "base_date_rule": "2024-09-26",
+        "offset_days": 160,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — DPH měsíční",
+        "penalty_czk": 1852112,
+        "applies_to": "all employees"
+      }
+    },
+    {
+      "deadline": "Kontrolní hlášení",
+      "id": "8b45298d-f0e6-525c-90d6-7901e819e4eb",
+      "domain_id": "tax",
+      "data": {
+        "name": "Kontrolní hlášení",
+        "type": "operational",
+        "base_date_rule": "2023-03-15",
+        "offset_days": 34,
+        "extension_possible": true,
+        "extension_condition": "Tax extension condition — Kontrolní hlášení",
+        "penalty_czk": 411984,
+        "applies_to": "EU entities"
+      }
+    },
+    {
+      "deadline": "DPPO řádný v2",
+      "id": "8f68126a-0bf5-5ee0-acf7-1dcc8fb45429",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPPO řádný v2",
+        "type": "governance",
+        "base_date_rule": "2024-06-11",
+        "offset_days": 154,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — DPPO řádný v2",
+        "penalty_czk": 1344088,
+        "applies_to": "engineering"
+      }
+    },
+    {
+      "deadline": "DPH měsíční — updated",
+      "id": "137eb272-986d-5154-8761-79d613f6c4ec",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPH měsíční — updated",
+        "type": "operational",
+        "base_date_rule": "2023-11-12",
+        "offset_days": 151,
+        "extension_possible": true,
+        "extension_condition": "Tax extension condition — DPH měsíční — updated",
+        "penalty_czk": 1801880,
+        "applies_to": "management"
+      }
+    },
+    {
+      "deadline": "Kontrolní hlášení #6",
+      "id": "2fca47c0-c077-54f3-b3a1-7bf207a2be97",
+      "domain_id": "tax",
+      "data": {
+        "name": "Kontrolní hlášení #6",
+        "type": "financial",
+        "base_date_rule": "2024-06-16",
+        "offset_days": 64,
+        "extension_possible": true,
+        "extension_condition": "Tax extension condition — Kontrolní hlášení #6",
+        "penalty_czk": 1330071,
+        "applies_to": "management"
+      }
+    },
+    {
+      "deadline": "DPPO řádný",
+      "id": "ccc01d1c-6632-5da3-b60a-58857bd391df",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPPO řádný",
+        "type": "financial",
+        "base_date_rule": "2023-09-18",
+        "offset_days": 150,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — DPPO řádný",
+        "penalty_czk": 448802,
+        "applies_to": "all employees"
+      }
+    },
+    {
+      "deadline": "DPH měsíční (Brno)",
+      "id": "7b5906e0-e25d-52b0-84db-e2b4e46b21ae",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPH měsíční (Brno)",
+        "type": "technical",
+        "base_date_rule": "2024-12-05",
+        "offset_days": 158,
+        "extension_possible": true,
+        "extension_condition": "Tax extension condition — DPH měsíční (Brno)",
+        "penalty_czk": 361133,
+        "applies_to": "EU entities"
+      }
+    },
+    {
+      "deadline": "Kontrolní hlášení (FY2024)",
+      "id": "02e10a36-ed2f-5e89-9166-2652e2cb2482",
+      "domain_id": "tax",
+      "data": {
+        "name": "Kontrolní hlášení (FY2024)",
+        "type": "governance",
+        "base_date_rule": "2023-09-13",
+        "offset_days": 133,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — Kontrolní hlášení (FY2024)",
+        "penalty_czk": 385387,
+        "applies_to": "management"
+      }
+    },
+    {
+      "deadline": "DPPO řádný v2",
+      "id": "ac4af758-e0d6-5332-adae-b8449c440480",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPPO řádný v2",
+        "type": "governance",
+        "base_date_rule": "2024-09-26",
+        "offset_days": 178,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — DPPO řádný v2",
+        "penalty_czk": 1510826,
+        "applies_to": "EU entities"
+      }
+    },
+    {
+      "deadline": "DPH měsíční — updated",
+      "id": "95dcea82-7d8d-5fc5-9271-3eb9d45220a1",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPH měsíční — updated",
+        "type": "technical",
+        "base_date_rule": "2023-05-18",
+        "offset_days": 149,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — DPH měsíční — updated",
+        "penalty_czk": 1348204,
+        "applies_to": "all employees"
+      }
+    },
+    {
+      "deadline": "Kontrolní hlášení #12",
+      "id": "473b4279-6b5c-5c32-80fa-2aad9aee836f",
+      "domain_id": "tax",
+      "data": {
+        "name": "Kontrolní hlášení #12",
+        "type": "financial",
+        "base_date_rule": "2024-04-22",
+        "offset_days": 52,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — Kontrolní hlášení #12",
+        "penalty_czk": 1820195,
+        "applies_to": "engineering"
+      }
+    },
+    {
+      "deadline": "DPPO řádný",
+      "id": "106e0f4a-e044-5577-9cc8-e8a5deaff4de",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPPO řádný",
+        "type": "technical",
+        "base_date_rule": "2023-04-22",
+        "offset_days": 79,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — DPPO řádný",
+        "penalty_czk": 1873757,
+        "applies_to": "EU entities"
+      }
+    },
+    {
+      "deadline": "DPH měsíční (Brno)",
+      "id": "decd9ff5-7812-5278-af0d-4d6546df61ce",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPH měsíční (Brno)",
+        "type": "financial",
+        "base_date_rule": "2024-07-10",
+        "offset_days": 66,
+        "extension_possible": true,
+        "extension_condition": "Tax extension condition — DPH měsíční (Brno)",
+        "penalty_czk": 291711,
+        "applies_to": "all employees"
+      }
+    },
+    {
+      "deadline": "Kontrolní hlášení (FY2024)",
+      "id": "ad8f9fff-fe3f-5aa9-b4f5-83e0c491cf43",
+      "domain_id": "tax",
+      "data": {
+        "name": "Kontrolní hlášení (FY2024)",
+        "type": "governance",
+        "base_date_rule": "2023-08-16",
+        "offset_days": 133,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — Kontrolní hlášení (FY2024)",
+        "penalty_czk": 492717,
+        "applies_to": "all employees"
+      }
+    },
+    {
+      "deadline": "DPPO řádný v2",
+      "id": "29661619-89c1-5429-a1ba-be349a656eb5",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPPO řádný v2",
+        "type": "technical",
+        "base_date_rule": "2024-09-19",
+        "offset_days": 160,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — DPPO řádný v2",
+        "penalty_czk": 903601,
+        "applies_to": "EU entities"
+      }
+    },
+    {
+      "deadline": "DPH měsíční — updated",
+      "id": "94770587-c181-5368-884a-9ec6212ba532",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPH měsíční — updated",
+        "type": "technical",
+        "base_date_rule": "2023-08-10",
+        "offset_days": 105,
+        "extension_possible": false,
+        "extension_condition": "Tax extension condition — DPH měsíční — updated",
+        "penalty_czk": 1697168,
+        "applies_to": "EU entities"
+      }
+    },
+    {
+      "deadline": "Kontrolní hlášení #18",
+      "id": "d116b136-b37b-5b41-b538-f0945290d060",
+      "domain_id": "tax",
+      "data": {
+        "name": "Kontrolní hlášení #18",
+        "type": "governance",
+        "base_date_rule": "2024-05-19",
+        "offset_days": 98,
+        "extension_possible": true,
+        "extension_condition": "Tax extension condition — Kontrolní hlášení #18",
+        "penalty_czk": 386576,
+        "applies_to": "EU entities"
+      }
+    },
+    {
+      "deadline": "DPPO řádný",
+      "id": "1a6322ad-5897-574a-9260-c7c18d81ecd7",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPPO řádný",
+        "type": "financial",
+        "base_date_rule": "2023-05-16",
+        "offset_days": 166,
+        "extension_possible": true,
+        "extension_condition": "Tax extension condition — DPPO řádný",
+        "penalty_czk": 763072,
+        "applies_to": "all employees"
+      }
+    },
+    {
+      "deadline": "DPH měsíční (Brno)",
+      "id": "c1e757b9-f625-5752-8354-1b22a0c27807",
+      "domain_id": "tax",
+      "data": {
+        "name": "DPH měsíční (Brno)",
+        "type": "governance",
+        "base_date_rule": "2024-09-13",
+        "offset_days": 132,
+        "extension_possible": true,
+        "extension_condition": "Tax extension condition — DPH měsíční (Brno)",
+        "penalty_czk": 1658095,
+        "applies_to": "management"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3208 @@
+{
+  "object_type_id": "ece632b2-e12c-5fd8-a032-a1081e564eab",
+  "object_type_name": "employee",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "employee": "Eva Dvořák",
+      "id": "4d4ac0e5-2a26-5c00-afe2-03db8d1b064f",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0001",
+        "hire_date": "2018-01-01",
+        "employment_type": "full-time",
+        "department": "Engineering",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0001",
+        "status": "terminated",
+        "fte": 0.5,
+        "cost_center": "CC-100"
+      }
+    },
+    {
+      "employee": "Martin Fiala",
+      "id": "1cdc50c1-4316-58a2-b53e-e952adab4552",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0002",
+        "hire_date": "2019-02-02",
+        "employment_type": "full-time",
+        "department": "Product",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0002",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-101"
+      }
+    },
+    {
+      "employee": "Jana Urban",
+      "id": "e4284a8d-0a46-5993-8b79-09da14cbf166",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0003",
+        "hire_date": "2020-03-03",
+        "employment_type": "full-time",
+        "department": "Operations",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0003",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-102"
+      }
+    },
+    {
+      "employee": "Tomáš Holub",
+      "id": "13d3ee55-f759-5a16-9331-5f72c9d07bef",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0004",
+        "hire_date": "2021-04-04",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0004",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-103"
+      }
+    },
+    {
+      "employee": "Petra Procházka",
+      "id": "8beb1066-3485-58b3-aaa5-954e6f36a81f",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0005",
+        "hire_date": "2022-05-05",
+        "employment_type": "contractor",
+        "department": "Finance",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0005",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-104"
+      }
+    },
+    {
+      "employee": "Pavel Krejčí",
+      "id": "86d07458-dd82-51f3-86b6-d6146b4499ea",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0006",
+        "hire_date": "2023-06-06",
+        "employment_type": "part-time",
+        "department": "People",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0006",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-105"
+      }
+    },
+    {
+      "employee": "Lucie Bartoš",
+      "id": "44af44b2-e389-5be4-8361-411e56369e6f",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0007",
+        "hire_date": "2024-07-07",
+        "employment_type": "part-time",
+        "department": "ESG",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0007",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-106"
+      }
+    },
+    {
+      "employee": "Jakub Štěpánek",
+      "id": "3a1acc60-61c8-5c8c-b056-2049029c9b48",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0008",
+        "hire_date": "2018-08-08",
+        "employment_type": "part-time",
+        "department": "Sales",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0008",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-107"
+      }
+    },
+    {
+      "employee": "Kateřina Kříž",
+      "id": "1cdcbddf-4389-54ff-80e8-4af5f88eb4cb",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0009",
+        "hire_date": "2019-09-09",
+        "employment_type": "part-time",
+        "department": "G&A",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0009",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-108"
+      }
+    },
+    {
+      "employee": "Michal Kučera",
+      "id": "247a6db7-98d7-55e3-87fb-3c915caf65c8",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0010",
+        "hire_date": "2020-10-10",
+        "employment_type": "contractor",
+        "department": "Legal",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0010",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-109"
+      }
+    },
+    {
+      "employee": "Veronika Jelínková",
+      "id": "d2f74370-a4e6-5b6e-b35a-826cdaff30cb",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0011",
+        "hire_date": "2021-11-11",
+        "employment_type": "part-time",
+        "department": "Engineering",
+        "role_title": "SRE",
+        "manager_id": "EMP-0011",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-110"
+      }
+    },
+    {
+      "employee": "David Kolář",
+      "id": "56b6172c-94bb-5186-acc8-062451eca055",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0012",
+        "hire_date": "2022-12-12",
+        "employment_type": "part-time",
+        "department": "Product",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0012",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-111"
+      }
+    },
+    {
+      "employee": "Alena Bláhová",
+      "id": "6ae57dec-52d2-5294-87e1-e8b69aceac5d",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0013",
+        "hire_date": "2023-01-13",
+        "employment_type": "contractor",
+        "department": "Operations",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0013",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-112"
+      }
+    },
+    {
+      "employee": "Filip Černý",
+      "id": "8934dd3a-f4bd-50d7-becb-c12bea863402",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0014",
+        "hire_date": "2024-02-14",
+        "employment_type": "contractor",
+        "department": "Risk & Compliance",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0014",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-113"
+      }
+    },
+    {
+      "employee": "Markéta Pokorná",
+      "id": "856a7c60-c505-5d9e-b4bf-6f21bcd30dcf",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0015",
+        "hire_date": "2018-03-15",
+        "employment_type": "full-time",
+        "department": "Finance",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0015",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-114"
+      }
+    },
+    {
+      "employee": "Ondřej Šimek",
+      "id": "cc2add4b-3850-5e2e-9120-4f88c4cbb276",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0016",
+        "hire_date": "2019-04-16",
+        "employment_type": "part-time",
+        "department": "People",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0016",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-115"
+      }
+    },
+    {
+      "employee": "Barbora Sedláčková",
+      "id": "8bfc023d-39d9-5336-8cf9-81769efa6a56",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0017",
+        "hire_date": "2020-05-17",
+        "employment_type": "full-time",
+        "department": "ESG",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0017",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-116"
+      }
+    },
+    {
+      "employee": "Lukáš Svobodová",
+      "id": "225e2702-f7f4-562c-94b1-d1445896f617",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0018",
+        "hire_date": "2021-06-18",
+        "employment_type": "full-time",
+        "department": "Sales",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0018",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-117"
+      }
+    },
+    {
+      "employee": "Tereza Benešová",
+      "id": "88ae7225-71ef-5b18-9b14-41957407592e",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0019",
+        "hire_date": "2022-07-19",
+        "employment_type": "full-time",
+        "department": "G&A",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0019",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-118"
+      }
+    },
+    {
+      "employee": "Adam Němcová",
+      "id": "e7af97b9-5aba-5da7-bd29-207e7da401ac",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0020",
+        "hire_date": "2023-08-20",
+        "employment_type": "contractor",
+        "department": "Legal",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0020",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-119"
+      }
+    },
+    {
+      "employee": "Kristýna Rychlá",
+      "id": "bdd808ed-2e5f-52a8-bc60-d74198c928cf",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0021",
+        "hire_date": "2024-09-21",
+        "employment_type": "contractor",
+        "department": "Engineering",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0001",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-120"
+      }
+    },
+    {
+      "employee": "Jiří Nováková",
+      "id": "f2a27b14-2f83-5df5-a58a-e23427bef61d",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0022",
+        "hire_date": "2018-10-22",
+        "employment_type": "full-time",
+        "department": "Product",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0002",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-121"
+      }
+    },
+    {
+      "employee": "Michaela Veselý",
+      "id": "efe1ccbc-e474-5776-a55f-028b4b7e6208",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0023",
+        "hire_date": "2019-11-23",
+        "employment_type": "contractor",
+        "department": "Operations",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0003",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-122"
+      }
+    },
+    {
+      "employee": "Vojtěch Růžička",
+      "id": "df46710b-3185-54cf-a9e7-1b9afd1c6113",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0024",
+        "hire_date": "2020-12-24",
+        "employment_type": "full-time",
+        "department": "Risk & Compliance",
+        "role_title": "SRE",
+        "manager_id": "EMP-0004",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-123"
+      }
+    },
+    {
+      "employee": "Lenka Machová",
+      "id": "6858164e-1d84-5199-ac66-ce5f2ad67ab0",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0025",
+        "hire_date": "2021-01-25",
+        "employment_type": "full-time",
+        "department": "Finance",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0005",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-124"
+      }
+    },
+    {
+      "employee": "Marek Hájek",
+      "id": "7edccf29-8165-53ad-bc30-eda42e228be5",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0026",
+        "hire_date": "2022-02-26",
+        "employment_type": "contractor",
+        "department": "People",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0006",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-125"
+      }
+    },
+    {
+      "employee": "Simona Horáková",
+      "id": "bcd99dae-56f5-567c-a7d6-fe67415c7b94",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0027",
+        "hire_date": "2023-03-27",
+        "employment_type": "contractor",
+        "department": "ESG",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0007",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-126"
+      }
+    },
+    {
+      "employee": "Radek Král",
+      "id": "11466919-c325-52b4-9c5b-256290f6cbd3",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0028",
+        "hire_date": "2024-04-28",
+        "employment_type": "full-time",
+        "department": "Sales",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0008",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-127"
+      }
+    },
+    {
+      "employee": "Hana Vlčková",
+      "id": "5b9748c5-a395-5347-a52b-0cb02213da1b",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0029",
+        "hire_date": "2018-05-01",
+        "employment_type": "contractor",
+        "department": "G&A",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0009",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-128"
+      }
+    },
+    {
+      "employee": "Daniel Moravec",
+      "id": "f42c12ae-6b75-5ddf-86b8-77dd4162a485",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0030",
+        "hire_date": "2019-06-02",
+        "employment_type": "part-time",
+        "department": "Legal",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0010",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-129"
+      }
+    },
+    {
+      "employee": "Eva Dvořák",
+      "id": "a534b225-15d6-5a96-bfef-73af935595dd",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0031",
+        "hire_date": "2020-07-03",
+        "employment_type": "full-time",
+        "department": "Engineering",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0011",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-130"
+      }
+    },
+    {
+      "employee": "Martin Fiala",
+      "id": "0603d548-06ea-5444-917d-06112c4a9611",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0032",
+        "hire_date": "2021-08-04",
+        "employment_type": "part-time",
+        "department": "Product",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0012",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-131"
+      }
+    },
+    {
+      "employee": "Jana Urban",
+      "id": "4664d1f5-72bc-5101-b697-3591d5f0f3be",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0033",
+        "hire_date": "2022-09-05",
+        "employment_type": "full-time",
+        "department": "Operations",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0013",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-132"
+      }
+    },
+    {
+      "employee": "Tomáš Holub",
+      "id": "36965db1-ac50-5446-bb06-df93adaefc6b",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0034",
+        "hire_date": "2023-10-06",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0014",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-133"
+      }
+    },
+    {
+      "employee": "Petra Procházka",
+      "id": "e6827cba-3b38-5112-b3a4-c482500c518a",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0035",
+        "hire_date": "2024-11-07",
+        "employment_type": "part-time",
+        "department": "Finance",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0015",
+        "status": "terminated",
+        "fte": 0.5,
+        "cost_center": "CC-134"
+      }
+    },
+    {
+      "employee": "Pavel Krejčí",
+      "id": "55c225d5-06b6-5157-a10a-ea8eb778fb0f",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0036",
+        "hire_date": "2018-12-08",
+        "employment_type": "full-time",
+        "department": "People",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0016",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-135"
+      }
+    },
+    {
+      "employee": "Lucie Bartoš",
+      "id": "c9e253f0-d375-5e53-aeaf-8938dae697cc",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0037",
+        "hire_date": "2019-01-09",
+        "employment_type": "contractor",
+        "department": "ESG",
+        "role_title": "SRE",
+        "manager_id": "EMP-0017",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-136"
+      }
+    },
+    {
+      "employee": "Jakub Štěpánek",
+      "id": "008393fb-39a3-50ad-9b71-96a1bc24461e",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0038",
+        "hire_date": "2020-02-10",
+        "employment_type": "contractor",
+        "department": "Sales",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0018",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-137"
+      }
+    },
+    {
+      "employee": "Kateřina Kříž",
+      "id": "f0fe7fff-f925-5fcd-85c4-bbe9dc1dbf7e",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0039",
+        "hire_date": "2021-03-11",
+        "employment_type": "part-time",
+        "department": "G&A",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0019",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-138"
+      }
+    },
+    {
+      "employee": "Michal Kučera",
+      "id": "0464b42c-682d-5089-9698-7e58aea000f4",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0040",
+        "hire_date": "2022-04-12",
+        "employment_type": "contractor",
+        "department": "Legal",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0020",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-139"
+      }
+    },
+    {
+      "employee": "Veronika Jelínková",
+      "id": "8aaaa14a-53f6-5cd7-98bb-d9bdc7091a93",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0041",
+        "hire_date": "2023-05-13",
+        "employment_type": "contractor",
+        "department": "Engineering",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0001",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-140"
+      }
+    },
+    {
+      "employee": "David Kolář",
+      "id": "ae89c314-a954-5dff-90cd-694ef1600ab6",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0042",
+        "hire_date": "2024-06-14",
+        "employment_type": "part-time",
+        "department": "Product",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0002",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-141"
+      }
+    },
+    {
+      "employee": "Alena Bláhová",
+      "id": "e830e455-bb09-50d9-b809-a3a97adceb4b",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0043",
+        "hire_date": "2018-07-15",
+        "employment_type": "contractor",
+        "department": "Operations",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0003",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-142"
+      }
+    },
+    {
+      "employee": "Filip Černý",
+      "id": "ea41e25e-d976-5bd4-9de4-f92bb95262d6",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0044",
+        "hire_date": "2019-08-16",
+        "employment_type": "contractor",
+        "department": "Risk & Compliance",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0004",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-143"
+      }
+    },
+    {
+      "employee": "Markéta Pokorná",
+      "id": "54d79060-c4bf-523c-b0fd-41950e755ca9",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0045",
+        "hire_date": "2020-09-17",
+        "employment_type": "part-time",
+        "department": "Finance",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0005",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-144"
+      }
+    },
+    {
+      "employee": "Ondřej Šimek",
+      "id": "ae18ef05-fc5f-50ad-a6e4-4333c7d1330f",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0046",
+        "hire_date": "2021-10-18",
+        "employment_type": "part-time",
+        "department": "People",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0006",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-145"
+      }
+    },
+    {
+      "employee": "Barbora Sedláčková",
+      "id": "e6d2af47-c23f-559b-b959-8726df98475c",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0047",
+        "hire_date": "2022-11-19",
+        "employment_type": "part-time",
+        "department": "ESG",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0007",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-146"
+      }
+    },
+    {
+      "employee": "Lukáš Svobodová",
+      "id": "38af2e1e-07cb-58a1-9d92-dcd62862232a",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0048",
+        "hire_date": "2023-12-20",
+        "employment_type": "part-time",
+        "department": "Sales",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0008",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-147"
+      }
+    },
+    {
+      "employee": "Tereza Benešová",
+      "id": "2d3790d4-3619-56e9-abba-85d9d54ca882",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0049",
+        "hire_date": "2024-01-21",
+        "employment_type": "part-time",
+        "department": "G&A",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0009",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-148"
+      }
+    },
+    {
+      "employee": "Adam Němcová",
+      "id": "386b82c0-fed9-5eac-b972-5e1e04f95c48",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0050",
+        "hire_date": "2018-02-22",
+        "employment_type": "contractor",
+        "department": "Legal",
+        "role_title": "SRE",
+        "manager_id": "EMP-0010",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-149"
+      }
+    },
+    {
+      "employee": "Kristýna Rychlá",
+      "id": "3442be06-d108-5910-bd40-b8927c3144cc",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0051",
+        "hire_date": "2019-03-23",
+        "employment_type": "part-time",
+        "department": "Engineering",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0011",
+        "status": "terminated",
+        "fte": 0.8,
+        "cost_center": "CC-150"
+      }
+    },
+    {
+      "employee": "Jiří Nováková",
+      "id": "f121e0c3-ff29-5724-a71b-086328de7c11",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0052",
+        "hire_date": "2020-04-24",
+        "employment_type": "full-time",
+        "department": "Product",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0012",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-151"
+      }
+    },
+    {
+      "employee": "Michaela Veselý",
+      "id": "3d02cb69-0de4-50c7-9696-16861f782031",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0053",
+        "hire_date": "2021-05-25",
+        "employment_type": "full-time",
+        "department": "Operations",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0013",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-152"
+      }
+    },
+    {
+      "employee": "Vojtěch Růžička",
+      "id": "ed153c76-144a-59e5-b834-d282a231611f",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0054",
+        "hire_date": "2022-06-26",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0014",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-153"
+      }
+    },
+    {
+      "employee": "Lenka Machová",
+      "id": "1efd0d40-5975-5f7a-a254-ce1f39058d6c",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0055",
+        "hire_date": "2023-07-27",
+        "employment_type": "part-time",
+        "department": "Finance",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0015",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-154"
+      }
+    },
+    {
+      "employee": "Marek Hájek",
+      "id": "e15b5071-25b9-5811-b3ac-a2f294454636",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0056",
+        "hire_date": "2024-08-28",
+        "employment_type": "part-time",
+        "department": "People",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0016",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-155"
+      }
+    },
+    {
+      "employee": "Simona Horáková",
+      "id": "368d75b6-4a0c-5bc9-b92a-97a624e2b378",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0057",
+        "hire_date": "2018-09-01",
+        "employment_type": "contractor",
+        "department": "ESG",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0017",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-156"
+      }
+    },
+    {
+      "employee": "Radek Král",
+      "id": "0eef1d42-2e25-5264-a02f-e063655c7b42",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0058",
+        "hire_date": "2019-10-02",
+        "employment_type": "full-time",
+        "department": "Sales",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0018",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-157"
+      }
+    },
+    {
+      "employee": "Hana Vlčková",
+      "id": "6939596e-9e14-5297-8b77-ba67dd3a2195",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0059",
+        "hire_date": "2020-11-03",
+        "employment_type": "contractor",
+        "department": "G&A",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0019",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-158"
+      }
+    },
+    {
+      "employee": "Daniel Moravec",
+      "id": "4e07548e-04a2-56b9-bc3f-4004ca6568da",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0060",
+        "hire_date": "2021-12-04",
+        "employment_type": "full-time",
+        "department": "Legal",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0020",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-159"
+      }
+    },
+    {
+      "employee": "Eva Dvořák",
+      "id": "3c56cf42-78d6-50fb-8906-91f5ae4f5f77",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0061",
+        "hire_date": "2022-01-05",
+        "employment_type": "contractor",
+        "department": "Engineering",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0001",
+        "status": "terminated",
+        "fte": 0.5,
+        "cost_center": "CC-160"
+      }
+    },
+    {
+      "employee": "Martin Fiala",
+      "id": "3a8e68ff-f2ee-53b7-b537-3843e2fd0214",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0062",
+        "hire_date": "2023-02-06",
+        "employment_type": "full-time",
+        "department": "Product",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0002",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-161"
+      }
+    },
+    {
+      "employee": "Jana Urban",
+      "id": "84c1c11c-2287-58b2-89d9-c36117242778",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0063",
+        "hire_date": "2024-03-07",
+        "employment_type": "full-time",
+        "department": "Operations",
+        "role_title": "SRE",
+        "manager_id": "EMP-0003",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-162"
+      }
+    },
+    {
+      "employee": "Tomáš Holub",
+      "id": "e710610f-cc3b-571c-bf37-bedb9217ed20",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0064",
+        "hire_date": "2018-04-08",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0004",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-163"
+      }
+    },
+    {
+      "employee": "Petra Procházka",
+      "id": "27f6c8d3-f1e3-53a8-b884-9854f9cc5c90",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0065",
+        "hire_date": "2019-05-09",
+        "employment_type": "full-time",
+        "department": "Finance",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0005",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-164"
+      }
+    },
+    {
+      "employee": "Pavel Krejčí",
+      "id": "e348ffde-473c-5e3f-aecc-43cee65ff3b7",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0066",
+        "hire_date": "2020-06-10",
+        "employment_type": "contractor",
+        "department": "People",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0006",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-165"
+      }
+    },
+    {
+      "employee": "Lucie Bartoš",
+      "id": "a353aa41-7b88-5be0-86c9-a2c98f108ad4",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0067",
+        "hire_date": "2021-07-11",
+        "employment_type": "full-time",
+        "department": "ESG",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0007",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-166"
+      }
+    },
+    {
+      "employee": "Jakub Štěpánek",
+      "id": "fabf44da-b702-59ed-9db3-91830a2f01c8",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0068",
+        "hire_date": "2022-08-12",
+        "employment_type": "full-time",
+        "department": "Sales",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0008",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-167"
+      }
+    },
+    {
+      "employee": "Kateřina Kříž",
+      "id": "7ade08d3-bf60-5620-8b94-1647592c63c1",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0069",
+        "hire_date": "2023-09-13",
+        "employment_type": "contractor",
+        "department": "G&A",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0009",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-168"
+      }
+    },
+    {
+      "employee": "Michal Kučera",
+      "id": "faf590f9-0dce-55b0-ba22-f7523a54604a",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0070",
+        "hire_date": "2024-10-14",
+        "employment_type": "full-time",
+        "department": "Legal",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0010",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-169"
+      }
+    },
+    {
+      "employee": "Veronika Jelínková",
+      "id": "765de1bb-815f-599a-9576-8916d6a74fe5",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0071",
+        "hire_date": "2018-11-15",
+        "employment_type": "contractor",
+        "department": "Engineering",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0011",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-170"
+      }
+    },
+    {
+      "employee": "David Kolář",
+      "id": "c0b0acf2-c9d1-52d5-8182-44b48f66fcda",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0072",
+        "hire_date": "2019-12-16",
+        "employment_type": "part-time",
+        "department": "Product",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0012",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-171"
+      }
+    },
+    {
+      "employee": "Alena Bláhová",
+      "id": "8fbcd6ed-fd0d-5582-b116-082d28a90315",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0073",
+        "hire_date": "2020-01-17",
+        "employment_type": "contractor",
+        "department": "Operations",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0013",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-172"
+      }
+    },
+    {
+      "employee": "Filip Černý",
+      "id": "099bdb0a-60da-5d4d-85d0-f1a401727036",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0074",
+        "hire_date": "2021-02-18",
+        "employment_type": "full-time",
+        "department": "Risk & Compliance",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0014",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-173"
+      }
+    },
+    {
+      "employee": "Markéta Pokorná",
+      "id": "2f87db97-3ad9-5357-a6c6-7d417ec4f54e",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0075",
+        "hire_date": "2022-03-19",
+        "employment_type": "full-time",
+        "department": "Finance",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0015",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-174"
+      }
+    },
+    {
+      "employee": "Ondřej Šimek",
+      "id": "94e92d18-ea8b-5cb0-ad29-e5a6a2616876",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0076",
+        "hire_date": "2023-04-20",
+        "employment_type": "contractor",
+        "department": "People",
+        "role_title": "SRE",
+        "manager_id": "EMP-0016",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-175"
+      }
+    },
+    {
+      "employee": "Barbora Sedláčková",
+      "id": "9291b7f3-95f6-5d4f-8fec-81b5fcbfe106",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0077",
+        "hire_date": "2024-05-21",
+        "employment_type": "contractor",
+        "department": "ESG",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0017",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-176"
+      }
+    },
+    {
+      "employee": "Lukáš Svobodová",
+      "id": "afa66e5f-a5bc-58d6-9774-552c062e3d62",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0078",
+        "hire_date": "2018-06-22",
+        "employment_type": "contractor",
+        "department": "Sales",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0018",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-177"
+      }
+    },
+    {
+      "employee": "Tereza Benešová",
+      "id": "7ae3911f-9bcf-5993-b405-2ad3276e01fb",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0079",
+        "hire_date": "2019-07-23",
+        "employment_type": "contractor",
+        "department": "G&A",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0019",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-178"
+      }
+    },
+    {
+      "employee": "Adam Němcová",
+      "id": "4b52866c-9e6f-5806-b466-41355cf6a312",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0080",
+        "hire_date": "2020-08-24",
+        "employment_type": "full-time",
+        "department": "Legal",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0020",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-179"
+      }
+    },
+    {
+      "employee": "Kristýna Rychlá",
+      "id": "2a52b509-01d5-508e-aa56-5f4a247c80b8",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0081",
+        "hire_date": "2021-09-25",
+        "employment_type": "part-time",
+        "department": "Engineering",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0001",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-180"
+      }
+    },
+    {
+      "employee": "Jiří Nováková",
+      "id": "4aab5c2b-89b6-54f2-b947-527659f82afb",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0082",
+        "hire_date": "2022-10-26",
+        "employment_type": "part-time",
+        "department": "Product",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0002",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-181"
+      }
+    },
+    {
+      "employee": "Michaela Veselý",
+      "id": "ee8a29ba-5f13-5775-a024-c0cd89b0571e",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0083",
+        "hire_date": "2023-11-27",
+        "employment_type": "part-time",
+        "department": "Operations",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0003",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-182"
+      }
+    },
+    {
+      "employee": "Vojtěch Růžička",
+      "id": "ac068317-de00-586e-be96-56ea2b7d5faf",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0084",
+        "hire_date": "2024-12-28",
+        "employment_type": "contractor",
+        "department": "Risk & Compliance",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0004",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-183"
+      }
+    },
+    {
+      "employee": "Lenka Machová",
+      "id": "445850d6-3870-5e71-baed-643018ab2c88",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0085",
+        "hire_date": "2018-01-01",
+        "employment_type": "full-time",
+        "department": "Finance",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0005",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-184"
+      }
+    },
+    {
+      "employee": "Marek Hájek",
+      "id": "d93229ab-4c06-542d-804a-8eee55d389b6",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0086",
+        "hire_date": "2019-02-02",
+        "employment_type": "full-time",
+        "department": "People",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0006",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-185"
+      }
+    },
+    {
+      "employee": "Simona Horáková",
+      "id": "963fcac8-11a1-5fc1-8758-1e8a68f97d27",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0087",
+        "hire_date": "2020-03-03",
+        "employment_type": "full-time",
+        "department": "ESG",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0007",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-186"
+      }
+    },
+    {
+      "employee": "Radek Král",
+      "id": "4b46f634-2f99-57b2-81bb-4e4b6a7cf77d",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0088",
+        "hire_date": "2021-04-04",
+        "employment_type": "contractor",
+        "department": "Sales",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0008",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-187"
+      }
+    },
+    {
+      "employee": "Hana Vlčková",
+      "id": "bfbcbbc5-e091-571b-9a2e-75a011afb102",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0089",
+        "hire_date": "2022-05-05",
+        "employment_type": "part-time",
+        "department": "G&A",
+        "role_title": "SRE",
+        "manager_id": "EMP-0009",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-188"
+      }
+    },
+    {
+      "employee": "Daniel Moravec",
+      "id": "8ac1f7fc-ff8b-5ebf-b093-49ed63c26e9c",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0090",
+        "hire_date": "2023-06-06",
+        "employment_type": "part-time",
+        "department": "Legal",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0010",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-189"
+      }
+    },
+    {
+      "employee": "Eva Dvořák",
+      "id": "28df29a4-8a8a-553a-ad4c-e2cee3c9f0ef",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0091",
+        "hire_date": "2024-07-07",
+        "employment_type": "contractor",
+        "department": "Engineering",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0011",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-190"
+      }
+    },
+    {
+      "employee": "Martin Fiala",
+      "id": "2e163378-8fa4-5f90-8f38-56e853289665",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0092",
+        "hire_date": "2018-08-08",
+        "employment_type": "full-time",
+        "department": "Product",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0012",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-191"
+      }
+    },
+    {
+      "employee": "Jana Urban",
+      "id": "61885f97-7ac1-5d5d-b8f1-1c14edcde2be",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0093",
+        "hire_date": "2019-09-09",
+        "employment_type": "contractor",
+        "department": "Operations",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0013",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-192"
+      }
+    },
+    {
+      "employee": "Tomáš Holub",
+      "id": "b471bf18-d269-5717-b279-233ceac5ac5b",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0094",
+        "hire_date": "2020-10-10",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0014",
+        "status": "terminated",
+        "fte": 0.5,
+        "cost_center": "CC-193"
+      }
+    },
+    {
+      "employee": "Petra Procházka",
+      "id": "b146c079-a70e-5c74-9ed1-8afbc7d90714",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0095",
+        "hire_date": "2021-11-11",
+        "employment_type": "full-time",
+        "department": "Finance",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0015",
+        "status": "terminated",
+        "fte": 0.8,
+        "cost_center": "CC-194"
+      }
+    },
+    {
+      "employee": "Pavel Krejčí",
+      "id": "9e06c1b2-20d9-57ce-b1d7-6ea01001cfed",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0096",
+        "hire_date": "2022-12-12",
+        "employment_type": "part-time",
+        "department": "People",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0016",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-195"
+      }
+    },
+    {
+      "employee": "Lucie Bartoš",
+      "id": "e0f114e1-7f97-5a94-b1da-efb14f33850f",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0097",
+        "hire_date": "2023-01-13",
+        "employment_type": "part-time",
+        "department": "ESG",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0017",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-196"
+      }
+    },
+    {
+      "employee": "Jakub Štěpánek",
+      "id": "b24b7b15-c09f-5b31-ae41-bc6b97c82951",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0098",
+        "hire_date": "2024-02-14",
+        "employment_type": "full-time",
+        "department": "Sales",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0018",
+        "status": "terminated",
+        "fte": 0.8,
+        "cost_center": "CC-197"
+      }
+    },
+    {
+      "employee": "Kateřina Kříž",
+      "id": "3a319eeb-e0f4-5aa5-af4b-682a8ea80c30",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0099",
+        "hire_date": "2018-03-15",
+        "employment_type": "part-time",
+        "department": "G&A",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0019",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-198"
+      }
+    },
+    {
+      "employee": "Michal Kučera",
+      "id": "91aa31e8-00b0-5fd0-96cd-b2adfb027af8",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0100",
+        "hire_date": "2019-04-16",
+        "employment_type": "full-time",
+        "department": "Legal",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0020",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-199"
+      }
+    },
+    {
+      "employee": "Veronika Jelínková",
+      "id": "560fc1c4-e82c-5339-8c78-3cb5d2dd6d76",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0101",
+        "hire_date": "2020-05-17",
+        "employment_type": "full-time",
+        "department": "Engineering",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0001",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-200"
+      }
+    },
+    {
+      "employee": "David Kolář",
+      "id": "664d3b09-79ac-52c1-a299-bba0a0b2a383",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0102",
+        "hire_date": "2021-06-18",
+        "employment_type": "full-time",
+        "department": "Product",
+        "role_title": "SRE",
+        "manager_id": "EMP-0002",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-201"
+      }
+    },
+    {
+      "employee": "Alena Bláhová",
+      "id": "c1423330-cbf6-51c7-aad7-d93660cc0d26",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0103",
+        "hire_date": "2022-07-19",
+        "employment_type": "part-time",
+        "department": "Operations",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0003",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-202"
+      }
+    },
+    {
+      "employee": "Filip Černý",
+      "id": "52f741d1-f100-5207-b019-0fdb57245941",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0104",
+        "hire_date": "2023-08-20",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0004",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-203"
+      }
+    },
+    {
+      "employee": "Markéta Pokorná",
+      "id": "20aba81d-b0d8-521b-97e5-b0aa3181eb0c",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0105",
+        "hire_date": "2024-09-21",
+        "employment_type": "contractor",
+        "department": "Finance",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0005",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-204"
+      }
+    },
+    {
+      "employee": "Ondřej Šimek",
+      "id": "8977ab5a-72e5-5d4c-86aa-4da2a5899fba",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0106",
+        "hire_date": "2018-10-22",
+        "employment_type": "contractor",
+        "department": "People",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0006",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-205"
+      }
+    },
+    {
+      "employee": "Barbora Sedláčková",
+      "id": "41f5f943-bc23-501f-8957-ad73ac7c440c",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0107",
+        "hire_date": "2019-11-23",
+        "employment_type": "contractor",
+        "department": "ESG",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0007",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-206"
+      }
+    },
+    {
+      "employee": "Lukáš Svobodová",
+      "id": "6f8b1b32-60cd-53af-b254-7e1457627980",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0108",
+        "hire_date": "2020-12-24",
+        "employment_type": "full-time",
+        "department": "Sales",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0008",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-207"
+      }
+    },
+    {
+      "employee": "Tereza Benešová",
+      "id": "4725d58f-2849-5b23-867f-d76a933a2981",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0109",
+        "hire_date": "2021-01-25",
+        "employment_type": "part-time",
+        "department": "G&A",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0009",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-208"
+      }
+    },
+    {
+      "employee": "Adam Němcová",
+      "id": "c1e25bf0-afe1-566c-9f3a-820f386237ce",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0110",
+        "hire_date": "2022-02-26",
+        "employment_type": "part-time",
+        "department": "Legal",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0010",
+        "status": "terminated",
+        "fte": 0.8,
+        "cost_center": "CC-209"
+      }
+    },
+    {
+      "employee": "Kristýna Rychlá",
+      "id": "885054e8-1e24-5561-b40c-59fc4e4ded62",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0111",
+        "hire_date": "2023-03-27",
+        "employment_type": "contractor",
+        "department": "Engineering",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0011",
+        "status": "terminated",
+        "fte": 0.8,
+        "cost_center": "CC-210"
+      }
+    },
+    {
+      "employee": "Jiří Nováková",
+      "id": "e3001e99-c189-5a9f-be4a-9d64f38c3337",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0112",
+        "hire_date": "2024-04-28",
+        "employment_type": "contractor",
+        "department": "Product",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0012",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-211"
+      }
+    },
+    {
+      "employee": "Michaela Veselý",
+      "id": "a53bbed4-cd84-563d-9879-91d8a4583bd8",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0113",
+        "hire_date": "2018-05-01",
+        "employment_type": "part-time",
+        "department": "Operations",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0013",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-212"
+      }
+    },
+    {
+      "employee": "Vojtěch Růžička",
+      "id": "a6ddbc55-56ba-5c38-a237-b4c22fa3c630",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0114",
+        "hire_date": "2019-06-02",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0014",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-213"
+      }
+    },
+    {
+      "employee": "Lenka Machová",
+      "id": "6fb742f7-6522-517e-a25f-8f93827b5fe1",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0115",
+        "hire_date": "2020-07-03",
+        "employment_type": "full-time",
+        "department": "Finance",
+        "role_title": "SRE",
+        "manager_id": "EMP-0015",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-214"
+      }
+    },
+    {
+      "employee": "Marek Hájek",
+      "id": "1e05c2b6-f7c0-5db4-9001-a0907845d312",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0116",
+        "hire_date": "2021-08-04",
+        "employment_type": "full-time",
+        "department": "People",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0016",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-215"
+      }
+    },
+    {
+      "employee": "Simona Horáková",
+      "id": "a498c303-e64b-50da-87cd-18da06211ff3",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0117",
+        "hire_date": "2022-09-05",
+        "employment_type": "part-time",
+        "department": "ESG",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0017",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-216"
+      }
+    },
+    {
+      "employee": "Radek Král",
+      "id": "2ae7c3b7-ae3f-5e4f-a5f1-97a8250e2091",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0118",
+        "hire_date": "2023-10-06",
+        "employment_type": "contractor",
+        "department": "Sales",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0018",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-217"
+      }
+    },
+    {
+      "employee": "Hana Vlčková",
+      "id": "ced217be-2feb-5716-805b-ac27c8150379",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0119",
+        "hire_date": "2024-11-07",
+        "employment_type": "full-time",
+        "department": "G&A",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0019",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-218"
+      }
+    },
+    {
+      "employee": "Daniel Moravec",
+      "id": "1fab1365-5038-5395-ae1f-17f53b02e312",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0120",
+        "hire_date": "2018-12-08",
+        "employment_type": "contractor",
+        "department": "Legal",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0020",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-219"
+      }
+    },
+    {
+      "employee": "Eva Dvořák",
+      "id": "9b037f47-8731-59af-be7f-193b68cc5217",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0121",
+        "hire_date": "2019-01-09",
+        "employment_type": "contractor",
+        "department": "Engineering",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0001",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-220"
+      }
+    },
+    {
+      "employee": "Martin Fiala",
+      "id": "9a212bb1-1bb6-5106-81b1-e9e678cb6ffb",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0122",
+        "hire_date": "2020-02-10",
+        "employment_type": "part-time",
+        "department": "Product",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0002",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-221"
+      }
+    },
+    {
+      "employee": "Jana Urban",
+      "id": "52348d48-04ab-557b-bfba-d121b2cc0f1c",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0123",
+        "hire_date": "2021-03-11",
+        "employment_type": "part-time",
+        "department": "Operations",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0003",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-222"
+      }
+    },
+    {
+      "employee": "Tomáš Holub",
+      "id": "20646486-084a-56a6-b990-ab393822ae12",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0124",
+        "hire_date": "2022-04-12",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0004",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-223"
+      }
+    },
+    {
+      "employee": "Petra Procházka",
+      "id": "d5e25338-84e5-572b-8690-96793a45f35f",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0125",
+        "hire_date": "2023-05-13",
+        "employment_type": "full-time",
+        "department": "Finance",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0005",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-224"
+      }
+    },
+    {
+      "employee": "Pavel Krejčí",
+      "id": "45db63b3-90dc-531d-8da5-bee422a28bef",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0126",
+        "hire_date": "2024-06-14",
+        "employment_type": "full-time",
+        "department": "People",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0006",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-225"
+      }
+    },
+    {
+      "employee": "Lucie Bartoš",
+      "id": "3cfc1318-7da8-55fa-a335-d9572370fd36",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0127",
+        "hire_date": "2018-07-15",
+        "employment_type": "contractor",
+        "department": "ESG",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0007",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-226"
+      }
+    },
+    {
+      "employee": "Jakub Štěpánek",
+      "id": "e0066d24-b7d9-5c2a-8e54-ac889a095b94",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0128",
+        "hire_date": "2019-08-16",
+        "employment_type": "part-time",
+        "department": "Sales",
+        "role_title": "SRE",
+        "manager_id": "EMP-0008",
+        "status": "terminated",
+        "fte": 0.5,
+        "cost_center": "CC-227"
+      }
+    },
+    {
+      "employee": "Kateřina Kříž",
+      "id": "fed40f6b-918e-557f-971b-50951f2631f1",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0129",
+        "hire_date": "2020-09-17",
+        "employment_type": "contractor",
+        "department": "G&A",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0009",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-228"
+      }
+    },
+    {
+      "employee": "Michal Kučera",
+      "id": "3da570ca-313d-57e2-836c-054cfc556085",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0130",
+        "hire_date": "2021-10-18",
+        "employment_type": "full-time",
+        "department": "Legal",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0010",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-229"
+      }
+    },
+    {
+      "employee": "Veronika Jelínková",
+      "id": "d14f81c6-91bd-58e6-80ae-ea5f1d247a62",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0131",
+        "hire_date": "2022-11-19",
+        "employment_type": "full-time",
+        "department": "Engineering",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0011",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-230"
+      }
+    },
+    {
+      "employee": "David Kolář",
+      "id": "6e448da2-fb79-5fc8-9368-c97b99875302",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0132",
+        "hire_date": "2023-12-20",
+        "employment_type": "full-time",
+        "department": "Product",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0012",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-231"
+      }
+    },
+    {
+      "employee": "Alena Bláhová",
+      "id": "5fc24b8d-71ae-55c1-952e-f4fb5b2cb12c",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0133",
+        "hire_date": "2024-01-21",
+        "employment_type": "contractor",
+        "department": "Operations",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0013",
+        "status": "terminated",
+        "fte": 0.5,
+        "cost_center": "CC-232"
+      }
+    },
+    {
+      "employee": "Filip Černý",
+      "id": "d4f89d64-ac3a-5111-8519-0a66132233c4",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0134",
+        "hire_date": "2018-02-22",
+        "employment_type": "full-time",
+        "department": "Risk & Compliance",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0014",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-233"
+      }
+    },
+    {
+      "employee": "Markéta Pokorná",
+      "id": "e8bc285b-da84-5dbb-a01b-4b4638f77f65",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0135",
+        "hire_date": "2019-03-23",
+        "employment_type": "contractor",
+        "department": "Finance",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0015",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-234"
+      }
+    },
+    {
+      "employee": "Ondřej Šimek",
+      "id": "ff8429f3-117e-581c-983d-ecb24812e222",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0136",
+        "hire_date": "2020-04-24",
+        "employment_type": "part-time",
+        "department": "People",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0016",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-235"
+      }
+    },
+    {
+      "employee": "Barbora Sedláčková",
+      "id": "f7ad75fa-23b2-5b13-a012-5df0ab890a1d",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0137",
+        "hire_date": "2021-05-25",
+        "employment_type": "full-time",
+        "department": "ESG",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0017",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-236"
+      }
+    },
+    {
+      "employee": "Lukáš Svobodová",
+      "id": "b98d664a-dfab-50ca-bb25-2cd9ee38e52b",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0138",
+        "hire_date": "2022-06-26",
+        "employment_type": "part-time",
+        "department": "Sales",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0018",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-237"
+      }
+    },
+    {
+      "employee": "Tereza Benešová",
+      "id": "ccfa8029-0845-5691-aaab-0584e313f45a",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0139",
+        "hire_date": "2023-07-27",
+        "employment_type": "full-time",
+        "department": "G&A",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0019",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-238"
+      }
+    },
+    {
+      "employee": "Adam Němcová",
+      "id": "0075f2cc-633d-5252-b71c-62e38f9af5a1",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0140",
+        "hire_date": "2024-08-28",
+        "employment_type": "full-time",
+        "department": "Legal",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0020",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-239"
+      }
+    },
+    {
+      "employee": "Kristýna Rychlá",
+      "id": "eef1e332-3d4f-5208-9ae3-095425790b92",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0141",
+        "hire_date": "2018-09-01",
+        "employment_type": "part-time",
+        "department": "Engineering",
+        "role_title": "SRE",
+        "manager_id": "EMP-0001",
+        "status": "terminated",
+        "fte": 0.5,
+        "cost_center": "CC-240"
+      }
+    },
+    {
+      "employee": "Jiří Nováková",
+      "id": "b7385e0a-87af-589e-bf56-1a8254faf268",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0142",
+        "hire_date": "2019-10-02",
+        "employment_type": "full-time",
+        "department": "Product",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0002",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-241"
+      }
+    },
+    {
+      "employee": "Michaela Veselý",
+      "id": "bc492fd4-9279-5b14-8d39-a679b76b1590",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0143",
+        "hire_date": "2020-11-03",
+        "employment_type": "contractor",
+        "department": "Operations",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0003",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-242"
+      }
+    },
+    {
+      "employee": "Vojtěch Růžička",
+      "id": "6644174e-b308-5b4b-9f25-0e8cd46d12af",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0144",
+        "hire_date": "2021-12-04",
+        "employment_type": "full-time",
+        "department": "Risk & Compliance",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0004",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-243"
+      }
+    },
+    {
+      "employee": "Lenka Machová",
+      "id": "0ce59b3c-c5b1-5d72-a365-83bf811cd384",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0145",
+        "hire_date": "2022-01-05",
+        "employment_type": "contractor",
+        "department": "Finance",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0005",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-244"
+      }
+    },
+    {
+      "employee": "Marek Hájek",
+      "id": "f24f32cc-01e1-559f-ae02-7d46b2e1dce4",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0146",
+        "hire_date": "2023-02-06",
+        "employment_type": "contractor",
+        "department": "People",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0006",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-245"
+      }
+    },
+    {
+      "employee": "Simona Horáková",
+      "id": "ad78d6f3-1de2-5d02-8ac4-936dd258c354",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0147",
+        "hire_date": "2024-03-07",
+        "employment_type": "contractor",
+        "department": "ESG",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0007",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-246"
+      }
+    },
+    {
+      "employee": "Radek Král",
+      "id": "9bfed8cf-69b9-58c8-a456-29b81a2b4f49",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0148",
+        "hire_date": "2018-04-08",
+        "employment_type": "part-time",
+        "department": "Sales",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0008",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-247"
+      }
+    },
+    {
+      "employee": "Hana Vlčková",
+      "id": "11e6be45-b421-59cd-b865-f89d9e6451e8",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0149",
+        "hire_date": "2019-05-09",
+        "employment_type": "part-time",
+        "department": "G&A",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0009",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-248"
+      }
+    },
+    {
+      "employee": "Daniel Moravec",
+      "id": "b52771b4-39c0-5d55-88b0-3a7d4c00fc75",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0150",
+        "hire_date": "2020-06-10",
+        "employment_type": "part-time",
+        "department": "Legal",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0010",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-249"
+      }
+    },
+    {
+      "employee": "Eva Dvořák",
+      "id": "1d965fac-f5cd-5924-bc02-f838567f5ec5",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0151",
+        "hire_date": "2021-07-11",
+        "employment_type": "contractor",
+        "department": "Engineering",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0011",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-250"
+      }
+    },
+    {
+      "employee": "Martin Fiala",
+      "id": "bf5a3151-20c9-5858-8270-c74536be07ed",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0152",
+        "hire_date": "2022-08-12",
+        "employment_type": "part-time",
+        "department": "Product",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0012",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-251"
+      }
+    },
+    {
+      "employee": "Jana Urban",
+      "id": "f2d11211-09c1-53d9-84bd-38ac579f5c80",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0153",
+        "hire_date": "2023-09-13",
+        "employment_type": "part-time",
+        "department": "Operations",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0013",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-252"
+      }
+    },
+    {
+      "employee": "Tomáš Holub",
+      "id": "12027ad9-dc9f-59bd-a595-ceaa7edf3e33",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0154",
+        "hire_date": "2024-10-14",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "SRE",
+        "manager_id": "EMP-0014",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-253"
+      }
+    },
+    {
+      "employee": "Petra Procházka",
+      "id": "ff49dc45-b46c-5c8b-aafb-1230ca43ea46",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0155",
+        "hire_date": "2018-11-15",
+        "employment_type": "contractor",
+        "department": "Finance",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0015",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-254"
+      }
+    },
+    {
+      "employee": "Pavel Krejčí",
+      "id": "0fed093b-f25e-585e-8740-d72a58d97603",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0156",
+        "hire_date": "2019-12-16",
+        "employment_type": "full-time",
+        "department": "People",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0016",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-255"
+      }
+    },
+    {
+      "employee": "Lucie Bartoš",
+      "id": "21de78e8-eeed-5020-ae73-380bd2627dee",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0157",
+        "hire_date": "2020-01-17",
+        "employment_type": "part-time",
+        "department": "ESG",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0017",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-256"
+      }
+    },
+    {
+      "employee": "Jakub Štěpánek",
+      "id": "2c03a4e4-2d40-5f33-b0bc-c756860d52be",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0158",
+        "hire_date": "2021-02-18",
+        "employment_type": "contractor",
+        "department": "Sales",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0018",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-257"
+      }
+    },
+    {
+      "employee": "Kateřina Kříž",
+      "id": "75178ad2-abc7-5167-bf6c-350c08aab018",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0159",
+        "hire_date": "2022-03-19",
+        "employment_type": "part-time",
+        "department": "G&A",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0019",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-258"
+      }
+    },
+    {
+      "employee": "Michal Kučera",
+      "id": "143f0465-12cf-5a40-ab03-a466521f3b5d",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0160",
+        "hire_date": "2023-04-20",
+        "employment_type": "full-time",
+        "department": "Legal",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0020",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-259"
+      }
+    },
+    {
+      "employee": "Veronika Jelínková",
+      "id": "533d24fe-4347-5b5d-81b5-a7c7da2f625c",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0161",
+        "hire_date": "2024-05-21",
+        "employment_type": "full-time",
+        "department": "Engineering",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0001",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-260"
+      }
+    },
+    {
+      "employee": "David Kolář",
+      "id": "b5457a60-9a36-5476-a092-b96ad4b8fe1e",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0162",
+        "hire_date": "2018-06-22",
+        "employment_type": "contractor",
+        "department": "Product",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0002",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-261"
+      }
+    },
+    {
+      "employee": "Alena Bláhová",
+      "id": "ab6a10e9-b6b6-5627-83ba-a5a2d388215b",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0163",
+        "hire_date": "2019-07-23",
+        "employment_type": "part-time",
+        "department": "Operations",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0003",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-262"
+      }
+    },
+    {
+      "employee": "Filip Černý",
+      "id": "fa044178-33d9-5b8a-9daa-22199698342e",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0164",
+        "hire_date": "2020-08-24",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0004",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-263"
+      }
+    },
+    {
+      "employee": "Markéta Pokorná",
+      "id": "e33ebc9f-a23d-5c55-a9d1-f11becbedbce",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0165",
+        "hire_date": "2021-09-25",
+        "employment_type": "part-time",
+        "department": "Finance",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0005",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-264"
+      }
+    },
+    {
+      "employee": "Ondřej Šimek",
+      "id": "9cdda070-8a28-57bc-a45a-89cb716efd98",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0166",
+        "hire_date": "2022-10-26",
+        "employment_type": "full-time",
+        "department": "People",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0006",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-265"
+      }
+    },
+    {
+      "employee": "Barbora Sedláčková",
+      "id": "fbc52dfb-e3b1-542a-b71e-c61b88cccaaf",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0167",
+        "hire_date": "2023-11-27",
+        "employment_type": "full-time",
+        "department": "ESG",
+        "role_title": "SRE",
+        "manager_id": "EMP-0007",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-266"
+      }
+    },
+    {
+      "employee": "Lukáš Svobodová",
+      "id": "f11ebf50-24b9-5a4d-8457-9b1766636a21",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0168",
+        "hire_date": "2024-12-28",
+        "employment_type": "part-time",
+        "department": "Sales",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0008",
+        "status": "terminated",
+        "fte": 0.5,
+        "cost_center": "CC-267"
+      }
+    },
+    {
+      "employee": "Tereza Benešová",
+      "id": "f47aa23a-30a0-5851-8f60-a53a521af512",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0169",
+        "hire_date": "2018-01-01",
+        "employment_type": "part-time",
+        "department": "G&A",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0009",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-268"
+      }
+    },
+    {
+      "employee": "Adam Němcová",
+      "id": "70140426-ea65-55e7-b57a-d2a63bb8648c",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0170",
+        "hire_date": "2019-02-02",
+        "employment_type": "full-time",
+        "department": "Legal",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0010",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-269"
+      }
+    },
+    {
+      "employee": "Kristýna Rychlá",
+      "id": "904050e0-13b4-5bcc-948d-1d46b5a53e14",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0171",
+        "hire_date": "2020-03-03",
+        "employment_type": "contractor",
+        "department": "Engineering",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0011",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-270"
+      }
+    },
+    {
+      "employee": "Jiří Nováková",
+      "id": "094fdeea-2cda-5648-a304-a4ac9a1aeada",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0172",
+        "hire_date": "2021-04-04",
+        "employment_type": "contractor",
+        "department": "Product",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0012",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-271"
+      }
+    },
+    {
+      "employee": "Michaela Veselý",
+      "id": "2272383d-2d77-56f7-ba37-770c9339aff1",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0173",
+        "hire_date": "2022-05-05",
+        "employment_type": "full-time",
+        "department": "Operations",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0013",
+        "status": "terminated",
+        "fte": 0.8,
+        "cost_center": "CC-272"
+      }
+    },
+    {
+      "employee": "Vojtěch Růžička",
+      "id": "63e1b1d6-0c5a-5cc9-946f-666a9bdaa5e0",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0174",
+        "hire_date": "2023-06-06",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0014",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-273"
+      }
+    },
+    {
+      "employee": "Lenka Machová",
+      "id": "99de4f41-b39e-51a5-9ba5-cef911662985",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0175",
+        "hire_date": "2024-07-07",
+        "employment_type": "contractor",
+        "department": "Finance",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0015",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-274"
+      }
+    },
+    {
+      "employee": "Marek Hájek",
+      "id": "cebe3d9b-3cca-56c9-9c69-d0a4c2d38bed",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0176",
+        "hire_date": "2018-08-08",
+        "employment_type": "full-time",
+        "department": "People",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0016",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-275"
+      }
+    },
+    {
+      "employee": "Simona Horáková",
+      "id": "09acfa24-adbc-59a6-aa73-87fbf576a5ce",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0177",
+        "hire_date": "2019-09-09",
+        "employment_type": "contractor",
+        "department": "ESG",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0017",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-276"
+      }
+    },
+    {
+      "employee": "Radek Král",
+      "id": "2071e568-b9d8-5e93-8fac-001d19fc18d2",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0178",
+        "hire_date": "2020-10-10",
+        "employment_type": "contractor",
+        "department": "Sales",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0018",
+        "status": "terminated",
+        "fte": 0.5,
+        "cost_center": "CC-277"
+      }
+    },
+    {
+      "employee": "Hana Vlčková",
+      "id": "f2ffbb92-893d-5425-9cdf-f625bdc91ade",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0179",
+        "hire_date": "2021-11-11",
+        "employment_type": "contractor",
+        "department": "G&A",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0019",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-278"
+      }
+    },
+    {
+      "employee": "Daniel Moravec",
+      "id": "84b2650a-020e-556e-bb91-7d59d0d4e977",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0180",
+        "hire_date": "2022-12-12",
+        "employment_type": "full-time",
+        "department": "Legal",
+        "role_title": "SRE",
+        "manager_id": "EMP-0020",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-279"
+      }
+    },
+    {
+      "employee": "Eva Dvořák",
+      "id": "7ed7ec11-d3ef-5a05-b3d3-1cdf37419d26",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0181",
+        "hire_date": "2023-01-13",
+        "employment_type": "part-time",
+        "department": "Engineering",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0001",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-280"
+      }
+    },
+    {
+      "employee": "Martin Fiala",
+      "id": "30746ff0-81c6-5a39-aa26-c4d2f4ec8087",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0182",
+        "hire_date": "2024-02-14",
+        "employment_type": "full-time",
+        "department": "Product",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0002",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-281"
+      }
+    },
+    {
+      "employee": "Jana Urban",
+      "id": "b6c29139-7244-54fb-b5e8-76d46971a3a9",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0183",
+        "hire_date": "2018-03-15",
+        "employment_type": "part-time",
+        "department": "Operations",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0003",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-282"
+      }
+    },
+    {
+      "employee": "Tomáš Holub",
+      "id": "e5087c82-578b-56a7-a4bc-e4591abc95ec",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0184",
+        "hire_date": "2019-04-16",
+        "employment_type": "part-time",
+        "department": "Risk & Compliance",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0004",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-283"
+      }
+    },
+    {
+      "employee": "Petra Procházka",
+      "id": "6d968f78-1e08-535c-b58a-0c59a44355ed",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0185",
+        "hire_date": "2020-05-17",
+        "employment_type": "contractor",
+        "department": "Finance",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0005",
+        "status": "on_leave",
+        "fte": 1.0,
+        "cost_center": "CC-284"
+      }
+    },
+    {
+      "employee": "Pavel Krejčí",
+      "id": "6d8b31ee-0217-5517-b468-d0a1e7a285cc",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0186",
+        "hire_date": "2021-06-18",
+        "employment_type": "full-time",
+        "department": "People",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0006",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-285"
+      }
+    },
+    {
+      "employee": "Lucie Bartoš",
+      "id": "197f25ee-1c32-5c35-88d6-07fdacbbebd1",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0187",
+        "hire_date": "2022-07-19",
+        "employment_type": "part-time",
+        "department": "ESG",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0007",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-286"
+      }
+    },
+    {
+      "employee": "Jakub Štěpánek",
+      "id": "98ae0858-df85-5f47-b568-dc7fe6edd116",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0188",
+        "hire_date": "2023-08-20",
+        "employment_type": "part-time",
+        "department": "Sales",
+        "role_title": "Legal Counsel",
+        "manager_id": "EMP-0008",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-287"
+      }
+    },
+    {
+      "employee": "Kateřina Kříž",
+      "id": "8452b548-367d-50c1-8824-40568f4af922",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0189",
+        "hire_date": "2024-09-21",
+        "employment_type": "contractor",
+        "department": "G&A",
+        "role_title": "HR Business Partner",
+        "manager_id": "EMP-0009",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-288"
+      }
+    },
+    {
+      "employee": "Michal Kučera",
+      "id": "02888e12-b523-5ef2-b3cc-82460cf85a46",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0190",
+        "hire_date": "2018-10-22",
+        "employment_type": "contractor",
+        "department": "Legal",
+        "role_title": "ESG Analyst",
+        "manager_id": "EMP-0010",
+        "status": "terminated",
+        "fte": 1.0,
+        "cost_center": "CC-289"
+      }
+    },
+    {
+      "employee": "Veronika Jelínková",
+      "id": "1005e1cc-eef9-5aa1-8407-b104128397c4",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0191",
+        "hire_date": "2019-11-23",
+        "employment_type": "part-time",
+        "department": "Engineering",
+        "role_title": "Tax Specialist",
+        "manager_id": "EMP-0011",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-290"
+      }
+    },
+    {
+      "employee": "David Kolář",
+      "id": "c9351b0b-6727-5272-9536-e4d79bf997e0",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0192",
+        "hire_date": "2020-12-24",
+        "employment_type": "contractor",
+        "department": "Product",
+        "role_title": "Accountant",
+        "manager_id": "EMP-0012",
+        "status": "active",
+        "fte": 0.5,
+        "cost_center": "CC-291"
+      }
+    },
+    {
+      "employee": "Alena Bláhová",
+      "id": "4bd1f8cd-a03e-54d4-bc26-0b2986f59aea",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0193",
+        "hire_date": "2021-01-25",
+        "employment_type": "full-time",
+        "department": "Operations",
+        "role_title": "SRE",
+        "manager_id": "EMP-0013",
+        "status": "on_leave",
+        "fte": 0.5,
+        "cost_center": "CC-292"
+      }
+    },
+    {
+      "employee": "Filip Černý",
+      "id": "d60306c6-1eb0-5380-8633-3c0056eebbfb",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0194",
+        "hire_date": "2022-02-26",
+        "employment_type": "full-time",
+        "department": "Risk & Compliance",
+        "role_title": "Data Engineer",
+        "manager_id": "EMP-0014",
+        "status": "on_leave",
+        "fte": 0.8,
+        "cost_center": "CC-293"
+      }
+    },
+    {
+      "employee": "Markéta Pokorná",
+      "id": "a88136cf-79ef-5eab-9d70-1db3c3562254",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0195",
+        "hire_date": "2023-03-27",
+        "employment_type": "contractor",
+        "department": "Finance",
+        "role_title": "QA Engineer",
+        "manager_id": "EMP-0015",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-294"
+      }
+    },
+    {
+      "employee": "Ondřej Šimek",
+      "id": "25f9b9aa-632d-5562-89e2-7fd2c6febd1d",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0196",
+        "hire_date": "2024-04-28",
+        "employment_type": "part-time",
+        "department": "People",
+        "role_title": "Software Engineer",
+        "manager_id": "EMP-0016",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-295"
+      }
+    },
+    {
+      "employee": "Barbora Sedláčková",
+      "id": "e07e7447-8b4f-59fd-9271-dc780b707752",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0197",
+        "hire_date": "2018-05-01",
+        "employment_type": "part-time",
+        "department": "ESG",
+        "role_title": "Senior Engineer",
+        "manager_id": "EMP-0017",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-296"
+      }
+    },
+    {
+      "employee": "Lukáš Svobodová",
+      "id": "1104b1b9-b7e5-5115-8104-74f9d36d026c",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0198",
+        "hire_date": "2019-06-02",
+        "employment_type": "contractor",
+        "department": "Sales",
+        "role_title": "Engineering Manager",
+        "manager_id": "EMP-0018",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-297"
+      }
+    },
+    {
+      "employee": "Tereza Benešová",
+      "id": "f892055b-4daa-5347-91d6-232295d83ebe",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0199",
+        "hire_date": "2020-07-03",
+        "employment_type": "contractor",
+        "department": "G&A",
+        "role_title": "Product Manager",
+        "manager_id": "EMP-0019",
+        "status": "active",
+        "fte": 1.0,
+        "cost_center": "CC-298"
+      }
+    },
+    {
+      "employee": "Adam Němcová",
+      "id": "de567dbe-0332-5653-aa10-972530e9ee1a",
+      "domain_id": "shared",
+      "data": {
+        "employee_id": "EMP-0200",
+        "hire_date": "2021-08-04",
+        "employment_type": "part-time",
+        "department": "Legal",
+        "role_title": "Compliance Analyst",
+        "manager_id": "EMP-0020",
+        "status": "active",
+        "fte": 0.8,
+        "cost_center": "CC-299"
+      }
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "object_type_id": "4eca5a9f-4e74-5698-8c7a-30b4a97196a3",
+  "object_type_name": "court_decision",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "court_decision": "NS 25 Cdo 1550/2020",
+      "id": "141b3757-4a57-5efd-a2e9-be0b8601ddb2",
+      "domain_id": "legal",
+      "data": {
+        "court": "NS 25 Cdo 1550/2020",
+        "case_number": "Legal case number — NS 25 Cdo 1550/2020",
+        "decision_date": "2023-05-09",
+        "legal_area": "commercial",
+        "key_holding": "Legal key holding — NS 25 Cdo 1550/2020",
+        "cited_legislation": "§ 262/2006 Sb.",
+        "relevance_score": 68,
+        "internal_note": "Legal internal note — NS 25 Cdo 1550/2020",
+        "rel:INTERPRETS:interpreted_section": "medium",
+        "rel:INTERPRETS:interpretation_type": "low"
+      }
+    },
+    {
+      "court_decision": "ÚS II. ÚS 3/2003",
+      "id": "558bc64a-2991-50df-9c3f-92998f479baa",
+      "domain_id": "legal",
+      "data": {
+        "court": "ÚS II. ÚS 3/2003",
+        "case_number": "Legal case number — ÚS II. ÚS 3/2003",
+        "decision_date": "2024-03-17",
+        "legal_area": "regulatory",
+        "key_holding": "Legal key holding — ÚS II. ÚS 3/2003",
+        "cited_legislation": "GDPR Art. 6",
+        "relevance_score": 5,
+        "internal_note": "Legal internal note — ÚS II. ÚS 3/2003",
+        "rel:INTERPRETS:interpreted_section": "high",
+        "rel:INTERPRETS:interpretation_type": "low"
+      }
+    },
+    {
+      "court_decision": "NS 23 Cdo 1061/2021",
+      "id": "1a3a88e2-a27d-5801-a794-356fbcfdc7ea",
+      "domain_id": "legal",
+      "data": {
+        "court": "NS 23 Cdo 1061/2021",
+        "case_number": "Legal case number — NS 23 Cdo 1061/2021",
+        "decision_date": "2023-01-20",
+        "legal_area": "regulatory",
+        "key_holding": "Legal key holding — NS 23 Cdo 1061/2021",
+        "cited_legislation": "§ 110/2019 Sb.",
+        "relevance_score": 39,
+        "internal_note": "Legal internal note — NS 23 Cdo 1061/2021",
+        "rel:OVERRULES:scope": "high",
+        "rel:OVERRULES:partial": "medium"
+      }
+    },
+    {
+      "court_decision": "NS 25 Cdo 1550/2020 v2",
+      "id": "b97b7718-a138-5035-8022-db4dd752d9b0",
+      "domain_id": "legal",
+      "data": {
+        "court": "NS 25 Cdo 1550/2020 v2",
+        "case_number": "Legal case number — NS 25 Cdo 1550/2020 v2",
+        "decision_date": "2024-03-18",
+        "legal_area": "regulatory",
+        "key_holding": "Legal key holding — NS 25 Cdo 1550/2020 v2",
+        "cited_legislation": "§ 110/2019 Sb.",
+        "relevance_score": 55,
+        "internal_note": "Legal internal note — NS 25 Cdo 1550/2020 v2"
+      }
+    },
+    {
+      "court_decision": "ÚS II. ÚS 3/2003 — updated",
+      "id": "bd372c9a-fd0c-51e9-930e-7ad4f186b41b",
+      "domain_id": "legal",
+      "data": {
+        "court": "ÚS II. ÚS 3/2003 — updated",
+        "case_number": "Legal case number — ÚS II. ÚS 3/2003 — updated",
+        "decision_date": "2023-10-22",
+        "legal_area": "corporate",
+        "key_holding": "Legal key holding — ÚS II. ÚS 3/2003 — updated",
+        "cited_legislation": "GDPR Art. 6",
+        "relevance_score": 95,
+        "internal_note": "Legal internal note — ÚS II. ÚS 3/2003 — updated"
+      }
+    },
+    {
+      "court_decision": "NS 23 Cdo 1061/2021 #6",
+      "id": "8436a462-81a2-52b6-9ead-3be602bcc3b2",
+      "domain_id": "legal",
+      "data": {
+        "court": "NS 23 Cdo 1061/2021 #6",
+        "case_number": "Legal case number — NS 23 Cdo 1061/2021 #6",
+        "decision_date": "2024-09-08",
+        "legal_area": "commercial",
+        "key_holding": "Legal key holding — NS 23 Cdo 1061/2021 #6",
+        "cited_legislation": "§ 110/2019 Sb.",
+        "relevance_score": 56,
+        "internal_note": "Legal internal note — NS 23 Cdo 1061/2021 #6"
+      }
+    },
+    {
+      "court_decision": "NS 25 Cdo 1550/2020",
+      "id": "84e815f0-94ea-58a0-8c21-9e9dca6cb06f",
+      "domain_id": "legal",
+      "data": {
+        "court": "NS 25 Cdo 1550/2020",
+        "case_number": "Legal case number — NS 25 Cdo 1550/2020",
+        "decision_date": "2023-02-05",
+        "legal_area": "litigation",
+        "key_holding": "Legal key holding — NS 25 Cdo 1550/2020",
+        "cited_legislation": "§ 262/2006 Sb.",
+        "relevance_score": 5,
+        "internal_note": "Legal internal note — NS 25 Cdo 1550/2020"
+      }
+    },
+    {
+      "court_decision": "ÚS II. ÚS 3/2003 (Brno)",
+      "id": "4d13ad41-7c58-54ca-a34e-5728b1fc853d",
+      "domain_id": "legal",
+      "data": {
+        "court": "ÚS II. ÚS 3/2003 (Brno)",
+        "case_number": "Legal case number — ÚS II. ÚS 3/2003 (Brno)",
+        "decision_date": "2024-07-15",
+        "legal_area": "regulatory",
+        "key_holding": "Legal key holding — ÚS II. ÚS 3/2003 (Brno)",
+        "cited_legislation": "§ 110/2019 Sb.",
+        "relevance_score": 20,
+        "internal_note": "Legal internal note — ÚS II. ÚS 3/2003 (Brno)"
+      }
+    },
+    {
+      "court_decision": "NS 23 Cdo 1061/2021 (FY2024)",
+      "id": "e3c9e862-d9a0-599f-9a95-1c4509e5c59c",
+      "domain_id": "legal",
+      "data": {
+        "court": "NS 23 Cdo 1061/2021 (FY2024)",
+        "case_number": "Legal case number — NS 23 Cdo 1061/2021 (FY2024)",
+        "decision_date": "2023-10-18",
+        "legal_area": "litigation",
+        "key_holding": "Legal key holding — NS 23 Cdo 1061/2021 (FY2024)",
+        "cited_legislation": "§ 110/2019 Sb.",
+        "relevance_score": 47,
+        "internal_note": "Legal internal note — NS 23 Cdo 1061/2021 (FY2024)",
+        "rel:INTERPRETS:interpreted_section": "high",
+        "rel:INTERPRETS:interpretation_type": "low",
+        "rel:OVERRULES:scope": "high",
+        "rel:OVERRULES:partial": "low"
+      }
+    },
+    {
+      "court_decision": "NS 25 Cdo 1550/2020 v2",
+      "id": "9c3c514f-27ab-5fc6-9d23-d1909ad9f017",
+      "domain_id": "legal",
+      "data": {
+        "court": "NS 25 Cdo 1550/2020 v2",
+        "case_number": "Legal case number — NS 25 Cdo 1550/2020 v2",
+        "decision_date": "2024-12-15",
+        "legal_area": "data protection",
+        "key_holding": "Legal key holding — NS 25 Cdo 1550/2020 v2",
+        "cited_legislation": "§ 110/2019 Sb.",
+        "relevance_score": 12,
+        "internal_note": "Legal internal note — NS 25 Cdo 1550/2020 v2"
+      }
+    }
+  ]
+}

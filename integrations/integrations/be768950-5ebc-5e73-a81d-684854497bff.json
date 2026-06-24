@@ -1,0 +1,107 @@
+{
+  "id": "be768950-5ebc-5e73-a81d-684854497bff",
+  "name": "Contracts/matter index",
+  "description": "Contracts/matter index — integrace domény legal pro Meridian Pay a.s.",
+  "source_type": "Integration",
+  "delivery_type": "Endpoint",
+  "max_concurrent_runs": 10,
+  "timeout": 30,
+  "average_run_duration": 0,
+  "created_at": "2026-06-17T05:05:18Z",
+  "updated_at": "2026-06-17T05:05:18Z",
+  "status": "active",
+  "owner_org_id": "org:anchor",
+  "owner_org_name": "Meridian Pay a.s.",
+  "domain_id": "legal",
+  "integration_role": "destination",
+  "last_used_at": "2026-06-17T05:05:18Z",
+  "total_runs": 0,
+  "successful_runs": 0,
+  "failed_runs": 0,
+  "success_rate": 0.0,
+  "activities_count": 0,
+  "workflows_count": 0,
+  "use_cases_count": 0,
+  "guardrails_count": 0,
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [],
+            "mapping_status": "remaining"
+          },
+          "run_id": {
+            "path": [],
+            "mapping_status": "remaining"
+          },
+          "webhook_url": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        }
+      },
+      "request_template": {
+        "url": "",
+        "method": "POST",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": [],
+      "factor_variables": {}
+    },
+    "status_request": {
+      "mappings": {
+        "request": {
+          "run_external_id": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [],
+            "mapping_status": "remaining"
+          }
+        }
+      },
+      "request_template": {
+        "url": "",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {},
+        "response": {}
+      },
+      "request_template": {
+        "url": "",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": [],
+      "response_mappings": {}
+    }
+  }
+}

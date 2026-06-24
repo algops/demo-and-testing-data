@@ -1,0 +1,578 @@
+{
+  "data": [
+    {
+      "tech_debt": "TD-001 Decompose legacy-ledger-monolith",
+      "id": "26bfcb98-3df3-58b2-8059-8144bca38677",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-001 Decompose legacy-ledger-monolith",
+        "blocked_by": "QA sign-off",
+        "category": "technical",
+        "created_date": "2023-08-30",
+        "estimated_effort_days": 126,
+        "id": "TEC-0001",
+        "impact": "IT impact — TD-001 Decompose legacy-ledger-monolith",
+        "priority": "IT priority — TD-001 Decompose legacy-ledger-monolith",
+        "status": "archived"
+      }
+    },
+    {
+      "tech_debt": "TD-012 Upgrade spring-boot from 2.7 to 3.x",
+      "id": "1a39e0a2-ba04-584e-97f0-61de46ce5ce9",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-012 Upgrade spring-boot from 2.7 to 3.x",
+        "blocked_by": "security review",
+        "category": "compliance",
+        "created_date": "2024-07-17",
+        "estimated_effort_days": 48,
+        "id": "TEC-0002",
+        "impact": "IT impact — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "priority": "IT priority — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "status": "archived",
+        "rel:RELATES_TO:affected_component": "high"
+      }
+    },
+    {
+      "tech_debt": "TD-034 Eliminate shared orders-pg database",
+      "id": "c8e54084-9d5d-51c4-9469-ebf70c3f54d5",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-034 Eliminate shared orders-pg database",
+        "blocked_by": "none",
+        "category": "governance",
+        "created_date": "2023-04-06",
+        "estimated_effort_days": 115,
+        "id": "TEC-0003",
+        "impact": "IT impact — TD-034 Eliminate shared orders-pg databa",
+        "priority": "IT priority — TD-034 Eliminate shared orders-pg databa",
+        "status": "active"
+      }
+    },
+    {
+      "tech_debt": "TD-045 Migrate Jenkins to GitHub Actions for monolith",
+      "id": "6b813ab1-aba3-5373-9604-d9b4d8bb5ae8",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-045 Migrate Jenkins to GitHub Actions for monolith",
+        "blocked_by": "QA sign-off",
+        "category": "technical",
+        "created_date": "2024-08-26",
+        "estimated_effort_days": 68,
+        "id": "TEC-0004",
+        "impact": "IT impact — TD-045 Migrate Jenkins to GitHub Actions",
+        "priority": "IT priority — TD-045 Migrate Jenkins to GitHub Actions",
+        "status": "draft",
+        "rel:RELATES_TO:affected_component": "low"
+      }
+    },
+    {
+      "tech_debt": "TD-001 Decompose legacy-ledger-monolith — updated",
+      "id": "cba7d055-bc3f-5311-b612-3802dd729911",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-001 Decompose legacy-ledger-monolith — updated",
+        "blocked_by": "QA sign-off",
+        "category": "compliance",
+        "created_date": "2023-02-01",
+        "estimated_effort_days": 39,
+        "id": "TEC-0005",
+        "impact": "IT impact — TD-001 Decompose legacy-ledger-monolith ",
+        "priority": "IT priority — TD-001 Decompose legacy-ledger-monolith ",
+        "status": "active"
+      }
+    },
+    {
+      "tech_debt": "TD-012 Upgrade spring-boot from 2.7 to 3.x #6",
+      "id": "753b3b1d-ef00-5d78-8574-51642344b58f",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-012 Upgrade spring-boot from 2.7 to 3.x #6",
+        "blocked_by": "security review",
+        "category": "governance",
+        "created_date": "2024-10-04",
+        "estimated_effort_days": 106,
+        "id": "TEC-0006",
+        "impact": "IT impact — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "priority": "IT priority — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "status": "expired"
+      }
+    },
+    {
+      "tech_debt": "TD-034 Eliminate shared orders-pg database",
+      "id": "4b35f3bd-feff-561b-8b65-cfca3a69cb17",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-034 Eliminate shared orders-pg database",
+        "blocked_by": "dependency upgrade",
+        "category": "compliance",
+        "created_date": "2023-02-01",
+        "estimated_effort_days": 100,
+        "id": "TEC-0007",
+        "impact": "IT impact — TD-034 Eliminate shared orders-pg databa",
+        "priority": "IT priority — TD-034 Eliminate shared orders-pg databa",
+        "status": "expired",
+        "rel:BLOCKS:reason": "low"
+      }
+    },
+    {
+      "tech_debt": "TD-045 Migrate Jenkins to GitHub Actions for monolith",
+      "id": "7fc550ee-348e-5acc-9dd4-a0c6763660c9",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-045 Migrate Jenkins to GitHub Actions for monolith",
+        "blocked_by": "none",
+        "category": "compliance",
+        "created_date": "2024-12-17",
+        "estimated_effort_days": 122,
+        "id": "TEC-0008",
+        "impact": "IT impact — TD-045 Migrate Jenkins to GitHub Actions",
+        "priority": "IT priority — TD-045 Migrate Jenkins to GitHub Actions",
+        "status": "expired"
+      }
+    },
+    {
+      "tech_debt": "TD-001 Decompose legacy-ledger-monolith (FY2024)",
+      "id": "5a61b4d7-5def-59b7-aedd-d852466a8367",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-001 Decompose legacy-ledger-monolith (FY2024)",
+        "blocked_by": "dependency upgrade",
+        "category": "technical",
+        "created_date": "2023-06-03",
+        "estimated_effort_days": 21,
+        "id": "TEC-0009",
+        "impact": "IT impact — TD-001 Decompose legacy-ledger-monolith ",
+        "priority": "IT priority — TD-001 Decompose legacy-ledger-monolith ",
+        "status": "under_review",
+        "rel:RELATES_TO:affected_component": "medium"
+      }
+    },
+    {
+      "tech_debt": "TD-012 Upgrade spring-boot from 2.7 to 3.x v2",
+      "id": "93646cc1-69a1-5de8-92ba-a0cc3da119d2",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-012 Upgrade spring-boot from 2.7 to 3.x v2",
+        "blocked_by": "security review",
+        "category": "compliance",
+        "created_date": "2024-10-19",
+        "estimated_effort_days": 133,
+        "id": "TEC-0010",
+        "impact": "IT impact — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "priority": "IT priority — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "status": "expired"
+      }
+    },
+    {
+      "tech_debt": "TD-034 Eliminate shared orders-pg database — updated",
+      "id": "de986acd-cfdc-55ca-a8b9-107cd5812b08",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-034 Eliminate shared orders-pg database — updated",
+        "blocked_by": "dependency upgrade",
+        "category": "operational",
+        "created_date": "2023-08-18",
+        "estimated_effort_days": 45,
+        "id": "TEC-0011",
+        "impact": "IT impact — TD-034 Eliminate shared orders-pg databa",
+        "priority": "IT priority — TD-034 Eliminate shared orders-pg databa",
+        "status": "draft",
+        "rel:RELATES_TO:affected_component": "low"
+      }
+    },
+    {
+      "tech_debt": "TD-045 Migrate Jenkins to GitHub Actions for monolith #12",
+      "id": "c55a5fe5-0ee0-5dbc-9ff6-0e77efeaebea",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-045 Migrate Jenkins to GitHub Actions for monolith #12",
+        "blocked_by": "dependency upgrade",
+        "category": "financial",
+        "created_date": "2024-03-05",
+        "estimated_effort_days": 11,
+        "id": "TEC-0012",
+        "impact": "IT impact — TD-045 Migrate Jenkins to GitHub Actions",
+        "priority": "IT priority — TD-045 Migrate Jenkins to GitHub Actions",
+        "status": "under_review"
+      }
+    },
+    {
+      "tech_debt": "TD-001 Decompose legacy-ledger-monolith — updated",
+      "id": "f8f1ae75-3ba5-533c-bc8c-b3658b6654d3",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-001 Decompose legacy-ledger-monolith — updated",
+        "blocked_by": "security review",
+        "category": "technical",
+        "created_date": "2023-04-14",
+        "estimated_effort_days": 161,
+        "id": "TEC-0013",
+        "impact": "IT impact — TD-001 Decompose legacy-ledger-monolith ",
+        "priority": "IT priority — TD-001 Decompose legacy-ledger-monolith ",
+        "status": "draft"
+      }
+    },
+    {
+      "tech_debt": "TD-012 Upgrade spring-boot from 2.7 to 3.x #6 (Brno)",
+      "id": "1b781e6e-1095-57f4-b580-1b5de39dfa90",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-012 Upgrade spring-boot from 2.7 to 3.x #6 (Brno)",
+        "blocked_by": "QA sign-off",
+        "category": "governance",
+        "created_date": "2024-02-04",
+        "estimated_effort_days": 23,
+        "id": "TEC-0014",
+        "impact": "IT impact — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "priority": "IT priority — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "status": "under_review"
+      }
+    },
+    {
+      "tech_debt": "TD-034 Eliminate shared orders-pg database (FY2024)",
+      "id": "f390825e-5d0f-5d87-bea5-5900b68550a0",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-034 Eliminate shared orders-pg database (FY2024)",
+        "blocked_by": "none",
+        "category": "compliance",
+        "created_date": "2023-06-16",
+        "estimated_effort_days": 71,
+        "id": "TEC-0015",
+        "impact": "IT impact — TD-034 Eliminate shared orders-pg databa",
+        "priority": "IT priority — TD-034 Eliminate shared orders-pg databa",
+        "status": "expired"
+      }
+    },
+    {
+      "tech_debt": "TD-045 Migrate Jenkins to GitHub Actions for monolith v2",
+      "id": "bad912a1-e292-52f9-83e2-e7632d85a726",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-045 Migrate Jenkins to GitHub Actions for monolith v2",
+        "blocked_by": "none",
+        "category": "operational",
+        "created_date": "2024-12-24",
+        "estimated_effort_days": 160,
+        "id": "TEC-0016",
+        "impact": "IT impact — TD-045 Migrate Jenkins to GitHub Actions",
+        "priority": "IT priority — TD-045 Migrate Jenkins to GitHub Actions",
+        "status": "expired"
+      }
+    },
+    {
+      "tech_debt": "TD-001 Decompose legacy-ledger-monolith — updated",
+      "id": "315c4587-86cc-542e-b9a3-0c0c4902c272",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-001 Decompose legacy-ledger-monolith — updated",
+        "blocked_by": "none",
+        "category": "operational",
+        "created_date": "2023-08-01",
+        "estimated_effort_days": 39,
+        "id": "TEC-0017",
+        "impact": "IT impact — TD-001 Decompose legacy-ledger-monolith ",
+        "priority": "IT priority — TD-001 Decompose legacy-ledger-monolith ",
+        "status": "draft"
+      }
+    },
+    {
+      "tech_debt": "TD-012 Upgrade spring-boot from 2.7 to 3.x #18",
+      "id": "80ec2d2e-6a00-583a-a5be-27a42ee6897e",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-012 Upgrade spring-boot from 2.7 to 3.x #18",
+        "blocked_by": "security review",
+        "category": "operational",
+        "created_date": "2024-10-15",
+        "estimated_effort_days": 26,
+        "id": "TEC-0018",
+        "impact": "IT impact — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "priority": "IT priority — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "status": "archived"
+      }
+    },
+    {
+      "tech_debt": "TD-034 Eliminate shared orders-pg database",
+      "id": "38c71429-188a-54e3-a52c-1460212c4e6f",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-034 Eliminate shared orders-pg database",
+        "blocked_by": "QA sign-off",
+        "category": "technical",
+        "created_date": "2023-05-16",
+        "estimated_effort_days": 99,
+        "id": "TEC-0019",
+        "impact": "IT impact — TD-034 Eliminate shared orders-pg databa",
+        "priority": "IT priority — TD-034 Eliminate shared orders-pg databa",
+        "status": "under_review",
+        "rel:BLOCKS:reason": "high"
+      }
+    },
+    {
+      "tech_debt": "TD-045 Migrate Jenkins to GitHub Actions for monolith (Brno)",
+      "id": "1a58e234-b5d9-57fb-b121-008e0c865811",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-045 Migrate Jenkins to GitHub Actions for monolith (Brno)",
+        "blocked_by": "none",
+        "category": "operational",
+        "created_date": "2024-03-29",
+        "estimated_effort_days": 71,
+        "id": "TEC-0020",
+        "impact": "IT impact — TD-045 Migrate Jenkins to GitHub Actions",
+        "priority": "IT priority — TD-045 Migrate Jenkins to GitHub Actions",
+        "status": "under_review",
+        "rel:BLOCKS:reason": "high"
+      }
+    },
+    {
+      "tech_debt": "TD-001 Decompose legacy-ledger-monolith — updated (FY2024)",
+      "id": "358d6da7-7feb-51ad-8d74-c6d86f028261",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-001 Decompose legacy-ledger-monolith — updated (FY2024)",
+        "blocked_by": "dependency upgrade",
+        "category": "compliance",
+        "created_date": "2023-11-08",
+        "estimated_effort_days": 175,
+        "id": "TEC-0021",
+        "impact": "IT impact — TD-001 Decompose legacy-ledger-monolith ",
+        "priority": "IT priority — TD-001 Decompose legacy-ledger-monolith ",
+        "status": "under_review",
+        "rel:BLOCKS:reason": "medium"
+      }
+    },
+    {
+      "tech_debt": "TD-012 Upgrade spring-boot from 2.7 to 3.x #6 v2",
+      "id": "04f4793f-133a-5266-97c2-1c5861ea9181",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-012 Upgrade spring-boot from 2.7 to 3.x #6 v2",
+        "blocked_by": "security review",
+        "category": "technical",
+        "created_date": "2024-06-18",
+        "estimated_effort_days": 177,
+        "id": "TEC-0022",
+        "impact": "IT impact — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "priority": "IT priority — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "status": "draft",
+        "rel:BLOCKS:reason": "high"
+      }
+    },
+    {
+      "tech_debt": "TD-034 Eliminate shared orders-pg database — updated",
+      "id": "e7edc51f-04ce-568e-8dc8-8fa4bd92fc11",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-034 Eliminate shared orders-pg database — updated",
+        "blocked_by": "security review",
+        "category": "technical",
+        "created_date": "2023-05-18",
+        "estimated_effort_days": 96,
+        "id": "TEC-0023",
+        "impact": "IT impact — TD-034 Eliminate shared orders-pg databa",
+        "priority": "IT priority — TD-034 Eliminate shared orders-pg databa",
+        "status": "active"
+      }
+    },
+    {
+      "tech_debt": "TD-045 Migrate Jenkins to GitHub Actions for monolith #24",
+      "id": "d2805182-451a-52c7-805c-c0460a3749e2",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-045 Migrate Jenkins to GitHub Actions for monolith #24",
+        "blocked_by": "QA sign-off",
+        "category": "governance",
+        "created_date": "2024-06-08",
+        "estimated_effort_days": 72,
+        "id": "TEC-0024",
+        "impact": "IT impact — TD-045 Migrate Jenkins to GitHub Actions",
+        "priority": "IT priority — TD-045 Migrate Jenkins to GitHub Actions",
+        "status": "under_review"
+      }
+    },
+    {
+      "tech_debt": "TD-001 Decompose legacy-ledger-monolith",
+      "id": "2c051a61-c591-52b8-a2f7-7b10b4519006",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-001 Decompose legacy-ledger-monolith",
+        "blocked_by": "security review",
+        "category": "financial",
+        "created_date": "2023-03-10",
+        "estimated_effort_days": 77,
+        "id": "TEC-0025",
+        "impact": "IT impact — TD-001 Decompose legacy-ledger-monolith",
+        "priority": "IT priority — TD-001 Decompose legacy-ledger-monolith",
+        "status": "under_review",
+        "rel:RELATES_TO:affected_component": "high"
+      }
+    },
+    {
+      "tech_debt": "TD-012 Upgrade spring-boot from 2.7 to 3.x (Brno)",
+      "id": "3b0f89b9-cd0f-57f0-b2bd-39d398a56d58",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-012 Upgrade spring-boot from 2.7 to 3.x (Brno)",
+        "blocked_by": "QA sign-off",
+        "category": "governance",
+        "created_date": "2024-08-01",
+        "estimated_effort_days": 155,
+        "id": "TEC-0026",
+        "impact": "IT impact — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "priority": "IT priority — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "status": "active",
+        "rel:BLOCKS:reason": "low"
+      }
+    },
+    {
+      "tech_debt": "TD-034 Eliminate shared orders-pg database (FY2024)",
+      "id": "23e4b8d4-5aa4-5935-bd95-d14548759cdc",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-034 Eliminate shared orders-pg database (FY2024)",
+        "blocked_by": "dependency upgrade",
+        "category": "technical",
+        "created_date": "2023-04-19",
+        "estimated_effort_days": 105,
+        "id": "TEC-0027",
+        "impact": "IT impact — TD-034 Eliminate shared orders-pg databa",
+        "priority": "IT priority — TD-034 Eliminate shared orders-pg databa",
+        "status": "under_review",
+        "rel:RELATES_TO:affected_component": "medium"
+      }
+    },
+    {
+      "tech_debt": "TD-045 Migrate Jenkins to GitHub Actions for monolith v2",
+      "id": "c19e0a67-75ef-51ca-8941-59d21dbc17f2",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-045 Migrate Jenkins to GitHub Actions for monolith v2",
+        "blocked_by": "QA sign-off",
+        "category": "operational",
+        "created_date": "2024-09-20",
+        "estimated_effort_days": 41,
+        "id": "TEC-0028",
+        "impact": "IT impact — TD-045 Migrate Jenkins to GitHub Actions",
+        "priority": "IT priority — TD-045 Migrate Jenkins to GitHub Actions",
+        "status": "active"
+      }
+    },
+    {
+      "tech_debt": "TD-001 Decompose legacy-ledger-monolith — updated — updated",
+      "id": "e0e53ff9-fcf0-5068-b84c-7c6fc3c51a9d",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-001 Decompose legacy-ledger-monolith — updated — updated",
+        "blocked_by": "QA sign-off",
+        "category": "compliance",
+        "created_date": "2023-07-26",
+        "estimated_effort_days": 35,
+        "id": "TEC-0029",
+        "impact": "IT impact — TD-001 Decompose legacy-ledger-monolith ",
+        "priority": "IT priority — TD-001 Decompose legacy-ledger-monolith ",
+        "status": "expired",
+        "rel:RELATES_TO:affected_component": "high"
+      }
+    },
+    {
+      "tech_debt": "TD-012 Upgrade spring-boot from 2.7 to 3.x #6 #30",
+      "id": "02edb745-46fd-56d3-b9f2-b0b01bd3997a",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-012 Upgrade spring-boot from 2.7 to 3.x #6 #30",
+        "blocked_by": "security review",
+        "category": "financial",
+        "created_date": "2024-04-08",
+        "estimated_effort_days": 52,
+        "id": "TEC-0030",
+        "impact": "IT impact — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "priority": "IT priority — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "status": "active"
+      }
+    },
+    {
+      "tech_debt": "TD-034 Eliminate shared orders-pg database",
+      "id": "34576d6a-443e-5f77-a209-3336b68b14ef",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-034 Eliminate shared orders-pg database",
+        "blocked_by": "dependency upgrade",
+        "category": "operational",
+        "created_date": "2023-08-22",
+        "estimated_effort_days": 13,
+        "id": "TEC-0031",
+        "impact": "IT impact — TD-034 Eliminate shared orders-pg databa",
+        "priority": "IT priority — TD-034 Eliminate shared orders-pg databa",
+        "status": "archived"
+      }
+    },
+    {
+      "tech_debt": "TD-045 Migrate Jenkins to GitHub Actions for monolith (Brno)",
+      "id": "b3ab2e41-3b13-5a3c-a248-0670dfecbb3c",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-045 Migrate Jenkins to GitHub Actions for monolith (Brno)",
+        "blocked_by": "dependency upgrade",
+        "category": "governance",
+        "created_date": "2024-07-07",
+        "estimated_effort_days": 119,
+        "id": "TEC-0032",
+        "impact": "IT impact — TD-045 Migrate Jenkins to GitHub Actions",
+        "priority": "IT priority — TD-045 Migrate Jenkins to GitHub Actions",
+        "status": "expired"
+      }
+    },
+    {
+      "tech_debt": "TD-001 Decompose legacy-ledger-monolith (FY2024)",
+      "id": "83059f88-b5dd-5409-80c2-0931af6ac587",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-001 Decompose legacy-ledger-monolith (FY2024)",
+        "blocked_by": "none",
+        "category": "operational",
+        "created_date": "2023-12-15",
+        "estimated_effort_days": 8,
+        "id": "TEC-0033",
+        "impact": "IT impact — TD-001 Decompose legacy-ledger-monolith ",
+        "priority": "IT priority — TD-001 Decompose legacy-ledger-monolith ",
+        "status": "draft",
+        "rel:BLOCKS:reason": "high"
+      }
+    },
+    {
+      "tech_debt": "TD-012 Upgrade spring-boot from 2.7 to 3.x v2",
+      "id": "85081f3c-5297-5d6f-bf24-9843ba3a5c46",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-012 Upgrade spring-boot from 2.7 to 3.x v2",
+        "blocked_by": "QA sign-off",
+        "category": "technical",
+        "created_date": "2024-10-31",
+        "estimated_effort_days": 115,
+        "id": "TEC-0034",
+        "impact": "IT impact — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "priority": "IT priority — TD-012 Upgrade spring-boot from 2.7 to 3",
+        "status": "draft"
+      }
+    },
+    {
+      "tech_debt": "TD-034 Eliminate shared orders-pg database — updated",
+      "id": "25df627b-1a2f-5be5-b523-55a06954e6de",
+      "domain_id": "it",
+      "data": {
+        "title": "TD-034 Eliminate shared orders-pg database — updated",
+        "blocked_by": "none",
+        "category": "compliance",
+        "created_date": "2023-10-10",
+        "estimated_effort_days": 90,
+        "id": "TEC-0035",
+        "impact": "IT impact — TD-034 Eliminate shared orders-pg databa",
+        "priority": "IT priority — TD-034 Eliminate shared orders-pg databa",
+        "status": "archived"
+      }
+    }
+  ]
+}

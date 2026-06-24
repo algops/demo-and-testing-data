@@ -1,0 +1,148 @@
+{
+  "object_type_id": "52c09f6d-c07c-5b60-84cc-91b49c47facb",
+  "object_type_name": "tax_rate",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "tax_rate": "DPPO 21%",
+      "id": "8ce43c7f-b838-59b5-a735-ad2db5fb8470",
+      "domain_id": "tax",
+      "data": {
+        "type": "DPPO 21%",
+        "rate_pct": 11,
+        "applicable_to": "Tax applicable to — DPPO 21%",
+        "effective_from": "2024-05-30",
+        "effective_to": "2024-07-14",
+        "conditions": "Tax conditions — DPPO 21%",
+        "law_reference": "zákon č. 110/2019 Sb."
+      }
+    },
+    {
+      "tax_rate": "DPH základní 21%",
+      "id": "05602508-a8fb-550f-ba13-58e85f4e95ff",
+      "domain_id": "tax",
+      "data": {
+        "type": "DPH základní 21%",
+        "rate_pct": 17,
+        "applicable_to": "Tax applicable to — DPH základní 21%",
+        "effective_from": "2024-11-12",
+        "effective_to": "2024-07-29",
+        "conditions": "Tax conditions — DPH základní 21%",
+        "law_reference": "zákon č. 563/1991 Sb."
+      }
+    },
+    {
+      "tax_rate": "DPH snížená 12%",
+      "id": "3124e1d8-a71f-5d14-8cc4-cde4f7944504",
+      "domain_id": "tax",
+      "data": {
+        "type": "DPH snížená 12%",
+        "rate_pct": 81,
+        "applicable_to": "Tax applicable to — DPH snížená 12%",
+        "effective_from": "2024-12-03",
+        "effective_to": "2024-11-15",
+        "conditions": "Tax conditions — DPH snížená 12%",
+        "law_reference": "zákon č. 416/2009 Sb."
+      }
+    },
+    {
+      "tax_rate": "Srážková daň dividendy 15%",
+      "id": "fe617076-0bd8-5a46-bd8e-9e69037c8309",
+      "domain_id": "tax",
+      "data": {
+        "type": "Srážková daň dividendy 15%",
+        "rate_pct": 63,
+        "applicable_to": "Tax applicable to — Srážková daň dividendy 15%",
+        "effective_from": "2024-07-15",
+        "effective_to": "2024-08-25",
+        "conditions": "Tax conditions — Srážková daň dividendy 15%",
+        "law_reference": "zákon č. 110/2019 Sb."
+      }
+    },
+    {
+      "tax_rate": "Srážková daň dividendy CZ→DE 5%",
+      "id": "b32ed6af-d9a4-5487-8551-8a9a0e2faf95",
+      "domain_id": "tax",
+      "data": {
+        "type": "Srážková daň dividendy CZ→DE 5%",
+        "rate_pct": 84,
+        "applicable_to": "Tax applicable to — Srážková daň dividendy CZ→DE 5%",
+        "effective_from": "2024-11-13",
+        "effective_to": "2024-02-21",
+        "conditions": "Tax conditions — Srážková daň dividendy CZ→DE 5%",
+        "law_reference": "zákon č. 262/2006 Sb."
+      }
+    },
+    {
+      "tax_rate": "DPPO 21% #6",
+      "id": "4630ad73-7c28-5d75-987f-c6d34fb96676",
+      "domain_id": "tax",
+      "data": {
+        "type": "DPPO 21% #6",
+        "rate_pct": 88,
+        "applicable_to": "Tax applicable to — DPPO 21% #6",
+        "effective_from": "2024-12-11",
+        "effective_to": "2024-01-14",
+        "conditions": "Tax conditions — DPPO 21% #6",
+        "law_reference": "zákon č. 110/2019 Sb."
+      }
+    },
+    {
+      "tax_rate": "DPH základní 21%",
+      "id": "6174dd36-3773-51b4-b6e3-78cccdfa7374",
+      "domain_id": "tax",
+      "data": {
+        "type": "DPH základní 21%",
+        "rate_pct": 71,
+        "applicable_to": "Tax applicable to — DPH základní 21%",
+        "effective_from": "2024-06-17",
+        "effective_to": "2024-10-27",
+        "conditions": "Tax conditions — DPH základní 21%",
+        "law_reference": "zákon č. 563/1991 Sb."
+      }
+    },
+    {
+      "tax_rate": "DPH snížená 12% (Brno)",
+      "id": "fc8dbfe0-4a53-5617-baca-b9f983e8030c",
+      "domain_id": "tax",
+      "data": {
+        "type": "DPH snížená 12% (Brno)",
+        "rate_pct": 18,
+        "applicable_to": "Tax applicable to — DPH snížená 12% (Brno)",
+        "effective_from": "2024-02-22",
+        "effective_to": "2024-01-07",
+        "conditions": "Tax conditions — DPH snížená 12% (Brno)",
+        "law_reference": "zákon č. 90/2012 Sb."
+      }
+    },
+    {
+      "tax_rate": "Srážková daň dividendy 15% (FY2024)",
+      "id": "0cf08440-82c8-51b5-933c-ae2f35deaa98",
+      "domain_id": "tax",
+      "data": {
+        "type": "Srážková daň dividendy 15% (FY2024)",
+        "rate_pct": 96,
+        "applicable_to": "Tax applicable to — Srážková daň dividendy 15% (FY2024)",
+        "effective_from": "2024-02-04",
+        "effective_to": "2024-10-30",
+        "conditions": "Tax conditions — Srážková daň dividendy 15% (FY2024)",
+        "law_reference": "zákon č. 563/1991 Sb."
+      }
+    },
+    {
+      "tax_rate": "Srážková daň dividendy CZ→DE 5% v2",
+      "id": "d23ff5f6-4fb7-55c1-a877-85d6cc89afd4",
+      "domain_id": "tax",
+      "data": {
+        "type": "Srážková daň dividendy CZ→DE 5% v2",
+        "rate_pct": 78,
+        "applicable_to": "Tax applicable to — Srážková daň dividendy CZ→DE 5% v2",
+        "effective_from": "2024-03-05",
+        "effective_to": "2024-11-22",
+        "conditions": "Tax conditions — Srážková daň dividendy CZ→DE 5% v2",
+        "law_reference": "zákon č. 90/2012 Sb."
+      }
+    }
+  ]
+}

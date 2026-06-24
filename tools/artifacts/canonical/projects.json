@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "id": "org:anchor:esg",
+      "name": "ESG Compliance",
+      "domain_id": "esg",
+      "org_id": "org:anchor",
+      "parent_org_name": "Meridian Pay a.s.",
+      "logo": "Leaf",
+      "plan": "Enterprise"
+    },
+    {
+      "id": "org:anchor:it",
+      "name": "IT & Engineering",
+      "domain_id": "it",
+      "org_id": "org:anchor",
+      "parent_org_name": "Meridian Pay a.s.",
+      "logo": "Code2",
+      "plan": "Enterprise"
+    },
+    {
+      "id": "org:anchor:legal",
+      "name": "Legal",
+      "domain_id": "legal",
+      "org_id": "org:anchor",
+      "parent_org_name": "Meridian Pay a.s.",
+      "logo": "Scale",
+      "plan": "Enterprise"
+    },
+    {
+      "id": "org:anchor:tax",
+      "name": "Tax & Accounting",
+      "domain_id": "tax",
+      "org_id": "org:anchor",
+      "parent_org_name": "Meridian Pay a.s.",
+      "logo": "Calculator",
+      "plan": "Enterprise"
+    },
+    {
+      "id": "org:anchor:hr",
+      "name": "HR & People",
+      "domain_id": "hr",
+      "org_id": "org:anchor",
+      "parent_org_name": "Meridian Pay a.s.",
+      "logo": "Users",
+      "plan": "Enterprise"
+    }
+  ],
+  "user": {
+    "name": "Eva Nováková",
+    "email": "eva.novakova@meridianpay.cz",
+    "avatar": "/avatars/eva.jpg"
+  }
+}

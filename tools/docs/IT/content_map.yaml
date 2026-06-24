@@ -1,0 +1,91 @@
+# Maps IT knowledge-base slots to source markdown under tools/docs/IT/
+# Slot keys match generator rel_path: {section}/{sub}/{kind}-{index:03d}
+
+kb_docs:
+  - slot: engineering/core/adr-001
+    title: "Bounded contexts and domain events"
+    source: domain-driven-design/domain-driven-design.md
+  - slot: operations/core/runbook-002
+    title: "Git Strategy — trunk-based development"
+    source: Development Blueprint-export.markdown/Development Blueprint/Git Strategy.md
+  - slot: operations/core/sop-003
+    title: "Code review process"
+    source: Development Blueprint-export.markdown/Development Blueprint/Code Reviews.md
+  - slot: compliance/core/policy-004
+    title: "Issue labels and workflow states"
+    source: Development Blueprint-export.markdown/Development Blueprint/Issue Labels.md
+  - slot: engineering/core/guideline-005
+    title: "Development specifications and handover flow"
+    source: Development Blueprint-export.markdown/Development Blueprint/Specifications.md
+  - slot: templates/core/template-006
+    title: "Epic specifications template"
+    source: Product-export.markdown/Product/Product Frameworks/Epic Specifications.md
+  - slot: engineering/drafts/faq-007
+    title: "Sprint cadence and planning rules"
+    source: Product-export.markdown/Product/Sprint rules.md
+  - slot: operations/archive/runbook-008
+    title: "Release and deploy strategy"
+    source: Development Blueprint-export.markdown/Development Blueprint/Releases.md
+  - slot: engineering/archive/adr-009
+    title: "Entity Framework data access patterns"
+    source: NET-export.markdown/.NET/Entity Framework.md
+  - slot: operations/drafts/sop-010
+    title: "Team sync cadence"
+    source: Product-export.markdown/Product/Team Syncs.md
+  - slot: compliance/core/guideline-011
+    title: "NuGet package configuration"
+    source: NET-export.markdown/.NET/NuGet Configuration.md
+  - slot: compliance/drafts/policy-012
+    title: "Credentials and secrets handling"
+    source: NET-export.markdown/.NET/Credentials.md
+
+agent_docs:
+  agentic-engineering-kb-builder:
+    sources:
+      - Development Blueprint-export.markdown/Development Blueprint/Git Strategy.md
+      - domain-driven-design/domain-driven-design.md
+  automated-code-review-copilot:
+    sources:
+      - Development Blueprint-export.markdown/Development Blueprint/Code Reviews.md
+      - Development Blueprint-export.markdown/Development Blueprint/Tests.md
+  incident-runbook-assistant:
+    sources:
+      - Development Blueprint-export.markdown/Development Blueprint/Releases.md
+      - Development Blueprint-export.markdown/Development Blueprint/Running On-demand environments.md
+  architecture-adr-q-a:
+    sources:
+      - domain-driven-design/domain-driven-design.md
+      - Development Blueprint-export.markdown/Development Blueprint/Specifications.md
+  pm-tech-comms-assistant:
+    sources:
+      - Product-export.markdown/Product/Sprint rules.md
+      - Product-export.markdown/Product/Product AI flow.md
+
+warehouse_terms:
+  services:
+    - payments-api
+    - invoicing-service
+    - marketplace-listing
+    - orders-service
+    - auth-gateway
+    - notification-hub
+  pipelines:
+    - gitlab-ci-main
+    - release-it-automation
+    - conventional-commits-check
+    - dotnet-build-test
+  incidents:
+    - MR backlog blocking release
+    - on-demand env provisioning failed
+    - staging deploy regression
+    - GitLab runner timeout spike
+  tech_debt:
+    - Upgrade spring-boot from 2.7 to 3.x
+    - Eliminate shared orders-pg database
+    - Migrate Git flow to trunk-based main
+    - Consolidate duplicate NuGet feeds
+  teams:
+    - Payments Pod
+    - Marketplace Pod
+    - Platform/Infra
+    - Data Engineering

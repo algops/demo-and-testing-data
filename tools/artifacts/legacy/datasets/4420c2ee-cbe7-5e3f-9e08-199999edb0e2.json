@@ -1,0 +1,776 @@
+{
+  "object_type_id": "4420c2ee-cbe7-5e3f-9e08-199999edb0e2",
+  "object_type_name": "process",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "process": "PRO-HR-001 Leave Request",
+      "id": "8d9c04f1-2fb9-56a6-b12b-c6cc3022961b",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request",
+        "code": "PROC-001",
+        "category": "technical",
+        "owner": "People",
+        "sla_days": 161,
+        "approval_chain": "Legal → CFO",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 15,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist",
+      "id": "d4703c15-71ac-5949-9abc-eb55a3d14c50",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist",
+        "code": "PROC-002",
+        "category": "governance",
+        "owner": "Engineering",
+        "sla_days": 97,
+        "approval_chain": "Legal → CFO",
+        "system": "Pohoda",
+        "digitalization_pct": 13,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement",
+      "id": "44562fa0-272d-574b-a190-e9c2841473be",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement",
+        "code": "PROC-003",
+        "category": "governance",
+        "owner": "Engineering",
+        "sla_days": 150,
+        "approval_chain": "HR → People Ops",
+        "system": "Sphera",
+        "digitalization_pct": 67,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report",
+      "id": "ac465bae-cdb4-58f8-a388-0298bb3f69bc",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report",
+        "code": "PROC-004",
+        "category": "operational",
+        "owner": "Engineering",
+        "sla_days": 16,
+        "approval_chain": "Engineering → CTO",
+        "system": "GitLab",
+        "digitalization_pct": 90,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report",
+        "rel:REQUIRES_DOCUMENT:mandatory": true,
+        "rel:REQUIRES_DOCUMENT:stage": "high",
+        "rel:REQUIRES_DOCUMENT:format": "medium"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request — updated",
+      "id": "387e42f4-0f18-552d-a59f-3b0185fae3ff",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request — updated",
+        "code": "PROC-005",
+        "category": "compliance",
+        "owner": "Risk & Compliance",
+        "sla_days": 11,
+        "approval_chain": "Legal → CFO",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 71,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request — updated",
+        "rel:REQUIRES_DOCUMENT:mandatory": true,
+        "rel:REQUIRES_DOCUMENT:stage": "medium",
+        "rel:REQUIRES_DOCUMENT:format": "high"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist #6",
+      "id": "2cc550fd-49cb-5c66-a0c3-f5cd18282f6e",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist #6",
+        "code": "PROC-006",
+        "category": "operational",
+        "owner": "People",
+        "sla_days": 155,
+        "approval_chain": "Engineering → CTO",
+        "system": "Sphera",
+        "digitalization_pct": 65,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist #6"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement",
+      "id": "db906141-1865-5916-929d-e2b06a9631c9",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement",
+        "code": "PROC-007",
+        "category": "governance",
+        "owner": "ESG",
+        "sla_days": 110,
+        "approval_chain": "Engineering → CTO",
+        "system": "Pohoda",
+        "digitalization_pct": 92,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement",
+        "rel:USES_SYSTEM:step": "medium",
+        "rel:USES_SYSTEM:action": "low",
+        "rel:USES_SYSTEM:workaround": "medium"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report (Brno)",
+      "id": "5e5174fe-71d8-5c2b-8509-bab7e39a91a0",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report (Brno)",
+        "code": "PROC-008",
+        "category": "governance",
+        "owner": "Legal",
+        "sla_days": 62,
+        "approval_chain": "Engineering → CTO",
+        "system": "Sphera",
+        "digitalization_pct": 53,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report (Brno)",
+        "rel:USES_SYSTEM:step": "medium",
+        "rel:USES_SYSTEM:action": "low",
+        "rel:USES_SYSTEM:workaround": "high"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request (FY2024)",
+      "id": "003efad1-49dd-57fe-ad75-aa6f4d5fcaa6",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request (FY2024)",
+        "code": "PROC-009",
+        "category": "compliance",
+        "owner": "Engineering",
+        "sla_days": 92,
+        "approval_chain": "Engineering → CTO",
+        "system": "GitLab",
+        "digitalization_pct": 5,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request (FY2024)"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist v2",
+      "id": "3cd3449a-aba4-5a5f-baca-cb0deb4f86f1",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist v2",
+        "code": "PROC-010",
+        "category": "technical",
+        "owner": "Risk & Compliance",
+        "sla_days": 179,
+        "approval_chain": "Compliance → Board",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 8,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist v2",
+        "rel:USES_SYSTEM:step": "low",
+        "rel:USES_SYSTEM:action": "high",
+        "rel:USES_SYSTEM:workaround": "low"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement — updated",
+      "id": "0e685231-5481-5147-ac71-ae08a98ecd76",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement — updated",
+        "code": "PROC-011",
+        "category": "compliance",
+        "owner": "Engineering",
+        "sla_days": 136,
+        "approval_chain": "Engineering → CTO",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 52,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement — updat"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report #12",
+      "id": "508bc574-a162-5b9b-a2da-772742b6d9d8",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report #12",
+        "code": "PROC-012",
+        "category": "technical",
+        "owner": "ESG",
+        "sla_days": 176,
+        "approval_chain": "Compliance → Board",
+        "system": "iManage",
+        "digitalization_pct": 57,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report #12",
+        "rel:REQUIRES_DOCUMENT:mandatory": false,
+        "rel:REQUIRES_DOCUMENT:stage": "medium",
+        "rel:REQUIRES_DOCUMENT:format": "medium"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request",
+      "id": "1194374d-ba57-5d22-adbb-99621c776894",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request",
+        "code": "PROC-013",
+        "category": "financial",
+        "owner": "Engineering",
+        "sla_days": 164,
+        "approval_chain": "Engineering → CTO",
+        "system": "GitLab",
+        "digitalization_pct": 86,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist (Brno)",
+      "id": "8db4dcf1-d9d9-5225-8421-5164c3fdb8cf",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist (Brno)",
+        "code": "PROC-014",
+        "category": "governance",
+        "owner": "Risk & Compliance",
+        "sla_days": 12,
+        "approval_chain": "Engineering → CTO",
+        "system": "Sphera",
+        "digitalization_pct": 34,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist (Brno)"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement (FY2024)",
+      "id": "ed8d78ba-0d8d-541d-bed8-d6afe6f78bc5",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement (FY2024)",
+        "code": "PROC-015",
+        "category": "compliance",
+        "owner": "People",
+        "sla_days": 103,
+        "approval_chain": "Legal → CFO",
+        "system": "Pohoda",
+        "digitalization_pct": 59,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement (FY2024"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report v2",
+      "id": "c168798e-4060-5eb0-b4e2-a1f9f2147d66",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report v2",
+        "code": "PROC-016",
+        "category": "technical",
+        "owner": "Operations",
+        "sla_days": 180,
+        "approval_chain": "Legal → CFO",
+        "system": "Sphera",
+        "digitalization_pct": 42,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report v2"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request — updated",
+      "id": "b7090a6c-c9fc-589f-a5d8-c78f5b546780",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request — updated",
+        "code": "PROC-017",
+        "category": "compliance",
+        "owner": "Finance",
+        "sla_days": 37,
+        "approval_chain": "Legal → CFO",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 68,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request — updated"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist #18",
+      "id": "7e83b8b7-0bc4-5349-8333-2c6ad70378c1",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist #18",
+        "code": "PROC-018",
+        "category": "operational",
+        "owner": "Legal",
+        "sla_days": 173,
+        "approval_chain": "Compliance → Board",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 62,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist #18",
+        "rel:REQUIRES_DOCUMENT:mandatory": true,
+        "rel:REQUIRES_DOCUMENT:stage": "low",
+        "rel:REQUIRES_DOCUMENT:format": "low"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement",
+      "id": "06613256-62f1-580b-a425-2fa1331c414b",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement",
+        "code": "PROC-019",
+        "category": "operational",
+        "owner": "People",
+        "sla_days": 170,
+        "approval_chain": "HR → People Ops",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 32,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report (Brno)",
+      "id": "a9dee807-f413-56ea-8a19-08d625f01fc3",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report (Brno)",
+        "code": "PROC-020",
+        "category": "financial",
+        "owner": "Risk & Compliance",
+        "sla_days": 169,
+        "approval_chain": "Legal → CFO",
+        "system": "GitLab",
+        "digitalization_pct": 60,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report (Brno)",
+        "rel:REQUIRES_DOCUMENT:mandatory": false,
+        "rel:REQUIRES_DOCUMENT:stage": "medium",
+        "rel:REQUIRES_DOCUMENT:format": "medium"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request (FY2024)",
+      "id": "e7a8581c-0bd4-5955-8236-2c63795c05fd",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request (FY2024)",
+        "code": "PROC-021",
+        "category": "operational",
+        "owner": "Finance",
+        "sla_days": 84,
+        "approval_chain": "Compliance → Board",
+        "system": "Pohoda",
+        "digitalization_pct": 33,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request (FY2024)",
+        "rel:REQUIRES_DOCUMENT:mandatory": false,
+        "rel:REQUIRES_DOCUMENT:stage": "high",
+        "rel:REQUIRES_DOCUMENT:format": "medium"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist v2",
+      "id": "68a88ba5-a236-5075-8c39-4293a6c01c5b",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist v2",
+        "code": "PROC-022",
+        "category": "governance",
+        "owner": "Operations",
+        "sla_days": 122,
+        "approval_chain": "Legal → CFO",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 73,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist v2",
+        "rel:USES_SYSTEM:step": "medium",
+        "rel:USES_SYSTEM:action": "medium",
+        "rel:USES_SYSTEM:workaround": "high"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement — updated",
+      "id": "36303a12-de96-5c2b-9f8e-db1853655a79",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement — updated",
+        "code": "PROC-023",
+        "category": "technical",
+        "owner": "Engineering",
+        "sla_days": 178,
+        "approval_chain": "Engineering → CTO",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 78,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement — updat"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report #24",
+      "id": "12cba83a-b3ad-5818-a145-0206b97d44b1",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report #24",
+        "code": "PROC-024",
+        "category": "compliance",
+        "owner": "Engineering",
+        "sla_days": 165,
+        "approval_chain": "Engineering → CTO",
+        "system": "Sphera",
+        "digitalization_pct": 96,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report #24"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request",
+      "id": "b29845a4-4ea4-520d-bb14-96a55bd1fbcd",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request",
+        "code": "PROC-025",
+        "category": "technical",
+        "owner": "Operations",
+        "sla_days": 165,
+        "approval_chain": "Compliance → Board",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 33,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist (Brno)",
+      "id": "c12d86f6-33f9-529a-865b-3aa1f37ab804",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist (Brno)",
+        "code": "PROC-026",
+        "category": "governance",
+        "owner": "Engineering",
+        "sla_days": 75,
+        "approval_chain": "Legal → CFO",
+        "system": "GitLab",
+        "digitalization_pct": 16,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist (Brno)",
+        "rel:USES_SYSTEM:step": "low",
+        "rel:USES_SYSTEM:action": "medium",
+        "rel:USES_SYSTEM:workaround": "medium"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement (FY2024)",
+      "id": "09d71cb8-ff9a-54d5-a1a9-556aa8d7c7fa",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement (FY2024)",
+        "code": "PROC-027",
+        "category": "governance",
+        "owner": "Operations",
+        "sla_days": 152,
+        "approval_chain": "HR → People Ops",
+        "system": "GitLab",
+        "digitalization_pct": 78,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement (FY2024"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report v2",
+      "id": "be7c6dc9-85de-5e3f-b21a-943b9ed1b8ee",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report v2",
+        "code": "PROC-028",
+        "category": "governance",
+        "owner": "Finance",
+        "sla_days": 81,
+        "approval_chain": "Compliance → Board",
+        "system": "iManage",
+        "digitalization_pct": 5,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report v2"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request — updated",
+      "id": "5f7420f7-6c74-5395-9b87-52621c9c3dce",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request — updated",
+        "code": "PROC-029",
+        "category": "governance",
+        "owner": "Engineering",
+        "sla_days": 152,
+        "approval_chain": "HR → People Ops",
+        "system": "Sphera",
+        "digitalization_pct": 59,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request — updated",
+        "rel:REQUIRES_DOCUMENT:mandatory": true,
+        "rel:REQUIRES_DOCUMENT:stage": "high",
+        "rel:REQUIRES_DOCUMENT:format": "medium"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist #30",
+      "id": "41ba49a2-77bd-5446-b6ef-6972760fa94c",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist #30",
+        "code": "PROC-030",
+        "category": "governance",
+        "owner": "Risk & Compliance",
+        "sla_days": 94,
+        "approval_chain": "HR → People Ops",
+        "system": "iManage",
+        "digitalization_pct": 89,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist #30"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement",
+      "id": "8808c8f8-bb44-56b1-8dab-4f0666ed9ab7",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement",
+        "code": "PROC-031",
+        "category": "compliance",
+        "owner": "ESG",
+        "sla_days": 57,
+        "approval_chain": "Legal → CFO",
+        "system": "Sphera",
+        "digitalization_pct": 6,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement",
+        "rel:REQUIRES_DOCUMENT:mandatory": true,
+        "rel:REQUIRES_DOCUMENT:stage": "low",
+        "rel:REQUIRES_DOCUMENT:format": "high"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report (Brno)",
+      "id": "6dad5c24-5150-5d84-874f-10388762e00a",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report (Brno)",
+        "code": "PROC-032",
+        "category": "compliance",
+        "owner": "Risk & Compliance",
+        "sla_days": 118,
+        "approval_chain": "Engineering → CTO",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 42,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report (Brno)",
+        "rel:USES_SYSTEM:step": "high",
+        "rel:USES_SYSTEM:action": "high",
+        "rel:USES_SYSTEM:workaround": "medium"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request (FY2024)",
+      "id": "b8d2865c-590a-53d7-b9cd-137f5bc83f57",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request (FY2024)",
+        "code": "PROC-033",
+        "category": "financial",
+        "owner": "People",
+        "sla_days": 175,
+        "approval_chain": "Compliance → Board",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 81,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request (FY2024)"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist v2",
+      "id": "93b095c8-6cdc-50c0-b620-3423f8a96def",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist v2",
+        "code": "PROC-034",
+        "category": "governance",
+        "owner": "Finance",
+        "sla_days": 171,
+        "approval_chain": "Legal → CFO",
+        "system": "iManage",
+        "digitalization_pct": 45,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist v2"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement — updated",
+      "id": "1d8851af-bbe7-58e9-adf6-a6b54e9d3ed3",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement — updated",
+        "code": "PROC-035",
+        "category": "governance",
+        "owner": "ESG",
+        "sla_days": 177,
+        "approval_chain": "Legal → CFO",
+        "system": "Pohoda",
+        "digitalization_pct": 95,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement — updat"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report #36",
+      "id": "41001a6f-fab0-5c84-be81-e75c02cde6e1",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report #36",
+        "code": "PROC-036",
+        "category": "compliance",
+        "owner": "People",
+        "sla_days": 162,
+        "approval_chain": "HR → People Ops",
+        "system": "Sphera",
+        "digitalization_pct": 42,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report #36"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request",
+      "id": "2c8f0680-5a7c-5430-9587-29a89c65c77e",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request",
+        "code": "PROC-037",
+        "category": "technical",
+        "owner": "Engineering",
+        "sla_days": 86,
+        "approval_chain": "HR → People Ops",
+        "system": "SAP SuccessFactors",
+        "digitalization_pct": 98,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist (Brno)",
+      "id": "e1be8b94-6c64-5b19-a857-8f08e08c566d",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist (Brno)",
+        "code": "PROC-038",
+        "category": "financial",
+        "owner": "Operations",
+        "sla_days": 14,
+        "approval_chain": "HR → People Ops",
+        "system": "Sphera",
+        "digitalization_pct": 98,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist (Brno)"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement (FY2024)",
+      "id": "d11e49db-79e7-520b-845f-6e0dca9c30be",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement (FY2024)",
+        "code": "PROC-039",
+        "category": "technical",
+        "owner": "Legal",
+        "sla_days": 169,
+        "approval_chain": "HR → People Ops",
+        "system": "GitLab",
+        "digitalization_pct": 75,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement (FY2024"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report v2",
+      "id": "00d8d83c-7045-504d-9b49-ac4c04701fd5",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report v2",
+        "code": "PROC-040",
+        "category": "technical",
+        "owner": "Legal",
+        "sla_days": 109,
+        "approval_chain": "Compliance → Board",
+        "system": "Pohoda",
+        "digitalization_pct": 55,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report v2"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request — updated",
+      "id": "5775b65b-eec1-522a-bc32-06be790e583a",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request — updated",
+        "code": "PROC-041",
+        "category": "technical",
+        "owner": "Engineering",
+        "sla_days": 136,
+        "approval_chain": "Engineering → CTO",
+        "system": "Pohoda",
+        "digitalization_pct": 94,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request — updated"
+      }
+    },
+    {
+      "process": "PRO-HR-012 Onboarding Checklist #42",
+      "id": "57323341-0a2f-5668-9686-eb18d2f567d9",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-012 Onboarding Checklist #42",
+        "code": "PROC-042",
+        "category": "financial",
+        "owner": "Operations",
+        "sla_days": 141,
+        "approval_chain": "Compliance → Board",
+        "system": "GitLab",
+        "digitalization_pct": 21,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-012 Onboarding Checklist #42",
+        "rel:USES_SYSTEM:step": "low",
+        "rel:USES_SYSTEM:action": "low",
+        "rel:USES_SYSTEM:workaround": "low"
+      }
+    },
+    {
+      "process": "PRO-HR-025 Expense Reimbursement",
+      "id": "fe822dde-6a35-5773-bfea-3d5d9ec5c189",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-025 Expense Reimbursement",
+        "code": "PROC-043",
+        "category": "governance",
+        "owner": "Risk & Compliance",
+        "sla_days": 149,
+        "approval_chain": "Legal → CFO",
+        "system": "Pohoda",
+        "digitalization_pct": 63,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-025 Expense Reimbursement",
+        "rel:USES_SYSTEM:step": "medium",
+        "rel:USES_SYSTEM:action": "medium",
+        "rel:USES_SYSTEM:workaround": "medium"
+      }
+    },
+    {
+      "process": "PRO-HR-030 Whistleblowing Report (Brno)",
+      "id": "b404e6d8-1ed7-5ca2-8658-79cbe4986972",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-030 Whistleblowing Report (Brno)",
+        "code": "PROC-044",
+        "category": "financial",
+        "owner": "ESG",
+        "sla_days": 36,
+        "approval_chain": "Compliance → Board",
+        "system": "Sphera",
+        "digitalization_pct": 42,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-030 Whistleblowing Report (Brno)"
+      }
+    },
+    {
+      "process": "PRO-HR-001 Leave Request (FY2024)",
+      "id": "953fa155-f17f-54e8-bf4d-0ddb1ad32071",
+      "domain_id": "hr",
+      "data": {
+        "name": "PRO-HR-001 Leave Request (FY2024)",
+        "code": "PROC-045",
+        "category": "financial",
+        "owner": "Finance",
+        "sla_days": 56,
+        "approval_chain": "HR → People Ops",
+        "system": "GitLab",
+        "digitalization_pct": 51,
+        "known_bottleneck": "HR known bottleneck — PRO-HR-001 Leave Request (FY2024)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "data": [
+    {
+      "data_source": "SAP ERP – energy invoices",
+      "id": "7addd4d3-1b18-5685-ae01-68ac2c101c70",
+      "domain_id": "esg",
+      "data": {
+        "name": "SAP ERP – energy invoices",
+        "type": "technical",
+        "system": "Sphera",
+        "owner_department": "Operations",
+        "refresh_frequency": "weekly",
+        "data_quality_rating": "ESG data quality rating — SAP ERP – energy invoices",
+        "coverage_pct": 58,
+        "known_gaps": "SAP ERP – energy invoices supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "data_source": "HR system – headcount & diversity",
+      "id": "32ee35c6-2f5e-5cb1-ac6a-8d4e8c251df7",
+      "domain_id": "esg",
+      "data": {
+        "name": "HR system – headcount & diversity",
+        "type": "technical",
+        "system": "Sphera",
+        "owner_department": "Finance",
+        "refresh_frequency": "monthly",
+        "data_quality_rating": "ESG data quality rating — HR system – headcount & diversity",
+        "coverage_pct": 77,
+        "known_gaps": "HR system – headcount & diversity supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "data_source": "Supplier portal – ESG questionnaires",
+      "id": "c10203a2-2969-5906-93aa-4f4580245f01",
+      "domain_id": "esg",
+      "data": {
+        "name": "Supplier portal – ESG questionnaires",
+        "type": "operational",
+        "system": "SAP SuccessFactors",
+        "owner_department": "Legal",
+        "refresh_frequency": "monthly",
+        "data_quality_rating": "ESG data quality rating — Supplier portal – ESG questionnaires",
+        "coverage_pct": 40,
+        "known_gaps": "Supplier portal – ESG questionnaires supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "data_source": "SAP ERP – energy invoices v2",
+      "id": "0fb28601-5290-52be-9940-984251d77cbe",
+      "domain_id": "esg",
+      "data": {
+        "name": "SAP ERP – energy invoices v2",
+        "type": "financial",
+        "system": "iManage",
+        "owner_department": "Legal",
+        "refresh_frequency": "quarterly",
+        "data_quality_rating": "ESG data quality rating — SAP ERP – energy invoices v2",
+        "coverage_pct": 63,
+        "known_gaps": "SAP ERP – energy invoices v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "data_source": "HR system – headcount & diversity — updated",
+      "id": "80af84e1-3fb1-530c-aae6-625e40324fcd",
+      "domain_id": "esg",
+      "data": {
+        "name": "HR system – headcount & diversity — updated",
+        "type": "technical",
+        "system": "iManage",
+        "owner_department": "ESG",
+        "refresh_frequency": "monthly",
+        "data_quality_rating": "ESG data quality rating — HR system – headcount & diversity — upda",
+        "coverage_pct": 78,
+        "known_gaps": "HR system – headcount & diversity — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "data_source": "Supplier portal – ESG questionnaires #6",
+      "id": "c19aa3f3-f9e3-5b44-a27c-c9867e7e2459",
+      "domain_id": "esg",
+      "data": {
+        "name": "Supplier portal – ESG questionnaires #6",
+        "type": "operational",
+        "system": "Pohoda",
+        "owner_department": "Risk & Compliance",
+        "refresh_frequency": "daily",
+        "data_quality_rating": "ESG data quality rating — Supplier portal – ESG questionnaires #6",
+        "coverage_pct": 51,
+        "known_gaps": "Supplier portal – ESG questionnaires #6 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "data_source": "SAP ERP – energy invoices",
+      "id": "a13af326-11ea-5753-a7db-1b121029f9d8",
+      "domain_id": "esg",
+      "data": {
+        "name": "SAP ERP – energy invoices",
+        "type": "operational",
+        "system": "Sphera",
+        "owner_department": "ESG",
+        "refresh_frequency": "quarterly",
+        "data_quality_rating": "ESG data quality rating — SAP ERP – energy invoices",
+        "coverage_pct": 59,
+        "known_gaps": "SAP ERP – energy invoices supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "data_source": "HR system – headcount & diversity (Brno)",
+      "id": "59cffd85-e7b8-525c-b301-88b8e7e2f2c1",
+      "domain_id": "esg",
+      "data": {
+        "name": "HR system – headcount & diversity (Brno)",
+        "type": "operational",
+        "system": "SAP SuccessFactors",
+        "owner_department": "Legal",
+        "refresh_frequency": "monthly",
+        "data_quality_rating": "ESG data quality rating — HR system – headcount & diversity (Brno)",
+        "coverage_pct": 62,
+        "known_gaps": "HR system – headcount & diversity (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:OWNS:responsibility_type": "owner",
+        "rel:OWNS:data_quality_score": 63
+      }
+    },
+    {
+      "data_source": "Supplier portal – ESG questionnaires (FY2024)",
+      "id": "716e2ab8-ac67-5114-865d-e8b27810dacf",
+      "domain_id": "esg",
+      "data": {
+        "name": "Supplier portal – ESG questionnaires (FY2024)",
+        "type": "governance",
+        "system": "Pohoda",
+        "owner_department": "Risk & Compliance",
+        "refresh_frequency": "monthly",
+        "data_quality_rating": "ESG data quality rating — Supplier portal – ESG questionnaires (FY",
+        "coverage_pct": 61,
+        "known_gaps": "Supplier portal – ESG questionnaires (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "data_source": "SAP ERP – energy invoices v2",
+      "id": "272eb9ed-f3d0-52a6-8d3c-811acbfdb0d8",
+      "domain_id": "esg",
+      "data": {
+        "name": "SAP ERP – energy invoices v2",
+        "type": "operational",
+        "system": "SAP SuccessFactors",
+        "owner_department": "Finance",
+        "refresh_frequency": "daily",
+        "data_quality_rating": "ESG data quality rating — SAP ERP – energy invoices v2",
+        "coverage_pct": 93,
+        "known_gaps": "SAP ERP – energy invoices v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "rel:OWNS:responsibility_type": "owner",
+        "rel:OWNS:data_quality_score": 72
+      }
+    },
+    {
+      "data_source": "HR system – headcount & diversity — updated",
+      "id": "d0d66899-3c56-5289-ae12-1888729cfeda",
+      "domain_id": "esg",
+      "data": {
+        "name": "HR system – headcount & diversity — updated",
+        "type": "governance",
+        "system": "iManage",
+        "owner_department": "Operations",
+        "refresh_frequency": "weekly",
+        "data_quality_rating": "ESG data quality rating — HR system – headcount & diversity — upda",
+        "coverage_pct": 26,
+        "known_gaps": "HR system – headcount & diversity — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    },
+    {
+      "data_source": "Supplier portal – ESG questionnaires #12",
+      "id": "f4be71ac-84c0-5394-bbab-b510a601f24b",
+      "domain_id": "esg",
+      "data": {
+        "name": "Supplier portal – ESG questionnaires #12",
+        "type": "financial",
+        "system": "SAP SuccessFactors",
+        "owner_department": "Risk & Compliance",
+        "refresh_frequency": "quarterly",
+        "data_quality_rating": "ESG data quality rating — Supplier portal – ESG questionnaires #12",
+        "coverage_pct": 12,
+        "known_gaps": "Supplier portal – ESG questionnaires #12 supports CSRD evidence collection and ESRS alignment for Meridian Pay."
+      }
+    }
+  ]
+}

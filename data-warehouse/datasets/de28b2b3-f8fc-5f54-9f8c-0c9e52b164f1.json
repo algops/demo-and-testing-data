@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "legal_entity": "LogiCorp a.s.",
+      "id": "1d425044-7da7-599b-8635-7a486358a227",
+      "domain_id": "tax",
+      "data": {
+        "name": "LogiCorp a.s.",
+        "id": "LEG-0001",
+        "ico": "Tax ico — LogiCorp a.s.",
+        "dic": "Tax dic — LogiCorp a.s.",
+        "legal_form": "Tax legal form — LogiCorp a.s.",
+        "sector": "governance",
+        "size_category": "Tax size category — LogiCorp a.s.",
+        "audit_required": false,
+        "consolidation": "Tax consolidation — LogiCorp a.s.",
+        "accounting_system": "SAP",
+        "fiscal_year": 2023,
+        "ifrs": "Tax ifrs — LogiCorp a.s.",
+        "engagement_since": "Tax engagement since — LogiCorp a.s.",
+        "responsible_partner": "Tax responsible partner — LogiCorp a.s.",
+        "fee_monthly_czk": 1529644,
+        "rel:HAS_ENGAGEMENT:recurring": "high",
+        "rel:HAS_ENGAGEMENT:start_date": "2024-11-15",
+        "rel:USES_STANDARD:mandatory_or_voluntary": "low",
+        "rel:USES_STANDARD:since": "medium",
+        "rel:UNDER_CONTROL:risk_level": "low",
+        "rel:RELATED_ENTITY:relationship_type": "low",
+        "rel:RELATED_ENTITY:transfer_pricing_relevant": "high"
+      }
+    },
+    {
+      "legal_entity": "TechStart s.r.o.",
+      "id": "75c60f51-ec4f-560b-ab46-b3b4c4827f90",
+      "domain_id": "tax",
+      "data": {
+        "name": "TechStart s.r.o.",
+        "id": "LEG-0002",
+        "ico": "Tax ico — TechStart s.r.o.",
+        "dic": "Tax dic — TechStart s.r.o.",
+        "legal_form": "Tax legal form — TechStart s.r.o.",
+        "sector": "technical",
+        "size_category": "Tax size category — TechStart s.r.o.",
+        "audit_required": true,
+        "consolidation": "Tax consolidation — TechStart s.r.o.",
+        "accounting_system": "Pohoda",
+        "fiscal_year": 2021,
+        "ifrs": "Tax ifrs — TechStart s.r.o.",
+        "engagement_since": "Tax engagement since — TechStart s.r.o.",
+        "responsible_partner": "Tax responsible partner — TechStart s.r.o.",
+        "fee_monthly_czk": 1681483,
+        "rel:HAS_ENGAGEMENT:recurring": "high",
+        "rel:HAS_ENGAGEMENT:start_date": "2024-10-10",
+        "rel:USES_STANDARD:mandatory_or_voluntary": "low",
+        "rel:USES_STANDARD:since": "high"
+      }
+    }
+  ]
+}

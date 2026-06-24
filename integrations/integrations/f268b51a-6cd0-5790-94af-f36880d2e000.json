@@ -1,0 +1,94 @@
+{
+  "id": "f268b51a-6cd0-5790-94af-f36880d2e000",
+  "name": "Datadog",
+  "integration_role": "source",
+  "domain_id": "it",
+  "status": "active",
+  "project_id": "org:anchor:it",
+  "description": "Datadog — integrace domény it",
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body"
+            ],
+            "mapping_status": "mapped"
+          },
+          "run_id": {
+            "path": [
+              "id"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.datadoghq.eu/api/v1",
+        "method": "POST",
+        "headers": {
+          "Authorization": "Bearer <<$auth_key>>",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "query": "<<$run_setup>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {}
+    },
+    "status_request": {
+      "mappings": {
+        "request": {},
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.datadoghq.eu/api/v1",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {},
+        "response": {}
+      },
+      "request_template": {
+        "url": "https://api.datadoghq.eu/api/v1",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": [],
+      "response_mappings": {}
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "contact": "john.smith@supplier.com",
+      "data": {
+        "type": "Primary Contact",
+        "email": "john.smith@supplier.com",
+        "phone": "+1-555-0100",
+        "address": "123 Business St, San Francisco, CA 94105",
+        "contactType": "procurement",
+        "personId": "person-001",
+        "company": "TechCorp Solutions",
+        "department": "Procurement",
+        "role": "Procurement Manager",
+        "lastContacted": "2025-01-15T10:30:00Z",
+        "tags": [
+          "supplier",
+          "primary",
+          "procurement"
+        ]
+      }
+    },
+    {
+      "contact": "sarah.johnson@vendor.com",
+      "data": {
+        "type": "Technical Contact",
+        "email": "sarah.johnson@vendor.com",
+        "phone": "+1-555-0101",
+        "address": "456 Tech Ave, Austin, TX 78701",
+        "contactType": "technical",
+        "personId": "person-002",
+        "company": "Global Retail Inc",
+        "department": "Engineering",
+        "role": "Technical Lead",
+        "lastContacted": "2025-01-18T14:20:00Z",
+        "tags": [
+          "vendor",
+          "technical",
+          "engineering"
+        ]
+      }
+    },
+    {
+      "contact": "mike.chen@partner.com",
+      "data": {
+        "type": "Business Contact",
+        "email": "mike.chen@partner.com",
+        "phone": "+1-555-0102",
+        "address": "789 Partner Blvd, New York, NY 10001",
+        "contactType": "business",
+        "personId": "person-003",
+        "company": "HealthTech Innovations",
+        "department": "Business Development",
+        "role": "Business Development Manager",
+        "lastContacted": "2025-01-12T09:15:00Z",
+        "tags": [
+          "partner",
+          "business",
+          "sales"
+        ]
+      }
+    },
+    {
+      "contact": "linda.wang@supplier.com",
+      "data": {
+        "type": "Compliance Contact",
+        "email": "linda.wang@supplier.com",
+        "phone": "+1-555-0103",
+        "address": "321 Compliance Way, Seattle, WA 98101",
+        "contactType": "compliance",
+        "personId": "person-004",
+        "company": "Financial Services Group",
+        "department": "Compliance",
+        "role": "Compliance Officer",
+        "lastContacted": "2025-01-20T11:00:00Z",
+        "tags": [
+          "supplier",
+          "compliance",
+          "legal"
+        ]
+      }
+    },
+    {
+      "contact": "alex.thompson@vendor.com",
+      "data": {
+        "type": "Support Contact",
+        "email": "alex.thompson@vendor.com",
+        "phone": "+1-555-0104",
+        "address": "654 Support St, Boston, MA 02101",
+        "contactType": "support",
+        "personId": "person-005",
+        "company": "EduTech Learning",
+        "department": "Customer Support",
+        "role": "Support Manager",
+        "lastContacted": "2025-01-19T16:30:00Z",
+        "tags": [
+          "vendor",
+          "support",
+          "customer-service"
+        ]
+      }
+    }
+  ]
+}

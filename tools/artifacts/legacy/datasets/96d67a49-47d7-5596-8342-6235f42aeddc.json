@@ -1,0 +1,152 @@
+{
+  "object_type_id": "96d67a49-47d7-5596-8342-6235f42aeddc",
+  "object_type_name": "slo",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "slo": "payment-gateway availability 99.95%",
+      "id": "9f66e1a2-5139-546f-b972-f6fccc4bd8e0",
+      "domain_id": "it",
+      "data": {
+        "name": "payment-gateway availability 99.95%",
+        "service": "notification-hub",
+        "metric": "Employee turnover",
+        "target": "IT target — payment-gateway availability 99.95%",
+        "current_value": "IT current value — payment-gateway availability 99.95%",
+        "error_budget_remaining_pct": 32,
+        "window": "IT window — payment-gateway availability 99.95%",
+        "rel:MONITORS:alert_threshold": "medium"
+      }
+    },
+    {
+      "slo": "auth-svc latency p99 < 200ms",
+      "id": "cbce16d1-8240-5d77-9f25-1f3f20ec9eff",
+      "domain_id": "it",
+      "data": {
+        "name": "auth-svc latency p99 < 200ms",
+        "service": "auth-gateway",
+        "metric": "Scope 1 emissions",
+        "target": "IT target — auth-svc latency p99 < 200ms",
+        "current_value": "IT current value — auth-svc latency p99 < 200ms",
+        "error_budget_remaining_pct": 19,
+        "window": "IT window — auth-svc latency p99 < 200ms",
+        "rel:MONITORS:alert_threshold": "high"
+      }
+    },
+    {
+      "slo": "legacy-monolith availability — no SLO defined",
+      "id": "83796701-b4c0-5223-b376-4a3cf061e4f2",
+      "domain_id": "it",
+      "data": {
+        "name": "legacy-monolith availability — no SLO defined",
+        "service": "auth-gateway",
+        "metric": "Scope 1 emissions",
+        "target": "IT target — legacy-monolith availability — no SLO de",
+        "current_value": "IT current value — legacy-monolith availability — no SLO de",
+        "error_budget_remaining_pct": 30,
+        "window": "IT window — legacy-monolith availability — no SLO de"
+      }
+    },
+    {
+      "slo": "payment-gateway availability 99.95% v2",
+      "id": "6c426e54-fc6e-5ff9-b03c-15a90e46cc56",
+      "domain_id": "it",
+      "data": {
+        "name": "payment-gateway availability 99.95% v2",
+        "service": "payments-api",
+        "metric": "Employee turnover",
+        "target": "IT target — payment-gateway availability 99.95% v2",
+        "current_value": "IT current value — payment-gateway availability 99.95% v2",
+        "error_budget_remaining_pct": 69,
+        "window": "IT window — payment-gateway availability 99.95% v2"
+      }
+    },
+    {
+      "slo": "auth-svc latency p99 < 200ms — updated",
+      "id": "169c27b9-49eb-5809-9ec9-1cfcf22f5bdf",
+      "domain_id": "it",
+      "data": {
+        "name": "auth-svc latency p99 < 200ms — updated",
+        "service": "payments-api",
+        "metric": "Employee turnover",
+        "target": "IT target — auth-svc latency p99 < 200ms — updated",
+        "current_value": "IT current value — auth-svc latency p99 < 200ms — updated",
+        "error_budget_remaining_pct": 69,
+        "window": "IT window — auth-svc latency p99 < 200ms — updated"
+      }
+    },
+    {
+      "slo": "legacy-monolith availability — no SLO defined #6",
+      "id": "22b124e1-09be-5450-821c-9d69c1e77631",
+      "domain_id": "it",
+      "data": {
+        "name": "legacy-monolith availability — no SLO defined #6",
+        "service": "ledger-service",
+        "metric": "Scope 1 emissions",
+        "target": "IT target — legacy-monolith availability — no SLO de",
+        "current_value": "IT current value — legacy-monolith availability — no SLO de",
+        "error_budget_remaining_pct": 48,
+        "window": "IT window — legacy-monolith availability — no SLO de"
+      }
+    },
+    {
+      "slo": "payment-gateway availability 99.95%",
+      "id": "b99a7fb0-a513-57d7-90ad-2b863fb7a3a0",
+      "domain_id": "it",
+      "data": {
+        "name": "payment-gateway availability 99.95%",
+        "service": "notification-hub",
+        "metric": "Water consumption",
+        "target": "IT target — payment-gateway availability 99.95%",
+        "current_value": "IT current value — payment-gateway availability 99.95%",
+        "error_budget_remaining_pct": 72,
+        "window": "IT window — payment-gateway availability 99.95%",
+        "rel:MONITORS:alert_threshold": "medium"
+      }
+    },
+    {
+      "slo": "auth-svc latency p99 < 200ms (Brno)",
+      "id": "ad3e1fa5-0624-5228-bbb0-e7cdefc767f4",
+      "domain_id": "it",
+      "data": {
+        "name": "auth-svc latency p99 < 200ms (Brno)",
+        "service": "auth-gateway",
+        "metric": "Employee turnover",
+        "target": "IT target — auth-svc latency p99 < 200ms (Brno)",
+        "current_value": "IT current value — auth-svc latency p99 < 200ms (Brno)",
+        "error_budget_remaining_pct": 23,
+        "window": "IT window — auth-svc latency p99 < 200ms (Brno)"
+      }
+    },
+    {
+      "slo": "legacy-monolith availability — no SLO defined (FY2024)",
+      "id": "e456df4a-3c63-5639-becf-6ea6ba14a56c",
+      "domain_id": "it",
+      "data": {
+        "name": "legacy-monolith availability — no SLO defined (FY2024)",
+        "service": "payments-api",
+        "metric": "Water consumption",
+        "target": "IT target — legacy-monolith availability — no SLO de",
+        "current_value": "IT current value — legacy-monolith availability — no SLO de",
+        "error_budget_remaining_pct": 91,
+        "window": "IT window — legacy-monolith availability — no SLO de",
+        "rel:MONITORS:alert_threshold": "low"
+      }
+    },
+    {
+      "slo": "payment-gateway availability 99.95% v2",
+      "id": "2c800301-0838-5b20-8804-acc0910c36ee",
+      "domain_id": "it",
+      "data": {
+        "name": "payment-gateway availability 99.95% v2",
+        "service": "ledger-service",
+        "metric": "Scope 1 emissions",
+        "target": "IT target — payment-gateway availability 99.95% v2",
+        "current_value": "IT current value — payment-gateway availability 99.95% v2",
+        "error_budget_remaining_pct": 97,
+        "window": "IT window — payment-gateway availability 99.95% v2"
+      }
+    }
+  ]
+}

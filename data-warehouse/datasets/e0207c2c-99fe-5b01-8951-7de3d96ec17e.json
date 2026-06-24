@@ -1,0 +1,154 @@
+{
+  "data": [
+    {
+      "compensation_band": "B1",
+      "id": "b2ad75bf-ad0b-5619-aa0c-ec64fa681376",
+      "domain_id": "hr",
+      "data": {
+        "band": "B1",
+        "label": "HR label — B1",
+        "min_base_czk": 1041422,
+        "max_base_czk": 365591,
+        "variable_pct_max": 15,
+        "typical_roles": "HR typical roles — B1",
+        "auto_policy": true,
+        "benefits_tier": "bronze"
+      }
+    },
+    {
+      "compensation_band": "B3",
+      "id": "9e8fddf5-5c7e-5f1d-8c3b-7adddf4c59b3",
+      "domain_id": "hr",
+      "data": {
+        "band": "B3",
+        "label": "HR label — B3",
+        "min_base_czk": 601007,
+        "max_base_czk": 759328,
+        "variable_pct_max": 11,
+        "typical_roles": "HR typical roles — B3",
+        "auto_policy": false,
+        "benefits_tier": "bronze"
+      }
+    },
+    {
+      "compensation_band": "B5",
+      "id": "e10c307e-5fcb-5a9a-a68a-f86ef004220b",
+      "domain_id": "hr",
+      "data": {
+        "band": "B5",
+        "label": "HR label — B5",
+        "min_base_czk": 766009,
+        "max_base_czk": 1946341,
+        "variable_pct_max": 13,
+        "typical_roles": "HR typical roles — B5",
+        "auto_policy": true,
+        "benefits_tier": "silver"
+      }
+    },
+    {
+      "compensation_band": "B7",
+      "id": "43488eb0-595e-559e-b853-b4d58a066867",
+      "domain_id": "hr",
+      "data": {
+        "band": "B7",
+        "label": "HR label — B7",
+        "min_base_czk": 383435,
+        "max_base_czk": 908898,
+        "variable_pct_max": 71,
+        "typical_roles": "HR typical roles — B7",
+        "auto_policy": false,
+        "benefits_tier": "silver"
+      }
+    },
+    {
+      "compensation_band": "B8",
+      "id": "cfb04dcf-dae0-5535-ab75-583789431035",
+      "domain_id": "hr",
+      "data": {
+        "band": "B8",
+        "label": "HR label — B8",
+        "min_base_czk": 1434874,
+        "max_base_czk": 901802,
+        "variable_pct_max": 24,
+        "typical_roles": "HR typical roles — B8",
+        "auto_policy": false,
+        "benefits_tier": "gold"
+      }
+    },
+    {
+      "compensation_band": "B1 #6",
+      "id": "2947969f-be0b-5e35-8b8c-e1cb01b98491",
+      "domain_id": "hr",
+      "data": {
+        "band": "B1 #6",
+        "label": "HR label — B1 #6",
+        "min_base_czk": 740617,
+        "max_base_czk": 1845851,
+        "variable_pct_max": 19,
+        "typical_roles": "HR typical roles — B1 #6",
+        "auto_policy": false,
+        "benefits_tier": "platinum"
+      }
+    },
+    {
+      "compensation_band": "B3",
+      "id": "fd4ce1d3-d881-5b2a-9192-d9e60ca9fbae",
+      "domain_id": "hr",
+      "data": {
+        "band": "B3",
+        "label": "HR label — B3",
+        "min_base_czk": 1397751,
+        "max_base_czk": 784085,
+        "variable_pct_max": 40,
+        "typical_roles": "HR typical roles — B3",
+        "auto_policy": true,
+        "benefits_tier": "bronze"
+      }
+    },
+    {
+      "compensation_band": "B5 (Brno)",
+      "id": "8d3b9215-342a-5768-abf3-ed7996659fb3",
+      "domain_id": "hr",
+      "data": {
+        "band": "B5 (Brno)",
+        "label": "HR label — B5 (Brno)",
+        "min_base_czk": 1817145,
+        "max_base_czk": 1966841,
+        "variable_pct_max": 27,
+        "typical_roles": "HR typical roles — B5 (Brno)",
+        "auto_policy": true,
+        "benefits_tier": "gold"
+      }
+    },
+    {
+      "compensation_band": "B7 (FY2024)",
+      "id": "98dc39b1-eef7-583e-90ed-490ecd663e5d",
+      "domain_id": "hr",
+      "data": {
+        "band": "B7 (FY2024)",
+        "label": "HR label — B7 (FY2024)",
+        "min_base_czk": 319917,
+        "max_base_czk": 829146,
+        "variable_pct_max": 66,
+        "typical_roles": "HR typical roles — B7 (FY2024)",
+        "auto_policy": false,
+        "benefits_tier": "bronze"
+      }
+    },
+    {
+      "compensation_band": "B8 v2",
+      "id": "24b9415a-72c0-5e2a-9c5e-1a5e01f8cf2d",
+      "domain_id": "hr",
+      "data": {
+        "band": "B8 v2",
+        "label": "HR label — B8 v2",
+        "min_base_czk": 247322,
+        "max_base_czk": 1221824,
+        "variable_pct_max": 64,
+        "typical_roles": "HR typical roles — B8 v2",
+        "auto_policy": false,
+        "benefits_tier": "silver"
+      }
+    }
+  ]
+}

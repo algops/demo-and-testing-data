@@ -1,0 +1,147 @@
+{
+  "data": [
+    {
+      "audit_finding": "AF-2024-003 Scope 2 market-based calculation missing REC certificates",
+      "id": "a2628616-7b6a-59e9-8bb5-2e3d2383b831",
+      "domain_id": "esg",
+      "data": {
+        "id": "AF-2024-003 Scope 2 market-based calculation missing REC certificates",
+        "type": "operational",
+        "severity": "critical",
+        "metric_affected": "ESG metric affected — AF-2024-003 Scope 2 market-based calcula",
+        "description": "AF-2024-003 Scope 2 market-based calculation missing REC certificates supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "status": "archived",
+        "remediation_deadline": "ESG remediation deadline — AF-2024-003 Scope 2 market-based calcula",
+        "rel:RAISED_ON:finding_type": "non-compliance"
+      }
+    },
+    {
+      "audit_finding": "AF-2024-007 Supplier risk scoring methodology not documented",
+      "id": "6d2b9998-6ed7-590e-94a4-1078df57b397",
+      "domain_id": "esg",
+      "data": {
+        "id": "AF-2024-007 Supplier risk scoring methodology not documented",
+        "type": "operational",
+        "severity": "critical",
+        "metric_affected": "ESG metric affected — AF-2024-007 Supplier risk scoring method",
+        "description": "AF-2024-007 Supplier risk scoring methodology not documented supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "status": "draft",
+        "remediation_deadline": "ESG remediation deadline — AF-2024-007 Supplier risk scoring method"
+      }
+    },
+    {
+      "audit_finding": "AF-2024-003 Scope 2 market-based calculation missing REC certificates (FY2024)",
+      "id": "a0830c58-e1ba-5909-82e6-33ee46f1e43f",
+      "domain_id": "esg",
+      "data": {
+        "id": "AF-2024-003 Scope 2 market-based calculation missing REC certificates (FY2024)",
+        "type": "technical",
+        "severity": "medium",
+        "metric_affected": "ESG metric affected — AF-2024-003 Scope 2 market-based calcula",
+        "description": "AF-2024-003 Scope 2 market-based calculation missing REC certificates (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "status": "under_review",
+        "remediation_deadline": "ESG remediation deadline — AF-2024-003 Scope 2 market-based calcula",
+        "rel:RAISED_ON:finding_type": "observation"
+      }
+    },
+    {
+      "audit_finding": "AF-2024-007 Supplier risk scoring methodology not documented v2",
+      "id": "784799b8-5d92-55f2-8707-632f1f414e3e",
+      "domain_id": "esg",
+      "data": {
+        "id": "AF-2024-007 Supplier risk scoring methodology not documented v2",
+        "type": "governance",
+        "severity": "high",
+        "metric_affected": "ESG metric affected — AF-2024-007 Supplier risk scoring method",
+        "description": "AF-2024-007 Supplier risk scoring methodology not documented v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "status": "archived",
+        "remediation_deadline": "ESG remediation deadline — AF-2024-007 Supplier risk scoring method"
+      }
+    },
+    {
+      "audit_finding": "AF-2024-003 Scope 2 market-based calculation missing REC certificates — updated",
+      "id": "4307eecb-f6ca-58f9-bb7c-65582dd09395",
+      "domain_id": "esg",
+      "data": {
+        "id": "AF-2024-003 Scope 2 market-based calculation missing REC certificates — updated",
+        "type": "governance",
+        "severity": "medium",
+        "metric_affected": "ESG metric affected — AF-2024-003 Scope 2 market-based calcula",
+        "description": "AF-2024-003 Scope 2 market-based calculation missing REC certificates — updated supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "status": "expired",
+        "remediation_deadline": "ESG remediation deadline — AF-2024-003 Scope 2 market-based calcula"
+      }
+    },
+    {
+      "audit_finding": "AF-2024-007 Supplier risk scoring methodology not documented #6",
+      "id": "7981b713-242a-53e3-b6fa-0e7f9f38ecf1",
+      "domain_id": "esg",
+      "data": {
+        "id": "AF-2024-007 Supplier risk scoring methodology not documented #6",
+        "type": "technical",
+        "severity": "high",
+        "metric_affected": "ESG metric affected — AF-2024-007 Supplier risk scoring method",
+        "description": "AF-2024-007 Supplier risk scoring methodology not documented #6 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "status": "active",
+        "remediation_deadline": "ESG remediation deadline — AF-2024-007 Supplier risk scoring method"
+      }
+    },
+    {
+      "audit_finding": "AF-2024-003 Scope 2 market-based calculation missing REC certificates",
+      "id": "bd409997-a7b8-5df7-b434-62a316db4a46",
+      "domain_id": "esg",
+      "data": {
+        "id": "AF-2024-003 Scope 2 market-based calculation missing REC certificates",
+        "type": "operational",
+        "severity": "low",
+        "metric_affected": "ESG metric affected — AF-2024-003 Scope 2 market-based calcula",
+        "description": "AF-2024-003 Scope 2 market-based calculation missing REC certificates supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "status": "under_review",
+        "remediation_deadline": "ESG remediation deadline — AF-2024-003 Scope 2 market-based calcula"
+      }
+    },
+    {
+      "audit_finding": "AF-2024-007 Supplier risk scoring methodology not documented (Brno)",
+      "id": "d217c08e-d6e9-5c05-b0c5-bd21c9efc3ee",
+      "domain_id": "esg",
+      "data": {
+        "id": "AF-2024-007 Supplier risk scoring methodology not documented (Brno)",
+        "type": "operational",
+        "severity": "low",
+        "metric_affected": "ESG metric affected — AF-2024-007 Supplier risk scoring method",
+        "description": "AF-2024-007 Supplier risk scoring methodology not documented (Brno) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "status": "draft",
+        "remediation_deadline": "ESG remediation deadline — AF-2024-007 Supplier risk scoring method"
+      }
+    },
+    {
+      "audit_finding": "AF-2024-003 Scope 2 market-based calculation missing REC certificates (FY2024)",
+      "id": "eb8a3247-4fb1-5c9c-af1f-3561137df95a",
+      "domain_id": "esg",
+      "data": {
+        "id": "AF-2024-003 Scope 2 market-based calculation missing REC certificates (FY2024)",
+        "type": "technical",
+        "severity": "critical",
+        "metric_affected": "ESG metric affected — AF-2024-003 Scope 2 market-based calcula",
+        "description": "AF-2024-003 Scope 2 market-based calculation missing REC certificates (FY2024) supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "status": "active",
+        "remediation_deadline": "ESG remediation deadline — AF-2024-003 Scope 2 market-based calcula",
+        "rel:RAISED_ON:finding_type": "observation"
+      }
+    },
+    {
+      "audit_finding": "AF-2024-007 Supplier risk scoring methodology not documented v2",
+      "id": "df7f7675-9bed-577c-bc73-7901b18b41a7",
+      "domain_id": "esg",
+      "data": {
+        "id": "AF-2024-007 Supplier risk scoring methodology not documented v2",
+        "type": "technical",
+        "severity": "medium",
+        "metric_affected": "ESG metric affected — AF-2024-007 Supplier risk scoring method",
+        "description": "AF-2024-007 Supplier risk scoring methodology not documented v2 supports CSRD evidence collection and ESRS alignment for Meridian Pay.",
+        "status": "draft",
+        "remediation_deadline": "ESG remediation deadline — AF-2024-007 Supplier risk scoring method"
+      }
+    }
+  ]
+}

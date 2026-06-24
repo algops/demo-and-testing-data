@@ -1,0 +1,25 @@
+{
+  "generated_at": "2025-06-01T12:00:00Z",
+  "anchor_org": "org:anchor",
+  "enabled_domains": [
+    "esg",
+    "it",
+    "legal",
+    "hr",
+    "tax"
+  ],
+  "checksums": {
+    "relationships": "601336333a6c374f",
+    "objects": "98932d19523ff33c",
+    "object_types": "69ee82bc42defc89"
+  },
+  "counts": {
+    "relationships": 7955,
+    "objects": 1909,
+    "object_types": 70,
+    "datapoints": 714,
+    "values": 16917,
+    "knowledge_docs": 121,
+    "workflows": 7
+  }
+}

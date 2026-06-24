@@ -1,0 +1,12 @@
+{
+  "id": "kb-support-tone",
+  "title": "Support tone and style",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Active",
+      "createdAt": "2025-01-05T08:00:00.000Z",
+      "content": "# Support agent tone\n\n- Be concise and friendly.\n- Use step-by-step instructions for technical issues.\n- Never share internal-only paths or credentials.\n- Escalate billing questions to a human with: \"I'll connect you with our billing team.\"\n"
+    }
+  ]
+}

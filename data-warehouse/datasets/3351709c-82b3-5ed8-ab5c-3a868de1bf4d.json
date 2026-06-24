@@ -1,0 +1,190 @@
+{
+  "data": [
+    {
+      "legislation": "zákon č. 89/2012 Sb., občanský zákoník",
+      "id": "6aadaa30-a3f6-5b7c-89fd-37517c52a91f",
+      "domain_id": "legal",
+      "data": {
+        "name": "zákon č. 89/2012 Sb., občanský zákoník",
+        "number": 85,
+        "type": "financial",
+        "effective_date": "2023-11-03",
+        "area_of_law": "regulatory",
+        "status": "active",
+        "key_sections": "Legal key sections — zákon č. 89/2012 Sb., občanský zákoník",
+        "last_amendment": "Legal last amendment — zákon č. 89/2012 Sb., občanský zákoník",
+        "rel:AMENDS:amendment_date": "2024-04-08",
+        "rel:AMENDS:affected_sections": "high"
+      }
+    },
+    {
+      "legislation": "zákon č. 90/2012 Sb., o obchodních korporacích",
+      "id": "e83ec0de-bb72-5032-87e2-12b36a003346",
+      "domain_id": "legal",
+      "data": {
+        "name": "zákon č. 90/2012 Sb., o obchodních korporacích",
+        "number": 92,
+        "type": "operational",
+        "effective_date": "2024-02-14",
+        "area_of_law": "litigation",
+        "status": "draft",
+        "key_sections": "Legal key sections — zákon č. 90/2012 Sb., o obchodních korpo",
+        "last_amendment": "Legal last amendment — zákon č. 90/2012 Sb., o obchodních korpo"
+      }
+    },
+    {
+      "legislation": "zákon č. 262/2006 Sb., zákoník práce",
+      "id": "259045fd-f50c-5cb7-b1f7-1ce3ba58942b",
+      "domain_id": "legal",
+      "data": {
+        "name": "zákon č. 262/2006 Sb., zákoník práce",
+        "number": 51,
+        "type": "financial",
+        "effective_date": "2023-02-26",
+        "area_of_law": "regulatory",
+        "status": "draft",
+        "key_sections": "Legal key sections — zákon č. 262/2006 Sb., zákoník práce",
+        "last_amendment": "Legal last amendment — zákon č. 262/2006 Sb., zákoník práce"
+      }
+    },
+    {
+      "legislation": "nařízení",
+      "id": "757bca59-1da3-5937-8257-c9d34c478bf3",
+      "domain_id": "legal",
+      "data": {
+        "name": "nařízení",
+        "number": 36,
+        "type": "governance",
+        "effective_date": "2024-08-27",
+        "area_of_law": "regulatory",
+        "status": "active",
+        "key_sections": "Legal key sections — nařízení",
+        "last_amendment": "Legal last amendment — nařízení"
+      }
+    },
+    {
+      "legislation": "zákon č. 253/2008 Sb., o AML",
+      "id": "b5a9162d-1702-59b8-ae96-81afe2ef004b",
+      "domain_id": "legal",
+      "data": {
+        "name": "zákon č. 253/2008 Sb., o AML",
+        "number": 86,
+        "type": "technical",
+        "effective_date": "2023-05-22",
+        "area_of_law": "commercial",
+        "status": "archived",
+        "key_sections": "Legal key sections — zákon č. 253/2008 Sb., o AML",
+        "last_amendment": "Legal last amendment — zákon č. 253/2008 Sb., o AML"
+      }
+    },
+    {
+      "legislation": "zákon č. 89/2012 Sb., občanský zákoník #6",
+      "id": "95a17572-0794-538c-b07b-2392ac550e79",
+      "domain_id": "legal",
+      "data": {
+        "name": "zákon č. 89/2012 Sb., občanský zákoník #6",
+        "number": 38,
+        "type": "financial",
+        "effective_date": "2024-02-07",
+        "area_of_law": "data protection",
+        "status": "active",
+        "key_sections": "Legal key sections — zákon č. 89/2012 Sb., občanský zákoník #",
+        "last_amendment": "Legal last amendment — zákon č. 89/2012 Sb., občanský zákoník #"
+      }
+    },
+    {
+      "legislation": "zákon č. 90/2012 Sb., o obchodních korporacích",
+      "id": "97d25b91-6d25-5d7f-befd-1ffa205bd0aa",
+      "domain_id": "legal",
+      "data": {
+        "name": "zákon č. 90/2012 Sb., o obchodních korporacích",
+        "number": 55,
+        "type": "technical",
+        "effective_date": "2023-06-20",
+        "area_of_law": "corporate",
+        "status": "archived",
+        "key_sections": "Legal key sections — zákon č. 90/2012 Sb., o obchodních korpo",
+        "last_amendment": "Legal last amendment — zákon č. 90/2012 Sb., o obchodních korpo"
+      }
+    },
+    {
+      "legislation": "zákon č. 262/2006 Sb., zákoník práce (Brno)",
+      "id": "f39fafd6-fd17-5c36-84ed-35f49ff8efd8",
+      "domain_id": "legal",
+      "data": {
+        "name": "zákon č. 262/2006 Sb., zákoník práce (Brno)",
+        "number": 41,
+        "type": "financial",
+        "effective_date": "2024-08-13",
+        "area_of_law": "corporate",
+        "status": "under_review",
+        "key_sections": "Legal key sections — zákon č. 262/2006 Sb., zákoník práce (Br",
+        "last_amendment": "Legal last amendment — zákon č. 262/2006 Sb., zákoník práce (Br",
+        "rel:AMENDS:amendment_date": "2024-06-14",
+        "rel:AMENDS:affected_sections": "low"
+      }
+    },
+    {
+      "legislation": "nařízení (FY2024)",
+      "id": "d500ff22-f9f9-55d0-8056-c7df7dcd2592",
+      "domain_id": "legal",
+      "data": {
+        "name": "nařízení (FY2024)",
+        "number": 34,
+        "type": "technical",
+        "effective_date": "2023-04-02",
+        "area_of_law": "regulatory",
+        "status": "under_review",
+        "key_sections": "Legal key sections — nařízení (FY2024)",
+        "last_amendment": "Legal last amendment — nařízení (FY2024)"
+      }
+    },
+    {
+      "legislation": "zákon č. 253/2008 Sb., o AML v2",
+      "id": "d0ef185a-7f78-544d-939f-b04e6071cffd",
+      "domain_id": "legal",
+      "data": {
+        "name": "zákon č. 253/2008 Sb., o AML v2",
+        "number": 23,
+        "type": "financial",
+        "effective_date": "2024-10-03",
+        "area_of_law": "commercial",
+        "status": "draft",
+        "key_sections": "Legal key sections — zákon č. 253/2008 Sb., o AML v2",
+        "last_amendment": "Legal last amendment — zákon č. 253/2008 Sb., o AML v2",
+        "rel:AMENDS:amendment_date": "2024-07-19",
+        "rel:AMENDS:affected_sections": "low"
+      }
+    },
+    {
+      "legislation": "zákon č. 89/2012 Sb., občanský zákoník — updated",
+      "id": "2dcd7ebd-d399-5124-8ed6-8c9fe4a551ed",
+      "domain_id": "legal",
+      "data": {
+        "name": "zákon č. 89/2012 Sb., občanský zákoník — updated",
+        "number": 89,
+        "type": "operational",
+        "effective_date": "2023-08-15",
+        "area_of_law": "regulatory",
+        "status": "archived",
+        "key_sections": "Legal key sections — zákon č. 89/2012 Sb., občanský zákoník —",
+        "last_amendment": "Legal last amendment — zákon č. 89/2012 Sb., občanský zákoník —"
+      }
+    },
+    {
+      "legislation": "zákon č. 90/2012 Sb., o obchodních korporacích #12",
+      "id": "14aa6666-372c-5743-bf03-e6a7d58871d9",
+      "domain_id": "legal",
+      "data": {
+        "name": "zákon č. 90/2012 Sb., o obchodních korporacích #12",
+        "number": 25,
+        "type": "operational",
+        "effective_date": "2024-02-07",
+        "area_of_law": "corporate",
+        "status": "expired",
+        "key_sections": "Legal key sections — zákon č. 90/2012 Sb., o obchodních korpo",
+        "last_amendment": "Legal last amendment — zákon č. 90/2012 Sb., o obchodních korpo"
+      }
+    }
+  ]
+}

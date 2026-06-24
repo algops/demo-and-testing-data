@@ -1,0 +1,158 @@
+{
+  "object_type_id": "c066b30c-3b77-589a-9a14-fee46b724002",
+  "object_type_name": "database",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "database": "users-pg",
+      "id": "252abfac-2fd3-5048-87cd-ab27b4182438",
+      "domain_id": "it",
+      "data": {
+        "name": "users-pg",
+        "engine": "JVM",
+        "version": "v1.9",
+        "hosting": "hybrid",
+        "size_gb": 22,
+        "backup_policy": "daily",
+        "shared": "IT shared — users-pg",
+        "owner_service": "IT owner service — users-pg"
+      }
+    },
+    {
+      "database": "orders-pg",
+      "id": "67d44a78-424a-56cf-afeb-4e6ccf3717d3",
+      "domain_id": "it",
+      "data": {
+        "name": "orders-pg",
+        "engine": "Python",
+        "version": "v1.6",
+        "hosting": "hybrid",
+        "size_gb": 34,
+        "backup_policy": "daily",
+        "shared": "IT shared — orders-pg",
+        "owner_service": "IT owner service — orders-pg"
+      }
+    },
+    {
+      "database": "cache-redis",
+      "id": "020578cc-73bd-5d2a-a457-6c4bf827a32c",
+      "domain_id": "it",
+      "data": {
+        "name": "cache-redis",
+        "engine": "Rust",
+        "version": "v1.1",
+        "hosting": "hybrid",
+        "size_gb": 5,
+        "backup_policy": "daily",
+        "shared": "IT shared — cache-redis",
+        "owner_service": "IT owner service — cache-redis"
+      }
+    },
+    {
+      "database": "search-es",
+      "id": "3bda2526-6801-5090-ac1d-07d9dae95b5b",
+      "domain_id": "it",
+      "data": {
+        "name": "search-es",
+        "engine": "Node.js",
+        "version": "v4.7",
+        "hosting": "on-prem",
+        "size_gb": 19,
+        "backup_policy": "continuous",
+        "shared": "IT shared — search-es",
+        "owner_service": "IT owner service — search-es"
+      }
+    },
+    {
+      "database": "users-pg — updated",
+      "id": "3e1fa4d6-9e5c-5245-9d4c-c6f63f05a897",
+      "domain_id": "it",
+      "data": {
+        "name": "users-pg — updated",
+        "engine": "Go",
+        "version": "v2.3",
+        "hosting": "hybrid",
+        "size_gb": 92,
+        "backup_policy": "daily",
+        "shared": "IT shared — users-pg — updated",
+        "owner_service": "IT owner service — users-pg — updated"
+      }
+    },
+    {
+      "database": "orders-pg #6",
+      "id": "e065a1d2-586e-5782-b85a-65e589a08a02",
+      "domain_id": "it",
+      "data": {
+        "name": "orders-pg #6",
+        "engine": "Python",
+        "version": "v4.1",
+        "hosting": "hybrid",
+        "size_gb": 72,
+        "backup_policy": "continuous",
+        "shared": "IT shared — orders-pg #6",
+        "owner_service": "IT owner service — orders-pg #6"
+      }
+    },
+    {
+      "database": "cache-redis",
+      "id": "b17ff4b7-20c3-5c15-80de-057fe2e16657",
+      "domain_id": "it",
+      "data": {
+        "name": "cache-redis",
+        "engine": "Rust",
+        "version": "v2.6",
+        "hosting": "AWS",
+        "size_gb": 72,
+        "backup_policy": "daily",
+        "shared": "IT shared — cache-redis",
+        "owner_service": "IT owner service — cache-redis"
+      }
+    },
+    {
+      "database": "search-es (Brno)",
+      "id": "7762c085-f613-51dd-9822-ceb5947e7f93",
+      "domain_id": "it",
+      "data": {
+        "name": "search-es (Brno)",
+        "engine": "Python",
+        "version": "v1.1",
+        "hosting": "on-prem",
+        "size_gb": 33,
+        "backup_policy": "hourly",
+        "shared": "IT shared — search-es (Brno)",
+        "owner_service": "IT owner service — search-es (Brno)"
+      }
+    },
+    {
+      "database": "users-pg (FY2024)",
+      "id": "42d84d6f-d4de-5f3b-bf99-c0728e716387",
+      "domain_id": "it",
+      "data": {
+        "name": "users-pg (FY2024)",
+        "engine": "Python",
+        "version": "v2.5",
+        "hosting": "hybrid",
+        "size_gb": 61,
+        "backup_policy": "continuous",
+        "shared": "IT shared — users-pg (FY2024)",
+        "owner_service": "IT owner service — users-pg (FY2024)"
+      }
+    },
+    {
+      "database": "orders-pg v2",
+      "id": "e56fbb11-6ae6-57f3-bf14-d4d0a8d7cddb",
+      "domain_id": "it",
+      "data": {
+        "name": "orders-pg v2",
+        "engine": "JVM",
+        "version": "v1.8",
+        "hosting": "on-prem",
+        "size_gb": 36,
+        "backup_policy": "weekly",
+        "shared": "IT shared — orders-pg v2",
+        "owner_service": "IT owner service — orders-pg v2"
+      }
+    }
+  ]
+}

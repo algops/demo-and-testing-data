@@ -1,0 +1,163 @@
+{
+  "data": [
+    {
+      "material_topic": "Climate change mitigation",
+      "id": "c5e42c87-67b9-5b7a-81fb-17ba27665e88",
+      "domain_id": "esg",
+      "data": {
+        "name": "Climate change mitigation",
+        "category": "G",
+        "impact_score": 49,
+        "financial_score": 73,
+        "material": false,
+        "stakeholder_relevance": "ESG stakeholder relevance — Climate change mitigation"
+      }
+    },
+    {
+      "material_topic": "Employee health & safety",
+      "id": "e7601bf8-95a5-555d-b289-65e4eae23f64",
+      "domain_id": "esg",
+      "data": {
+        "name": "Employee health & safety",
+        "category": "G",
+        "impact_score": 73,
+        "financial_score": 26,
+        "material": false,
+        "stakeholder_relevance": "ESG stakeholder relevance — Employee health & safety"
+      }
+    },
+    {
+      "material_topic": "Tax transparency",
+      "id": "7f838c80-e31f-54ca-8f13-056468acca19",
+      "domain_id": "esg",
+      "data": {
+        "name": "Tax transparency",
+        "category": "G",
+        "impact_score": 42,
+        "financial_score": 42,
+        "material": false,
+        "stakeholder_relevance": "ESG stakeholder relevance — Tax transparency",
+        "rel:MATERIAL_FOR:determines_disclosure": true
+      }
+    },
+    {
+      "material_topic": "Climate change mitigation v2",
+      "id": "114868a2-1f33-5eb3-891d-ea85ccc91237",
+      "domain_id": "esg",
+      "data": {
+        "name": "Climate change mitigation v2",
+        "category": "G",
+        "impact_score": 91,
+        "financial_score": 17,
+        "material": true,
+        "stakeholder_relevance": "ESG stakeholder relevance — Climate change mitigation v2"
+      }
+    },
+    {
+      "material_topic": "Employee health & safety — updated",
+      "id": "ceaa6dce-a0dc-57f7-80f4-0ffe93ce3481",
+      "domain_id": "esg",
+      "data": {
+        "name": "Employee health & safety — updated",
+        "category": "S",
+        "impact_score": 12,
+        "financial_score": 40,
+        "material": true,
+        "stakeholder_relevance": "ESG stakeholder relevance — Employee health & safety — updated"
+      }
+    },
+    {
+      "material_topic": "Tax transparency #6",
+      "id": "db6d444e-d977-54f9-b9b1-09efa9528261",
+      "domain_id": "esg",
+      "data": {
+        "name": "Tax transparency #6",
+        "category": "G",
+        "impact_score": 21,
+        "financial_score": 36,
+        "material": true,
+        "stakeholder_relevance": "ESG stakeholder relevance — Tax transparency #6",
+        "rel:MATERIAL_FOR:determines_disclosure": false
+      }
+    },
+    {
+      "material_topic": "Climate change mitigation",
+      "id": "33af344f-7fed-56dc-bf9f-9b1ae7c6a9f6",
+      "domain_id": "esg",
+      "data": {
+        "name": "Climate change mitigation",
+        "category": "G",
+        "impact_score": 46,
+        "financial_score": 36,
+        "material": false,
+        "stakeholder_relevance": "ESG stakeholder relevance — Climate change mitigation"
+      }
+    },
+    {
+      "material_topic": "Employee health & safety (Brno)",
+      "id": "46cf8722-7308-54c3-bf61-c37984c0a083",
+      "domain_id": "esg",
+      "data": {
+        "name": "Employee health & safety (Brno)",
+        "category": "S",
+        "impact_score": 23,
+        "financial_score": 78,
+        "material": false,
+        "stakeholder_relevance": "ESG stakeholder relevance — Employee health & safety (Brno)",
+        "rel:MATERIAL_FOR:determines_disclosure": false
+      }
+    },
+    {
+      "material_topic": "Tax transparency (FY2024)",
+      "id": "adea2593-0ca2-5462-9257-0d911562802f",
+      "domain_id": "esg",
+      "data": {
+        "name": "Tax transparency (FY2024)",
+        "category": "G",
+        "impact_score": 58,
+        "financial_score": 53,
+        "material": false,
+        "stakeholder_relevance": "ESG stakeholder relevance — Tax transparency (FY2024)"
+      }
+    },
+    {
+      "material_topic": "Climate change mitigation v2",
+      "id": "6c514b37-81d5-52ed-8077-87a98e83b722",
+      "domain_id": "esg",
+      "data": {
+        "name": "Climate change mitigation v2",
+        "category": "E",
+        "impact_score": 86,
+        "financial_score": 16,
+        "material": false,
+        "stakeholder_relevance": "ESG stakeholder relevance — Climate change mitigation v2"
+      }
+    },
+    {
+      "material_topic": "Employee health & safety — updated",
+      "id": "369ad85e-9dab-54cd-ab36-52d2d5a1972d",
+      "domain_id": "esg",
+      "data": {
+        "name": "Employee health & safety — updated",
+        "category": "G",
+        "impact_score": 40,
+        "financial_score": 93,
+        "material": false,
+        "stakeholder_relevance": "ESG stakeholder relevance — Employee health & safety — updated"
+      }
+    },
+    {
+      "material_topic": "Tax transparency #12",
+      "id": "20a10ab1-7c88-5312-bb62-0cc74f22200b",
+      "domain_id": "esg",
+      "data": {
+        "name": "Tax transparency #12",
+        "category": "S",
+        "impact_score": 67,
+        "financial_score": 46,
+        "material": true,
+        "stakeholder_relevance": "ESG stakeholder relevance — Tax transparency #12"
+      }
+    }
+  ]
+}

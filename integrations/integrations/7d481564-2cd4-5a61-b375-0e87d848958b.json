@@ -1,0 +1,94 @@
+{
+  "id": "7d481564-2cd4-5a61-b375-0e87d848958b",
+  "name": "LLM gateway",
+  "integration_role": "tool",
+  "domain_id": "it",
+  "status": "active",
+  "project_id": "org:anchor:it",
+  "description": "LLM gateway — integrace domény it",
+  "setup": {
+    "customization_permissions": {
+      "factor_creation": "creator_only"
+    },
+    "load_balancing": {
+      "concurrency": 10,
+      "timeout": 30
+    },
+    "processing_options": {
+      "input_processing": "ignore"
+    },
+    "run_request": {
+      "mappings": {
+        "request": {
+          "run_setup": {
+            "path": [
+              "body"
+            ],
+            "mapping_status": "mapped"
+          },
+          "run_id": {
+            "path": [
+              "id"
+            ],
+            "mapping_status": "mapped"
+          }
+        },
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.meridianpay.cz/integrations/llm-gateway",
+        "method": "POST",
+        "headers": {
+          "Authorization": "Bearer <<$auth_key>>",
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "query": "<<$run_setup>>"
+        }
+      },
+      "response_examples": [],
+      "factor_variables": {}
+    },
+    "status_request": {
+      "mappings": {
+        "request": {},
+        "response": {
+          "status": {
+            "path": [
+              "status"
+            ],
+            "mapping_status": "mapped"
+          }
+        }
+      },
+      "request_template": {
+        "url": "https://api.meridianpay.cz/integrations/llm-gateway",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": []
+    },
+    "delivery_request": {
+      "mappings": {
+        "request": {},
+        "response": {}
+      },
+      "request_template": {
+        "url": "https://api.meridianpay.cz/integrations/llm-gateway",
+        "method": "GET",
+        "headers": {},
+        "body": {}
+      },
+      "response_examples": [],
+      "response_mappings": {}
+    }
+  }
+}

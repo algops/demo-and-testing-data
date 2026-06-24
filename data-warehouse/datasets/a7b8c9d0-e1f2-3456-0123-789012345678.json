@@ -1,0 +1,114 @@
+{
+  "data": [
+    {
+      "merge_request": "Add authentication middleware",
+      "data": {
+        "type": "Feature",
+        "repository": "backend-api",
+        "branch": "feature/auth-middleware",
+        "author": "Sarah Johnson",
+        "status": "merged",
+        "createdAt": "2025-01-15T10:30:00Z",
+        "mergedAt": "2025-01-16T14:20:00Z",
+        "commitMessage": "Implement JWT authentication middleware with role-based access control",
+        "diffContent": "+import jwt from 'jsonwebtoken';\n+export const authMiddleware = (req, res, next) => {...}",
+        "qualityScore": 92,
+        "complianceStatus": "approved",
+        "itAgentReview": "Code follows security best practices. All tests passing.",
+        "tags": [
+          "authentication",
+          "security",
+          "middleware"
+        ]
+      }
+    },
+    {
+      "merge_request": "Fix memory leak in data processor",
+      "data": {
+        "type": "Bug Fix",
+        "repository": "data-processing",
+        "branch": "fix/memory-leak",
+        "author": "Mike Chen",
+        "status": "open",
+        "createdAt": "2025-01-18T09:15:00Z",
+        "mergedAt": null,
+        "commitMessage": "Fix memory leak by properly closing database connections",
+        "diffContent": "-db.connect();\n+const connection = db.connect();\n+connection.on('close', () => {...})",
+        "qualityScore": 88,
+        "complianceStatus": "pending",
+        "itAgentReview": "Good fix. Consider adding connection pooling for better performance.",
+        "tags": [
+          "bugfix",
+          "performance",
+          "database"
+        ]
+      }
+    },
+    {
+      "merge_request": "Update API documentation",
+      "data": {
+        "type": "Documentation",
+        "repository": "api-docs",
+        "branch": "docs/api-updates",
+        "author": "Alex Thompson",
+        "status": "merged",
+        "createdAt": "2025-01-12T14:20:00Z",
+        "mergedAt": "2025-01-12T16:45:00Z",
+        "commitMessage": "Update API documentation for v2.0 endpoints",
+        "diffContent": "+## New Endpoints\n+### POST /api/v2/users\n+...",
+        "qualityScore": 95,
+        "complianceStatus": "approved",
+        "itAgentReview": "Documentation is clear and comprehensive.",
+        "tags": [
+          "documentation",
+          "api",
+          "v2"
+        ]
+      }
+    },
+    {
+      "merge_request": "Refactor user service",
+      "data": {
+        "type": "Refactoring",
+        "repository": "user-service",
+        "branch": "refactor/user-service",
+        "author": "Linda Wang",
+        "status": "merged",
+        "createdAt": "2025-01-10T11:00:00Z",
+        "mergedAt": "2025-01-11T09:30:00Z",
+        "commitMessage": "Refactor user service to use dependency injection pattern",
+        "diffContent": "-class UserService {\n+class UserService {\n+  constructor(dependencies) {...}",
+        "qualityScore": 90,
+        "complianceStatus": "approved",
+        "itAgentReview": "Good refactoring. Code is more testable now.",
+        "tags": [
+          "refactoring",
+          "architecture",
+          "dependency-injection"
+        ]
+      }
+    },
+    {
+      "merge_request": "Add unit tests for payment module",
+      "data": {
+        "type": "Testing",
+        "repository": "payment-service",
+        "branch": "test/payment-module",
+        "author": "Daniel Park",
+        "status": "open",
+        "createdAt": "2025-01-19T08:00:00Z",
+        "mergedAt": null,
+        "commitMessage": "Add comprehensive unit tests for payment processing module",
+        "diffContent": "+describe('PaymentProcessor', () => {\n+  it('should process valid payment', () => {...})",
+        "qualityScore": 85,
+        "complianceStatus": "pending",
+        "itAgentReview": "Tests are well-structured. Consider adding integration tests.",
+        "tags": [
+          "testing",
+          "payment",
+          "unit-tests"
+        ]
+      }
+    }
+  ]
+}

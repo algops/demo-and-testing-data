@@ -1,0 +1,99 @@
+{
+  "workflows": [
+    {
+      "id": "1a3c6400-7274-5ff9-beff-efbdaa77cb13",
+      "slug": "legal_knowhow_index",
+      "name": "Legal know-how index",
+      "domain_id": "legal",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "output_datasets": [
+        "legal_matter_index",
+        "legal_contract_index"
+      ],
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "749103fc-afc3-50ef-a5f9-067310653429",
+      "slug": "esg_evidence_collect",
+      "name": "ESG evidence collect",
+      "domain_id": "esg",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "output_datasets": [
+        "esg_metric_facts",
+        "esg_supplier_risk"
+      ],
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "69646cb7-122d-59c5-8777-f41dfafe6348",
+      "slug": "tax_filing_ops",
+      "name": "Tax filing ops",
+      "domain_id": "tax",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "output_datasets": [
+        "tax_engagement_status",
+        "tax_client_filings"
+      ],
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "9c0724a8-90c7-5312-aab6-7f4c2d9cac26",
+      "slug": "hr_sop_sync",
+      "name": "HR SOP sync",
+      "domain_id": "hr",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "output_datasets": [
+        "hr_employee_sop_coverage",
+        "hr_training_compliance"
+      ],
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "5646c7dc-fbc7-5d8f-adf3-61be019a2c5b",
+      "slug": "it_kb_ingest",
+      "name": "IT KB ingest",
+      "domain_id": "it",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "output_datasets": [
+        "it_service_health"
+      ],
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "71757d52-8b39-59e1-a188-e71899099d91",
+      "slug": "it_code_review",
+      "name": "IT code review",
+      "domain_id": "it",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "output_datasets": [
+        "it_service_health"
+      ],
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": "b2bf0a6a-5c93-556e-a97c-85323d720e6b",
+      "slug": "it_incident_sync",
+      "name": "IT incident sync",
+      "domain_id": "it",
+      "owner_org_id": "org:anchor",
+      "status": "active",
+      "output_datasets": [
+        "it_incident_log"
+      ],
+      "created_at": "2025-06-01T12:00:00Z",
+      "updated_at": "2025-06-01T12:00:00Z"
+    }
+  ]
+}

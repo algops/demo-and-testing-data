@@ -1,0 +1,37 @@
+# Příručka BOZP a povinná školení
+
+> Organizace: **Meridian Pay a.s.** | Doména: **hr** | Typ: guideline | Citlivost: internal
+
+## Kontext
+
+Meridian Pay a.s. provozuje platební a fintech služby v regulovaném prostředí. Tato příručka vysvětluje, jak interpretovat požadavky v oblasti **Příručka BOZP a povinná školení** a jak je promítnout do praxe domény `hr`.
+
+## Regulační a interní rámec
+
+- Soulad s českou a EU legislativou relevantní pro doménu hr
+- Propojení na datové zdroje v **SAP SuccessFactors** a související systémy
+- Mapování požadavků na object types a datapointy v AlgOps katalogu
+
+## Postup implementace
+
+1. **Identifikace rozsahu** — určete dotčené týmy, systémy a procesy.
+2. **Gap analýza** — porovnejte stávající stav s požadavky příručky.
+3. **Akční plán** — vlastník, termín, měřitelný výstup.
+4. **Validace** — kontrola vzorkem záznamů z SAP SuccessFactors.
+5. **Reporting** — kvartální status pro ESG/compliance výbor (dle domény).
+
+## Metriky úspěchu
+
+- Pokrytí dokumentovaných procesů ≥ 90 %
+- Počet otevřených gapů s překročeným SLA ≤ 3
+- Úspěšnost auditních kontrol bez major finding
+
+## Časté chyby
+
+- Spoléhání na neoficiální Excel místo schválené KB verze
+- Neaktuální reference na zrušené interní postupy
+- Chybějící vazba na zdrojová data v integraci
+
+## Kontakt
+
+Domain owner `hr` — slack:#domain-hr

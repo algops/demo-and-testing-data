@@ -1,0 +1,1340 @@
+{
+  "data": [
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "3814dcd3-0143-5ef7-aada-39c9eb3511c4",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-001",
+        "standard": "ESRS E1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 19
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees",
+      "id": "be142690-3b60-58dc-b20c-850b4429c4db",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees",
+        "code": "DISC-002",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 111
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption",
+      "id": "33ed2afc-c89d-53ab-9526-ddf8555c918d",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption",
+        "code": "DISC-003",
+        "standard": "ESRS S1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 93
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "e30a1afc-5f01-5d70-9a94-02639547eda8",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-004",
+        "standard": "ESRS E1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 119
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "51ea9c0e-4652-5ffd-8658-5ec3f45f409f",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-005",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 44
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #6",
+      "id": "0b4b6a33-f38e-508f-aa27-4b99585de402",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #6",
+        "code": "DISC-006",
+        "standard": "GRI 401",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 21
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "00f410ac-0d87-5215-b2fd-4cda22687ea5",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-007",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 92
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "d59fdb70-7c5d-58d0-81ea-272e6567bf66",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-008",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 52
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "eaf5cf68-9bee-57e0-a835-483de95ac86f",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-009",
+        "standard": "SASB",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 105
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "762c475b-2fae-5b6e-a5ea-c7092e96a496",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-010",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 116
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "b9365b4e-b992-5cd0-b2d4-a7b684b68329",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-011",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 11
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #12",
+      "id": "0cdcc91e-3c23-5864-8398-e449d7f86fda",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #12",
+        "code": "DISC-012",
+        "standard": "ESRS S1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 51,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-197",
+        "rel:CONTAINS_METRIC:quantitative": false
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "4bf05693-15ef-55f7-80df-acb49a75d94b",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-013",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 119
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "a3bb1c3f-36f8-5ebd-8ef5-bbfdb2e1b7d0",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-014",
+        "standard": "ESRS S1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 26,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-420",
+        "rel:CONTAINS_METRIC:quantitative": false
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "29daa78e-036b-5829-88a3-1084b214c8ba",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-015",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 103
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "6987554a-3547-5483-bac4-625bc27157b4",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-016",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 61,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-847",
+        "rel:CONTAINS_METRIC:quantitative": false
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "e3f99791-a9be-59c2-a034-d81590f0616a",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-017",
+        "standard": "GRI 305",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 55
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #18",
+      "id": "e73a528f-ac96-5871-9799-0eacbf49779f",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #18",
+        "code": "DISC-018",
+        "standard": "ESRS G1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 14
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "540ce83a-d115-5e65-a964-109227ab2eed",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-019",
+        "standard": "ESRS S1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 94,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-643",
+        "rel:CONTAINS_METRIC:quantitative": true
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "cdd3d0cf-2ab5-561b-ab2c-bc9e9c319608",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-020",
+        "standard": "ESRS E1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 92
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "0f87fb9d-6977-5ff4-8387-0d0941495503",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-021",
+        "standard": "GRI 305",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 61
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "be3c485d-b250-57ee-86ac-12e488dda37a",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-022",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 52
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "4c98ebcd-95ca-50da-9220-ba16e2676c58",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-023",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 94
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #24",
+      "id": "bac81dc7-34ef-563c-9223-455988680806",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #24",
+        "code": "DISC-024",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 13
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "13129b6d-c753-533c-9394-1ee60e17e9e0",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-025",
+        "standard": "ESRS S1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 8
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "498d1b34-7491-5209-987f-64f3f7039b73",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-026",
+        "standard": "ESRS S1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 106
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "2f97bace-8b63-5a74-b8ac-aff652e36203",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-027",
+        "standard": "ESRS S1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 49
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "7c4acf37-17db-546d-bda9-677f820f6244",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-028",
+        "standard": "ESRS E1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 103,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-202",
+        "rel:CONTAINS_METRIC:quantitative": false
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "c5ca7a49-9b0a-57f0-a92e-adc2c57dfef4",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-029",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 56
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #30",
+      "id": "a30ab2c0-e7bd-5f98-9b5f-b900efc4b924",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #30",
+        "code": "DISC-030",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 17,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-191",
+        "rel:CONTAINS_METRIC:quantitative": true
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "84bcf1db-082c-5a18-a1c6-e2c1a81740bb",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-031",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 10
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "e48e296e-5188-55c1-8d17-92015544cab1",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-032",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 81
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "2889043f-ad22-50a3-a286-920cdf7fd651",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-033",
+        "standard": "GRI 305",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 45
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "66be1079-664a-5436-b0df-819e55131d37",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-034",
+        "standard": "ESRS E1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 49
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "7605764f-ac12-5c53-8fce-d8670e1176ed",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-035",
+        "standard": "ESRS S1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 19
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #36",
+      "id": "ab8a5075-4ebe-527a-9ea5-fcfd0405e07b",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #36",
+        "code": "DISC-036",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 63,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-186",
+        "rel:CONTAINS_METRIC:quantitative": false
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "659ae38c-a26d-5051-b9b5-98d2b6d7825c",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-037",
+        "standard": "GRI 401",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 58
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "830edaf1-8427-5a40-88d8-d2e195f84180",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-038",
+        "standard": "SASB",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 36
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "a8c64d79-445a-5f88-9d11-5c87eecb742e",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-039",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 73,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-491",
+        "rel:CONTAINS_METRIC:quantitative": true
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "4b78b065-8658-5e58-a811-1f9054423b36",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-040",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 107
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "56d32089-72af-5f35-93e6-ef475a5f5827",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-041",
+        "standard": "ESRS G1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 38
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #42",
+      "id": "d92b6599-2fbf-5e8d-b18e-905ec412ff00",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #42",
+        "code": "DISC-042",
+        "standard": "ESRS E1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 33
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "3543230e-8eae-5243-990c-88f1f7be2eb4",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-043",
+        "standard": "ESRS S1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 30
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "49f0599b-6931-5aa9-836a-1e2bce31d38d",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-044",
+        "standard": "SASB",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 104
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "9651f89c-f25b-512b-9f3b-8ffdda03318b",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-045",
+        "standard": "GRI 401",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 118
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "e9a718e2-a775-5c16-a79f-f25ea491f337",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-046",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 64
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "33b4f549-9252-595e-8192-fde3ebc0b842",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-047",
+        "standard": "ESRS E1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 88
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #48",
+      "id": "98f2a921-6808-564d-9095-1d61518bdfae",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #48",
+        "code": "DISC-048",
+        "standard": "ESRS G1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 53
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "dbeee0c8-e176-59f2-8eb9-69dddb05ca01",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-049",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 67
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "2796ab5d-71f0-5eb4-b86a-acc56e99f55a",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-050",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 55
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "0d01d913-3fbe-5cc5-b12b-0fc27ec69052",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-051",
+        "standard": "SASB",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 90
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "326ddcc3-159a-5cec-96af-144ddd413e78",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-052",
+        "standard": "SASB",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 67
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "12f21c4a-300c-55b7-a748-311a05481500",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-053",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 111,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-803",
+        "rel:CONTAINS_METRIC:quantitative": true
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #54",
+      "id": "9fcaf24b-2a9a-51bb-a5ee-706570f2e13d",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #54",
+        "code": "DISC-054",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 85
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "b1685245-863e-5cbb-bb12-a9564557de4f",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-055",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 65,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-910",
+        "rel:CONTAINS_METRIC:quantitative": false
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "2ee3f546-9e04-54b9-92b9-998f00dbb4df",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-056",
+        "standard": "ESRS E1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 72
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "a28c73fb-75b7-55b5-a985-a4aafecc3e01",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-057",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 39
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "06aaef1e-ce0d-5ff7-a3ff-fed2e4c62ba8",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-058",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 75
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "aabcd18c-c9e5-54ab-9d17-1ba970bd91a3",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-059",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 55
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #60",
+      "id": "dd988e7a-6a9e-5455-9a5e-36ac1ebfc346",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #60",
+        "code": "DISC-060",
+        "standard": "ESRS G1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 107
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "c534a503-830f-55b2-8eee-13b65116dfcd",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-061",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 16
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "50795d59-eb5f-550d-b68d-3e099fda383b",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-062",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 44,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-235",
+        "rel:CONTAINS_METRIC:quantitative": true
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "ca056606-2624-55a7-93ba-220e09771296",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-063",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 18
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "203c3feb-7020-5c33-833c-759f109d2c4c",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-064",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 47
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "7c5c5e9b-3702-5b70-9eae-e9e985bdf626",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-065",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 84
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #66",
+      "id": "e50ecfa6-ac18-54e6-91e0-b036ce888c5a",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #66",
+        "code": "DISC-066",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 79
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "d711e863-8273-5b5d-93ff-4ea213618254",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-067",
+        "standard": "GRI 305",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 93,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-555",
+        "rel:CONTAINS_METRIC:quantitative": false
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "e81c1680-ab12-5829-9383-5db1a359352f",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-068",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 73
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "939a4928-f5a1-50bc-a2c6-542bb76c3017",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-069",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 47
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "54869b46-1806-51c2-815b-c95d23991ab3",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-070",
+        "standard": "ESRS S1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 106
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "eef3e063-bb5f-5301-a8b3-b52694311fb2",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-071",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 25
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #72",
+      "id": "92a0303c-3612-5226-8cc8-cffba008dce1",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #72",
+        "code": "DISC-072",
+        "standard": "ESRS S1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 116
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "3ad89ee2-dcfb-520c-9bd6-d22b5c7bde9f",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-073",
+        "standard": "SASB",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 92
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "f98feef1-56ba-5d38-a450-4c40821a92c7",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-074",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 27
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "539f5583-716c-58eb-b29e-91435c56cbcb",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-075",
+        "standard": "ESRS S1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 100
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "718e15d8-8485-5d25-940b-710a1452a064",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-076",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 54
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "74a8bad1-bfe2-51c8-bf2d-f8fef8495117",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-077",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 86,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-838",
+        "rel:CONTAINS_METRIC:quantitative": true
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #78",
+      "id": "26347f72-f734-5deb-8c97-619dcf4b079f",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #78",
+        "code": "DISC-078",
+        "standard": "ESRS G1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 76
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "f3458865-d02a-5773-b40b-0e5fcde0ca10",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-079",
+        "standard": "ESRS S1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 114,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-268",
+        "rel:CONTAINS_METRIC:quantitative": true
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "8423bf69-5e9c-5233-bd6c-0b9dd2d5e2f8",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-080",
+        "standard": "ESRS S1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 67
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "13668b4e-0f59-564a-8976-f2ada28b36b6",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-081",
+        "standard": "SASB",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 72
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "edb840c5-4bd2-51bc-b5ca-93ed52564827",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-082",
+        "standard": "GRI 401",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 112
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "3164e24d-52f4-5211-a6ea-a28f12c8ef1e",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-083",
+        "standard": "ESRS S1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 14
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #84",
+      "id": "f7d84842-7de3-5a9c-a5da-ea10527a6404",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #84",
+        "code": "DISC-084",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 78
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "0914f2aa-00c9-5e57-8c08-0219f2cc43cc",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-085",
+        "standard": "ESRS E1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 18
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "f08b42ec-ea8f-541f-9ed1-e49fc3758326",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-086",
+        "standard": "SASB",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 65
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "3276bffe-441f-5b37-9306-0bdcaa01b0de",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-087",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 19
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "349a261d-a49d-5568-b7c7-d2f0ab12c6e9",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-088",
+        "standard": "ESRS S1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 11
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "57aaa18e-b819-504d-9cf5-3947e32ea7d1",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-089",
+        "standard": "GRI 305",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 72
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #90",
+      "id": "e5accba2-2f51-56db-8e0d-d05399cd1db6",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #90",
+        "code": "DISC-090",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 18,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-936",
+        "rel:CONTAINS_METRIC:quantitative": false
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "05155038-d724-54a8-9f50-f6434dd9f096",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-091",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 48
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "0dcdb012-02d2-5aa9-aebb-c00f8e66a87f",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-092",
+        "standard": "ESRS E1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 25
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "50179c67-0067-5347-a23c-3bddcee4afa1",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-093",
+        "standard": "ESRS E1",
+        "mandatory_for_all": false,
+        "subject_to_materiality": false,
+        "datapoints_count": 97,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-743",
+        "rel:CONTAINS_METRIC:quantitative": true
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "988cde3d-04d8-59a6-a0a4-c0875c1ffba0",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-094",
+        "standard": "SASB",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 65
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees — updated",
+      "id": "7cc880c1-4c19-5f19-a09a-d54b3eeba30f",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees — updated",
+        "code": "DISC-095",
+        "standard": "GRI 401",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 10
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption #96",
+      "id": "2cd2928a-d879-565a-b70e-d377cc2f627d",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption #96",
+        "code": "DISC-096",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": true,
+        "datapoints_count": 78
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions",
+      "id": "7e8bf474-9f71-5c19-b0df-d83b5990cb94",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions",
+        "code": "DISC-097",
+        "standard": "GHG Protocol",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 107,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-756",
+        "rel:CONTAINS_METRIC:quantitative": true
+      }
+    },
+    {
+      "disclosure_requirement": "S1-6 Characteristics of employees (Brno)",
+      "id": "97231c4d-4218-5b5f-b535-15bfa6101c16",
+      "domain_id": "esg",
+      "data": {
+        "title": "S1-6 Characteristics of employees (Brno)",
+        "code": "DISC-098",
+        "standard": "ESRS G1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 23
+      }
+    },
+    {
+      "disclosure_requirement": "G1-3 Prevention and detection of corruption (FY2024)",
+      "id": "f88dab39-8fcb-529b-b175-2cb9d9a79a80",
+      "domain_id": "esg",
+      "data": {
+        "title": "G1-3 Prevention and detection of corruption (FY2024)",
+        "code": "DISC-099",
+        "standard": "ESRS E1",
+        "mandatory_for_all": true,
+        "subject_to_materiality": false,
+        "datapoints_count": 89
+      }
+    },
+    {
+      "disclosure_requirement": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+      "id": "cd0093c7-0bf6-5bcf-82b3-5ef819f9562d",
+      "domain_id": "esg",
+      "data": {
+        "title": "E1-6 Gross Scope 1,2,3 GHG emissions v2",
+        "code": "DISC-100",
+        "standard": "SASB",
+        "mandatory_for_all": false,
+        "subject_to_materiality": true,
+        "datapoints_count": 22,
+        "rel:CONTAINS_METRIC:datapoint_id": "DP-127",
+        "rel:CONTAINS_METRIC:quantitative": true
+      }
+    }
+  ]
+}

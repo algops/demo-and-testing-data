@@ -1,0 +1,210 @@
+{
+  "object_type_id": "243114ba-848e-580e-b52d-f1a9fc50df5e",
+  "object_type_name": "engagement",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "engagement": "ENG-2024-001 DPPO 2023 for LogiCorp",
+      "id": "33611381-995b-5804-b261-342848e0ad70",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-001 DPPO 2023 for LogiCorp",
+        "client_id": "ENG-0001",
+        "type": "operational",
+        "period": "Tax period — ENG-2024-001 DPPO 2023 for LogiCorp",
+        "status": "active",
+        "responsible_person": "Finance",
+        "fee_czk": 663612,
+        "deadline": "Tax deadline — ENG-2024-001 DPPO 2023 for LogiCorp",
+        "filed_date": "2023-10-27",
+        "notes": "Tax notes — ENG-2024-001 DPPO 2023 for LogiCorp"
+      }
+    },
+    {
+      "engagement": "ENG-2024-089 Vedení účetnictví Q1–Q4 2024 for TechStart",
+      "id": "be45fbfb-43b0-5005-a4df-853b2dddfec8",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-089 Vedení účetnictví Q1–Q4 2024 for TechStart",
+        "client_id": "ENG-0002",
+        "type": "technical",
+        "period": "Tax period — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "status": "expired",
+        "responsible_person": "Operations",
+        "fee_czk": 1592036,
+        "deadline": "Tax deadline — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "filed_date": "2024-07-02",
+        "notes": "Tax notes — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "rel:FOLLOWS_PROCEDURE:mandatory": true,
+        "rel:FOLLOWS_PROCEDURE:compliance_status": "high"
+      }
+    },
+    {
+      "engagement": "ENG-2024-023 Transfer pricing Local File for LogiCorp",
+      "id": "5f9616f5-6aff-5e8a-8ed5-a61053dd0056",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-023 Transfer pricing Local File for LogiCorp",
+        "client_id": "ENG-0003",
+        "type": "governance",
+        "period": "Tax period — ENG-2024-023 Transfer pricing Local File",
+        "status": "expired",
+        "responsible_person": "ESG",
+        "fee_czk": 1636332,
+        "deadline": "Tax deadline — ENG-2024-023 Transfer pricing Local File",
+        "filed_date": "2023-03-16",
+        "notes": "Tax notes — ENG-2024-023 Transfer pricing Local File"
+      }
+    },
+    {
+      "engagement": "ENG-2024-001 DPPO 2023 for LogiCorp v2",
+      "id": "bb6e9d09-9212-511f-9e0a-6b37874f7cce",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-001 DPPO 2023 for LogiCorp v2",
+        "client_id": "ENG-0004",
+        "type": "financial",
+        "period": "Tax period — ENG-2024-001 DPPO 2023 for LogiCorp v2",
+        "status": "under_review",
+        "responsible_person": "Legal",
+        "fee_czk": 1275273,
+        "deadline": "Tax deadline — ENG-2024-001 DPPO 2023 for LogiCorp v2",
+        "filed_date": "2024-06-24",
+        "notes": "Tax notes — ENG-2024-001 DPPO 2023 for LogiCorp v2",
+        "rel:FOLLOWS_PROCEDURE:mandatory": false,
+        "rel:FOLLOWS_PROCEDURE:compliance_status": "low"
+      }
+    },
+    {
+      "engagement": "ENG-2024-089 Vedení účetnictví Q1–Q4 2024 for TechStart — updated",
+      "id": "98b7531c-81f6-5eac-b966-d038a57b5239",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-089 Vedení účetnictví Q1–Q4 2024 for TechStart — updated",
+        "client_id": "ENG-0005",
+        "type": "governance",
+        "period": "Tax period — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "status": "archived",
+        "responsible_person": "Engineering",
+        "fee_czk": 1095654,
+        "deadline": "Tax deadline — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "filed_date": "2023-10-28",
+        "notes": "Tax notes — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "rel:HAS_DEADLINE:actual_deadline_date": "2024-08-31",
+        "rel:HAS_DEADLINE:filed_date": "2024-12-27",
+        "rel:HAS_DEADLINE:on_time": true
+      }
+    },
+    {
+      "engagement": "ENG-2024-023 Transfer pricing Local File for LogiCorp #6",
+      "id": "aa7e8b26-4418-5ea7-a3f3-8559a0017d51",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-023 Transfer pricing Local File for LogiCorp #6",
+        "client_id": "ENG-0006",
+        "type": "financial",
+        "period": "Tax period — ENG-2024-023 Transfer pricing Local File",
+        "status": "active",
+        "responsible_person": "Finance",
+        "fee_czk": 1073482,
+        "deadline": "Tax deadline — ENG-2024-023 Transfer pricing Local File",
+        "filed_date": "2024-10-13",
+        "notes": "Tax notes — ENG-2024-023 Transfer pricing Local File",
+        "rel:FOLLOWS_PROCEDURE:mandatory": true,
+        "rel:FOLLOWS_PROCEDURE:compliance_status": "medium"
+      }
+    },
+    {
+      "engagement": "ENG-2024-001 DPPO 2023 for LogiCorp",
+      "id": "72ebd2b3-b98e-536e-bb7c-6ea2be37ecd8",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-001 DPPO 2023 for LogiCorp",
+        "client_id": "ENG-0007",
+        "type": "operational",
+        "period": "Tax period — ENG-2024-001 DPPO 2023 for LogiCorp",
+        "status": "under_review",
+        "responsible_person": "Legal",
+        "fee_czk": 419798,
+        "deadline": "Tax deadline — ENG-2024-001 DPPO 2023 for LogiCorp",
+        "filed_date": "2023-04-13",
+        "notes": "Tax notes — ENG-2024-001 DPPO 2023 for LogiCorp",
+        "rel:HAS_DEADLINE:actual_deadline_date": "2024-06-31",
+        "rel:HAS_DEADLINE:filed_date": "2024-09-11",
+        "rel:HAS_DEADLINE:on_time": true
+      }
+    },
+    {
+      "engagement": "ENG-2024-089 Vedení účetnictví Q1–Q4 2024 for TechStart (Brno)",
+      "id": "b453fb77-173e-5bbd-b31f-8bf3be8dc4e9",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-089 Vedení účetnictví Q1–Q4 2024 for TechStart (Brno)",
+        "client_id": "ENG-0008",
+        "type": "financial",
+        "period": "Tax period — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "status": "active",
+        "responsible_person": "Legal",
+        "fee_czk": 407107,
+        "deadline": "Tax deadline — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "filed_date": "2024-12-07",
+        "notes": "Tax notes — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "rel:HAS_DEADLINE:actual_deadline_date": "2024-10-31",
+        "rel:HAS_DEADLINE:filed_date": "2024-10-02",
+        "rel:HAS_DEADLINE:on_time": true
+      }
+    },
+    {
+      "engagement": "ENG-2024-023 Transfer pricing Local File for LogiCorp (FY2024)",
+      "id": "6dc173ea-d29b-58f0-88df-f02bbfd789a7",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-023 Transfer pricing Local File for LogiCorp (FY2024)",
+        "client_id": "ENG-0009",
+        "type": "technical",
+        "period": "Tax period — ENG-2024-023 Transfer pricing Local File",
+        "status": "under_review",
+        "responsible_person": "ESG",
+        "fee_czk": 1462097,
+        "deadline": "Tax deadline — ENG-2024-023 Transfer pricing Local File",
+        "filed_date": "2023-06-19",
+        "notes": "Tax notes — ENG-2024-023 Transfer pricing Local File"
+      }
+    },
+    {
+      "engagement": "ENG-2024-001 DPPO 2023 for LogiCorp v2",
+      "id": "fb2459f2-0f24-5315-b26c-c8c9ea473099",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-001 DPPO 2023 for LogiCorp v2",
+        "client_id": "ENG-0010",
+        "type": "governance",
+        "period": "Tax period — ENG-2024-001 DPPO 2023 for LogiCorp v2",
+        "status": "expired",
+        "responsible_person": "Legal",
+        "fee_czk": 888067,
+        "deadline": "Tax deadline — ENG-2024-001 DPPO 2023 for LogiCorp v2",
+        "filed_date": "2024-06-17",
+        "notes": "Tax notes — ENG-2024-001 DPPO 2023 for LogiCorp v2"
+      }
+    },
+    {
+      "engagement": "ENG-2024-089 Vedení účetnictví Q1–Q4 2024 for TechStart — updated",
+      "id": "4d1a07bd-60cb-5983-8b59-628757e17af1",
+      "domain_id": "tax",
+      "data": {
+        "id": "ENG-2024-089 Vedení účetnictví Q1–Q4 2024 for TechStart — updated",
+        "client_id": "ENG-0011",
+        "type": "financial",
+        "period": "Tax period — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "status": "active",
+        "responsible_person": "People",
+        "fee_czk": 1847326,
+        "deadline": "Tax deadline — ENG-2024-089 Vedení účetnictví Q1–Q4 202",
+        "filed_date": "2023-01-22",
+        "notes": "Tax notes — ENG-2024-089 Vedení účetnictví Q1–Q4 202"
+      }
+    }
+  ]
+}

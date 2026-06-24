@@ -1,0 +1,116 @@
+{
+  "data": [
+    {
+      "guideline": "API Design Standards v2.1",
+      "id": "0c0805e4-9a23-5728-bd40-9de71b37a131",
+      "domain_id": "it",
+      "data": {
+        "title": "API Design Standards v2.1",
+        "category": "technical",
+        "code": "GUID-001",
+        "compliance_status": "draft",
+        "last_updated": "2023-04-06",
+        "owner": "Operations",
+        "version": "v4.6"
+      }
+    },
+    {
+      "guideline": "Code Review Checklist v3.0",
+      "id": "ce9be230-24cd-5102-9a01-091001ea7929",
+      "domain_id": "it",
+      "data": {
+        "title": "Code Review Checklist v3.0",
+        "category": "operational",
+        "code": "GUID-002",
+        "compliance_status": "expired",
+        "last_updated": "2024-04-11",
+        "owner": "People",
+        "version": "v4.6"
+      }
+    },
+    {
+      "guideline": "Git Branching Strategy v1.0",
+      "id": "db4b06e2-7bff-583b-b7fb-39450428db80",
+      "domain_id": "it",
+      "data": {
+        "title": "Git Branching Strategy v1.0",
+        "category": "operational",
+        "code": "GUID-003",
+        "compliance_status": "draft",
+        "last_updated": "2023-04-16",
+        "owner": "Legal",
+        "version": "v1.9"
+      }
+    },
+    {
+      "guideline": "Security Coding Guidelines v2.0",
+      "id": "0cfe6e4e-99f6-50de-a621-eeb28166ceb6",
+      "domain_id": "it",
+      "data": {
+        "title": "Security Coding Guidelines v2.0",
+        "category": "operational",
+        "code": "GUID-004",
+        "compliance_status": "expired",
+        "last_updated": "2024-04-05",
+        "owner": "Legal",
+        "version": "v3.3"
+      }
+    },
+    {
+      "guideline": "API Design Standards v2.1 — updated",
+      "id": "7caca456-39f4-53cc-9907-e131e912b583",
+      "domain_id": "it",
+      "data": {
+        "title": "API Design Standards v2.1 — updated",
+        "category": "technical",
+        "code": "GUID-005",
+        "compliance_status": "active",
+        "last_updated": "2023-05-15",
+        "owner": "Operations",
+        "version": "v4.8"
+      }
+    },
+    {
+      "guideline": "Code Review Checklist v3.0 #6",
+      "id": "8d30f346-bace-5025-973c-7796d457e5ce",
+      "domain_id": "it",
+      "data": {
+        "title": "Code Review Checklist v3.0 #6",
+        "category": "governance",
+        "code": "GUID-006",
+        "compliance_status": "expired",
+        "last_updated": "2024-07-17",
+        "owner": "ESG",
+        "version": "v4.9"
+      }
+    },
+    {
+      "guideline": "Git Branching Strategy v1.0",
+      "id": "6cfc3201-abee-5612-bb37-ddc17d93196b",
+      "domain_id": "it",
+      "data": {
+        "title": "Git Branching Strategy v1.0",
+        "category": "operational",
+        "code": "GUID-007",
+        "compliance_status": "archived",
+        "last_updated": "2023-06-30",
+        "owner": "Risk & Compliance",
+        "version": "v4.9"
+      }
+    },
+    {
+      "guideline": "Security Coding Guidelines v2.0",
+      "id": "331cd53a-e3ab-53c1-91ad-013d9c6f9234",
+      "domain_id": "it",
+      "data": {
+        "title": "Security Coding Guidelines v2.0",
+        "category": "financial",
+        "code": "GUID-008",
+        "compliance_status": "archived",
+        "last_updated": "2024-11-10",
+        "owner": "ESG",
+        "version": "v1.2"
+      }
+    }
+  ]
+}

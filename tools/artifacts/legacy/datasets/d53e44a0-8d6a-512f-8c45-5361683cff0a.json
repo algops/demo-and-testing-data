@@ -1,0 +1,1958 @@
+{
+  "object_type_id": "d53e44a0-8d6a-512f-8c45-5361683cff0a",
+  "object_type_name": "dependency",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "dependency": "express@4.18.2",
+      "id": "bab221bd-626c-5fae-9f4e-d63b6cc1f3c7",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "Maven Central",
+        "current_version": "1.11.4",
+        "latest_version": "2.12.8",
+        "license": "MIT",
+        "cve_count": 5,
+        "cve_critical": 3,
+        "last_updated": "2023-02-22"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19",
+      "id": "32185be2-00cd-5d15-8891-1ca115025b95",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19",
+        "ecosystem": "crates.io",
+        "current_version": "5.3.8",
+        "latest_version": "4.3.8",
+        "license": "MPL-2.0",
+        "cve_count": 4,
+        "cve_critical": 0,
+        "last_updated": "2024-07-14"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "b16f6bd5-6101-5d0b-80e1-e9ff4feaf13b",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "NuGet",
+        "current_version": "4.12.5",
+        "latest_version": "5.0.0",
+        "license": "MPL-2.0",
+        "cve_count": 4,
+        "cve_critical": 1,
+        "last_updated": "2023-11-14"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47",
+      "id": "2ee865da-2024-5c02-abd6-457ac1e9a789",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47",
+        "ecosystem": "NuGet",
+        "current_version": "2.10.5",
+        "latest_version": "5.8.9",
+        "license": "Apache-2.0",
+        "cve_count": 12,
+        "cve_critical": 1,
+        "last_updated": "2024-05-30"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "87ee255e-a1c4-5772-a234-0543d70d6ea0",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "NuGet",
+        "current_version": "2.10.1",
+        "latest_version": "2.2.8",
+        "license": "MIT",
+        "cve_count": 6,
+        "cve_critical": 0,
+        "last_updated": "2023-08-08"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #6",
+      "id": "7dcdd420-565a-5cc8-8c44-31f988571465",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #6",
+        "ecosystem": "PyPI",
+        "current_version": "5.4.2",
+        "latest_version": "2.9.4",
+        "license": "MIT",
+        "cve_count": 5,
+        "cve_critical": 3,
+        "last_updated": "2024-12-29"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "40e7ecc6-cffc-5824-a099-3af054a0d5a9",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "Maven Central",
+        "current_version": "1.2.5",
+        "latest_version": "5.0.9",
+        "license": "MPL-2.0",
+        "cve_count": 4,
+        "cve_critical": 3,
+        "last_updated": "2023-10-21"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "9346b2e3-7aa9-5b2c-9334-631092bd71da",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "crates.io",
+        "current_version": "3.1.5",
+        "latest_version": "5.3.2",
+        "license": "ISC",
+        "cve_count": 1,
+        "cve_critical": 1,
+        "last_updated": "2024-07-31"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "2c6780f1-fb3c-51ab-9888-42ac114f8787",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "crates.io",
+        "current_version": "5.6.1",
+        "latest_version": "3.3.3",
+        "license": "MPL-2.0",
+        "cve_count": 5,
+        "cve_critical": 2,
+        "last_updated": "2023-07-04"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "e71da680-e19b-50d0-bc50-83b067d46667",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "PyPI",
+        "current_version": "2.12.9",
+        "latest_version": "5.7.8",
+        "license": "MPL-2.0",
+        "cve_count": 0,
+        "cve_critical": 0,
+        "last_updated": "2024-12-08"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 — updated",
+      "id": "86bf7b8c-94e2-5e6e-9c6e-ee653cde534b",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 — updated",
+        "ecosystem": "PyPI",
+        "current_version": "4.3.9",
+        "latest_version": "5.3.0",
+        "license": "MPL-2.0",
+        "cve_count": 5,
+        "cve_critical": 3,
+        "last_updated": "2023-02-28"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 #12",
+      "id": "6b5169c1-036f-5040-b5c3-9dfb5f9ba7d7",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 #12",
+        "ecosystem": "NuGet",
+        "current_version": "3.8.4",
+        "latest_version": "1.8.5",
+        "license": "ISC",
+        "cve_count": 12,
+        "cve_critical": 3,
+        "last_updated": "2024-09-06"
+      }
+    },
+    {
+      "dependency": "express@4.18.2",
+      "id": "716bb1ec-d55a-502b-a069-fcfc91bc79f3",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "npm",
+        "current_version": "3.10.3",
+        "latest_version": "3.8.1",
+        "license": "MIT",
+        "cve_count": 2,
+        "cve_critical": 0,
+        "last_updated": "2023-11-17"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 (Brno)",
+      "id": "8ec5ff74-15f6-5a48-8736-2a17695a725d",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 (Brno)",
+        "ecosystem": "npm",
+        "current_version": "2.10.3",
+        "latest_version": "4.1.3",
+        "license": "ISC",
+        "cve_count": 11,
+        "cve_critical": 3,
+        "last_updated": "2024-11-27"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 (FY2024)",
+      "id": "42c98c5e-9ed5-5a6e-a437-eeb8a960119d",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 (FY2024)",
+        "ecosystem": "npm",
+        "current_version": "2.0.7",
+        "latest_version": "3.0.1",
+        "license": "MIT",
+        "cve_count": 0,
+        "cve_critical": 1,
+        "last_updated": "2023-05-09"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 v2",
+      "id": "d8843bb9-56a6-5535-a817-c37da45fcf33",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 v2",
+        "ecosystem": "crates.io",
+        "current_version": "1.9.3",
+        "latest_version": "3.6.6",
+        "license": "BSD-3-Clause",
+        "cve_count": 10,
+        "cve_critical": 3,
+        "last_updated": "2024-08-09"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "90e373a7-4998-5f16-b749-210be188384d",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "PyPI",
+        "current_version": "1.6.1",
+        "latest_version": "5.0.9",
+        "license": "MIT",
+        "cve_count": 12,
+        "cve_critical": 0,
+        "last_updated": "2023-12-25"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #18",
+      "id": "761f671c-30f6-5a02-90fb-a51456c0f512",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #18",
+        "ecosystem": "npm",
+        "current_version": "3.8.1",
+        "latest_version": "3.12.4",
+        "license": "ISC",
+        "cve_count": 1,
+        "cve_critical": 2,
+        "last_updated": "2024-08-12"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "3dbf3210-56b9-517f-8841-cbcebedd2b30",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "NuGet",
+        "current_version": "4.10.0",
+        "latest_version": "4.2.8",
+        "license": "Apache-2.0",
+        "cve_count": 2,
+        "cve_critical": 3,
+        "last_updated": "2023-10-07"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "8e5fa926-6697-509d-97ab-8044dee19648",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "PyPI",
+        "current_version": "2.4.5",
+        "latest_version": "1.8.8",
+        "license": "Apache-2.0",
+        "cve_count": 1,
+        "cve_critical": 0,
+        "last_updated": "2024-01-03"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "cf1be928-5e38-56df-a97c-09bef88920a7",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "crates.io",
+        "current_version": "5.6.8",
+        "latest_version": "5.1.4",
+        "license": "Apache-2.0",
+        "cve_count": 11,
+        "cve_critical": 2,
+        "last_updated": "2023-04-19"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "120c88ea-4b17-5b06-a259-78df02c13e34",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "NuGet",
+        "current_version": "5.2.2",
+        "latest_version": "2.3.9",
+        "license": "GPL-3.0",
+        "cve_count": 3,
+        "cve_critical": 0,
+        "last_updated": "2024-04-02"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 — updated",
+      "id": "1452afe4-21a5-5c28-94c7-72acb9d394a7",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 — updated",
+        "ecosystem": "RubyGems",
+        "current_version": "5.0.8",
+        "latest_version": "4.10.8",
+        "license": "MIT",
+        "cve_count": 4,
+        "cve_critical": 0,
+        "last_updated": "2023-05-09"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 #24",
+      "id": "e41ffd3f-7029-587d-82ea-fcf1a68feddb",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 #24",
+        "ecosystem": "npm",
+        "current_version": "2.11.9",
+        "latest_version": "4.5.5",
+        "license": "Apache-2.0",
+        "cve_count": 10,
+        "cve_critical": 1,
+        "last_updated": "2024-02-21"
+      }
+    },
+    {
+      "dependency": "express@4.18.2",
+      "id": "84b36612-7f2a-5e17-817d-b1deaac22402",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "PyPI",
+        "current_version": "5.1.3",
+        "latest_version": "3.7.7",
+        "license": "GPL-3.0",
+        "cve_count": 9,
+        "cve_critical": 2,
+        "last_updated": "2023-12-22"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 (Brno)",
+      "id": "b3f0878c-693a-59cc-a657-054f14567450",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 (Brno)",
+        "ecosystem": "crates.io",
+        "current_version": "2.9.9",
+        "latest_version": "3.12.5",
+        "license": "BSD-3-Clause",
+        "cve_count": 2,
+        "cve_critical": 0,
+        "last_updated": "2024-06-09"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 (FY2024)",
+      "id": "3d33e0c9-0a9f-5380-b58d-c2446078232f",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 (FY2024)",
+        "ecosystem": "Maven Central",
+        "current_version": "2.11.6",
+        "latest_version": "3.5.2",
+        "license": "MPL-2.0",
+        "cve_count": 11,
+        "cve_critical": 2,
+        "last_updated": "2023-09-03"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 v2",
+      "id": "eb6507a1-60ad-5d3c-99d2-0f1201ddabb8",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 v2",
+        "ecosystem": "NuGet",
+        "current_version": "4.5.4",
+        "latest_version": "4.8.1",
+        "license": "Apache-2.0",
+        "cve_count": 10,
+        "cve_critical": 0,
+        "last_updated": "2024-05-23"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "72069fbf-534a-512f-9614-1bba758aaf6d",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "Maven Central",
+        "current_version": "5.3.4",
+        "latest_version": "1.11.1",
+        "license": "MIT",
+        "cve_count": 8,
+        "cve_critical": 0,
+        "last_updated": "2023-10-25"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #30",
+      "id": "736d2fd9-d9eb-52ac-8d05-48869341debf",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #30",
+        "ecosystem": "crates.io",
+        "current_version": "4.12.9",
+        "latest_version": "2.0.8",
+        "license": "GPL-3.0",
+        "cve_count": 8,
+        "cve_critical": 3,
+        "last_updated": "2024-11-30"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "b103ce61-5064-5d3d-9337-3f9227f98bb1",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "Maven Central",
+        "current_version": "3.6.3",
+        "latest_version": "5.11.4",
+        "license": "Apache-2.0",
+        "cve_count": 7,
+        "cve_critical": 0,
+        "last_updated": "2023-07-23"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "39c1903f-900e-58bc-881e-d9af37786456",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "PyPI",
+        "current_version": "5.0.3",
+        "latest_version": "5.10.2",
+        "license": "ISC",
+        "cve_count": 2,
+        "cve_critical": 3,
+        "last_updated": "2024-03-22"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "082ce6ec-3ff4-57c8-8029-0a80ad4b5b14",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "Maven Central",
+        "current_version": "5.9.2",
+        "latest_version": "4.5.0",
+        "license": "Apache-2.0",
+        "cve_count": 12,
+        "cve_critical": 3,
+        "last_updated": "2023-04-29"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "9341df0d-edbd-5b93-8fc5-52915627800f",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "npm",
+        "current_version": "3.5.3",
+        "latest_version": "1.10.3",
+        "license": "ISC",
+        "cve_count": 12,
+        "cve_critical": 2,
+        "last_updated": "2024-07-17"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 — updated",
+      "id": "d6493c1c-d785-5c6a-b89e-c259d08e98d9",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 — updated",
+        "ecosystem": "NuGet",
+        "current_version": "4.0.0",
+        "latest_version": "3.1.8",
+        "license": "MPL-2.0",
+        "cve_count": 4,
+        "cve_critical": 2,
+        "last_updated": "2023-10-24"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 #36",
+      "id": "9d52be1d-b5e3-54fa-b663-1d101fa5e2e7",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 #36",
+        "ecosystem": "crates.io",
+        "current_version": "5.2.6",
+        "latest_version": "4.5.9",
+        "license": "MPL-2.0",
+        "cve_count": 1,
+        "cve_critical": 2,
+        "last_updated": "2024-07-11"
+      }
+    },
+    {
+      "dependency": "express@4.18.2",
+      "id": "99d8b092-5643-5277-aec9-ef70e35c7c0b",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "Maven Central",
+        "current_version": "5.6.5",
+        "latest_version": "3.7.7",
+        "license": "ISC",
+        "cve_count": 0,
+        "cve_critical": 1,
+        "last_updated": "2023-08-14"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 (Brno)",
+      "id": "a4048a01-abe2-522d-a5ce-0a79e2eb34e3",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 (Brno)",
+        "ecosystem": "Maven Central",
+        "current_version": "2.1.8",
+        "latest_version": "3.3.2",
+        "license": "Apache-2.0",
+        "cve_count": 2,
+        "cve_critical": 2,
+        "last_updated": "2024-11-04"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 (FY2024)",
+      "id": "caa0ba18-62ca-55c6-9c45-495b986c0b72",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 (FY2024)",
+        "ecosystem": "RubyGems",
+        "current_version": "1.10.3",
+        "latest_version": "4.12.5",
+        "license": "MPL-2.0",
+        "cve_count": 1,
+        "cve_critical": 3,
+        "last_updated": "2023-12-12"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 v2",
+      "id": "b8c9193e-506f-5cef-a0ef-730ce093a794",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 v2",
+        "ecosystem": "NuGet",
+        "current_version": "4.3.9",
+        "latest_version": "2.10.6",
+        "license": "MIT",
+        "cve_count": 3,
+        "cve_critical": 0,
+        "last_updated": "2024-03-06"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "d115ee7b-d3b7-57e0-81c0-1373fb4ebcb0",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "crates.io",
+        "current_version": "5.2.2",
+        "latest_version": "5.0.9",
+        "license": "Apache-2.0",
+        "cve_count": 0,
+        "cve_critical": 1,
+        "last_updated": "2023-05-13"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #42",
+      "id": "966ed297-85bc-5baf-89b7-9d3a437b3cd5",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #42",
+        "ecosystem": "Maven Central",
+        "current_version": "5.6.9",
+        "latest_version": "5.10.0",
+        "license": "MPL-2.0",
+        "cve_count": 11,
+        "cve_critical": 2,
+        "last_updated": "2024-02-13"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "a7746546-c213-5f55-aef1-8d5c1428881c",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "Maven Central",
+        "current_version": "4.9.7",
+        "latest_version": "4.2.3",
+        "license": "BSD-3-Clause",
+        "cve_count": 9,
+        "cve_critical": 1,
+        "last_updated": "2023-10-26"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "c0510c5c-bb3e-559b-984d-d9aaf8b1e9e3",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "Maven Central",
+        "current_version": "5.10.8",
+        "latest_version": "3.2.5",
+        "license": "BSD-3-Clause",
+        "cve_count": 9,
+        "cve_critical": 0,
+        "last_updated": "2024-04-27"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "a34c693f-8c51-5fd5-9103-ef7a1d1a2f8d",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "NuGet",
+        "current_version": "4.2.1",
+        "latest_version": "1.3.8",
+        "license": "ISC",
+        "cve_count": 10,
+        "cve_critical": 3,
+        "last_updated": "2023-03-18"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "f4c66403-4d39-50b8-a032-3d4907dddf3d",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "crates.io",
+        "current_version": "1.2.7",
+        "latest_version": "5.9.0",
+        "license": "ISC",
+        "cve_count": 8,
+        "cve_critical": 0,
+        "last_updated": "2024-02-17"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 — updated",
+      "id": "478123be-40bf-56a4-941c-09c20012c2cd",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 — updated",
+        "ecosystem": "NuGet",
+        "current_version": "2.9.8",
+        "latest_version": "1.12.6",
+        "license": "ISC",
+        "cve_count": 6,
+        "cve_critical": 2,
+        "last_updated": "2023-01-23"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 #48",
+      "id": "5469580b-6a13-5857-9420-50d6fa106c20",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 #48",
+        "ecosystem": "RubyGems",
+        "current_version": "5.6.3",
+        "latest_version": "4.12.6",
+        "license": "GPL-3.0",
+        "cve_count": 9,
+        "cve_critical": 0,
+        "last_updated": "2024-08-05"
+      }
+    },
+    {
+      "dependency": "express@4.18.2",
+      "id": "7441b1f4-33f2-5acb-b412-40b4e058a8f1",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "Maven Central",
+        "current_version": "3.7.3",
+        "latest_version": "1.4.9",
+        "license": "ISC",
+        "cve_count": 6,
+        "cve_critical": 2,
+        "last_updated": "2023-04-07"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 (Brno)",
+      "id": "7d0f46cc-ff4e-5e04-b5de-c122efea263e",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 (Brno)",
+        "ecosystem": "npm",
+        "current_version": "1.9.8",
+        "latest_version": "1.8.0",
+        "license": "BSD-3-Clause",
+        "cve_count": 10,
+        "cve_critical": 1,
+        "last_updated": "2024-12-18"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 (FY2024)",
+      "id": "d7d8debb-3c4d-56bf-9ad1-174e6ce92362",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 (FY2024)",
+        "ecosystem": "PyPI",
+        "current_version": "4.5.1",
+        "latest_version": "2.6.9",
+        "license": "GPL-3.0",
+        "cve_count": 4,
+        "cve_critical": 3,
+        "last_updated": "2023-10-17"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 v2",
+      "id": "40bc5518-b4d7-5730-8f11-7e318b0ee770",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 v2",
+        "ecosystem": "PyPI",
+        "current_version": "5.4.6",
+        "latest_version": "2.6.8",
+        "license": "ISC",
+        "cve_count": 7,
+        "cve_critical": 1,
+        "last_updated": "2024-07-08"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "db2f1394-0aad-59ad-97b7-f3e92efcec4c",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "crates.io",
+        "current_version": "5.7.4",
+        "latest_version": "3.9.5",
+        "license": "MPL-2.0",
+        "cve_count": 6,
+        "cve_critical": 1,
+        "last_updated": "2023-12-04"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #54",
+      "id": "14ee43e4-b3c6-5f58-ba95-191336b4dc5f",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #54",
+        "ecosystem": "npm",
+        "current_version": "2.7.2",
+        "latest_version": "1.3.8",
+        "license": "BSD-3-Clause",
+        "cve_count": 12,
+        "cve_critical": 2,
+        "last_updated": "2024-10-08"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "3f791fdd-e5fd-5326-a06d-25eef73fe7ae",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "crates.io",
+        "current_version": "1.2.6",
+        "latest_version": "1.12.1",
+        "license": "Apache-2.0",
+        "cve_count": 7,
+        "cve_critical": 3,
+        "last_updated": "2023-02-15"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "22f8f740-1b31-5ccd-9193-6e8fc1e19509",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "npm",
+        "current_version": "3.3.5",
+        "latest_version": "1.9.0",
+        "license": "MPL-2.0",
+        "cve_count": 6,
+        "cve_critical": 3,
+        "last_updated": "2024-11-10"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "b3a2aa2a-ef26-5dea-8362-b10cc5865fe1",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "RubyGems",
+        "current_version": "5.4.9",
+        "latest_version": "1.12.2",
+        "license": "MPL-2.0",
+        "cve_count": 7,
+        "cve_critical": 3,
+        "last_updated": "2023-01-06"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "2264206a-2f46-5523-9752-fe7f3471dbfe",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "Maven Central",
+        "current_version": "5.4.3",
+        "latest_version": "1.12.9",
+        "license": "ISC",
+        "cve_count": 8,
+        "cve_critical": 1,
+        "last_updated": "2024-11-10"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 — updated",
+      "id": "5d22cb4d-8096-5799-a97a-7753ddb88977",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 — updated",
+        "ecosystem": "Maven Central",
+        "current_version": "1.5.3",
+        "latest_version": "1.2.1",
+        "license": "GPL-3.0",
+        "cve_count": 12,
+        "cve_critical": 3,
+        "last_updated": "2023-06-30"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 #60",
+      "id": "78ac8975-1514-561c-8bc1-59b601615091",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 #60",
+        "ecosystem": "RubyGems",
+        "current_version": "4.6.9",
+        "latest_version": "2.8.0",
+        "license": "MPL-2.0",
+        "cve_count": 11,
+        "cve_critical": 0,
+        "last_updated": "2024-02-16"
+      }
+    },
+    {
+      "dependency": "express@4.18.2",
+      "id": "89b116e5-0259-5347-9960-f7b6093a52ac",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "crates.io",
+        "current_version": "3.11.8",
+        "latest_version": "5.5.5",
+        "license": "GPL-3.0",
+        "cve_count": 3,
+        "cve_critical": 1,
+        "last_updated": "2023-08-21"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 (Brno)",
+      "id": "6ab8443e-18f5-5692-8820-5e4425eb8641",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 (Brno)",
+        "ecosystem": "NuGet",
+        "current_version": "5.0.4",
+        "latest_version": "2.6.8",
+        "license": "MIT",
+        "cve_count": 8,
+        "cve_critical": 0,
+        "last_updated": "2024-09-14"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 (FY2024)",
+      "id": "dc44948d-038f-5bfc-8de5-929e04b33f12",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 (FY2024)",
+        "ecosystem": "PyPI",
+        "current_version": "3.1.8",
+        "latest_version": "3.8.9",
+        "license": "GPL-3.0",
+        "cve_count": 11,
+        "cve_critical": 3,
+        "last_updated": "2023-07-13"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 v2",
+      "id": "d8a4b7f0-7911-57ab-9ced-c3212d8cd2ce",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 v2",
+        "ecosystem": "crates.io",
+        "current_version": "4.12.3",
+        "latest_version": "3.12.7",
+        "license": "MPL-2.0",
+        "cve_count": 7,
+        "cve_critical": 0,
+        "last_updated": "2024-09-03"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "bc8b2d71-3c49-560c-8a21-88cdd68d9433",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "npm",
+        "current_version": "3.1.6",
+        "latest_version": "2.10.3",
+        "license": "GPL-3.0",
+        "cve_count": 6,
+        "cve_critical": 2,
+        "last_updated": "2023-09-22"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #66",
+      "id": "92b3dec1-2003-5587-a3cb-00baa60cd4c8",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #66",
+        "ecosystem": "crates.io",
+        "current_version": "1.11.4",
+        "latest_version": "2.4.1",
+        "license": "BSD-3-Clause",
+        "cve_count": 10,
+        "cve_critical": 2,
+        "last_updated": "2024-02-08"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "88550b87-8fe9-5dc7-8874-a89c57d84757",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "crates.io",
+        "current_version": "2.7.5",
+        "latest_version": "3.3.9",
+        "license": "GPL-3.0",
+        "cve_count": 2,
+        "cve_critical": 1,
+        "last_updated": "2023-09-13"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "7de1c459-33b9-50cb-bd3f-efb23c09245c",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "RubyGems",
+        "current_version": "2.3.3",
+        "latest_version": "3.3.3",
+        "license": "Apache-2.0",
+        "cve_count": 3,
+        "cve_critical": 2,
+        "last_updated": "2024-03-20"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "f0673b88-eaca-51d2-a724-749e1c2e39a3",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "npm",
+        "current_version": "1.1.7",
+        "latest_version": "5.0.8",
+        "license": "MIT",
+        "cve_count": 7,
+        "cve_critical": 2,
+        "last_updated": "2023-11-14"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "33a4749d-b79f-5fb3-84c3-d286b277ae67",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "PyPI",
+        "current_version": "4.9.4",
+        "latest_version": "4.2.8",
+        "license": "GPL-3.0",
+        "cve_count": 6,
+        "cve_critical": 1,
+        "last_updated": "2024-10-22"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 — updated",
+      "id": "b3c12c06-4154-585e-a904-cd6efab1a8c3",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 — updated",
+        "ecosystem": "Maven Central",
+        "current_version": "1.8.6",
+        "latest_version": "4.8.0",
+        "license": "ISC",
+        "cve_count": 5,
+        "cve_critical": 3,
+        "last_updated": "2023-12-18"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 #72",
+      "id": "e82f6726-65b0-59d4-bac0-e112562119b2",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 #72",
+        "ecosystem": "Maven Central",
+        "current_version": "4.1.8",
+        "latest_version": "4.5.0",
+        "license": "MIT",
+        "cve_count": 10,
+        "cve_critical": 1,
+        "last_updated": "2024-07-13"
+      }
+    },
+    {
+      "dependency": "express@4.18.2",
+      "id": "dae47450-4392-5766-b8c5-11d9346129b8",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "crates.io",
+        "current_version": "1.5.5",
+        "latest_version": "5.4.2",
+        "license": "ISC",
+        "cve_count": 4,
+        "cve_critical": 1,
+        "last_updated": "2023-05-18"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 (Brno)",
+      "id": "af02dab0-ef69-5a9f-9227-01ce9f855936",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 (Brno)",
+        "ecosystem": "NuGet",
+        "current_version": "5.5.5",
+        "latest_version": "2.7.6",
+        "license": "Apache-2.0",
+        "cve_count": 6,
+        "cve_critical": 2,
+        "last_updated": "2024-07-05"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 (FY2024)",
+      "id": "8b56f220-2c40-5e2b-adaf-1c38204ea6a8",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 (FY2024)",
+        "ecosystem": "NuGet",
+        "current_version": "3.7.2",
+        "latest_version": "5.2.9",
+        "license": "MPL-2.0",
+        "cve_count": 3,
+        "cve_critical": 0,
+        "last_updated": "2023-05-19"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 v2",
+      "id": "27b70a6f-b0a7-559f-a032-2df7b23ac4b2",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 v2",
+        "ecosystem": "Maven Central",
+        "current_version": "5.6.6",
+        "latest_version": "2.2.2",
+        "license": "BSD-3-Clause",
+        "cve_count": 12,
+        "cve_critical": 0,
+        "last_updated": "2024-03-31"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "fa32a460-27bf-5bee-b40a-0f66be85d7ce",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "NuGet",
+        "current_version": "4.2.8",
+        "latest_version": "5.11.5",
+        "license": "BSD-3-Clause",
+        "cve_count": 4,
+        "cve_critical": 2,
+        "last_updated": "2023-10-15"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #78",
+      "id": "a2d9d191-a295-59ed-83ae-8857b205411f",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #78",
+        "ecosystem": "crates.io",
+        "current_version": "1.6.1",
+        "latest_version": "2.0.3",
+        "license": "GPL-3.0",
+        "cve_count": 7,
+        "cve_critical": 0,
+        "last_updated": "2024-08-18"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "412fb9da-5574-591f-8a3e-73c84cafcce2",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "RubyGems",
+        "current_version": "3.4.5",
+        "latest_version": "3.8.8",
+        "license": "GPL-3.0",
+        "cve_count": 5,
+        "cve_critical": 0,
+        "last_updated": "2023-07-30"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "464052b7-0ba9-5c28-93ce-91ac4ff5a33d",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "npm",
+        "current_version": "3.10.9",
+        "latest_version": "2.9.9",
+        "license": "MPL-2.0",
+        "cve_count": 10,
+        "cve_critical": 1,
+        "last_updated": "2024-05-25"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "61bfca71-e243-5ade-b97d-ae26a5f873ac",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "PyPI",
+        "current_version": "3.10.8",
+        "latest_version": "4.12.7",
+        "license": "MIT",
+        "cve_count": 6,
+        "cve_critical": 2,
+        "last_updated": "2023-08-26"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "5546ac7b-959f-50ed-bb3f-eebe1c10db0b",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "RubyGems",
+        "current_version": "2.2.5",
+        "latest_version": "4.10.9",
+        "license": "ISC",
+        "cve_count": 6,
+        "cve_critical": 0,
+        "last_updated": "2024-02-10"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 — updated",
+      "id": "75935029-240d-5b51-80c6-15c689d75279",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 — updated",
+        "ecosystem": "Maven Central",
+        "current_version": "3.3.5",
+        "latest_version": "3.10.4",
+        "license": "MPL-2.0",
+        "cve_count": 4,
+        "cve_critical": 3,
+        "last_updated": "2023-05-19"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 #84",
+      "id": "3695aae7-9ef3-5529-8a31-8db61d073ec5",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 #84",
+        "ecosystem": "NuGet",
+        "current_version": "3.11.9",
+        "latest_version": "5.7.6",
+        "license": "Apache-2.0",
+        "cve_count": 2,
+        "cve_critical": 0,
+        "last_updated": "2024-03-05"
+      }
+    },
+    {
+      "dependency": "express@4.18.2",
+      "id": "11db390a-6b8a-571a-b284-a52e19b267fe",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "RubyGems",
+        "current_version": "2.10.4",
+        "latest_version": "1.3.2",
+        "license": "BSD-3-Clause",
+        "cve_count": 1,
+        "cve_critical": 0,
+        "last_updated": "2023-02-02"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 (Brno)",
+      "id": "e6c0bb6e-8afa-5c50-9092-6ae698413bb5",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 (Brno)",
+        "ecosystem": "NuGet",
+        "current_version": "5.0.0",
+        "latest_version": "4.8.1",
+        "license": "MIT",
+        "cve_count": 4,
+        "cve_critical": 1,
+        "last_updated": "2024-02-13"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 (FY2024)",
+      "id": "e9faaa0e-88d9-55ab-a00c-e342986bf8ae",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 (FY2024)",
+        "ecosystem": "RubyGems",
+        "current_version": "4.4.3",
+        "latest_version": "2.11.4",
+        "license": "BSD-3-Clause",
+        "cve_count": 10,
+        "cve_critical": 1,
+        "last_updated": "2023-03-09"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 v2",
+      "id": "484c0073-9217-57ce-b525-adeb783b1b51",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 v2",
+        "ecosystem": "crates.io",
+        "current_version": "2.0.0",
+        "latest_version": "3.5.7",
+        "license": "BSD-3-Clause",
+        "cve_count": 8,
+        "cve_critical": 2,
+        "last_updated": "2024-10-07"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "c553f1cc-53ac-5335-a408-6ab3ae780d01",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "NuGet",
+        "current_version": "2.11.8",
+        "latest_version": "2.9.9",
+        "license": "BSD-3-Clause",
+        "cve_count": 10,
+        "cve_critical": 3,
+        "last_updated": "2023-09-26"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #90",
+      "id": "6cb8cfdf-45b2-5358-aeb2-3636f5e46eb9",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #90",
+        "ecosystem": "RubyGems",
+        "current_version": "5.4.5",
+        "latest_version": "4.8.3",
+        "license": "MIT",
+        "cve_count": 7,
+        "cve_critical": 2,
+        "last_updated": "2024-07-06"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "740696b8-549b-51b9-af57-3b782aa17dec",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "NuGet",
+        "current_version": "3.2.4",
+        "latest_version": "1.0.8",
+        "license": "Apache-2.0",
+        "cve_count": 5,
+        "cve_critical": 2,
+        "last_updated": "2023-08-29"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "84f00f66-5e6d-5c2f-bdde-1b80cfeaf798",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "crates.io",
+        "current_version": "1.11.7",
+        "latest_version": "4.4.0",
+        "license": "BSD-3-Clause",
+        "cve_count": 12,
+        "cve_critical": 2,
+        "last_updated": "2024-11-01"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "53411e11-d4f9-50a6-93a6-74eed6a40397",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "Maven Central",
+        "current_version": "1.8.5",
+        "latest_version": "2.6.8",
+        "license": "BSD-3-Clause",
+        "cve_count": 6,
+        "cve_critical": 1,
+        "last_updated": "2023-03-25"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "329820d6-e0e6-5175-a11e-28d7bd2b85a0",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "RubyGems",
+        "current_version": "4.6.3",
+        "latest_version": "3.1.6",
+        "license": "MPL-2.0",
+        "cve_count": 3,
+        "cve_critical": 2,
+        "last_updated": "2024-05-25"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 — updated",
+      "id": "9e25fd9e-e32c-5bd4-93a9-9464441585ef",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 — updated",
+        "ecosystem": "RubyGems",
+        "current_version": "5.12.4",
+        "latest_version": "4.3.1",
+        "license": "Apache-2.0",
+        "cve_count": 2,
+        "cve_critical": 2,
+        "last_updated": "2023-02-26"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 #96",
+      "id": "d551caf3-2409-5947-b4e5-fc8cfb42e139",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 #96",
+        "ecosystem": "RubyGems",
+        "current_version": "4.9.7",
+        "latest_version": "3.11.9",
+        "license": "BSD-3-Clause",
+        "cve_count": 3,
+        "cve_critical": 2,
+        "last_updated": "2024-01-10"
+      }
+    },
+    {
+      "dependency": "express@4.18.2",
+      "id": "e991f341-b042-524c-9704-acde3e140c39",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "Maven Central",
+        "current_version": "1.8.0",
+        "latest_version": "2.1.4",
+        "license": "GPL-3.0",
+        "cve_count": 2,
+        "cve_critical": 3,
+        "last_updated": "2023-01-05"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 (Brno)",
+      "id": "0dcfe1ea-5d7f-574f-8a9c-e5dc1fc867ff",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 (Brno)",
+        "ecosystem": "Maven Central",
+        "current_version": "1.2.0",
+        "latest_version": "4.3.5",
+        "license": "BSD-3-Clause",
+        "cve_count": 4,
+        "cve_critical": 3,
+        "last_updated": "2024-07-09"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 (FY2024)",
+      "id": "ecd40e93-76e2-51fe-8e40-d59b66110fc7",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 (FY2024)",
+        "ecosystem": "NuGet",
+        "current_version": "1.5.1",
+        "latest_version": "2.0.4",
+        "license": "BSD-3-Clause",
+        "cve_count": 1,
+        "cve_critical": 3,
+        "last_updated": "2023-04-03"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 v2",
+      "id": "58382069-b0d4-50e5-9a54-9bbdc9282d85",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 v2",
+        "ecosystem": "Maven Central",
+        "current_version": "3.6.0",
+        "latest_version": "1.12.3",
+        "license": "BSD-3-Clause",
+        "cve_count": 12,
+        "cve_critical": 3,
+        "last_updated": "2024-05-06"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "6245ed52-6015-5a81-996a-223e41bee8b8",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "RubyGems",
+        "current_version": "1.3.7",
+        "latest_version": "1.8.3",
+        "license": "BSD-3-Clause",
+        "cve_count": 6,
+        "cve_critical": 2,
+        "last_updated": "2023-06-15"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #102",
+      "id": "ea8c8607-10fc-5783-88fe-8351ab1af299",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #102",
+        "ecosystem": "Maven Central",
+        "current_version": "1.11.8",
+        "latest_version": "5.1.4",
+        "license": "BSD-3-Clause",
+        "cve_count": 10,
+        "cve_critical": 2,
+        "last_updated": "2024-04-11"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "3d487921-95e3-5aad-bc1d-af86f5cb8407",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "PyPI",
+        "current_version": "1.10.3",
+        "latest_version": "1.3.6",
+        "license": "GPL-3.0",
+        "cve_count": 0,
+        "cve_critical": 1,
+        "last_updated": "2023-05-22"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "cceaccae-02d9-53ef-a00a-e1227fcb268a",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "crates.io",
+        "current_version": "1.6.3",
+        "latest_version": "1.0.9",
+        "license": "MPL-2.0",
+        "cve_count": 7,
+        "cve_critical": 1,
+        "last_updated": "2024-07-09"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "18bb4bb6-db06-5cca-8cd2-ab85c170b7a3",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "npm",
+        "current_version": "2.2.7",
+        "latest_version": "1.10.9",
+        "license": "GPL-3.0",
+        "cve_count": 12,
+        "cve_critical": 0,
+        "last_updated": "2023-01-31"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "145ed58b-f415-5e90-9225-f7bcbc06023e",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "PyPI",
+        "current_version": "2.11.8",
+        "latest_version": "1.2.7",
+        "license": "Apache-2.0",
+        "cve_count": 5,
+        "cve_critical": 2,
+        "last_updated": "2024-08-12"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 — updated",
+      "id": "663b31df-8ba4-5809-8b01-d72b04c4037b",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 — updated",
+        "ecosystem": "RubyGems",
+        "current_version": "2.0.6",
+        "latest_version": "3.11.2",
+        "license": "GPL-3.0",
+        "cve_count": 0,
+        "cve_critical": 3,
+        "last_updated": "2023-12-28"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 #108",
+      "id": "4c9b09e2-4c6e-5f84-b11d-6e128dd43b2c",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 #108",
+        "ecosystem": "NuGet",
+        "current_version": "5.4.8",
+        "latest_version": "4.3.9",
+        "license": "Apache-2.0",
+        "cve_count": 8,
+        "cve_critical": 2,
+        "last_updated": "2024-06-14"
+      }
+    },
+    {
+      "dependency": "express@4.18.2",
+      "id": "5caa6e50-baf6-598b-8d7e-d1c18a1745b5",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "RubyGems",
+        "current_version": "4.4.9",
+        "latest_version": "5.2.1",
+        "license": "ISC",
+        "cve_count": 2,
+        "cve_critical": 3,
+        "last_updated": "2023-06-01"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 (Brno)",
+      "id": "fc58ad24-b8bc-5297-9915-613943ff7592",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 (Brno)",
+        "ecosystem": "PyPI",
+        "current_version": "5.5.7",
+        "latest_version": "1.12.8",
+        "license": "BSD-3-Clause",
+        "cve_count": 11,
+        "cve_critical": 1,
+        "last_updated": "2024-01-10"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 (FY2024)",
+      "id": "1d54ed33-4ed1-5028-881c-2e8cf9e2c975",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 (FY2024)",
+        "ecosystem": "crates.io",
+        "current_version": "3.12.9",
+        "latest_version": "2.5.1",
+        "license": "MPL-2.0",
+        "cve_count": 8,
+        "cve_critical": 3,
+        "last_updated": "2023-04-08"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 v2",
+      "id": "c514269b-18ff-5a17-8a47-3d4aaea22528",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 v2",
+        "ecosystem": "crates.io",
+        "current_version": "4.12.8",
+        "latest_version": "2.9.4",
+        "license": "GPL-3.0",
+        "cve_count": 6,
+        "cve_critical": 2,
+        "last_updated": "2024-02-26"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "7945c2f4-749f-54fa-a11d-ee3d550dacf7",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "npm",
+        "current_version": "5.10.1",
+        "latest_version": "1.2.2",
+        "license": "MIT",
+        "cve_count": 3,
+        "cve_critical": 0,
+        "last_updated": "2023-09-06"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #114",
+      "id": "a766ab65-7ac5-52a5-8a79-568caca0ee83",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #114",
+        "ecosystem": "Maven Central",
+        "current_version": "1.0.9",
+        "latest_version": "4.10.7",
+        "license": "ISC",
+        "cve_count": 9,
+        "cve_critical": 2,
+        "last_updated": "2024-01-26"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "4ae7ae11-67ac-54f6-a214-4327d0c4991a",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "PyPI",
+        "current_version": "2.9.1",
+        "latest_version": "1.3.7",
+        "license": "MIT",
+        "cve_count": 7,
+        "cve_critical": 0,
+        "last_updated": "2023-07-04"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "3b3f2b37-db4b-575c-bdf0-4927a4465d0a",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "crates.io",
+        "current_version": "4.5.0",
+        "latest_version": "5.4.8",
+        "license": "MIT",
+        "cve_count": 11,
+        "cve_critical": 0,
+        "last_updated": "2024-06-04"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "bf3c9822-3541-55ef-b52d-a5bfcf06cc16",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "npm",
+        "current_version": "2.8.1",
+        "latest_version": "1.11.3",
+        "license": "ISC",
+        "cve_count": 6,
+        "cve_critical": 1,
+        "last_updated": "2023-04-09"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "9fd58492-9bb8-52e0-a169-32377f0638b9",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "crates.io",
+        "current_version": "2.9.2",
+        "latest_version": "5.11.8",
+        "license": "BSD-3-Clause",
+        "cve_count": 11,
+        "cve_critical": 0,
+        "last_updated": "2024-11-22"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 — updated",
+      "id": "f8dea7f1-4b51-59f9-ac52-843fc4e4fff6",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 — updated",
+        "ecosystem": "crates.io",
+        "current_version": "3.10.7",
+        "latest_version": "4.1.2",
+        "license": "Apache-2.0",
+        "cve_count": 8,
+        "cve_critical": 3,
+        "last_updated": "2023-09-16"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 #120",
+      "id": "879d7362-df3e-534b-abef-3e279d778b2d",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 #120",
+        "ecosystem": "PyPI",
+        "current_version": "2.8.9",
+        "latest_version": "4.5.5",
+        "license": "ISC",
+        "cve_count": 5,
+        "cve_critical": 2,
+        "last_updated": "2024-07-30"
+      }
+    },
+    {
+      "dependency": "express@4.18.2",
+      "id": "5da1f324-abfe-52ce-981f-09c97be37c44",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2",
+        "ecosystem": "RubyGems",
+        "current_version": "4.11.5",
+        "latest_version": "5.3.9",
+        "license": "ISC",
+        "cve_count": 3,
+        "cve_critical": 3,
+        "last_updated": "2023-10-09"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 (Brno)",
+      "id": "b5f959a2-802d-59ce-93b4-e543112b3ee0",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 (Brno)",
+        "ecosystem": "RubyGems",
+        "current_version": "3.5.7",
+        "latest_version": "4.6.0",
+        "license": "MPL-2.0",
+        "cve_count": 0,
+        "cve_critical": 2,
+        "last_updated": "2024-11-01"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18 (FY2024)",
+      "id": "a7e4a0b2-80db-5131-8961-2e38b32d4cf0",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18 (FY2024)",
+        "ecosystem": "npm",
+        "current_version": "5.2.4",
+        "latest_version": "1.4.3",
+        "license": "Apache-2.0",
+        "cve_count": 5,
+        "cve_critical": 0,
+        "last_updated": "2023-12-20"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 v2",
+      "id": "7b5926f8-8665-5aaa-b3b8-e340db323e66",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 v2",
+        "ecosystem": "PyPI",
+        "current_version": "5.8.8",
+        "latest_version": "5.9.2",
+        "license": "MIT",
+        "cve_count": 0,
+        "cve_critical": 3,
+        "last_updated": "2024-07-01"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 — updated",
+      "id": "3966d2eb-c946-5bf2-8911-584d9493e863",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 — updated",
+        "ecosystem": "Maven Central",
+        "current_version": "2.4.5",
+        "latest_version": "5.3.3",
+        "license": "GPL-3.0",
+        "cve_count": 12,
+        "cve_critical": 2,
+        "last_updated": "2023-02-17"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 #126",
+      "id": "a99b9445-276f-5515-a50b-4e9b63b3a3b2",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 #126",
+        "ecosystem": "crates.io",
+        "current_version": "4.9.3",
+        "latest_version": "1.11.5",
+        "license": "BSD-3-Clause",
+        "cve_count": 2,
+        "cve_critical": 3,
+        "last_updated": "2024-12-19"
+      }
+    },
+    {
+      "dependency": "spring-boot@2.7.18",
+      "id": "90a36716-9d49-54c1-abb0-18cec1c548d1",
+      "domain_id": "it",
+      "data": {
+        "name": "spring-boot@2.7.18",
+        "ecosystem": "RubyGems",
+        "current_version": "5.1.9",
+        "latest_version": "3.0.9",
+        "license": "BSD-3-Clause",
+        "cve_count": 1,
+        "cve_critical": 0,
+        "last_updated": "2023-06-21"
+      }
+    },
+    {
+      "dependency": "kafka-go@0.4.47 (Brno)",
+      "id": "4ffae218-65af-560d-9995-b2845afd183d",
+      "domain_id": "it",
+      "data": {
+        "name": "kafka-go@0.4.47 (Brno)",
+        "ecosystem": "PyPI",
+        "current_version": "4.6.1",
+        "latest_version": "2.11.9",
+        "license": "MIT",
+        "cve_count": 10,
+        "cve_critical": 3,
+        "last_updated": "2024-01-28"
+      }
+    },
+    {
+      "dependency": "express@4.18.2 (FY2024)",
+      "id": "89501640-3599-5626-8508-e86ff7accf35",
+      "domain_id": "it",
+      "data": {
+        "name": "express@4.18.2 (FY2024)",
+        "ecosystem": "PyPI",
+        "current_version": "5.0.5",
+        "latest_version": "5.9.2",
+        "license": "GPL-3.0",
+        "cve_count": 8,
+        "cve_critical": 1,
+        "last_updated": "2023-03-20"
+      }
+    },
+    {
+      "dependency": "lodash@4.17.19 v2",
+      "id": "cbee03bf-311f-5d27-858f-09c5817c8726",
+      "domain_id": "it",
+      "data": {
+        "name": "lodash@4.17.19 v2",
+        "ecosystem": "npm",
+        "current_version": "4.7.9",
+        "latest_version": "5.8.1",
+        "license": "Apache-2.0",
+        "cve_count": 6,
+        "cve_critical": 2,
+        "last_updated": "2024-07-20"
+      }
+    }
+  ]
+}

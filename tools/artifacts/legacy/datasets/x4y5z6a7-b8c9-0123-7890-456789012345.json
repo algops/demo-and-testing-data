@@ -1,0 +1,214 @@
+{
+  "object_type_id": "x4y5z6a7-b8c9-0123-7890-456789012345",
+  "object_type_name": "regulation",
+  "created_at": "2025-01-01T00:00:00.000Z",
+  "updated_at": "2025-11-28T12:41:09.296728Z",
+  "data": [
+    {
+      "regulation": "GDPR Compliance Requirements",
+      "data": {
+        "type": "Data Protection",
+        "title": "GDPR Compliance Requirements",
+        "regulationId": "REG-GDPR-001",
+        "complianceLevel": "mandatory",
+        "structuredRules": {
+          "requirements": [
+            {
+              "requirement": "Data minimization",
+              "description": "Collect only necessary personal data"
+            },
+            {
+              "requirement": "Right to access",
+              "description": "Users must be able to access their data"
+            },
+            {
+              "requirement": "Right to deletion",
+              "description": "Users must be able to request data deletion"
+            }
+          ],
+          "penalties": {
+            "non_compliance": "Up to 4% of annual revenue or \u20ac20M"
+          }
+        },
+        "applicableRegions": [
+          "EU",
+          "EEA"
+        ],
+        "effectiveDate": "2018-05-25",
+        "lastUpdated": "2025-01-15T10:00:00Z",
+        "tags": [
+          "gdpr",
+          "data-protection",
+          "privacy",
+          "compliance"
+        ]
+      }
+    },
+    {
+      "regulation": "SOC 2 Type II Controls",
+      "data": {
+        "type": "Security Compliance",
+        "title": "SOC 2 Type II Controls",
+        "regulationId": "REG-SOC2-001",
+        "complianceLevel": "required",
+        "structuredRules": {
+          "trustServiceCriteria": [
+            {
+              "criterion": "Security",
+              "controls": [
+                "Access controls",
+                "Encryption",
+                "Monitoring"
+              ]
+            },
+            {
+              "criterion": "Availability",
+              "controls": [
+                "Uptime monitoring",
+                "Disaster recovery"
+              ]
+            }
+          ],
+          "auditFrequency": "Annual"
+        },
+        "applicableRegions": [
+          "Global"
+        ],
+        "effectiveDate": "2024-01-01",
+        "lastUpdated": "2025-01-10T14:30:00Z",
+        "tags": [
+          "soc2",
+          "security",
+          "audit",
+          "compliance"
+        ]
+      }
+    },
+    {
+      "regulation": "HIPAA Privacy Rule",
+      "data": {
+        "type": "Healthcare Compliance",
+        "title": "HIPAA Privacy Rule",
+        "regulationId": "REG-HIPAA-001",
+        "complianceLevel": "mandatory",
+        "structuredRules": {
+          "protectedHealthInformation": {
+            "definition": "Individually identifiable health information",
+            "safeguards": [
+              "Encryption",
+              "Access controls",
+              "Audit logs"
+            ]
+          },
+          "breachNotification": {
+            "timeline": "Within 60 days",
+            "authorities": [
+              "HHS",
+              "Affected individuals"
+            ]
+          }
+        },
+        "applicableRegions": [
+          "US"
+        ],
+        "effectiveDate": "2003-04-14",
+        "lastUpdated": "2025-01-08T09:00:00Z",
+        "tags": [
+          "hipaa",
+          "healthcare",
+          "privacy",
+          "compliance"
+        ]
+      }
+    },
+    {
+      "regulation": "ISO 27001 Information Security",
+      "data": {
+        "type": "Information Security",
+        "title": "ISO 27001 Information Security",
+        "regulationId": "REG-ISO27001-001",
+        "complianceLevel": "recommended",
+        "structuredRules": {
+          "domains": [
+            {
+              "domain": "Access Control",
+              "controls": [
+                "User access management",
+                "Privileged access"
+              ]
+            },
+            {
+              "domain": "Cryptography",
+              "controls": [
+                "Encryption policy",
+                "Key management"
+              ]
+            }
+          ],
+          "certification": {
+            "validity": "3 years",
+            "surveillance": "Annual audits"
+          }
+        },
+        "applicableRegions": [
+          "Global"
+        ],
+        "effectiveDate": "2022-10-25",
+        "lastUpdated": "2025-01-12T11:20:00Z",
+        "tags": [
+          "iso27001",
+          "information-security",
+          "certification"
+        ]
+      }
+    },
+    {
+      "regulation": "PCI DSS Requirements",
+      "data": {
+        "type": "Payment Card Security",
+        "title": "PCI DSS Requirements",
+        "regulationId": "REG-PCIDSS-001",
+        "complianceLevel": "mandatory",
+        "structuredRules": {
+          "requirements": [
+            {
+              "requirement": "Build and maintain secure network",
+              "controls": [
+                "Firewall configuration",
+                "Default passwords"
+              ]
+            },
+            {
+              "requirement": "Protect cardholder data",
+              "controls": [
+                "Data encryption",
+                "Data retention policies"
+              ]
+            },
+            {
+              "requirement": "Maintain vulnerability management",
+              "controls": [
+                "Antivirus software",
+                "Secure systems"
+              ]
+            }
+          ],
+          "validationLevels": {
+            "level1": "Annual on-site audit",
+            "level2-4": "Self-assessment questionnaire"
+          }
+        },
+        "applicableRegions": [
+          "Global"
+        ],
+        "effectiveDate": "2024-03-31",
+        "lastUpdated": "2025-01-14T16:45:00Z",
+        "tags": [
+          "pci-dss",
+          "payment-security",
+          "compliance"
+        ]
+      }
+    }
+  ]
+}

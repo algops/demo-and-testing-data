@@ -1,0 +1,220 @@
+{
+  "integrations": [
+    {
+      "id": "78d78ec7-eb76-5a4a-915b-9b58ab9e7d96",
+      "name": "Sphera",
+      "integration_role": "source",
+      "domain_id": "esg",
+      "status": "active",
+      "project_id": "org:anchor:esg"
+    },
+    {
+      "id": "97e2b8ec-72e9-50d9-86c1-bde2b6f2ac93",
+      "name": "ERP/HR feeds",
+      "integration_role": "source",
+      "domain_id": "esg",
+      "status": "active",
+      "project_id": "org:anchor:esg"
+    },
+    {
+      "id": "0662e6dd-85ac-5aef-b13b-033a90fb15ae",
+      "name": "Supplier portal",
+      "integration_role": "source",
+      "domain_id": "esg",
+      "status": "active",
+      "project_id": "org:anchor:esg"
+    },
+    {
+      "id": "c93bf594-f370-52cb-83ee-adde91d3fc60",
+      "name": "ESRS mapping assistant",
+      "integration_role": "tool",
+      "domain_id": "esg",
+      "status": "active",
+      "project_id": "org:anchor:esg"
+    },
+    {
+      "id": "5240d1cd-6970-5d80-aa3c-eb76885eb8e5",
+      "name": "Readiness scores export",
+      "integration_role": "destination",
+      "domain_id": "esg",
+      "status": "active",
+      "project_id": "org:anchor:esg"
+    },
+    {
+      "id": "e544df81-ff66-5f90-88ff-da682bd0d148",
+      "name": "GitLab",
+      "integration_role": "source",
+      "domain_id": "it",
+      "status": "active",
+      "project_id": "org:anchor:it"
+    },
+    {
+      "id": "5165655b-4e94-5322-8fcb-51300c06c7df",
+      "name": "Confluence",
+      "integration_role": "source",
+      "domain_id": "it",
+      "status": "active",
+      "project_id": "org:anchor:it"
+    },
+    {
+      "id": "070bb339-7356-51db-850c-8265af844ee3",
+      "name": "Slack",
+      "integration_role": "source",
+      "domain_id": "it",
+      "status": "active",
+      "project_id": "org:anchor:it"
+    },
+    {
+      "id": "f268b51a-6cd0-5790-94af-f36880d2e000",
+      "name": "Datadog",
+      "integration_role": "source",
+      "domain_id": "it",
+      "status": "active",
+      "project_id": "org:anchor:it"
+    },
+    {
+      "id": "7d481564-2cd4-5a61-b375-0e87d848958b",
+      "name": "LLM gateway",
+      "integration_role": "tool",
+      "domain_id": "it",
+      "status": "active",
+      "project_id": "org:anchor:it"
+    },
+    {
+      "id": "c467dc3a-b9a6-5d00-846f-e593c47d5029",
+      "name": "Snyk",
+      "integration_role": "tool",
+      "domain_id": "it",
+      "status": "active",
+      "project_id": "org:anchor:it"
+    },
+    {
+      "id": "176e7b69-d89b-5ad1-aa7f-c2e0b3cd28ae",
+      "name": "Engineering metrics warehouse",
+      "integration_role": "destination",
+      "domain_id": "it",
+      "status": "active",
+      "project_id": "org:anchor:it"
+    },
+    {
+      "id": "53acc2d7-4211-576f-9bc4-8c6b448be243",
+      "name": "iManage",
+      "integration_role": "source",
+      "domain_id": "legal",
+      "status": "active",
+      "project_id": "org:anchor:legal"
+    },
+    {
+      "id": "e33946f7-2123-582b-83aa-f007c6b615b2",
+      "name": "SharePoint",
+      "integration_role": "source",
+      "domain_id": "legal",
+      "status": "active",
+      "project_id": "org:anchor:legal"
+    },
+    {
+      "id": "147c7e7d-7120-517a-9e3e-8f62d92ce7ea",
+      "name": "Beck-online",
+      "integration_role": "source",
+      "domain_id": "legal",
+      "status": "active",
+      "project_id": "org:anchor:legal"
+    },
+    {
+      "id": "0d604443-b626-5259-9e9a-4e3fe76ad6b8",
+      "name": "OCR redaction LLM",
+      "integration_role": "tool",
+      "domain_id": "legal",
+      "status": "active",
+      "project_id": "org:anchor:legal"
+    },
+    {
+      "id": "be768950-5ebc-5e73-a81d-684854497bff",
+      "name": "Contracts/matter index",
+      "integration_role": "destination",
+      "domain_id": "legal",
+      "status": "active",
+      "project_id": "org:anchor:legal"
+    },
+    {
+      "id": "a396b15f-d53e-5e78-9ae2-38e97a0db9db",
+      "name": "Pohoda",
+      "integration_role": "source",
+      "domain_id": "tax",
+      "status": "active",
+      "project_id": "org:anchor:tax"
+    },
+    {
+      "id": "a96d3a9f-20bc-5c5d-af47-58e367de01d0",
+      "name": "EPO",
+      "integration_role": "source",
+      "domain_id": "tax",
+      "status": "active",
+      "project_id": "org:anchor:tax"
+    },
+    {
+      "id": "54bafec6-ce28-5b8c-8f53-844e3d742500",
+      "name": "Datová schránka",
+      "integration_role": "source",
+      "domain_id": "tax",
+      "status": "active",
+      "project_id": "org:anchor:tax"
+    },
+    {
+      "id": "2fa826a0-6719-520a-bb46-2a61c9a4a294",
+      "name": "Tax calc validators",
+      "integration_role": "tool",
+      "domain_id": "tax",
+      "status": "active",
+      "project_id": "org:anchor:tax"
+    },
+    {
+      "id": "1581892a-cef6-5d86-8dbc-4afee79a4efb",
+      "name": "Filing status export",
+      "integration_role": "destination",
+      "domain_id": "tax",
+      "status": "active",
+      "project_id": "org:anchor:tax"
+    },
+    {
+      "id": "a38440d7-ad50-50d5-8b35-e44b5d6aa0d6",
+      "name": "SAP SuccessFactors",
+      "integration_role": "source",
+      "domain_id": "hr",
+      "status": "active",
+      "project_id": "org:anchor:hr"
+    },
+    {
+      "id": "6217ffa5-671c-50dd-9ff3-0116f2f7f805",
+      "name": "Recruitee",
+      "integration_role": "source",
+      "domain_id": "hr",
+      "status": "active",
+      "project_id": "org:anchor:hr"
+    },
+    {
+      "id": "84554556-34d4-5b4d-8d95-e3723b5ff563",
+      "name": "SharePoint HR",
+      "integration_role": "source",
+      "domain_id": "hr",
+      "status": "active",
+      "project_id": "org:anchor:hr"
+    },
+    {
+      "id": "bfc98ec0-621e-5f70-8e88-3505eb3f26f3",
+      "name": "LLM HR assistant",
+      "integration_role": "tool",
+      "domain_id": "hr",
+      "status": "active",
+      "project_id": "org:anchor:hr"
+    },
+    {
+      "id": "97c19458-f227-5a25-a703-4d1dd4f12c9d",
+      "name": "HR SOP answers dataset",
+      "integration_role": "destination",
+      "domain_id": "hr",
+      "status": "active",
+      "project_id": "org:anchor:hr"
+    }
+  ]
+}

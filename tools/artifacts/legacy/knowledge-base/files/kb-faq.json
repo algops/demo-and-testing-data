@@ -1,0 +1,12 @@
+{
+  "id": "kb-faq",
+  "title": "Frequently asked questions",
+  "versions": [
+    {
+      "id": "v1",
+      "label": "Published",
+      "createdAt": "2025-01-10T09:00:00.000Z",
+      "content": "# FAQ\n\n**What is AlgOps?**  \nAlgOps is a platform for connecting data sources, workflows, and AI agents.\n\n**How do I add a chat agent?**  \nGo to **Chat agents**, create an agent, then grant access to knowledge base folders and integrations.\n\n**Where is demo data stored?**  \nIn the `demo-and-testing-data` git submodule under `data/` in the UI repository.\n"
+    }
+  ]
+}

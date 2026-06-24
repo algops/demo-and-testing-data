@@ -1,0 +1,148 @@
+{
+  "object_type_id": "88271698-8fed-5e98-8abc-fa33268f4a8c",
+  "object_type_name": "standard",
+  "created_at": "2025-06-01T12:00:00Z",
+  "updated_at": "2025-06-01T12:00:00Z",
+  "data": [
+    {
+      "standard": "ESRS E1 – Climate Change",
+      "id": "8c02bf01-6a54-53bf-ad7a-7d6414b654ba",
+      "domain_id": "esg",
+      "data": {
+        "name": "ESRS E1 – Climate Change",
+        "code": "STAN-001",
+        "issuing_body": "GRI",
+        "version": "v1.1",
+        "category": "S",
+        "mandatory": false,
+        "adoption_status": "archived"
+      }
+    },
+    {
+      "standard": "ESRS S1 – Own Workforce",
+      "id": "21b856db-7f0b-5e2c-b4fb-6ae9e05bd71d",
+      "domain_id": "esg",
+      "data": {
+        "name": "ESRS S1 – Own Workforce",
+        "code": "STAN-002",
+        "issuing_body": "GRI",
+        "version": "v1.7",
+        "category": "G",
+        "mandatory": true,
+        "adoption_status": "expired"
+      }
+    },
+    {
+      "standard": "ESRS G1 – Business Conduct",
+      "id": "e81a873a-3909-562d-b557-2cfa9067c16a",
+      "domain_id": "esg",
+      "data": {
+        "name": "ESRS G1 – Business Conduct",
+        "code": "STAN-003",
+        "issuing_body": "EU Commission",
+        "version": "v3.7",
+        "category": "G",
+        "mandatory": true,
+        "adoption_status": "active"
+      }
+    },
+    {
+      "standard": "GRI 305 – Emissions",
+      "id": "0232883a-9be6-57bc-91e4-ef1f9f3f3812",
+      "domain_id": "esg",
+      "data": {
+        "name": "GRI 305 – Emissions",
+        "code": "STAN-004",
+        "issuing_body": "ISO",
+        "version": "v4.6",
+        "category": "G",
+        "mandatory": true,
+        "adoption_status": "under_review"
+      }
+    },
+    {
+      "standard": "TCFD Recommendations",
+      "id": "14cbd190-0a02-55e4-9428-5eaa7b1a95f2",
+      "domain_id": "esg",
+      "data": {
+        "name": "TCFD Recommendations",
+        "code": "STAN-005",
+        "issuing_body": "ISO",
+        "version": "v1.1",
+        "category": "S",
+        "mandatory": true,
+        "adoption_status": "active"
+      }
+    },
+    {
+      "standard": "ESRS E1 – Climate Change #6",
+      "id": "3b3410cd-cc24-5e4f-8a60-72a4c540c0d1",
+      "domain_id": "esg",
+      "data": {
+        "name": "ESRS E1 – Climate Change #6",
+        "code": "STAN-006",
+        "issuing_body": "ČNB",
+        "version": "v3.9",
+        "category": "G",
+        "mandatory": false,
+        "adoption_status": "under_review"
+      }
+    },
+    {
+      "standard": "ESRS S1 – Own Workforce",
+      "id": "a62785c0-0692-5381-a7e3-59daf23e9741",
+      "domain_id": "esg",
+      "data": {
+        "name": "ESRS S1 – Own Workforce",
+        "code": "STAN-007",
+        "issuing_body": "GRI",
+        "version": "v3.7",
+        "category": "G",
+        "mandatory": false,
+        "adoption_status": "active"
+      }
+    },
+    {
+      "standard": "ESRS G1 – Business Conduct (Brno)",
+      "id": "3a1acb47-8df1-5883-855e-f47046cd2845",
+      "domain_id": "esg",
+      "data": {
+        "name": "ESRS G1 – Business Conduct (Brno)",
+        "code": "STAN-008",
+        "issuing_body": "EU Commission",
+        "version": "v2.6",
+        "category": "S",
+        "mandatory": true,
+        "adoption_status": "under_review"
+      }
+    },
+    {
+      "standard": "GRI 305 – Emissions (FY2024)",
+      "id": "50cf5d1f-1398-5951-a2d0-3b736f606db4",
+      "domain_id": "esg",
+      "data": {
+        "name": "GRI 305 – Emissions (FY2024)",
+        "code": "STAN-009",
+        "issuing_body": "MF ČR",
+        "version": "v4.6",
+        "category": "S",
+        "mandatory": true,
+        "adoption_status": "archived"
+      }
+    },
+    {
+      "standard": "TCFD Recommendations v2",
+      "id": "71c25196-0504-5072-9e23-0de34ff620f0",
+      "domain_id": "esg",
+      "data": {
+        "name": "TCFD Recommendations v2",
+        "code": "STAN-010",
+        "issuing_body": "ISO",
+        "version": "v3.4",
+        "category": "S",
+        "mandatory": true,
+        "adoption_status": "under_review"
+      }
+    }
+  ]
+}
