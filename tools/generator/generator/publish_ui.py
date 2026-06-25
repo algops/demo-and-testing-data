@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from .agent_specs import DOMAIN_AGENTS, build_agent_kb_grants, get_agent_slug
+from .overview_relationships import publish_overview_relationships_per_project
 from .util import CANONICAL_ROOT, DOMAINS, NOW, project_id_for_domain, slugify
 
 ANCHOR_ORG_NAME = "Meridian Pay a.s."
@@ -841,7 +842,6 @@ def publish_chat_agents(source: Path, target: Path, dry_run: bool) -> None:
 
 def copy_canonical(source: Path, target: Path, dry_run: bool) -> None:
     names = [
-        "relationships.json",
         "objects.json",
         "values.json",
         "generation_manifest.json",
@@ -885,11 +885,13 @@ def publish(target: Path, dry_run: bool = False, legacy: bool = False) -> dict[s
         publish_sources(source, target, dry_run)
         publish_chat_agents(source, target, dry_run)
     copy_canonical(source, target, dry_run)
+    rel_counts = publish_overview_relationships_per_project(source, target, dry_run)
     stats = {
         "object_types": len(object_types),
         "workflows": len(load_json(source / "workflows.json")["workflows"]),
         "activities": len(load_json(source / "activities.json")["activities"]),
         "knowledge_docs": len(load_json(source / "knowledge-docs.json")["knowledge_docs"]),
+        "overview_relationships": rel_counts,
     }
     print(f"Published: {stats}")
     return stats

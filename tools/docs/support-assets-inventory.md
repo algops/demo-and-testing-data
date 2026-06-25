@@ -7,7 +7,7 @@ This inventory tracks files and folders in `demo-and-testing-data` that are not 
 | Path | Purpose |
 | --- | --- |
 | `projects.json` | Project list (`{ "projects": [...], "user": {...} }`) |
-| `overview/relationships.json` | Overview relationships graph (`metadata.project_id` per domain) |
+| `overview/relationships/{projectId}.json` | Per-project overview relationships graph (self-contained, pre-filtered) |
 | `knowledge-base/tree.json` | Knowledge base folder tree (`fileId` = `knowledge-files/{fileId}.md` stem) |
 | `knowledge-base/knowledge-files/{fileId}.md` | Knowledge base markdown files |
 | `data-warehouse/datasets.json` | Dataset catalog |

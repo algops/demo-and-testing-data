@@ -11,10 +11,9 @@ from pathlib import Path
 from typing import Any
 
 from .agent_specs import DOMAIN_AGENTS, build_agent_kb_grants, get_agent_slug
+from .overview_relationships import publish_overview_relationships_per_project
 from .publish_ui import _default_source_setup, _resolve_object_type_ids
-from .util import CANONICAL_ROOT, DOMAINS, REPO_ROOT, slugify
-
-DOMAIN_TO_PROJECT = {d: f"org:anchor:{d}" for d in DOMAINS}
+from .util import CANONICAL_ROOT, DOMAINS, REPO_ROOT, project_id_for_domain, slugify
 
 
 def load_json(path: Path) -> Any:
@@ -253,7 +252,7 @@ def publish_integrations_runtime(
             "integration_role": integration.get("integration_role", "source"),
             "domain_id": domain,
             "status": integration.get("status", "active"),
-            "project_id": DOMAIN_TO_PROJECT.get(domain, ""),
+            "project_id": project_id_for_domain(domain) or "",
         }
         detail = {
             **list_entry,
@@ -268,27 +267,10 @@ def publish_integrations_runtime(
 def publish_relationships_runtime(
     source: Path, target: Path, domains: tuple[str, ...], dry_run: bool
 ) -> int:
-    rel_path = target / "overview" / "relationships.json"
-    if not rel_path.is_file():
-        return 0
-    existing = load_json(rel_path).get("relationships", [])
-    fresh = load_json(source / "relationships.json")["relationships"]
-
-    def is_domain_edge(rel: dict) -> bool:
-        meta = rel.get("metadata") or {}
-        return meta.get("domain_id") in domains
-
-    kept = [r for r in existing if not is_domain_edge(r)]
-    new_edges = []
-    for rel in fresh:
-        meta = dict(rel.get("metadata") or {})
-        domain = meta.get("domain_id")
-        if domain in domains:
-            meta["project_id"] = DOMAIN_TO_PROJECT[domain]
-            new_edges.append({**rel, "metadata": meta})
-    merged = kept + new_edges
-    write_json(rel_path, {"relationships": merged}, dry_run)
-    return len(new_edges)
+    counts = publish_overview_relationships_per_project(
+        source, target, dry_run=dry_run, domain_filter=domains
+    )
+    return sum(counts.values())
 
 
 def publish(target: Path, domains: tuple[str, ...], dry_run: bool = False) -> dict[str, int]:

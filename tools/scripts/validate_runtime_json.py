@@ -19,7 +19,7 @@ INTEGRATIONS_LIST_PATH = ROOT / "integrations" / "integrations.json"
 INTEGRATIONS_DIR = ROOT / "integrations" / "integrations"
 KB_TREE_PATH = ROOT / "knowledge-base" / "tree.json"
 KB_FILES_DIR = ROOT / "knowledge-base" / "knowledge-files"
-RELATIONSHIPS_PATH = ROOT / "overview" / "relationships.json"
+RELATIONSHIPS_DIR = ROOT / "overview" / "relationships"
 
 PROJECT_FORBIDDEN = {"org_id", "parent_org_name"}
 AGENT_LIST_FORBIDDEN = {"primary_use_case_cs", "org_id", "slug", "created_at", "updated_at"}
@@ -127,13 +127,23 @@ def validate_phase2_optional() -> None:
             if not md_path.exists():
                 fail(f"KB fileId {file_id} has no markdown at {md_path}")
 
-    if RELATIONSHIPS_PATH.exists():
-        rels = load_json(RELATIONSHIPS_PATH).get("relationships", [])
-        with_project = sum(
-            1 for r in rels if (r.get("metadata") or {}).get("project_id")
-        )
-        if rels and with_project == 0:
-            fail("relationships.json has no metadata.project_id annotations")
+    if RELATIONSHIPS_DIR.exists():
+        project_files = sorted(RELATIONSHIPS_DIR.glob("*.json"))
+        if not project_files:
+            fail("overview/relationships/ has no per-project JSON files")
+        for path in project_files:
+            rels = load_json(path).get("relationships", [])
+            with_project = sum(
+                1 for r in rels if (r.get("metadata") or {}).get("project_id")
+            )
+            domain_edges = sum(
+                1
+                for r in rels
+                if r.get("relationship_kind") == "related_to"
+                and (r.get("metadata") or {}).get("domain_edge")
+            )
+            if rels and domain_edges > 0 and with_project == 0:
+                fail(f"{path.name} has domain edges but no metadata.project_id annotations")
 
     if INTEGRATIONS_LIST_PATH.exists() and INTEGRATIONS_DIR.exists():
         ids = {i["id"] for i in load_json(INTEGRATIONS_LIST_PATH).get("integrations", [])}
