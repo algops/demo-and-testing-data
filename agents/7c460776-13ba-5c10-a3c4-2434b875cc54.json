@@ -25,7 +25,7 @@
         "label": "#agents-it"
       }
     },
-    "knowledge_base_access": {
+    "knowledge_access": {
       "grants": [
         {
           "treePath": "/knowledgebase/it/agents/pm-tech-comms-assistant",
@@ -46,8 +46,8 @@
       "skillsPath": "/knowledgebase/it/agents/pm-tech-comms-assistant",
       "skillFilePaths": []
     },
-    "data_warehouse_access": {
-      "objectTypeIds": [
+    "datasets_access": {
+      "datasetIds": [
         "1f3a262e-7754-5a68-b65b-0b4cb5d90d98",
         "447b4c76-0f0a-5e86-8737-c62a5a1e0fdf"
       ]

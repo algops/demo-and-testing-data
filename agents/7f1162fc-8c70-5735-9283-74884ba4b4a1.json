@@ -25,7 +25,7 @@
         "label": "#agents-it"
       }
     },
-    "knowledge_base_access": {
+    "knowledge_access": {
       "grants": [
         {
           "treePath": "/knowledgebase/it/agents/agentic-engineering-kb-builder",
@@ -46,8 +46,8 @@
       "skillsPath": "/knowledgebase/it/agents/agentic-engineering-kb-builder",
       "skillFilePaths": []
     },
-    "data_warehouse_access": {
-      "objectTypeIds": [
+    "datasets_access": {
+      "datasetIds": [
         "1f3a262e-7754-5a68-b65b-0b4cb5d90d98",
         "508f90cb-9a2a-5bde-854e-b31c23c93ca1"
       ]

@@ -25,7 +25,7 @@
         "label": "#agents-tax"
       }
     },
-    "knowledge_base_access": {
+    "knowledge_access": {
       "grants": [
         {
           "treePath": "/knowledgebase/tax/agents/dph-sazba-change-explainer",
@@ -46,8 +46,8 @@
       "skillsPath": "/knowledgebase/tax/agents/dph-sazba-change-explainer",
       "skillFilePaths": []
     },
-    "data_warehouse_access": {
-      "objectTypeIds": [
+    "datasets_access": {
+      "datasetIds": [
         "243114ba-848e-580e-b52d-f1a9fc50df5e",
         "de28b2b3-f8fc-5f54-9f8c-0c9e52b164f1"
       ]

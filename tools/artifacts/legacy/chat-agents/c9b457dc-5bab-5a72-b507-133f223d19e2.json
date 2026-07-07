@@ -21,7 +21,7 @@
         "label": "#agents-esg"
       }
     },
-    "knowledge_base_access": {
+    "knowledge_access": {
       "grants": [
         {
           "treePath": "/knowledgebase/esg/agents/csrd-gap-disclosure-copilot",
@@ -42,8 +42,8 @@
       "skillsPath": "/knowledgebase/esg/agents/csrd-gap-disclosure-copilot",
       "skillFilePaths": []
     },
-    "data_warehouse_access": {
-      "objectTypeIds": [
+    "datasets_access": {
+      "datasetIds": [
         "6588f65a-32f2-56b3-87d0-2217a6733a79",
         "71284220-29c0-51a7-aaf1-63c9726a5caf"
       ]

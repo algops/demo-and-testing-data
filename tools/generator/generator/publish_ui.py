@@ -427,9 +427,9 @@ def publish_knowledge_base(source: Path, target: Path, dry_run: bool) -> None:
     for root in roots:
         tree.append(_build_folder_node(root, folders, docs, doc_file_ids, doc_domains))
 
-    write_json(target / "knowledge-base" / "tree.json", {"tree": tree}, dry_run)
+    write_json(target / "knowledge" / "tree.json", {"tree": tree}, dry_run)
 
-    files_dir = target / "knowledge-base" / "files"
+    files_dir = target / "knowledge" / "files"
     if not dry_run:
         files_dir.mkdir(parents=True, exist_ok=True)
 
@@ -689,12 +689,12 @@ def publish_agents(source: Path, target: Path, dry_run: bool) -> None:
                         "label": f"#agents-{domain}",
                     },
                 },
-                "knowledge_base_access": {
+                "knowledge_access": {
                     "grants": kb_grants,
                     "skillsPath": skills_path,
                     "skillFilePaths": [],
                 },
-                "data_warehouse_access": {"objectTypeIds": object_type_ids},
+                "datasets_access": {"datasetIds": object_type_ids},
                 "realtime_data_access": {
                     "grants": [
                         {
@@ -745,10 +745,10 @@ def publish_chat_agents(source: Path, target: Path, dry_run: bool) -> None:
     agents = load_json(source / "agents.json")["agents"]
     integrations = load_json(source / "integrations.json")["integrations"]
     object_types = load_json(source / "object-types.json")["object_types"]
-    agents_dir = target / "chat-agents"
+    agents_dir = target / "agents"
     if not dry_run and agents_dir.exists():
         for old in agents_dir.glob("*.json"):
-            if old.name != "chat-agents.json":
+            if old.name != "agents.json":
                 old.unlink()
 
     tools_by_domain: dict[str, list[str]] = {}
@@ -796,12 +796,12 @@ def publish_chat_agents(source: Path, target: Path, dry_run: bool) -> None:
                         "label": f"#agents-{domain}",
                     },
                 },
-                "knowledge_base_access": {
+                "knowledge_access": {
                     "grants": kb_grants,
                     "skillsPath": skills_path,
                     "skillFilePaths": [],
                 },
-                "data_warehouse_access": {"objectTypeIds": object_type_ids},
+                "datasets_access": {"datasetIds": object_type_ids},
                 "realtime_data_access": {
                     "grants": [
                         {
@@ -837,7 +837,7 @@ def publish_chat_agents(source: Path, target: Path, dry_run: bool) -> None:
             }
         )
 
-    write_json(agents_dir / "chat-agents.json", {"chat_agents": list_items}, dry_run)
+    write_json(agents_dir / "agents.json", {"chat_agents": list_items}, dry_run)
 
 
 def copy_canonical(source: Path, target: Path, dry_run: bool) -> None:
@@ -901,7 +901,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Publish demo data to UI layout")
     parser.add_argument("--target", required=True, help="Path to ui/data directory")
     parser.add_argument("--dry-run", action="store_true")
-    parser.add_argument("--legacy", action="store_true", help="Also emit sources/ and chat-agents/")
+    parser.add_argument("--legacy", action="store_true", help="Also emit sources/ and agents/")
     args = parser.parse_args()
     target = Path(args.target).resolve()
     if not target.is_dir():

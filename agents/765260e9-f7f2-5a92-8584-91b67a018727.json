@@ -25,7 +25,7 @@
         "label": "#agents-esg"
       }
     },
-    "knowledge_base_access": {
+    "knowledge_access": {
       "grants": [
         {
           "treePath": "/knowledgebase/esg/agents/taxonomy-alignment-explainer",
@@ -46,8 +46,8 @@
       "skillsPath": "/knowledgebase/esg/agents/taxonomy-alignment-explainer",
       "skillFilePaths": []
     },
-    "data_warehouse_access": {
-      "objectTypeIds": [
+    "datasets_access": {
+      "datasetIds": [
         "864abc18-5c4f-5fb6-b5ab-9739c533e3a7",
         "6588f65a-32f2-56b3-87d0-2217a6733a79"
       ]

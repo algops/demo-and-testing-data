@@ -25,7 +25,7 @@
         "label": "#agents-legal"
       }
     },
-    "knowledge_base_access": {
+    "knowledge_access": {
       "grants": [
         {
           "treePath": "/knowledgebase/legal/agents/conflict-check-helper",
@@ -46,8 +46,8 @@
       "skillsPath": "/knowledgebase/legal/agents/conflict-check-helper",
       "skillFilePaths": []
     },
-    "data_warehouse_access": {
-      "objectTypeIds": [
+    "datasets_access": {
+      "datasetIds": [
         "d06f9b88-53fd-5841-a24c-1813c6a81f2b",
         "5d7f1f0e-e07c-5a9d-867a-ffc6239d168d"
       ]

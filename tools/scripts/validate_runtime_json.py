@@ -11,14 +11,14 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 
 PROJECTS_PATH = ROOT / "projects.json"
-AGENTS_LIST_PATH = ROOT / "chat-agents" / "agents.json"
-AGENTS_DIR = ROOT / "chat-agents" / "agents"
-DATASETS_CATALOG_PATH = ROOT / "data-warehouse" / "datasets.json"
-DATASETS_DIR = ROOT / "data-warehouse" / "datasets"
+AGENTS_LIST_PATH = ROOT / "agents" / "agents.json"
+AGENTS_DIR = ROOT / "agents" / "agents"
+DATASETS_CATALOG_PATH = ROOT / "datasets" / "datasets.json"
+DATASETS_DIR = ROOT / "datasets" / "datasets"
 INTEGRATIONS_LIST_PATH = ROOT / "integrations" / "integrations.json"
 INTEGRATIONS_DIR = ROOT / "integrations" / "integrations"
-KB_TREE_PATH = ROOT / "knowledge-base" / "tree.json"
-KB_FILES_DIR = ROOT / "knowledge-base" / "knowledge-files"
+KB_TREE_PATH = ROOT / "knowledge" / "tree.json"
+KB_FILES_DIR = ROOT / "knowledge" / "knowledge-files"
 RELATIONSHIPS_DIR = ROOT / "overview" / "relationships"
 
 PROJECT_FORBIDDEN = {"org_id", "parent_org_name"}
@@ -75,7 +75,7 @@ def validate_phase1() -> None:
     agents = load_json(AGENTS_LIST_PATH).get("agents", [])
     if len(agents) != EXPECTED_COUNTS["agents"]:
         fail(f"expected {EXPECTED_COUNTS['agents']} agents, got {len(agents)}")
-    check_forbidden_keys(agents, AGENT_LIST_FORBIDDEN, "chat-agents/agents.json")
+    check_forbidden_keys(agents, AGENT_LIST_FORBIDDEN, "agents/agents.json")
     for agent in agents:
         if "project_id" not in agent:
             fail(f"agent missing project_id: {agent.get('id')}")
@@ -94,7 +94,7 @@ def validate_phase1() -> None:
     datasets = load_json(DATASETS_CATALOG_PATH).get("datasets", [])
     if len(datasets) != EXPECTED_COUNTS["datasets"]:
         fail(f"expected {EXPECTED_COUNTS['datasets']} datasets, got {len(datasets)}")
-    check_forbidden_keys(datasets, DATASET_CATALOG_FORBIDDEN, "data-warehouse/datasets.json")
+    check_forbidden_keys(datasets, DATASET_CATALOG_FORBIDDEN, "datasets/datasets.json")
     for entry in datasets:
         for key in ("id", "name", "project_id", "domain", "object_type_id", "row_count"):
             if key not in entry:

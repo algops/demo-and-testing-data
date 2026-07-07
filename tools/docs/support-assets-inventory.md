@@ -11,7 +11,7 @@ This inventory tracks files and folders in `demo-and-testing-data` that are not 
 | `knowledge-base/tree.json` | Knowledge base folder tree (`fileId` = `knowledge-files/{fileId}.md` stem) |
 | `knowledge-base/knowledge-files/{fileId}.md` | Knowledge base markdown files |
 | `data-warehouse/datasets.json` | Dataset catalog |
-| `data-warehouse/datasets/{objectTypeId}.json` | Dataset rows (`{ "data": [...] }` only) |
+| `data-warehouse/datasets/{datasetId}.json` | Dataset rows (`{ "data": [...] }` only) |
 | `chat-agents/agents.json` | Agents list (`{ "agents": [...] }`) |
 | `chat-agents/agents/{id}.json` | Agent detail (`id`, `name`, `description`, `status`, `setup`) |
 | `integrations/integrations.json` | Integrations list (`{ "integrations": [...] }`) |
@@ -51,13 +51,13 @@ These were used during demo data generation or older UI contracts and are archiv
 | `activities/` | support-only | Legacy activity detail payloads | `tools/artifacts/legacy/activities/` |
 | `activities.json` | support-only | Legacy activity list | `tools/artifacts/legacy/activities.json` |
 | `agents.json` | support-only | Canonical agent list used to build runtime contract | `tools/artifacts/legacy/agents.json` |
-| `chat-agents/` (flat layout) | support-only | Legacy chat agent detail files and `chat-agents.json` | `tools/artifacts/legacy/chat-agents/` |
+| `chat-agents/` (flat layout) | support-only | Legacy chat agent detail files and `chat-agents.json` | `tools/artifacts/legacy/agents/` |
 | `dashboard-full.json` | support-only | Legacy dashboard payload | `tools/artifacts/legacy/dashboard-full.json` |
 | `datapoints.json` | support-only | Canonical datapoint graph input | `tools/artifacts/legacy/datapoints.json` |
 | `datasets/` | support-only | Legacy dataset detail and domain catalogs | `tools/artifacts/legacy/datasets/` |
 | `factors.json` | support-only | Legacy factor definitions | `tools/artifacts/legacy/factors.json` |
 | `integrations.json` | support-only | Canonical integration list used to build runtime contract | `tools/artifacts/legacy/integrations.json` |
-| `knowledge-base/files/` | support-only | Legacy knowledge file JSON stubs | `tools/artifacts/legacy/knowledge-base/` |
+| `knowledge-base/files/` | support-only | Legacy knowledge file JSON stubs | `tools/artifacts/legacy/knowledge/` |
 | `knowledge-content/` | support-only | Source markdown tree used to generate knowledge files | `tools/artifacts/legacy/knowledge-content/` |
 | `knowledge-docs.json` | support-only | Knowledge doc index used during generation | `tools/artifacts/legacy/knowledge-docs.json` |
 | `knowledge-folders.json` | support-only | Knowledge folder index used during generation | `tools/artifacts/legacy/knowledge-folders.json` |

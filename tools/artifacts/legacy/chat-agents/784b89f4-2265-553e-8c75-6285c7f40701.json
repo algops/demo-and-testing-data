@@ -21,7 +21,7 @@
         "label": "#agents-esg"
       }
     },
-    "knowledge_base_access": {
+    "knowledge_access": {
       "grants": [
         {
           "treePath": "/knowledgebase/esg/agents/supplier-risk-assistant",
@@ -42,8 +42,8 @@
       "skillsPath": "/knowledgebase/esg/agents/supplier-risk-assistant",
       "skillFilePaths": []
     },
-    "data_warehouse_access": {
-      "objectTypeIds": [
+    "datasets_access": {
+      "datasetIds": [
         "112a40a6-70bc-50da-ae85-7c519c1dc880",
         "fd5d26b2-b165-5aee-8eb9-d1278f0113de"
       ]

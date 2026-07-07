@@ -21,7 +21,7 @@
         "label": "#agents-hr"
       }
     },
-    "knowledge_base_access": {
+    "knowledge_access": {
       "grants": [
         {
           "treePath": "/knowledgebase/hr/agents/sop-policy-copilot",
@@ -42,8 +42,8 @@
       "skillsPath": "/knowledgebase/hr/agents/sop-policy-copilot",
       "skillFilePaths": []
     },
-    "data_warehouse_access": {
-      "objectTypeIds": [
+    "datasets_access": {
+      "datasetIds": [
         "ece632b2-e12c-5fd8-a032-a1081e564eab",
         "0b5deecc-1b51-5ae2-8486-bcdea6a34078"
       ]

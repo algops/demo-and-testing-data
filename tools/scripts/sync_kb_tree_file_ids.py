@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Set knowledge-base/tree.json fileId to match existing knowledge-files/*.md stems."""
+"""Set knowledge/tree.json fileId to match existing knowledge-files/*.md stems."""
 
 from __future__ import annotations
 
@@ -9,8 +9,8 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
-TREE_PATH = ROOT / "knowledge-base" / "tree.json"
-KB_FILES_DIR = ROOT / "knowledge-base" / "knowledge-files"
+TREE_PATH = ROOT / "knowledge" / "tree.json"
+KB_FILES_DIR = ROOT / "knowledge" / "knowledge-files"
 
 
 def load_json(path: Path) -> Any:

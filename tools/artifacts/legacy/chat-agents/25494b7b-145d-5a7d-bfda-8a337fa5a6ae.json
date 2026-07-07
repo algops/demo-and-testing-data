@@ -21,7 +21,7 @@
         "label": "#agents-esg"
       }
     },
-    "knowledge_base_access": {
+    "knowledge_access": {
       "grants": [
         {
           "treePath": "/knowledgebase/esg/agents/audit-finding-remediation-guide",
@@ -42,8 +42,8 @@
       "skillsPath": "/knowledgebase/esg/agents/audit-finding-remediation-guide",
       "skillFilePaths": []
     },
-    "data_warehouse_access": {
-      "objectTypeIds": [
+    "datasets_access": {
+      "datasetIds": [
         "b5d0dc83-8966-56f2-8774-f1674242e518",
         "6588f65a-32f2-56b3-87d0-2217a6733a79"
       ]

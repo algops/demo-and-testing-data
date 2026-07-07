@@ -43,7 +43,7 @@ def _domain_filter(items: list[dict], domains: tuple[str, ...], key: str = "doma
 def publish_kb_files(source: Path, target: Path, domains: tuple[str, ...], dry_run: bool) -> int:
     docs = load_json(source / "knowledge-docs.json")["knowledge_docs"]
     kb_root = source / "knowledge-content"
-    files_dir = target / "knowledge-base" / "knowledge-files"
+    files_dir = target / "knowledge" / "knowledge-files"
     count = 0
     for doc in docs:
         if doc.get("domain_id") not in domains:
@@ -75,7 +75,7 @@ def _patch_tree_titles(nodes: list[dict], title_by_file_id: dict[str, str]) -> N
 
 
 def publish_kb_tree(source: Path, target: Path, domains: tuple[str, ...], dry_run: bool) -> None:
-    tree_path = target / "knowledge-base" / "tree.json"
+    tree_path = target / "knowledge" / "tree.json"
     if not tree_path.is_file():
         return
     payload = load_json(tree_path)
@@ -102,7 +102,7 @@ def publish_datasets_runtime(
     datapoints = load_json(source / "datapoints.json")["datapoints"]
     object_types = load_json(source / "object-types.json")["object_types"]
 
-    catalog_path = target / "data-warehouse" / "datasets.json"
+    catalog_path = target / "datasets" / "datasets.json"
     catalog = load_json(catalog_path).get("datasets", [])
     domain_catalog = [e for e in catalog if e.get("domain") in domains]
 
@@ -139,7 +139,7 @@ def publish_datasets_runtime(
             )
         if not rows:
             continue
-        write_json(target / "data-warehouse" / "datasets" / f"{oid}.json", {"data": rows}, dry_run)
+        write_json(target / "datasets" / f"{oid}.json", {"data": rows}, dry_run)
         count += 1
     return count
 
@@ -148,7 +148,7 @@ def publish_agents_runtime(source: Path, target: Path, domains: tuple[str, ...],
     agents = load_json(source / "agents.json")["agents"]
     integrations = load_json(source / "integrations.json")["integrations"]
     object_types = load_json(source / "object-types.json")["object_types"]
-    list_path = target / "chat-agents" / "agents.json"
+    list_path = target / "agents.json"
     list_payload = load_json(list_path)
     list_by_id = {a["id"]: a for a in list_payload.get("agents", [])}
 
@@ -196,12 +196,12 @@ def publish_agents_runtime(source: Path, target: Path, domains: tuple[str, ...],
                         "label": f"#agents-{domain}",
                     },
                 },
-                "knowledge_base_access": {
+                "knowledge_access": {
                     "grants": kb_grants,
                     "skillsPath": f"/knowledgebase/{domain}/agents/{agent_slug}",
                     "skillFilePaths": [],
                 },
-                "data_warehouse_access": {"objectTypeIds": object_type_ids},
+                "datasets_access": {"datasetIds": object_type_ids},
                 "realtime_data_access": {
                     "grants": [
                         {"sourceId": sid, "label": "Realtime feed", "streamKey": "events"}
@@ -222,7 +222,7 @@ def publish_agents_runtime(source: Path, target: Path, domains: tuple[str, ...],
                 },
             },
         }
-        write_json(target / "chat-agents" / "agents" / f"{file_id}.json", detail, dry_run)
+        write_json(target / "agents" / f"{file_id}.json", detail, dry_run)
         if file_id in list_by_id:
             list_by_id[file_id]["description"] = detail["description"]
             list_by_id[file_id]["status"] = detail["status"]

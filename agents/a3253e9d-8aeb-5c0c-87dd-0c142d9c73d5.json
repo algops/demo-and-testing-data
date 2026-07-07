@@ -25,7 +25,7 @@
         "label": "#agents-it"
       }
     },
-    "knowledge_base_access": {
+    "knowledge_access": {
       "grants": [
         {
           "treePath": "/knowledgebase/it/agents/automated-code-review-copilot",
@@ -46,8 +46,8 @@
       "skillsPath": "/knowledgebase/it/agents/automated-code-review-copilot",
       "skillFilePaths": []
     },
-    "data_warehouse_access": {
-      "objectTypeIds": [
+    "datasets_access": {
+      "datasetIds": [
         "1f3a262e-7754-5a68-b65b-0b4cb5d90d98",
         "74f6332a-0372-5c5c-8795-1c1b3f028960"
       ]

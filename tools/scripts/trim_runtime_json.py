@@ -10,10 +10,10 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[2]
 
 PROJECTS_PATH = ROOT / "projects.json"
-AGENTS_LIST_PATH = ROOT / "chat-agents" / "agents.json"
-AGENTS_DIR = ROOT / "chat-agents" / "agents"
-DATASETS_CATALOG_PATH = ROOT / "data-warehouse" / "datasets.json"
-DATASETS_DIR = ROOT / "data-warehouse" / "datasets"
+AGENTS_LIST_PATH = ROOT / "agents" / "agents.json"
+AGENTS_DIR = ROOT / "agents" / "agents"
+DATASETS_CATALOG_PATH = ROOT / "datasets" / "datasets.json"
+DATASETS_DIR = ROOT / "datasets" / "datasets"
 INTEGRATIONS_LIST_PATH = ROOT / "integrations" / "integrations.json"
 
 PROJECT_KEYS_TO_REMOVE = ("org_id", "parent_org_name")
@@ -114,10 +114,10 @@ def trim_integrations_list() -> int:
 def main() -> int:
     print(f"Trimming runtime JSON under {ROOT}")
     print(f"  projects.json: {trim_projects()} keys removed")
-    print(f"  chat-agents/agents.json: {trim_agents_list()} keys removed")
-    print(f"  chat-agents/agents/*.json: {trim_agent_details()} keys removed")
-    print(f"  data-warehouse/datasets.json: {trim_datasets_catalog()} keys removed")
-    print(f"  data-warehouse/datasets/*.json: {trim_dataset_rows()} files normalized")
+    print(f"  agents/agents.json: {trim_agents_list()} keys removed")
+    print(f"  agents/agents/*.json: {trim_agent_details()} keys removed")
+    print(f"  datasets/datasets.json: {trim_datasets_catalog()} keys removed")
+    print(f"  datasets/datasets/*.json: {trim_dataset_rows()} files normalized")
     print(f"  integrations/integrations.json: {trim_integrations_list()} keys removed")
     return 0
 

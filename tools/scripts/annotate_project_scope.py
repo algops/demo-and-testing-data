@@ -97,8 +97,8 @@ def derive_domain_from_rows(rows: list[dict[str, Any]]) -> str | None:
 
 
 def rebuild_datasets_catalog() -> tuple[int, list[str]]:
-    catalog_path = ROOT / "data-warehouse" / "datasets.json"
-    datasets_dir = ROOT / "data-warehouse" / "datasets"
+    catalog_path = ROOT / "datasets" / "datasets.json"
+    datasets_dir = ROOT / "datasets" / "datasets"
     current = load_json(catalog_path).get("datasets", [])
     legacy_by_object_type = load_legacy_dataset_by_object_type()
     object_type_domains = load_object_type_domains()
@@ -185,7 +185,7 @@ def annotate_tree_nodes(nodes: list[dict[str, Any]], domain_context: str | None 
 
 
 def annotate_knowledge_tree() -> tuple[int, int]:
-    tree_path = ROOT / "knowledge-base" / "tree.json"
+    tree_path = ROOT / "knowledge" / "tree.json"
     payload = load_json(tree_path)
     tree = payload.get("tree", [])
     annotate_tree_nodes(tree)
@@ -210,9 +210,9 @@ def annotate_knowledge_tree() -> tuple[int, int]:
 
 
 def validate() -> None:
-    agents = load_json(ROOT / "chat-agents" / "agents.json").get("agents", [])
+    agents = load_json(ROOT / "agents" / "agents.json").get("agents", [])
     integrations = load_json(ROOT / "integrations" / "integrations.json").get("integrations", [])
-    datasets = load_json(ROOT / "data-warehouse" / "datasets.json").get("datasets", [])
+    datasets = load_json(ROOT / "datasets" / "datasets.json").get("datasets", [])
 
     allowed = set(DOMAIN_TO_PROJECT.values())
     required_dataset_fields = {
@@ -253,7 +253,7 @@ def validate() -> None:
 
 
 def annotate_knowledge_tree_validation_only() -> tuple[int, int]:
-    payload = load_json(ROOT / "knowledge-base" / "tree.json")
+    payload = load_json(ROOT / "knowledge" / "tree.json")
     tree = payload.get("tree", [])
     file_nodes = 0
     missing_project = 0
@@ -276,7 +276,7 @@ def annotate_knowledge_tree_validation_only() -> tuple[int, int]:
 def main() -> int:
     validate_ui_projects()
 
-    agents_count = annotate_list_items(ROOT / "chat-agents" / "agents.json", "agents")
+    agents_count = annotate_list_items(ROOT / "agents" / "agents.json", "agents")
     integrations_count = annotate_list_items(
         ROOT / "integrations" / "integrations.json", "integrations"
     )
